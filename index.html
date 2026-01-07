@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Residual Mix Visualization</title>
+
+  <!-- MapLibre CSS -->
+  <link href="https://unpkg.com/maplibre-gl@3.5.2/dist/maplibre-gl.css" rel="stylesheet" />
+
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+
+    #topbar {
+      padding: 10px;
+      background: #f5f5f5;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    #filters select {
+      padding: 4px;
+      margin-left: 4px;
+    }
+
+    .view { display: none; padding: 20px; }
+    .view.active { display: block; }
+
+    #map-container {
+      width: 100%;
+      height: 650px;
+      border: 1px solid #aaa;
+    }
+    
+    .maplibregl-popup {
+        max-width: none !important;
+    }
+
+    .maplibregl-popup-content {
+        max-width: none !important;
+        width: auto !important;
+        min-width: 440px !important;   /* you can adjust */
+        padding: 0 !important;
+    }
+  </style>
+</head>
+<body>
+
+<div id="topbar">
+
+  <button data-nav="map">World Map</button>
+  <button data-nav="list">World List</button>
+
+  <div id="filters">
+    <select id="filter-year">
+      <option value="">Year (all)</option>
+    </select>
+
+    <select id="filter-methodology" multiple>
+    </select>
+
+    <select id="filter-region" multiple>
+      <option value="Europe">Europe</option>
+      <option value="Asia">Asia</option>
+    </select>
+
+    <select id="filter-country">
+      <option value="">Country (all)</option>
+    </select>
+  </div>
+</div>
+
+<!-- VIEW 1: WORLD MAP -->
+<div id="view-map" class="view">
+  <h2>World Map</h2>
+  <div id="map-container"></div>
+</div>
+
+<!-- VIEW 2: WORLD LIST -->
+<div id="view-list" class="view">
+  <h2>World List</h2>
+  <table border="1" cellpadding="4">
+    <thead>
+      <tr><th>Country</th><th>Year</th><th>Methodology</th></tr>
+    </thead>
+    <tbody id="list-table-body"></tbody>
+  </table>
+</div>
+
+<!-- VIEW 3: COUNTRY DETAIL -->
+<div id="view-country" class="view">
+  <h2>Country Detail: <span id="country-name"></span></h2>
+  <p id="country-message"></p>
+
+  <table border="1" cellpadding="4">
+    <thead>
+      <tr><th>Year</th><th>Methodology</th></tr>
+    </thead>
+    <tbody id="country-table-body"></tbody>
+  </table>
+
+  <br/>
+  <button id="next-country-btn">Next Country</button>
+</div>
+
+<!-- MapLibre JS (global maplibregl) -->
+<script src="https://unpkg.com/maplibre-gl@3.5.2/dist/maplibre-gl.js"></script>
+
+<!-- Your data & main logic -->
+<script src="data.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
