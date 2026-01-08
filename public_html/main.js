@@ -15,6 +15,15 @@ window.state = {
   }
 };
 
+// Globals for MultiSelect filter widgets
+window.filterControls = {
+  year: null,
+  methodology: null,
+  region: null,
+  country: null
+};
+
+
 const VIEWS = {
   map: document.getElementById("view-map"),
   list: document.getElementById("view-list"),
@@ -63,7 +72,7 @@ function buildFiltersFromData() {
     if (row.year != null) yearSet.add(row.year);
     if (row.energy_source) sourceSet.add(row.energy_source);
     if (row.country_code && row.country) {
-      const code = row.country_code.toString().toUpperCase();
+      const code = String(row.country_code).toUpperCase();
       if (!countryMap.has(code)) {
         countryMap.set(code, row.country);
       }
@@ -71,8 +80,8 @@ function buildFiltersFromData() {
   }
 
   // Years
-  if (yearEl) {
-    yearEl.options.length = 1; // keep "Year (all)"
+  if (yearEl && yearEl.tagName === "SELECT") {
+    yearEl.innerHTML = '<option value="">Year (all)</option>';
     Array.from(yearSet)
       .sort((a, b) => a - b)
       .forEach(year => {
@@ -83,8 +92,8 @@ function buildFiltersFromData() {
       });
   }
 
-  // Energy sources
-  if (methEl) {
+  // Methodologies / energy sources
+  if (methEl && methEl.tagName === "SELECT") {
     methEl.innerHTML = "";
     Array.from(sourceSet)
       .sort()
@@ -97,8 +106,8 @@ function buildFiltersFromData() {
   }
 
   // Countries
-  if (countryEl) {
-    countryEl.options.length = 1; // keep "Country (all)"
+  if (countryEl && countryEl.tagName === "SELECT") {
+    countryEl.innerHTML = '<option value="">Country (all)</option>';
     Array.from(countryMap.entries())
       .sort((a, b) => a[1].localeCompare(b[1]))
       .forEach(([code, name]) => {
@@ -110,31 +119,80 @@ function buildFiltersFromData() {
   }
 }
 
+
+function initFilterMultiSelects() {
+  const onAnyFilterChange = () => {
+    extractFilters();
+    render();
+  };
+
+  const yearSelect = document.getElementById("filter-year");
+  if (yearSelect) {
+    window.filterControls.year = new MultiSelect(yearSelect, {
+      max: 1,
+      listAll: false,
+      search: false,
+      onChange: onAnyFilterChange
+    });
+  }
+
+  const methSelect = document.getElementById("filter-methodology");
+  if (methSelect) {
+    window.filterControls.methodology = new MultiSelect(methSelect, {
+      search: true,
+      selectAll: true,
+      onChange: onAnyFilterChange
+    });
+  }
+
+  const regionSelect = document.getElementById("filter-region");
+  if (regionSelect) {
+    window.filterControls.region = new MultiSelect(regionSelect, {
+      search: false,
+      selectAll: true,
+      onChange: onAnyFilterChange
+    });
+  }
+
+  const countrySelect = document.getElementById("filter-country");
+  if (countrySelect) {
+    window.filterControls.country = new MultiSelect(countrySelect, {
+      max: 1,
+      listAll: false,
+      search: true,
+      onChange: onAnyFilterChange
+    });
+  }
+}
+
+
 // -------------------------
 // FILTER HANDLING
 // -------------------------
 function extractFilters() {
-  const yearEl = document.getElementById("filter-year");
-  const methEl = document.getElementById("filter-methodology");
-  const regionEl = document.getElementById("filter-region");
-  const countryEl = document.getElementById("filter-country");
+  const fc = window.filterControls;
 
-  state.filters.year = yearEl ? yearEl.value : "";
-  state.filters.methodologies = methEl
-    ? Array.from(methEl.selectedOptions).map(o => o.value)
-    : [];
-  state.filters.regions = regionEl
-    ? Array.from(regionEl.selectedOptions).map(o => o.value)
-    : [];
-  state.filters.country = countryEl ? countryEl.value : "";
+  // Single year: take first selected value if any
+  state.filters.year =
+    fc.year && fc.year.selectedValues.length
+      ? String(fc.year.selectedValues[0])
+      : "";
+
+  // Multi: methodologies
+  state.filters.methodologies =
+    fc.methodology ? fc.methodology.selectedValues.slice() : [];
+
+  // Multi: regions
+  state.filters.regions =
+    fc.region ? fc.region.selectedValues.slice() : [];
+
+  // Single country: first selected value if any
+  state.filters.country =
+    fc.country && fc.country.selectedValues.length
+      ? String(fc.country.selectedValues[0])
+      : "";
 }
 
-if (FILTERS_EL) {
-  FILTERS_EL.addEventListener("change", () => {
-    extractFilters();
-    render();
-  });
-}
 
 // -------------------------
 // FILTERED DATA (shared)
@@ -170,6 +228,15 @@ function render() {
     }
   });
 
+  // Update toggle button label based on current view
+  const btn = document.getElementById("view-toggle-btn");
+  if (btn) {
+    const isMapLike = state.view === "map" || state.view === "country";
+    // When we are on map (or in a country detail), user can switch to List
+    // When we are on list, user can switch back to Map
+    btn.textContent = isMapLike ? "List" : "Map";
+  }
+
   // then render the content of that view
   if (state.view === "map" && window.renderMapView) {
     window.renderMapView();
@@ -182,21 +249,20 @@ function render() {
   }
 }
 
-
-
 // -------------------------
 // Navigation buttons & init
 // -------------------------
-document.querySelectorAll("[data-nav]").forEach(btn => {
-  btn.onclick = () => {
-    location.hash = `#/${btn.dataset.nav}`;
-  };
-});
+// document.querySelectorAll("[data-nav]").forEach(btn => {
+//   btn.onclick = () => {
+//     location.hash = `#/${btn.dataset.nav}`;
+//   };
+// });
 
 window.addEventListener("hashchange", applyRoute);
 
 window.addEventListener("load", () => {
   buildFiltersFromData();
+  initFilterMultiSelects();
   extractFilters();
   applyRoute();
 });
@@ -204,3 +270,27 @@ window.addEventListener("load", () => {
 // Expose for other scripts if needed
 window.applyRoute = applyRoute;
 window.render = render;
+
+// Button view flip animation
+const viewToggleBtn = document.getElementById("view-toggle-btn");
+
+if (viewToggleBtn) {
+  viewToggleBtn.addEventListener("click", () => {
+    // Add flip animation
+    viewToggleBtn.classList.add("flipping");
+
+    // Decide target: treat 'country' as 'map' side for toggling
+    const isMapLike = state.view === "map" || state.view === "country";
+    const targetView = isMapLike ? "list" : "map";
+
+    // Switch hash midway through flip
+    setTimeout(() => {
+      location.hash = `#/${targetView}`;
+    }, 150);
+
+    // Remove flip class after animation
+    setTimeout(() => {
+      viewToggleBtn.classList.remove("flipping");
+    }, 300);
+  });
+}
