@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fivedata/public_html/residual_visual
+    - /bin/cp -R public_html $DEPLOYPATH
