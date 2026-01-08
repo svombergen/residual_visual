@@ -81,12 +81,7 @@
 <!-- VIEW 2: WORLD LIST -->
 <div id="view-list" class="view">
   <h2>World List</h2>
-  <table border="1" cellpadding="4">
-    <thead>
-      <tr><th>Country</th><th>Year</th><th>Methodology</th></tr>
-    </thead>
-    <tbody id="list-table-body"></tbody>
-  </table>
+  <div id="list-chart" style="width:100%; height:600px;"></div>
 </div>
 
 <!-- VIEW 3: COUNTRY DETAIL -->
@@ -107,10 +102,15 @@
 
 <!-- MapLibre JS (global maplibregl) -->
 <script src="https://unpkg.com/maplibre-gl@3.5.2/dist/maplibre-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 
-<!-- Your data & main logic -->
 <script src="data.js"></script>
+
+<!-- main logic and split up views, keep this order to load the js files -->
 <script src="main.js"></script>
+<script src="view-map.js"></script>
+<script src="view-list.js"></script>
+<script src="view-country.js"></script>
 
 </body>
 </html>
