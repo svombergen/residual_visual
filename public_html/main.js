@@ -81,7 +81,7 @@ function buildFiltersFromData() {
 
   // Years
   if (yearEl && yearEl.tagName === "SELECT") {
-    yearEl.innerHTML = '<option value="">Year (all)</option>';
+    yearEl.innerHTML = '';
     Array.from(yearSet)
       .sort((a, b) => a - b)
       .forEach(year => {
@@ -107,7 +107,7 @@ function buildFiltersFromData() {
 
   // Countries
   if (countryEl && countryEl.tagName === "SELECT") {
-    countryEl.innerHTML = '<option value="">Country (all)</option>';
+    countryEl.innerHTML = '';
     Array.from(countryMap.entries())
       .sort((a, b) => a[1].localeCompare(b[1]))
       .forEach(([code, name]) => {
