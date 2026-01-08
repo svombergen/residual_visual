@@ -3,10 +3,16 @@
 Visualisation of certified and residual mix of energy sources for countries.
 
 ### Components:
-- test.html: testing the iframe use of index.html
-- index.html: main visualisation of the 3 parts, world view, list view and country detail
-- data.js: sample data
-- main.js: core javascript for generating visualisations
+- index.html: main visualization entrypoint
+- test.html: tests iframe embedding
+- data.js: static residual mix dataset
+- main.js: routing, filters, view logic
+- view-map.js: renders interactive world map
+- view-list.js: renders horizontal list chart
+- view-country.js: shows country detail view
+- MultiSelect.js: dropdown enhancement library
+- MultiSelect.css: styles for MultiSelect
+- .cpanel.yml: deployment configuration file
 
 ### TODO:
 - methodology pdfs
