@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Embedded Visualization</title>
+
+  <!-- Minimal CSS to preserve header/footer look (no scripts) -->
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/uploads/maxmegamenu/style.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/plugins/elementor/assets/css/frontend.min.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/uploads/elementor/css/post-37.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/uploads/elementor/css/post-414.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/themes/hello-elementor-child/public/itrack.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/uploads/elementor/google-fonts/css/inter.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://www.trackingstandard.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" />
+
+  <style>
+    /* Page layout */
+    html, body { height: 100%; }
+    body { margin: 0; overflow-x: hidden; }
+    .page-shell {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Keep header visible without Elementor JS */
+    header.elementor-location-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* Main iframe area */
+    main#embed-content {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+	  padding-top: 100px;
+    }
+	
+    .iframe-wrap {
+      flex: 1 1 auto;
+      min-height: 600px;
+    }
+
+    .iframe-wrap iframe {
+      width: 100%;
+      height: 800px;
+      border: 0;
+      display: block;
+    }
+
+    /* Some Elementor layouts assume a max-width; allow full-width */
+    .e-con-inner {
+      width: 100%;
+    }
+
+    /* If mega-menu looks odd without JS, keep it readable */
+    #mega-menu-wrap-menu-1 * {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-shell">
+    <header data-elementor-type="header" data-elementor-id="37" class="elementor elementor-37 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-d16ff53 e-flex e-con-boxed e-con e-parent e-lazyloaded elementor-sticky elementor-sticky--effects animated fadeInDown elementor-sticky--active elementor-section--handles-inside" data-id="d16ff53" data-element_type="container" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;,&quot;animation_delay&quot;:50,&quot;position&quot;:&quot;fixed&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile_extra&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-389126b e-con-full e-flex e-con e-child" data-id="389126b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-68401b0 e-con-full e-flex e-con e-child" data-id="68401b0" data-element_type="container">
+		<div class="elementor-element elementor-element-4024ae2 e-con-full e-flex e-con e-child" data-id="4024ae2" data-element_type="container">
+				<div class="elementor-element elementor-element-c49f69c elementor-widget elementor-widget-image" data-id="c49f69c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="300" height="106" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-300x106.png" class="attachment-medium size-medium wp-image-1096" alt="" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-300x106.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-1024x361.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-768x271.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-1536x541.png 1536w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-2048x722.png 2048w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-600x211.png 600w" sizes="(max-width: 300px) 100vw, 300px">								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6240b97 menu-search e-con-full e-flex e-con e-child" data-id="6240b97" data-element_type="container">
+				<div class="elementor-element elementor-element-eb973b0 menu-header elementor-widget elementor-widget-wp-widget-maxmegamenu" data-id="eb973b0" data-element_type="widget" data-widget_type="wp-widget-maxmegamenu.default">
+				<div class="elementor-widget-container">
+					<div id="mega-menu-wrap-menu-1" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0" id="mega-toggle-block-0"><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-menu-1" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="body" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="1025" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-3150" id="mega-menu-item-3150"><a class="mega-menu-link" href="https://www.trackingstandard.org/the-standard/" aria-expanded="false" tabindex="0">The Standard<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-row" id="mega-menu-3150-0">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-3150-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-5" id="mega-menu-item-media_image-5"><a href="/the-standard/"><img fetchpriority="high" width="300" height="300" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png" class="image wp-image-1099  attachment-medium size-medium" alt="international tracking standard logo" decoding="async" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1024x1024.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-150x150.png 150w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-768x769.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1534x1536.png 1534w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-600x601.png 600w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-100x100.png 100w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack.png 2022w" sizes="(max-width: 300px) 100vw, 300px"></a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-menu-clear" id="mega-menu-3150-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-5" id="mega-menu-item-text-5"><h4 class="mega-block-title">Roles</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5162" id="mega-menu-item-5162"><a class="mega-menu-link" href="https://www.trackingstandard.org/code-managers/">Code Managers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5163" id="mega-menu-item-5163"><a class="mega-menu-link" href="https://www.trackingstandard.org/issuers/">Issuers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5164" id="mega-menu-item-5164"><a class="mega-menu-link" href="https://www.trackingstandard.org/registry-operators/">Registry Operators</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5165" id="mega-menu-item-5165"><a class="mega-menu-link" href="https://www.trackingstandard.org/platform-operators/">Platform Operators</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5166" id="mega-menu-item-5166"><a class="mega-menu-link" href="https://www.trackingstandard.org/labelling-authority/">Labelling Authority</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5167" id="mega-menu-item-5167"><a class="mega-menu-link" href="https://www.trackingstandard.org/accredited-entities/">Accredited Entities</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4" id="mega-menu-3150-0-2">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-6" id="mega-menu-item-text-6"><h4 class="mega-block-title">Processes</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5168" id="mega-menu-item-5168"><a class="mega-menu-link" href="https://www.trackingstandard.org/accreditation-process/">Accreditation Process</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5169" id="mega-menu-item-5169"><a class="mega-menu-link" href="https://www.trackingstandard.org/change-management-process/">Change Management Process</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5170" id="mega-menu-item-5170"><a class="mega-menu-link" href="https://www.trackingstandard.org/complaint-management-process/">Complaint Management Process</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5171" id="mega-menu-item-5171"><a class="mega-menu-link" href="https://www.trackingstandard.org/consultations/">Consultations</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-menu-clear" id="mega-menu-3150-0-3">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-7" id="mega-menu-item-text-7"><h4 class="mega-block-title">Registries</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-13426" id="mega-menu-item-13426"><a class="mega-menu-link" href="https://evident.app/">I-REC(E) Registry</a></li>		</ul>
+</li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-3150-1">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-12 mega-menu-clear" id="mega-menu-3150-1-0"></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-1843" id="mega-menu-item-1843"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-codes/" aria-expanded="false" tabindex="0">Product Codes<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-row" id="mega-menu-1843-0">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-6" id="mega-menu-item-media_image-6"><img fetchpriority="high" width="300" height="300" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png" class="image wp-image-1099  attachment-medium size-medium" alt="international tracking standard logo" decoding="async" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1024x1024.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-150x150.png 150w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-768x769.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1534x1536.png 1534w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-600x601.png 600w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-100x100.png 100w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack.png 2022w" sizes="(max-width: 300px) 100vw, 300px"></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-menu-clear" id="mega-menu-1843-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-8" id="mega-menu-item-text-8"><h4 class="mega-block-title">Product Codes</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5178" id="mega-menu-item-5178"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/electricity/">Product Code for Electricity</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5177" id="mega-menu-item-5177"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/cdr/">Product Code for CDR</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5176" id="mega-menu-item-5176"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/hydrogen/">Product Code for Hydrogen</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5175" id="mega-menu-item-5175"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/gas/">Product Code for Biogas</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-0-2"></li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-0-3">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-4" id="mega-menu-item-custom_html-4"><h4 class="mega-block-title">World Map</h4><div class="textwidget custom-html-widget"><div class="itrack-world-map-button">
+	<a href="/world-map" alt="issuers world map" target="_self">
+		<img alt="pictogram world map" src="/wp-content/uploads/itrack-worldmap.png">
+		<p>Visit the World Map</p>
+	</a>
+</div></div></li>		</ul>
+</li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-1843-1">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-4 mega-hide-on-mobile" id="mega-menu-1843-1-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-3" id="mega-menu-item-custom_html-3"><div class="textwidget custom-html-widget"><p>Check out our ISC Conference in 2024 <a href="/isc-2024" class="mega-menu-button">View</a></p></div></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-1-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-8" id="mega-menu-item-media_image-8"><img fetchpriority="high" width="300" height="300" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png" class="image wp-image-1099  attachment-medium size-medium" alt="international tracking standard logo" decoding="async" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1024x1024.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-150x150.png 150w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-768x769.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1534x1536.png 1534w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-600x601.png 600w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-100x100.png 100w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack.png 2022w" sizes="(max-width: 300px) 100vw, 300px"></li>		</ul>
+</li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-1843-2">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-12 mega-menu-clear" id="mega-menu-1843-2-0"></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-3121" id="mega-menu-item-3121"><a class="mega-menu-link" href="https://www.trackingstandard.org/conferences/" aria-expanded="false" tabindex="0">Conferences<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-row" id="mega-menu-3121-0">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-ISC2024 mega-menu-columns-1-of-4 ISC2024 mega-menu-clear" id="mega-menu-3121-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-11" id="mega-menu-item-text-11"><h4 class="mega-block-title">ISC2026</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11950" id="mega-menu-item-11950"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc2024-aftercare/">ISC2024 Aftercare</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-6313" id="mega-menu-item-6313"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024-program/">ISC2024 Program</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5181" id="mega-menu-item-5181"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024-sponsors/">ISC2024 Sponsors</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5180" id="mega-menu-item-5180"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024-speakers/">ISC2024 Speakers</a></li><li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-9" id="mega-menu-item-media_image-9"><!-- widget is empty --></li>		</ul>
+</li><li class="mega-menu-column mega-ISC2022 mega-menu-columns-1-of-4 ISC2022" id="mega-menu-3121-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-10" id="mega-menu-item-text-10"><h4 class="mega-block-title">Previous Conferences</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5183" id="mega-menu-item-5183"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2022/">About the ISC2022</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5182" id="mega-menu-item-5182"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024/">About the ISC2024</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-2-of-4 mega-hide-on-mobile" id="mega-menu-3121-0-2"></li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-3121-1">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-12 mega-menu-clear" id="mega-menu-3121-1-0"></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-3122" id="mega-menu-item-3122"><a class="mega-menu-link" href="https://www.trackingstandard.org/about-us/" tabindex="0">About Us</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-77" id="mega-menu-item-77"><a class="mega-menu-link" href="https://www.trackingstandard.org/resource-center/" tabindex="0">Resource Center</a></li><li class="mega-search-icon mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-1425 search-icon" id="mega-menu-item-1425"><a class="mega-menu-link" href="#" tabindex="0"><i class="fas fa-search"></i></a></li><li class="mega-menu-item mega-menu-item-type-gs_sim mega-menu-item-object-gs_sim mega-align-bottom-left mega-menu-flyout mega-has-description mega-menu-item-1448" id="mega-menu-item-1448">		<style>
+			
+			
+			
+			
+			
+			
+			
+			
+					</style>
+				<form id="searchwp-form-1" role="search" method="get" class="searchwp-form" action="https://www.trackingstandard.org/" aria-label="Search">
+			<input type="hidden" name="swp_form[form_id]" value="1">
+			<div class="swp-flex--col swp-flex--wrap swp-flex--gap-md">
+				<div class="swp-flex--row swp-items-stretch swp-flex--gap-md">
+					<div class="searchwp-form-input-container swp-items-stretch">
+												<select class="swp-select" name="swp_tax_limiter[category]" aria-label="Filter by category">
+							<option value="">Any Category</option>
+																																 ?&gt;
+									<option value="44">Activities</option>
+																																								 ?&gt;
+									<option value="45">General</option>
+																																								 ?&gt;
+									<option value="46">ISC2024 Notifications</option>
+																																								 ?&gt;
+									<option value="43">News</option>
+																																								 ?&gt;
+									<option value="53">Recources</option>
+																						</select>
+						
+																		<input type="search" class="swp-input--search swp-input" placeholder="What are you looking for" value="" name="s" title="What are you looking for" aria-label="When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures." aria-required="false" data-swplive="true" data-swpengine="default" autocomplete="off" aria-owns="searchwp_live_search_results_6978946a02780" aria-autocomplete="both">
+					</div>
+
+					
+				</div>
+
+				
+							</div>
+					</form>
+		
+<a href="#" class="search-close"><i class="fas fa-times"></i></a></li><li class="mega-header-contact-btn mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-73 header-contact-btn" id="mega-menu-item-73"><a class="mega-menu-link" href="https://www.trackingstandard.org/contact/" tabindex="0">Contact</a></li></ul></div>				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div><div class="elementor-element elementor-element-d16ff53 e-flex e-con-boxed e-con e-parent e-lazyloaded elementor-sticky elementor-sticky--effects animated fadeInDown elementor-sticky__spacer" data-id="d16ff53" data-element_type="container" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;,&quot;animation_delay&quot;:50,&quot;position&quot;:&quot;fixed&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet&quot;,&quot;mobile_extra&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-389126b e-con-full e-flex e-con e-child" data-id="389126b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-68401b0 e-con-full e-flex e-con e-child" data-id="68401b0" data-element_type="container">
+		<div class="elementor-element elementor-element-4024ae2 e-con-full e-flex e-con e-child" data-id="4024ae2" data-element_type="container">
+				<div class="elementor-element elementor-element-c49f69c elementor-widget elementor-widget-image" data-id="c49f69c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="300" height="106" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-300x106.png" class="attachment-medium size-medium wp-image-1096" alt="" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-300x106.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-1024x361.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-768x271.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-1536x541.png 1536w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-2048x722.png 2048w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-600x211.png 600w" sizes="(max-width: 300px) 100vw, 300px">								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6240b97 menu-search e-con-full e-flex e-con e-child" data-id="6240b97" data-element_type="container">
+				<div class="elementor-element elementor-element-eb973b0 menu-header elementor-widget elementor-widget-wp-widget-maxmegamenu" data-id="eb973b0" data-element_type="widget" data-widget_type="wp-widget-maxmegamenu.default">
+				<div class="elementor-widget-container">
+					<div id="mega-menu-wrap-menu-1" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0" id="mega-toggle-block-0"><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-menu-1" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="body" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="1025" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-3150" id="mega-menu-item-3150"><a class="mega-menu-link" href="https://www.trackingstandard.org/the-standard/" aria-expanded="false" tabindex="0">The Standard<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-row" id="mega-menu-3150-0">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-3150-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-5" id="mega-menu-item-media_image-5"><a href="/the-standard/"><img fetchpriority="high" width="300" height="300" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png" class="image wp-image-1099  attachment-medium size-medium" alt="international tracking standard logo" decoding="async" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1024x1024.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-150x150.png 150w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-768x769.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1534x1536.png 1534w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-600x601.png 600w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-100x100.png 100w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack.png 2022w" sizes="(max-width: 300px) 100vw, 300px"></a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-menu-clear" id="mega-menu-3150-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-5" id="mega-menu-item-text-5"><h4 class="mega-block-title">Roles</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5162" id="mega-menu-item-5162"><a class="mega-menu-link" href="https://www.trackingstandard.org/code-managers/">Code Managers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5163" id="mega-menu-item-5163"><a class="mega-menu-link" href="https://www.trackingstandard.org/issuers/">Issuers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5164" id="mega-menu-item-5164"><a class="mega-menu-link" href="https://www.trackingstandard.org/registry-operators/">Registry Operators</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5165" id="mega-menu-item-5165"><a class="mega-menu-link" href="https://www.trackingstandard.org/platform-operators/">Platform Operators</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5166" id="mega-menu-item-5166"><a class="mega-menu-link" href="https://www.trackingstandard.org/labelling-authority/">Labelling Authority</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5167" id="mega-menu-item-5167"><a class="mega-menu-link" href="https://www.trackingstandard.org/accredited-entities/">Accredited Entities</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4" id="mega-menu-3150-0-2">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-6" id="mega-menu-item-text-6"><h4 class="mega-block-title">Processes</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5168" id="mega-menu-item-5168"><a class="mega-menu-link" href="https://www.trackingstandard.org/accreditation-process/">Accreditation Process</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5169" id="mega-menu-item-5169"><a class="mega-menu-link" href="https://www.trackingstandard.org/change-management-process/">Change Management Process</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5170" id="mega-menu-item-5170"><a class="mega-menu-link" href="https://www.trackingstandard.org/complaint-management-process/">Complaint Management Process</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5171" id="mega-menu-item-5171"><a class="mega-menu-link" href="https://www.trackingstandard.org/consultations/">Consultations</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-menu-clear" id="mega-menu-3150-0-3">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-7" id="mega-menu-item-text-7"><h4 class="mega-block-title">Registries</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-13426" id="mega-menu-item-13426"><a class="mega-menu-link" href="https://evident.app/">I-REC(E) Registry</a></li>		</ul>
+</li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-3150-1">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-12 mega-menu-clear" id="mega-menu-3150-1-0"></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-1843" id="mega-menu-item-1843"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-codes/" aria-expanded="false" tabindex="0">Product Codes<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-row" id="mega-menu-1843-0">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-6" id="mega-menu-item-media_image-6"><img fetchpriority="high" width="300" height="300" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png" class="image wp-image-1099  attachment-medium size-medium" alt="international tracking standard logo" decoding="async" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1024x1024.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-150x150.png 150w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-768x769.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1534x1536.png 1534w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-600x601.png 600w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-100x100.png 100w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack.png 2022w" sizes="(max-width: 300px) 100vw, 300px"></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-menu-clear" id="mega-menu-1843-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-8" id="mega-menu-item-text-8"><h4 class="mega-block-title">Product Codes</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5178" id="mega-menu-item-5178"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/electricity/">Product Code for Electricity</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5177" id="mega-menu-item-5177"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/cdr/">Product Code for CDR</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5176" id="mega-menu-item-5176"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/hydrogen/">Product Code for Hydrogen</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product-code mega-menu-item-5175" id="mega-menu-item-5175"><a class="mega-menu-link" href="https://www.trackingstandard.org/product-code/gas/">Product Code for Biogas</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-0-2"></li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-0-3">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-4" id="mega-menu-item-custom_html-4"><h4 class="mega-block-title">World Map</h4><div class="textwidget custom-html-widget"><div class="itrack-world-map-button">
+	<a href="/world-map" alt="issuers world map" target="_self">
+		<img alt="pictogram world map" src="/wp-content/uploads/itrack-worldmap.png">
+		<p>Visit the World Map</p>
+	</a>
+</div></div></li>		</ul>
+</li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-1843-1">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-4 mega-hide-on-mobile" id="mega-menu-1843-1-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-3" id="mega-menu-item-custom_html-3"><div class="textwidget custom-html-widget"><p>Check out our ISC Conference in 2024 <a href="/isc-2024" class="mega-menu-button">View</a></p></div></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-4 mega-hide-on-mobile" id="mega-menu-1843-1-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-8" id="mega-menu-item-media_image-8"><img fetchpriority="high" width="300" height="300" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png" class="image wp-image-1099  attachment-medium size-medium" alt="international tracking standard logo" decoding="async" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-300x300.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1024x1024.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-150x150.png 150w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-768x769.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-1534x1536.png 1534w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-600x601.png 600w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack-100x100.png 100w, https://www.trackingstandard.org/wp-content/uploads/2023/09/Favicon-itrack.png 2022w" sizes="(max-width: 300px) 100vw, 300px"></li>		</ul>
+</li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-1843-2">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-12 mega-menu-clear" id="mega-menu-1843-2-0"></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-3121" id="mega-menu-item-3121"><a class="mega-menu-link" href="https://www.trackingstandard.org/conferences/" aria-expanded="false" tabindex="0">Conferences<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-row" id="mega-menu-3121-0">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-ISC2024 mega-menu-columns-1-of-4 ISC2024 mega-menu-clear" id="mega-menu-3121-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-11" id="mega-menu-item-text-11"><h4 class="mega-block-title">ISC2026</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11950" id="mega-menu-item-11950"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc2024-aftercare/">ISC2024 Aftercare</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-6313" id="mega-menu-item-6313"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024-program/">ISC2024 Program</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5181" id="mega-menu-item-5181"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024-sponsors/">ISC2024 Sponsors</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5180" id="mega-menu-item-5180"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024-speakers/">ISC2024 Speakers</a></li><li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-9" id="mega-menu-item-media_image-9"><!-- widget is empty --></li>		</ul>
+</li><li class="mega-menu-column mega-ISC2022 mega-menu-columns-1-of-4 ISC2022" id="mega-menu-3121-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_text mega-menu-item-text-10" id="mega-menu-item-text-10"><h4 class="mega-block-title">Previous Conferences</h4>			<div class="textwidget"></div>
+		</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5183" id="mega-menu-item-5183"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2022/">About the ISC2022</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-5182" id="mega-menu-item-5182"><a class="mega-menu-link" href="https://www.trackingstandard.org/isc-2024/">About the ISC2024</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-2-of-4 mega-hide-on-mobile" id="mega-menu-3121-0-2"></li>	</ul>
+</li><li class="mega-menu-row" id="mega-menu-3121-1">
+	<ul class="mega-sub-menu" role="presentation">
+<li class="mega-menu-column mega-menu-columns-3-of-12 mega-menu-clear" id="mega-menu-3121-1-0"></li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-3122" id="mega-menu-item-3122"><a class="mega-menu-link" href="https://www.trackingstandard.org/about-us/" tabindex="0">About Us</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-77" id="mega-menu-item-77"><a class="mega-menu-link" href="https://www.trackingstandard.org/resource-center/" tabindex="0">Resource Center</a></li><li class="mega-search-icon mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-1425 search-icon" id="mega-menu-item-1425"><a class="mega-menu-link" href="#" tabindex="0"><i class="fas fa-search"></i></a></li><li class="mega-menu-item mega-menu-item-type-gs_sim mega-menu-item-object-gs_sim mega-align-bottom-left mega-menu-flyout mega-has-description mega-menu-item-1448" id="mega-menu-item-1448">		<style>
+			
+			
+			
+			
+			
+			
+			
+			
+					</style>
+				<form id="searchwp-form-1" role="search" method="get" class="searchwp-form" action="https://www.trackingstandard.org/" aria-label="Search">
+			<input type="hidden" name="swp_form[form_id]" value="1">
+			<div class="swp-flex--col swp-flex--wrap swp-flex--gap-md">
+				<div class="swp-flex--row swp-items-stretch swp-flex--gap-md">
+					<div class="searchwp-form-input-container swp-items-stretch">
+												<select class="swp-select" name="swp_tax_limiter[category]" aria-label="Filter by category">
+							<option value="">Any Category</option>
+																																 ?&gt;
+									<option value="44">Activities</option>
+																																								 ?&gt;
+									<option value="45">General</option>
+																																								 ?&gt;
+									<option value="46">ISC2024 Notifications</option>
+																																								 ?&gt;
+									<option value="43">News</option>
+																																								 ?&gt;
+									<option value="53">Recources</option>
+																						</select>
+						
+																		<input type="search" class="swp-input--search swp-input" placeholder="What are you looking for" value="" name="s" title="What are you looking for" aria-label="When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures." aria-required="false" data-swplive="true" data-swpengine="default" autocomplete="off" aria-owns="searchwp_live_search_results_6978946a02780" aria-autocomplete="both">
+					</div>
+
+					
+				</div>
+
+				
+							</div>
+					</form>
+		
+<a href="#" class="search-close"><i class="fas fa-times"></i></a></li><li class="mega-header-contact-btn mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-73 header-contact-btn" id="mega-menu-item-73"><a class="mega-menu-link" href="https://www.trackingstandard.org/contact/" tabindex="0">Contact</a></li></ul></div>				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</header>
+
+    <main id="embed-content" aria-label="Embedded visualization">
+      <div class="iframe-wrap">
+        <iframe
+          title="Residual Mix Visualization"
+          src="index.html"
+          loading="eager"
+          referrerpolicy="no-referrer"
+        ></iframe>
+      </div>
+    </main>
+
+    <footer data-elementor-type="footer" data-elementor-id="414" class="elementor elementor-414 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-35ed935 e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="35ed935" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-fbdbd1f animated-fast e-con-full e-flex e-con e-child animated fadeInUp" data-id="fbdbd1f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+				<div class="elementor-element elementor-element-349566d elementor-widget elementor-widget-heading" data-id="349566d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Interested in the I-TRACK Foundation?</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9a6294a elementor-widget elementor-widget-text-editor" data-id="9a6294a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>If you have any questions, feel free to contact us!</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-d0e38cf e-con-full e-flex e-con e-child" data-id="d0e38cf" data-element_type="container">
+				<div class="elementor-element elementor-element-2949fe9 elementor-align-center elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="2949fe9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="/contact/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-envelope"></i>			</span>
+									<span class="elementor-button-text">Contact</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6b99715 customfooter e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="6b99715" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-54f44b0 e-grid e-con-boxed e-con e-child" data-id="54f44b0" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-79aacd5 e-con-full e-flex e-con e-child" data-id="79aacd5" data-element_type="container">
+				<div class="elementor-element elementor-element-300ab57 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="300ab57" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="300" height="106" src="https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-300x106.png" class="attachment-medium size-medium wp-image-1096" alt="" srcset="https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-300x106.png 300w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-1024x361.png 1024w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-768x271.png 768w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-1536x541.png 1536w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-2048x722.png 2048w, https://www.trackingstandard.org/wp-content/uploads/2023/09/I-TRACK-Primary-Logo-Full-Horizontal-Lockup-Main-IREC-600x211.png 600w" sizes="(max-width: 300px) 100vw, 300px">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-08aec11 elementor-widget elementor-widget-heading" data-id="08aec11" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Contact</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b57aa08 elementor-tablet-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b57aa08" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="tel:+31203997223">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><g clip-path="url(#clip0_74_166)"><path d="M16.0338 5.57812C17.0106 5.76869 17.9082 6.24638 18.6119 6.95006C19.3156 7.65374 19.7933 8.55139 19.9838 9.52812M16.0338 1.57812C18.0631 1.80356 19.9554 2.7123 21.4001 4.15513C22.8447 5.59797 23.7558 7.48913 23.9838 9.51812M22.9838 17.4981V20.4981C22.985 20.7766 22.9279 21.0523 22.8163 21.3075C22.7048 21.5627 22.5411 21.7917 22.3359 21.98C22.1307 22.1683 21.8884 22.3116 21.6246 22.4008C21.3607 22.4901 21.0812 22.5232 20.8038 22.4981C17.7267 22.1638 14.7708 21.1123 12.1738 19.4281C9.75765 17.8928 7.70916 15.8443 6.17382 13.4281C4.4838 10.8193 3.43206 7.84912 3.10382 4.75812C3.07883 4.48159 3.11169 4.20289 3.20032 3.93975C3.28895 3.67661 3.43139 3.43481 3.61859 3.22975C3.80578 3.02468 4.03362 2.86083 4.28761 2.74865C4.5416 2.63646 4.81616 2.57839 5.09382 2.57812H8.09382C8.57913 2.57335 9.04961 2.7452 9.41758 3.06166C9.78555 3.37811 10.0259 3.81757 10.0938 4.29813C10.2204 5.25819 10.4553 6.20085 10.7938 7.10813C10.9284 7.46605 10.9575 7.85504 10.8777 8.22901C10.798 8.60297 10.6127 8.94624 10.3438 9.21813L9.07382 10.4881C10.4974 12.9917 12.5703 15.0646 15.0738 16.4881L16.3438 15.2181C16.6157 14.9493 16.959 14.764 17.3329 14.6842C17.7069 14.6045 18.0959 14.6336 18.4538 14.7681C19.3611 15.1067 20.3038 15.3415 21.2638 15.4681C21.7496 15.5367 22.1932 15.7813 22.5104 16.1556C22.8275 16.5299 22.996 17.0077 22.9838 17.4981Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g><defs><clipPath id="clip0_74_166"><rect width="24" height="24" fill="white" transform="translate(0.983398 0.578125)"></rect></clipPath></defs></svg>						</span>
+										<span class="elementor-icon-list-text">+31 20 399 7223</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="mailto:secretariat@irecstandard.org">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M4.9834 4.57812H20.9834C22.0834 4.57812 22.9834 5.47812 22.9834 6.57812V18.5781C22.9834 19.6781 22.0834 20.5781 20.9834 20.5781H4.9834C3.8834 20.5781 2.9834 19.6781 2.9834 18.5781V6.57812C2.9834 5.47812 3.8834 4.57812 4.9834 4.57812Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22.9834 6.57812L12.9834 13.5781L2.9834 6.57812" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>						</span>
+										<span class="elementor-icon-list-text">secretariat@trackingstandard.org</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.linkedin.com/company/the-international-rec-standard" target="_blank" rel="nofollow">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M16.9834 8.57812C18.5747 8.57812 20.1008 9.21027 21.226 10.3355C22.3513 11.4607 22.9834 12.9868 22.9834 14.5781V21.5781H18.9834V14.5781C18.9834 14.0477 18.7727 13.539 18.3976 13.1639C18.0225 12.7888 17.5138 12.5781 16.9834 12.5781C16.453 12.5781 15.9443 12.7888 15.5692 13.1639C15.1941 13.539 14.9834 14.0477 14.9834 14.5781V21.5781H10.9834V14.5781C10.9834 12.9868 11.6155 11.4607 12.7408 10.3355C13.866 9.21027 15.3921 8.57812 16.9834 8.57812Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.9834 9.57812H2.9834V21.5781H6.9834V9.57812Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4.9834 6.57812C6.08797 6.57812 6.9834 5.68269 6.9834 4.57812C6.9834 3.47356 6.08797 2.57812 4.9834 2.57812C3.87883 2.57812 2.9834 3.47356 2.9834 4.57812C2.9834 5.68269 3.87883 6.57812 4.9834 6.57812Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>						</span>
+										<span class="elementor-icon-list-text">View our LinkedIn</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d44957a e-con-full e-flex e-con e-child" data-id="d44957a" data-element_type="container">
+				<div class="elementor-element elementor-element-94de3df elementor-widget elementor-widget-heading" data-id="94de3df" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Headquarters</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f8f8537 elementor-widget__width-auto elementor-widget-laptop__width-initial elementor-widget elementor-widget-text-editor" data-id="f8f8537" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									De Mortel 2D
+<br>5211 HV&nbsp;<span><br>‘s-Hertogenbosch
+</span><br>The Netherlands								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7747a99 footerrow e-con-full e-flex e-con e-child" data-id="7747a99" data-element_type="container">
+				<div class="elementor-element elementor-element-be13d8f elementor-widget elementor-widget-heading" data-id="be13d8f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Have you seen</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-bc4172e elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="bc4172e" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-bc4172e" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17695099944761804"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3151"><a href="https://www.trackingstandard.org/the-standard/" class="elementor-item">The Standard</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1089"><a href="https://www.trackingstandard.org/resource-center/" class="elementor-item">Resource Center</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9355"><a href="https://www.trackingstandard.org/faq/" class="elementor-item">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3152"><a href="https://www.trackingstandard.org/world-map/" class="elementor-item">World Map</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2711"><a href="https://www.trackingstandard.org/about-us/" class="elementor-item">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://www.trackingstandard.org/contact/" class="elementor-item">Contact</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-bc4172e" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17695099944762717"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3151"><a href="https://www.trackingstandard.org/the-standard/" class="elementor-item" tabindex="-1">The Standard</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1089"><a href="https://www.trackingstandard.org/resource-center/" class="elementor-item" tabindex="-1">Resource Center</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9355"><a href="https://www.trackingstandard.org/faq/" class="elementor-item" tabindex="-1">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3152"><a href="https://www.trackingstandard.org/world-map/" class="elementor-item" tabindex="-1">World Map</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2711"><a href="https://www.trackingstandard.org/about-us/" class="elementor-item" tabindex="-1">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://www.trackingstandard.org/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-67a04e1 e-con-full e-flex e-con e-child" data-id="67a04e1" data-element_type="container">
+				<div class="elementor-element elementor-element-a910206 elementor-widget elementor-widget-heading" data-id="a910206" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Stay up to date with <br>our newsletter?</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6ba9db9 elementor-widget elementor-widget-button" data-id="6ba9db9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://share-eu1.hsforms.com/1fIr6e6NXTey9j0qnJNY2-gfut6p" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Sign up</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<footer class="elementor-element elementor-element-072646b e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="072646b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-372dfa7 e-con-full e-flex e-con e-child" data-id="372dfa7" data-element_type="container">
+				<div class="elementor-element elementor-element-4417f2e elementor-widget elementor-widget-heading" data-id="4417f2e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">'The International Tracking Standard Foundation' and the 'I-TRACK Foundation' are trade names of Stichting I-REC, the Netherlands. KvK Number: 59458844. VAT number: 853498763B01.</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b97c4ca elementor-widget elementor-widget-heading" data-id="b97c4ca" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">© 2025 I-TRACK Foundation. All rights reserved.</p>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fb16aa7 e-con-full e-flex e-con e-child" data-id="fb16aa7" data-element_type="container">
+				<div class="elementor-element elementor-element-2e027ed elementor-nav-menu__align-end elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="2e027ed" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-2e027ed" class="elementor-nav-menu" data-smartmenus-id="17695099944775244"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5202"><a href="https://www.trackingstandard.org/privacy-statement/" class="elementor-item">Privacy Statement</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5449"><a href="https://www.trackingstandard.org/cookies/" class="elementor-item">Cookies</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-2e027ed" class="elementor-nav-menu" data-smartmenus-id="17695099944773674"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5202"><a href="https://www.trackingstandard.org/privacy-statement/" class="elementor-item" tabindex="-1">Privacy Statement</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5449"><a href="https://www.trackingstandard.org/cookies/" class="elementor-item" tabindex="-1">Cookies</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+					</div>
+				</footer>
+  </div>
+</body>
+</html>

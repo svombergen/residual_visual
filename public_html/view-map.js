@@ -18,9 +18,11 @@ function initMap() {
   return new Promise(async (resolve) => {
     mapInstance = new maplibregl.Map({
       container: "map-container",
-      style: "https://demotiles.maplibre.org/style.json",
-      center: [0, 20],
-      zoom: 1.5
+      style: "maplibre_style.json",
+      center: [7.3, 53.6],
+      zoom: 3.3,
+      minZoom: 2,
+      maxZoom: 4
     });
 
     mapInstance.addControl(new maplibregl.NavigationControl(), "top-right");
