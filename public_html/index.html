@@ -46,6 +46,38 @@
       align-items: center; 
     }
 
+    #button_export {
+      width: 155px;
+      height: 30px; /* match select visual height */
+      min-height: var(--input-min-height);
+
+      padding: 0 var(--spacing-small);
+      box-sizing: border-box;
+
+      font-family: Arial, sans-serif;
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+      color: var(--text-color-dark);
+
+      background: var(--checkbox-background);
+      border: 1px solid var(--input-border);
+      border-radius: var(--border-radius);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    #button_export:focus{
+      outline: none;
+      border-color: #bfbfbf;
+      box-shadow: 0 0 0 2px rgba(0,0,0,0.06);
+    }
+
     /* Filter labels compact */
     #filters label {
       font-size: 11px;
@@ -161,6 +193,11 @@
               data-search="true">
         <!-- options populated dynamically in main.js -->
       </select>
+    </div>
+
+    <div>
+      <label for="button_export">12 rows</label>
+      <button id="button_export">Export</button>
     </div>
   </div>
 </div>
