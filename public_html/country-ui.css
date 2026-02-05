@@ -1,0 +1,136 @@
+/* country-ui.css */
+
+/* ---------- Modal backdrop ---------- */
+.kpi-modal-backdrop{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+
+.kpi-modal-backdrop.open{
+  opacity: 1;
+}
+
+/* ---------- Modal ---------- */
+.kpi-modal{
+  width: min(980px, calc(100vw - 32px));
+  max-height: min(80vh, 820px);
+
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 18px 60px rgba(0,0,0,.25);
+  overflow: hidden;
+
+  transform: scale(.96);
+  opacity: 0;
+  transition: transform 140ms ease-out, opacity 140ms ease-out;
+}
+
+.kpi-modal.open{
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* ---------- Header ---------- */
+.kpi-modal-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 12px 14px;
+  border-bottom: 1px solid #e7e7e7;
+  background: #fafafa;
+}
+
+.kpi-modal-title{
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.kpi-modal-close{
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* ---------- Body ---------- */
+.kpi-modal-body{
+  padding: 12px 14px;
+  overflow: auto;
+}
+
+/* ---------- KPI cards ---------- */
+.kpi-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.kpi-card{
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.kpi-label{
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.kpi-value{
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* ---------- Detail table ---------- */
+.kpi-table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.kpi-table th,
+.kpi-table td{
+  border-bottom: 1px solid #eee;
+  padding: 8px 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.kpi-table th{
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+/* sortable headers */
+.kpi-table th[data-sort]{
+  cursor: pointer;
+  user-select: none;
+}
+
+.kpi-table th .sort-ind{
+  font-size: 10px;
+  color: #888;
+  margin-left: 6px;
+}
+
+/* totals row */
+.kpi-table tr.kpi-totals-row td{
+  font-weight: 700;
+  border-top: 2px solid #e7e7e7;
+}
