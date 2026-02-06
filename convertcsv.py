@@ -126,8 +126,8 @@ def main():
         sys.exit(1)
 
     input_path = Path(sys.argv[1])
-    example_out_path = Path(sys.argv[2]) if len(sys.argv) >= 3 else input_path.with_name("exampledata.json")
-    agg_out_path = Path(sys.argv[3]) if len(sys.argv) >= 4 else input_path.with_name("aggregated.json")
+    example_out_path = Path(sys.argv[2]) if len(sys.argv) >= 3 else input_path.with_name("data_detail.js")
+    agg_out_path = Path(sys.argv[3]) if len(sys.argv) >= 4 else input_path.with_name("data.js")
 
     rows_out: list[dict] = []
     buckets: dict[tuple[str, str, int | str], AggBucket] = {}
@@ -241,6 +241,7 @@ def main():
 
     # Write exampledata.json (one object per row)
     with example_out_path.open("w", encoding="utf-8") as f:
+        f.write('window.DATA_DETAIL = ')
         json.dump(rows_out, f, ensure_ascii=False, indent=2)
 
     # Build aggregated.json
@@ -260,9 +261,11 @@ def main():
             "total_certified": dec_to_comma_str(total_certified) if total_certified != 0 else "0",
             "perc_tracked_total": percent_number_str(total_certified, total_generation),
             "perc_tracked_renewables": percent_number_str(b.res_total_certified, b.res_total_generation),
+            "perc_green": percent_number_str(b.res_total_generation, total_generation),
         })
 
     with agg_out_path.open("w", encoding="utf-8") as f:
+        f.write('window.DATA = ')
         json.dump(aggregated_out, f, ensure_ascii=False, indent=2)
 
     print(f"Wrote {len(rows_out)} rows to: {example_out_path}")

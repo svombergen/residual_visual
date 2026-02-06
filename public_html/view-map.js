@@ -7,11 +7,20 @@ const URL_WORLD_GEO =
 let mapInstance = null;
 let worldGeojsonOriginal = null;
 
+const KPI_COLOR_STOPS = [
+  { v: 0,   c: "#F7EFC6" },
+  { v: 10,  c: "#F3DC9C" },
+  { v: 50,  c: "#F2B08A" },
+  { v: 60,  c: "#CDEED7" },
+  { v: 100, c: "#76D6A1" }
+];
+
 window.renderMapView = async function renderMapView() {
   if (!mapInstance) {
     await initMap();
   }
   updateMapColors();
+  setupKpiOverlaySwitch();
 };
 
 function initMap() {
@@ -153,4 +162,24 @@ function setupMapInteractions() {
   }
 }
 
+function setupKpiOverlaySwitch() {
+  const sel = document.getElementById("kpi-color-key");
+  if (!sel) return;
 
+  // set initial value from current config (or default)
+  const current = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+  sel.value = current;
+
+  sel.addEventListener("change", () => {
+    const key = sel.value;
+
+    // update global KPI key (keeps stops the same)
+    window.CountryUI?.setColorKpi?.({
+      key,
+      stops: KPI_COLOR_STOPS
+    });
+
+    // recolor countries
+    updateMapColors();
+  });
+}

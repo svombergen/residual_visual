@@ -134,10 +134,11 @@
   function getKpis(code) {
     const { agg, year } = getAggRow(code);
     return {
-      year,
-      country: agg?.country || code,
-      perc_tracked_renewables: agg?.perc_tracked_renewables ?? null,
-      total_generation: agg?.total_generation ?? null
+        year,
+        country: agg?.country || code,
+        perc_tracked_renewables: agg?.perc_tracked_renewables ?? null,
+        perc_green: agg?.perc_green ?? null,
+        total_generation: agg?.total_generation ?? null
     };
   }
 
@@ -153,40 +154,50 @@
   // Hover popup (2 KPI cards)
   // -----------------------------
   function buildPopupHtml(k, kpiColor) {
-    const pct =
-      k.perc_tracked_renewables == null
-        ? "-"
-        : `${formatNum(k.perc_tracked_renewables, 2)}%`;
-    const gen =
-      k.total_generation == null ? "-" : formatNum(k.total_generation, 2);
+    const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+
+    const pctRenew = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
+    const pctGreen = k.perc_green == null ? "-" : `${formatNum(k.perc_green, 2)}%`;
+    const gen = k.total_generation == null ? "-" : formatNum(k.total_generation, 2);
+
+    const dot = (key) =>
+        key === colorKey
+        ? `<span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:${kpiColor};margin-right:6px;vertical-align:middle;"></span>`
+        : "";
 
     return `
-      <div style="font-family: Arial, sans-serif; font-size:12px; padding:10px; min-width:240px;">
+        <div style="font-family: Arial, sans-serif; font-size:12px; padding:10px; min-width:320px;">
         <div style="font-weight:700; margin-bottom:6px;">
-          ${k.country}${k.year ? ` (${k.year})` : ""}
+            ${k.country}${k.year ? ` (${k.year})` : ""}
         </div>
 
-        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px;">
-          <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
+        <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
+            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
             <div style="font-size:11px; color:#666; margin-bottom:4px;">Tracked renewables</div>
-            <div style="font-size:16px; font-weight:800; color:#111;">
-              <span style="display:inline-block; width:10px; height:10px; border-radius:999px; background:${kpiColor}; margin-right:6px; vertical-align:middle;"></span>
-              ${pct}
+            <div style="font-size:15px; font-weight:800; color:#111;">
+                ${dot("perc_tracked_renewables")}${pctRenew}
             </div>
-          </div>
+            </div>
 
-          <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
+            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
+            <div style="font-size:11px; color:#666; margin-bottom:4px;">Green share</div>
+            <div style="font-size:15px; font-weight:800; color:#111;">
+                ${dot("perc_green")}${pctGreen}
+            </div>
+            </div>
+
+            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
             <div style="font-size:11px; color:#666; margin-bottom:4px;">Total generation</div>
-            <div style="font-size:16px; font-weight:700;">${gen} <span style="font-size:11px; color:#666;">MWh</span></div>
-          </div>
+            <div style="font-size:15px; font-weight:700;">${gen} <span style="font-size:11px; color:#666;">MWh</span></div>
+            </div>
         </div>
 
         <div style="margin-top:8px; color:#666; font-size:11px;">
-          Click for details
+            Click for details
         </div>
-      </div>
+        </div>
     `;
-  }
+    }
 
   // -----------------------------
   // Modal creation + sortable table
@@ -234,181 +245,281 @@
   }
 
   function openDetailsModal(countryCode) {
-    const k = getKpis(countryCode);
-    const year = k.year;
+    const code = String(countryCode).toUpperCase();
 
-    const details = (window.DATA_DETAIL || []).filter(
-      (r) =>
-        (r.country_code || "").toUpperCase() === countryCode &&
-        (year == null || Number(r.year) === Number(year))
-    );
+    // Available years for this country (prefer aggregated DATA; fallback to DATA_DETAIL)
+    const yearsFromAgg = (window.DATA || [])
+        .filter(r => String(r.country_code || "").toUpperCase() === code)
+        .map(r => Number(r.year))
+        .filter(Number.isFinite);
 
-    const cols = details.length
-      ? Object.keys(details[0]).filter((c) => !HIDDEN_DETAIL_COLUMNS.has(c))
-      : [
-          "energy_source",
-          "class",
-          "certified_mix",
-          "issuance_ext",
-          "issuance_irec",
-          "residual_mix",
-          "total_generation",
-          "total_co2",
-          "method"
-        ];
+    const yearsFromDetail = (window.DATA_DETAIL || [])
+        .filter(r => String(r.country_code || "").toUpperCase() === code)
+        .map(r => Number(r.year))
+        .filter(Number.isFinite);
 
-    const kpiVal = getKpiValue(countryCode);
-    const kpiColor = colorForValue(kpiVal);
+    const years = Array.from(new Set([...(yearsFromAgg.length ? yearsFromAgg : []), ...yearsFromDetail]))
+        .sort((a, b) => a - b);
 
-    const pct =
-      k.perc_tracked_renewables == null
-        ? "-"
-        : `${formatNum(k.perc_tracked_renewables, 2)}%`;
-    const gen =
-      k.total_generation == null ? "-" : formatNum(k.total_generation, 2);
+    // Initial year = current global filter if it exists AND country has it, else latest available
+    const globalYear = window.state?.filters?.year ? Number(window.state.filters.year) : null;
+    let currentYear = (globalYear != null && years.includes(globalYear))
+        ? globalYear
+        : (years.length ? years[years.length - 1] : null);
 
     const backdrop = ensureModal();
     const modal = backdrop.querySelector(".kpi-modal");
-    backdrop.querySelector("#kpi-modal-title").textContent =
-      `${k.country}${k.year ? ` (${k.year})` : ""} — Details`;
+    const titleEl = backdrop.querySelector("#kpi-modal-title");
+    const body = backdrop.querySelector("#kpi-modal-body");
 
-    // Sort state
+    // Sort state (persists while stepping years)
     let sortKey = null;
     let sortDir = 1; // 1 asc, -1 desc
 
-    // Compute totals for numeric columns (from current details rows)
-    const totals = {};
-    for (const c of cols) {
-      if (numericCols.has(c)) totals[c] = 0;
+    function setTitle(countryName, year) {
+        const idx = years.indexOf(year);
+        const hasPrev = idx > 0;
+        const hasNext = idx >= 0 && idx < years.length - 1;
+
+        // NOTE: we set innerHTML so we can place buttons around the year
+        titleEl.innerHTML = `
+        <span>${countryName}  </span>
+        <span class="kpi-year-nav">
+            <button class="kpi-year-btn" id="kpi-year-prev" ${hasPrev ? "" : "disabled"} aria-label="Previous year">‹</button>
+            <span style="font-weight:700;">${year ?? "-"}</span>
+            <button class="kpi-year-btn" id="kpi-year-next" ${hasNext ? "" : "disabled"} aria-label="Next year">›</button>
+        </span>
+        `;
+
+        // Wire buttons (each render)
+        const prevBtn = titleEl.querySelector("#kpi-year-prev");
+        const nextBtn = titleEl.querySelector("#kpi-year-next");
+
+        if (prevBtn) {
+        prevBtn.onclick = () => {
+            const i = years.indexOf(currentYear);
+            if (i > 0) {
+            currentYear = years[i - 1];
+            renderForYear(currentYear);
+            }
+        };
+        }
+        if (nextBtn) {
+        nextBtn.onclick = () => {
+            const i = years.indexOf(currentYear);
+            if (i >= 0 && i < years.length - 1) {
+            currentYear = years[i + 1];
+            renderForYear(currentYear);
+            }
+        };
+        }
     }
-    for (const row of details) {
-      for (const c of cols) {
-        if (!numericCols.has(c)) continue;
-        const n = parseNum(row[c]);
-        totals[c] += (n == null ? 0 : n);
-      }
-    }
 
-    const body = backdrop.querySelector("#kpi-modal-body");
+    function renderForYear(year) {
+        // Pull aggregated row for KPIs for THIS year (does not touch global year filter)
+        const aggRow = (window.DATA || []).find(
+        r =>
+            String(r.country_code || "").toUpperCase() === code &&
+            Number(r.year) === Number(year)
+        );
 
-    function renderTable() {
-      const rows = details.slice();
+        const countryName = aggRow?.country || code;
 
-      if (sortKey) {
-        rows.sort((a, b) => {
-          const av = a[sortKey];
-          const bv = b[sortKey];
+        const k = {
+        country: countryName,
+        year,
+        perc_tracked_renewables: aggRow?.perc_tracked_renewables ?? null,
+        perc_green: aggRow?.perc_green ?? null,
+        total_generation: aggRow?.total_generation ?? null
+        };
 
-          // numeric if possible
-          if (numericCols.has(sortKey) || String(sortKey).startsWith("perc_")) {
-            const an = parseNum(av) ?? 0;
-            const bn = parseNum(bv) ?? 0;
-            return (an - bn) * sortDir;
-          }
+        // Details for this year
+        const details = (window.DATA_DETAIL || []).filter(
+        r =>
+            String(r.country_code || "").toUpperCase() === code &&
+            Number(r.year) === Number(year)
+        );
 
-          // string
-          return String(av ?? "").localeCompare(String(bv ?? "")) * sortDir;
-        });
-      }
+        const cols = details.length
+        ? Object.keys(details[0]).filter((c) => !HIDDEN_DETAIL_COLUMNS.has(c))
+        : [
+            "energy_source",
+            "class",
+            "certified_mix",
+            "issuance_ext",
+            "issuance_irec",
+            "residual_mix",
+            "total_generation",
+            "total_co2",
+            "method"
+            ];
 
-      const thead = `
-        <thead>
-          <tr>
-            ${cols
-              .map((c) => {
-                const unit = UNITS[c] ? ` <span style="font-weight:400;color:#666;">(${UNITS[c]})</span>` : "";
-                const ind = sortKey === c ? `<span class="sort-ind">${sortDir === 1 ? "▲" : "▼"}</span>` : `<span class="sort-ind"></span>`;
-                return `<th data-sort="${c}">${prettifyColumn(c)}${unit}${ind}</th>`;
-              })
-              .join("")}
-          </tr>
-        </thead>
-      `;
+        // Color dot should reflect *current* map-color KPI key, but KPIs stay in fixed positions
+        const kpiVal = (() => {
+        const key = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+        const v = aggRow?.[key];
+        const n = v === "" || v == null ? null : (Number(String(v).replace(",", ".")) || 0);
+        return n;
+        })();
+        const kpiColor = colorForValue(kpiVal);
 
-      const tbodyRows = rows
-        .map((row) => {
-          const tds = cols
-            .map((c) => {
-              const v = row[c];
-              if (String(c).startsWith("perc_")) {
-                const n = parseNum(v);
-                return `<td>${n == null ? "-" : `${formatNum(n, 2)}%`}</td>`;
-              }
-              if (numericCols.has(c)) {
-                const n = parseNum(v);
-                // keep your high precision for row-level numbers
-                return `<td>${n == null ? (v === "" ? "-" : String(v)) : formatNum(n, 2)}</td>`;
-              }
-              return `<td>${v === "" || v == null ? "-" : String(v)}</td>`;
+        const colorKey =
+        window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+
+        const dot = (key) =>
+        key === colorKey
+            ? `<span style="display:inline-block; width:10px; height:10px; border-radius:999px; background:${kpiColor}; margin-right:8px; vertical-align:middle;"></span>`
+            : "";
+
+        const pctRenew =
+        k.perc_tracked_renewables == null
+            ? "-"
+            : `${formatNum(k.perc_tracked_renewables, 2)}%`;
+
+        const pctGreen =
+        k.perc_green == null ? "-" : `${formatNum(k.perc_green, 2)}%`;
+
+        const gen =
+        k.total_generation == null ? "-" : formatNum(k.total_generation, 2);
+
+        // Compute totals for numeric columns (for this year)
+        const totals = {};
+        for (const c of cols) if (numericCols.has(c)) totals[c] = 0;
+
+        for (const row of details) {
+        for (const c of cols) {
+            if (!numericCols.has(c)) continue;
+            const n = parseNum(row[c]);
+            totals[c] += (n == null ? 0 : n);
+        }
+        }
+
+        function renderTable() {
+        const rows = details.slice();
+
+        if (sortKey) {
+            rows.sort((a, b) => {
+            const av = a[sortKey];
+            const bv = b[sortKey];
+
+            if (numericCols.has(sortKey) || String(sortKey).startsWith("perc_")) {
+                const an = parseNum(av) ?? 0;
+                const bn = parseNum(bv) ?? 0;
+                return (an - bn) * sortDir;
+            }
+            return String(av ?? "").localeCompare(String(bv ?? "")) * sortDir;
+            });
+        }
+
+        const thead = `
+            <thead>
+            <tr>
+                ${cols
+                .map((c) => {
+                    const unit = UNITS[c]
+                    ? ` <span style="font-weight:400;color:#666;">(${UNITS[c]})</span>`
+                    : "";
+                    const ind =
+                    sortKey === c
+                        ? `<span class="sort-ind">${sortDir === 1 ? "▲" : "▼"}</span>`
+                        : `<span class="sort-ind"></span>`;
+                    return `<th data-sort="${c}">${prettifyColumn(c)}${unit}${ind}</th>`;
+                })
+                .join("")}
+            </tr>
+            </thead>
+        `;
+
+        const tbodyRows = rows
+            .map((row) => {
+            const tds = cols
+                .map((c) => {
+                const v = row[c];
+                if (String(c).startsWith("perc_")) {
+                    const n = parseNum(v);
+                    return `<td>${n == null ? "-" : `${formatNum(n, 2)}%`}</td>`;
+                }
+                if (numericCols.has(c)) {
+                    const n = parseNum(v);
+                    return `<td>${n == null ? (v === "" ? "-" : String(v)) : formatNum(n, 2)}</td>`;
+                }
+                return `<td>${v === "" || v == null ? "-" : String(v)}</td>`;
+                })
+                .join("");
+            return `<tr>${tds}</tr>`;
             })
             .join("");
-          return `<tr>${tds}</tr>`;
-        })
-        .join("");
 
-      const totalsRow = `
-        <tr class="kpi-totals-row">
-          ${cols
-            .map((c, idx) => {
-              if (idx === 0) return `<td>Totals</td>`;
-              if (!numericCols.has(c)) return `<td></td>`;
-              // totals should be readable: fewer decimals
-              return `<td>${formatNum(totals[c], c === "total_co2" ? 0 : 2)}</td>`;
-            })
-            .join("")}
-        </tr>
-      `;
+        const totalsRow = `
+            <tr class="kpi-totals-row">
+            ${cols
+                .map((c, idx) => {
+                if (idx === 0) return `<td>Totals</td>`;
+                if (!numericCols.has(c)) return `<td></td>`;
+                return `<td>${formatNum(totals[c], c === "total_co2" ? 0 : 2)}</td>`;
+                })
+                .join("")}
+            </tr>
+        `;
 
-      const table = `
-        <table class="kpi-table">
-          ${thead}
-          <tbody>
-            ${tbodyRows}
-            ${totalsRow}
-          </tbody>
-        </table>
-      `;
+        const table = `
+            <table class="kpi-table">
+            ${thead}
+            <tbody>
+                ${tbodyRows}
+                ${totalsRow}
+            </tbody>
+            </table>
+        `;
 
-      // Render + wire sorting
-      const tableWrap = body.querySelector("#kpi-table-wrap");
-      tableWrap.innerHTML = table;
+        const tableWrap = body.querySelector("#kpi-table-wrap");
+        tableWrap.innerHTML = table;
 
-      tableWrap.querySelectorAll("th[data-sort]").forEach((th) => {
-        th.addEventListener("click", () => {
-          const key = th.getAttribute("data-sort");
-          if (sortKey === key) sortDir = sortDir * -1;
-          else { sortKey = key; sortDir = -1; } // default: desc for “largest first”
-          renderTable();
+        tableWrap.querySelectorAll("th[data-sort]").forEach((th) => {
+            th.onclick = () => {
+            const key = th.getAttribute("data-sort");
+            if (sortKey === key) sortDir = sortDir * -1;
+            else { sortKey = key; sortDir = -1; }
+            renderTable();
+            };
         });
-      });
+        }
+
+        // Fixed KPI order: renewables, green, generation
+        body.innerHTML = `
+        <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+            <div class="kpi-card">
+            <div class="kpi-label">Tracked renewables</div>
+            <div class="kpi-value">${dot("perc_tracked_renewables")}${pctRenew}</div>
+            </div>
+
+            <div class="kpi-card">
+            <div class="kpi-label">Green share</div>
+            <div class="kpi-value">${dot("perc_green")}${pctGreen}</div>
+            </div>
+
+            <div class="kpi-card">
+            <div class="kpi-label">Total generation (MWh)</div>
+            <div class="kpi-value">${gen}</div>
+            </div>
+        </div>
+
+        <div id="kpi-table-wrap"></div>
+        `;
+
+        setTitle(countryName, year);
+        renderTable();
     }
 
-    body.innerHTML = `
-      <div class="kpi-grid">
-        <div class="kpi-card">
-          <div class="kpi-label">Tracked renewables</div>
-          <div class="kpi-value">
-            <span style="display:inline-block; width:10px; height:10px; border-radius:999px; background:${kpiColor}; margin-right:8px; vertical-align:middle;"></span>
-            ${pct}
-          </div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-label">Total generation (MWh)</div>
-          <div class="kpi-value">${gen}</div>
-        </div>
-      </div>
-
-      <div id="kpi-table-wrap"></div>
-    `;
-
-    renderTable();
+    // First render
+    renderForYear(currentYear);
 
     // animate in
     requestAnimationFrame(() => {
-      backdrop.classList.add("open");
-      modal.classList.add("open");
+        backdrop.classList.add("open");
+        modal.classList.add("open");
     });
-  }
+    }
 
   // -----------------------------
   // Public API
@@ -429,34 +540,49 @@
     });
 
     mapInstance.on("mousemove", layerId, (e) => {
-      const feature = e.features && e.features[0];
-      if (!feature) return;
+        const feature = e.features && e.features[0];
+        if (!feature) return;
 
-      const code = (feature.properties && feature.properties.id || "")
-        .toString()
-        .toUpperCase();
+        const code = (feature.properties && feature.properties.id || "")
+            .toString()
+            .toUpperCase();
 
-      const rows = (window.DATA || []).filter(r => (r.country_code || "").toUpperCase() === code);
-      if (!rows.length) {
-        popup.setLngLat(e.lngLat).setHTML(`<strong>${code}</strong><br/><em>No data for current filters</em>`).addTo(mapInstance);
-        return;
-      }
+        const hasDataForFilters = !!feature.properties?.hasDataForFilters;
 
-      const k = getKpis(code);
-      const kpiVal = getKpiValue(code);
-      const kpiColor = colorForValue(kpiVal);
-      popup.setLngLat(e.lngLat).setHTML(buildPopupHtml(k, kpiColor)).addTo(mapInstance);
+        // ✅ If filtered out, show "no data" and do NOT render KPI popup
+        if (!hasDataForFilters) {
+            popup
+            .setLngLat(e.lngLat)
+            .setHTML(
+                `<div style="font-family:Arial,sans-serif;font-size:12px;padding:10px;min-width:220px;">
+                <div style="font-weight:700;margin-bottom:6px;">${feature.properties?.display_name || code}</div>
+                <div style="color:#666;font-size:11px;">No data for current filters</div>
+                </div>`
+            )
+            .addTo(mapInstance);
+            return;
+        }
+
+        // ✅ Only now compute KPIs/details
+        const k = getKpis(code);
+        const kpiVal = getKpiValue(code);
+        const kpiColor = colorForValue(kpiVal);
+
+        popup.setLngLat(e.lngLat).setHTML(buildPopupHtml(k, kpiColor)).addTo(mapInstance);
     });
 
     mapInstance.on("click", layerId, (e) => {
-      const feature = e.features && e.features[0];
-      if (!feature) return;
+    const feature = e.features && e.features[0];
+    if (!feature) return;
 
-      const code = (feature.id || feature.properties?.id || "")
+    const hasDataForFilters = !!feature.properties?.hasDataForFilters;
+    if (!hasDataForFilters) return; // ✅ don't open modal for filtered-out countries
+
+    const code = (feature.id || feature.properties?.id || "")
         .toString()
         .toUpperCase();
 
-      if (code) openDetailsModal(code);
+    if (code) openDetailsModal(code);
     });
   }
 

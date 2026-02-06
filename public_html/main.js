@@ -9,7 +9,7 @@ window.state = {
     year: "",
     methodologies: [], // mapped to energy_source
     regions: [],
-    country: ""
+    country: []
   }
 };
 
@@ -24,6 +24,20 @@ window.filterControls = {
 // -------------------------
 // DYNAMIC FILTER OPTIONS
 // -------------------------
+
+let suppressFilterChange = false;
+// schedule render once per tick (collapses 60+ changes into 1)
+let renderQueued = false;
+function scheduleRender() {
+  if (renderQueued) return;
+  renderQueued = true;
+  requestAnimationFrame(() => {
+    renderQueued = false;
+    extractFilters();
+    render();
+  });
+}
+
 function buildFiltersFromData() {
   const yearEl = document.getElementById("filter-year");
   const methEl = document.getElementById("filter-methodology");
@@ -48,7 +62,7 @@ function buildFiltersFromData() {
   if (yearEl && yearEl.tagName === "SELECT") {
     yearEl.innerHTML = "";
     Array.from(yearSet)
-      .sort((a, b) => a - b)
+      .sort((a, b) => b - a)
       .forEach((year) => {
         const opt = document.createElement("option");
         opt.value = String(year);
@@ -86,9 +100,11 @@ function buildFiltersFromData() {
 
 function initFilterMultiSelects() {
   const onAnyFilterChange = () => {
-    extractFilters();
-    render();
+    if (suppressFilterChange) return;
+    scheduleRender();
   };
+
+  // ... keep others, but point onChange to onAnyFilterChange
 
   const yearSelect = document.getElementById("filter-year");
   if (yearSelect) {
@@ -121,10 +137,29 @@ function initFilterMultiSelects() {
   const countrySelect = document.getElementById("filter-country");
   if (countrySelect) {
     window.filterControls.country = new MultiSelect(countrySelect, {
-      max: 1,
       listAll: false,
       search: true,
-      onChange: onAnyFilterChange
+      selectAll: true,
+      // normal changes
+      onChange: () => onAnyFilterChange(),
+
+      // bulk operations: suppress until the library finishes toggling options
+      onSelectAll: () => {
+        suppressFilterChange = true;
+        // allow internal loop to complete; then do ONE update
+        setTimeout(() => {
+          suppressFilterChange = false;
+          scheduleRender();
+        }, 0);
+      },
+
+      onUnselectAll: () => {
+        suppressFilterChange = true;
+        setTimeout(() => {
+          suppressFilterChange = false;
+          scheduleRender();
+        }, 0);
+      }
     });
   }
 }
@@ -149,11 +184,16 @@ function extractFilters() {
   // Multi: regions
   state.filters.regions = fc.region ? fc.region.selectedValues.slice() : [];
 
-  // Single country: first selected value if any
-  state.filters.country =
-    fc.country && fc.country.selectedValues.length
-      ? String(fc.country.selectedValues[0])
-      : "";
+  // Countries (multi-select)
+  state.filters.countries = fc.country ? fc.country.selectedValues.slice() : [];
+
+  // If all countries selected, treat it as "no filter"
+  if (window.filterControls.country) {
+    const total = window.filterControls.country.options?.length;
+    if (total && state.filters.countries.length === total) {
+      state.filters.countries = [];
+    }
+  }
 }
 
 // -------------------------
@@ -164,7 +204,9 @@ window.getFilteredData = function getFilteredData() {
 
   return window.DATA.filter((row) => {
     if (f.year && row.year.toString() !== f.year) return false;
-    if (f.country && row.country_code !== f.country) return false;
+    if (f.countries.length && !f.countries.includes(String(row.country_code).toUpperCase())) {
+      return false;
+    }
 
     if (f.methodologies.length && !f.methodologies.includes(row.energy_source)) {
       return false;
