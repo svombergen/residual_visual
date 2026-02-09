@@ -1,8 +1,11 @@
 // view-map.js
 // Depends on: state, getFilteredData, maplibregl
 
-const URL_WORLD_GEO =
-  "./lib/countries.high.geojson";
+const URL_WORLD_GEO_LOW  = "./lib/countries.geojson";
+const URL_WORLD_GEO_HIGH = "./lib/countries.high.geojson";
+
+// Kick off low-res fetch immediately (don't wait for map load)
+const _preloadedGeoJson = fetch(URL_WORLD_GEO_LOW).then(r => r.json());
 
 let mapInstance = null;
 let worldGeojsonOriginal = null;
@@ -80,24 +83,15 @@ function initMap() {
     mapInstance.addControl(new maplibregl.NavigationControl(), "top-right");
 
     mapInstance.on("load", async () => {
+      // 1. Use preloaded low-res GeoJSON (already fetching since page load)
       try {
-        if (window.WORLD_COUNTRIES) {
-          worldGeojsonOriginal = window.WORLD_COUNTRIES;
-        } else {
-          const res = await fetch(URL_WORLD_GEO);
-          worldGeojsonOriginal = await res.json();
-        }
+        worldGeojsonOriginal = await _preloadedGeoJson;
       } catch (err) {
-        console.error("Failed to load world countries geojson", err);
+        console.error("Failed to load low-res geojson", err);
         return resolve();
       }
 
-      worldGeojsonOriginal.features.forEach(f => {
-        let p = f.properties || {};
-        p.id = f.id;
-        p.display_name = p.display_name || p.name || p.NAME_EN || p.ADMIN || (f.id || "");
-        f.properties = p;
-      });
+      prepareGeojsonProperties(worldGeojsonOriginal);
 
       mapInstance.addSource("countries", {
         type: "geojson",
@@ -112,7 +106,6 @@ function initMap() {
           "fill-color": [
           "case",
           ["==", ["get", "hasDataForFilters"], true],
-          // soft gradient stops (match CountryUI defaults)
           ["interpolate", ["linear"], ["coalesce", ["get", "kpi_value"], 0],
             0,   "#F7EFC6",
             10,  "#F3DC9C",
@@ -138,8 +131,32 @@ function initMap() {
 
       setupMapInteractions();
       resolve();
+
+      // 2. Upgrade to high-res in the background
+      upgradeToHighRes();
     });
   });
+}
+
+function prepareGeojsonProperties(geojson) {
+  geojson.features.forEach(f => {
+    let p = f.properties || {};
+    p.id = f.id;
+    p.display_name = p.display_name || p.name || p.NAME_EN || p.ADMIN || (f.id || "");
+    f.properties = p;
+  });
+}
+
+async function upgradeToHighRes() {
+  try {
+    const res = await fetch(URL_WORLD_GEO_HIGH);
+    const highRes = await res.json();
+    prepareGeojsonProperties(highRes);
+    worldGeojsonOriginal = highRes;
+    updateMapColors();
+  } catch (err) {
+    console.warn("High-res geojson failed to load, keeping low-res", err);
+  }
 }
 
 function updateMapColors() {
