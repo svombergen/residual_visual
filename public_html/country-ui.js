@@ -180,7 +180,7 @@
             </div>
 
             <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Green share</div>
+            <div style="font-size:11px; color:#666; margin-bottom:4px;">Renewables share</div>
             <div style="font-size:15px; font-weight:800; color:#111;">
                 ${dot("perc_green")}${pctGreen}
             </div>
@@ -494,7 +494,7 @@
             </div>
 
             <div class="kpi-card">
-            <div class="kpi-label">Green share</div>
+            <div class="kpi-label">Renewables share</div>
             <div class="kpi-value">${dot("perc_green")}${pctGreen}</div>
             </div>
 

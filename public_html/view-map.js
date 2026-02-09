@@ -23,15 +23,58 @@ window.renderMapView = async function renderMapView() {
   setupKpiOverlaySwitch();
 };
 
+const COUNTRY_CENTERS = {
+  AF:[67,33],AL:[20,41],DZ:[3,28],AR:[-64,-34],AM:[45,40],AU:[134,-25],
+  AT:[14,48],AZ:[50,41],BD:[90,24],BY:[28,53],BE:[4,51],BA:[18,44],
+  BR:[-52,-10],BG:[25,43],CA:[-96,56],CL:[-71,-30],CN:[105,35],CO:[-72,4],
+  HR:[16,46],CZ:[15,50],DK:[10,56],EC:[-78,-2],EG:[30,27],EE:[26,59],
+  ET:[40,9],FI:[26,64],FR:[2,47],GE:[44,42],DE:[10,51],GH:[-2,8],
+  GR:[22,39],HU:[20,47],IS:[-19,65],IN:[79,21],ID:[120,-5],IR:[53,32],
+  IQ:[44,33],IE:[-8,53],IL:[35,31],IT:[12,42],JP:[138,36],JO:[36,31],
+  KZ:[67,48],KE:[38,1],KR:[128,36],KW:[48,29],LV:[25,57],LT:[24,56],
+  MY:[102,4],MX:[-102,24],MA:[-6,32],NL:[5,52],NZ:[174,-41],NG:[8,10],
+  NO:[9,62],PK:[69,30],PE:[-76,-10],PH:[122,13],PL:[20,52],PT:[-8,40],
+  RO:[25,46],RU:[100,60],SA:[45,24],RS:[21,44],SG:[104,1],SK:[19,49],
+  SI:[15,46],ZA:[25,-29],ES:[-4,40],SE:[16,62],CH:[8,47],TW:[121,24],
+  TH:[101,15],TR:[35,39],UA:[32,49],AE:[54,24],GB:[-2,54],US:[-97,38],
+  VN:[108,16],ZW:[30,-19]
+};
+
+function getLocaleCenter() {
+  try {
+    const locale = navigator.language || navigator.userLanguage || "";
+    const parts = locale.split("-");
+    const code = (parts.length > 1 ? parts[parts.length - 1] : parts[0]).toUpperCase();
+    const coords = COUNTRY_CENTERS[code];
+    if (coords) return coords;
+  } catch (e) { /* fall through */ }
+  return null;
+}
+
+async function getUserCenter() {
+  try {
+    const resp = await fetch("https://ipapi.co/json/");
+    const data = await resp.json();
+    const lat = parseFloat(data.latitude);
+    const lon = parseFloat(data.longitude);
+    console.info("Centering to country", data.country_code);
+    if (!isNaN(lat) && !isNaN(lon)) return [lon, lat];
+  } catch (e) { console.info("Failing IP location", e); }
+  return getLocaleCenter() || [7.3, 53.6];
+}
+
 function initMap() {
   return new Promise(async (resolve) => {
+    const center = await getUserCenter();
+
     mapInstance = new maplibregl.Map({
       container: "map-container",
       style: "maplibre_style.json",
-      center: [7.3, 53.6],
+      center: center,
       zoom: 3.3,
       minZoom: 2,
-      maxZoom: 4
+      maxZoom: 4,
+      // maxBounds: [[-180, -60], [180, 75]]
     });
 
     mapInstance.addControl(new maplibregl.NavigationControl(), "top-right");

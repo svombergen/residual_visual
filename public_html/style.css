@@ -1,0 +1,184 @@
+/* ==========================================================================
+   Residual Mix Visualization – Main Stylesheet
+   ========================================================================== */
+
+/* --- Base / Reset --- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* --- Topbar --- */
+#topbar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+  height: 60px;
+}
+
+/* --- Filters --- */
+#filters {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+#filters > div {
+  width: 155px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#filters label {
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+}
+
+#filters select {
+  width: 155px;
+  height: 30px;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+
+/* --- Export button --- */
+#button_export {
+  width: 155px;
+  height: 30px;
+  min-height: var(--input-min-height);
+  padding: 0 var(--spacing-small);
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--text-color-dark);
+  background: var(--checkbox-background);
+  border: 1px solid var(--input-border);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+#button_export:focus {
+  outline: none;
+  border-color: #bfbfbf;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+/* --- MultiSelect overrides --- */
+.multi-select-container {
+  width: 155px !important;
+  height: 30px !important;
+  min-height: 30px !important;
+  box-sizing: border-box;
+}
+
+.multi-select-header {
+  width: 155px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  padding: 0 6px !important;
+  box-sizing: border-box;
+}
+
+.multi-select-options {
+  width: 155px !important;
+}
+
+/* --- Map view --- */
+#view-map {
+  display: block;
+  padding: 20px;
+}
+
+#map-container {
+  width: 100%;
+  height: 650px;
+  border: none;
+  border-radius: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* --- Map popups --- */
+.maplibregl-popup {
+  max-width: none !important;
+}
+
+.maplibregl-popup-content {
+  max-width: none !important;
+  width: auto !important;
+  min-width: 440px !important;
+  padding: 0 !important;
+}
+
+.maplibregl-ctrl-top-right {
+  top: 50% !important;
+  right: 12px;
+  transform: translateY(-50%);
+}
+
+/* --- KPI overlay --- */
+#kpi-overlay {
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  top: auto;
+  transform: translateX(-50%);
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 8px 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+  backdrop-filter: blur(4px);
+  font-family: Arial, sans-serif;
+}
+
+#kpi-overlay label {
+  display: block;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+#kpi-overlay select {
+  width: 180px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  background: #e9e9ed;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+/* ==========================================================================
+   Mobile / Responsive
+   TODO: Implement mobile layout
+   ==========================================================================
+
+@media (max-width: 768px) {
+  #topbar        {}
+  #filters       {}
+  #filters > div {}
+  #map-container {}
+  .maplibregl-popup-content {}
+  #kpi-overlay   {}
+}
+
+   ========================================================================== */

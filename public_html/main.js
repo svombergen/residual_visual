@@ -35,6 +35,7 @@ function scheduleRender() {
     renderQueued = false;
     extractFilters();
     render();
+    updateRowsCountLabel();
   });
 }
 
@@ -216,6 +217,153 @@ window.getFilteredData = function getFilteredData() {
     return true;
   });
 };
+
+// -------------------------
+// Download functions
+// -------------------------
+function normalizeCode(v) {
+  return String(v || "").toUpperCase().trim();
+}
+
+function parseNumLoose(v) {
+  if (v == null || v === "") return null;
+  const s = String(v).trim().replace(/\./g, "").replace(",", "."); // handles "1.234,56" and "12,34"
+  const n = Number(s);
+  return Number.isFinite(n) ? n : null;
+}
+
+function getSelectedFilters() {
+  const f = window.state?.filters || {};
+  return {
+    year: f.year ? Number(f.year) : null,
+    methodologies: Array.isArray(f.methodologies) ? f.methodologies.map(String) : [],
+    // if you renamed it to countries (multi-select), support both:
+    countries: Array.isArray(f.countries) ? f.countries.map(normalizeCode)
+             : (f.country ? [normalizeCode(f.country)] : []),
+    regions: Array.isArray(f.regions) ? f.regions.map(String) : []
+  };
+}
+
+// Apply current filters to detail rows
+function getFilteredDetailRows() {
+  const { year, methodologies, countries, regions } = getSelectedFilters();
+  const rows = window.DATA_DETAIL || [];
+
+  return rows.filter((r) => {
+    // year
+    if (year != null && Number(r.year) !== year) return false;
+
+    // country_code (multi)
+    if (countries.length) {
+      const code = normalizeCode(r.country_code);
+      if (!countries.includes(code)) return false;
+    }
+
+    // methodology / energy_source
+    // NOTE: your UI label says "Energy Source", but the filter name is methodologies.
+    // In your data, it is "energy_source". We match against that.
+    if (methodologies.length) {
+      const es = String(r.energy_source || "");
+      if (!methodologies.includes(es)) return false;
+    }
+
+    // region (only if you actually have r.region in detail rows)
+    if (regions.length && r.region != null && r.region !== "") {
+      if (!regions.includes(String(r.region))) return false;
+    }
+
+    return true;
+  });
+}
+
+// Optional: turn number-like strings into real numbers in Excel columns
+const EXCEL_NUMBER_COLUMNS = new Set([
+  "certified_mix",
+  "issuance_ext",
+  "issuance_irec",
+  "residual_mix",
+  "total_generation",
+  "total_co2",
+  "emission_factor",
+  "perc_tracked_total",
+  "perc_tracked_renewables",
+  "perc_green"
+]);
+
+function toExcelRow(r) {
+  const out = { ...r };
+  for (const k of Object.keys(out)) {
+    if (EXCEL_NUMBER_COLUMNS.has(k)) {
+      const n = parseNumLoose(out[k]);
+      if (n != null) out[k] = n; // keep blanks as blank
+    }
+  }
+  return out;
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function exportFilteredDetailsToXlsx() {
+  if (!window.XLSX) {
+    alert("XLSX library not loaded. Add the SheetJS script tag.");
+    return;
+  }
+
+  const filtered = getFilteredDetailRows().map(toExcelRow);
+
+  // Workbook
+  const wb = XLSX.utils.book_new();
+
+  // Details sheet
+  const wsDetails = XLSX.utils.json_to_sheet(filtered);
+  XLSX.utils.book_append_sheet(wb, wsDetails, "Details");
+
+  // Optional: Aggregated sheet that matches current filters too (year + countries)
+  const { year, countries } = getSelectedFilters();
+  const agg = (window.DATA || []).filter((r) => {
+    if (year != null && Number(r.year) !== year) return false;
+    if (countries.length && !countries.includes(normalizeCode(r.country_code))) return false;
+    return true;
+  });
+  if (agg.length) {
+    const wsAgg = XLSX.utils.json_to_sheet(agg.map(toExcelRow));
+    XLSX.utils.book_append_sheet(wb, wsAgg, "Aggregated");
+  }
+
+  const yyyy = new Date().toISOString().slice(0, 10);
+  const { year: y } = getSelectedFilters();
+  const filename = `export_${yyyy}${y ? `_year-${y}` : ""}.xlsx`;
+
+  const arrayBuf = XLSX.write(wb, { bookType: "xlsx", type: "array" });
+  const blob = new Blob([arrayBuf], {
+    type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  });
+
+  downloadBlob(blob, filename);
+}
+
+function updateRowsCountLabel() {
+  const el = document.getElementById("rows-count-label");
+  if (!el) return;
+
+  const n = getFilteredDetailRows().length;
+  el.textContent = `${n} rows`;
+}
+
+// Wire the button
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("button_export");
+  if (btn) btn.addEventListener("click", exportFilteredDetailsToXlsx);
+});
 
 // -------------------------
 // RENDER (map only)
