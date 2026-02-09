@@ -76,30 +76,37 @@
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
 
+        // Inject CSS
         doc.querySelectorAll('head style, head link[rel="stylesheet"]').forEach(el => {
           document.head.appendChild(el.cloneNode(true));
         });
 
+        // Inject HTML (skip scripts)
         const main = document.getElementById('embed-content');
         Array.from(doc.body.children).forEach(child => {
           if (child.tagName !== 'SCRIPT') main.appendChild(document.importNode(child, true));
         });
 
+        // Load scripts: await sync scripts in order, fire-and-forget async ones
         const scripts = doc.querySelectorAll('body script');
         for (const orig of scripts) {
-          await new Promise((resolve, reject) => {
-            const s = document.createElement('script');
-            if (orig.src) {
-              s.src = orig.src;
-              if (orig.async) s.async = true;
-              s.onload = resolve;
-              s.onerror = reject;
+          const s = document.createElement('script');
+          if (orig.src) {
+            s.src = orig.src;
+            if (orig.hasAttribute('async')) {
+              s.async = true;
+              document.body.appendChild(s);
             } else {
-              s.textContent = orig.textContent;
+              await new Promise((resolve, reject) => {
+                s.onload = resolve;
+                s.onerror = reject;
+                document.body.appendChild(s);
+              });
             }
+          } else {
+            s.textContent = orig.textContent;
             document.body.appendChild(s);
-            if (!orig.src) resolve();
-          });
+          }
         }
       })();
     </script>
