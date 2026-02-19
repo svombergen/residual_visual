@@ -9,6 +9,53 @@ const _preloadedGeoJson = fetch(URL_WORLD_GEO_LOW).then(r => r.json());
 
 let mapInstance = null;
 let worldGeojsonOriginal = null;
+let initialMapCenter = null;
+const INITIAL_ZOOM = 3.3;
+
+class CustomNavControl {
+  constructor(center, zoom) {
+    this._center = center;
+    this._zoom = zoom;
+  }
+
+  onAdd(map) {
+    this._map = map;
+    this._container = document.createElement("div");
+    this._container.className = "maplibregl-ctrl maplibregl-ctrl-group";
+
+    const btn = (className, label, onClick, svgContent) => {
+      const b = document.createElement("button");
+      b.className = className;
+      b.type = "button";
+      b.title = label;
+      b.setAttribute("aria-label", label);
+      b.innerHTML = svgContent;
+      b.addEventListener("click", onClick);
+      return b;
+    };
+
+    const zoomInSvg  = `<span class="maplibregl-ctrl-icon" aria-hidden="true"></span>`;
+    const zoomOutSvg = `<span class="maplibregl-ctrl-icon" aria-hidden="true"></span>`;
+    const recenterSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <circle cx="10" cy="10" r="4"/>
+      <line x1="10" y1="1" x2="10" y2="5.5"/>
+      <line x1="10" y1="14.5" x2="10" y2="19"/>
+      <line x1="1" y1="10" x2="5.5" y2="10"/>
+      <line x1="14.5" y1="10" x2="19" y2="10"/>
+    </svg>`;
+
+    this._container.appendChild(btn("maplibregl-ctrl-zoom-in",  "Zoom in",      () => map.zoomIn(),  zoomInSvg));
+    this._container.appendChild(btn("maplibregl-ctrl-recenter", "Re-center map", () => map.easeTo({ center: this._center, zoom: this._zoom }), recenterSvg));
+    this._container.appendChild(btn("maplibregl-ctrl-zoom-out", "Zoom out",     () => map.zoomOut(), zoomOutSvg));
+
+    return this._container;
+  }
+
+  onRemove() {
+    this._container.parentNode?.removeChild(this._container);
+    this._map = undefined;
+  }
+}
 
 const KPI_COLOR_STOPS = [
   { v: 0,   c: "#F7EFC6" },
@@ -68,19 +115,19 @@ async function getUserCenter() {
 
 function initMap() {
   return new Promise(async (resolve) => {
-    const center = await getUserCenter();
+    initialMapCenter = await getUserCenter();
 
     mapInstance = new maplibregl.Map({
       container: "map-container",
       style: "maplibre_style.json",
-      center: center,
-      zoom: 3.3,
+      center: initialMapCenter,
+      zoom: INITIAL_ZOOM,
       minZoom: 2,
       maxZoom: 4,
       // maxBounds: [[-180, -60], [180, 75]]
     });
 
-    mapInstance.addControl(new maplibregl.NavigationControl(), "top-right");
+    mapInstance.addControl(new CustomNavControl(initialMapCenter, INITIAL_ZOOM), "top-right");
 
     mapInstance.on("load", async () => {
       // 1. Use preloaded low-res GeoJSON (already fetching since page load)
@@ -154,6 +201,7 @@ async function upgradeToHighRes() {
     prepareGeojsonProperties(highRes);
     worldGeojsonOriginal = highRes;
     updateMapColors();
+    updateRowsCountLabel(); // piggyback this here, we expect the data_detail to have finished loading before high res world
   } catch (err) {
     console.warn("High-res geojson failed to load, keeping low-res", err);
   }
@@ -174,8 +222,12 @@ function updateMapColors() {
   const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
 
   // Map KPI per country from aggregated DATA (not from detail rows)
+  // Map always shows the latest selected year only
   const agg = window.DATA || [];
-  const yearFilter = window.state?.filters?.year ? Number(window.state.filters.year) : null;
+  const selectedYears = window.state?.filters?.years;
+  const yearFilter = selectedYears && selectedYears.length
+    ? Math.max(...selectedYears.map(Number))
+    : null;
 
   const kpiByCode = new Map();
   for (const row of agg) {

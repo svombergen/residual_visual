@@ -133,6 +133,13 @@ body {
   transform: translateY(-50%);
 }
 
+/* Re-center button: centre the inline SVG the same way MapLibre centres its sprite icons */
+.maplibregl-ctrl-recenter {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
 /* --- KPI overlay --- */
 #kpi-overlay {
   position: absolute;

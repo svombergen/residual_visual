@@ -28351,4 +28351,4 @@ window.DATA_DETAIL = [
     "total_generation": "0,000159",
     "total_co2": "0,005172"
   }
-]
+];

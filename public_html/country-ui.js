@@ -111,8 +111,10 @@
     key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
   const pickYearForCountry = (code) => {
-    const y = window.state?.filters?.year;
-    if (y) return Number(y);
+    const selectedYears = window.state?.filters?.years;
+    if (selectedYears && selectedYears.length) {
+      return Math.max(...selectedYears.map(Number));
+    }
 
     const rows = (window.DATA || []).filter(
       (r) => (r.country_code || "").toUpperCase() === code
@@ -261,8 +263,11 @@
     const years = Array.from(new Set([...(yearsFromAgg.length ? yearsFromAgg : []), ...yearsFromDetail]))
         .sort((a, b) => a - b);
 
-    // Initial year = current global filter if it exists AND country has it, else latest available
-    const globalYear = window.state?.filters?.year ? Number(window.state.filters.year) : null;
+    // Initial year = latest selected year if it exists AND country has it, else latest available
+    const selectedYears = window.state?.filters?.years;
+    const globalYear = selectedYears && selectedYears.length
+        ? Math.max(...selectedYears.map(Number))
+        : null;
     let currentYear = (globalYear != null && years.includes(globalYear))
         ? globalYear
         : (years.length ? years[years.length - 1] : null);

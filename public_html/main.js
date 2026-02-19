@@ -6,8 +6,7 @@
 // Shared application state (map-only)
 window.state = {
   filters: {
-    year: "",
-    methodologies: [], // mapped to energy_source
+    years: [],   // multi-select; map uses only the latest
     regions: [],
     country: []
   }
@@ -16,7 +15,6 @@ window.state = {
 // Globals for MultiSelect filter widgets
 window.filterControls = {
   year: null,
-  methodology: null,
   region: null,
   country: null
 };
@@ -41,25 +39,22 @@ function scheduleRender() {
 
 function buildFiltersFromData() {
   const yearEl = document.getElementById("filter-year");
-  const methEl = document.getElementById("filter-methodology");
   const countryEl = document.getElementById("filter-country");
 
   if (!window.DATA || !Array.isArray(window.DATA)) return;
 
   const yearSet = new Set();
-  const sourceSet = new Set();
   const countryMap = new Map(); // code -> name
 
   for (const row of window.DATA) {
     if (row.year != null) yearSet.add(row.year);
-    if (row.energy_source) sourceSet.add(row.energy_source);
     if (row.country_code && row.country) {
       const code = String(row.country_code).toUpperCase();
       if (!countryMap.has(code)) countryMap.set(code, row.country);
     }
   }
 
-  // Years (single-select)
+  // Years (multi-select)
   if (yearEl && yearEl.tagName === "SELECT") {
     yearEl.innerHTML = "";
     Array.from(yearSet)
@@ -69,19 +64,6 @@ function buildFiltersFromData() {
         opt.value = String(year);
         opt.textContent = String(year);
         yearEl.appendChild(opt);
-      });
-  }
-
-  // Methodologies / energy sources (multi-select)
-  if (methEl && methEl.tagName === "SELECT") {
-    methEl.innerHTML = "";
-    Array.from(sourceSet)
-      .sort()
-      .forEach((source) => {
-        const opt = document.createElement("option");
-        opt.value = source;
-        opt.textContent = source;
-        methEl.appendChild(opt);
       });
   }
 
@@ -110,18 +92,8 @@ function initFilterMultiSelects() {
   const yearSelect = document.getElementById("filter-year");
   if (yearSelect) {
     window.filterControls.year = new MultiSelect(yearSelect, {
-      max: 1,
       listAll: false,
       search: false,
-      onChange: onAnyFilterChange
-    });
-  }
-
-  const methSelect = document.getElementById("filter-methodology");
-  if (methSelect) {
-    window.filterControls.methodology = new MultiSelect(methSelect, {
-      search: true,
-      selectAll: true,
       onChange: onAnyFilterChange
     });
   }
@@ -171,15 +143,9 @@ function initFilterMultiSelects() {
 function extractFilters() {
   const fc = window.filterControls;
 
-  // Single year: take first selected value if any
-  state.filters.year =
-    fc.year && fc.year.selectedValues.length
-      ? String(fc.year.selectedValues[0])
-      : "";
-
-  // Multi: methodologies
-  state.filters.methodologies = fc.methodology
-    ? fc.methodology.selectedValues.slice()
+  // Multi-year: collect all selected years
+  state.filters.years = fc.year
+    ? fc.year.selectedValues.map(String)
     : [];
 
   // Multi: regions
@@ -203,13 +169,15 @@ function extractFilters() {
 window.getFilteredData = function getFilteredData() {
   const f = state.filters;
 
-  return window.DATA.filter((row) => {
-    if (f.year && row.year.toString() !== f.year) return false;
-    if (f.countries.length && !f.countries.includes(String(row.country_code).toUpperCase())) {
-      return false;
-    }
+  // No years selected → nothing to show on the map
+  if (!f.years || !f.years.length) return [];
 
-    if (f.methodologies.length && !f.methodologies.includes(row.energy_source)) {
+  // Map shows only the latest selected year (no aggregation across years)
+  const mapYear = String(Math.max(...f.years.map(Number)));
+
+  return window.DATA.filter((row) => {
+    if (row.year.toString() !== mapYear) return false;
+    if (f.countries.length && !f.countries.includes(String(row.country_code).toUpperCase())) {
       return false;
     }
 
@@ -235,9 +203,7 @@ function parseNumLoose(v) {
 function getSelectedFilters() {
   const f = window.state?.filters || {};
   return {
-    year: f.year ? Number(f.year) : null,
-    methodologies: Array.isArray(f.methodologies) ? f.methodologies.map(String) : [],
-    // if you renamed it to countries (multi-select), support both:
+    years: Array.isArray(f.years) ? f.years.map(Number).filter(Number.isFinite) : [],
     countries: Array.isArray(f.countries) ? f.countries.map(normalizeCode)
              : (f.country ? [normalizeCode(f.country)] : []),
     regions: Array.isArray(f.regions) ? f.regions.map(String) : []
@@ -246,25 +212,17 @@ function getSelectedFilters() {
 
 // Apply current filters to detail rows
 function getFilteredDetailRows() {
-  const { year, methodologies, countries, regions } = getSelectedFilters();
+  const { years, countries, regions } = getSelectedFilters();
   const rows = window.DATA_DETAIL || [];
 
   return rows.filter((r) => {
-    // year
-    if (year != null && Number(r.year) !== year) return false;
+    // years: no selection = no rows; otherwise row must be in the selected set
+    if (!years.length || !years.includes(Number(r.year))) return false;
 
     // country_code (multi)
     if (countries.length) {
       const code = normalizeCode(r.country_code);
       if (!countries.includes(code)) return false;
-    }
-
-    // methodology / energy_source
-    // NOTE: your UI label says "Energy Source", but the filter name is methodologies.
-    // In your data, it is "energy_source". We match against that.
-    if (methodologies.length) {
-      const es = String(r.energy_source || "");
-      if (!methodologies.includes(es)) return false;
     }
 
     // region (only if you actually have r.region in detail rows)
@@ -327,10 +285,10 @@ function exportFilteredDetailsToXlsx() {
   const wsDetails = XLSX.utils.json_to_sheet(filtered);
   XLSX.utils.book_append_sheet(wb, wsDetails, "Details");
 
-  // Optional: Aggregated sheet that matches current filters too (year + countries)
-  const { year, countries } = getSelectedFilters();
+  // Optional: Aggregated sheet that matches current filters too (years + countries)
+  const { years, countries } = getSelectedFilters();
   const agg = (window.DATA || []).filter((r) => {
-    if (year != null && Number(r.year) !== year) return false;
+    if (years.length && !years.includes(Number(r.year))) return false;
     if (countries.length && !countries.includes(normalizeCode(r.country_code))) return false;
     return true;
   });
@@ -340,8 +298,8 @@ function exportFilteredDetailsToXlsx() {
   }
 
   const yyyy = new Date().toISOString().slice(0, 10);
-  const { year: y } = getSelectedFilters();
-  const filename = `export_${yyyy}${y ? `_year-${y}` : ""}.xlsx`;
+  const yearsLabel = years.length ? `_year-${years.slice().sort().join(",")}` : "";
+  const filename = `export_${yyyy}${yearsLabel}.xlsx`;
 
   const arrayBuf = XLSX.write(wb, { bookType: "xlsx", type: "array" });
   const blob = new Blob([arrayBuf], {
