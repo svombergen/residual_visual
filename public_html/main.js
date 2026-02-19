@@ -317,10 +317,90 @@ function updateRowsCountLabel() {
   el.textContent = `${n} rows`;
 }
 
+// -------------------------
+// Export lead modal
+// -------------------------
+function submitLeadToCrm(data) {
+  // TODO: wire up to CRM
+  console.log("CRM lead:", data);
+}
+
+function openExportModal() {
+  const backdrop = document.createElement("div");
+  backdrop.className = "kpi-modal-backdrop";
+  backdrop.innerHTML = `
+    <div class="kpi-modal export-modal" role="dialog" aria-modal="true">
+      <div class="kpi-modal-header">
+        <div class="kpi-modal-title">Download data</div>
+        <button class="kpi-modal-close" type="button">Close</button>
+      </div>
+      <div class="kpi-modal-body">
+        <p class="export-modal-intro">Please provide your details before downloading.</p>
+        <form id="export-lead-form" novalidate>
+          <div class="export-form-field">
+            <label for="export-name">Full name <span class="export-required">*</span></label>
+            <input type="text" id="export-name" required placeholder="Jane Smith" />
+          </div>
+          <div class="export-form-field">
+            <label for="export-email">Email address <span class="export-required">*</span></label>
+            <input type="email" id="export-email" required placeholder="jane@example.com" />
+          </div>
+          <div class="export-form-field">
+            <label for="export-org">Organization <span class="export-required">*</span></label>
+            <input type="text" id="export-org" required placeholder="Acme Corp" />
+          </div>
+          <div class="export-form-check">
+            <input type="checkbox" id="export-consent" required />
+            <label for="export-consent">
+              I acknowledge that my information will be processed in accordance with the organization's CRM and privacy policy. <span class="export-required">*</span>
+            </label>
+          </div>
+          <div class="export-form-actions">
+            <button type="submit" class="export-btn-submit">Send &amp; Download</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(backdrop);
+
+  const modal = backdrop.querySelector(".kpi-modal");
+
+  const close = () => {
+    backdrop.classList.remove("open");
+    modal.classList.remove("open");
+    setTimeout(() => backdrop.remove(), 170);
+  };
+
+  backdrop.addEventListener("click", (e) => { if (e.target === backdrop) close(); });
+  backdrop.querySelector(".kpi-modal-close").addEventListener("click", close);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && backdrop.isConnected) close(); }, { once: true });
+
+  backdrop.querySelector("#export-lead-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const name    = backdrop.querySelector("#export-name").value.trim();
+    const email   = backdrop.querySelector("#export-email").value.trim();
+    const org     = backdrop.querySelector("#export-org").value.trim();
+    const consent = backdrop.querySelector("#export-consent").checked;
+
+    if (!name || !email || !org || !consent) return;
+
+    submitLeadToCrm({ name, email, org });
+    close();
+    exportFilteredDetailsToXlsx();
+  });
+
+  requestAnimationFrame(() => {
+    backdrop.classList.add("open");
+    modal.classList.add("open");
+  });
+}
+
 // Wire the button
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("button_export");
-  if (btn) btn.addEventListener("click", exportFilteredDetailsToXlsx);
+  if (btn) btn.addEventListener("click", openExportModal);
 });
 
 // -------------------------
