@@ -260,6 +260,7 @@ def main():
             "total_co2": dec_to_comma_str(total_co2) if total_co2 != 0 else "0",
             "total_certified": dec_to_comma_str(total_certified) if total_certified != 0 else "0",
             "perc_tracked_total": percent_number_str(total_certified, total_generation),
+            "perc_residual": percent_number_str((total_generation-total_certified), total_generation),
             "perc_tracked_renewables": percent_number_str(b.res_total_certified, b.res_total_generation),
             "perc_green": percent_number_str(b.res_total_generation, total_generation),
         })

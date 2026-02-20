@@ -397,11 +397,6 @@ function openExportModal() {
   });
 }
 
-// Wire the button
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById("button_export");
-  if (btn) btn.addEventListener("click", openExportModal);
-});
 
 // -------------------------
 // RENDER (map only)
@@ -423,4 +418,7 @@ window.addEventListener("load", () => {
   initFilterMultiSelects();
   extractFilters();
   render();
+
+  const btn = document.getElementById("button_export");
+  if (btn) btn.onclick = openExportModal;
 });
