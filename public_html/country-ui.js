@@ -140,7 +140,7 @@
         country: agg?.country || code,
         perc_tracked_renewables: agg?.perc_tracked_renewables ?? null,
         perc_green: agg?.perc_green ?? null,
-        total_generation: agg?.total_generation ?? null
+        perc_residual: agg?.perc_residual ?? null
     };
   }
 
@@ -158,9 +158,9 @@
   function buildPopupHtml(k, kpiColor) {
     const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
 
-    const pctRenew = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
-    const pctGreen = k.perc_green == null ? "-" : `${formatNum(k.perc_green, 2)}%`;
-    const gen = k.total_generation == null ? "-" : formatNum(k.total_generation, 2);
+    const pctRenew    = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
+    const pctGreen    = k.perc_green    == null ? "-" : `${formatNum(k.perc_green,    2)}%`;
+    const pctResidual = k.perc_residual == null ? "-" : `${formatNum(k.perc_residual, 2)}%`;
 
     const dot = (key) =>
         key === colorKey
@@ -189,8 +189,10 @@
             </div>
 
             <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Total generation</div>
-            <div style="font-size:15px; font-weight:700;">${gen} <span style="font-size:11px; color:#666;">MWh</span></div>
+            <div style="font-size:11px; color:#666; margin-bottom:4px;">Residual mix</div>
+            <div style="font-size:15px; font-weight:800; color:#111;">
+                ${dot("perc_residual")}${pctResidual}
+            </div>
             </div>
         </div>
 
@@ -335,7 +337,7 @@
         year,
         perc_tracked_renewables: aggRow?.perc_tracked_renewables ?? null,
         perc_green: aggRow?.perc_green ?? null,
-        total_generation: aggRow?.total_generation ?? null
+        perc_residual: aggRow?.perc_residual ?? null
         };
 
         // Details for this year
@@ -384,8 +386,8 @@
         const pctGreen =
         k.perc_green == null ? "-" : `${formatNum(k.perc_green, 2)}%`;
 
-        const gen =
-        k.total_generation == null ? "-" : formatNum(k.total_generation, 2);
+        const pctResidual =
+        k.perc_residual == null ? "-" : `${formatNum(k.perc_residual, 2)}%`;
 
         // Compute totals for numeric columns (for this year)
         const totals = {};
@@ -490,7 +492,7 @@
         });
         }
 
-        // Fixed KPI order: renewables, green, generation
+        // Fixed KPI order: renewables, green, residual
         body.innerHTML = `
         <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr;">
             <div class="kpi-card">
@@ -504,8 +506,8 @@
             </div>
 
             <div class="kpi-card">
-            <div class="kpi-label">Total generation (MWh)</div>
-            <div class="kpi-value">${gen}</div>
+            <div class="kpi-label">Residual mix</div>
+            <div class="kpi-value">${dot("perc_residual")}${pctResidual}</div>
             </div>
         </div>
 

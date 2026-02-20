@@ -65,6 +65,7 @@
       <select id="kpi-color-key">
         <option value="perc_tracked_renewables">Tracked renewables (%)</option>
         <option value="perc_green">Renewable Share (%)</option>
+        <option value="perc_residual">Residual mix (%)</option>
       </select>
     </div>
   </div>
@@ -72,19 +73,16 @@
 
 
 
-<!-- MapLibre JS (global maplibregl) -->
+<!-- Libraries -->
 <script src="lib/maplibre-gl.js"></script>
-
-<!-- ECharts for list view chart -->
 <script src="lib/echarts.min.js"></script>
-
-<!-- MultiSelect.js (from root folder) -->
 <script src="lib/MultiSelect.js"></script>
+<script async src="lib/xlsx.full.min.js"></script>
 
 <!-- Data -->
 <script src="data/data.js"></script>
 <script async src="data/data_detail.js"></script>
-<script async src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
 
 <!-- main logic and split up views, keep this order to load the js files -->
 <script src="main.js"></script>
