@@ -318,6 +318,9 @@
     // Sort state (persists while stepping years)
     let sortKey = null;
     let sortDir = 1; // 1 asc, -1 desc
+    let activeTab = "bar"; // "table" | "donut" | "bar"
+    let donutChart = null;
+    let barChart = null;
 
     function setTitle(countryName, year) {
         const idx = years.indexOf(year);
@@ -547,11 +550,109 @@
             </div>
         </div>
 
-        <div id="kpi-table-wrap"></div>
+        <div class="kpi-segments" id="kpi-segments">
+            <button class="kpi-seg-btn${activeTab === "bar" ? " active" : ""}" data-tab="bar">Residuals by source</button>
+            <button class="kpi-seg-btn${activeTab === "donut" ? " active" : ""}" data-tab="donut">Category mix</button>
+            <button class="kpi-seg-btn${activeTab === "table" ? " active" : ""}" data-tab="table">Table</button>
+        </div>
+
+        <div id="kpi-tab-table" style="display:${activeTab === "table" ? "block" : "none"}">
+            <div id="kpi-table-wrap"></div>
+        </div>
+        <div id="kpi-tab-donut" style="display:${activeTab === "donut" ? "block" : "none"}">
+            <div id="kpi-donut-chart" class="kpi-chart-wrap"></div>
+        </div>
+        <div id="kpi-tab-bar" style="display:${activeTab === "bar" ? "block" : "none"}">
+            <div id="kpi-bar-chart" class="kpi-chart-wrap"></div>
+        </div>
         `;
+
+        // Wire segmented control
+        body.querySelectorAll("#kpi-segments .kpi-seg-btn").forEach(btn => {
+            btn.onclick = () => {
+                activeTab = btn.getAttribute("data-tab");
+                body.querySelectorAll("#kpi-segments .kpi-seg-btn").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                body.querySelector("#kpi-tab-table").style.display = activeTab === "table" ? "block" : "none";
+                body.querySelector("#kpi-tab-donut").style.display = activeTab === "donut" ? "block" : "none";
+                body.querySelector("#kpi-tab-bar").style.display   = activeTab === "bar"   ? "block" : "none";
+                if (activeTab === "donut") renderDonut(details);
+                if (activeTab === "bar")   renderBarChart(details);
+            };
+        });
 
         setTitle(countryName, year);
         renderTable();
+        if (activeTab === "donut") renderDonut(details);
+        if (activeTab === "bar")   renderBarChart(details);
+
+        function renderDonut(rows) {
+            if (donutChart) { donutChart.dispose(); donutChart = null; }
+            const container = body.querySelector("#kpi-donut-chart");
+            if (!container) return;
+            donutChart = echarts.init(container);
+
+            // Group by class
+            const byClass = {};
+            for (const r of rows) {
+                const cls = r.class || "Other";
+                byClass[cls] = (byClass[cls] || 0) + (parseNum(r.total_generation) || 0);
+            }
+
+            const palette = { RES: "#76D6A1", Fossil: "#bbb", Nuclear: "#F2B08A" };
+            const data = Object.entries(byClass).map(([name, value]) => ({
+                name,
+                value: Math.round(value * 100) / 100,
+                itemStyle: { color: palette[name] || "#ddd" }
+            }));
+
+            donutChart.setOption({
+                tooltip: { trigger: "item", formatter: "{b}: {c} MWh ({d}%)" },
+                legend: { bottom: 0, textStyle: { fontSize: 12 } },
+                series: [{
+                    type: "pie",
+                    radius: ["42%", "70%"],
+                    center: ["50%", "45%"],
+                    avoidLabelOverlap: true,
+                    itemStyle: { borderRadius: 6, borderColor: "#fff", borderWidth: 2 },
+                    label: { show: true, formatter: "{b}\n{d}%", fontSize: 12 },
+                    emphasis: { label: { fontSize: 14, fontWeight: "bold" } },
+                    data
+                }]
+            });
+        }
+
+        function renderBarChart(rows) {
+            if (barChart) { barChart.dispose(); barChart = null; }
+            const container = body.querySelector("#kpi-bar-chart");
+            if (!container) return;
+            barChart = echarts.init(container);
+
+            // Only RES rows
+            const resRows = rows.filter(r => r.class === "RES");
+            const sources = resRows.map(r => r.energy_source || "Unknown");
+
+            const valExt  = resRows.map(r => parseNum(r.issuance_ext)  || 0);
+            const valIrec = resRows.map(r => parseNum(r.issuance_irec) || 0);
+            const valRes  = resRows.map(r => parseNum(r.residual_mix)  || 0);
+
+            barChart.setOption({
+                tooltip: { trigger: "axis", axisPointer: { type: "shadow" },
+                    valueFormatter: v => formatNum(v, 2) + " MWh" },
+                legend: { bottom: 0, textStyle: { fontSize: 12 } },
+                grid: { left: 10, right: 20, top: 10, bottom: 40, containLabel: true },
+                xAxis: { type: "value", axisLabel: { fontSize: 11 } },
+                yAxis: { type: "category", data: sources, axisLabel: { fontSize: 11 } },
+                series: [
+                    { name: "Issuance (ext)",  type: "bar", stack: "total", data: valExt,
+                      itemStyle: { color: "#F3DC9C" }, barMaxWidth: 28 },
+                    { name: "Issuance (I-REC)", type: "bar", stack: "total", data: valIrec,
+                      itemStyle: { color: "#76D6A1" }, barMaxWidth: 28 },
+                    { name: "Residual mix",     type: "bar", stack: "total", data: valRes,
+                      itemStyle: { color: "#F2B08A" }, barMaxWidth: 28 }
+                ]
+            });
+        }
     }
 
     // First render

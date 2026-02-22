@@ -94,6 +94,45 @@
   color: #111;
 }
 
+/* ---------- Segmented control ---------- */
+.kpi-segments{
+  display: inline-flex;
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 12px;
+  gap: 2px;
+}
+
+.kpi-seg-btn{
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #666;
+  cursor: pointer;
+  transition: background 150ms ease, color 150ms ease, box-shadow 150ms ease;
+}
+
+.kpi-seg-btn:hover{
+  color: #333;
+}
+
+.kpi-seg-btn.active{
+  background: #fff;
+  color: #111;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+/* ---------- Chart containers ---------- */
+.kpi-chart-wrap{
+  width: 100%;
+  height: 360px;
+}
+
 /* ---------- Detail table ---------- */
 .kpi-table{
   width: 100%;

@@ -124,8 +124,12 @@ function initMap() {
       zoom: INITIAL_ZOOM,
       minZoom: 2,
       maxZoom: 4,
+      maxPitch: 0,
+      dragRotate: false,
       // maxBounds: [[-180, -60], [180, 75]]
     });
+
+    mapInstance.touchZoomRotate.disableRotation();
 
     mapInstance.addControl(new CustomNavControl(initialMapCenter, INITIAL_ZOOM), "top-right");
 
