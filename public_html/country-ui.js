@@ -110,6 +110,42 @@
     PRETTY_COLUMN_NAMES[key] ||
     key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
+  // ISO 3166-1 alpha-3 → alpha-2 lookup (for flag icons)
+  const ISO3_TO_ISO2 = {
+    AFG:"af",AGO:"ao",ALB:"al",ARE:"ae",ARG:"ar",ARM:"am",ATA:"aq",
+    ATF:"tf",AUS:"au",AUT:"at",AZE:"az",BDI:"bi",BEL:"be",BEN:"bj",
+    BFA:"bf",BGD:"bd",BGR:"bg",BHS:"bs",BIH:"ba",BLR:"by",BLZ:"bz",
+    BMU:"bm",BOL:"bo",BRA:"br",BRN:"bn",BTN:"bt",BWA:"bw",CAF:"cf",
+    CAN:"ca",CHE:"ch",CHL:"cl",CHN:"cn",CIV:"ci",CMR:"cm",COD:"cd",
+    COG:"cg",COL:"co",CRI:"cr",CUB:"cu",CYP:"cy",CZE:"cz",DEU:"de",
+    DJI:"dj",DNK:"dk",DOM:"do",DZA:"dz",ECU:"ec",EGY:"eg",ERI:"er",
+    ESH:"eh",ESP:"es",EST:"ee",ETH:"et",FIN:"fi",FJI:"fj",FLK:"fk",
+    FRA:"fr",GAB:"ga",GBR:"gb",GEO:"ge",GHA:"gh",GIN:"gn",GMB:"gm",
+    GNB:"gw",GNQ:"gq",GRC:"gr",GRL:"gl",GTM:"gt",GUF:"gf",GUY:"gy",
+    HND:"hn",HRV:"hr",HTI:"ht",HUN:"hu",IDN:"id",IND:"in",IRL:"ie",
+    IRN:"ir",IRQ:"iq",ISL:"is",ISR:"il",ITA:"it",JAM:"jm",JOR:"jo",
+    JPN:"jp",KAZ:"kz",KEN:"ke",KGZ:"kg",KHM:"kh",KOR:"kr",KWT:"kw",
+    LAO:"la",LBN:"lb",LBR:"lr",LBY:"ly",LKA:"lk",LSO:"ls",LTU:"lt",
+    LUX:"lu",LVA:"lv",MAR:"ma",MDA:"md",MDG:"mg",MEX:"mx",MKD:"mk",
+    MLI:"ml",MLT:"mt",MMR:"mm",MNE:"me",MNG:"mn",MOZ:"mz",MRT:"mr",
+    MUS:"mu",MWI:"mw",MYS:"my",NAM:"na",NCL:"nc",NER:"ne",NGA:"ng",
+    NIC:"ni",NLD:"nl",NOR:"no",NPL:"np",NZL:"nz",OMN:"om",PAK:"pk",
+    PAN:"pa",PER:"pe",PHL:"ph",PNG:"pg",POL:"pl",PRI:"pr",PRK:"kp",
+    PRT:"pt",PRY:"py",PSE:"ps",QAT:"qa",ROU:"ro",RUS:"ru",RWA:"rw",
+    SAU:"sa",SDN:"sd",SEN:"sn",SGP:"sg",SLB:"sb",SLE:"sl",SLV:"sv",
+    SOM:"so",SRB:"rs",SSD:"ss",SUR:"sr",SVK:"sk",SVN:"si",SWE:"se",
+    SWZ:"sz",SYR:"sy",TCD:"td",TGO:"tg",THA:"th",TJK:"tj",TKM:"tm",
+    TLS:"tl",TTO:"tt",TUN:"tn",TUR:"tr",TWN:"tw",TZA:"tz",UGA:"ug",
+    UKR:"ua",URY:"uy",USA:"us",UZB:"uz",VEN:"ve",VNM:"vn",VUT:"vu",
+    YEM:"ye",ZAF:"za",ZMB:"zm",ZWE:"zw"
+  };
+
+  function countryFlag(iso3) {
+    const iso2 = ISO3_TO_ISO2[iso3];
+    if (!iso2) return "";
+    return `<img src="https://flagcdn.com/24x18/${iso2}.png" width="24" height="18" alt="" style="vertical-align:middle;margin-right:6px;">`;
+  }
+
   const pickYearForCountry = (code) => {
     const selectedYears = window.state?.filters?.years;
     if (selectedYears && selectedYears.length) {
@@ -155,7 +191,7 @@
   // -----------------------------
   // Hover popup (2 KPI cards)
   // -----------------------------
-  function buildPopupHtml(k, kpiColor) {
+  function buildPopupHtml(k, kpiColor, code) {
     const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
 
     const pctRenew    = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
@@ -170,7 +206,7 @@
     return `
         <div style="font-family: Arial, sans-serif; font-size:12px; padding:10px; min-width:320px;">
         <div style="font-weight:700; margin-bottom:6px;">
-            ${k.country}${k.year ? ` (${k.year})` : ""}
+            ${countryFlag(code)}${k.country}${k.year ? ` (${k.year})` : ""}
         </div>
 
         <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
@@ -290,7 +326,7 @@
 
         // NOTE: we set innerHTML so we can place buttons around the year
         titleEl.innerHTML = `
-        <span>${countryName}  </span>
+        <span>${countryFlag(code)}${countryName}  </span>
         <span class="kpi-year-nav">
             <button class="kpi-year-btn" id="kpi-year-prev" ${hasPrev ? "" : "disabled"} aria-label="Previous year">‹</button>
             <span style="font-weight:700;">${year ?? "-"}</span>
@@ -562,7 +598,7 @@
             .setLngLat(e.lngLat)
             .setHTML(
                 `<div style="font-family:Arial,sans-serif;font-size:12px;padding:10px;min-width:220px;">
-                <div style="font-weight:700;margin-bottom:6px;">${feature.properties?.display_name || code}</div>
+                <div style="font-weight:700;margin-bottom:6px;">${countryFlag(code)}${feature.properties?.display_name || code}</div>
                 <div style="color:#666;font-size:11px;">No data for current filters</div>
                 </div>`
             )
@@ -575,7 +611,7 @@
         const kpiVal = getKpiValue(code);
         const kpiColor = colorForValue(kpiVal);
 
-        popup.setLngLat(e.lngLat).setHTML(buildPopupHtml(k, kpiColor)).addTo(mapInstance);
+        popup.setLngLat(e.lngLat).setHTML(buildPopupHtml(k, kpiColor, code)).addTo(mapInstance);
     });
 
     mapInstance.on("click", layerId, (e) => {
