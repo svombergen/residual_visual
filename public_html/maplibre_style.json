@@ -54,7 +54,7 @@
         "line-width": { "stops": [[1,1],[6,2],[14,6],[22,12]] },
         "line-opacity": { "stops": [[3,0.5],[6,1]] }
       },
-      "layout": { "line-cap": "round", "line-join": "round", "visibility": "visible" },
+      "layout": { "line-cap": "round", "line-join": "round", "visibility": "none" },
       "source": "maplibre",
       "maxzoom": 24,
       "source-layer": "countries"

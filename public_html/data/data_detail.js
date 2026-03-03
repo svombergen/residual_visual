@@ -22464,7 +22464,7 @@ window.DATA_DETAIL = [
     "total_co2": "0"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Bio",
     "class": "RES",
@@ -22480,7 +22480,7 @@ window.DATA_DETAIL = [
     "total_co2": "430"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Coal",
     "class": "Fossil",
@@ -22496,7 +22496,7 @@ window.DATA_DETAIL = [
     "total_co2": "117860"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Gas",
     "class": "Fossil",
@@ -22512,7 +22512,7 @@ window.DATA_DETAIL = [
     "total_co2": "59610"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Hydro",
     "class": "RES",
@@ -22528,7 +22528,7 @@ window.DATA_DETAIL = [
     "total_co2": "70"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Nuclear",
     "class": "Nuclear",
@@ -22544,7 +22544,7 @@ window.DATA_DETAIL = [
     "total_co2": "170"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Other (F)",
     "class": "Fossil",
@@ -22560,7 +22560,7 @@ window.DATA_DETAIL = [
     "total_co2": "2970"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Solar",
     "class": "RES",
@@ -22576,7 +22576,7 @@ window.DATA_DETAIL = [
     "total_co2": "290"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2020,
     "energy_source": "Wind",
     "class": "RES",
@@ -22592,7 +22592,7 @@ window.DATA_DETAIL = [
     "total_co2": "30"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Bio",
     "class": "RES",
@@ -22608,7 +22608,7 @@ window.DATA_DETAIL = [
     "total_co2": "430"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Coal",
     "class": "Fossil",
@@ -22624,7 +22624,7 @@ window.DATA_DETAIL = [
     "total_co2": "120500"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Gas",
     "class": "Fossil",
@@ -22640,7 +22640,7 @@ window.DATA_DETAIL = [
     "total_co2": "64610"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Hydro",
     "class": "RES",
@@ -22656,7 +22656,7 @@ window.DATA_DETAIL = [
     "total_co2": "80"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Nuclear",
     "class": "Nuclear",
@@ -22672,7 +22672,7 @@ window.DATA_DETAIL = [
     "total_co2": "150"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Other (F)",
     "class": "Fossil",
@@ -22688,7 +22688,7 @@ window.DATA_DETAIL = [
     "total_co2": "3580"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Solar",
     "class": "RES",
@@ -22704,7 +22704,7 @@ window.DATA_DETAIL = [
     "total_co2": "380"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2021,
     "energy_source": "Wind",
     "class": "RES",
@@ -22720,7 +22720,7 @@ window.DATA_DETAIL = [
     "total_co2": "30"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Bio",
     "class": "RES",
@@ -22736,7 +22736,7 @@ window.DATA_DETAIL = [
     "total_co2": "430"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Coal",
     "class": "Fossil",
@@ -22752,7 +22752,7 @@ window.DATA_DETAIL = [
     "total_co2": "113180"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Gas",
     "class": "Fossil",
@@ -22768,7 +22768,7 @@ window.DATA_DETAIL = [
     "total_co2": "66780"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Hydro",
     "class": "RES",
@@ -22784,7 +22784,7 @@ window.DATA_DETAIL = [
     "total_co2": "140"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Nuclear",
     "class": "Nuclear",
@@ -22800,7 +22800,7 @@ window.DATA_DETAIL = [
     "total_co2": "130"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Other (F)",
     "class": "Fossil",
@@ -22816,7 +22816,7 @@ window.DATA_DETAIL = [
     "total_co2": "2990"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Solar",
     "class": "RES",
@@ -22832,7 +22832,7 @@ window.DATA_DETAIL = [
     "total_co2": "510"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2022,
     "energy_source": "Wind",
     "class": "RES",
@@ -22848,7 +22848,7 @@ window.DATA_DETAIL = [
     "total_co2": "60"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Bio",
     "class": "RES",
@@ -22864,7 +22864,7 @@ window.DATA_DETAIL = [
     "total_co2": "430"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Coal",
     "class": "Fossil",
@@ -22880,7 +22880,7 @@ window.DATA_DETAIL = [
     "total_co2": "111430"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Gas",
     "class": "Fossil",
@@ -22896,7 +22896,7 @@ window.DATA_DETAIL = [
     "total_co2": "66550"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Hydro",
     "class": "RES",
@@ -22912,7 +22912,7 @@ window.DATA_DETAIL = [
     "total_co2": "90"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Nuclear",
     "class": "Nuclear",
@@ -22928,7 +22928,7 @@ window.DATA_DETAIL = [
     "total_co2": "100"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Other (F)",
     "class": "Fossil",
@@ -22944,7 +22944,7 @@ window.DATA_DETAIL = [
     "total_co2": "2530"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Solar",
     "class": "RES",
@@ -22960,7 +22960,7 @@ window.DATA_DETAIL = [
     "total_co2": "610"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2023,
     "energy_source": "Wind",
     "class": "RES",
@@ -22976,7 +22976,7 @@ window.DATA_DETAIL = [
     "total_co2": "110"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Bio",
     "class": "RES",
@@ -22992,7 +22992,7 @@ window.DATA_DETAIL = [
     "total_co2": "450"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Coal",
     "class": "Fossil",
@@ -23008,7 +23008,7 @@ window.DATA_DETAIL = [
     "total_co2": "105950"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Gas",
     "class": "Fossil",
@@ -23024,7 +23024,7 @@ window.DATA_DETAIL = [
     "total_co2": "73020"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Hydro",
     "class": "RES",
@@ -23040,7 +23040,7 @@ window.DATA_DETAIL = [
     "total_co2": "100"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Nuclear",
     "class": "Nuclear",
@@ -23056,7 +23056,7 @@ window.DATA_DETAIL = [
     "total_co2": "70"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Other (F)",
     "class": "Fossil",
@@ -23072,7 +23072,7 @@ window.DATA_DETAIL = [
     "total_co2": "2800"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Solar",
     "class": "RES",
@@ -23088,7 +23088,7 @@ window.DATA_DETAIL = [
     "total_co2": "710"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "year": 2024,
     "energy_source": "Wind",
     "class": "RES",

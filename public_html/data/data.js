@@ -3372,7 +3372,7 @@ window.DATA = [
     "perc_green": "100,00"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "country_code": "TWN",
     "year": 2020,
     "total_generation": "279,99",
@@ -3384,7 +3384,7 @@ window.DATA = [
     "perc_green": "4,79"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "country_code": "TWN",
     "year": 2021,
     "total_generation": "291,03",
@@ -3396,7 +3396,7 @@ window.DATA = [
     "perc_green": "5,40"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "country_code": "TWN",
     "year": 2022,
     "total_generation": "288,19",
@@ -3408,7 +3408,7 @@ window.DATA = [
     "perc_green": "7,67"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "country_code": "TWN",
     "year": 2023,
     "total_generation": "282,28",
@@ -3420,7 +3420,7 @@ window.DATA = [
     "perc_green": "8,90"
   },
   {
-    "country": "Taiwan, Province of China",
+    "country": "Taiwan",
     "country_code": "TWN",
     "year": 2024,
     "total_generation": "288,56",

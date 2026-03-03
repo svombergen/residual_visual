@@ -8,7 +8,7 @@
   // Configurable KPI for coloring
   // -----------------------------
   let COLOR_KPI = {
-    key: "perc_tracked_renewables",
+    key: "perc_tracked_total",
     // thresholds in %, inclusive ranges; we use interpolation between stops
     stops: [
       { v: 0,   c: "#F7EFC6" }, // soft yellow
@@ -73,37 +73,79 @@
     "country_code",
     "year",
     "first_source",
-    "emission_factor"
+    "emission_factor",
+    "class",
+    "method",
+    "total_co2"
   ]);
 
+  // Desired table column order (left to right); columns with all-zero values are hidden
+  const TABLE_COLUMN_ORDER = [
+    "energy_source",
+    "total_generation",
+    "certified_mix",
+    "issuance_irec",
+    "issuance_ext",
+    "issuance_other",
+    "import_physical",
+    "export_physical",
+    "import_certificates",
+    "export_certificates",
+    "untracked",
+    "gen_mix_ef",
+    "residual_mix_ef"
+  ];
+
   const PRETTY_COLUMN_NAMES = {
-    energy_source: "Energy source",
-    class: "Category",
-    certified_mix: "Certified mix",
-    issuance_ext: "Issuance (external)",
-    issuance_irec: "Issuance (I-REC)",
+    energy_source: "Energy Source",
+    certified_mix: "Issuance (all EACs)",
+    issuance_ext: "Issuance (GO)",
+    issuance_irec: "Issuance (I-REC(E))",
+    issuance_other: "Issuance (other)",
     residual_mix: "Residual mix",
-    total_generation: "Total generation",
+    total_generation: "Total Generation",
     total_co2: "Total CO₂",
-    method: "Method"
+    import_physical: "Import (physical)",
+    export_physical: "Export (physical)",
+    import_certificates: "Import (certificates)",
+    export_certificates: "Export (certificates)",
+    untracked: "Untracked",
+    gen_mix_ef: "Generation mix",
+    residual_mix_ef: "Residual mix"
   };
 
   const UNITS = {
     certified_mix: "MWh",
     issuance_ext: "MWh",
     issuance_irec: "MWh",
+    issuance_other: "MWh",
     residual_mix: "MWh",
     total_generation: "MWh",
-    total_co2: "kg CO₂"
+    total_co2: "kg CO₂",
+    import_physical: "MWh",
+    export_physical: "MWh",
+    import_certificates: "MWh",
+    export_certificates: "MWh",
+    untracked: "MWh",
+    gen_mix_ef: "tCO₂/MWh",
+    residual_mix_ef: "tCO₂/MWh"
   };
 
   const numericCols = new Set([
     "certified_mix",
     "issuance_ext",
     "issuance_irec",
+    "issuance_other",
     "residual_mix",
     "total_generation",
-    "total_co2"
+    "total_co2",
+    "import_physical",
+    "export_physical",
+    "import_certificates",
+    "export_certificates",
+    "untracked",
+    "gen_mix_ef",
+    "residual_mix_ef"
   ]);
 
   const prettifyColumn = (key) =>
@@ -114,10 +156,10 @@
   const ISO3_TO_ISO2 = {
     AFG:"af",AGO:"ao",ALB:"al",ARE:"ae",ARG:"ar",ARM:"am",ATA:"aq",
     ATF:"tf",AUS:"au",AUT:"at",AZE:"az",BDI:"bi",BEL:"be",BEN:"bj",
-    BFA:"bf",BGD:"bd",BGR:"bg",BHS:"bs",BIH:"ba",BLR:"by",BLZ:"bz",
+    BFA:"bf",BGD:"bd",BGR:"bg",BHR:"bh",BHS:"bs",BIH:"ba",BLR:"by",BLZ:"bz",
     BMU:"bm",BOL:"bo",BRA:"br",BRN:"bn",BTN:"bt",BWA:"bw",CAF:"cf",
     CAN:"ca",CHE:"ch",CHL:"cl",CHN:"cn",CIV:"ci",CMR:"cm",COD:"cd",
-    COG:"cg",COL:"co",CRI:"cr",CUB:"cu",CYP:"cy",CZE:"cz",DEU:"de",
+    COG:"cg",COL:"co",CRI:"cr",CUB:"cu",CUW:"cw",CYP:"cy",CZE:"cz",DEU:"de",
     DJI:"dj",DNK:"dk",DOM:"do",DZA:"dz",ECU:"ec",EGY:"eg",ERI:"er",
     ESH:"eh",ESP:"es",EST:"ee",ETH:"et",FIN:"fi",FJI:"fj",FLK:"fk",
     FRA:"fr",GAB:"ga",GBR:"gb",GEO:"ge",GHA:"gh",GIN:"gn",GMB:"gm",
@@ -169,14 +211,24 @@
     return { agg, year };
   }
 
+  function computeResidualEf(agg) {
+    const totalCo2 = parseNum(agg?.total_co2);
+    const totalGen = parseNum(agg?.total_generation);
+    const totalCert = parseNum(agg?.total_certified);
+    if (totalCo2 == null || totalGen == null || totalCert == null) return null;
+    const residualGen = totalGen - totalCert;
+    if (residualGen <= 0) return null;
+    return totalCo2 / residualGen / 1000; // kg → tons CO₂/MWh
+  }
+
   function getKpis(code) {
     const { agg, year } = getAggRow(code);
     return {
         year,
         country: agg?.country || code,
+        perc_tracked_total: agg?.perc_tracked_total ?? null,
         perc_tracked_renewables: agg?.perc_tracked_renewables ?? null,
-        perc_green: agg?.perc_green ?? null,
-        perc_residual: agg?.perc_residual ?? null
+        residual_ef: computeResidualEf(agg)
     };
   }
 
@@ -192,11 +244,11 @@
   // Hover popup (2 KPI cards)
   // -----------------------------
   function buildPopupHtml(k, kpiColor, code) {
-    const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+    const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
 
-    const pctRenew    = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
-    const pctGreen    = k.perc_green    == null ? "-" : `${formatNum(k.perc_green,    2)}%`;
-    const pctResidual = k.perc_residual == null ? "-" : `${formatNum(k.perc_residual, 2)}%`;
+    const pctTrackedElec = k.perc_tracked_total == null ? "-" : `${formatNum(k.perc_tracked_total, 2)}%`;
+    const pctRenew       = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
+    const residualEf     = k.residual_ef == null ? "-" : formatNum(k.residual_ef, 4);
 
     const dot = (key) =>
         key === colorKey
@@ -211,23 +263,23 @@
 
         <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
             <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Tracked renewables</div>
+            <div style="font-size:11px; color:#666; margin-bottom:4px;">Tracked Electricity</div>
+            <div style="font-size:15px; font-weight:800; color:#111;">
+                ${dot("perc_tracked_total")}${pctTrackedElec}
+            </div>
+            </div>
+
+            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
+            <div style="font-size:11px; color:#666; margin-bottom:4px;">Tracked Renewables</div>
             <div style="font-size:15px; font-weight:800; color:#111;">
                 ${dot("perc_tracked_renewables")}${pctRenew}
             </div>
             </div>
 
             <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Renewables share</div>
+            <div style="font-size:11px; color:#666; margin-bottom:4px;">Residual Mix</div>
             <div style="font-size:15px; font-weight:800; color:#111;">
-                ${dot("perc_green")}${pctGreen}
-            </div>
-            </div>
-
-            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Residual mix</div>
-            <div style="font-size:15px; font-weight:800; color:#111;">
-                ${dot("perc_residual")}${pctResidual}
+                ${dot("perc_residual")}${residualEf} <span style="font-size:10px;font-weight:400;color:#666;">tCO₂/MWh</span>
             </div>
             </div>
         </div>
@@ -253,7 +305,10 @@
       <div class="kpi-modal" role="dialog" aria-modal="true">
         <div class="kpi-modal-header">
           <div class="kpi-modal-title" id="kpi-modal-title"></div>
-          <button class="kpi-modal-close" id="kpi-modal-close" type="button">Close</button>
+          <div style="display:flex;align-items:center;gap:12px;">
+            <span id="kpi-modal-method" style="font-size:11px;color:#666;"></span>
+            <button class="kpi-modal-close" id="kpi-modal-close" type="button">Close</button>
+          </div>
         </div>
         <div class="kpi-modal-body" id="kpi-modal-body"></div>
       </div>
@@ -318,7 +373,7 @@
     // Sort state (persists while stepping years)
     let sortKey = null;
     let sortDir = 1; // 1 asc, -1 desc
-    let activeTab = "bar"; // "table" | "donut" | "bar"
+    let activeTab = "bar"; // "bar" | "pies" | "table"
     let donutChart = null;
     let barChart = null;
 
@@ -374,9 +429,9 @@
         const k = {
         country: countryName,
         year,
+        perc_tracked_total: aggRow?.perc_tracked_total ?? null,
         perc_tracked_renewables: aggRow?.perc_tracked_renewables ?? null,
-        perc_green: aggRow?.perc_green ?? null,
-        perc_residual: aggRow?.perc_residual ?? null
+        residual_ef: computeResidualEf(aggRow)
         };
 
         // Details for this year
@@ -386,23 +441,39 @@
             Number(r.year) === Number(year)
         );
 
-        const cols = details.length
-        ? Object.keys(details[0]).filter((c) => !HIDDEN_DETAIL_COLUMNS.has(c))
-        : [
-            "energy_source",
-            "class",
-            "certified_mix",
-            "issuance_ext",
-            "issuance_irec",
-            "residual_mix",
-            "total_generation",
-            "total_co2",
-            "method"
-            ];
+        // Enrich detail rows with computed columns
+        const enrichedDetails = details.map(r => {
+            const cert = parseNum(r.certified_mix) || 0;
+            const ext  = parseNum(r.issuance_ext) || 0;
+            const irec = parseNum(r.issuance_irec) || 0;
+            const gen  = parseNum(r.total_generation) || 0;
+            const co2  = parseNum(r.total_co2) || 0;
+            const resid = parseNum(r.residual_mix) || 0;
+            return {
+                ...r,
+                issuance_other: Math.max(0, cert - ext - irec),
+                import_physical: parseNum(r.import_physical) || 0,
+                export_physical: parseNum(r.export_physical) || 0,
+                import_certificates: parseNum(r.import_certificates) || 0,
+                export_certificates: parseNum(r.export_certificates) || 0,
+                untracked: parseNum(r.untracked) || 0,
+                gen_mix_ef: gen > 0 ? co2 / gen / 1000 : 0,
+                residual_mix_ef: resid > 0 ? (co2 > 0 ? co2 / resid / 1000 : 0) : 0
+            };
+        });
+
+        // Determine visible table columns: use defined order, hide columns with all-zero values
+        const cols = TABLE_COLUMN_ORDER.filter(c => {
+            if (c === "energy_source") return true; // always show
+            return enrichedDetails.some(r => {
+                const v = numericCols.has(c) ? (typeof r[c] === "number" ? r[c] : parseNum(r[c]) || 0) : r[c];
+                return v !== 0 && v !== "" && v != null;
+            });
+        });
 
         // Color dot should reflect *current* map-color KPI key, but KPIs stay in fixed positions
         const kpiVal = (() => {
-        const key = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+        const key = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
         const v = aggRow?.[key];
         const n = v === "" || v == null ? null : (Number(String(v).replace(",", ".")) || 0);
         return n;
@@ -410,47 +481,55 @@
         const kpiColor = colorForValue(kpiVal);
 
         const colorKey =
-        window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+        window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
 
         const dot = (key) =>
         key === colorKey
             ? `<span style="display:inline-block; width:10px; height:10px; border-radius:999px; background:${kpiColor}; margin-right:8px; vertical-align:middle;"></span>`
             : "";
 
+        const pctTrackedElec =
+        k.perc_tracked_total == null
+            ? "-"
+            : `${formatNum(k.perc_tracked_total, 2)}%`;
+
         const pctRenew =
         k.perc_tracked_renewables == null
             ? "-"
             : `${formatNum(k.perc_tracked_renewables, 2)}%`;
 
-        const pctGreen =
-        k.perc_green == null ? "-" : `${formatNum(k.perc_green, 2)}%`;
+        const residualEf =
+        k.residual_ef == null ? "-" : formatNum(k.residual_ef, 4);
 
-        const pctResidual =
-        k.perc_residual == null ? "-" : `${formatNum(k.perc_residual, 2)}%`;
-
-        // Compute totals for numeric columns (for this year)
+        // Compute totals for numeric columns
         const totals = {};
         for (const c of cols) if (numericCols.has(c)) totals[c] = 0;
+        for (const row of enrichedDetails) {
+            for (const c of cols) {
+                if (!numericCols.has(c)) continue;
+                const v = typeof row[c] === "number" ? row[c] : (parseNum(row[c]) || 0);
+                totals[c] += v;
+            }
+        }
 
-        for (const row of details) {
-        for (const c of cols) {
-            if (!numericCols.has(c)) continue;
-            const n = parseNum(row[c]);
-            totals[c] += (n == null ? 0 : n);
-        }
-        }
+        // Methodology: derive from issuance columns
+        const hasGO = details.some(r => (parseNum(r.issuance_ext) || 0) > 0);
+        const hasIREC = details.some(r => (parseNum(r.issuance_irec) || 0) > 0);
+        const methodLabel = hasGO && hasIREC ? "GO / I-REC" : hasGO ? "GO" : hasIREC ? "I-REC" : "Other";
+
+        // Data sources
+        const dataSources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
 
         function renderTable() {
-        const rows = details.slice();
+        const rows = enrichedDetails.slice();
 
         if (sortKey) {
             rows.sort((a, b) => {
             const av = a[sortKey];
             const bv = b[sortKey];
-
-            if (numericCols.has(sortKey) || String(sortKey).startsWith("perc_")) {
-                const an = parseNum(av) ?? 0;
-                const bn = parseNum(bv) ?? 0;
+            if (numericCols.has(sortKey)) {
+                const an = (typeof av === "number" ? av : parseNum(av)) ?? 0;
+                const bn = (typeof bv === "number" ? bv : parseNum(bv)) ?? 0;
                 return (an - bn) * sortDir;
             }
             return String(av ?? "").localeCompare(String(bv ?? "")) * sortDir;
@@ -481,13 +560,10 @@
             const tds = cols
                 .map((c) => {
                 const v = row[c];
-                if (String(c).startsWith("perc_")) {
-                    const n = parseNum(v);
-                    return `<td>${n == null ? "-" : `${formatNum(n, 2)}%`}</td>`;
-                }
                 if (numericCols.has(c)) {
-                    const n = parseNum(v);
-                    return `<td>${n == null ? (v === "" ? "-" : String(v)) : formatNum(n, 2)}</td>`;
+                    const n = typeof v === "number" ? v : parseNum(v);
+                    const dec = (c === "gen_mix_ef" || c === "residual_mix_ef") ? 4 : 2;
+                    return `<td>${n == null ? "-" : formatNum(n, dec)}</td>`;
                 }
                 return `<td>${v === "" || v == null ? "-" : String(v)}</td>`;
                 })
@@ -502,7 +578,8 @@
                 .map((c, idx) => {
                 if (idx === 0) return `<td>Totals</td>`;
                 if (!numericCols.has(c)) return `<td></td>`;
-                return `<td>${formatNum(totals[c], c === "total_co2" ? 0 : 2)}</td>`;
+                if (c === "gen_mix_ef" || c === "residual_mix_ef") return `<td></td>`;
+                return `<td>${formatNum(totals[c], 2)}</td>`;
                 })
                 .join("")}
             </tr>
@@ -531,126 +608,191 @@
         });
         }
 
-        // Fixed KPI order: renewables, green, residual
+        // Fixed KPI order: tracked electricity, tracked renewables, residual mix
         body.innerHTML = `
         <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr;">
             <div class="kpi-card">
-            <div class="kpi-label">Tracked renewables</div>
+            <div class="kpi-label">Tracked Electricity</div>
+            <div class="kpi-value">${dot("perc_tracked_total")}${pctTrackedElec}</div>
+            </div>
+
+            <div class="kpi-card">
+            <div class="kpi-label">Tracked Renewables</div>
             <div class="kpi-value">${dot("perc_tracked_renewables")}${pctRenew}</div>
             </div>
 
             <div class="kpi-card">
-            <div class="kpi-label">Renewables share</div>
-            <div class="kpi-value">${dot("perc_green")}${pctGreen}</div>
-            </div>
-
-            <div class="kpi-card">
-            <div class="kpi-label">Residual mix</div>
-            <div class="kpi-value">${dot("perc_residual")}${pctResidual}</div>
+            <div class="kpi-label">Residual Mix</div>
+            <div class="kpi-value">${dot("perc_residual")}${residualEf} <span style="font-size:11px;font-weight:400;color:#666;">tCO₂/MWh</span></div>
             </div>
         </div>
 
         <div class="kpi-segments" id="kpi-segments">
-            <button class="kpi-seg-btn${activeTab === "bar" ? " active" : ""}" data-tab="bar">Residuals by source</button>
-            <button class="kpi-seg-btn${activeTab === "donut" ? " active" : ""}" data-tab="donut">Category mix</button>
+            <button class="kpi-seg-btn${activeTab === "bar" ? " active" : ""}" data-tab="bar">Electricity mix</button>
+            <button class="kpi-seg-btn${activeTab === "pies" ? " active" : ""}" data-tab="pies">Generation vs Residual</button>
             <button class="kpi-seg-btn${activeTab === "table" ? " active" : ""}" data-tab="table">Table</button>
         </div>
 
         <div id="kpi-tab-table" style="display:${activeTab === "table" ? "block" : "none"}">
             <div id="kpi-table-wrap"></div>
         </div>
-        <div id="kpi-tab-donut" style="display:${activeTab === "donut" ? "block" : "none"}">
-            <div id="kpi-donut-chart" class="kpi-chart-wrap"></div>
+        <div id="kpi-tab-pies" style="display:${activeTab === "pies" ? "block" : "none"}">
+            <div id="kpi-pies-chart" class="kpi-chart-wrap" style="display:flex;align-items:center;"></div>
         </div>
         <div id="kpi-tab-bar" style="display:${activeTab === "bar" ? "block" : "none"}">
             <div id="kpi-bar-chart" class="kpi-chart-wrap"></div>
         </div>
+
+        <div id="kpi-data-source-footer" style="margin-top:12px;padding-top:10px;border-top:1px solid #e7e7e7;font-size:11px;color:#888;">
+            ${dataSources.length ? `Data Source: ${dataSources.join(", ")}` : ""}
+        </div>
         `;
 
         // Wire segmented control
+        const tabIds = ["bar", "pies", "table"];
         body.querySelectorAll("#kpi-segments .kpi-seg-btn").forEach(btn => {
             btn.onclick = () => {
                 activeTab = btn.getAttribute("data-tab");
                 body.querySelectorAll("#kpi-segments .kpi-seg-btn").forEach(b => b.classList.remove("active"));
                 btn.classList.add("active");
-                body.querySelector("#kpi-tab-table").style.display = activeTab === "table" ? "block" : "none";
-                body.querySelector("#kpi-tab-donut").style.display = activeTab === "donut" ? "block" : "none";
-                body.querySelector("#kpi-tab-bar").style.display   = activeTab === "bar"   ? "block" : "none";
-                if (activeTab === "donut") renderDonut(details);
-                if (activeTab === "bar")   renderBarChart(details);
+                tabIds.forEach(t => {
+                    const el = body.querySelector("#kpi-tab-" + t);
+                    if (el) el.style.display = t === activeTab ? "block" : "none";
+                });
+                if (activeTab === "pies") renderPies(enrichedDetails);
+                if (activeTab === "bar")  renderBarChart(enrichedDetails);
             };
         });
 
         setTitle(countryName, year);
+        const methodEl = backdrop.querySelector("#kpi-modal-method");
+        if (methodEl) methodEl.innerHTML = `Methodology: <strong>${methodLabel}</strong>`;
         renderTable();
-        if (activeTab === "donut") renderDonut(details);
-        if (activeTab === "bar")   renderBarChart(details);
+        if (activeTab === "pies") renderPies(enrichedDetails);
+        if (activeTab === "bar")  renderBarChart(enrichedDetails);
 
-        function renderDonut(rows) {
+        // ---- Generation vs Residual (3 pie charts) ----
+        function renderPies(rows) {
             if (donutChart) { donutChart.dispose(); donutChart = null; }
-            const container = body.querySelector("#kpi-donut-chart");
+            const container = body.querySelector("#kpi-pies-chart");
             if (!container) return;
             donutChart = echarts.init(container);
 
-            // Group by class
-            const byClass = {};
-            for (const r of rows) {
-                const cls = r.class || "Other";
-                byClass[cls] = (byClass[cls] || 0) + (parseNum(r.total_generation) || 0);
-            }
+            const SOURCE_COLORS = {
+                "Bio":"#8BC34A","Coal":"#9E9E9E","Gas":"#FF9800","Hydro":"#2196F3",
+                "Nuclear":"#F2B08A","Oil":"#795548","Solar":"#FFD600","Wind":"#00BCD4",
+                "Other (R)":"#76D6A1","Other (F)":"#BDBDBD"
+            };
+            const fallbackColor = "#CDCED0";
 
-            const palette = { RES: "#76D6A1", Fossil: "#bbb", Nuclear: "#F2B08A" };
-            const data = Object.entries(byClass).map(([name, value]) => ({
-                name,
-                value: Math.round(value * 100) / 100,
-                itemStyle: { color: palette[name] || "#ddd" }
-            }));
+            // Left pie: Generation Mix (by energy source, using total_generation)
+            const genBySource = {};
+            for (const r of rows) {
+                const src = r.energy_source || "Other";
+                genBySource[src] = (genBySource[src] || 0) + (parseNum(r.total_generation) || 0);
+            }
+            const genData = Object.entries(genBySource)
+                .filter(([,v]) => v > 0)
+                .map(([name, value]) => ({
+                    name, value: Math.round(value * 100) / 100,
+                    itemStyle: { color: SOURCE_COLORS[name] || fallbackColor }
+                }));
+
+            // Right pie: Residual Mix (by energy source, using residual_mix)
+            const resBySource = {};
+            for (const r of rows) {
+                const src = r.energy_source || "Other";
+                resBySource[src] = (resBySource[src] || 0) + (parseNum(r.residual_mix) || 0);
+            }
+            const resData = Object.entries(resBySource)
+                .filter(([,v]) => v > 0)
+                .map(([name, value]) => ({
+                    name, value: Math.round(value * 100) / 100,
+                    itemStyle: { color: SOURCE_COLORS[name] || fallbackColor }
+                }));
+
+            // Middle pie: Tracked percentage (certified vs uncertified)
+            const totalGen = rows.reduce((s, r) => s + (parseNum(r.total_generation) || 0), 0);
+            const totalCert = rows.reduce((s, r) => s + (parseNum(r.certified_mix) || 0), 0);
+            const trackedPct = totalGen > 0 ? Math.round(totalCert / totalGen * 10000) / 100 : 0;
+            const trackedData = [
+                { name: "Tracked", value: Math.round(totalCert * 100) / 100, itemStyle: { color: "#76D6A1" } },
+                { name: "Untracked", value: Math.round((totalGen - totalCert) * 100) / 100, itemStyle: { color: "#e0e0e0" } }
+            ].filter(d => d.value > 0);
+
+            // Emission factor for the center label
+            const totalCo2 = rows.reduce((s, r) => s + (parseNum(r.total_co2) || 0), 0);
+            const genEf = totalGen > 0 ? (totalCo2 / totalGen / 1000) : null;
+            const residualGen = totalGen - totalCert;
+            const resEf = residualGen > 0 ? (totalCo2 / residualGen / 1000) : null;
+
+            const pieLabelOpt = { show: false };
+            const pieEmphasis = { label: { show: true, fontSize: 12, fontWeight: "bold", formatter: "{b}\n{d}%" } };
+            const pieStyle = { borderRadius: 4, borderColor: "#fff", borderWidth: 2 };
 
             donutChart.setOption({
                 tooltip: { trigger: "item", formatter: "{b}: {c} MWh ({d}%)" },
-                legend: { bottom: 0, textStyle: { fontSize: 12 } },
-                series: [{
-                    type: "pie",
-                    radius: ["42%", "70%"],
-                    center: ["50%", "45%"],
-                    avoidLabelOverlap: true,
-                    itemStyle: { borderRadius: 6, borderColor: "#fff", borderWidth: 2 },
-                    label: { show: true, formatter: "{b}\n{d}%", fontSize: 12 },
-                    emphasis: { label: { fontSize: 14, fontWeight: "bold" } },
-                    data
-                }]
+                legend: { bottom: 0, textStyle: { fontSize: 11 } },
+                title: [
+                    { text: "Generation Mix", left: "16%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
+                    { text: "Tracked %", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
+                    { text: "Residual Mix", left: "83%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
+                    // Emission factor labels below pies
+                    { text: genEf != null ? `${formatNum(genEf, 4)} tCO₂/MWh` : "", left: "16%", top: "72%", textAlign: "center",
+                      textStyle: { fontSize: 11, fontWeight: 400, color: "#666" } },
+                    { text: resEf != null ? `${formatNum(resEf, 4)} tCO₂/MWh` : "", left: "83%", top: "72%", textAlign: "center",
+                      textStyle: { fontSize: 11, fontWeight: 400, color: "#666" } }
+                ],
+                series: [
+                    { type: "pie", radius: ["30%", "52%"], center: ["16%", "40%"],
+                      label: pieLabelOpt, emphasis: pieEmphasis, itemStyle: pieStyle, data: genData },
+                    { type: "pie", radius: ["30%", "52%"], center: ["50%", "40%"],
+                      label: { show: true, position: "center", formatter: () => `${trackedPct}%`, fontSize: 18, fontWeight: 700 },
+                      emphasis: pieEmphasis, itemStyle: pieStyle, data: trackedData },
+                    { type: "pie", radius: ["30%", "52%"], center: ["83%", "40%"],
+                      label: pieLabelOpt, emphasis: pieEmphasis, itemStyle: pieStyle, data: resData }
+                ]
             });
         }
 
+        // ---- Electricity mix bar chart ----
         function renderBarChart(rows) {
             if (barChart) { barChart.dispose(); barChart = null; }
             const container = body.querySelector("#kpi-bar-chart");
             if (!container) return;
             barChart = echarts.init(container);
 
-            // Only RES rows
-            const resRows = rows.filter(r => r.class === "RES");
-            const sources = resRows.map(r => r.energy_source || "Unknown");
+            const sources = rows.map(r => r.energy_source || "Unknown");
 
-            const valExt  = resRows.map(r => parseNum(r.issuance_ext)  || 0);
-            const valIrec = resRows.map(r => parseNum(r.issuance_irec) || 0);
-            const valRes  = resRows.map(r => parseNum(r.residual_mix)  || 0);
+            const seriesDefs = [
+                { name: "Issuance I-REC(E)",   color: "#76D6A1", values: rows.map(r => parseNum(r.issuance_irec) || 0) },
+                { name: "Issuance Europe-GOs",  color: "#F3DC9C", values: rows.map(r => parseNum(r.issuance_ext) || 0) },
+                { name: "Issuance (other)",     color: "#B1BBF9", values: rows.map(r => {
+                    const cert = parseNum(r.certified_mix) || 0;
+                    const ext  = parseNum(r.issuance_ext) || 0;
+                    const irec = parseNum(r.issuance_irec) || 0;
+                    return Math.max(0, cert - ext - irec);
+                }) },
+                { name: "Not Issued",           color: "#F2B08A", values: rows.map(r => parseNum(r.residual_mix) || 0) },
+                { name: "Import",               color: "#83D5F4", values: rows.map(r => parseNum(r.import) || 0) },
+                { name: "Export",               color: "#E7E58F", values: rows.map(r => -(parseNum(r.export) || 0)) },
+                { name: "Expired",              color: "#D6C7FF", values: rows.map(r => parseNum(r.expired) || 0) }
+            ];
+
+            const activeSeries = seriesDefs.filter(s => s.values.some(v => v !== 0));
 
             barChart.setOption({
                 tooltip: { trigger: "axis", axisPointer: { type: "shadow" },
                     valueFormatter: v => formatNum(v, 2) + " MWh" },
-                legend: { bottom: 0, textStyle: { fontSize: 12 } },
+                legend: { bottom: 0, textStyle: { fontSize: 12 },
+                    data: activeSeries.map(s => s.name) },
                 grid: { left: 10, right: 20, top: 10, bottom: 40, containLabel: true },
                 xAxis: { type: "value", axisLabel: { fontSize: 11 } },
                 yAxis: { type: "category", data: sources, axisLabel: { fontSize: 11 } },
-                series: [
-                    { name: "Issuance (ext)",  type: "bar", stack: "total", data: valExt,
-                      itemStyle: { color: "#F3DC9C" }, barMaxWidth: 28 },
-                    { name: "Issuance (I-REC)", type: "bar", stack: "total", data: valIrec,
-                      itemStyle: { color: "#76D6A1" }, barMaxWidth: 28 },
-                    { name: "Residual mix",     type: "bar", stack: "total", data: valRes,
-                      itemStyle: { color: "#F2B08A" }, barMaxWidth: 28 }
-                ]
+                series: activeSeries.map(s => ({
+                    name: s.name, type: "bar", stack: "total", data: s.values,
+                    itemStyle: { color: s.color }, barMaxWidth: 28
+                }))
             });
         }
     }

@@ -9,6 +9,7 @@ const _preloadedGeoJson = fetch(URL_WORLD_GEO_LOW).then(r => r.json());
 
 let mapInstance = null;
 let worldGeojsonOriginal = null;
+let smallCountryDotsGeojson = null;
 let initialMapCenter = null;
 const INITIAL_ZOOM = 3.3;
 
@@ -180,6 +181,53 @@ function initMap() {
         }
       });
 
+      // Small-country dot markers (visible at all zoom levels)
+      const SMALL_COUNTRY_DOTS = [
+        { id: "SGP", name: "Singapore",  coords: [103.8198, 1.3521] },
+        { id: "MUS", name: "Mauritius",  coords: [57.5522, -20.3484] },
+        { id: "CUW", name: "Curaçao",    coords: [-68.9900, 12.1696] },
+        { id: "BHR", name: "Bahrain",    coords: [50.5577, 26.0667] }
+      ];
+
+      smallCountryDotsGeojson = {
+        type: "FeatureCollection",
+        features: SMALL_COUNTRY_DOTS.map(c => ({
+          type: "Feature",
+          id: c.id,
+          properties: { id: c.id, name: c.name, display_name: c.name },
+          geometry: { type: "Point", coordinates: c.coords }
+        }))
+      };
+
+      mapInstance.addSource("small-country-dots", {
+        type: "geojson",
+        data: smallCountryDotsGeojson
+      });
+
+      mapInstance.addLayer({
+        id: "small-country-dots-fill",
+        type: "circle",
+        source: "small-country-dots",
+        paint: {
+          "circle-radius": 6,
+          "circle-color": [
+            "case",
+            ["==", ["get", "hasDataForFilters"], true],
+            ["interpolate", ["linear"], ["coalesce", ["get", "kpi_value"], 0],
+              0,   "#F7EFC6",
+              10,  "#F3DC9C",
+              50,  "#F2B08A",
+              60,  "#CDEED7",
+              100, "#76D6A1"
+            ],
+            "#e0e0e0"
+          ],
+          "circle-stroke-width": 1.5,
+          "circle-stroke-color": "#ffffff",
+          "circle-opacity": 0.9
+        }
+      });
+
       setupMapInteractions();
       resolve();
 
@@ -205,7 +253,8 @@ async function upgradeToHighRes() {
     prepareGeojsonProperties(highRes);
     worldGeojsonOriginal = highRes;
     updateMapColors();
-    updateRowsCountLabel(); // piggyback this here, we expect the data_detail to have finished loading before high res world
+    updateRowsCountLabel();
+    updateMapDataSourceFooter();
   } catch (err) {
     console.warn("High-res geojson failed to load, keeping low-res", err);
   }
@@ -223,7 +272,7 @@ function updateMapColors() {
   }
 
   // Which KPI drives coloring (future-proof)
-  const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+  const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
 
   // Map KPI per country from aggregated DATA (not from detail rows)
   // Map always shows the latest selected year only
@@ -265,6 +314,27 @@ function updateMapColors() {
 
   const src = mapInstance.getSource("countries");
   if (src) src.setData(updatedGeojson);
+
+  // Update small-country dot markers with the same data
+  const dotSrc = mapInstance.getSource("small-country-dots");
+  if (dotSrc && smallCountryDotsGeojson) {
+    const updatedDots = {
+      ...smallCountryDotsGeojson,
+      features: smallCountryDotsGeojson.features.map(f => {
+        const code = (f.id || "").toString().toUpperCase();
+        const hasData = filteredByCode.has(code);
+        return {
+          ...f,
+          properties: {
+            ...f.properties,
+            hasDataForFilters: hasData,
+            kpi_value: hasData ? (kpiByCode.get(code) ?? null) : null
+          }
+        };
+      })
+    };
+    dotSrc.setData(updatedDots);
+  }
 }
 
 
@@ -273,6 +343,7 @@ function setupMapInteractions() {
 
   if (window.CountryUI?.attach) {
     window.CountryUI.attach(mapInstance, "country-fill");
+    window.CountryUI.attach(mapInstance, "small-country-dots-fill");
   } else {
     console.warn("CountryUI not loaded. Include country-ui.js before view-map.js");
   }
@@ -283,7 +354,7 @@ function setupKpiOverlaySwitch() {
   if (!sel) return;
 
   // set initial value from current config (or default)
-  const current = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_renewables";
+  const current = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
   sel.value = current;
 
   sel.addEventListener("change", () => {

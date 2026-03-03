@@ -163,6 +163,8 @@ def main():
                 out[key] = "" if raw is None else str(raw).strip()
 
             # Force canonical keys
+            if country_name == "Taiwan, Province of China":
+                country_name = "Taiwan"
             out["country"] = country_name
             out["country_code"] = iso3
 

@@ -34,6 +34,7 @@ function scheduleRender() {
     extractFilters();
     render();
     updateRowsCountLabel();
+    updateMapDataSourceFooter();
   });
 }
 
@@ -315,6 +316,15 @@ function updateRowsCountLabel() {
 
   const n = getFilteredDetailRows().length;
   el.textContent = `${n} rows`;
+}
+
+function updateMapDataSourceFooter() {
+  const el = document.getElementById("map-data-source-footer");
+  if (!el) return;
+  const details = window.DATA_DETAIL;
+  if (!details || !details.length) { el.textContent = ""; return; }
+  const sources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
+  el.textContent = sources.length ? "Data Source: " + sources.join(", ") : "";
 }
 
 // -------------------------
