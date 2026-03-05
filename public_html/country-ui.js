@@ -92,9 +92,7 @@
     "export_physical",
     "import_certificates",
     "export_certificates",
-    "untracked",
-    "gen_mix_ef",
-    "residual_mix_ef"
+    "untracked"
   ];
 
   const PRETTY_COLUMN_NAMES = {
