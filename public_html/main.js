@@ -322,9 +322,10 @@ function updateMapDataSourceFooter() {
   const el = document.getElementById("map-data-source-footer");
   if (!el) return;
   const details = window.DATA_DETAIL;
-  if (!details || !details.length) { el.textContent = ""; return; }
+  if (!details || !details.length) { el.innerHTML = ""; return; }
   const sources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
-  el.textContent = sources.length ? "Data Source: " + sources.join(", ") : "";
+  if (!sources.length) { el.innerHTML = ""; return; }
+  el.innerHTML = `<details style="cursor:pointer;"><summary style="font-weight:600;color:#666;">Data Sources</summary><div style="margin-top:4px;">${sources.join(", ")}</div></details>`;
 }
 
 // -------------------------

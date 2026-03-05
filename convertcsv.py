@@ -265,6 +265,7 @@ def main():
             "perc_residual": percent_number_str((total_generation-total_certified), total_generation),
             "perc_tracked_renewables": percent_number_str(b.res_total_certified, b.res_total_generation),
             "perc_green": percent_number_str(b.res_total_generation, total_generation),
+            "methodology": "I-REC",
         })
 
     with agg_out_path.open("w", encoding="utf-8") as f:

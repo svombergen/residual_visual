@@ -76,7 +76,8 @@
     "emission_factor",
     "class",
     "method",
-    "total_co2"
+    "total_co2",
+    "residual_mix"
   ]);
 
   // Desired table column order (left to right); columns with all-zero values are hidden
@@ -110,8 +111,8 @@
     import_certificates: "Import (certificates)",
     export_certificates: "Export (certificates)",
     untracked: "Untracked",
-    gen_mix_ef: "Generation mix",
-    residual_mix_ef: "Residual mix"
+    gen_mix_ef: "Generation Mix EF",
+    residual_mix_ef: "Residual Mix EF"
   };
 
   const UNITS = {
@@ -512,10 +513,8 @@
             }
         }
 
-        // Methodology: derive from issuance columns
-        const hasGO = details.some(r => (parseNum(r.issuance_ext) || 0) > 0);
-        const hasIREC = details.some(r => (parseNum(r.issuance_irec) || 0) > 0);
-        const methodLabel = hasGO && hasIREC ? "GO / I-REC" : hasGO ? "GO" : hasIREC ? "I-REC" : "Other";
+        // Methodology: read from aggregated data
+        const methodLabel = (aggRow?.methodology || "").trim() || "Other";
 
         // Data sources
         const dataSources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
@@ -727,29 +726,31 @@
             const resEf = residualGen > 0 ? (totalCo2 / residualGen / 1000) : null;
 
             const pieLabelOpt = { show: false };
-            const pieEmphasis = { label: { show: true, fontSize: 12, fontWeight: "bold", formatter: "{b}\n{d}%" } };
+            const pieEmphasis = { label: { show: true, fontSize: 12, fontWeight: "bold", formatter: "{b}\n{d}%", overflow: "break" } };
             const pieStyle = { borderRadius: 4, borderColor: "#fff", borderWidth: 2 };
 
             donutChart.setOption({
-                tooltip: { trigger: "item", formatter: "{b}: {c} MWh ({d}%)" },
+                tooltip: { show: false },
                 legend: { bottom: 0, textStyle: { fontSize: 11 } },
                 title: [
                     { text: "Generation Mix", left: "16%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
                     { text: "Tracked %", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
                     { text: "Residual Mix", left: "83%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
-                    // Emission factor labels below pies
-                    { text: genEf != null ? `${formatNum(genEf, 4)} tCO₂/MWh` : "", left: "16%", top: "72%", textAlign: "center",
-                      textStyle: { fontSize: 11, fontWeight: 400, color: "#666" } },
-                    { text: resEf != null ? `${formatNum(resEf, 4)} tCO₂/MWh` : "", left: "83%", top: "72%", textAlign: "center",
-                      textStyle: { fontSize: 11, fontWeight: 400, color: "#666" } }
+                    // Values below pies
+                    { text: genEf != null ? `${formatNum(genEf, 4)} tCO₂/MWh` : "", left: "16%", top: "70%", textAlign: "center",
+                      textStyle: { fontSize: 14, fontWeight: 700, color: "#333" } },
+                    { text: `${trackedPct}%`, left: "50%", top: "70%", textAlign: "center",
+                      textStyle: { fontSize: 14, fontWeight: 700, color: "#333" } },
+                    { text: resEf != null ? `${formatNum(resEf, 4)} tCO₂/MWh` : "", left: "83%", top: "70%", textAlign: "center",
+                      textStyle: { fontSize: 14, fontWeight: 700, color: "#333" } }
                 ],
                 series: [
-                    { type: "pie", radius: ["30%", "52%"], center: ["16%", "40%"],
+                    { type: "pie", radius: ["30%", "50%"], center: ["16%", "40%"],
                       label: pieLabelOpt, emphasis: pieEmphasis, itemStyle: pieStyle, data: genData },
-                    { type: "pie", radius: ["30%", "52%"], center: ["50%", "40%"],
-                      label: { show: true, position: "center", formatter: () => `${trackedPct}%`, fontSize: 18, fontWeight: 700 },
+                    { type: "pie", radius: ["30%", "50%"], center: ["50%", "40%"],
+                      label: pieLabelOpt,
                       emphasis: pieEmphasis, itemStyle: pieStyle, data: trackedData },
-                    { type: "pie", radius: ["30%", "52%"], center: ["83%", "40%"],
+                    { type: "pie", radius: ["30%", "50%"], center: ["83%", "40%"],
                       label: pieLabelOpt, emphasis: pieEmphasis, itemStyle: pieStyle, data: resData }
                 ]
             });

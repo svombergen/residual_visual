@@ -19,6 +19,18 @@ body {
   height: 60px;
 }
 
+/* --- Site logo --- */
+#site-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+#site-logo img {
+  display: block;
+  width: 134px;
+  height: auto;
+}
+
 /* --- Filters --- */
 #filters {
   width: 100%;

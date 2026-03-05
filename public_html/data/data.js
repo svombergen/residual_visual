@@ -9,7 +9,8 @@ window.DATA = [
     "perc_tracked_total": "0,04",
     "perc_residual": "99,96",
     "perc_tracked_renewables": "0,14",
-    "perc_green": "25,32"
+    "perc_green": "25,32",
+    "methodology": "I-REC"
   },
   {
     "country": "Argentina",
@@ -21,7 +22,8 @@ window.DATA = [
     "perc_tracked_total": "0,45",
     "perc_residual": "99,55",
     "perc_tracked_renewables": "1,84",
-    "perc_green": "24,19"
+    "perc_green": "24,19",
+    "methodology": "I-REC"
   },
   {
     "country": "Argentina",
@@ -33,7 +35,8 @@ window.DATA = [
     "perc_tracked_total": "0,59",
     "perc_residual": "99,41",
     "perc_tracked_renewables": "2,05",
-    "perc_green": "29,03"
+    "perc_green": "29,03",
+    "methodology": "I-REC"
   },
   {
     "country": "Argentina",
@@ -45,7 +48,8 @@ window.DATA = [
     "perc_tracked_total": "1,29",
     "perc_residual": "98,71",
     "perc_tracked_renewables": "3,70",
-    "perc_green": "34,77"
+    "perc_green": "34,77",
+    "methodology": "I-REC"
   },
   {
     "country": "Argentina",
@@ -57,7 +61,8 @@ window.DATA = [
     "perc_tracked_total": "1,56",
     "perc_residual": "98,44",
     "perc_tracked_renewables": "4,54",
-    "perc_green": "34,38"
+    "perc_green": "34,38",
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -69,7 +74,8 @@ window.DATA = [
     "perc_tracked_total": "27,87",
     "perc_residual": "72,13",
     "perc_tracked_renewables": "73,86",
-    "perc_green": "36,87"
+    "perc_green": "36,87",
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -81,7 +87,8 @@ window.DATA = [
     "perc_tracked_total": "14,91",
     "perc_residual": "85,09",
     "perc_tracked_renewables": "49,97",
-    "perc_green": "28,89"
+    "perc_green": "28,89",
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -93,7 +100,8 @@ window.DATA = [
     "perc_tracked_total": "17,47",
     "perc_residual": "82,53",
     "perc_tracked_renewables": "53,17",
-    "perc_green": "32,04"
+    "perc_green": "32,04",
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -105,7 +113,8 @@ window.DATA = [
     "perc_tracked_total": "19,08",
     "perc_residual": "80,92",
     "perc_tracked_renewables": "53,62",
-    "perc_green": "34,81"
+    "perc_green": "34,81",
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -117,7 +126,8 @@ window.DATA = [
     "perc_tracked_total": "17,32",
     "perc_residual": "82,68",
     "perc_tracked_renewables": "48,35",
-    "perc_green": "35,08"
+    "perc_green": "35,08",
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -129,7 +139,8 @@ window.DATA = [
     "perc_tracked_total": "0,05",
     "perc_residual": "99,95",
     "perc_tracked_renewables": "3,70",
-    "perc_green": "1,46"
+    "perc_green": "1,46",
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -141,7 +152,8 @@ window.DATA = [
     "perc_tracked_total": "0,05",
     "perc_residual": "99,95",
     "perc_tracked_renewables": "3,48",
-    "perc_green": "1,41"
+    "perc_green": "1,41",
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -153,7 +165,8 @@ window.DATA = [
     "perc_tracked_total": "0,06",
     "perc_residual": "99,94",
     "perc_tracked_renewables": "3,64",
-    "perc_green": "1,56"
+    "perc_green": "1,56",
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -165,7 +178,8 @@ window.DATA = [
     "perc_tracked_total": "0,45",
     "perc_residual": "99,55",
     "perc_tracked_renewables": "27,51",
-    "perc_green": "1,62"
+    "perc_green": "1,62",
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -177,7 +191,8 @@ window.DATA = [
     "perc_tracked_total": "0,77",
     "perc_residual": "99,23",
     "perc_tracked_renewables": "37,93",
-    "perc_green": "2,03"
+    "perc_green": "2,03",
+    "methodology": "I-REC"
   },
   {
     "country": "Brazil",
@@ -189,7 +204,8 @@ window.DATA = [
     "perc_tracked_total": "1,22",
     "perc_residual": "98,78",
     "perc_tracked_renewables": "1,47",
-    "perc_green": "83,17"
+    "perc_green": "83,17",
+    "methodology": "I-REC"
   },
   {
     "country": "Brazil",
@@ -201,7 +217,8 @@ window.DATA = [
     "perc_tracked_total": "3,17",
     "perc_residual": "96,83",
     "perc_tracked_renewables": "4,10",
-    "perc_green": "77,37"
+    "perc_green": "77,37",
+    "methodology": "I-REC"
   },
   {
     "country": "Brazil",
@@ -213,7 +230,8 @@ window.DATA = [
     "perc_tracked_total": "5,12",
     "perc_residual": "94,88",
     "perc_tracked_renewables": "5,83",
-    "perc_green": "87,70"
+    "perc_green": "87,70",
+    "methodology": "I-REC"
   },
   {
     "country": "Brazil",
@@ -225,7 +243,8 @@ window.DATA = [
     "perc_tracked_total": "7,24",
     "perc_residual": "92,76",
     "perc_tracked_renewables": "8,14",
-    "perc_green": "88,99"
+    "perc_green": "88,99",
+    "methodology": "I-REC"
   },
   {
     "country": "Brazil",
@@ -237,7 +256,8 @@ window.DATA = [
     "perc_tracked_total": "8,41",
     "perc_residual": "91,59",
     "perc_tracked_renewables": "9,64",
-    "perc_green": "87,33"
+    "perc_green": "87,33",
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -249,7 +269,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "",
-    "perc_green": "0,00"
+    "perc_green": "0,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -261,7 +282,8 @@ window.DATA = [
     "perc_tracked_total": "0,03",
     "perc_residual": "99,97",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "0,03"
+    "perc_green": "0,03",
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -273,7 +295,8 @@ window.DATA = [
     "perc_tracked_total": "0,08",
     "perc_residual": "99,92",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "0,08"
+    "perc_green": "0,08",
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -285,7 +308,8 @@ window.DATA = [
     "perc_tracked_total": "0,09",
     "perc_residual": "99,91",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "0,09"
+    "perc_green": "0,09",
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -297,7 +321,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -309,7 +334,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "18,87"
+    "perc_green": "18,87",
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -321,7 +347,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "18,13"
+    "perc_green": "18,13",
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -333,7 +360,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "15,38"
+    "perc_green": "15,38",
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -345,7 +373,8 @@ window.DATA = [
     "perc_tracked_total": "3,27",
     "perc_residual": "96,73",
     "perc_tracked_renewables": "18,83",
-    "perc_green": "17,34"
+    "perc_green": "17,34",
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -357,7 +386,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -369,7 +399,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "49,44"
+    "perc_green": "49,44",
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -381,7 +412,8 @@ window.DATA = [
     "perc_tracked_total": "0,55",
     "perc_residual": "99,45",
     "perc_tracked_renewables": "0,93",
-    "perc_green": "58,83"
+    "perc_green": "58,83",
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -393,7 +425,8 @@ window.DATA = [
     "perc_tracked_total": "1,06",
     "perc_residual": "98,94",
     "perc_tracked_renewables": "1,64",
-    "perc_green": "64,79"
+    "perc_green": "64,79",
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -405,7 +438,8 @@ window.DATA = [
     "perc_tracked_total": "0,83",
     "perc_residual": "99,17",
     "perc_tracked_renewables": "1,86",
-    "perc_green": "44,52"
+    "perc_green": "44,52",
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -417,7 +451,8 @@ window.DATA = [
     "perc_tracked_total": "0,31",
     "perc_residual": "99,69",
     "perc_tracked_renewables": "0,77",
-    "perc_green": "40,71"
+    "perc_green": "40,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -429,7 +464,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "5,71"
+    "perc_green": "5,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -441,7 +477,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "4,65"
+    "perc_green": "4,65",
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -453,7 +490,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "5,13"
+    "perc_green": "5,13",
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -465,7 +503,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -477,7 +516,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Chile",
@@ -489,7 +529,8 @@ window.DATA = [
     "perc_tracked_total": "2,28",
     "perc_residual": "97,72",
     "perc_tracked_renewables": "4,70",
-    "perc_green": "48,44"
+    "perc_green": "48,44",
+    "methodology": "I-REC"
   },
   {
     "country": "Chile",
@@ -501,7 +542,8 @@ window.DATA = [
     "perc_tracked_total": "13,91",
     "perc_residual": "86,09",
     "perc_tracked_renewables": "28,15",
-    "perc_green": "49,43"
+    "perc_green": "49,43",
+    "methodology": "I-REC"
   },
   {
     "country": "Chile",
@@ -513,7 +555,8 @@ window.DATA = [
     "perc_tracked_total": "19,70",
     "perc_residual": "80,30",
     "perc_tracked_renewables": "35,61",
-    "perc_green": "55,33"
+    "perc_green": "55,33",
+    "methodology": "I-REC"
   },
   {
     "country": "Chile",
@@ -525,7 +568,8 @@ window.DATA = [
     "perc_tracked_total": "27,16",
     "perc_residual": "72,84",
     "perc_tracked_renewables": "42,18",
-    "perc_green": "64,40"
+    "perc_green": "64,40",
+    "methodology": "I-REC"
   },
   {
     "country": "Chile",
@@ -537,7 +581,8 @@ window.DATA = [
     "perc_tracked_total": "28,15",
     "perc_residual": "71,85",
     "perc_tracked_renewables": "40,27",
-    "perc_green": "69,90"
+    "perc_green": "69,90",
+    "methodology": "I-REC"
   },
   {
     "country": "China",
@@ -549,7 +594,8 @@ window.DATA = [
     "perc_tracked_total": "0,19",
     "perc_residual": "99,81",
     "perc_tracked_renewables": "0,67",
-    "perc_green": "28,09"
+    "perc_green": "28,09",
+    "methodology": "I-REC"
   },
   {
     "country": "China",
@@ -561,7 +607,8 @@ window.DATA = [
     "perc_tracked_total": "0,79",
     "perc_residual": "99,21",
     "perc_tracked_renewables": "2,76",
-    "perc_green": "28,69"
+    "perc_green": "28,69",
+    "methodology": "I-REC"
   },
   {
     "country": "China",
@@ -573,7 +620,8 @@ window.DATA = [
     "perc_tracked_total": "0,82",
     "perc_residual": "99,18",
     "perc_tracked_renewables": "2,71",
-    "perc_green": "30,18"
+    "perc_green": "30,18",
+    "methodology": "I-REC"
   },
   {
     "country": "China",
@@ -585,7 +633,8 @@ window.DATA = [
     "perc_tracked_total": "0,66",
     "perc_residual": "99,34",
     "perc_tracked_renewables": "2,16",
-    "perc_green": "30,61"
+    "perc_green": "30,61",
+    "methodology": "I-REC"
   },
   {
     "country": "China",
@@ -597,7 +646,8 @@ window.DATA = [
     "perc_tracked_total": "0,49",
     "perc_residual": "99,51",
     "perc_tracked_renewables": "1,45",
-    "perc_green": "33,70"
+    "perc_green": "33,70",
+    "methodology": "I-REC"
   },
   {
     "country": "Colombia",
@@ -609,7 +659,8 @@ window.DATA = [
     "perc_tracked_total": "4,27",
     "perc_residual": "95,73",
     "perc_tracked_renewables": "6,54",
-    "perc_green": "65,32"
+    "perc_green": "65,32",
+    "methodology": "I-REC"
   },
   {
     "country": "Colombia",
@@ -621,7 +672,8 @@ window.DATA = [
     "perc_tracked_total": "5,05",
     "perc_residual": "94,95",
     "perc_tracked_renewables": "6,73",
-    "perc_green": "75,07"
+    "perc_green": "75,07",
+    "methodology": "I-REC"
   },
   {
     "country": "Colombia",
@@ -633,7 +685,8 @@ window.DATA = [
     "perc_tracked_total": "9,19",
     "perc_residual": "90,81",
     "perc_tracked_renewables": "12,36",
-    "perc_green": "74,35"
+    "perc_green": "74,35",
+    "methodology": "I-REC"
   },
   {
     "country": "Colombia",
@@ -645,7 +698,8 @@ window.DATA = [
     "perc_tracked_total": "9,07",
     "perc_residual": "90,93",
     "perc_tracked_renewables": "13,75",
-    "perc_green": "65,97"
+    "perc_green": "65,97",
+    "methodology": "I-REC"
   },
   {
     "country": "Colombia",
@@ -657,7 +711,8 @@ window.DATA = [
     "perc_tracked_total": "9,57",
     "perc_residual": "90,43",
     "perc_tracked_renewables": "14,87",
-    "perc_green": "64,36"
+    "perc_green": "64,36",
+    "methodology": "I-REC"
   },
   {
     "country": "Congo, DRC",
@@ -669,7 +724,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "99,92"
+    "perc_green": "99,92",
+    "methodology": "I-REC"
   },
   {
     "country": "Congo, DRC",
@@ -681,7 +737,8 @@ window.DATA = [
     "perc_tracked_total": "0,01",
     "perc_residual": "99,99",
     "perc_tracked_renewables": "0,01",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Congo, DRC",
@@ -693,7 +750,8 @@ window.DATA = [
     "perc_tracked_total": "0,01",
     "perc_residual": "99,99",
     "perc_tracked_renewables": "0,01",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Congo, DRC",
@@ -705,7 +763,8 @@ window.DATA = [
     "perc_tracked_total": "0,02",
     "perc_residual": "99,98",
     "perc_tracked_renewables": "0,02",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Congo, DRC",
@@ -717,7 +776,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Costa Rica",
@@ -729,7 +789,8 @@ window.DATA = [
     "perc_tracked_total": "0,03",
     "perc_residual": "99,97",
     "perc_tracked_renewables": "0,03",
-    "perc_green": "99,83"
+    "perc_green": "99,83",
+    "methodology": "I-REC"
   },
   {
     "country": "Costa Rica",
@@ -741,7 +802,8 @@ window.DATA = [
     "perc_tracked_total": "1,30",
     "perc_residual": "98,70",
     "perc_tracked_renewables": "1,30",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Costa Rica",
@@ -753,7 +815,8 @@ window.DATA = [
     "perc_tracked_total": "1,39",
     "perc_residual": "98,61",
     "perc_tracked_renewables": "1,39",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Costa Rica",
@@ -765,7 +828,8 @@ window.DATA = [
     "perc_tracked_total": "1,55",
     "perc_residual": "98,45",
     "perc_tracked_renewables": "1,55",
-    "perc_green": "99,91"
+    "perc_green": "99,91",
+    "methodology": "I-REC"
   },
   {
     "country": "Costa Rica",
@@ -777,7 +841,8 @@ window.DATA = [
     "perc_tracked_total": "2,41",
     "perc_residual": "97,59",
     "perc_tracked_renewables": "2,56",
-    "perc_green": "94,02"
+    "perc_green": "94,02",
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -789,7 +854,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "16,16"
+    "perc_green": "16,16",
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -801,7 +867,8 @@ window.DATA = [
     "perc_tracked_total": "0,25",
     "perc_residual": "99,75",
     "perc_tracked_renewables": "1,39",
-    "perc_green": "17,78"
+    "perc_green": "17,78",
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -813,7 +880,8 @@ window.DATA = [
     "perc_tracked_total": "1,41",
     "perc_residual": "98,59",
     "perc_tracked_renewables": "7,63",
-    "perc_green": "18,45"
+    "perc_green": "18,45",
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -825,7 +893,8 @@ window.DATA = [
     "perc_tracked_total": "1,19",
     "perc_residual": "98,81",
     "perc_tracked_renewables": "6,87",
-    "perc_green": "17,26"
+    "perc_green": "17,26",
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -837,7 +906,8 @@ window.DATA = [
     "perc_tracked_total": "1,70",
     "perc_residual": "98,30",
     "perc_tracked_renewables": "9,19",
-    "perc_green": "18,54"
+    "perc_green": "18,54",
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -849,7 +919,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "79,64"
+    "perc_green": "79,64",
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -861,7 +932,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "81,20"
+    "perc_green": "81,20",
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -873,7 +945,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "76,01"
+    "perc_green": "76,01",
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -885,7 +958,8 @@ window.DATA = [
     "perc_tracked_total": "0,40",
     "perc_residual": "99,60",
     "perc_tracked_renewables": "0,52",
-    "perc_green": "76,78"
+    "perc_green": "76,78",
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -897,7 +971,8 @@ window.DATA = [
     "perc_tracked_total": "0,55",
     "perc_residual": "99,45",
     "perc_tracked_renewables": "0,77",
-    "perc_green": "71,67"
+    "perc_green": "71,67",
+    "methodology": "I-REC"
   },
   {
     "country": "Egypt",
@@ -909,7 +984,8 @@ window.DATA = [
     "perc_tracked_total": "0,03",
     "perc_residual": "99,97",
     "perc_tracked_renewables": "0,25",
-    "perc_green": "11,96"
+    "perc_green": "11,96",
+    "methodology": "I-REC"
   },
   {
     "country": "Egypt",
@@ -921,7 +997,8 @@ window.DATA = [
     "perc_tracked_total": "0,12",
     "perc_residual": "99,88",
     "perc_tracked_renewables": "1,02",
-    "perc_green": "12,10"
+    "perc_green": "12,10",
+    "methodology": "I-REC"
   },
   {
     "country": "Egypt",
@@ -933,7 +1010,8 @@ window.DATA = [
     "perc_tracked_total": "0,25",
     "perc_residual": "99,75",
     "perc_tracked_renewables": "2,14",
-    "perc_green": "11,82"
+    "perc_green": "11,82",
+    "methodology": "I-REC"
   },
   {
     "country": "Egypt",
@@ -945,7 +1023,8 @@ window.DATA = [
     "perc_tracked_total": "0,35",
     "perc_residual": "99,65",
     "perc_tracked_renewables": "2,99",
-    "perc_green": "11,70"
+    "perc_green": "11,70",
+    "methodology": "I-REC"
   },
   {
     "country": "Egypt",
@@ -957,7 +1036,8 @@ window.DATA = [
     "perc_tracked_total": "0,40",
     "perc_residual": "99,60",
     "perc_tracked_renewables": "3,59",
-    "perc_green": "11,20"
+    "perc_green": "11,20",
+    "methodology": "I-REC"
   },
   {
     "country": "El Salvador",
@@ -969,7 +1049,8 @@ window.DATA = [
     "perc_tracked_total": "1,96",
     "perc_residual": "98,04",
     "perc_tracked_renewables": "2,32",
-    "perc_green": "84,52"
+    "perc_green": "84,52",
+    "methodology": "I-REC"
   },
   {
     "country": "El Salvador",
@@ -981,7 +1062,8 @@ window.DATA = [
     "perc_tracked_total": "0,06",
     "perc_residual": "99,94",
     "perc_tracked_renewables": "0,07",
-    "perc_green": "84,72"
+    "perc_green": "84,72",
+    "methodology": "I-REC"
   },
   {
     "country": "El Salvador",
@@ -993,7 +1075,8 @@ window.DATA = [
     "perc_tracked_total": "1,39",
     "perc_residual": "98,61",
     "perc_tracked_renewables": "1,53",
-    "perc_green": "90,81"
+    "perc_green": "90,81",
+    "methodology": "I-REC"
   },
   {
     "country": "El Salvador",
@@ -1005,7 +1088,8 @@ window.DATA = [
     "perc_tracked_total": "0,40",
     "perc_residual": "99,60",
     "perc_tracked_renewables": "0,44",
-    "perc_green": "90,62"
+    "perc_green": "90,62",
+    "methodology": "I-REC"
   },
   {
     "country": "El Salvador",
@@ -1017,7 +1101,8 @@ window.DATA = [
     "perc_tracked_total": "9,80",
     "perc_residual": "90,20",
     "perc_tracked_renewables": "10,51",
-    "perc_green": "93,19"
+    "perc_green": "93,19",
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -1029,7 +1114,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "99,94"
+    "perc_green": "99,94",
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -1041,7 +1127,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -1053,7 +1140,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -1065,7 +1153,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -1077,7 +1166,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -1089,7 +1179,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "37,35"
+    "perc_green": "37,35",
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -1101,7 +1192,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "34,78"
+    "perc_green": "34,78",
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -1113,7 +1205,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "36,05"
+    "perc_green": "36,05",
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -1125,7 +1218,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,01",
-    "perc_green": "38,53"
+    "perc_green": "38,53",
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -1137,7 +1231,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Guatemala",
@@ -1149,7 +1244,8 @@ window.DATA = [
     "perc_tracked_total": "1,63",
     "perc_residual": "98,37",
     "perc_tracked_renewables": "2,15",
-    "perc_green": "75,76"
+    "perc_green": "75,76",
+    "methodology": "I-REC"
   },
   {
     "country": "Guatemala",
@@ -1161,7 +1257,8 @@ window.DATA = [
     "perc_tracked_total": "6,02",
     "perc_residual": "93,98",
     "perc_tracked_renewables": "8,20",
-    "perc_green": "73,50"
+    "perc_green": "73,50",
+    "methodology": "I-REC"
   },
   {
     "country": "Guatemala",
@@ -1173,7 +1270,8 @@ window.DATA = [
     "perc_tracked_total": "10,43",
     "perc_residual": "89,57",
     "perc_tracked_renewables": "12,32",
-    "perc_green": "84,64"
+    "perc_green": "84,64",
+    "methodology": "I-REC"
   },
   {
     "country": "Guatemala",
@@ -1185,7 +1283,8 @@ window.DATA = [
     "perc_tracked_total": "10,14",
     "perc_residual": "89,86",
     "perc_tracked_renewables": "13,61",
-    "perc_green": "74,52"
+    "perc_green": "74,52",
+    "methodology": "I-REC"
   },
   {
     "country": "Guatemala",
@@ -1197,7 +1296,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Haiti",
@@ -1209,7 +1309,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "13,73"
+    "perc_green": "13,73",
+    "methodology": "I-REC"
   },
   {
     "country": "Haiti",
@@ -1221,7 +1322,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "12,62"
+    "perc_green": "12,62",
+    "methodology": "I-REC"
   },
   {
     "country": "Haiti",
@@ -1233,7 +1335,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "18,81"
+    "perc_green": "18,81",
+    "methodology": "I-REC"
   },
   {
     "country": "Honduras",
@@ -1245,7 +1348,8 @@ window.DATA = [
     "perc_tracked_total": "0,51",
     "perc_residual": "99,49",
     "perc_tracked_renewables": "0,89",
-    "perc_green": "56,93"
+    "perc_green": "56,93",
+    "methodology": "I-REC"
   },
   {
     "country": "Honduras",
@@ -1257,7 +1361,8 @@ window.DATA = [
     "perc_tracked_total": "3,90",
     "perc_residual": "96,10",
     "perc_tracked_renewables": "6,21",
-    "perc_green": "62,76"
+    "perc_green": "62,76",
+    "methodology": "I-REC"
   },
   {
     "country": "Honduras",
@@ -1269,7 +1374,8 @@ window.DATA = [
     "perc_tracked_total": "4,02",
     "perc_residual": "95,98",
     "perc_tracked_renewables": "6,58",
-    "perc_green": "61,17"
+    "perc_green": "61,17",
+    "methodology": "I-REC"
   },
   {
     "country": "Honduras",
@@ -1281,7 +1387,8 @@ window.DATA = [
     "perc_tracked_total": "4,76",
     "perc_residual": "95,24",
     "perc_tracked_renewables": "7,72",
-    "perc_green": "61,57"
+    "perc_green": "61,57",
+    "methodology": "I-REC"
   },
   {
     "country": "Honduras",
@@ -1293,7 +1400,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "India",
@@ -1305,7 +1413,8 @@ window.DATA = [
     "perc_tracked_total": "0,19",
     "perc_residual": "99,81",
     "perc_tracked_renewables": "0,99",
-    "perc_green": "19,40"
+    "perc_green": "19,40",
+    "methodology": "I-REC"
   },
   {
     "country": "India",
@@ -1317,7 +1426,8 @@ window.DATA = [
     "perc_tracked_total": "0,22",
     "perc_residual": "99,78",
     "perc_tracked_renewables": "1,17",
-    "perc_green": "19,01"
+    "perc_green": "19,01",
+    "methodology": "I-REC"
   },
   {
     "country": "India",
@@ -1329,7 +1439,8 @@ window.DATA = [
     "perc_tracked_total": "0,45",
     "perc_residual": "99,55",
     "perc_tracked_renewables": "2,23",
-    "perc_green": "20,26"
+    "perc_green": "20,26",
+    "methodology": "I-REC"
   },
   {
     "country": "India",
@@ -1341,7 +1452,8 @@ window.DATA = [
     "perc_tracked_total": "0,63",
     "perc_residual": "99,37",
     "perc_tracked_renewables": "3,20",
-    "perc_green": "19,32"
+    "perc_green": "19,32",
+    "methodology": "I-REC"
   },
   {
     "country": "India",
@@ -1353,7 +1465,8 @@ window.DATA = [
     "perc_tracked_total": "0,65",
     "perc_residual": "99,35",
     "perc_tracked_renewables": "3,12",
-    "perc_green": "19,56"
+    "perc_green": "19,56",
+    "methodology": "I-REC"
   },
   {
     "country": "Indonesia",
@@ -1365,7 +1478,8 @@ window.DATA = [
     "perc_tracked_total": "0,44",
     "perc_residual": "99,56",
     "perc_tracked_renewables": "2,42",
-    "perc_green": "18,12"
+    "perc_green": "18,12",
+    "methodology": "I-REC"
   },
   {
     "country": "Indonesia",
@@ -1377,7 +1491,8 @@ window.DATA = [
     "perc_tracked_total": "0,81",
     "perc_residual": "99,19",
     "perc_tracked_renewables": "4,44",
-    "perc_green": "18,17"
+    "perc_green": "18,17",
+    "methodology": "I-REC"
   },
   {
     "country": "Indonesia",
@@ -1389,7 +1504,8 @@ window.DATA = [
     "perc_tracked_total": "1,21",
     "perc_residual": "98,79",
     "perc_tracked_renewables": "6,17",
-    "perc_green": "19,61"
+    "perc_green": "19,61",
+    "methodology": "I-REC"
   },
   {
     "country": "Indonesia",
@@ -1401,7 +1517,8 @@ window.DATA = [
     "perc_tracked_total": "1,72",
     "perc_residual": "98,28",
     "perc_tracked_renewables": "9,24",
-    "perc_green": "18,60"
+    "perc_green": "18,60",
+    "methodology": "I-REC"
   },
   {
     "country": "Indonesia",
@@ -1413,7 +1530,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Israel",
@@ -1425,7 +1543,8 @@ window.DATA = [
     "perc_tracked_total": "1,42",
     "perc_residual": "98,58",
     "perc_tracked_renewables": "26,42",
-    "perc_green": "5,39"
+    "perc_green": "5,39",
+    "methodology": "I-REC"
   },
   {
     "country": "Israel",
@@ -1437,7 +1556,8 @@ window.DATA = [
     "perc_tracked_total": "2,57",
     "perc_residual": "97,43",
     "perc_tracked_renewables": "38,60",
-    "perc_green": "6,66"
+    "perc_green": "6,66",
+    "methodology": "I-REC"
   },
   {
     "country": "Israel",
@@ -1449,7 +1569,8 @@ window.DATA = [
     "perc_tracked_total": "3,32",
     "perc_residual": "96,68",
     "perc_tracked_renewables": "42,58",
-    "perc_green": "7,80"
+    "perc_green": "7,80",
+    "methodology": "I-REC"
   },
   {
     "country": "Israel",
@@ -1461,7 +1582,8 @@ window.DATA = [
     "perc_tracked_total": "2,98",
     "perc_residual": "97,02",
     "perc_tracked_renewables": "28,37",
-    "perc_green": "10,51"
+    "perc_green": "10,51",
+    "methodology": "I-REC"
   },
   {
     "country": "Israel",
@@ -1473,7 +1595,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -1485,7 +1608,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "13,79"
+    "perc_green": "13,79",
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -1497,7 +1621,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "13,33"
+    "perc_green": "13,33",
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -1509,7 +1634,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "12,92"
+    "perc_green": "12,92",
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -1521,7 +1647,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -1533,7 +1660,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -1545,7 +1673,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "19,09"
+    "perc_green": "19,09",
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -1557,7 +1686,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "20,12"
+    "perc_green": "20,12",
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -1569,7 +1699,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "20,49"
+    "perc_green": "20,49",
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -1581,7 +1712,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "22,14"
+    "perc_green": "22,14",
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -1593,7 +1725,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,02",
-    "perc_green": "22,94"
+    "perc_green": "22,94",
+    "methodology": "I-REC"
   },
   {
     "country": "Jordan",
@@ -1605,7 +1738,8 @@ window.DATA = [
     "perc_tracked_total": "0,65",
     "perc_residual": "99,35",
     "perc_tracked_renewables": "3,43",
-    "perc_green": "18,94"
+    "perc_green": "18,94",
+    "methodology": "I-REC"
   },
   {
     "country": "Jordan",
@@ -1617,7 +1751,8 @@ window.DATA = [
     "perc_tracked_total": "0,81",
     "perc_residual": "99,19",
     "perc_tracked_renewables": "3,54",
-    "perc_green": "22,99"
+    "perc_green": "22,99",
+    "methodology": "I-REC"
   },
   {
     "country": "Jordan",
@@ -1629,7 +1764,8 @@ window.DATA = [
     "perc_tracked_total": "0,32",
     "perc_residual": "99,68",
     "perc_tracked_renewables": "1,37",
-    "perc_green": "23,13"
+    "perc_green": "23,13",
+    "methodology": "I-REC"
   },
   {
     "country": "Jordan",
@@ -1641,7 +1777,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Jordan",
@@ -1653,7 +1790,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Kazakhstan",
@@ -1665,7 +1803,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "10,99"
+    "perc_green": "10,99",
+    "methodology": "I-REC"
   },
   {
     "country": "Kazakhstan",
@@ -1677,7 +1816,8 @@ window.DATA = [
     "perc_tracked_total": "0,07",
     "perc_residual": "99,93",
     "perc_tracked_renewables": "0,67",
-    "perc_green": "10,94"
+    "perc_green": "10,94",
+    "methodology": "I-REC"
   },
   {
     "country": "Kazakhstan",
@@ -1689,7 +1829,8 @@ window.DATA = [
     "perc_tracked_total": "0,09",
     "perc_residual": "99,91",
     "perc_tracked_renewables": "0,78",
-    "perc_green": "11,71"
+    "perc_green": "11,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Kazakhstan",
@@ -1701,7 +1842,8 @@ window.DATA = [
     "perc_tracked_total": "2,17",
     "perc_residual": "97,83",
     "perc_tracked_renewables": "17,02",
-    "perc_green": "12,73"
+    "perc_green": "12,73",
+    "methodology": "I-REC"
   },
   {
     "country": "Kazakhstan",
@@ -1713,7 +1855,8 @@ window.DATA = [
     "perc_tracked_total": "2,63",
     "perc_residual": "97,37",
     "perc_tracked_renewables": "17,30",
-    "perc_green": "15,21"
+    "perc_green": "15,21",
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -1725,7 +1868,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "93,58"
+    "perc_green": "93,58",
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -1737,7 +1881,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "89,82"
+    "perc_green": "89,82",
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -1749,7 +1894,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "87,81"
+    "perc_green": "87,81",
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -1761,7 +1907,8 @@ window.DATA = [
     "perc_tracked_total": "0,75",
     "perc_residual": "99,25",
     "perc_tracked_renewables": "0,83",
-    "perc_green": "89,84"
+    "perc_green": "89,84",
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -1773,7 +1920,8 @@ window.DATA = [
     "perc_tracked_total": "1,54",
     "perc_residual": "98,46",
     "perc_tracked_renewables": "1,68",
-    "perc_green": "91,91"
+    "perc_green": "91,91",
+    "methodology": "I-REC"
   },
   {
     "country": "Korea (the Republic of)",
@@ -1785,7 +1933,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Korea (the Republic of)",
@@ -1797,7 +1946,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Korea (the Republic of)",
@@ -1809,7 +1959,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -1821,7 +1972,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "71,60"
+    "perc_green": "71,60",
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -1833,7 +1985,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "73,54"
+    "perc_green": "73,54",
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -1845,7 +1998,8 @@ window.DATA = [
     "perc_tracked_total": "0,99",
     "perc_residual": "99,01",
     "perc_tracked_renewables": "1,30",
-    "perc_green": "76,14"
+    "perc_green": "76,14",
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -1857,7 +2011,8 @@ window.DATA = [
     "perc_tracked_total": "0,77",
     "perc_residual": "99,23",
     "perc_tracked_renewables": "1,00",
-    "perc_green": "76,71"
+    "perc_green": "76,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -1869,7 +2024,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -1881,7 +2037,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "6,74"
+    "perc_green": "6,74",
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -1893,7 +2050,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "9,28"
+    "perc_green": "9,28",
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -1905,7 +2063,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "45,54"
+    "perc_green": "45,54",
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -1917,7 +2076,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "47,35"
+    "perc_green": "47,35",
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -1929,7 +2089,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Malaysia",
@@ -1941,7 +2102,8 @@ window.DATA = [
     "perc_tracked_total": "0,62",
     "perc_residual": "99,38",
     "perc_tracked_renewables": "3,53",
-    "perc_green": "17,58"
+    "perc_green": "17,58",
+    "methodology": "I-REC"
   },
   {
     "country": "Malaysia",
@@ -1953,7 +2115,8 @@ window.DATA = [
     "perc_tracked_total": "1,00",
     "perc_residual": "99,00",
     "perc_tracked_renewables": "5,17",
-    "perc_green": "19,25"
+    "perc_green": "19,25",
+    "methodology": "I-REC"
   },
   {
     "country": "Malaysia",
@@ -1965,7 +2128,8 @@ window.DATA = [
     "perc_tracked_total": "6,32",
     "perc_residual": "93,68",
     "perc_tracked_renewables": "32,44",
-    "perc_green": "19,47"
+    "perc_green": "19,47",
+    "methodology": "I-REC"
   },
   {
     "country": "Malaysia",
@@ -1977,7 +2141,8 @@ window.DATA = [
     "perc_tracked_total": "5,64",
     "perc_residual": "94,36",
     "perc_tracked_renewables": "29,46",
-    "perc_green": "19,16"
+    "perc_green": "19,16",
+    "methodology": "I-REC"
   },
   {
     "country": "Malaysia",
@@ -1989,7 +2154,8 @@ window.DATA = [
     "perc_tracked_total": "6,36",
     "perc_residual": "93,64",
     "perc_tracked_renewables": "32,34",
-    "perc_green": "19,68"
+    "perc_green": "19,68",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -2001,7 +2167,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "28,83"
+    "perc_green": "28,83",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -2013,7 +2180,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "28,48"
+    "perc_green": "28,48",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -2025,7 +2193,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "27,44"
+    "perc_green": "27,44",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -2037,7 +2206,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritius",
@@ -2049,7 +2219,8 @@ window.DATA = [
     "perc_tracked_total": "5,03",
     "perc_residual": "94,97",
     "perc_tracked_renewables": "20,83",
-    "perc_green": "24,14"
+    "perc_green": "24,14",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritius",
@@ -2061,7 +2232,8 @@ window.DATA = [
     "perc_tracked_total": "4,54",
     "perc_residual": "95,46",
     "perc_tracked_renewables": "21,21",
-    "perc_green": "21,40"
+    "perc_green": "21,40",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritius",
@@ -2073,7 +2245,8 @@ window.DATA = [
     "perc_tracked_total": "3,73",
     "perc_residual": "96,27",
     "perc_tracked_renewables": "19,08",
-    "perc_green": "19,55"
+    "perc_green": "19,55",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritius",
@@ -2085,7 +2258,8 @@ window.DATA = [
     "perc_tracked_total": "3,45",
     "perc_residual": "96,55",
     "perc_tracked_renewables": "19,81",
-    "perc_green": "17,43"
+    "perc_green": "17,43",
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritius",
@@ -2097,7 +2271,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Mexico",
@@ -2109,7 +2284,8 @@ window.DATA = [
     "perc_tracked_total": "0,60",
     "perc_residual": "99,40",
     "perc_tracked_renewables": "2,84",
-    "perc_green": "21,30"
+    "perc_green": "21,30",
+    "methodology": "I-REC"
   },
   {
     "country": "Mexico",
@@ -2121,7 +2297,8 @@ window.DATA = [
     "perc_tracked_total": "1,75",
     "perc_residual": "98,25",
     "perc_tracked_renewables": "6,98",
-    "perc_green": "25,01"
+    "perc_green": "25,01",
+    "methodology": "I-REC"
   },
   {
     "country": "Mexico",
@@ -2133,7 +2310,8 @@ window.DATA = [
     "perc_tracked_total": "2,17",
     "perc_residual": "97,83",
     "perc_tracked_renewables": "8,89",
-    "perc_green": "24,46"
+    "perc_green": "24,46",
+    "methodology": "I-REC"
   },
   {
     "country": "Mexico",
@@ -2145,7 +2323,8 @@ window.DATA = [
     "perc_tracked_total": "2,66",
     "perc_residual": "97,34",
     "perc_tracked_renewables": "13,12",
-    "perc_green": "20,29"
+    "perc_green": "20,29",
+    "methodology": "I-REC"
   },
   {
     "country": "Mexico",
@@ -2157,7 +2336,8 @@ window.DATA = [
     "perc_tracked_total": "2,82",
     "perc_residual": "97,18",
     "perc_tracked_renewables": "13,32",
-    "perc_green": "21,14"
+    "perc_green": "21,14",
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -2169,7 +2349,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "10,24"
+    "perc_green": "10,24",
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -2181,7 +2362,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "11,16"
+    "perc_green": "11,16",
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -2193,7 +2375,8 @@ window.DATA = [
     "perc_tracked_total": "0,30",
     "perc_residual": "99,70",
     "perc_tracked_renewables": "3,04",
-    "perc_green": "9,81"
+    "perc_green": "9,81",
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -2205,7 +2388,8 @@ window.DATA = [
     "perc_tracked_total": "0,64",
     "perc_residual": "99,36",
     "perc_tracked_renewables": "6,71",
-    "perc_green": "9,61"
+    "perc_green": "9,61",
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -2217,7 +2401,8 @@ window.DATA = [
     "perc_tracked_total": "0,29",
     "perc_residual": "99,71",
     "perc_tracked_renewables": "2,96",
-    "perc_green": "9,67"
+    "perc_green": "9,67",
+    "methodology": "I-REC"
   },
   {
     "country": "Morocco",
@@ -2229,7 +2414,8 @@ window.DATA = [
     "perc_tracked_total": "0,16",
     "perc_residual": "99,84",
     "perc_tracked_renewables": "0,81",
-    "perc_green": "19,18"
+    "perc_green": "19,18",
+    "methodology": "I-REC"
   },
   {
     "country": "Morocco",
@@ -2241,7 +2427,8 @@ window.DATA = [
     "perc_tracked_total": "0,16",
     "perc_residual": "99,84",
     "perc_tracked_renewables": "0,81",
-    "perc_green": "19,81"
+    "perc_green": "19,81",
+    "methodology": "I-REC"
   },
   {
     "country": "Morocco",
@@ -2253,7 +2440,8 @@ window.DATA = [
     "perc_tracked_total": "0,22",
     "perc_residual": "99,78",
     "perc_tracked_renewables": "1,20",
-    "perc_green": "18,18"
+    "perc_green": "18,18",
+    "methodology": "I-REC"
   },
   {
     "country": "Morocco",
@@ -2265,7 +2453,8 @@ window.DATA = [
     "perc_tracked_total": "0,36",
     "perc_residual": "99,64",
     "perc_tracked_renewables": "1,64",
-    "perc_green": "21,71"
+    "perc_green": "21,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Morocco",
@@ -2277,7 +2466,8 @@ window.DATA = [
     "perc_tracked_total": "1,10",
     "perc_residual": "98,90",
     "perc_tracked_renewables": "4,14",
-    "perc_green": "26,48"
+    "perc_green": "26,48",
+    "methodology": "I-REC"
   },
   {
     "country": "Myanmar",
@@ -2289,7 +2479,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "N Cyprus",
@@ -2301,7 +2492,8 @@ window.DATA = [
     "perc_tracked_total": "0,04",
     "perc_residual": "99,96",
     "perc_tracked_renewables": "0,31",
-    "perc_green": "12,37"
+    "perc_green": "12,37",
+    "methodology": "I-REC"
   },
   {
     "country": "N Cyprus",
@@ -2313,7 +2505,8 @@ window.DATA = [
     "perc_tracked_total": "0,07",
     "perc_residual": "99,93",
     "perc_tracked_renewables": "0,44",
-    "perc_green": "15,23"
+    "perc_green": "15,23",
+    "methodology": "I-REC"
   },
   {
     "country": "N Cyprus",
@@ -2325,7 +2518,8 @@ window.DATA = [
     "perc_tracked_total": "0,04",
     "perc_residual": "99,96",
     "perc_tracked_renewables": "0,27",
-    "perc_green": "16,73"
+    "perc_green": "16,73",
+    "methodology": "I-REC"
   },
   {
     "country": "N Cyprus",
@@ -2337,7 +2531,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,02",
-    "perc_green": "20,15"
+    "perc_green": "20,15",
+    "methodology": "I-REC"
   },
   {
     "country": "N Cyprus",
@@ -2349,7 +2544,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "23,78"
+    "perc_green": "23,78",
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -2361,7 +2557,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "96,50"
+    "perc_green": "96,50",
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -2373,7 +2570,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "97,35"
+    "perc_green": "97,35",
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -2385,7 +2583,8 @@ window.DATA = [
     "perc_tracked_total": "0,53",
     "perc_residual": "99,47",
     "perc_tracked_renewables": "0,53",
-    "perc_green": "98,48"
+    "perc_green": "98,48",
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -2397,7 +2596,8 @@ window.DATA = [
     "perc_tracked_total": "0,23",
     "perc_residual": "99,77",
     "perc_tracked_renewables": "0,23",
-    "perc_green": "97,88"
+    "perc_green": "97,88",
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -2409,7 +2609,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Nepal",
@@ -2421,7 +2622,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Nepal",
@@ -2433,7 +2635,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -2445,7 +2648,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "81,16"
+    "perc_green": "81,16",
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -2457,7 +2661,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "82,10"
+    "perc_green": "82,10",
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -2469,7 +2674,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "87,10"
+    "perc_green": "87,10",
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -2481,7 +2687,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "88,10"
+    "perc_green": "88,10",
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -2493,7 +2700,8 @@ window.DATA = [
     "perc_tracked_total": "0,18",
     "perc_residual": "99,82",
     "perc_tracked_renewables": "0,21",
-    "perc_green": "85,47"
+    "perc_green": "85,47",
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -2505,7 +2713,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "69,92"
+    "perc_green": "69,92",
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -2517,7 +2726,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "69,12"
+    "perc_green": "69,12",
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -2529,7 +2739,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "64,12"
+    "perc_green": "64,12",
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -2541,7 +2752,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "64,53"
+    "perc_green": "64,53",
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -2553,7 +2765,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Nigeria",
@@ -2565,7 +2778,8 @@ window.DATA = [
     "perc_tracked_total": "0,10",
     "perc_residual": "99,90",
     "perc_tracked_renewables": "0,48",
-    "perc_green": "20,55"
+    "perc_green": "20,55",
+    "methodology": "I-REC"
   },
   {
     "country": "Nigeria",
@@ -2577,7 +2791,8 @@ window.DATA = [
     "perc_tracked_total": "0,47",
     "perc_residual": "99,53",
     "perc_tracked_renewables": "2,29",
-    "perc_green": "20,66"
+    "perc_green": "20,66",
+    "methodology": "I-REC"
   },
   {
     "country": "Nigeria",
@@ -2589,7 +2804,8 @@ window.DATA = [
     "perc_tracked_total": "0,65",
     "perc_residual": "99,35",
     "perc_tracked_renewables": "2,64",
-    "perc_green": "24,71"
+    "perc_green": "24,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Nigeria",
@@ -2601,7 +2817,8 @@ window.DATA = [
     "perc_tracked_total": "0,26",
     "perc_residual": "99,74",
     "perc_tracked_renewables": "1,13",
-    "perc_green": "22,89"
+    "perc_green": "22,89",
+    "methodology": "I-REC"
   },
   {
     "country": "Nigeria",
@@ -2613,7 +2830,8 @@ window.DATA = [
     "perc_tracked_total": "0,82",
     "perc_residual": "99,18",
     "perc_tracked_renewables": "3,55",
-    "perc_green": "23,03"
+    "perc_green": "23,03",
+    "methodology": "I-REC"
   },
   {
     "country": "Oman",
@@ -2625,7 +2843,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "0,39"
+    "perc_green": "0,39",
+    "methodology": "I-REC"
   },
   {
     "country": "Oman",
@@ -2637,7 +2856,8 @@ window.DATA = [
     "perc_tracked_total": "0,50",
     "perc_residual": "99,50",
     "perc_tracked_renewables": "28,44",
-    "perc_green": "1,77"
+    "perc_green": "1,77",
+    "methodology": "I-REC"
   },
   {
     "country": "Oman",
@@ -2649,7 +2869,8 @@ window.DATA = [
     "perc_tracked_total": "1,09",
     "perc_residual": "98,91",
     "perc_tracked_renewables": "23,58",
-    "perc_green": "4,61"
+    "perc_green": "4,61",
+    "methodology": "I-REC"
   },
   {
     "country": "Oman",
@@ -2661,7 +2882,8 @@ window.DATA = [
     "perc_tracked_total": "4,51",
     "perc_residual": "95,49",
     "perc_tracked_renewables": "90,64",
-    "perc_green": "4,98"
+    "perc_green": "4,98",
+    "methodology": "I-REC"
   },
   {
     "country": "Oman",
@@ -2673,7 +2895,8 @@ window.DATA = [
     "perc_tracked_total": "3,51",
     "perc_residual": "96,49",
     "perc_tracked_renewables": "70,92",
-    "perc_green": "4,95"
+    "perc_green": "4,95",
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -2685,7 +2908,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "28,10"
+    "perc_green": "28,10",
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -2697,7 +2921,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "27,30"
+    "perc_green": "27,30",
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -2709,7 +2934,8 @@ window.DATA = [
     "perc_tracked_total": "0,03",
     "perc_residual": "99,97",
     "perc_tracked_renewables": "0,12",
-    "perc_green": "28,04"
+    "perc_green": "28,04",
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -2721,7 +2947,8 @@ window.DATA = [
     "perc_tracked_total": "0,23",
     "perc_residual": "99,77",
     "perc_tracked_renewables": "0,81",
-    "perc_green": "28,98"
+    "perc_green": "28,98",
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -2733,7 +2960,8 @@ window.DATA = [
     "perc_tracked_total": "0,27",
     "perc_residual": "99,73",
     "perc_tracked_renewables": "0,82",
-    "perc_green": "32,90"
+    "perc_green": "32,90",
+    "methodology": "I-REC"
   },
   {
     "country": "Panama",
@@ -2745,7 +2973,8 @@ window.DATA = [
     "perc_tracked_total": "4,00",
     "perc_residual": "96,00",
     "perc_tracked_renewables": "5,28",
-    "perc_green": "75,69"
+    "perc_green": "75,69",
+    "methodology": "I-REC"
   },
   {
     "country": "Panama",
@@ -2757,7 +2986,8 @@ window.DATA = [
     "perc_tracked_total": "3,60",
     "perc_residual": "96,40",
     "perc_tracked_renewables": "4,59",
-    "perc_green": "78,36"
+    "perc_green": "78,36",
+    "methodology": "I-REC"
   },
   {
     "country": "Panama",
@@ -2769,7 +2999,8 @@ window.DATA = [
     "perc_tracked_total": "2,88",
     "perc_residual": "97,12",
     "perc_tracked_renewables": "3,73",
-    "perc_green": "77,22"
+    "perc_green": "77,22",
+    "methodology": "I-REC"
   },
   {
     "country": "Panama",
@@ -2781,7 +3012,8 @@ window.DATA = [
     "perc_tracked_total": "3,81",
     "perc_residual": "96,19",
     "perc_tracked_renewables": "6,16",
-    "perc_green": "61,77"
+    "perc_green": "61,77",
+    "methodology": "I-REC"
   },
   {
     "country": "Panama",
@@ -2793,7 +3025,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Peru",
@@ -2805,7 +3038,8 @@ window.DATA = [
     "perc_tracked_total": "0,44",
     "perc_residual": "99,56",
     "perc_tracked_renewables": "0,70",
-    "perc_green": "63,48"
+    "perc_green": "63,48",
+    "methodology": "I-REC"
   },
   {
     "country": "Peru",
@@ -2817,7 +3051,8 @@ window.DATA = [
     "perc_tracked_total": "6,48",
     "perc_residual": "93,52",
     "perc_tracked_renewables": "10,52",
-    "perc_green": "61,57"
+    "perc_green": "61,57",
+    "methodology": "I-REC"
   },
   {
     "country": "Peru",
@@ -2829,7 +3064,8 @@ window.DATA = [
     "perc_tracked_total": "5,97",
     "perc_residual": "94,03",
     "perc_tracked_renewables": "10,80",
-    "perc_green": "55,24"
+    "perc_green": "55,24",
+    "methodology": "I-REC"
   },
   {
     "country": "Peru",
@@ -2841,7 +3077,8 @@ window.DATA = [
     "perc_tracked_total": "11,39",
     "perc_residual": "88,61",
     "perc_tracked_renewables": "21,47",
-    "perc_green": "53,06"
+    "perc_green": "53,06",
+    "methodology": "I-REC"
   },
   {
     "country": "Peru",
@@ -2853,7 +3090,8 @@ window.DATA = [
     "perc_tracked_total": "15,56",
     "perc_residual": "84,44",
     "perc_tracked_renewables": "26,26",
-    "perc_green": "59,28"
+    "perc_green": "59,28",
+    "methodology": "I-REC"
   },
   {
     "country": "Philippines",
@@ -2865,7 +3103,8 @@ window.DATA = [
     "perc_tracked_total": "1,12",
     "perc_residual": "98,88",
     "perc_tracked_renewables": "5,27",
-    "perc_green": "21,23"
+    "perc_green": "21,23",
+    "methodology": "I-REC"
   },
   {
     "country": "Philippines",
@@ -2877,7 +3116,8 @@ window.DATA = [
     "perc_tracked_total": "1,73",
     "perc_residual": "98,27",
     "perc_tracked_renewables": "7,80",
-    "perc_green": "22,13"
+    "perc_green": "22,13",
+    "methodology": "I-REC"
   },
   {
     "country": "Philippines",
@@ -2889,7 +3129,8 @@ window.DATA = [
     "perc_tracked_total": "2,79",
     "perc_residual": "97,21",
     "perc_tracked_renewables": "12,60",
-    "perc_green": "22,14"
+    "perc_green": "22,14",
+    "methodology": "I-REC"
   },
   {
     "country": "Philippines",
@@ -2901,7 +3142,8 @@ window.DATA = [
     "perc_tracked_total": "3,94",
     "perc_residual": "96,06",
     "perc_tracked_renewables": "17,94",
-    "perc_green": "21,94"
+    "perc_green": "21,94",
+    "methodology": "I-REC"
   },
   {
     "country": "Philippines",
@@ -2913,7 +3155,8 @@ window.DATA = [
     "perc_tracked_total": "3,77",
     "perc_residual": "96,23",
     "perc_tracked_renewables": "17,36",
-    "perc_green": "21,73"
+    "perc_green": "21,73",
+    "methodology": "I-REC"
   },
   {
     "country": "Russian Fed",
@@ -2925,7 +3168,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Russian Fed",
@@ -2937,7 +3181,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Russian Fed",
@@ -2949,7 +3194,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -2961,7 +3207,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "0,24"
+    "perc_green": "0,24",
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -2973,7 +3220,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,01",
-    "perc_green": "0,25"
+    "perc_green": "0,25",
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -2985,7 +3233,8 @@ window.DATA = [
     "perc_tracked_total": "0,03",
     "perc_residual": "99,97",
     "perc_tracked_renewables": "5,91",
-    "perc_green": "0,49"
+    "perc_green": "0,49",
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -2997,7 +3246,8 @@ window.DATA = [
     "perc_tracked_total": "0,44",
     "perc_residual": "99,56",
     "perc_tracked_renewables": "40,25",
-    "perc_green": "1,10"
+    "perc_green": "1,10",
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -3009,7 +3259,8 @@ window.DATA = [
     "perc_tracked_total": "2,27",
     "perc_residual": "97,73",
     "perc_tracked_renewables": "96,39",
-    "perc_green": "2,36"
+    "perc_green": "2,36",
+    "methodology": "I-REC"
   },
   {
     "country": "Singapore",
@@ -3021,7 +3272,8 @@ window.DATA = [
     "perc_tracked_total": "0,50",
     "perc_residual": "99,50",
     "perc_tracked_renewables": "17,75",
-    "perc_green": "2,81"
+    "perc_green": "2,81",
+    "methodology": "I-REC"
   },
   {
     "country": "Singapore",
@@ -3033,7 +3285,8 @@ window.DATA = [
     "perc_tracked_total": "0,71",
     "perc_residual": "99,29",
     "perc_tracked_renewables": "24,40",
-    "perc_green": "2,90"
+    "perc_green": "2,90",
+    "methodology": "I-REC"
   },
   {
     "country": "Singapore",
@@ -3045,7 +3298,8 @@ window.DATA = [
     "perc_tracked_total": "1,18",
     "perc_residual": "98,82",
     "perc_tracked_renewables": "28,80",
-    "perc_green": "4,09"
+    "perc_green": "4,09",
+    "methodology": "I-REC"
   },
   {
     "country": "Singapore",
@@ -3057,7 +3311,8 @@ window.DATA = [
     "perc_tracked_total": "1,93",
     "perc_residual": "98,07",
     "perc_tracked_renewables": "42,59",
-    "perc_green": "4,54"
+    "perc_green": "4,54",
+    "methodology": "I-REC"
   },
   {
     "country": "Singapore",
@@ -3069,7 +3324,8 @@ window.DATA = [
     "perc_tracked_total": "2,67",
     "perc_residual": "97,33",
     "perc_tracked_renewables": "53,80",
-    "perc_green": "4,96"
+    "perc_green": "4,96",
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -3081,7 +3337,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "8,11"
+    "perc_green": "8,11",
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -3093,7 +3350,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "10,53"
+    "perc_green": "10,53",
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -3105,7 +3363,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "19,05"
+    "perc_green": "19,05",
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -3117,7 +3376,8 @@ window.DATA = [
     "perc_tracked_total": "0,18",
     "perc_residual": "99,82",
     "perc_tracked_renewables": "0,95",
-    "perc_green": "19,05"
+    "perc_green": "19,05",
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -3129,7 +3389,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "South Africa",
@@ -3141,7 +3402,8 @@ window.DATA = [
     "perc_tracked_total": "0,19",
     "perc_residual": "99,81",
     "perc_tracked_renewables": "3,31",
-    "perc_green": "5,84"
+    "perc_green": "5,84",
+    "methodology": "I-REC"
   },
   {
     "country": "South Africa",
@@ -3153,7 +3415,8 @@ window.DATA = [
     "perc_tracked_total": "0,25",
     "perc_residual": "99,75",
     "perc_tracked_renewables": "3,35",
-    "perc_green": "7,31"
+    "perc_green": "7,31",
+    "methodology": "I-REC"
   },
   {
     "country": "South Africa",
@@ -3165,7 +3428,8 @@ window.DATA = [
     "perc_tracked_total": "0,64",
     "perc_residual": "99,36",
     "perc_tracked_renewables": "6,52",
-    "perc_green": "9,75"
+    "perc_green": "9,75",
+    "methodology": "I-REC"
   },
   {
     "country": "South Africa",
@@ -3177,7 +3441,8 @@ window.DATA = [
     "perc_tracked_total": "0,75",
     "perc_residual": "99,25",
     "perc_tracked_renewables": "5,95",
-    "perc_green": "12,68"
+    "perc_green": "12,68",
+    "methodology": "I-REC"
   },
   {
     "country": "South Africa",
@@ -3189,7 +3454,8 @@ window.DATA = [
     "perc_tracked_total": "1,89",
     "perc_residual": "98,11",
     "perc_tracked_renewables": "14,47",
-    "perc_green": "13,06"
+    "perc_green": "13,06",
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -3201,7 +3467,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "1,79"
+    "perc_green": "1,79",
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -3213,7 +3480,8 @@ window.DATA = [
     "perc_tracked_total": "0,12",
     "perc_residual": "99,88",
     "perc_tracked_renewables": "3,38",
-    "perc_green": "3,45"
+    "perc_green": "3,45",
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -3225,7 +3493,8 @@ window.DATA = [
     "perc_tracked_total": "0,16",
     "perc_residual": "99,84",
     "perc_tracked_renewables": "2,16",
-    "perc_green": "7,41"
+    "perc_green": "7,41",
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -3237,7 +3506,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "6,78"
+    "perc_green": "6,78",
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -3249,7 +3519,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Sri Lanka",
@@ -3261,7 +3532,8 @@ window.DATA = [
     "perc_tracked_total": "0,06",
     "perc_residual": "99,94",
     "perc_tracked_renewables": "0,16",
-    "perc_green": "35,54"
+    "perc_green": "35,54",
+    "methodology": "I-REC"
   },
   {
     "country": "Sri Lanka",
@@ -3273,7 +3545,8 @@ window.DATA = [
     "perc_tracked_total": "0,38",
     "perc_residual": "99,62",
     "perc_tracked_renewables": "0,77",
-    "perc_green": "49,37"
+    "perc_green": "49,37",
+    "methodology": "I-REC"
   },
   {
     "country": "Sri Lanka",
@@ -3285,7 +3558,8 @@ window.DATA = [
     "perc_tracked_total": "0,55",
     "perc_residual": "99,45",
     "perc_tracked_renewables": "1,48",
-    "perc_green": "37,05"
+    "perc_green": "37,05",
+    "methodology": "I-REC"
   },
   {
     "country": "Sri Lanka",
@@ -3297,7 +3571,8 @@ window.DATA = [
     "perc_tracked_total": "1,20",
     "perc_residual": "98,80",
     "perc_tracked_renewables": "2,46",
-    "perc_green": "48,72"
+    "perc_green": "48,72",
+    "methodology": "I-REC"
   },
   {
     "country": "Sri Lanka",
@@ -3309,7 +3584,8 @@ window.DATA = [
     "perc_tracked_total": "1,88",
     "perc_residual": "98,12",
     "perc_tracked_renewables": "3,40",
-    "perc_green": "55,37"
+    "perc_green": "55,37",
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -3321,7 +3597,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "48,29"
+    "perc_green": "48,29",
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -3333,7 +3610,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "48,33"
+    "perc_green": "48,33",
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -3345,7 +3623,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "44,55"
+    "perc_green": "44,55",
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -3357,7 +3636,8 @@ window.DATA = [
     "perc_tracked_total": "0,09",
     "perc_residual": "99,91",
     "perc_tracked_renewables": "0,21",
-    "perc_green": "42,99"
+    "perc_green": "42,99",
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -3369,7 +3649,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Taiwan",
@@ -3381,7 +3662,8 @@ window.DATA = [
     "perc_tracked_total": "0,02",
     "perc_residual": "99,98",
     "perc_tracked_renewables": "0,46",
-    "perc_green": "4,79"
+    "perc_green": "4,79",
+    "methodology": "I-REC"
   },
   {
     "country": "Taiwan",
@@ -3393,7 +3675,8 @@ window.DATA = [
     "perc_tracked_total": "0,03",
     "perc_residual": "99,97",
     "perc_tracked_renewables": "0,51",
-    "perc_green": "5,40"
+    "perc_green": "5,40",
+    "methodology": "I-REC"
   },
   {
     "country": "Taiwan",
@@ -3405,7 +3688,8 @@ window.DATA = [
     "perc_tracked_total": "0,02",
     "perc_residual": "99,98",
     "perc_tracked_renewables": "0,29",
-    "perc_green": "7,67"
+    "perc_green": "7,67",
+    "methodology": "I-REC"
   },
   {
     "country": "Taiwan",
@@ -3417,7 +3701,8 @@ window.DATA = [
     "perc_tracked_total": "0,02",
     "perc_residual": "99,98",
     "perc_tracked_renewables": "0,21",
-    "perc_green": "8,90"
+    "perc_green": "8,90",
+    "methodology": "I-REC"
   },
   {
     "country": "Taiwan",
@@ -3429,7 +3714,8 @@ window.DATA = [
     "perc_tracked_total": "0,02",
     "perc_residual": "99,98",
     "perc_tracked_renewables": "0,17",
-    "perc_green": "10,92"
+    "perc_green": "10,92",
+    "methodology": "I-REC"
   },
   {
     "country": "Thailand",
@@ -3441,7 +3727,8 @@ window.DATA = [
     "perc_tracked_total": "0,87",
     "perc_residual": "99,13",
     "perc_tracked_renewables": "6,12",
-    "perc_green": "14,21"
+    "perc_green": "14,21",
+    "methodology": "I-REC"
   },
   {
     "country": "Thailand",
@@ -3453,7 +3740,8 @@ window.DATA = [
     "perc_tracked_total": "2,25",
     "perc_residual": "97,75",
     "perc_tracked_renewables": "14,98",
-    "perc_green": "15,01"
+    "perc_green": "15,01",
+    "methodology": "I-REC"
   },
   {
     "country": "Thailand",
@@ -3465,7 +3753,8 @@ window.DATA = [
     "perc_tracked_total": "4,73",
     "perc_residual": "95,27",
     "perc_tracked_renewables": "29,96",
-    "perc_green": "15,79"
+    "perc_green": "15,79",
+    "methodology": "I-REC"
   },
   {
     "country": "Thailand",
@@ -3477,7 +3766,8 @@ window.DATA = [
     "perc_tracked_total": "5,00",
     "perc_residual": "95,00",
     "perc_tracked_renewables": "31,97",
-    "perc_green": "15,62"
+    "perc_green": "15,62",
+    "methodology": "I-REC"
   },
   {
     "country": "Thailand",
@@ -3489,7 +3779,8 @@ window.DATA = [
     "perc_tracked_total": "5,26",
     "perc_residual": "94,74",
     "perc_tracked_renewables": "35,45",
-    "perc_green": "14,84"
+    "perc_green": "14,84",
+    "methodology": "I-REC"
   },
   {
     "country": "Türkiye",
@@ -3501,7 +3792,8 @@ window.DATA = [
     "perc_tracked_total": "1,71",
     "perc_residual": "98,29",
     "perc_tracked_renewables": "4,05",
-    "perc_green": "42,16"
+    "perc_green": "42,16",
+    "methodology": "I-REC"
   },
   {
     "country": "Türkiye",
@@ -3513,7 +3805,8 @@ window.DATA = [
     "perc_tracked_total": "3,87",
     "perc_residual": "96,13",
     "perc_tracked_renewables": "10,92",
-    "perc_green": "35,40"
+    "perc_green": "35,40",
+    "methodology": "I-REC"
   },
   {
     "country": "Türkiye",
@@ -3525,7 +3818,8 @@ window.DATA = [
     "perc_tracked_total": "6,33",
     "perc_residual": "93,67",
     "perc_tracked_renewables": "15,09",
-    "perc_green": "41,91"
+    "perc_green": "41,91",
+    "methodology": "I-REC"
   },
   {
     "country": "Türkiye",
@@ -3537,7 +3831,8 @@ window.DATA = [
     "perc_tracked_total": "7,64",
     "perc_residual": "92,36",
     "perc_tracked_renewables": "18,17",
-    "perc_green": "42,01"
+    "perc_green": "42,01",
+    "methodology": "I-REC"
   },
   {
     "country": "Türkiye",
@@ -3549,7 +3844,8 @@ window.DATA = [
     "perc_tracked_total": "7,45",
     "perc_residual": "92,55",
     "perc_tracked_renewables": "16,32",
-    "perc_green": "45,62"
+    "perc_green": "45,62",
+    "methodology": "I-REC"
   },
   {
     "country": "UAE",
@@ -3561,7 +3857,8 @@ window.DATA = [
     "perc_tracked_total": "1,96",
     "perc_residual": "98,04",
     "perc_tracked_renewables": "17,43",
-    "perc_green": "3,77"
+    "perc_green": "3,77",
+    "methodology": "I-REC"
   },
   {
     "country": "UAE",
@@ -3573,7 +3870,8 @@ window.DATA = [
     "perc_tracked_total": "8,07",
     "perc_residual": "91,93",
     "perc_tracked_renewables": "44,74",
-    "perc_green": "4,19"
+    "perc_green": "4,19",
+    "methodology": "I-REC"
   },
   {
     "country": "UAE",
@@ -3585,7 +3883,8 @@ window.DATA = [
     "perc_tracked_total": "14,74",
     "perc_residual": "85,26",
     "perc_tracked_renewables": "46,83",
-    "perc_green": "4,99"
+    "perc_green": "4,99",
+    "methodology": "I-REC"
   },
   {
     "country": "UAE",
@@ -3597,7 +3896,8 @@ window.DATA = [
     "perc_tracked_total": "24,27",
     "perc_residual": "75,73",
     "perc_tracked_renewables": "64,18",
-    "perc_green": "8,78"
+    "perc_green": "8,78",
+    "methodology": "I-REC"
   },
   {
     "country": "UAE",
@@ -3609,7 +3909,8 @@ window.DATA = [
     "perc_tracked_total": "25,98",
     "perc_residual": "74,02",
     "perc_tracked_renewables": "61,52",
-    "perc_green": "8,82"
+    "perc_green": "8,82",
+    "methodology": "I-REC"
   },
   {
     "country": "Uganda",
@@ -3621,7 +3922,8 @@ window.DATA = [
     "perc_tracked_total": "2,12",
     "perc_residual": "97,88",
     "perc_tracked_renewables": "2,17",
-    "perc_green": "97,39"
+    "perc_green": "97,39",
+    "methodology": "I-REC"
   },
   {
     "country": "Uganda",
@@ -3633,7 +3935,8 @@ window.DATA = [
     "perc_tracked_total": "0,96",
     "perc_residual": "99,04",
     "perc_tracked_renewables": "0,98",
-    "perc_green": "97,53"
+    "perc_green": "97,53",
+    "methodology": "I-REC"
   },
   {
     "country": "Uganda",
@@ -3645,7 +3948,8 @@ window.DATA = [
     "perc_tracked_total": "1,86",
     "perc_residual": "98,14",
     "perc_tracked_renewables": "1,91",
-    "perc_green": "97,39"
+    "perc_green": "97,39",
+    "methodology": "I-REC"
   },
   {
     "country": "Uganda",
@@ -3657,7 +3961,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Uganda",
@@ -3669,7 +3974,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -3681,7 +3987,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "7,53"
+    "perc_green": "7,53",
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -3693,7 +4000,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "7,03"
+    "perc_green": "7,03",
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -3705,7 +4013,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "9,22"
+    "perc_green": "9,22",
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -3717,7 +4026,8 @@ window.DATA = [
     "perc_tracked_total": "0,01",
     "perc_residual": "99,99",
     "perc_tracked_renewables": "0,10",
-    "perc_green": "9,25"
+    "perc_green": "9,25",
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -3729,7 +4039,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Vietnam",
@@ -3741,7 +4052,8 @@ window.DATA = [
     "perc_tracked_total": "0,38",
     "perc_residual": "99,62",
     "perc_tracked_renewables": "1,10",
-    "perc_green": "34,82"
+    "perc_green": "34,82",
+    "methodology": "I-REC"
   },
   {
     "country": "Vietnam",
@@ -3753,7 +4065,8 @@ window.DATA = [
     "perc_tracked_total": "1,76",
     "perc_residual": "98,24",
     "perc_tracked_renewables": "4,11",
-    "perc_green": "42,77"
+    "perc_green": "42,77",
+    "methodology": "I-REC"
   },
   {
     "country": "Vietnam",
@@ -3765,7 +4078,8 @@ window.DATA = [
     "perc_tracked_total": "5,94",
     "perc_residual": "94,06",
     "perc_tracked_renewables": "12,00",
-    "perc_green": "49,46"
+    "perc_green": "49,46",
+    "methodology": "I-REC"
   },
   {
     "country": "Vietnam",
@@ -3777,7 +4091,8 @@ window.DATA = [
     "perc_tracked_total": "8,11",
     "perc_residual": "91,89",
     "perc_tracked_renewables": "18,89",
-    "perc_green": "42,94"
+    "perc_green": "42,94",
+    "methodology": "I-REC"
   },
   {
     "country": "Vietnam",
@@ -3789,7 +4104,8 @@ window.DATA = [
     "perc_tracked_total": "7,66",
     "perc_residual": "92,34",
     "perc_tracked_renewables": "18,11",
-    "perc_green": "42,28"
+    "perc_green": "42,28",
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -3801,7 +4117,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "85,49"
+    "perc_green": "85,49",
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -3813,7 +4130,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "91,99"
+    "perc_green": "91,99",
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -3825,7 +4143,8 @@ window.DATA = [
     "perc_tracked_total": "0,04",
     "perc_residual": "99,96",
     "perc_tracked_renewables": "0,04",
-    "perc_green": "88,91"
+    "perc_green": "88,91",
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -3837,7 +4156,8 @@ window.DATA = [
     "perc_tracked_total": "0,04",
     "perc_residual": "99,96",
     "perc_tracked_renewables": "0,04",
-    "perc_green": "89,00"
+    "perc_green": "89,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -3849,7 +4169,8 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -3861,7 +4182,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "58,57"
+    "perc_green": "58,57",
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -3873,7 +4195,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "70,71"
+    "perc_green": "70,71",
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -3885,7 +4208,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "67,34"
+    "perc_green": "67,34",
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -3897,7 +4221,8 @@ window.DATA = [
     "perc_tracked_total": "0,00",
     "perc_residual": "100,00",
     "perc_tracked_renewables": "0,00",
-    "perc_green": "67,51"
+    "perc_green": "67,51",
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -3909,6 +4234,7 @@ window.DATA = [
     "perc_tracked_total": "100,00",
     "perc_residual": "0,00",
     "perc_tracked_renewables": "100,00",
-    "perc_green": "100,00"
+    "perc_green": "100,00",
+    "methodology": "I-REC"
   }
 ]
