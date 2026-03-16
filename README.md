@@ -2,54 +2,56 @@
 
 Visualisation of certified and residual mix of energy sources for countries.
 
-### Components:
-- index.html: main visualization entrypoint
-- test.html: tests iframe embedding
-- data.js: static residual mix dataset
-- main.js: routing, filters, view logic
-- view-map.js: renders interactive world map
-- view-list.js: renders horizontal list chart
-- view-country.js: shows country detail view
-- MultiSelect.js: dropdown enhancement library
-- MultiSelect.css: styles for MultiSelect
-- .cpanel.yml: deployment configuration file
+## Setup
 
-### TODO:
-- methodology pdfs, filter moet 1 kiezen
-- download met duidelijke keuze voor jaar van data, meerdere metho selectie geeft meerdere tabs
-- list view stylen
-- integrate upload knop
-- download data obv filters
-- filters stylen
-- data uit pdf 
+Static site — serve the `public_html/` folder with any web server. No build step required.
 
-+ kleur coding countries based on chosen key indicator
-- default selectie: alle metho's, laatste jaar
-- herkomst van data per country toevoegen
-- show all values in country detail, no additional hidden 
-- warning voor missing generation data
+```bash
+# e.g. with Python
+python -m http.server -d public_html 8000
+```
 
-- nadenken over fullscreen, desktop en misschien mobilem no header no footer
-- kleinere cirkel projectie, minus rusland en groenland, nadenken over background
-- maybe zoom in to user region
+## Data Pipeline
 
-### Vragen
-- waarom geen nederland in data?
-- hoe compare, of gewoon selected in list view?
-- selectie voor compare ook in world view?
-- kleuren categorisering bij world view?
-- next country nuttig bij popup? alleen bij country detail page
-- data toevoegen van andere compare websites? sowieso wat doen die andere sites anders?
-- tracked % ipv untracked?
-- tracked % key data
-- mobile ?
-- contact met website beheer
+Raw CSV data is converted into two JS files using the Python script:
 
-- beheer van data zou mooi zijn om zelf te kunnen
-- aib-net.org heeft issuance, res mix data
+```bash
+python convertcsv.py input.csv public_html/data/data_detail.js public_html/data/data.js
+```
 
+- **`data.js`** — aggregated per country/year (totals, percentages, methodology)
+- **`data_detail.js`** — row-level detail per energy source
 
-### doel
-- website heeft als doel leiden naar visual en data
-- data download heel belangrijk, core scenario
-- moet er belangirjk uitzien voor policy-makers
+Requires `pycountry` (`pip install pycountry`).
+
+## Project Structure
+
+```
+public_html/
+├── index.html          # Entry point
+├── main.js             # Filters, state, export modal
+├── view-map.js         # MapLibre world map + KPI coloring
+├── country-ui.js       # Country hover popups, detail modal, charts
+├── style.css           # Main styles
+├── country-ui.css      # Modal/detail styles
+├── data/               # Generated data files (data.js, data_detail.js)
+├── lib/                # Vendor libs (MapLibre, ECharts, MultiSelect)
+└── img/                # Logo and assets
+```
+
+## Key Features
+
+- Interactive choropleth map with 3 switchable KPIs
+- Country detail modal with bar chart, pie charts, and sortable table
+- Year navigation and multi-select filters
+- XLSX export with lead capture form
+- Progressive GeoJSON loading (low-res → high-res)
+
+## Dependencies
+
+All vendored in `lib/` — no package manager needed:
+
+- [MapLibre GL JS](https://maplibre.org/) — map rendering
+- [ECharts](https://echarts.apache.org/) — charts
+- [SheetJS](https://sheetjs.com/) — XLSX export
+- MultiSelect — dropdown enhancement

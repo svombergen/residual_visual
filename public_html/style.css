@@ -271,6 +271,12 @@ body {
   color: #cc0033;
 }
 
+.export-field-error {
+  font-size: 11px;
+  color: #cc0033;
+  margin-top: 2px;
+}
+
 .export-form-actions {
   display: flex;
   justify-content: flex-end;

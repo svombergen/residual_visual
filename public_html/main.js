@@ -336,6 +336,27 @@ function submitLeadToCrm(data) {
   console.log("CRM lead:", data);
 }
 
+// --- Email validation ---
+const EMAIL_RE = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}$/;
+
+const DISPOSABLE_DOMAINS = new Set([
+  "mailinator.com","guerrillamail.com","guerrillamail.net","tempmail.com",
+  "throwaway.email","yopmail.com","sharklasers.com","guerrillamailblock.com",
+  "grr.la","dispostable.com","maildrop.cc","10minutemail.com","trashmail.com",
+  "trashmail.net","trashmail.org","tempail.com","temp-mail.org","fakeinbox.com",
+  "getnada.com","emailondeck.com","mohmal.com","burnermail.io","discard.email",
+  "mailnesia.com","mintemail.com","mytemp.email","tempr.email","tempmailo.com",
+  "crazymailing.com","harakirimail.com","tmail.ws","tmpmail.net","tmpmail.org",
+  "bupmail.com","emailfake.com","mailcatch.com","inboxbear.com","spamgourmet.com"
+]);
+
+function validateEmail(email) {
+  if (!EMAIL_RE.test(email)) return "Please enter a valid email address.";
+  const domain = email.split("@")[1].toLowerCase();
+  if (DISPOSABLE_DOMAINS.has(domain)) return "Disposable email addresses are not allowed.";
+  return null;
+}
+
 function openExportModal() {
   const backdrop = document.createElement("div");
   backdrop.className = "kpi-modal-backdrop";
@@ -395,7 +416,23 @@ function openExportModal() {
     const org     = backdrop.querySelector("#export-org").value.trim();
     const consent = backdrop.querySelector("#export-consent").checked;
 
+    // Clear previous email error
+    const emailInput = backdrop.querySelector("#export-email");
+    let errEl = backdrop.querySelector("#export-email-error");
+    if (errEl) errEl.remove();
+
     if (!name || !email || !org || !consent) return;
+
+    const emailErr = validateEmail(email);
+    if (emailErr) {
+      errEl = document.createElement("span");
+      errEl.id = "export-email-error";
+      errEl.className = "export-field-error";
+      errEl.textContent = emailErr;
+      emailInput.parentElement.appendChild(errEl);
+      emailInput.focus();
+      return;
+    }
 
     submitLeadToCrm({ name, email, org });
     close();
