@@ -8,29 +8,29 @@
   --font-size-larger: 16px;
   --line-height: 16px;
   --line-height-larger: 20px;
-  --primary-color: #40c979;
-  --text-color-dark: #212529;
-  --text-color: #585858;
-  --text-color-light: #65727e;
-  --border-color: #bebebe;
-  --border-color-light: #f1f3f5;
-  --input-placeholder: #65727e;
-  --input-background: #e9e9ed;
-  --input-border: #dee2e6;
-  --input-border-active: #c1c9d0;
+  --primary-color: #0579FA;
+  --text-color-dark: #011832;
+  --text-color: #034EA2;
+  --text-color-light: #034EA2;
+  --border-color: #CDE4FE;
+  --border-color-light: #e8f1fe;
+  --input-placeholder: #3793FB;
+  --input-background: #f8faff;
+  --input-border: #CDE4FE;
+  --input-border-active: #0579FA;
   --input-border-invalid: #e44e4e;
   --input-outline-invalid: rgba(219, 138, 138, 0.5);
-  --input-color: #e9e9ed;
+  --input-color: #f8faff;
   --input-disabled: #f7f7f7;
   --input-min-height: 45px;
   --options-height: 40dvh;
-  --option-background: #f3f4f7;
+  --option-background: #eef4fe;
   --border-radius: 5px;
   --icon-size: 12px;
   --icon-space: 30px;
   --checkbox-size: 16px;
   --checkbox-radius: 4px;
-  --checkbox-border: #ced4da;
+  --checkbox-border: #CDE4FE;
   --checkbox-background: #fff;
   --checkbox-active: #fff;
   --checkbox-thickness: 2px;
@@ -59,7 +59,7 @@
   top: 50%;
   right: 15px;
   transform: translateY(-50%);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23949ba3' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23034EA2' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
   height: var(--icon-size);
   width: var(--icon-size);
 }
@@ -109,13 +109,13 @@
   width: 5px;
 }
 .multi-select .multi-select-options::-webkit-scrollbar-track {
-  background: #f0f1f3;
+  background: #eef4fe;
 }
 .multi-select .multi-select-options::-webkit-scrollbar-thumb {
-  background: #cdcfd1;
+  background: #CDE4FE;
 }
 .multi-select .multi-select-options::-webkit-scrollbar-thumb:hover {
-  background: #b2b6b9;
+  background: #3793FB;
 }
 .multi-select .multi-select-options .multi-select-option,
 .multi-select .multi-select-options .multi-select-all {

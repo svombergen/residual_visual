@@ -255,35 +255,35 @@
         : "";
 
     return `
-        <div style="font-family: Arial, sans-serif; font-size:12px; padding:10px; min-width:320px;">
-        <div style="font-weight:700; margin-bottom:6px;">
+        <div style="font-family:'IBM Plex Sans',Arial,sans-serif; font-size:12px; padding:10px; min-width:320px; color:#034EA2;">
+        <div style="font-weight:700; margin-bottom:6px; color:#011832;">
             ${countryFlag(code)}${k.country}${k.year ? ` (${k.year})` : ""}
         </div>
 
         <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
-            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Tracked Electricity</div>
-            <div style="font-size:15px; font-weight:800; color:#111;">
+            <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Tracked Electricity</div>
+            <div style="font-size:15px; font-weight:800; color:#011832;">
                 ${dot("perc_tracked_total")}${pctTrackedElec}
             </div>
             </div>
 
-            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Tracked Renewables</div>
-            <div style="font-size:15px; font-weight:800; color:#111;">
+            <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Tracked Renewables</div>
+            <div style="font-size:15px; font-weight:800; color:#011832;">
                 ${dot("perc_tracked_renewables")}${pctRenew}
             </div>
             </div>
 
-            <div style="border:1px solid #e7e7e7; border-radius:10px; padding:8px;">
-            <div style="font-size:11px; color:#666; margin-bottom:4px;">Residual Mix</div>
-            <div style="font-size:15px; font-weight:800; color:#111;">
-                ${dot("perc_residual")}${residualEf} <span style="font-size:10px;font-weight:400;color:#666;">tCO₂/MWh</span>
+            <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Residual Mix</div>
+            <div style="font-size:15px; font-weight:800; color:#011832;">
+                ${dot("perc_residual")}${residualEf} <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>
             </div>
             </div>
         </div>
 
-        <div style="margin-top:8px; color:#666; font-size:11px;">
+        <div style="margin-top:8px; color:#3793FB; font-size:11px;">
             Click for details
         </div>
         </div>
@@ -305,7 +305,7 @@
         <div class="kpi-modal-header">
           <div class="kpi-modal-title" id="kpi-modal-title"></div>
           <div style="display:flex;align-items:center;gap:12px;">
-            <span id="kpi-modal-method" style="font-size:11px;color:#666;"></span>
+            <span id="kpi-modal-method" style="font-size:11px;color:#034EA2;"></span>
             <button class="kpi-modal-close" id="kpi-modal-close" type="button">Close</button>
           </div>
         </div>
@@ -386,7 +386,7 @@
         <span>${countryFlag(code)}${countryName}  </span>
         <span class="kpi-year-nav">
             <button class="kpi-year-btn" id="kpi-year-prev" ${hasPrev ? "" : "disabled"} aria-label="Previous year">‹</button>
-            <span style="font-weight:700;">${year ?? "-"}</span>
+            <span style="font-weight:700;color:#011832;">${year ?? "-"}</span>
             <button class="kpi-year-btn" id="kpi-year-next" ${hasNext ? "" : "disabled"} aria-label="Next year">›</button>
         </span>
         `;
@@ -539,7 +539,7 @@
                 ${cols
                 .map((c) => {
                     const unit = UNITS[c]
-                    ? ` <span style="font-weight:400;color:#666;">(${UNITS[c]})</span>`
+                    ? ` <span style="font-weight:400;color:#3793FB;">(${UNITS[c]})</span>`
                     : "";
                     const ind =
                     sortKey === c
@@ -620,7 +620,7 @@
 
             <div class="kpi-card">
             <div class="kpi-label">Residual Mix</div>
-            <div class="kpi-value">${dot("perc_residual")}${residualEf} <span style="font-size:11px;font-weight:400;color:#666;">tCO₂/MWh</span></div>
+            <div class="kpi-value">${dot("perc_residual")}${residualEf} <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span></div>
             </div>
         </div>
 
@@ -640,7 +640,7 @@
             <div id="kpi-bar-chart" class="kpi-chart-wrap"></div>
         </div>
 
-        <div id="kpi-data-source-footer" style="margin-top:12px;padding-top:10px;border-top:1px solid #e7e7e7;font-size:11px;color:#888;">
+        <div id="kpi-data-source-footer" style="margin-top:12px;padding-top:10px;border-top:1px solid #CDE4FE;font-size:11px;color:#034EA2;">
             ${dataSources.length ? `Data Source: ${dataSources.join(", ")}` : ""}
         </div>
         `;
@@ -676,8 +676,8 @@
             donutChart = echarts.init(container);
 
             const SOURCE_COLORS = {
-                "Bio":"#8BC34A","Coal":"#9E9E9E","Gas":"#FF9800","Hydro":"#2196F3",
-                "Nuclear":"#F2B08A","Oil":"#795548","Solar":"#FFD600","Wind":"#00BCD4",
+                "Bio":"#93AA7B","Coal":"#D9D9D9","Gas":"#FFC285","Hydro":"#69aefc",
+                "Nuclear":"#FFE085","Oil":"#795548","Solar":"#FFE085","Wind":"#CDE4FE",
                 "Other (R)":"#76D6A1","Other (F)":"#BDBDBD"
             };
             const fallbackColor = "#CDCED0";
@@ -731,16 +731,16 @@
                 tooltip: { show: false },
                 legend: { bottom: 0, textStyle: { fontSize: 11 } },
                 title: [
-                    { text: "Generation Mix", left: "16%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
-                    { text: "Tracked %", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
-                    { text: "Residual Mix", left: "83%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700 } },
+                    { text: "Generation Mix", left: "16%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
+                    { text: "Tracked %", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
+                    { text: "Residual Mix", left: "83%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
                     // Values below pies
                     { text: genEf != null ? `${formatNum(genEf, 4)} tCO₂/MWh` : "", left: "16%", top: "70%", textAlign: "center",
-                      textStyle: { fontSize: 14, fontWeight: 700, color: "#333" } },
+                      textStyle: { fontSize: 14, fontWeight: 700, color: "#034EA2" } },
                     { text: `${trackedPct}%`, left: "50%", top: "70%", textAlign: "center",
-                      textStyle: { fontSize: 14, fontWeight: 700, color: "#333" } },
+                      textStyle: { fontSize: 14, fontWeight: 700, color: "#034EA2" } },
                     { text: resEf != null ? `${formatNum(resEf, 4)} tCO₂/MWh` : "", left: "83%", top: "70%", textAlign: "center",
-                      textStyle: { fontSize: 14, fontWeight: 700, color: "#333" } }
+                      textStyle: { fontSize: 14, fontWeight: 700, color: "#034EA2" } }
                 ],
                 series: [
                     { type: "pie", radius: ["30%", "50%"], center: ["16%", "40%"],
@@ -764,9 +764,9 @@
             const sources = rows.map(r => r.energy_source || "Unknown");
 
             const seriesDefs = [
-                { name: "Issuance I-REC(E)",   color: "#76D6A1", values: rows.map(r => parseNum(r.issuance_irec) || 0) },
-                { name: "Issuance Europe-GOs",  color: "#F3DC9C", values: rows.map(r => parseNum(r.issuance_ext) || 0) },
-                { name: "Issuance (other)",     color: "#B1BBF9", values: rows.map(r => {
+                { name: "Issuance I-REC(E)",   color: "#93aa7b", values: rows.map(r => parseNum(r.issuance_irec) || 0) },
+                { name: "Issuance Europe-GOs",  color: "#ffe085", values: rows.map(r => parseNum(r.issuance_ext) || 0) },
+                { name: "Issuance (other)",     color: "#d9d9d9", values: rows.map(r => {
                     const cert = parseNum(r.certified_mix) || 0;
                     const ext  = parseNum(r.issuance_ext) || 0;
                     const irec = parseNum(r.issuance_irec) || 0;

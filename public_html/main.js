@@ -325,7 +325,7 @@ function updateMapDataSourceFooter() {
   if (!details || !details.length) { el.innerHTML = ""; return; }
   const sources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
   if (!sources.length) { el.innerHTML = ""; return; }
-  el.innerHTML = `<details style="cursor:pointer;"><summary style="font-weight:600;color:#666;">Data Sources</summary><div style="margin-top:4px;">${sources.join(", ")}</div></details>`;
+  el.innerHTML = `<details style="cursor:pointer;"><summary style="font-weight:600;color:#034EA2;">Data Sources</summary><div style="margin-top:4px;">${sources.join(", ")}</div></details>`;
 }
 
 // -------------------------

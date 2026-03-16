@@ -53,6 +53,8 @@ body {
 
 #filters label {
   font-size: 11px;
+  font-weight: 600;
+  color: #034EA2;
   margin: 0;
   padding: 0;
   line-height: 12px;
@@ -63,34 +65,46 @@ body {
   height: 30px;
   padding: 0 4px;
   box-sizing: border-box;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: #034EA2;
+  border: 1px solid #CDE4FE;
+  border-radius: 6px;
 }
 
 /* --- Export button --- */
 #button_export {
   width: 155px;
-  height: 30px;
-  min-height: var(--input-min-height);
-  padding: 0 var(--spacing-small);
+  height: 45px;
+  min-height: 45px;
+  max-height: 45px;
+  padding: 0 5px;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  color: var(--text-color-dark);
-  background: var(--checkbox-background);
-  border: 1px solid var(--input-border);
-  border-radius: var(--border-radius);
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #034EA2;
+  background: #fff;
+  border: 1px solid #CDE4FE;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
+  transition: background 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+#button_export:hover {
+  background: #034EA2;
+  color: #fff;
+  border-color: #034EA2;
 }
 
 #button_export:focus {
   outline: none;
-  border-color: #bfbfbf;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+  border-color: #0579FA;
+  box-shadow: 0 0 0 2px rgba(5, 121, 250, 0.12);
 }
 
 /* --- MultiSelect overrides --- */
@@ -162,29 +176,32 @@ body {
   transform: translateX(-50%);
   z-index: 50;
   background: rgba(255, 255, 255, 0.92);
-  border: 1px solid #e5e5e5;
+  border: 1px solid #CDE4FE;
   border-radius: 10px;
   padding: 8px 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
   backdrop-filter: blur(4px);
-  font-family: Arial, sans-serif;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
 }
 
 #kpi-overlay label {
   display: block;
   font-size: 11px;
-  color: #666;
+  color: #034EA2;
+  font-weight: 600;
   margin-bottom: 4px;
 }
 
 #kpi-overlay select {
   width: 180px;
   height: 30px;
-  border-radius: 8px;
-  border: 1px solid #dee2e6;
-  background: #e9e9ed;
+  border-radius: 20px;
+  border: 1px solid #CDE4FE;
+  background: #fff;
   padding: 0 8px;
   font-size: 12px;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: #034EA2;
 }
 
 /* --- Export lead modal --- */
@@ -195,7 +212,7 @@ body {
 .export-modal-intro {
   margin: 0 0 18px;
   font-size: 13px;
-  color: #555;
+  color: #034EA2;
 }
 
 .export-form-field {
@@ -208,23 +225,24 @@ body {
 .export-form-field label {
   font-size: 12px;
   font-weight: 600;
-  color: #333;
+  color: #011832;
 }
 
 .export-form-field input {
   height: 34px;
   padding: 0 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #CDE4FE;
   border-radius: 8px;
   font-size: 13px;
-  font-family: Arial, sans-serif;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
   outline: none;
   box-sizing: border-box;
+  color: #034EA2;
 }
 
 .export-form-field input:focus {
-  border-color: #aaa;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.06);
+  border-color: #3793FB;
+  box-shadow: 0 0 0 2px rgba(5, 121, 250, 0.12);
 }
 
 .export-form-check {
@@ -244,7 +262,7 @@ body {
 
 .export-form-check label {
   font-size: 12px;
-  color: #444;
+  color: #034EA2;
   line-height: 1.5;
   cursor: pointer;
 }
@@ -261,17 +279,19 @@ body {
 .export-btn-submit {
   height: 34px;
   padding: 0 20px;
-  background: #333;
+  background: #034EA2;
   color: #fff;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   font-size: 13px;
-  font-family: Arial, sans-serif;
+  font-weight: 600;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
   cursor: pointer;
+  transition: background 150ms ease;
 }
 
 .export-btn-submit:hover {
-  background: #111;
+  background: #0460C8;
 }
 
 /* ==========================================================================

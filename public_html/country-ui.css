@@ -48,21 +48,32 @@
   justify-content: space-between;
 
   padding: 12px 14px;
-  border-bottom: 1px solid #e7e7e7;
-  background: #fafafa;
+  border-bottom: 1px solid #CDE4FE;
+  background: #f8faff;
 }
 
 .kpi-modal-title{
   font-weight: 700;
   font-size: 14px;
+  color: #011832;
 }
 
 .kpi-modal-close{
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 8px;
-  padding: 6px 10px;
+  border: 1.5px solid #5E2390;
+  background: transparent;
+  border-radius: 20px;
+  padding: 6px 14px;
   cursor: pointer;
+  color: #5E2390;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.kpi-modal-close:hover{
+  background: #5E2390;
+  color: #fff;
 }
 
 /* ---------- Body ---------- */
@@ -82,28 +93,29 @@
 }
 
 .kpi-card{
-  border: 1px solid #e7e7e7;
+  border: 1px solid #CDE4FE;
   border-radius: 10px;
   padding: 10px;
+  background: #f8faff;
 }
 
 .kpi-label{
   font-size: 11px;
-  color: #666;
+  color: #034EA2;
   margin-bottom: 4px;
 }
 
 .kpi-value{
   font-size: 18px;
   font-weight: 700;
-  color: #111;
+  color: #011832;
 }
 
 /* ---------- Segmented control ---------- */
 .kpi-segments{
   display: inline-flex;
-  background: #f0f0f0;
-  border-radius: 8px;
+  background: #CDE4FE;
+  border-radius: 20px;
   padding: 3px;
   margin-bottom: 12px;
   gap: 2px;
@@ -112,24 +124,24 @@
 .kpi-seg-btn{
   border: none;
   background: transparent;
-  border-radius: 6px;
+  border-radius: 18px;
   padding: 6px 14px;
   font-size: 12px;
-  font-family: Arial, sans-serif;
-  color: #666;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  color: #034EA2;
   cursor: pointer;
   transition: background 150ms ease, color 150ms ease, box-shadow 150ms ease;
 }
 
 .kpi-seg-btn:hover{
-  color: #333;
+  color: #011832;
 }
 
 .kpi-seg-btn.active{
-  background: #fff;
-  color: #111;
+  background: #034EA2;
+  color: #fff;
   font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  box-shadow: 0 1px 3px rgba(3,78,162,.2);
 }
 
 /* ---------- Chart containers ---------- */
@@ -158,7 +170,9 @@
   top: 0;
   background: #fff;
   z-index: 1;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #CDE4FE;
+  color: #034EA2;
+  font-weight: 600;
 }
 
 /* sortable headers */
@@ -169,14 +183,15 @@
 
 .kpi-table th .sort-ind{
   font-size: 10px;
-  color: #888;
+  color: #3793FB;
   margin-left: 6px;
 }
 
 /* totals row */
 .kpi-table tr.kpi-totals-row td{
   font-weight: 700;
-  border-top: 2px solid #e7e7e7;
+  border-top: 2px solid #034EA2;
+  color: #011832;
 }
 
 /* year stepper in modal title */
@@ -189,14 +204,20 @@
 .kpi-year-btn{
   width: 26px;
   height: 26px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+  border-radius: 50%;
+  border: 1.5px solid #034EA2;
   background: #fff;
   cursor: pointer;
   line-height: 24px;
   text-align: center;
   font-weight: 700;
-  color: #333;
+  color: #034EA2;
+  transition: background 150ms ease, color 150ms ease;
+}
+
+.kpi-year-btn:hover:not(:disabled){
+  background: #034EA2;
+  color: #fff;
 }
 
 .kpi-year-btn:disabled{
