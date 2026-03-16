@@ -158,7 +158,7 @@ function initMap() {
           "fill-color": [
           "case",
           ["==", ["get", "hasDataForFilters"], true],
-          ["interpolate", ["linear"], ["coalesce", ["get", "kpi_value"], 0],
+          ["interpolate", ["linear"], ["coalesce", ["get", "kpi_perc_tracked_total"], 0],
             0,   "#F7EFC6",
             10,  "#F3DC9C",
             50,  "#F2B08A",
@@ -213,7 +213,7 @@ function initMap() {
           "circle-color": [
             "case",
             ["==", ["get", "hasDataForFilters"], true],
-            ["interpolate", ["linear"], ["coalesce", ["get", "kpi_value"], 0],
+            ["interpolate", ["linear"], ["coalesce", ["get", "kpi_perc_tracked_total"], 0],
               0,   "#F7EFC6",
               10,  "#F3DC9C",
               50,  "#F2B08A",
@@ -260,6 +260,14 @@ async function upgradeToHighRes() {
   }
 }
 
+// All KPI keys we pre-bake into feature properties
+const KPI_KEYS = ["perc_tracked_total", "perc_tracked_renewables", "perc_residual"];
+
+function parseKpiValue(row, key) {
+  const v = row[key];
+  return v === "" || v == null ? null : (Number(String(v).replace(",", ".")) || 0);
+}
+
 function updateMapColors() {
   if (!mapInstance || !worldGeojsonOriginal) return;
 
@@ -271,29 +279,24 @@ function updateMapColors() {
     filteredByCode.get(code).push(r);
   }
 
-  // Which KPI drives coloring (future-proof)
-  const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
-
-  // Map KPI per country from aggregated DATA (not from detail rows)
-  // Map always shows the latest selected year only
+  // Pre-compute ALL KPI values per country from aggregated DATA
   const agg = window.DATA || [];
   const selectedYears = window.state?.filters?.years;
   const yearFilter = selectedYears && selectedYears.length
     ? Math.max(...selectedYears.map(Number))
     : null;
 
-  const kpiByCode = new Map();
+  // kpisByCode: Map<code, { perc_tracked_total: n, perc_tracked_renewables: n, perc_residual: n }>
+  const kpisByCode = new Map();
   for (const row of agg) {
     const code = (row.country_code || "").toUpperCase();
     if (!code) continue;
     if (yearFilter != null && Number(row.year) !== yearFilter) continue;
+    if (kpisByCode.has(code)) continue;
 
-    // For safety: if multiple rows exist per code/year, prefer the first (or you can max it)
-    if (!kpiByCode.has(code)) {
-      const v = row[kpiKey];
-      const n = v === "" || v == null ? null : (Number(String(v).replace(",", ".")) || 0);
-      kpiByCode.set(code, n);
-    }
+    const vals = {};
+    for (const key of KPI_KEYS) vals[key] = parseKpiValue(row, key);
+    kpisByCode.set(code, vals);
   }
 
   const updatedGeojson = {
@@ -301,12 +304,15 @@ function updateMapColors() {
     features: worldGeojsonOriginal.features.map((f) => {
       const code = (f.id || "").toString().toUpperCase();
       const hasData = filteredByCode.has(code);
+      const vals = kpisByCode.get(code);
+      const kpiProps = {};
+      for (const key of KPI_KEYS) kpiProps["kpi_" + key] = hasData && vals ? (vals[key] ?? null) : null;
       return {
         ...f,
         properties: {
           ...f.properties,
           hasDataForFilters: hasData,
-          kpi_value: hasData ? (kpiByCode.get(code) ?? null) : null
+          ...kpiProps
         }
       };
     })
@@ -323,17 +329,50 @@ function updateMapColors() {
       features: smallCountryDotsGeojson.features.map(f => {
         const code = (f.id || "").toString().toUpperCase();
         const hasData = filteredByCode.has(code);
+        const vals = kpisByCode.get(code);
+        const kpiProps = {};
+        for (const key of KPI_KEYS) kpiProps["kpi_" + key] = hasData && vals ? (vals[key] ?? null) : null;
         return {
           ...f,
           properties: {
             ...f.properties,
             hasDataForFilters: hasData,
-            kpi_value: hasData ? (kpiByCode.get(code) ?? null) : null
+            ...kpiProps
           }
         };
       })
     };
     dotSrc.setData(updatedDots);
+  }
+
+  // Ensure paint expression matches current KPI
+  switchKpiPaint();
+}
+
+// Swap the paint expression to read a different pre-baked property — no setData() needed
+function switchKpiPaint() {
+  if (!mapInstance) return;
+  const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
+  const prop = "kpi_" + kpiKey;
+
+  const colorExpr = [
+    "case",
+    ["==", ["get", "hasDataForFilters"], true],
+    ["interpolate", ["linear"], ["coalesce", ["get", prop], 0],
+      0,   "#F7EFC6",
+      10,  "#F3DC9C",
+      50,  "#F2B08A",
+      60,  "#CDEED7",
+      100, "#76D6A1"
+    ],
+    "#e0e0e0"
+  ];
+
+  if (mapInstance.getLayer("country-fill")) {
+    mapInstance.setPaintProperty("country-fill", "fill-color", colorExpr);
+  }
+  if (mapInstance.getLayer("small-country-dots-fill")) {
+    mapInstance.setPaintProperty("small-country-dots-fill", "circle-color", colorExpr);
   }
 }
 
@@ -366,7 +405,7 @@ function setupKpiOverlaySwitch() {
       stops: KPI_COLOR_STOPS
     });
 
-    // recolor countries
-    updateMapColors();
+    // swap paint expression only — no GeoJSON rebuild needed
+    switchKpiPaint();
   });
 }
