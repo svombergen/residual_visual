@@ -67,9 +67,8 @@
 <div id="view-map" class="view">
   <div id="map-container">
     <div id="kpi-overlay">
-      <label for="kpi-color-key">Map coloring</label>
       <select id="kpi-color-key">
-        <option value="perc_tracked_total">Tracked Electricity (%)</option>
+        <option value="perc_tracked_total">Tracked Generation (%)</option>
         <option value="perc_tracked_renewables">Tracked Renewables (%)</option>
         <option value="perc_residual">Residual Mix (tCO₂/MWh)</option>
       </select>
@@ -86,9 +85,10 @@
 <script src="lib/MultiSelect.js"></script>
 <script async src="lib/xlsx.full.min.js"></script>
 
-<!-- Data -->
-<script src="data/data.js"></script>
-<script async src="data/data_detail.js"></script>
+<!-- Data (CSV-based, loaded via data_aib.js) -->
+<!-- <script src="data/data.js"></script> -->
+<!-- <script async src="data/data_detail.js"></script> -->
+<script src="data/data_aib.js"></script>
 
 
 <!-- main logic and split up views, keep this order to load the js files -->

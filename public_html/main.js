@@ -323,7 +323,7 @@ function updateMapDataSourceFooter() {
   if (!el) return;
   const details = window.DATA_DETAIL;
   if (!details || !details.length) { el.innerHTML = ""; return; }
-  const sources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
+  const sources = [...new Set(details.flatMap(r => (r.sources || "").split(",").map(s => s.trim())).filter(Boolean))];
   if (!sources.length) { el.innerHTML = ""; return; }
   el.innerHTML = `<details style="cursor:pointer;"><summary style="font-weight:600;color:#034EA2;">Data Sources</summary><div style="margin-top:4px;">${sources.join(", ")}</div></details>`;
 }
@@ -461,7 +461,7 @@ window.render = render;
 // -------------------------
 // INIT
 // -------------------------
-window.addEventListener("load", () => {
+function initApp() {
   buildFiltersFromData();
   initFilterMultiSelects();
   extractFilters();
@@ -469,4 +469,14 @@ window.addEventListener("load", () => {
 
   const btn = document.getElementById("button_export");
   if (btn) btn.onclick = openExportModal;
+}
+
+window.initApp = initApp;
+
+window.addEventListener("load", () => {
+  // If DATA is already loaded (sync script), init immediately.
+  // Otherwise data_aib.js will call initApp() once CSVs are ready.
+  if (window.DATA && window.DATA.length) {
+    initApp();
+  }
 });

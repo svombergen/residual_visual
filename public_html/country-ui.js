@@ -72,10 +72,11 @@
     "country",
     "country_code",
     "year",
-    "first_source",
+    "methodology",
+    "sources",
     "emission_factor",
     "class",
-    "method",
+    "issuance",
     "total_co2",
     "residual_mix"
   ]);
@@ -262,7 +263,7 @@
 
         <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
             <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
-            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Tracked Electricity</div>
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Tracked Generation</div>
             <div style="font-size:15px; font-weight:800; color:#011832;">
                 ${dot("perc_tracked_total")}${pctTrackedElec}
             </div>
@@ -515,7 +516,7 @@
         const methodLabel = (aggRow?.methodology || "").trim() || "Other";
 
         // Data sources
-        const dataSources = [...new Set(details.map(r => (r.first_source || "").trim()).filter(Boolean))];
+        const dataSources = [...new Set(details.flatMap(r => (r.sources || "").split(",").map(s => s.trim())).filter(Boolean))];
 
         function renderTable() {
         const rows = enrichedDetails.slice();
@@ -609,7 +610,7 @@
         body.innerHTML = `
         <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr;">
             <div class="kpi-card">
-            <div class="kpi-label">Tracked Electricity</div>
+            <div class="kpi-label">Tracked Generation</div>
             <div class="kpi-value">${dot("perc_tracked_total")}${pctTrackedElec}</div>
             </div>
 
