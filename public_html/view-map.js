@@ -59,11 +59,10 @@ class CustomNavControl {
 }
 
 const KPI_COLOR_STOPS = [
-  { v: 0,   c: "#F7EFC6" },
-  { v: 10,  c: "#F3DC9C" },
-  { v: 50,  c: "#F2B08A" },
-  { v: 60,  c: "#CDEED7" },
-  { v: 100, c: "#76D6A1" }
+  { v: 0,   c: "#9bc9fd" },
+  { v: 33,  c: "#69aefc" },
+  { v: 66,  c: "#0579fa" },
+  { v: 100, c: "#034896" }
 ];
 
 window.renderMapView = async function renderMapView() {
@@ -147,7 +146,8 @@ function initMap() {
 
       mapInstance.addSource("countries", {
         type: "geojson",
-        data: worldGeojsonOriginal
+        data: worldGeojsonOriginal,
+        promoteId: "id"
       });
 
       mapInstance.addLayer({
@@ -156,18 +156,22 @@ function initMap() {
         source: "countries",
         paint: {
           "fill-color": [
-          "case",
-          ["==", ["get", "hasDataForFilters"], true],
-          ["interpolate", ["linear"], ["coalesce", ["get", "kpi_perc_tracked_total"], 0],
-            0,   "#F7EFC6",
-            10,  "#F3DC9C",
-            50,  "#F2B08A",
-            60,  "#CDEED7",
-            100, "#76D6A1"
+            "case",
+            ["boolean", ["feature-state", "hover"], false], "#034896",
+            ["==", ["get", "hasDataForFilters"], true],
+            ["interpolate", ["linear"], ["coalesce", ["get", "kpi_perc_tracked_total"], 0],
+              0,   "#9bc9fd",
+              33,  "#69aefc",
+              66,  "#0579fa",
+              100, "#034896"
+            ],
+            "#e0e0e0"
           ],
-          "#e0e0e0"
-        ],
-          "fill-opacity": 0.8
+          "fill-opacity": [
+            "case",
+            ["boolean", ["feature-state", "hover"], false], 0.9,
+            0.6
+          ]
         }
       });
 
@@ -180,6 +184,7 @@ function initMap() {
           "line-width": 0.5
         }
       });
+
 
       // Small-country dot markers (visible at all zoom levels)
       const SMALL_COUNTRY_DOTS = [
@@ -214,17 +219,16 @@ function initMap() {
             "case",
             ["==", ["get", "hasDataForFilters"], true],
             ["interpolate", ["linear"], ["coalesce", ["get", "kpi_perc_tracked_total"], 0],
-              0,   "#F7EFC6",
-              10,  "#F3DC9C",
-              50,  "#F2B08A",
-              60,  "#CDEED7",
-              100, "#76D6A1"
+              0,   "#9bc9fd",
+              33,  "#69aefc",
+              66,  "#0579fa",
+              100, "#034896"
             ],
             "#e0e0e0"
           ],
           "circle-stroke-width": 1.5,
           "circle-stroke-color": "#ffffff",
-          "circle-opacity": 0.9
+          "circle-opacity": 0.7
         }
       });
 
@@ -355,24 +359,34 @@ function switchKpiPaint() {
   const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
   const prop = "kpi_" + kpiKey;
 
+  const kpiColorExpr = [
+    "interpolate", ["linear"], ["coalesce", ["get", prop], 0],
+      0,   "#9bc9fd",
+      33,  "#69aefc",
+      66,  "#0579fa",
+      100, "#034896"
+  ];
+
   const colorExpr = [
     "case",
-    ["==", ["get", "hasDataForFilters"], true],
-    ["interpolate", ["linear"], ["coalesce", ["get", prop], 0],
-      0,   "#F7EFC6",
-      10,  "#F3DC9C",
-      50,  "#F2B08A",
-      60,  "#CDEED7",
-      100, "#76D6A1"
-    ],
+    ["boolean", ["feature-state", "hover"], false], "#034896",
+    ["==", ["get", "hasDataForFilters"], true], kpiColorExpr,
     "#e0e0e0"
+  ];
+
+  const opacityExpr = [
+    "case",
+    ["boolean", ["feature-state", "hover"], false], 0.9,
+    0.6
   ];
 
   if (mapInstance.getLayer("country-fill")) {
     mapInstance.setPaintProperty("country-fill", "fill-color", colorExpr);
+    mapInstance.setPaintProperty("country-fill", "fill-opacity", opacityExpr);
   }
   if (mapInstance.getLayer("small-country-dots-fill")) {
     mapInstance.setPaintProperty("small-country-dots-fill", "circle-color", colorExpr);
+    mapInstance.setPaintProperty("small-country-dots-fill", "circle-opacity", opacityExpr);
   }
 }
 

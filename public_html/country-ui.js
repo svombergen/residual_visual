@@ -11,11 +11,10 @@
     key: "perc_tracked_total",
     // thresholds in %, inclusive ranges; we use interpolation between stops
     stops: [
-      { v: 0,   c: "#F7EFC6" }, // soft yellow
-      { v: 10,  c: "#F3DC9C" }, // deeper soft yellow
-      { v: 50,  c: "#F2B08A" }, // soft orange
-      { v: 60,  c: "#CDEED7" }, // soft green start
-      { v: 100, c: "#76D6A1" }  // soft green
+      { v: 0,   c: "#9bc9fd" },
+      { v: 33,  c: "#69aefc" },
+      { v: 66,  c: "#0579fa" },
+      { v: 100, c: "#034896" }
     ]
   };
 
@@ -54,14 +53,15 @@
   // -----------------------------
   // Data helpers / formatting
   // -----------------------------
-  const parseNum = (val) =>
-    val === null || val === undefined || val === ""
-      ? null
-      : (Number(String(val).replace(",", ".")) || 0);
+  const parseNum = (val) => {
+    if (val === null || val === undefined || val === "") return null;
+    const n = Number(String(val).replace(",", "."));
+    return Number.isFinite(n) ? n : null;
+  };
 
   const formatNum = (val, decimals = 2) => {
     const n = parseNum(val);
-    if (n === null) return "-";
+    if (n === null || !Number.isFinite(n)) return "n/a";
     return n.toLocaleString(undefined, {
       maximumFractionDigits: decimals,
       minimumFractionDigits: decimals
@@ -246,9 +246,10 @@
   function buildPopupHtml(k, kpiColor, code) {
     const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
 
-    const pctTrackedElec = k.perc_tracked_total == null ? "-" : `${formatNum(k.perc_tracked_total, 2)}%`;
-    const pctRenew       = k.perc_tracked_renewables == null ? "-" : `${formatNum(k.perc_tracked_renewables, 2)}%`;
-    const residualEf     = k.residual_ef == null ? "-" : formatNum(k.residual_ef, 4);
+    const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
+    const pctTrackedElec = fmtPct(k.perc_tracked_total);
+    const pctRenew       = fmtPct(k.perc_tracked_renewables);
+    const residualEf     = formatNum(k.residual_ef, 4);
 
     const dot = (key) =>
         key === colorKey
@@ -279,7 +280,7 @@
             <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
             <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Residual Mix</div>
             <div style="font-size:15px; font-weight:800; color:#011832;">
-                ${dot("perc_residual")}${residualEf} <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>
+                ${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}
             </div>
             </div>
         </div>
@@ -488,18 +489,10 @@
             ? `<span style="display:inline-block; width:10px; height:10px; border-radius:999px; background:${kpiColor}; margin-right:8px; vertical-align:middle;"></span>`
             : "";
 
-        const pctTrackedElec =
-        k.perc_tracked_total == null
-            ? "-"
-            : `${formatNum(k.perc_tracked_total, 2)}%`;
-
-        const pctRenew =
-        k.perc_tracked_renewables == null
-            ? "-"
-            : `${formatNum(k.perc_tracked_renewables, 2)}%`;
-
-        const residualEf =
-        k.residual_ef == null ? "-" : formatNum(k.residual_ef, 4);
+        const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
+        const pctTrackedElec = fmtPct(k.perc_tracked_total);
+        const pctRenew = fmtPct(k.perc_tracked_renewables);
+        const residualEf = formatNum(k.residual_ef, 4);
 
         // Compute totals for numeric columns
         const totals = {};
@@ -561,9 +554,9 @@
                 if (numericCols.has(c)) {
                     const n = typeof v === "number" ? v : parseNum(v);
                     const dec = (c === "gen_mix_ef" || c === "residual_mix_ef") ? 4 : 2;
-                    return `<td>${n == null ? "-" : formatNum(n, dec)}</td>`;
+                    return `<td>${n == null ? "n/a" : formatNum(n, dec)}</td>`;
                 }
-                return `<td>${v === "" || v == null ? "-" : String(v)}</td>`;
+                return `<td>${v === "" || v == null ? "" : String(v)}</td>`;
                 })
                 .join("");
             return `<tr>${tds}</tr>`;
@@ -621,7 +614,7 @@
 
             <div class="kpi-card">
             <div class="kpi-label">Residual Mix</div>
-            <div class="kpi-value">${dot("perc_residual")}${residualEf} <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span></div>
+            <div class="kpi-value">${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}</div>
             </div>
         </div>
 
@@ -810,6 +803,18 @@
   // -----------------------------
   // Public API
   // -----------------------------
+  let hoveredId = null;
+
+  function setHover(mapInstance, id) {
+    if (hoveredId != null) {
+      mapInstance.setFeatureState({ source: "countries", id: hoveredId }, { hover: false });
+    }
+    hoveredId = id;
+    if (id != null) {
+      mapInstance.setFeatureState({ source: "countries", id: id }, { hover: true });
+    }
+  }
+
   function attach(mapInstance, layerId) {
     const popup = new maplibregl.Popup({
       closeButton: false,
@@ -823,6 +828,7 @@
     mapInstance.on("mouseleave", layerId, () => {
       mapInstance.getCanvas().style.cursor = "";
       popup.remove();
+      setHover(mapInstance, null);
     });
 
     mapInstance.on("mousemove", layerId, (e) => {
@@ -832,6 +838,9 @@
         const code = (feature.properties && feature.properties.id || "")
             .toString()
             .toUpperCase();
+
+        // Highlight hovered country
+        if (layerId === "country-fill") setHover(mapInstance, code);
 
         const hasDataForFilters = !!feature.properties?.hasDataForFilters;
 
