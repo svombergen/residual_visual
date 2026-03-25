@@ -77,8 +77,7 @@
     "emission_factor",
     "class",
     "issuance",
-    "total_co2",
-    "residual_mix"
+    "total_co2"
   ]);
 
   // Desired table column order (left to right); columns with all-zero values are hidden
@@ -86,6 +85,7 @@
     "energy_source",
     "total_generation",
     "certified_mix",
+    "residual_mix",
     "issuance_irec",
     "issuance_ext",
     "issuance_other",
@@ -554,7 +554,8 @@
                 if (numericCols.has(c)) {
                     const n = typeof v === "number" ? v : parseNum(v);
                     const dec = (c === "gen_mix_ef" || c === "residual_mix_ef") ? 4 : 2;
-                    return `<td>${n == null ? "n/a" : formatNum(n, dec)}</td>`;
+                    const fmt = n == null ? "" : formatNum(n, dec);
+                    return `<td>${fmt === "n/a" ? "" : fmt}</td>`;
                 }
                 return `<td>${v === "" || v == null ? "" : String(v)}</td>`;
                 })
@@ -619,7 +620,7 @@
         </div>
 
         <div class="kpi-segments" id="kpi-segments">
-            <button class="kpi-seg-btn${activeTab === "bar" ? " active" : ""}" data-tab="bar">Electricity mix</button>
+            <button class="kpi-seg-btn${activeTab === "bar" ? " active" : ""}" data-tab="bar">Generation mix</button>
             <button class="kpi-seg-btn${activeTab === "pies" ? " active" : ""}" data-tab="pies">Generation vs Residual</button>
             <button class="kpi-seg-btn${activeTab === "table" ? " active" : ""}" data-tab="table">Table</button>
         </div>
@@ -748,7 +749,7 @@
             });
         }
 
-        // ---- Electricity mix bar chart ----
+        // ---- Generation mix bar chart ----
         function renderBarChart(rows) {
             if (barChart) { barChart.dispose(); barChart = null; }
             const container = body.querySelector("#kpi-bar-chart");
