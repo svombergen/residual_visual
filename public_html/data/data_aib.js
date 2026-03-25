@@ -68,10 +68,8 @@
       var rows = parseCSV(text);
       for (var i = 0; i < rows.length; i++) coerceNumeric(rows[i], AGG_NUMERIC);
       window.DATA = rows;
-      if (typeof window.initApp === "function") {
-        window.initApp();
-      } else if (typeof window.render === "function") {
-        window.render();
+      if (typeof window.onDataReady === "function") {
+        window.onDataReady();
       }
     })
     .catch(function (err) {

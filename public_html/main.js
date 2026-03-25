@@ -58,12 +58,12 @@ function buildFiltersFromData() {
   // Years (multi-select)
   if (yearEl && yearEl.tagName === "SELECT") {
     yearEl.innerHTML = "";
-    Array.from(yearSet)
-      .sort((a, b) => b - a)
-      .forEach((year) => {
+    const years = Array.from(yearSet).sort((a, b) => b - a);
+    years.forEach((year, i) => {
         const opt = document.createElement("option");
         opt.value = String(year);
         opt.textContent = String(year);
+        if (i === 0) opt.selected = true;  // auto-select latest year
         yearEl.appendChild(opt);
       });
   }
@@ -471,12 +471,21 @@ function initApp() {
   if (btn) btn.onclick = openExportModal;
 }
 
-window.initApp = initApp;
+let _appInitialised = false;
+let _domReady = false;
+
+function tryInit() {
+  if (_appInitialised) return;
+  if (!_domReady) return;
+  if (!window.DATA || !window.DATA.length) return;
+  _appInitialised = true;
+  initApp();
+}
+
+// Called by data_aib.js when CSV is loaded
+window.onDataReady = tryInit;
 
 window.addEventListener("load", () => {
-  // If DATA is already loaded (sync script), init immediately.
-  // Otherwise data_aib.js will call initApp() once CSVs are ready.
-  if (window.DATA && window.DATA.length) {
-    initApp();
-  }
+  _domReady = true;
+  tryInit();
 });
