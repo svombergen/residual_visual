@@ -143,6 +143,7 @@ function initMap() {
       }
 
       prepareGeojsonProperties(worldGeojsonOriginal);
+      filterFranceOverseas(worldGeojsonOriginal);
 
       mapInstance.addSource("countries", {
         type: "geojson",
@@ -250,11 +251,23 @@ function prepareGeojsonProperties(geojson) {
   });
 }
 
+// Remove overseas territories from France's MultiPolygon (keep only metropolitan France + Corsica)
+function filterFranceOverseas(geojson) {
+  geojson.features.forEach(f => {
+    if (f.id !== "FRA" || f.geometry?.type !== "MultiPolygon") return;
+    f.geometry.coordinates = f.geometry.coordinates.filter(polygon => {
+      const ring = polygon[0];
+      return ring.some(([lon, lat]) => lon >= -10 && lon <= 15 && lat >= 40 && lat <= 55);
+    });
+  });
+}
+
 async function upgradeToHighRes() {
   try {
     const res = await fetch(URL_WORLD_GEO_HIGH);
     const highRes = await res.json();
     prepareGeojsonProperties(highRes);
+    filterFranceOverseas(highRes);
     worldGeojsonOriginal = highRes;
     updateMapColors();
     updateRowsCountLabel();
@@ -300,6 +313,8 @@ function updateMapColors() {
 
     const vals = {};
     for (const key of KPI_KEYS) vals[key] = parseKpiValue(row, key);
+    vals.total_certified = parseKpiValue(row, "total_certified");
+    vals.methodology = (row.methodology || "").trim();
     kpisByCode.set(code, vals);
   }
 
@@ -311,11 +326,15 @@ function updateMapColors() {
       const vals = kpisByCode.get(code);
       const kpiProps = {};
       for (const key of KPI_KEYS) kpiProps["kpi_" + key] = hasData && vals ? (vals[key] ?? null) : null;
+      const hasIssuance = hasData && vals && vals.total_certified != null && vals.total_certified > 0;
+      const isPartialData = hasIssuance && vals.methodology === "I-REC" && (vals.perc_tracked_total == null || vals.perc_tracked_total > 100);
       return {
         ...f,
         properties: {
           ...f.properties,
           hasDataForFilters: hasData,
+          hasIssuance: !!hasIssuance,
+          isPartialData: !!isPartialData,
           ...kpiProps
         }
       };
@@ -336,11 +355,15 @@ function updateMapColors() {
         const vals = kpisByCode.get(code);
         const kpiProps = {};
         for (const key of KPI_KEYS) kpiProps["kpi_" + key] = hasData && vals ? (vals[key] ?? null) : null;
+        const hasIssuance = hasData && vals && vals.total_certified != null && vals.total_certified > 0;
+        const isPartialData = hasIssuance && vals.methodology === "I-REC" && (vals.perc_tracked_total == null || vals.perc_tracked_total > 100);
         return {
           ...f,
           properties: {
             ...f.properties,
             hasDataForFilters: hasData,
+            hasIssuance: !!hasIssuance,
+            isPartialData: !!isPartialData,
             ...kpiProps
           }
         };
@@ -353,6 +376,14 @@ function updateMapColors() {
   switchKpiPaint();
 }
 
+// Inverted color stops for residual mix (low residual = dark/good, high residual = light/bad)
+const KPI_COLOR_STOPS_INVERTED = [
+  { v: 0,   c: "#034896" },
+  { v: 33,  c: "#0579fa" },
+  { v: 66,  c: "#69aefc" },
+  { v: 100, c: "#9bc9fd" }
+];
+
 // Swap the paint expression to read a different pre-baked property — no setData() needed
 function switchKpiPaint() {
   if (!mapInstance) return;
@@ -361,15 +392,17 @@ function switchKpiPaint() {
 
   const kpiColorExpr = [
     "interpolate", ["linear"], ["coalesce", ["get", prop], 0],
-      0,   "#9bc9fd",
-      33,  "#69aefc",
-      66,  "#0579fa",
-      100, "#034896"
+      0, "#9bc9fd", 33, "#69aefc", 66, "#0579fa", 100, "#034896"
   ];
 
   const colorExpr = [
     "case",
     ["boolean", ["feature-state", "hover"], false], "#034896",
+    // Purple: has I-REC issuance but missing generation data
+    ["all", ["==", ["get", "hasDataForFilters"], true], ["==", ["get", "isPartialData"], true]], "#5E2390",
+    // Grey: in dataset but no issuance data at all
+    ["all", ["==", ["get", "hasDataForFilters"], true], ["==", ["get", "hasIssuance"], false]], "#e0e0e0",
+    // Normal KPI coloring
     ["==", ["get", "hasDataForFilters"], true], kpiColorExpr,
     "#e0e0e0"
   ];
@@ -377,6 +410,7 @@ function switchKpiPaint() {
   const opacityExpr = [
     "case",
     ["boolean", ["feature-state", "hover"], false], 0.9,
+    ["all", ["==", ["get", "hasDataForFilters"], true], ["==", ["get", "isPartialData"], true]], 0.7,
     0.6
   ];
 
@@ -412,12 +446,8 @@ function setupKpiOverlaySwitch() {
 
   sel.addEventListener("change", () => {
     const key = sel.value;
-
     // update global KPI key (keeps stops the same)
-    window.CountryUI?.setColorKpi?.({
-      key,
-      stops: KPI_COLOR_STOPS
-    });
+    window.CountryUI?.setColorKpi?.({ key, stops: KPI_COLOR_STOPS });
 
     // swap paint expression only — no GeoJSON rebuild needed
     switchKpiPaint();

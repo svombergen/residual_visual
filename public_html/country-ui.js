@@ -243,7 +243,7 @@
   // -----------------------------
   // Hover popup (2 KPI cards)
   // -----------------------------
-  function buildPopupHtml(k, kpiColor, code) {
+  function buildPopupHtml(k, kpiColor, code, isPartialData) {
     const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
 
     const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
@@ -285,6 +285,7 @@
             </div>
         </div>
 
+        ${isPartialData ? '<div style="margin-top:6px;padding:4px 8px;background:#f3e8fa;border-radius:6px;color:#5E2390;font-size:11px;font-weight:600;">Some data is missing in our dataset</div>' : ''}
         <div style="margin-top:8px; color:#3793FB; font-size:11px;">
             Click for details
         </div>
@@ -600,8 +601,17 @@
         });
         }
 
+        // Partial data detection (I-REC issuance but missing/incomplete generation data)
+        const isPartialData = (() => {
+            const tc = parseNum(aggRow?.total_certified);
+            const meth = (aggRow?.methodology || "").trim();
+            const pt = parseNum(aggRow?.perc_tracked_total);
+            return tc != null && tc > 0 && meth === "I-REC" && (pt == null || pt > 100);
+        })();
+
         // Fixed KPI order: tracked electricity, tracked renewables, residual mix
         body.innerHTML = `
+        ${isPartialData ? '<div style="margin-bottom:12px;padding:8px 12px;background:#f3e8fa;border-radius:8px;color:#5E2390;font-size:12px;font-weight:600;border:1px solid #d4b8e8;">Some data is missing in our dataset</div>' : ''}
         <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr;">
             <div class="kpi-card">
             <div class="kpi-label">Tracked Generation</div>
@@ -672,7 +682,7 @@
 
             const SOURCE_COLORS = {
                 "Bio":"#93AA7B","Coal":"#D9D9D9","Gas":"#FFC285","Hydro":"#69aefc",
-                "Nuclear":"#FFE085","Oil":"#795548","Solar":"#FFE085","Wind":"#CDE4FE",
+                "Nuclear":"#5E2390","Oil":"#795548","Solar":"#FFE085","Wind":"#CDE4FE",
                 "Other (R)":"#76D6A1","Other (F)":"#BDBDBD"
             };
             const fallbackColor = "#CDCED0";
@@ -844,27 +854,32 @@
         if (layerId === "country-fill") setHover(mapInstance, code);
 
         const hasDataForFilters = !!feature.properties?.hasDataForFilters;
+        const hasIssuance = !!feature.properties?.hasIssuance;
 
-        // ✅ If filtered out, show "no data" and do NOT render KPI popup
-        if (!hasDataForFilters) {
+        const hasIsPartialData = !!feature.properties?.isPartialData;
+
+        // Grey, purple, or missing: show simple popup without KPIs
+        if (!hasDataForFilters || !hasIssuance || hasIsPartialData) {
+            const msg = hasIsPartialData ? "Some data is missing in our dataset"
+                      : hasDataForFilters ? "No issuance data available"
+                      : "No data for current filters";
+            const msgColor = hasIsPartialData ? "#5E2390" : "#666";
             popup
             .setLngLat(e.lngLat)
             .setHTML(
                 `<div style="font-family:Arial,sans-serif;font-size:12px;padding:10px;min-width:220px;">
                 <div style="font-weight:700;margin-bottom:6px;">${countryFlag(code)}${feature.properties?.display_name || code}</div>
-                <div style="color:#666;font-size:11px;">No data for current filters</div>
+                <div style="color:${msgColor};font-size:11px;">${msg}</div>
                 </div>`
             )
             .addTo(mapInstance);
             return;
         }
-
-        // ✅ Only now compute KPIs/details
         const k = getKpis(code);
         const kpiVal = getKpiValue(code);
         const kpiColor = colorForValue(kpiVal);
 
-        popup.setLngLat(e.lngLat).setHTML(buildPopupHtml(k, kpiColor, code)).addTo(mapInstance);
+        popup.setLngLat(e.lngLat).setHTML(buildPopupHtml(k, kpiColor, code, false)).addTo(mapInstance);
     });
 
     mapInstance.on("click", layerId, (e) => {
@@ -872,7 +887,9 @@
     if (!feature) return;
 
     const hasDataForFilters = !!feature.properties?.hasDataForFilters;
-    if (!hasDataForFilters) return; // ✅ don't open modal for filtered-out countries
+    const hasIssuance = !!feature.properties?.hasIssuance;
+    const hasIsPartialData = !!feature.properties?.isPartialData;
+    if (!hasDataForFilters || !hasIssuance || hasIsPartialData) return; // don't open modal for missing/no-issuance/partial-data countries
 
     const code = (feature.id || feature.properties?.id || "")
         .toString()
