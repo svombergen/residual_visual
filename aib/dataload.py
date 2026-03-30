@@ -109,7 +109,9 @@ TIGRS_TECH = {
     "wind": "Wind",
     "geothermal energy": "Other (R)",
     "hydroelectric water (dam/impoundment)": "Hydro",
+    "hydroelectric water - dam/impoundment": "Hydro",
     "hydroelectric run-of-river": "Hydro",
+    "hydroelectric - run-of-river": "Hydro",
     "biomass combustion - agricultural waste": "Bio",
     "biomass combustion - agricultural products": "Bio",
     "biogas - agricultural methane": "Bio",
@@ -332,7 +334,7 @@ def load_ecogox(tech_map, country_map):
     df = pd.read_excel(path, sheet_name="Sheet1")
     df["country"] = "Colombia"
     df["energy_source"] = df["type"].apply(lambda t: map_tech(t, ECOGOX_TECH, tech_map))
-    df["issuance_ecogox"] = pd.to_numeric(df["total_GOs"], errors="coerce").fillna(0) / MWH_TO_TWH
+    df["issuance_ecogox"] = pd.to_numeric(df["total_GOs"], errors="coerce").fillna(0) / (MWH_TO_TWH * 1_000)  # kWh → TWh
     df = df.rename(columns={"year": "year"})
 
     agg = df.groupby(MERGE_KEYS, as_index=False)["issuance_ecogox"].sum()
@@ -666,6 +668,13 @@ def main():
 
     # Filter to target year range
     df = df[(df["year"] >= 2020) & (df["year"] <= 2024)]
+
+    # Drop rows with unmapped / non-standard energy sources
+    STANDARD_SOURCES = {"Wind", "Solar", "Hydro", "Bio", "Coal", "Gas", "Oil", "Nuclear", "Other (R)", "Other (F)"}
+    bad = df[~df["energy_source"].isin(STANDARD_SOURCES)]["energy_source"].dropna().unique()
+    if len(bad):
+        print(f"  WARN  Dropping {len(df[~df['energy_source'].isin(STANDARD_SOURCES)])} rows with unmapped energy sources: {sorted(bad)}")
+    df = df[df["energy_source"].isin(STANDARD_SOURCES)]
 
     # ── Derived columns ──────────────────────────────────────────────────────
 

@@ -85,7 +85,6 @@
     "energy_source",
     "total_generation",
     "certified_mix",
-    "residual_mix",
     "issuance_irec_e",
     "issuance_itrack",
     "issuance_go",
@@ -97,12 +96,18 @@
     "export_physical",
     "import_certificates",
     "export_certificates",
-    "untracked"
+    "untracked",
+    "residual_mix"   // always last
+  ];
+
+  const ISSUANCE_SPECIFIC_COLS = [
+    "issuance_irec_e", "issuance_itrack", "issuance_go",
+    "issuance_lgc", "issuance_tigrs", "issuance_ecogox", "issuance_other"
   ];
 
   const PRETTY_COLUMN_NAMES = {
     energy_source: "Energy Source",
-    certified_mix: "Certified Mix",
+    certified_mix: "Issuance (all EACs)",
     issuance_irec_e: "Issuance (I-REC(E))",
     issuance_itrack: "Issuance (I-TRACK)",
     issuance_go: "Issuance (GO)",
@@ -123,22 +128,22 @@
   };
 
   const UNITS = {
-    certified_mix: "MWh",
-    issuance_irec_e: "MWh",
-    issuance_itrack: "MWh",
-    issuance_go: "MWh",
-    issuance_lgc: "MWh",
-    issuance_tigrs: "MWh",
-    issuance_ecogox: "MWh",
-    issuance_other: "MWh",
-    residual_mix: "MWh",
-    total_generation: "MWh",
+    certified_mix: "TWh",
+    issuance_irec_e: "TWh",
+    issuance_itrack: "TWh",
+    issuance_go: "TWh",
+    issuance_lgc: "TWh",
+    issuance_tigrs: "TWh",
+    issuance_ecogox: "TWh",
+    issuance_other: "TWh",
+    residual_mix: "TWh",
+    total_generation: "TWh",
     total_co2: "kg CO₂",
-    import_physical: "MWh",
-    export_physical: "MWh",
-    import_certificates: "MWh",
-    export_certificates: "MWh",
-    untracked: "MWh",
+    import_physical: "TWh",
+    export_physical: "TWh",
+    import_certificates: "TWh",
+    export_certificates: "TWh",
+    untracked: "TWh",
     gen_mix_ef: "tCO₂/MWh",
     residual_mix_ef: "tCO₂/MWh"
   };
@@ -244,7 +249,8 @@
         country: agg?.country || code,
         perc_tracked_total: agg?.perc_tracked_total ?? null,
         perc_tracked_renewables: agg?.perc_tracked_renewables ?? null,
-        residual_ef: computeResidualEf(agg)
+        residual_ef: computeResidualEf(agg),
+        total_generation: agg?.total_generation ?? null
     };
   }
 
@@ -266,6 +272,7 @@
     const pctTrackedElec = fmtPct(k.perc_tracked_total);
     const pctRenew       = fmtPct(k.perc_tracked_renewables);
     const residualEf     = formatNum(k.residual_ef, 4);
+    const totalGen       = formatNum(k.total_generation, 2);
 
     const dot = (key) =>
         key === colorKey
@@ -273,12 +280,12 @@
         : "";
 
     return `
-        <div style="font-family:'IBM Plex Sans',Arial,sans-serif; font-size:12px; padding:10px; min-width:320px; color:#034EA2;">
+        <div style="font-family:'IBM Plex Sans',Arial,sans-serif; font-size:12px; padding:10px; min-width:400px; color:#034EA2;">
         <div style="font-weight:700; margin-bottom:6px; color:#011832;">
             ${countryFlag(code)}${k.country}${k.year ? ` (${k.year})` : ""}
         </div>
 
-        <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;">
+        <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:8px;">
             <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
             <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Tracked Generation</div>
             <div style="font-size:15px; font-weight:800; color:#011832;">
@@ -297,6 +304,13 @@
             <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Residual Mix</div>
             <div style="font-size:15px; font-weight:800; color:#011832;">
                 ${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}
+            </div>
+            </div>
+
+            <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Total Generation</div>
+            <div style="font-size:15px; font-weight:800; color:#011832;">
+                ${totalGen}${totalGen !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">TWh</span>' : ""}
             </div>
             </div>
         </div>
@@ -434,6 +448,18 @@
         }
     }
 
+    // Shared source order: renewables A-Z, Other (R), fossils A-Z, Other (F)
+    const SOURCE_ORDER = [
+        "Bio", "Hydro", "Solar", "Wind", "Other (R)",
+        "Coal", "Gas", "Nuclear", "Oil", "Other (F)"
+    ];
+    const sortBySrcOrder = (entries) =>
+        entries.sort(([a], [b]) => {
+            const ai = SOURCE_ORDER.indexOf(a);
+            const bi = SOURCE_ORDER.indexOf(b);
+            return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+        });
+
     function renderForYear(year) {
         // Pull aggregated row for KPIs for THIS year (does not touch global year filter)
         const aggRow = (window.DATA || []).find(
@@ -449,7 +475,8 @@
         year,
         perc_tracked_total: aggRow?.perc_tracked_total ?? null,
         perc_tracked_renewables: aggRow?.perc_tracked_renewables ?? null,
-        residual_ef: computeResidualEf(aggRow)
+        residual_ef: computeResidualEf(aggRow),
+        total_generation: aggRow?.total_generation ?? null
         };
 
         // Details for this year
@@ -476,7 +503,7 @@
                 ...r,
                 issuance_irec_e: isITrack ? 0 : irec,
                 issuance_itrack: isITrack ? irec : 0,
-                issuance_other: Math.max(0, cert - irec - go - lgc - tigrs - eco),
+                issuance_other: Math.max(0, Math.round((cert - irec - go - lgc - tigrs - eco) * 1e9) / 1e9),
                 import_physical: parseNum(r.import_physical) || 0,
                 export_physical: parseNum(r.export_physical) || 0,
                 import_certificates: parseNum(r.import_certificates) || 0,
@@ -488,8 +515,13 @@
         });
 
         // Determine visible table columns: use defined order, hide columns with all-zero values
+        const activeIssuanceCols = ISSUANCE_SPECIFIC_COLS.filter(c =>
+            enrichedDetails.some(r => (typeof r[c] === "number" ? r[c] : parseNum(r[c]) || 0) !== 0)
+        );
         const cols = TABLE_COLUMN_ORDER.filter(c => {
             if (c === "energy_source") return true; // always show
+            if (c === "residual_mix") return true;  // always last
+            if (c === "certified_mix") return activeIssuanceCols.length > 1; // only if multiple issuance types
             return enrichedDetails.some(r => {
                 const v = numericCols.has(c) ? (typeof r[c] === "number" ? r[c] : parseNum(r[c]) || 0) : r[c];
                 return v !== 0 && v !== "" && v != null;
@@ -517,6 +549,7 @@
         const pctTrackedElec = fmtPct(k.perc_tracked_total);
         const pctRenew = fmtPct(k.perc_tracked_renewables);
         const residualEf = formatNum(k.residual_ef, 4);
+        const totalGen = formatNum(k.total_generation, 2);
 
         // Compute totals for numeric columns
         const totals = {};
@@ -635,7 +668,7 @@
         // Fixed KPI order: tracked electricity, tracked renewables, residual mix
         body.innerHTML = `
         ${isPartialData ? '<div style="margin-bottom:12px;padding:8px 12px;background:#f3e8fa;border-radius:8px;color:#5E2390;font-size:12px;font-weight:600;border:1px solid #d4b8e8;">Some data is missing in our dataset</div>' : ''}
-        <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
             <div class="kpi-card">
             <div class="kpi-label">Tracked Generation</div>
             <div class="kpi-value">${dot("perc_tracked_total")}${pctTrackedElec}</div>
@@ -649,6 +682,11 @@
             <div class="kpi-card">
             <div class="kpi-label">Residual Mix</div>
             <div class="kpi-value">${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}</div>
+            </div>
+
+            <div class="kpi-card">
+            <div class="kpi-label">Total Generation</div>
+            <div class="kpi-value">${totalGen}${totalGen !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">TWh</span>' : ""}</div>
             </div>
         </div>
 
@@ -716,8 +754,7 @@
                 const src = r.energy_source || "Other";
                 genBySource[src] = (genBySource[src] || 0) + (parseNum(r.total_generation) || 0);
             }
-            const genData = Object.entries(genBySource)
-                .filter(([,v]) => v > 0)
+            const genData = sortBySrcOrder(Object.entries(genBySource).filter(([,v]) => v > 0))
                 .map(([name, value]) => ({
                     name, value: Math.round(value * 100) / 100,
                     itemStyle: { color: SOURCE_COLORS[name] || fallbackColor }
@@ -729,8 +766,7 @@
                 const src = r.energy_source || "Other";
                 resBySource[src] = (resBySource[src] || 0) + (parseNum(r.residual_mix) || 0);
             }
-            const resData = Object.entries(resBySource)
-                .filter(([,v]) => v > 0)
+            const resData = sortBySrcOrder(Object.entries(resBySource).filter(([,v]) => v > 0))
                 .map(([name, value]) => ({
                     name, value: Math.round(value * 100) / 100,
                     itemStyle: { color: SOURCE_COLORS[name] || fallbackColor }
@@ -789,12 +825,6 @@
             if (!container) return;
             barChart = echarts.init(container);
 
-            // Fixed source order: RE first (Other (R) last), then FO (Other (F) last)
-            const SOURCE_ORDER = [
-                "Wind", "Solar", "Hydro", "Bio", "Other (R)",
-                "Nuclear", "Coal", "Gas", "Oil", "Other (F)"
-            ];
-
             // Build lookup: energy_source → enriched row
             const rowBySource = {};
             for (const r of rows) rowBySource[r.energy_source || "Unknown"] = r;
@@ -802,16 +832,19 @@
             // Get numeric field for a fixed-order source (0 if source absent)
             const val = (src, field) => parseNum(rowBySource[src]?.[field]) || 0;
 
+            // ECharts renders category axis bottom-to-top, so reverse for top-to-bottom display
+            const BAR_ORDER = [...SOURCE_ORDER].reverse();
+
             const seriesDefs = [
-                { name: "Issuance I-REC(E)", color: "#93aa7b", values: SOURCE_ORDER.map(s => val(s, "issuance_irec_e")) },
-                { name: "Issuance I-TRACK",  color: "#9B59B6", values: SOURCE_ORDER.map(s => val(s, "issuance_itrack")) },
-                { name: "Issuance GO",        color: "#ffe085", values: SOURCE_ORDER.map(s => val(s, "issuance_go")) },
-                { name: "Issuance LGC",       color: "#f0d060", values: SOURCE_ORDER.map(s => val(s, "issuance_lgc")) },
-                { name: "Issuance TIGRS",     color: "#fad48a", values: SOURCE_ORDER.map(s => val(s, "issuance_tigrs")) },
-                { name: "Issuance Ecogox",    color: "#e8c46a", values: SOURCE_ORDER.map(s => val(s, "issuance_ecogox")) },
-                { name: "Not Issued",         color: "#F2B08A", values: SOURCE_ORDER.map(s => val(s, "residual_mix")) },
-                { name: "Import",             color: "#83D5F4", values: SOURCE_ORDER.map(s => val(s, "import_physical")) },
-                { name: "Export",             color: "#E7E58F", values: SOURCE_ORDER.map(s => -(val(s, "export_physical"))) },
+                { name: "Issuance I-REC(E)", color: "#93aa7b", values: BAR_ORDER.map(s => val(s, "issuance_irec_e")) },
+                { name: "Issuance I-TRACK",  color: "#9B59B6", values: BAR_ORDER.map(s => val(s, "issuance_itrack")) },
+                { name: "Issuance GO",        color: "#ffe085", values: BAR_ORDER.map(s => val(s, "issuance_go")) },
+                { name: "Issuance LGC",       color: "#f0d060", values: BAR_ORDER.map(s => val(s, "issuance_lgc")) },
+                { name: "Issuance TIGRS",     color: "#fad48a", values: BAR_ORDER.map(s => val(s, "issuance_tigrs")) },
+                { name: "Issuance Ecogox",    color: "#e8c46a", values: BAR_ORDER.map(s => val(s, "issuance_ecogox")) },
+                { name: "Not Issued",         color: "#F2B08A", values: BAR_ORDER.map(s => val(s, "residual_mix")) },
+                { name: "Import",             color: "#83D5F4", values: BAR_ORDER.map(s => val(s, "import_physical")) },
+                { name: "Export",             color: "#E7E58F", values: BAR_ORDER.map(s => -(val(s, "export_physical"))) },
             ];
 
             // Show only series with at least one non-zero value
@@ -819,12 +852,12 @@
 
             barChart.setOption({
                 tooltip: { trigger: "axis", axisPointer: { type: "shadow" },
-                    valueFormatter: w => formatNum(w, 2) + " MWh" },
+                    valueFormatter: w => formatNum(w, 2) + " TWh" },
                 legend: { bottom: 0, textStyle: { fontSize: 12 },
                     data: activeSeries.map(s => s.name) },
                 grid: { left: 10, right: 20, top: 10, bottom: 40, containLabel: true },
                 xAxis: { type: "value", axisLabel: { fontSize: 11 } },
-                yAxis: { type: "category", data: SOURCE_ORDER, axisLabel: { fontSize: 11 } },
+                yAxis: { type: "category", data: BAR_ORDER, axisLabel: { fontSize: 11 } },
                 series: activeSeries.map(s => ({
                     name: s.name, type: "bar", stack: "total", data: s.values,
                     itemStyle: { color: s.color }, barMaxWidth: 28
