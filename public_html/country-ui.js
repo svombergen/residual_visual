@@ -86,8 +86,12 @@
     "total_generation",
     "certified_mix",
     "residual_mix",
-    "issuance_irec",
-    "issuance_ext",
+    "issuance_irec_e",
+    "issuance_itrack",
+    "issuance_go",
+    "issuance_lgc",
+    "issuance_tigrs",
+    "issuance_ecogox",
     "issuance_other",
     "import_physical",
     "export_physical",
@@ -98,9 +102,13 @@
 
   const PRETTY_COLUMN_NAMES = {
     energy_source: "Energy Source",
-    certified_mix: "Issuance (all EACs)",
-    issuance_ext: "Issuance (GO)",
-    issuance_irec: "Issuance (I-REC(E))",
+    certified_mix: "Certified Mix",
+    issuance_irec_e: "Issuance (I-REC(E))",
+    issuance_itrack: "Issuance (I-TRACK)",
+    issuance_go: "Issuance (GO)",
+    issuance_lgc: "Issuance (LGC)",
+    issuance_tigrs: "Issuance (TIGRS)",
+    issuance_ecogox: "Issuance (Ecogox)",
     issuance_other: "Issuance (other)",
     residual_mix: "Residual mix",
     total_generation: "Total Generation",
@@ -116,8 +124,12 @@
 
   const UNITS = {
     certified_mix: "MWh",
-    issuance_ext: "MWh",
-    issuance_irec: "MWh",
+    issuance_irec_e: "MWh",
+    issuance_itrack: "MWh",
+    issuance_go: "MWh",
+    issuance_lgc: "MWh",
+    issuance_tigrs: "MWh",
+    issuance_ecogox: "MWh",
     issuance_other: "MWh",
     residual_mix: "MWh",
     total_generation: "MWh",
@@ -133,8 +145,12 @@
 
   const numericCols = new Set([
     "certified_mix",
-    "issuance_ext",
-    "issuance_irec",
+    "issuance_irec_e",
+    "issuance_itrack",
+    "issuance_go",
+    "issuance_lgc",
+    "issuance_tigrs",
+    "issuance_ecogox",
     "issuance_other",
     "residual_mix",
     "total_generation",
@@ -445,15 +461,22 @@
 
         // Enrich detail rows with computed columns
         const enrichedDetails = details.map(r => {
-            const cert = parseNum(r.certified_mix) || 0;
-            const ext  = parseNum(r.issuance_ext) || 0;
-            const irec = parseNum(r.issuance_irec) || 0;
-            const gen  = parseNum(r.total_generation) || 0;
-            const co2  = parseNum(r.total_co2) || 0;
+            const cert  = parseNum(r.certified_mix) || 0;
+            const irec  = parseNum(r.issuance_irec) || 0;
+            const gen   = parseNum(r.total_generation) || 0;
+            const co2   = parseNum(r.total_co2) || 0;
             const resid = parseNum(r.residual_mix) || 0;
+            const go    = parseNum(r.issuance_go) || 0;
+            const lgc   = parseNum(r.issuance_lgc) || 0;
+            const tigrs = parseNum(r.issuance_tigrs) || 0;
+            const eco   = parseNum(r.issuance_ecogox) || 0;
+            // Split I-REC issuance into renewable (I-REC(E)) and nuclear/fossil (I-TRACK)
+            const isITrack = r.issuance === "I-TRACK(E)";
             return {
                 ...r,
-                issuance_other: Math.max(0, cert - ext - irec),
+                issuance_irec_e: isITrack ? 0 : irec,
+                issuance_itrack: isITrack ? irec : 0,
+                issuance_other: Math.max(0, cert - irec - go - lgc - tigrs - eco),
                 import_physical: parseNum(r.import_physical) || 0,
                 export_physical: parseNum(r.export_physical) || 0,
                 import_certificates: parseNum(r.import_certificates) || 0,
@@ -766,33 +789,42 @@
             if (!container) return;
             barChart = echarts.init(container);
 
-            const sources = rows.map(r => r.energy_source || "Unknown");
-
-            const seriesDefs = [
-                { name: "Issuance I-REC(E)",   color: "#93aa7b", values: rows.map(r => parseNum(r.issuance_irec) || 0) },
-                { name: "Issuance Europe-GOs",  color: "#ffe085", values: rows.map(r => parseNum(r.issuance_ext) || 0) },
-                { name: "Issuance (other)",     color: "#d9d9d9", values: rows.map(r => {
-                    const cert = parseNum(r.certified_mix) || 0;
-                    const ext  = parseNum(r.issuance_ext) || 0;
-                    const irec = parseNum(r.issuance_irec) || 0;
-                    return Math.max(0, cert - ext - irec);
-                }) },
-                { name: "Not Issued",           color: "#F2B08A", values: rows.map(r => parseNum(r.residual_mix) || 0) },
-                { name: "Import",               color: "#83D5F4", values: rows.map(r => parseNum(r.import) || 0) },
-                { name: "Export",               color: "#E7E58F", values: rows.map(r => -(parseNum(r.export) || 0)) },
-                { name: "Expired",              color: "#D6C7FF", values: rows.map(r => parseNum(r.expired) || 0) }
+            // Fixed source order: RE first (Other (R) last), then FO (Other (F) last)
+            const SOURCE_ORDER = [
+                "Wind", "Solar", "Hydro", "Bio", "Other (R)",
+                "Nuclear", "Coal", "Gas", "Oil", "Other (F)"
             ];
 
+            // Build lookup: energy_source → enriched row
+            const rowBySource = {};
+            for (const r of rows) rowBySource[r.energy_source || "Unknown"] = r;
+
+            // Get numeric field for a fixed-order source (0 if source absent)
+            const val = (src, field) => parseNum(rowBySource[src]?.[field]) || 0;
+
+            const seriesDefs = [
+                { name: "Issuance I-REC(E)", color: "#93aa7b", values: SOURCE_ORDER.map(s => val(s, "issuance_irec_e")) },
+                { name: "Issuance I-TRACK",  color: "#9B59B6", values: SOURCE_ORDER.map(s => val(s, "issuance_itrack")) },
+                { name: "Issuance GO",        color: "#ffe085", values: SOURCE_ORDER.map(s => val(s, "issuance_go")) },
+                { name: "Issuance LGC",       color: "#f0d060", values: SOURCE_ORDER.map(s => val(s, "issuance_lgc")) },
+                { name: "Issuance TIGRS",     color: "#fad48a", values: SOURCE_ORDER.map(s => val(s, "issuance_tigrs")) },
+                { name: "Issuance Ecogox",    color: "#e8c46a", values: SOURCE_ORDER.map(s => val(s, "issuance_ecogox")) },
+                { name: "Not Issued",         color: "#F2B08A", values: SOURCE_ORDER.map(s => val(s, "residual_mix")) },
+                { name: "Import",             color: "#83D5F4", values: SOURCE_ORDER.map(s => val(s, "import_physical")) },
+                { name: "Export",             color: "#E7E58F", values: SOURCE_ORDER.map(s => -(val(s, "export_physical"))) },
+            ];
+
+            // Show only series with at least one non-zero value
             const activeSeries = seriesDefs.filter(s => s.values.some(v => v !== 0));
 
             barChart.setOption({
                 tooltip: { trigger: "axis", axisPointer: { type: "shadow" },
-                    valueFormatter: v => formatNum(v, 2) + " MWh" },
+                    valueFormatter: w => formatNum(w, 2) + " MWh" },
                 legend: { bottom: 0, textStyle: { fontSize: 12 },
                     data: activeSeries.map(s => s.name) },
                 grid: { left: 10, right: 20, top: 10, bottom: 40, containLabel: true },
                 xAxis: { type: "value", axisLabel: { fontSize: 11 } },
-                yAxis: { type: "category", data: sources, axisLabel: { fontSize: 11 } },
+                yAxis: { type: "category", data: SOURCE_ORDER, axisLabel: { fontSize: 11 } },
                 series: activeSeries.map(s => ({
                     name: s.name, type: "bar", stack: "total", data: s.values,
                     itemStyle: { color: s.color }, barMaxWidth: 28
@@ -858,18 +890,30 @@
 
         const hasIsPartialData = !!feature.properties?.isPartialData;
 
-        // Grey, purple, or missing: show simple popup without KPIs
-        if (!hasDataForFilters || !hasIssuance || hasIsPartialData) {
-            const msg = hasIsPartialData ? "Some data is missing in our dataset"
-                      : hasDataForFilters ? "No issuance data available"
-                      : "No data for current filters";
-            const msgColor = hasIsPartialData ? "#5E2390" : "#666";
+        // Grey or missing: show simple popup without KPIs
+        if (!hasDataForFilters || !hasIssuance) {
+            const msg = hasDataForFilters ? "No issuance data available" : "No data for current filters";
             popup
             .setLngLat(e.lngLat)
             .setHTML(
                 `<div style="font-family:Arial,sans-serif;font-size:12px;padding:10px;min-width:220px;">
                 <div style="font-weight:700;margin-bottom:6px;">${countryFlag(code)}${feature.properties?.display_name || code}</div>
-                <div style="color:${msgColor};font-size:11px;">${msg}</div>
+                <div style="color:#666;font-size:11px;">${msg}</div>
+                </div>`
+            )
+            .addTo(mapInstance);
+            return;
+        }
+
+        // Purple: partial data — show warning popup with click prompt
+        if (hasIsPartialData) {
+            popup
+            .setLngLat(e.lngLat)
+            .setHTML(
+                `<div style="font-family:Arial,sans-serif;font-size:12px;padding:10px;min-width:220px;">
+                <div style="font-weight:700;margin-bottom:6px;">${countryFlag(code)}${feature.properties?.display_name || code}</div>
+                <div style="color:#5E2390;font-size:11px;font-weight:600;">Some data is missing in our dataset</div>
+                <div style="margin-top:8px;color:#3793FB;font-size:11px;">Click for details</div>
                 </div>`
             )
             .addTo(mapInstance);
@@ -888,8 +932,7 @@
 
     const hasDataForFilters = !!feature.properties?.hasDataForFilters;
     const hasIssuance = !!feature.properties?.hasIssuance;
-    const hasIsPartialData = !!feature.properties?.isPartialData;
-    if (!hasDataForFilters || !hasIssuance || hasIsPartialData) return; // don't open modal for missing/no-issuance/partial-data countries
+    if (!hasDataForFilters || !hasIssuance) return; // don't open modal for missing/no-issuance countries
 
     const code = (feature.id || feature.properties?.id || "")
         .toString()

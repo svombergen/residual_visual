@@ -158,7 +158,6 @@ function initMap() {
         paint: {
           "fill-color": [
             "case",
-            ["boolean", ["feature-state", "hover"], false], "#034896",
             ["==", ["get", "hasDataForFilters"], true],
             ["interpolate", ["linear"], ["coalesce", ["get", "kpi_perc_tracked_total"], 0],
               0,   "#9bc9fd",
@@ -170,7 +169,7 @@ function initMap() {
           ],
           "fill-opacity": [
             "case",
-            ["boolean", ["feature-state", "hover"], false], 0.9,
+            ["boolean", ["feature-state", "hover"], false], 1.0,
             0.6
           ]
         }
@@ -397,7 +396,6 @@ function switchKpiPaint() {
 
   const colorExpr = [
     "case",
-    ["boolean", ["feature-state", "hover"], false], "#034896",
     // Purple: has I-REC issuance but missing generation data
     ["all", ["==", ["get", "hasDataForFilters"], true], ["==", ["get", "isPartialData"], true]], "#5E2390",
     // Grey: in dataset but no issuance data at all
@@ -409,8 +407,7 @@ function switchKpiPaint() {
 
   const opacityExpr = [
     "case",
-    ["boolean", ["feature-state", "hover"], false], 0.9,
-    ["all", ["==", ["get", "hasDataForFilters"], true], ["==", ["get", "isPartialData"], true]], 0.7,
+    ["boolean", ["feature-state", "hover"], false], 1.0,
     0.6
   ];
 
