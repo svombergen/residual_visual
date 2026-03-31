@@ -233,13 +233,17 @@
   }
 
   function computeResidualEf(agg) {
+    const rmCo2 = parseNum(agg?.residualmix_gco2kwh);
+    if (rmCo2 != null) return rmCo2 / 1000; // gCO2/kWh → tCO2/MWh
+
+    // Fallback: derive from total CO2 and untracked generation
     const totalCo2 = parseNum(agg?.total_co2);
     const totalGen = parseNum(agg?.total_generation);
     const totalCert = parseNum(agg?.total_certified);
     if (totalCo2 == null || totalGen == null || totalCert == null) return null;
     const residualGen = totalGen - totalCert;
     if (residualGen <= 0) return null;
-    return totalCo2 / residualGen / 1000; // kg → tons CO₂/MWh
+    return totalCo2 / residualGen / 1000; // kg → tCO₂/MWh
   }
 
   function getKpis(code) {
@@ -781,11 +785,15 @@
                 { name: "Untracked", value: Math.round((totalGen - totalCert) * 100) / 100, itemStyle: { color: "#e0e0e0" } }
             ].filter(d => d.value > 0);
 
-            // Emission factor for the center label
-            const totalCo2 = rows.reduce((s, r) => s + (parseNum(r.total_co2) || 0), 0);
-            const genEf = totalGen > 0 ? (totalCo2 / totalGen / 1000) : null;
+            // Emission factor for the center label — prefer authoritative AIB agg values,
+            // fall back to detail-derived calculation when agg values are unavailable.
+            const genGco2 = parseNum(aggRow?.generation_gco2kwh);
+            const genEf = genGco2 != null ? genGco2 / 1000
+                        : totalGen > 0 ? (rows.reduce((s, r) => s + (parseNum(r.total_co2) || 0), 0) / totalGen / 1000)
+                        : null;
             const residualGen = totalGen - totalCert;
-            const resEf = residualGen > 0 ? (totalCo2 / residualGen / 1000) : null;
+            const resEf = computeResidualEf(aggRow) ??
+                          (residualGen > 0 ? (rows.reduce((s, r) => s + (parseNum(r.total_co2) || 0), 0) / residualGen / 1000) : null);
 
             const pieLabelOpt = { show: false };
             const pieEmphasis = { label: { show: true, fontSize: 12, fontWeight: "bold", formatter: "{b}\n{d}%", overflow: "break" } };
