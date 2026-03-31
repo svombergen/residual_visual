@@ -143,7 +143,7 @@ function initMap() {
       }
 
       prepareGeojsonProperties(worldGeojsonOriginal);
-      filterFranceOverseas(worldGeojsonOriginal);
+      filterOverseasTerritories(worldGeojsonOriginal);
 
       mapInstance.addSource("countries", {
         type: "geojson",
@@ -250,15 +250,56 @@ function prepareGeojsonProperties(geojson) {
   });
 }
 
-// Remove overseas territories from France's MultiPolygon (keep only metropolitan France + Corsica)
-function filterFranceOverseas(geojson) {
+// Remove overseas territories and add French Guiana back as its own feature
+function filterOverseasTerritories(geojson) {
+  const gufPolygons = [];
+
   geojson.features.forEach(f => {
-    if (f.id !== "FRA" || f.geometry?.type !== "MultiPolygon") return;
-    f.geometry.coordinates = f.geometry.coordinates.filter(polygon => {
-      const ring = polygon[0];
-      return ring.some(([lon, lat]) => lon >= -10 && lon <= 15 && lat >= 40 && lat <= 55);
-    });
+    if (!f.geometry) return;
+    const id = f.id;
+    const geom = f.geometry;
+
+    if (id === "FRA" && geom.type === "MultiPolygon") {
+      const european = [];
+      geom.coordinates.forEach(polygon => {
+        const ring = polygon[0];
+        // GUF bounds: lon -54.6..-51.6, lat 2.1..5.7 (only in high-res; low-res has it separate)
+        if (ring.some(([lon, lat]) => lon < -50 && lon > -56 && lat > 0 && lat < 8)) {
+          gufPolygons.push(polygon);
+        } else if (ring.some(([lon, lat]) => lon >= -10 && lon <= 15 && lat >= 40 && lat <= 55)) {
+          // Metropolitan France + Corsica
+          european.push(polygon);
+        }
+        // other overseas territories are dropped
+      });
+      geom.coordinates = european;
+    } else if (id === "NOR" && geom.type === "MultiPolygon") {
+      // Remove Svalbard (entirely above lat 74)
+      geom.coordinates = geom.coordinates.filter(polygon =>
+        polygon[0].some(([, lat]) => lat < 74)
+      );
+    } else if (id === "PRT" && geom.type === "MultiPolygon") {
+      // Remove Azores and Madeira (lon < -12; mainland Portugal is lon -9.4..-6.2)
+      geom.coordinates = geom.coordinates.filter(polygon =>
+        polygon[0].some(([lon]) => lon > -12)
+      );
+    } else if (id === "ESP" && geom.type === "MultiPolygon") {
+      // Remove Canary Islands and other Atlantic territories (lon < -12)
+      geom.coordinates = geom.coordinates.filter(polygon =>
+        polygon[0].some(([lon]) => lon > -12)
+      );
+    }
   });
+
+  // In high-res, GUF is embedded inside FRA — re-add it as its own feature
+  if (gufPolygons.length > 0) {
+    geojson.features.push({
+      type: "Feature",
+      id: "GUF",
+      properties: { id: "GUF", display_name: "French Guiana", name: "French Guiana" },
+      geometry: { type: "MultiPolygon", coordinates: gufPolygons }
+    });
+  }
 }
 
 async function upgradeToHighRes() {
@@ -266,7 +307,7 @@ async function upgradeToHighRes() {
     const res = await fetch(URL_WORLD_GEO_HIGH);
     const highRes = await res.json();
     prepareGeojsonProperties(highRes);
-    filterFranceOverseas(highRes);
+    filterOverseasTerritories(highRes);
     worldGeojsonOriginal = highRes;
     updateMapColors();
     updateRowsCountLabel();
@@ -312,6 +353,21 @@ function updateMapColors() {
 
     const vals = {};
     for (const key of KPI_KEYS) vals[key] = parseKpiValue(row, key);
+    // Override perc_residual: use residualmix_gco2kwh (AIB) or fall back to computed EF
+    {
+      const rmCo2 = parseKpiValue(row, "residualmix_gco2kwh");
+      if (rmCo2 != null) {
+        vals.perc_residual = Math.min(100, (rmCo2 / RESIDUAL_CO2_MAX) * 100);
+      } else {
+        const tc  = parseKpiValue(row, "total_co2");
+        const tg  = parseKpiValue(row, "total_generation");
+        const tce = parseKpiValue(row, "total_certified");
+        const rg  = (tg != null && tce != null) ? tg - tce : null;
+        vals.perc_residual = (tc != null && rg != null && rg > 0)
+          ? Math.min(100, (tc / rg / RESIDUAL_CO2_MAX) * 100)
+          : null;
+      }
+    }
     vals.total_certified = parseKpiValue(row, "total_certified");
     vals.methodology = (row.methodology || "").trim();
     kpisByCode.set(code, vals);
@@ -375,7 +431,7 @@ function updateMapColors() {
   switchKpiPaint();
 }
 
-// Inverted color stops for residual mix (low residual = dark/good, high residual = light/bad)
+// Inverted color stops for residual mix (low CO2 = dark/good, high CO2 = light/bad)
 const KPI_COLOR_STOPS_INVERTED = [
   { v: 0,   c: "#034896" },
   { v: 33,  c: "#0579fa" },
@@ -383,13 +439,24 @@ const KPI_COLOR_STOPS_INVERTED = [
   { v: 100, c: "#9bc9fd" }
 ];
 
+// Scale for residual mix CO2: values are gCO2/kWh, 800 maps to 100 on the color scale
+const RESIDUAL_CO2_MAX = 800;
+
 // Swap the paint expression to read a different pre-baked property — no setData() needed
 function switchKpiPaint() {
   if (!mapInstance) return;
   const kpiKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
   const prop = "kpi_" + kpiKey;
 
-  const kpiColorExpr = [
+  const isResidual = kpiKey === "perc_residual";
+  const kpiColorExpr = isResidual ? [
+    "case",
+    ["!=", ["get", prop], null],
+    ["interpolate", ["linear"], ["get", prop],
+      0, "#034896", 33, "#0579fa", 66, "#69aefc", 100, "#9bc9fd"
+    ],
+    "#e0e0e0"
+  ] : [
     "interpolate", ["linear"], ["coalesce", ["get", prop], 0],
       0, "#9bc9fd", 33, "#69aefc", 66, "#0579fa", 100, "#034896"
   ];
@@ -443,10 +510,8 @@ function setupKpiOverlaySwitch() {
 
   sel.addEventListener("change", () => {
     const key = sel.value;
-    // update global KPI key (keeps stops the same)
-    window.CountryUI?.setColorKpi?.({ key, stops: KPI_COLOR_STOPS });
-
-    // swap paint expression only — no GeoJSON rebuild needed
+    const stops = key === "perc_residual" ? KPI_COLOR_STOPS_INVERTED : KPI_COLOR_STOPS;
+    window.CountryUI?.setColorKpi?.({ key, stops });
     switchKpiPaint();
   });
 }

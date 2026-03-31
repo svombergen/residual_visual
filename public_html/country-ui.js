@@ -7,6 +7,9 @@
   // -----------------------------
   // Configurable KPI for coloring
   // -----------------------------
+  // Must match RESIDUAL_CO2_MAX in view-map.js
+  const RESIDUAL_CO2_MAX = 800;
+
   let COLOR_KPI = {
     key: "perc_tracked_total",
     // thresholds in %, inclusive ranges; we use interpolation between stops
@@ -258,11 +261,24 @@
     };
   }
 
+  function residualGco2kwh(agg) {
+    const rmCo2 = parseNum(agg?.residualmix_gco2kwh);
+    if (rmCo2 != null) return rmCo2;
+    const tc  = parseNum(agg?.total_co2);
+    const tg  = parseNum(agg?.total_generation);
+    const tce = parseNum(agg?.total_certified);
+    const rg  = (tg != null && tce != null) ? tg - tce : null;
+    return (tc != null && rg != null && rg > 0) ? tc / rg : null; // ktCO2/TWh = gCO2/kWh
+  }
+
   function getKpiValue(code) {
     const { agg } = getAggRow(code);
+    if (COLOR_KPI.key === "perc_residual") {
+      const gco2 = residualGco2kwh(agg);
+      return gco2 != null ? Math.min(100, (gco2 / RESIDUAL_CO2_MAX) * 100) : null;
+    }
     const v = agg?.[COLOR_KPI.key];
     const n = parseNum(v);
-    // KPI like perc_tracked_renewables is already % numeric (or string) in your aggregated output
     return n == null ? null : n;
   }
 
@@ -535,6 +551,10 @@
         // Color dot should reflect *current* map-color KPI key, but KPIs stay in fixed positions
         const kpiVal = (() => {
         const key = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
+        if (key === "perc_residual") {
+            const gco2 = residualGco2kwh(aggRow);
+            return gco2 != null ? Math.min(100, (gco2 / RESIDUAL_CO2_MAX) * 100) : null;
+        }
         const v = aggRow?.[key];
         const n = v === "" || v == null ? null : (Number(String(v).replace(",", ".")) || 0);
         return n;
