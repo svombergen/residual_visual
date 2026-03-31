@@ -246,7 +246,18 @@
     if (totalCo2 == null || totalGen == null || totalCert == null) return null;
     const residualGen = totalGen - totalCert;
     if (residualGen <= 0) return null;
-    return totalCo2 / residualGen / 1000; // kg → tCO₂/MWh
+    return totalCo2 / residualGen / 1000;
+  }
+
+  function computeGenerationEf(agg) {
+    const genGco2 = parseNum(agg?.generation_gco2kwh);
+    if (genGco2 != null) return genGco2 / 1000; // gCO2/kWh → tCO2/MWh
+
+    // Fallback: total CO2 / total generation
+    const totalCo2 = parseNum(agg?.total_co2);
+    const totalGen = parseNum(agg?.total_generation);
+    if (totalCo2 == null || totalGen == null || totalGen <= 0) return null;
+    return totalCo2 / totalGen / 1000;
   }
 
   function getKpis(code) {
@@ -256,8 +267,8 @@
         country: agg?.country || code,
         perc_tracked_total: agg?.perc_tracked_total ?? null,
         perc_tracked_renewables: agg?.perc_tracked_renewables ?? null,
+        generation_ef: computeGenerationEf(agg),
         residual_ef: computeResidualEf(agg),
-        total_generation: agg?.total_generation ?? null
     };
   }
 
@@ -291,8 +302,8 @@
     const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
     const pctTrackedElec = fmtPct(k.perc_tracked_total);
     const pctRenew       = fmtPct(k.perc_tracked_renewables);
+    const generationEf   = formatNum(k.generation_ef, 4);
     const residualEf     = formatNum(k.residual_ef, 4);
-    const totalGen       = formatNum(k.total_generation, 2);
 
     const dot = (key) =>
         key === colorKey
@@ -321,16 +332,16 @@
             </div>
 
             <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
-            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Residual Mix</div>
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Generation Mix</div>
             <div style="font-size:15px; font-weight:800; color:#011832;">
-                ${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}
+                ${generationEf}${generationEf !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}
             </div>
             </div>
 
             <div style="border:1px solid #CDE4FE; border-radius:10px; padding:8px; background:#f8faff;">
-            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Total Generation</div>
+            <div style="font-size:11px; color:#034EA2; margin-bottom:4px;">Residual Mix</div>
             <div style="font-size:15px; font-weight:800; color:#011832;">
-                ${totalGen}${totalGen !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">TWh</span>' : ""}
+                ${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:10px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}
             </div>
             </div>
         </div>
@@ -495,8 +506,8 @@
         year,
         perc_tracked_total: aggRow?.perc_tracked_total ?? null,
         perc_tracked_renewables: aggRow?.perc_tracked_renewables ?? null,
+        generation_ef: computeGenerationEf(aggRow),
         residual_ef: computeResidualEf(aggRow),
-        total_generation: aggRow?.total_generation ?? null
         };
 
         // Details for this year
@@ -572,8 +583,8 @@
         const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
         const pctTrackedElec = fmtPct(k.perc_tracked_total);
         const pctRenew = fmtPct(k.perc_tracked_renewables);
+        const generationEf = formatNum(k.generation_ef, 4);
         const residualEf = formatNum(k.residual_ef, 4);
-        const totalGen = formatNum(k.total_generation, 2);
 
         // Compute totals for numeric columns
         const totals = {};
@@ -704,13 +715,13 @@
             </div>
 
             <div class="kpi-card">
-            <div class="kpi-label">Residual Mix</div>
-            <div class="kpi-value">${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}</div>
+            <div class="kpi-label">Generation Mix</div>
+            <div class="kpi-value">${generationEf}${generationEf !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}</div>
             </div>
 
             <div class="kpi-card">
-            <div class="kpi-label">Total Generation</div>
-            <div class="kpi-value">${totalGen}${totalGen !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">TWh</span>' : ""}</div>
+            <div class="kpi-label">Residual Mix</div>
+            <div class="kpi-value">${dot("perc_residual")}${residualEf}${residualEf !== "n/a" ? ' <span style="font-size:11px;font-weight:400;color:#034EA2;">tCO₂/MWh</span>' : ""}</div>
             </div>
         </div>
 

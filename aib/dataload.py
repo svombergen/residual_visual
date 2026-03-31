@@ -729,7 +729,7 @@ DETAIL_COLS = [
     "issuance_irec", "issuance_tigrs", "issuance_ecogox", "issuance_lgc",
     "issuance_go", "issuance_go_expire", "issuance_go_cancel",
     "issuance_ext", "issuance_total", "certified_mix",
-    "total_generation", "residual_mix", "total_co2", "emission_factor",
+    "total_generation", "residual_mix", "total_co2", "emission_factor", "generation_gco2kwh",
     "sources", "methodology", "issuance",
 ]
 
@@ -843,6 +843,13 @@ def main():
 
     # emission_factor = total_co2 / total_generation (gCO2/kWh)
     df["emission_factor"] = df["total_co2"] / df["total_generation"].replace(0, pd.NA)
+
+    # generation_gco2kwh at detail level:
+    #   AIB-covered rows: already set from Production Mix country-level CO2
+    #   EMBERS-only rows: derive from emission_factor (per-source EMBERS CO2 / generation)
+    if "generation_gco2kwh" not in df.columns:
+        df["generation_gco2kwh"] = pd.NA
+    df["generation_gco2kwh"] = df["generation_gco2kwh"].fillna(df["emission_factor"])
 
     # class (RES/Fossil/Nuclear)
     df["class"] = df["energy_source"].map(ENERGY_CLASS).fillna("")
