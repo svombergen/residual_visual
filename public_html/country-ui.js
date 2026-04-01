@@ -835,7 +835,7 @@
                 legend: { bottom: 0, textStyle: { fontSize: 11 } },
                 title: [
                     { text: "Generation Mix", left: "16%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
-                    { text: "Tracked %", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
+                    { text: "Tracked Generation", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
                     { text: "Residual Mix", left: "83%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
                     // Values below pies
                     { text: genEf != null ? `${formatNum(genEf, 4)} tCO₂/MWh` : "", left: "16%", top: "70%", textAlign: "center",
