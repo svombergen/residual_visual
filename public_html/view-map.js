@@ -431,12 +431,12 @@ function updateMapColors() {
   switchKpiPaint();
 }
 
-// Inverted color stops for residual mix (low CO2 = dark/good, high CO2 = light/bad)
+// Color stops for residual mix (low CO2 = light, high CO2 = dark)
 const KPI_COLOR_STOPS_INVERTED = [
-  { v: 0,   c: "#034896" },
-  { v: 33,  c: "#0579fa" },
-  { v: 66,  c: "#69aefc" },
-  { v: 100, c: "#9bc9fd" }
+  { v: 0,   c: "#9bc9fd" },
+  { v: 33,  c: "#69aefc" },
+  { v: 66,  c: "#0579fa" },
+  { v: 100, c: "#034896" }
 ];
 
 // Scale for residual mix CO2: values are gCO2/kWh, 800 maps to 100 on the color scale
@@ -453,7 +453,7 @@ function switchKpiPaint() {
     "case",
     ["!=", ["get", prop], null],
     ["interpolate", ["linear"], ["get", prop],
-      0, "#034896", 33, "#0579fa", 66, "#69aefc", 100, "#9bc9fd"
+      0, "#9bc9fd", 33, "#69aefc", 66, "#0579fa", 100, "#034896"
     ],
     "#e0e0e0"
   ] : [

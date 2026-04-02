@@ -608,13 +608,21 @@ def load_aib_production_mix(country_map):
 
 
 def load_aib_residual_mix(country_map):
-    """AIB Residual Mix - country/year-level CO2 intensity from 'Residual Mixes' sheet."""
+    """AIB Residual Mix - country/year agg values and per-source residual mix TWh.
+
+    Returns (agg_df, residual_detail_df):
+      agg_df            : country/year level (residualmix_gco2kwh, untracked_pct, supplier_mix_twh)
+      residual_detail_df: country/energy_source/year level (aib_residual_mix in TWh)
+                          computed as source_fraction * untracked_fraction * supplier_mix_twh
+    """
     rm_dir = RAW / "AIB" / "ProdRM"
     if not rm_dir.exists():
         print("  SKIP  AIB ProdRM - dir not found")
-        return pd.DataFrame()
+        return pd.DataFrame(), pd.DataFrame()
 
-    records = []
+    agg_records = []
+    src_records = []
+
     for xlsx in sorted(rm_dir.glob("*.xlsx")):
         digits = "".join(c for c in xlsx.name if c.isdigit())
         if len(digits) < 4:
@@ -623,6 +631,7 @@ def load_aib_residual_mix(country_map):
 
         try:
             xl = pd.ExcelFile(xlsx)
+
             rm_sheet = next(
                 (n for n in xl.sheet_names if "residual mix" in n.lower() and "comparison" not in n.lower()),
                 None,
@@ -630,15 +639,41 @@ def load_aib_residual_mix(country_map):
             if not rm_sheet:
                 print(f"  WARN  No Residual Mixes sheet in {xlsx.name}")
                 continue
-            df = pd.read_excel(xlsx, sheet_name=rm_sheet, header=0)
+            # header=None so we can use iloc for indexed access (same as Production Mix loader)
+            rm_raw = pd.read_excel(xlsx, sheet_name=rm_sheet, header=None)
+
+            sm_sheet = next(
+                (n for n in xl.sheet_names if "total supplier mix" in n.lower()),
+                None,
+            )
+            sm_raw = pd.read_excel(xlsx, sheet_name=sm_sheet, header=None) if sm_sheet else None
+
         except Exception as e:
             print(f"  WARN  Could not read {xlsx.name}: {e}")
             continue
 
-        co2_col = next((c for c in df.columns if "CO2" in str(c)), None)
+        # Parse Residual Mixes column indices from header row
+        rm_headers = [str(h).strip().lower().rstrip() for h in rm_raw.iloc[0]]
+        co2_idx       = next((i for i, h in enumerate(rm_headers) if "co2" in h and "kwh" in h), None)
+        untracked_idx = next((i for i, h in enumerate(rm_headers) if "untracked" in h), None)
+        # Reuse PRODMIX_TECH mapping — same energy source names as Production Mix
+        src_col_map   = {i: PRODMIX_TECH[h] for i, h in enumerate(rm_headers) if h in PRODMIX_TECH}
 
-        for _, r in df.iterrows():
-            iso2 = str(r.iloc[0]).strip()
+        # Build iso2 -> supplier mix volume lookup
+        sm_volume: dict[str, float] = {}
+        if sm_raw is not None:
+            sm_headers = [str(h).strip().lower() for h in sm_raw.iloc[0]]
+            vol_idx = next((i for i, h in enumerate(sm_headers) if "volume" in h), None)
+            if vol_idx is not None:
+                for _, r in sm_raw.iloc[1:].iterrows():
+                    iso2 = str(r.iloc[0]).strip()
+                    if iso2 and iso2.lower() not in ("none", "nan", ""):
+                        vol = pd.to_numeric(r.iloc[vol_idx], errors="coerce")
+                        if not pd.isna(vol):
+                            sm_volume[iso2] = float(vol)
+
+        for _, row in rm_raw.iloc[1:].iterrows():
+            iso2 = str(row.iloc[0]).strip()
             if not iso2 or iso2.lower() in ("none", "nan", ""):
                 continue
 
@@ -646,19 +681,49 @@ def load_aib_residual_mix(country_map):
             raw_name = c_obj.name if c_obj else iso2
             country = map_country(raw_name, country_map)
 
-            co2 = pd.to_numeric(r.get(co2_col), errors="coerce") if co2_col else None
+            co2            = pd.to_numeric(row.iloc[co2_idx],       errors="coerce") if co2_idx       is not None else None
+            untracked_frac = pd.to_numeric(row.iloc[untracked_idx], errors="coerce") if untracked_idx is not None else None
+            untracked_pct  = float(untracked_frac) * 100 if untracked_frac is not None and not pd.isna(untracked_frac) else None
+            supplier_vol   = sm_volume.get(iso2)
 
-            records.append({
-                "country": country,
-                "year": year,
+            agg_records.append({
+                "country":             country,
+                "year":                year,
                 "residualmix_gco2kwh": co2,
+                "untracked_pct":       untracked_pct,
+                "supplier_mix_twh":    supplier_vol,
             })
 
-    agg = pd.DataFrame(records)
+            # Per-source residual mix TWh = source_fraction * untracked_fraction * supplier_volume
+            if untracked_frac is not None and not pd.isna(untracked_frac) and supplier_vol is not None:
+                residual_total = float(untracked_frac) * supplier_vol
+                if residual_total > 0:
+                    for col_idx, src in src_col_map.items():
+                        frac = pd.to_numeric(row.iloc[col_idx], errors="coerce")
+                        if pd.isna(frac) or frac <= 0:
+                            continue
+                        src_records.append({
+                            "country":        country,
+                            "energy_source":  src,
+                            "year":           year,
+                            "aib_residual_mix": float(frac) * residual_total,
+                        })
+
+    agg = pd.DataFrame(agg_records)
     if not agg.empty:
-        agg = agg.groupby(["country", "year"], as_index=False)["residualmix_gco2kwh"].first()
-    print(f"  OK    AIB ProdRM: {len(agg):,} rows (country/year level)")
-    return agg
+        agg = agg.groupby(["country", "year"], as_index=False).first()
+
+    residual_detail = pd.DataFrame(src_records)
+    if not residual_detail.empty:
+        residual_detail = (
+            residual_detail
+            .groupby(MERGE_KEYS, as_index=False)
+            .agg(aib_residual_mix=("aib_residual_mix", "sum"))
+        )
+
+    print(f"  OK    AIB ProdRM: {len(agg):,} rows (country/year level), "
+          f"{len(residual_detail):,} per-source residual rows")
+    return agg, residual_detail
 
 
 # ── Merge ────────────────────────────────────────────────────────────────────
@@ -738,7 +803,8 @@ AGG_COLS = [
     "country", "country_code", "year",
     "total_generation", "total_co2", "total_certified",
     "perc_tracked_total", "perc_residual", "perc_tracked_renewables", "perc_green",
-    "generation_gco2kwh", "residualmix_gco2kwh", "methodology",
+    "generation_gco2kwh", "residualmix_gco2kwh",
+    "untracked_pct", "supplier_mix_twh", "methodology",
 ]
 
 OUTPUT_DETAIL = BASE / "01_detail.csv"
@@ -752,7 +818,7 @@ def main():
 
     print("Loading & aggregating sources...")
     embers_gen, embers_co2 = load_embers(tech_map, country_map)
-    aib_rm = load_aib_residual_mix(country_map)  # country/year level, separate from detail merge
+    aib_rm, aib_residual_detail = load_aib_residual_mix(country_map)
 
     # Detail-level sources (per country/energy_source/year)
     detail_frames = [
@@ -828,9 +894,21 @@ def main():
     # Rename generation -> total_generation
     df["total_generation"] = df["generation"]
 
-    # residual_mix = total_generation - certified_mix
+    # residual_mix = total_generation - certified_mix (default)
     df["residual_mix"] = df["total_generation"] - df["certified_mix"].fillna(0)
     df.loc[df["residual_mix"] < 0, "residual_mix"] = 0
+
+    # For AIB-covered rows: override residual_mix with AIB Residual Mixes per-source TWh
+    # (source_fraction * untracked_fraction * supplier_mix_twh)
+    # Use outer merge so energy sources present only in the residual mix data get their own row.
+    if not aib_residual_detail.empty:
+        df = df.merge(
+            aib_residual_detail.rename(columns={"aib_residual_mix": "_aib_rm"}),
+            on=MERGE_KEYS, how="outer",
+        )
+        has_aib_rm = df["_aib_rm"].notna()
+        df.loc[has_aib_rm, "residual_mix"] = df.loc[has_aib_rm, "_aib_rm"]
+        df.drop(columns=["_aib_rm"], inplace=True)
 
     # total_co2: EMBERS mtCO2 -> scaled so emission_factor = total_co2 / gen gives gCO2/kWh
     df["total_co2"] = df["total_co2"] * 1000
@@ -896,7 +974,7 @@ def main():
     df["sources"] = df.apply(get_sources, axis=1)
 
     # Drop rows where there's no meaningful data
-    check_cols = ["issuance_total", "total_generation", "total_co2"]
+    check_cols = ["issuance_total", "total_generation", "total_co2", "residual_mix"]
     def row_has_data(row):
         return any(pd.notna(row.get(c)) and row.get(c) != 0 for c in check_cols if c in row.index)
     mask = df.apply(row_has_data, axis=1)
@@ -950,11 +1028,12 @@ def main():
     else:
         grp["generation_gco2kwh"] = pd.NA
 
-    # Merge AIB residual mix CO2 intensity (country/year level)
+    # Merge AIB residual mix CO2 intensity + untracked % + supplier mix volume (country/year level)
     if not aib_rm.empty:
         grp = grp.merge(aib_rm, on=["country", "year"], how="left")
     else:
-        grp["residualmix_gco2kwh"] = pd.NA
+        for _col in ("residualmix_gco2kwh", "untracked_pct", "supplier_mix_twh"):
+            grp[_col] = pd.NA
 
     # methodology: I-REC if country/year has Barnebies (issuance_irec) data, else GO
     has_irec = df.groupby(["country", "year"])["issuance_irec"].apply(

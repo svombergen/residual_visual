@@ -299,7 +299,7 @@
   function buildPopupHtml(k, kpiColor, code, isPartialData) {
     const colorKey = window.CountryUI?.getColorKpiConfig?.().key || "perc_tracked_total";
 
-    const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
+    const fmtPct = (v) => { const s = formatNum(v != null ? Math.min(100, v) : v, 2); return s === "n/a" ? s : s + "%"; };
     const pctTrackedElec = fmtPct(k.perc_tracked_total);
     const pctRenew       = fmtPct(k.perc_tracked_renewables);
     const generationEf   = formatNum(k.generation_ef, 4);
@@ -580,7 +580,10 @@
             ? `<span style="display:inline-block; width:10px; height:10px; border-radius:999px; background:${kpiColor}; margin-right:8px; vertical-align:middle;"></span>`
             : "";
 
-        const fmtPct = (v) => { const s = formatNum(v, 2); return s === "n/a" ? s : s + "%"; };
+        const DISCLAIMER = "Generation data may be lower than issuance data due to the inclusion of behind-the-meter issuance, which is not reflected in generation totals.";
+        const infoIcon = (show) => !show ? "" : `<span style="position:relative;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;border-radius:50%;background:#034EA2;color:#fff;font-size:9px;font-weight:700;line-height:1;font-family:sans-serif;font-style:normal;vertical-align:middle;margin-left:3px;cursor:help;" onmouseenter="this.querySelector('.disc-tip').style.visibility='visible'" onmouseleave="this.querySelector('.disc-tip').style.visibility='hidden'">i<span class="disc-tip" style="visibility:hidden;position:absolute;top:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#011832;color:#fff;padding:8px 10px;border-radius:6px;font-size:11px;font-weight:400;line-height:1.5;width:240px;z-index:9999;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,0.25);white-space:normal;">${DISCLAIMER}</span></span>`;
+
+        const fmtPct = (v) => { const s = formatNum(v != null ? Math.min(100, v) : v, 2); return s === "n/a" ? s : s + "%"; };
         const pctTrackedElec = fmtPct(k.perc_tracked_total);
         const pctRenew = fmtPct(k.perc_tracked_renewables);
         const generationEf = formatNum(k.generation_ef, 4);
@@ -616,6 +619,12 @@
                 return (an - bn) * sortDir;
             }
             return String(av ?? "").localeCompare(String(bv ?? "")) * sortDir;
+            });
+        } else {
+            rows.sort((a, b) => {
+            const ai = SOURCE_ORDER.indexOf(a.energy_source);
+            const bi = SOURCE_ORDER.indexOf(b.energy_source);
+            return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
             });
         }
 
@@ -705,12 +714,12 @@
         ${isPartialData ? '<div style="margin-bottom:12px;padding:8px 12px;background:#f3e8fa;border-radius:8px;color:#5E2390;font-size:12px;font-weight:600;border:1px solid #d4b8e8;">Some data is missing in our dataset</div>' : ''}
         <div class="kpi-grid" style="grid-template-columns: 1fr 1fr 1fr 1fr;">
             <div class="kpi-card">
-            <div class="kpi-label">Tracked Generation</div>
+            <div class="kpi-label">Tracked Generation${infoIcon(parseNum(aggRow?.perc_tracked_total) > 100)}</div>
             <div class="kpi-value">${dot("perc_tracked_total")}${pctTrackedElec}</div>
             </div>
 
             <div class="kpi-card">
-            <div class="kpi-label">Tracked Renewables</div>
+            <div class="kpi-label">Tracked Renewables${infoIcon(parseNum(aggRow?.perc_tracked_renewables) > 100)}</div>
             <div class="kpi-value">${dot("perc_tracked_renewables")}${pctRenew}</div>
             </div>
 

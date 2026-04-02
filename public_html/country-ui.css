@@ -21,7 +21,7 @@
 /* ---------- Modal ---------- */
 .kpi-modal{
   width: min(980px, calc(100vw - 32px));
-  max-height: min(80vh, 820px);
+  max-height: min(92vh, 920px);
 
   background: #fff;
   border-radius: 12px;
