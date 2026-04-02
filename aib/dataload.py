@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-dataload.py - Merge raw data sources into 01_IssuanceProductionRaw.csv
+dataload.py - Merge raw data sources into per-source and aggregated CSVs.
 
 Each source is aggregated to (country, energy_source, year) then outer-merged
 into a single dataset with one row per unique combination.
@@ -23,6 +23,7 @@ import sys
 from pathlib import Path
 from functools import reduce
 
+import numpy as np
 import pandas as pd
 import pycountry
 
@@ -31,7 +32,6 @@ import pycountry
 BASE = Path(__file__).resolve().parent
 INPUT = BASE / "input"
 RAW = INPUT / "RAW"
-OUTPUT = BASE / "01_IssuanceProductionRaw.csv"
 
 MERGE_KEYS = ["country", "energy_source", "year"]
 MWH_TO_TWH = 1_000_000
@@ -74,24 +74,18 @@ def to_iso3(name):
     if key in _iso3_cache:
         return _iso3_cache[key]
 
-    # Check direct overrides first
     result = _ISO3_OVERRIDES.get(key, "")
-
-    # Already an alpha-3?
     if not result and len(key) == 3 and key.isalpha():
         c = pycountry.countries.get(alpha_3=key.upper())
         if c:
             result = c.alpha_3
-    # Try alpha-2
     if not result and len(key) == 2 and key.isalpha():
         c = pycountry.countries.get(alpha_2=key.upper())
         if c:
             result = c.alpha_3
-    # Try name lookup
     if not result:
         try:
-            c = pycountry.countries.lookup(key)
-            result = c.alpha_3
+            result = pycountry.countries.lookup(key).alpha_3
         except LookupError:
             pass
 
@@ -99,9 +93,7 @@ def to_iso3(name):
     return result
 
 
-# ── Mappings ─────────────────────────────────────────────────────────────────
-
-# Source-specific technology maps (fallbacks when Mappings.xlsx doesn't cover)
+# ── Technology maps ───────────────────────────────────────────────────────────
 
 TIGRS_TECH = {
     "solar photovoltaics": "Solar",
@@ -154,6 +146,13 @@ EMBERS_TECH = {
     "other renewables excluding bioenergy": "Other (R)",
 }
 
+# CO2 sheet uses a slightly different variable set than the generation sheet
+EMBERS_CO2_TECH = {
+    "coal": "Coal", "gas": "Gas", "hydro": "Hydro", "solar": "Solar",
+    "wind": "Wind", "bioenergy": "Bio", "nuclear": "Nuclear",
+    "other fossil": "Other (F)", "other renewables": "Other (R)",
+}
+
 OMAN_TECH = {
     "diesel": "Oil",
     "gas": "Gas",
@@ -171,6 +170,23 @@ ECOGOX_TECH = {
     "biogas": "Bio",
 }
 
+PRODMIX_TECH = {
+    "re unspecified": "Other (R)",
+    "re biomass":     "Bio",
+    "re solar":       "Solar",
+    "re geothermal":  "Other (R)",
+    "re wind":        "Wind",
+    "re hydro":       "Hydro",
+    "nuclear":        "Nuclear",
+    "fo unspecified": "Other (F)",
+    "fo hard coal":   "Coal",
+    "fo lignite":     "Coal",
+    "fo oil":         "Oil",
+    "fo gas":         "Gas",
+}
+
+
+# ── Mappings ──────────────────────────────────────────────────────────────────
 
 def load_xlsx_mappings():
     """Load Mappings.xlsx for technology + country name standardisation."""
@@ -198,15 +214,16 @@ def load_xlsx_mappings():
     return tech_map, country_map
 
 
-def map_tech(raw, source_map, xlsx_map):
+def map_tech(raw, source_map=None, xlsx_map=None):
     """Try source-specific map, then Mappings.xlsx, then return as-is."""
     if not raw:
         return raw
     key = str(raw).strip().lower()
-    return source_map.get(key) or xlsx_map.get(key) or str(raw).strip()
+    return (source_map or {}).get(key) or (xlsx_map or {}).get(key) or str(raw).strip()
 
 
-# Hardcoded country name overrides (raw source names -> dashboard names)
+# ── Country name normalisation ────────────────────────────────────────────────
+
 COUNTRY_NAME_OVERRIDES = {
     # pycountry / EMBERS variants
     "taiwan, province of china": "Taiwan",
@@ -261,13 +278,18 @@ def map_country(raw, xlsx_map):
     if not raw:
         return raw
     key = str(raw).strip().lower()
-    # Check hardcoded overrides first
     if key in COUNTRY_NAME_OVERRIDES:
         return COUNTRY_NAME_OVERRIDES[key]
     return xlsx_map.get(key, str(raw).strip())
 
 
-# ── Source loaders ───────────────────────────────────────────────────────────
+def _iso2_to_country(iso2: str, country_map: dict) -> str:
+    """Resolve an ISO 3166-1 alpha-2 code to a standardised country name."""
+    c_obj = pycountry.countries.get(alpha_2=iso2)
+    return map_country(c_obj.name if c_obj else iso2, country_map)
+
+
+# ── Source loaders ────────────────────────────────────────────────────────────
 # Each returns a DataFrame with columns: country, energy_source, year, + value cols
 # Already aggregated to (country, energy_source, year).
 
@@ -286,7 +308,7 @@ def load_barnebies(tech_map, country_map):
         "Volume Issued": "issuance_irec",
     })
     df["country"] = df["country"].apply(lambda c: map_country(c, country_map))
-    df["energy_source"] = df["energy_source"].apply(lambda t: map_tech(t, {}, tech_map))
+    df["energy_source"] = df["energy_source"].apply(lambda t: map_tech(t, xlsx_map=tech_map))
     df["issuance_irec"] = pd.to_numeric(df["issuance_irec"], errors="coerce").fillna(0) / MWH_TO_TWH
     df["year"] = pd.to_numeric(df["year"], errors="coerce")
     df = df.dropna(subset=["country", "year"])
@@ -304,9 +326,7 @@ def load_tigrs(tech_map, country_map):
         print("  SKIP  TIGRS - dir not found")
         return pd.DataFrame()
 
-    frames = []
-    for csv_path in sorted(tigrs_dir.glob("TIGRS *.csv")):
-        frames.append(pd.read_csv(csv_path))
+    frames = [pd.read_csv(p) for p in sorted(tigrs_dir.glob("TIGRS *.csv"))]
     if not frames:
         return pd.DataFrame()
 
@@ -336,7 +356,6 @@ def load_ecogox(tech_map, country_map):
     df["country"] = "Colombia"
     df["energy_source"] = df["type"].apply(lambda t: map_tech(t, ECOGOX_TECH, tech_map))
     df["issuance_ecogox"] = pd.to_numeric(df["total_GOs"], errors="coerce").fillna(0) / (MWH_TO_TWH * 1_000)  # kWh → TWh
-    df = df.rename(columns={"year": "year"})
 
     agg = df.groupby(MERGE_KEYS, as_index=False)["issuance_ecogox"].sum()
     print(f"  OK    Ecogox: {len(agg):,} rows")
@@ -352,10 +371,9 @@ def load_australia(tech_map, country_map):
 
     df = pd.read_csv(path)
     df["country"] = df["Country"].apply(lambda c: map_country(c, country_map))
-    df["energy_source"] = df["Technology"].apply(lambda t: map_tech(t, {}, tech_map))
+    df["energy_source"] = df["Technology"].apply(lambda t: map_tech(t, xlsx_map=tech_map))
     df["issuance_lgc"] = pd.to_numeric(df["Issuance_EXT"], errors="coerce").fillna(0)
-    df = df.rename(columns={"Year": "year"})
-    df["year"] = pd.to_numeric(df["year"], errors="coerce")
+    df["year"] = pd.to_numeric(df["Year"], errors="coerce")
     df = df.dropna(subset=["country", "year"])
     df["year"] = df["year"].astype(int)
 
@@ -391,11 +409,8 @@ def load_aib_issue(tech_map, country_map):
     df["energy_source"] = df["energy_source_level2"].apply(
         lambda t: AIB_TECH.get(str(t).strip().lower(), str(t).strip()) if pd.notna(t) else ""
     )
-
     for col in ("production_date_issue", "production_date_expire", "production_date_cancel"):
         df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
-
-    df = df.rename(columns={"year": "year"})
     df = df.dropna(subset=["country", "year"])
 
     agg = (
@@ -428,35 +443,25 @@ def load_embers(tech_map, country_map):
     df = pd.read_csv(path, low_memory=False)
     country_mask = df["Area type"] == "Country or economy"
 
-    # --- Generation (TWh) ---
-    gen_mask = country_mask & (df["Category"] == "Electricity generation") & (df["Subcategory"] == "Fuel") & (df["Unit"] == "TWh")
-    gen = df.loc[gen_mask].copy()
+    # Generation (TWh)
+    gen = df.loc[country_mask & (df["Category"] == "Electricity generation") & (df["Subcategory"] == "Fuel") & (df["Unit"] == "TWh")].copy()
     gen["country"] = gen["Area"].apply(lambda a: map_country(a, country_map))
     gen["energy_source"] = gen["Variable"].apply(
         lambda v: EMBERS_TECH.get(str(v).strip().lower(), str(v).strip()) if pd.notna(v) else ""
     )
     gen["generation"] = pd.to_numeric(gen["Value"], errors="coerce")
-    gen = gen.rename(columns={"Year": "year"})
-    gen = gen.dropna(subset=["country", "year", "generation"])
+    gen = gen.rename(columns={"Year": "year"}).dropna(subset=["country", "year", "generation"])
     gen["year"] = gen["year"].astype(int)
     agg_gen = gen.groupby(MERGE_KEYS, as_index=False)["generation"].sum()
 
-    # --- CO2 emissions per fuel (mtCO2) ---
-    co2_mask = country_mask & (df["Category"] == "Power sector emissions") & (df["Subcategory"] == "Fuel") & (df["Unit"] == "mtCO2")
-    co2 = df.loc[co2_mask].copy()
-
-    EMBERS_CO2_TECH = {
-        "coal": "Coal", "gas": "Gas", "hydro": "Hydro", "solar": "Solar",
-        "wind": "Wind", "bioenergy": "Bio", "nuclear": "Nuclear",
-        "other fossil": "Other (F)", "other renewables": "Other (R)",
-    }
+    # CO2 emissions per fuel (mtCO2)
+    co2 = df.loc[country_mask & (df["Category"] == "Power sector emissions") & (df["Subcategory"] == "Fuel") & (df["Unit"] == "mtCO2")].copy()
     co2["country"] = co2["Area"].apply(lambda a: map_country(a, country_map))
     co2["energy_source"] = co2["Variable"].apply(
         lambda v: EMBERS_CO2_TECH.get(str(v).strip().lower(), str(v).strip()) if pd.notna(v) else ""
     )
     co2["total_co2"] = pd.to_numeric(co2["Value"], errors="coerce")
-    co2 = co2.rename(columns={"Year": "year"})
-    co2 = co2.dropna(subset=["country", "year", "total_co2"])
+    co2 = co2.rename(columns={"Year": "year"}).dropna(subset=["country", "year", "total_co2"])
     co2["year"] = co2["year"].astype(int)
     agg_co2 = co2.groupby(MERGE_KEYS, as_index=False)["total_co2"].sum()
 
@@ -472,11 +477,8 @@ def load_oman():
         return pd.DataFrame()
 
     df = pd.read_excel(path, sheet_name="Electricity production")
-
     prod_col = df.columns[1]
-    mask = df[prod_col].astype(str).str.strip() == "Total production"
-    df = df.loc[mask]
-
+    df = df.loc[df[prod_col].astype(str).str.strip() == "Total production"]
     year_cols = [c for c in df.columns[2:] if isinstance(c, (int, float))]
 
     records = []
@@ -485,34 +487,16 @@ def load_oman():
         if source.lower() == "total":
             continue
         tech = OMAN_TECH.get(source.lower(), source)
-
         for yc in year_cols:
             val = pd.to_numeric(r[yc], errors="coerce")
-            if pd.isna(val):
-                continue
-            records.append({"country": "Oman", "energy_source": tech, "year": int(yc), "generation": val})
+            if pd.notna(val):
+                records.append({"country": "Oman", "energy_source": tech, "year": int(yc), "generation": val})
 
     agg = pd.DataFrame(records)
     if not agg.empty:
         agg = agg.groupby(MERGE_KEYS, as_index=False)["generation"].sum()
     print(f"  OK    Oman: {len(agg):,} rows")
     return agg
-
-
-PRODMIX_TECH = {
-    "re unspecified": "Other (R)",
-    "re biomass":     "Bio",
-    "re solar":       "Solar",
-    "re geothermal":  "Other (R)",
-    "re wind":        "Wind",
-    "re hydro":       "Hydro",
-    "nuclear":        "Nuclear",
-    "fo unspecified": "Other (F)",
-    "fo hard coal":   "Coal",
-    "fo lignite":     "Coal",
-    "fo oil":         "Oil",
-    "fo gas":         "Gas",
-}
 
 
 def load_aib_production_mix(country_map):
@@ -548,38 +532,24 @@ def load_aib_production_mix(country_map):
 
         # Row 0 = headers, rows 1+ = country data
         headers = [str(h).strip().lower().rstrip() for h in df.iloc[0]]
-
         vol_idx = next(
-            (i for i, h in enumerate(headers) if "volume" in h and "twh" in h.replace(" ", "").lower()),
-            None,
+            (i for i, h in enumerate(headers) if "volume" in h and "twh" in h.replace(" ", "").lower()), None
         )
         if vol_idx is None:
             print(f"  WARN  No Volume column in production mix sheet of {xlsx.name}")
             continue
-
-        co2_idx = next(
-            (i for i, h in enumerate(headers) if "co2" in h and "kwh" in h),
-            None,
-        )
-
-        # col index -> standard energy_source
+        co2_idx  = next((i for i, h in enumerate(headers) if "co2" in h and "kwh" in h), None)
         src_cols = {i: PRODMIX_TECH[h] for i, h in enumerate(headers) if h in PRODMIX_TECH}
 
         for _, row in df.iloc[1:].iterrows():
             iso2 = str(row.iloc[0]).strip()
             if not iso2 or iso2.lower() in ("none", "nan", ""):
                 continue
-
-            c_obj = pycountry.countries.get(alpha_2=iso2)
-            raw_name = c_obj.name if c_obj else iso2
-            country = map_country(raw_name, country_map)
-
             volume = pd.to_numeric(row.iloc[vol_idx], errors="coerce")
             if pd.isna(volume) or volume <= 0:
                 continue
-
+            country = _iso2_to_country(iso2, country_map)
             co2_intensity = pd.to_numeric(row.iloc[co2_idx], errors="coerce") if co2_idx is not None else None
-
             for col_idx, src in src_cols.items():
                 pct = pd.to_numeric(row.iloc[col_idx], errors="coerce")
                 if pd.isna(pct) or pct <= 0:
@@ -596,7 +566,7 @@ def load_aib_production_mix(country_map):
         print("  SKIP  AIB ProdRM generation - no data found")
         return pd.DataFrame()
 
-    # Group: sum generation per source, take first CO2 intensity (same for all sources in a country/year)
+    # Sum generation per source; CO2 intensity is country/year-level so take first value
     agg = (
         pd.DataFrame(records)
         .groupby(MERGE_KEYS, as_index=False)
@@ -631,10 +601,8 @@ def load_aib_residual_mix(country_map):
 
         try:
             xl = pd.ExcelFile(xlsx)
-
             rm_sheet = next(
-                (n for n in xl.sheet_names if "residual mix" in n.lower() and "comparison" not in n.lower()),
-                None,
+                (n for n in xl.sheet_names if "residual mix" in n.lower() and "comparison" not in n.lower()), None
             )
             if not rm_sheet:
                 print(f"  WARN  No Residual Mixes sheet in {xlsx.name}")
@@ -642,24 +610,20 @@ def load_aib_residual_mix(country_map):
             # header=None so we can use iloc for indexed access (same as Production Mix loader)
             rm_raw = pd.read_excel(xlsx, sheet_name=rm_sheet, header=None)
 
-            sm_sheet = next(
-                (n for n in xl.sheet_names if "total supplier mix" in n.lower()),
-                None,
-            )
+            sm_sheet = next((n for n in xl.sheet_names if "total supplier mix" in n.lower()), None)
             sm_raw = pd.read_excel(xlsx, sheet_name=sm_sheet, header=None) if sm_sheet else None
-
         except Exception as e:
             print(f"  WARN  Could not read {xlsx.name}: {e}")
             continue
 
-        # Parse Residual Mixes column indices from header row
-        rm_headers = [str(h).strip().lower().rstrip() for h in rm_raw.iloc[0]]
+        # Parse column indices from header row
+        rm_headers  = [str(h).strip().lower().rstrip() for h in rm_raw.iloc[0]]
         co2_idx       = next((i for i, h in enumerate(rm_headers) if "co2" in h and "kwh" in h), None)
         untracked_idx = next((i for i, h in enumerate(rm_headers) if "untracked" in h), None)
-        # Reuse PRODMIX_TECH mapping — same energy source names as Production Mix
+        # Reuse PRODMIX_TECH mapping — same energy source column names as Production Mix
         src_col_map   = {i: PRODMIX_TECH[h] for i, h in enumerate(rm_headers) if h in PRODMIX_TECH}
 
-        # Build iso2 -> supplier mix volume lookup
+        # Build iso2 -> supplier mix volume lookup from the Total Supplier Mix sheet
         sm_volume: dict[str, float] = {}
         if sm_raw is not None:
             sm_headers = [str(h).strip().lower() for h in sm_raw.iloc[0]]
@@ -677,10 +641,7 @@ def load_aib_residual_mix(country_map):
             if not iso2 or iso2.lower() in ("none", "nan", ""):
                 continue
 
-            c_obj = pycountry.countries.get(alpha_2=iso2)
-            raw_name = c_obj.name if c_obj else iso2
-            country = map_country(raw_name, country_map)
-
+            country        = _iso2_to_country(iso2, country_map)
             co2            = pd.to_numeric(row.iloc[co2_idx],       errors="coerce") if co2_idx       is not None else None
             untracked_frac = pd.to_numeric(row.iloc[untracked_idx], errors="coerce") if untracked_idx is not None else None
             untracked_pct  = float(untracked_frac) * 100 if untracked_frac is not None and not pd.isna(untracked_frac) else None
@@ -703,9 +664,9 @@ def load_aib_residual_mix(country_map):
                         if pd.isna(frac) or frac <= 0:
                             continue
                         src_records.append({
-                            "country":        country,
-                            "energy_source":  src,
-                            "year":           year,
+                            "country":          country,
+                            "energy_source":    src,
+                            "year":             year,
                             "aib_residual_mix": float(frac) * residual_total,
                         })
 
@@ -726,7 +687,7 @@ def load_aib_residual_mix(country_map):
     return agg, residual_detail
 
 
-# ── Merge ────────────────────────────────────────────────────────────────────
+# ── Merge ─────────────────────────────────────────────────────────────────────
 
 def merge_sources(frames):
     """Outer-merge a list of DataFrames on (country, energy_source, year).
@@ -750,9 +711,7 @@ def merge_sources(frames):
         if col in MERGE_KEYS:
             continue
         base = col.rsplit("_", 1)[0] if col.endswith(("_x", "_y")) else col
-        if base not in seen:
-            seen[base] = []
-        seen[base].append(col)
+        seen.setdefault(base, []).append(col)
 
     for base, cols in seen.items():
         if len(cols) > 1:
@@ -762,7 +721,7 @@ def merge_sources(frames):
     return merged
 
 
-# ── Energy source classification ─────────────────────────────────────────────
+# ── Constants ─────────────────────────────────────────────────────────────────
 
 ENERGY_CLASS = {
     "Bio": "RES", "Hydro": "RES", "Solar": "RES", "Wind": "RES", "Other (R)": "RES",
@@ -770,17 +729,19 @@ ENERGY_CLASS = {
     "Nuclear": "Nuclear",
 }
 
-# ── Source attribution ───────────────────────────────────────────────────────
-
-SOURCE_NAMES = {
-    "issuance_irec": "International Tracking Standard Foundation",
-    "issuance_tigrs": "XPANSIV",
+# issuance column -> display label used in the "sources" output column
+# Note: issuance_irec maps to "I-REC" (not the foundation's full name)
+SOURCE_LABELS = {
+    "issuance_irec":   "I-REC",
+    "issuance_tigrs":  "XPANSIV",
     "issuance_ecogox": "Ecogox",
-    "issuance_lgc": "Clean Energy Regulator Australia",
-    "issuance_go": "AIB",
+    "issuance_lgc":    "Clean Energy Regulator Australia",
+    "issuance_go":     "AIB",
 }
 
-ISSUANCE_COLS = ["issuance_irec", "issuance_tigrs", "issuance_ecogox", "issuance_lgc", "issuance_go"]
+STANDARD_SOURCES = {
+    "Wind", "Solar", "Hydro", "Bio", "Coal", "Gas", "Oil", "Nuclear", "Other (R)", "Other (F)"
+}
 
 RAW_VALUE_COLS = [
     "issuance_irec", "issuance_tigrs", "issuance_ecogox", "issuance_lgc",
@@ -798,7 +759,7 @@ DETAIL_COLS = [
     "sources", "methodology", "issuance",
 ]
 
-# Aggregated output (per country/year) — computed from detail rows
+# Aggregated output (per country/year)
 AGG_COLS = [
     "country", "country_code", "year",
     "total_generation", "total_co2", "total_certified",
@@ -808,8 +769,10 @@ AGG_COLS = [
 ]
 
 OUTPUT_DETAIL = BASE / "01_detail.csv"
-OUTPUT_AGG = BASE / "01_aggregated.csv"
+OUTPUT_AGG    = BASE / "01_aggregated.csv"
 
+
+# ── Main pipeline ─────────────────────────────────────────────────────────────
 
 def main():
     print("Loading mappings...")
@@ -820,7 +783,6 @@ def main():
     embers_gen, embers_co2 = load_embers(tech_map, country_map)
     aib_rm, aib_residual_detail = load_aib_residual_mix(country_map)
 
-    # Detail-level sources (per country/energy_source/year)
     detail_frames = [
         load_barnebies(tech_map, country_map),
         load_tigrs(tech_map, country_map),
@@ -840,44 +802,37 @@ def main():
         print("No data loaded.")
         sys.exit(1)
 
-    # Drop test rows
     df = df[df["country"] != "_TEST_"]
 
-    # Ensure raw value columns exist and are numeric (keep NaN as blank)
+    # Ensure raw value columns exist and are numeric
     for col in RAW_VALUE_COLS:
         if col not in df.columns:
             df[col] = pd.NA
         else:
             df[col] = pd.to_numeric(df[col], errors="coerce")
 
-    # Filter to target year range
     df = df[(df["year"] >= 2020) & (df["year"] <= 2024)]
 
     # Drop rows with unmapped / non-standard energy sources
-    STANDARD_SOURCES = {"Wind", "Solar", "Hydro", "Bio", "Coal", "Gas", "Oil", "Nuclear", "Other (R)", "Other (F)"}
-    bad = df[~df["energy_source"].isin(STANDARD_SOURCES)]["energy_source"].dropna().unique()
+    bad = df.loc[~df["energy_source"].isin(STANDARD_SOURCES), "energy_source"].dropna().unique()
     if len(bad):
-        print(f"  WARN  Dropping {len(df[~df['energy_source'].isin(STANDARD_SOURCES)])} rows with unmapped energy sources: {sorted(bad)}")
+        n_bad = (~df["energy_source"].isin(STANDARD_SOURCES)).sum()
+        print(f"  WARN  Dropping {n_bad} rows with unmapped energy sources: {sorted(bad)}")
     df = df[df["energy_source"].isin(STANDARD_SOURCES)]
 
-    # ── Derived columns ──────────────────────────────────────────────────────
+    # ── Derived columns ───────────────────────────────────────────────────────
 
-    # issuance_ext = all non-IREC issuance summed
     ext_cols = ["issuance_tigrs", "issuance_ecogox", "issuance_lgc", "issuance_go"]
-    df["issuance_ext"] = df[ext_cols].sum(axis=1, min_count=1)
-
-    # issuance_total = issuance_irec + issuance_ext
+    df["issuance_ext"]   = df[ext_cols].sum(axis=1, min_count=1)
     df["issuance_total"] = df[["issuance_irec", "issuance_ext"]].sum(axis=1, min_count=1)
 
-    # certified_mix (TWh) = tracked generation per energy source
-    # GO countries: issuance_go is already net (issue - expire), use directly
-    # Others:       issuance_total
+    # certified_mix: GO countries use net GO issuance directly; others use total issuance
     has_go = df["issuance_go"].notna() & (df["issuance_go"] > 0)
     df["certified_mix"] = pd.NA
-    df.loc[has_go, "certified_mix"] = df.loc[has_go, "issuance_go"]
+    df.loc[has_go,  "certified_mix"] = df.loc[has_go,  "issuance_go"]
     df.loc[~has_go, "certified_mix"] = df.loc[~has_go, "issuance_total"]
 
-    # For country/years covered by the AIB production mix, use AIB generation exclusively.
+    # For AIB production mix country/years: replace EMBERS generation with AIB values.
     # EMBERS is not used as a fallback for sources AIB reports at zero — if AIB has no
     # entry for a source (e.g. Bio in Norway), generation stays null for that row.
     if "aib_generation" in df.columns:
@@ -891,16 +846,11 @@ def main():
         df.loc[is_covered, "generation"] = df.loc[is_covered, "aib_generation"]
         df.drop(columns=["_aib_covered"], inplace=True)
 
-    # Rename generation -> total_generation
     df["total_generation"] = df["generation"]
+    df["residual_mix"] = (df["total_generation"] - df["certified_mix"].fillna(0)).clip(lower=0)
 
-    # residual_mix = total_generation - certified_mix (default)
-    df["residual_mix"] = df["total_generation"] - df["certified_mix"].fillna(0)
-    df.loc[df["residual_mix"] < 0, "residual_mix"] = 0
-
-    # For AIB-covered rows: override residual_mix with AIB Residual Mixes per-source TWh
-    # (source_fraction * untracked_fraction * supplier_mix_twh)
-    # Use outer merge so energy sources present only in the residual mix data get their own row.
+    # Override residual_mix with AIB per-source TWh where available.
+    # Outer merge so energy sources present only in the residual mix data get their own row.
     if not aib_residual_detail.empty:
         df = df.merge(
             aib_residual_detail.rename(columns={"aib_residual_mix": "_aib_rm"}),
@@ -910,79 +860,77 @@ def main():
         df.loc[has_aib_rm, "residual_mix"] = df.loc[has_aib_rm, "_aib_rm"]
         df.drop(columns=["_aib_rm"], inplace=True)
 
-    # total_co2: EMBERS mtCO2 -> scaled so emission_factor = total_co2 / gen gives gCO2/kWh
+    # Country/years present in the AIB Residual Mix sheet but with no per-source records
+    # (residual_total = 0, e.g. Austria 2024) are canonical zeros — do not fall back to EMBERS.
+    if not aib_rm.empty:
+        aib_cy = aib_rm[["country", "year"]].drop_duplicates()
+        if not aib_residual_detail.empty:
+            covered = aib_residual_detail[["country", "year"]].drop_duplicates().assign(_has_rm=True)
+            aib_cy = aib_cy.merge(covered, on=["country", "year"], how="left")
+            zero_cy = aib_cy[aib_cy["_has_rm"].isna()][["country", "year"]]
+        else:
+            zero_cy = aib_cy
+        if not zero_cy.empty:
+            zero_cy = zero_cy.assign(_zero_rm=True)
+            df = df.merge(zero_cy, on=["country", "year"], how="left")
+            df.loc[df["_zero_rm"].fillna(False), "residual_mix"] = 0
+            df.drop(columns=["_zero_rm"], inplace=True)
+
+    # total_co2: EMBERS mtCO2 → ktCO2 (so emission_factor = total_co2 / gen = gCO2/kWh)
     df["total_co2"] = df["total_co2"] * 1000
 
-    # For AIB production-mix sources: override total_co2 using the AIB CO2 intensity.
-    # generation_gco2kwh (gCO2/kWh) × aib_generation (TWh) = ktCO2, same unit as EMBERS-derived total_co2.
+    # Override total_co2 with AIB CO2 intensity × generation for AIB-covered rows.
+    # generation_gco2kwh (gCO2/kWh) × aib_generation (TWh) = ktCO2, same unit as EMBERS-derived.
     if "generation_gco2kwh" in df.columns and "aib_generation" in df.columns:
         has_aib = df["aib_generation"].notna() & (df["aib_generation"] > 0)
         df.loc[has_aib, "total_co2"] = df.loc[has_aib, "generation_gco2kwh"] * df.loc[has_aib, "aib_generation"]
 
-    # emission_factor = total_co2 / total_generation (gCO2/kWh)
     df["emission_factor"] = df["total_co2"] / df["total_generation"].replace(0, pd.NA)
 
     # generation_gco2kwh at detail level:
-    #   AIB-covered rows: already set from Production Mix country-level CO2
-    #   EMBERS-only rows: derive from emission_factor (per-source EMBERS CO2 / generation)
+    #   AIB-covered rows: already set from Production Mix country-level CO2 intensity
+    #   EMBERS-only rows: derived from per-source emission_factor
     if "generation_gco2kwh" not in df.columns:
         df["generation_gco2kwh"] = pd.NA
     df["generation_gco2kwh"] = df["generation_gco2kwh"].fillna(df["emission_factor"])
 
-    # class (RES/Fossil/Nuclear)
     df["class"] = df["energy_source"].map(ENERGY_CLASS).fillna("")
 
-    # issuance: which issuance system covers this row
-    # I-REC (Barnebies): Nuclear/Fossil -> "I-TRACK(E)", RES -> "I-REC(E)"
-    RES_CLASSES = {"RES"}
-    def get_issuance(row):
-        if pd.notna(row.get("issuance_go")) and row["issuance_go"] > 0:
-            return "AIB"
-        if pd.notna(row.get("issuance_tigrs")) and row["issuance_tigrs"] > 0:
-            return "TIGRS"
-        if pd.notna(row.get("issuance_ecogox")) and row["issuance_ecogox"] > 0:
-            return "Ecogox"
-        if pd.notna(row.get("issuance_lgc")) and row["issuance_lgc"] > 0:
-            return "LGC"
-        if pd.notna(row.get("issuance_irec")) and row["issuance_irec"] > 0:
-            cls = row.get("class", "")
-            return "I-REC(E)" if cls in RES_CLASSES else "I-TRACK(E)"
-        return ""
-    df["issuance"] = df.apply(get_issuance, axis=1)
+    # issuance system label (vectorised; priority order matches original row-by-row logic)
+    df["issuance"] = np.select(
+        condlist=[
+            df["issuance_go"].notna()     & (df["issuance_go"] > 0),
+            df["issuance_tigrs"].notna()  & (df["issuance_tigrs"] > 0),
+            df["issuance_ecogox"].notna() & (df["issuance_ecogox"] > 0),
+            df["issuance_lgc"].notna()    & (df["issuance_lgc"] > 0),
+            df["issuance_irec"].notna()   & (df["issuance_irec"] > 0) & (df["class"] == "RES"),
+            df["issuance_irec"].notna()   & (df["issuance_irec"] > 0),
+        ],
+        choicelist=["AIB", "TIGRS", "Ecogox", "LGC", "I-REC(E)", "I-TRACK(E)"],
+        default="",
+    )
 
-    # methodology: I-REC if row has Barnebies (issuance_irec) data, else GO
-    def get_methodology(row):
-        v = row.get("issuance_irec")
-        if pd.notna(v) and v > 0:
-            return "I-REC"
-        return "GO"
-    df["methodology"] = df.apply(get_methodology, axis=1)
+    # methodology label (vectorised)
+    df["methodology"] = np.where(
+        df["issuance_irec"].notna() & (df["issuance_irec"] > 0), "I-REC", "GO"
+    )
 
-    # sources: comma-separated list of actual data sources contributing to this row
-    def get_sources(row):
-        s = []
-        for col, name in SOURCE_NAMES.items():
-            v = row.get(col)
-            if pd.notna(v) and v > 0:
-                if col == "issuance_irec":
-                    s.append("I-REC")
-                else:
-                    s.append(name)
-        if pd.notna(row.get("generation")) and row["generation"] > 0:
-            s.append("EMBERS")
-        return ", ".join(s) if s else ""
-    df["sources"] = df.apply(get_sources, axis=1)
+    # sources: comma-separated list of contributing data sources (vectorised)
+    gen_col = df["generation"] if "generation" in df.columns else pd.Series(False, index=df.index)
+    src_flags = {label: df[col].notna() & (df[col] > 0) for col, label in SOURCE_LABELS.items()}
+    src_flags["EMBERS"] = gen_col.notna() & (gen_col > 0)
+    df["sources"] = (
+        pd.DataFrame(src_flags)
+        .apply(lambda r: ", ".join(k for k, v in r.items() if v), axis=1)
+    )
 
     # Drop rows where there's no meaningful data
     check_cols = ["issuance_total", "total_generation", "total_co2", "residual_mix"]
-    def row_has_data(row):
-        return any(pd.notna(row.get(c)) and row.get(c) != 0 for c in check_cols if c in row.index)
-    mask = df.apply(row_has_data, axis=1)
-    dropped = len(df) - mask.sum()
+    existing = [c for c in check_cols if c in df.columns]
+    mask = (df[existing].fillna(0) != 0).any(axis=1)
+    print(f"  Dropped {(~mask).sum():,} empty rows")
     df = df.loc[mask]
-    print(f"  Dropped {dropped:,} empty rows")
 
-    # Add ISO3 country codes
     df["country_code"] = df["country"].apply(to_iso3)
     unresolved = df.loc[df["country_code"] == "", "country"].unique()
     if len(unresolved):
@@ -990,30 +938,41 @@ def main():
 
     df["year"] = df["year"].astype(int)
 
-    # ── Detail output ────────────────────────────────────────────────────────
-    detail = df[[c for c in DETAIL_COLS if c in df.columns]].sort_values(
-        ["country", "year", "energy_source"]
-    ).reset_index(drop=True)
+    # ── Detail output ─────────────────────────────────────────────────────────
+    detail = (
+        df[[c for c in DETAIL_COLS if c in df.columns]]
+        .sort_values(["country", "year", "energy_source"])
+        .reset_index(drop=True)
+    )
     detail.to_csv(OUTPUT_DETAIL, index=False)
     print(f"\nDetail  -> {OUTPUT_DETAIL.name}: {len(detail):,} rows, "
           f"{detail['country'].nunique()} countries, years {detail['year'].min()}-{detail['year'].max()}")
 
-    # ── Aggregated output (computed from detail rows) ────────────────────────
+    # ── Aggregated output ─────────────────────────────────────────────────────
     grp = df.groupby(["country", "country_code", "year"], as_index=False).agg(
         total_generation=("total_generation", "sum"),
         total_co2=("total_co2", "sum"),
         total_certified=("certified_mix", "sum"),
-        total_renewable_gen=("total_generation", lambda x: x[df.loc[x.index, "class"] == "RES"].sum()),
-        total_certified_renewable=("certified_mix", lambda x: x[df.loc[x.index, "class"] == "RES"].sum()),
     )
 
-    grp["perc_tracked_total"] = (grp["total_certified"] / grp["total_generation"].replace(0, pd.NA)) * 100
-    grp["perc_residual"] = 100 - grp["perc_tracked_total"].fillna(0)
-    grp["perc_tracked_renewables"] = (grp["total_certified_renewable"] / grp["total_renewable_gen"].replace(0, pd.NA)) * 100
-    grp["perc_green"] = (grp["total_renewable_gen"] / grp["total_generation"].replace(0, pd.NA)) * 100
+    # RES-only sub-totals via a separate groupby (avoids lambdas that close over df)
+    res_grp = (
+        df[df["class"] == "RES"]
+        .groupby(["country", "country_code", "year"], as_index=False)
+        .agg(total_renewable_gen=("total_generation", "sum"),
+             total_certified_renewable=("certified_mix", "sum"))
+    )
+    grp = grp.merge(res_grp, on=["country", "country_code", "year"], how="left")
+    grp[["total_renewable_gen", "total_certified_renewable"]] = (
+        grp[["total_renewable_gen", "total_certified_renewable"]].fillna(0)
+    )
 
-    # Add generation_gco2kwh (AIB production mix CO2 intensity) to aggregated output.
-    # Then override total_co2 = generation_gco2kwh × total_generation for covered country/years.
+    grp["perc_tracked_total"]      = (grp["total_certified"]           / grp["total_generation"].replace(0, pd.NA)) * 100
+    grp["perc_residual"]           = 100 - grp["perc_tracked_total"].fillna(0)
+    grp["perc_tracked_renewables"] = (grp["total_certified_renewable"] / grp["total_renewable_gen"].replace(0, pd.NA)) * 100
+    grp["perc_green"]              = (grp["total_renewable_gen"]       / grp["total_generation"].replace(0, pd.NA)) * 100
+
+    # generation_gco2kwh + recalculated total_co2 for AIB-covered country/years
     if "generation_gco2kwh" in df.columns:
         gco2 = (
             df[df["generation_gco2kwh"].notna()]
@@ -1028,27 +987,33 @@ def main():
     else:
         grp["generation_gco2kwh"] = pd.NA
 
-    # Merge AIB residual mix CO2 intensity + untracked % + supplier mix volume (country/year level)
+    # AIB residual mix metrics (country/year level)
     if not aib_rm.empty:
         grp = grp.merge(aib_rm, on=["country", "year"], how="left")
     else:
-        for _col in ("residualmix_gco2kwh", "untracked_pct", "supplier_mix_twh"):
-            grp[_col] = pd.NA
+        for col in ("residualmix_gco2kwh", "untracked_pct", "supplier_mix_twh"):
+            grp[col] = pd.NA
 
-    # methodology: I-REC if country/year has Barnebies (issuance_irec) data, else GO
-    has_irec = df.groupby(["country", "year"])["issuance_irec"].apply(
-        lambda s: s.notna().any() and (s > 0).any()
-    ).reset_index(name="_has_irec")
-    has_irec["methodology"] = has_irec["_has_irec"].map({True: "I-REC", False: "GO"})
-    grp = grp.merge(has_irec[["country", "year", "methodology"]], on=["country", "year"], how="left")
+    # methodology at country/year level: I-REC if any row has irec issuance, else GO
+    irec_cy = (
+        df[df["issuance_irec"].notna() & (df["issuance_irec"] > 0)][["country", "year"]]
+        .drop_duplicates()
+        .assign(methodology="I-REC")
+    )
+    grp = grp.merge(irec_cy, on=["country", "year"], how="left")
+    grp["methodology"] = grp["methodology"].fillna("GO")
 
-    grp = grp[[c for c in AGG_COLS if c in grp.columns]].sort_values(
-        ["country", "year"]
-    ).reset_index(drop=True)
+    grp = (
+        grp[[c for c in AGG_COLS if c in grp.columns]]
+        .sort_values(["country", "year"])
+        .reset_index(drop=True)
+    )
     grp.to_csv(OUTPUT_AGG, index=False)
     print(f"Aggreg. -> {OUTPUT_AGG.name}: {len(grp):,} rows, "
           f"{grp['country'].nunique()} countries")
 
+
+# ── Verification helpers ──────────────────────────────────────────────────────
 
 def _parse_eu(v):
     """Parse European comma-decimal string to float."""
@@ -1061,6 +1026,14 @@ def _parse_eu(v):
         return v
 
 
+def _move_cols_to_tail(df, tail_names):
+    """Move specified columns to the end of a DataFrame (if they exist)."""
+    present = [c for c in tail_names if c in df.columns]
+    if not present:
+        return df
+    return df[[c for c in df.columns if c not in present] + present]
+
+
 def _merge_and_diff(aib_df, ori_df, key_cols, compare_cols, round_2_cols,
                     round_0_cols, sort_cols, merged_path, mismatch_path, label):
     """Generic merge+diff for both aggregated and detail level."""
@@ -1069,7 +1042,7 @@ def _merge_and_diff(aib_df, ori_df, key_cols, compare_cols, round_2_cols,
     aib_df["source"] = "aib"
     ori_df["source"] = "ori"
 
-    # Align columns
+    # Align columns across both sides
     all_cols = list(dict.fromkeys(
         key_cols + ["source"]
         + [c for c in ori_df.columns if c != "source"]
@@ -1083,7 +1056,6 @@ def _merge_and_diff(aib_df, ori_df, key_cols, compare_cols, round_2_cols,
 
     merged = pd.concat([ori_df[all_cols], aib_df[all_cols]], ignore_index=True)
 
-    # Round to match precision
     for col in round_2_cols:
         if col in merged.columns:
             merged[col] = pd.to_numeric(merged[col], errors="coerce").round(2)
@@ -1092,28 +1064,23 @@ def _merge_and_diff(aib_df, ori_df, key_cols, compare_cols, round_2_cols,
             merged[col] = pd.to_numeric(merged[col], errors="coerce").round(0)
 
     merged = merged.sort_values(sort_cols + ["source"]).reset_index(drop=True)
-    # Move sources, methodology and method to last positions
-    tail_cols = [c for c in ("sources", "methodology", "issuance") if c in merged.columns]
-    if tail_cols:
-        rest = [c for c in merged.columns if c not in tail_cols]
-        merged = merged[rest + tail_cols]
+    merged = _move_cols_to_tail(merged, ("sources", "methodology", "issuance"))
     merged.to_csv(merged_path, index=False)
     print(f"  {label} merged  -> {merged_path.name}: {len(merged):,} rows "
           f"(ori: {len(ori_df)}, aib: {len(aib_df)})")
 
-    # --- Find mismatches ---
-    valid = merged[merged["country_code"].notna() & (merged["country_code"] != "")]
-    v_ori = valid[valid["source"] == "ori"]
-    v_aib = valid[valid["source"] == "aib"]
+    # Find mismatches
+    valid  = merged[merged["country_code"].notna() & (merged["country_code"] != "")]
+    v_ori  = valid[valid["source"] == "ori"]
+    v_aib  = valid[valid["source"] == "aib"]
 
     def make_key(row):
         return tuple(row[c] for c in key_cols)
 
-    ori_keys = set(v_ori.apply(make_key, axis=1))
-    aib_keys = set(v_aib.apply(make_key, axis=1))
+    ori_keys  = set(v_ori.apply(make_key, axis=1))
+    aib_keys  = set(v_aib.apply(make_key, axis=1))
     both_keys = ori_keys & aib_keys
 
-    # Only compare columns that both sides actually have (non-empty)
     ori_has = set(v_ori.columns[v_ori.notna().any()])
     aib_has = set(v_aib.columns[v_aib.notna().any()])
     shared_compare = [c for c in compare_cols if c in ori_has and c in aib_has]
@@ -1135,48 +1102,37 @@ def _merge_and_diff(aib_df, ori_df, key_cols, compare_cols, round_2_cols,
                 diff_keys.add(key)
                 break
 
-    mismatch = valid[valid.apply(
-        lambda r: make_key(r) in diff_keys, axis=1
-    )].sort_values(sort_cols + ["source"]).reset_index(drop=True)
-
+    mismatch = (
+        valid[valid.apply(lambda r: make_key(r) in diff_keys, axis=1)]
+        .sort_values(sort_cols + ["source"])
+        .reset_index(drop=True)
+    )
     mismatch[compare_cols] = mismatch[compare_cols].fillna(0)
-    # Move sources, methodology and issuance to last positions
-    tail_cols = [c for c in ("sources", "methodology", "issuance") if c in mismatch.columns]
-    if tail_cols:
-        rest = [c for c in mismatch.columns if c not in tail_cols]
-        mismatch = mismatch[rest + tail_cols]
+    mismatch = _move_cols_to_tail(mismatch, ("sources", "methodology", "issuance"))
     mismatch.to_csv(mismatch_path, index=False)
-    print(f"  {label} mismatches -> {mismatch_path.name}: {len(diff_keys)} pairs, "
-          f"{len(mismatch)} rows")
+    print(f"  {label} mismatches -> {mismatch_path.name}: {len(diff_keys)} pairs, {len(mismatch)} rows")
     print(f"  {label} matching: {len(both_keys) - len(diff_keys)} / {len(both_keys)}")
 
 
 def verify():
-    """Compare outputs against existing data.js / data_detail.js and produce
-    merged + mismatch CSVs for both aggregated and detail level."""
+    """Compare outputs against previous JS files and write diff CSVs."""
     import json
 
     DATA_DIR = BASE.parent / "public_html" / "data"
 
-    # ── Aggregated ────────────────────────────────────────────────────────
+    # Aggregated
     datajs_path = DATA_DIR / "data.js"
     if OUTPUT_AGG.exists() and datajs_path.exists():
         print("Verify aggregated:")
         aib_agg = pd.read_csv(OUTPUT_AGG, encoding="utf-8")
-
-        with open(datajs_path, "r", encoding="utf-8") as f:
-            orig_data = json.loads(f.read().replace("window.DATA = ", ""))
-        ori_agg = pd.DataFrame(orig_data)
-        agg_numeric = [
-            "total_generation", "total_co2",
-        ]
+        with open(datajs_path, encoding="utf-8") as f:
+            ori_agg = pd.DataFrame(json.loads(f.read().replace("window.DATA = ", "")))
+        agg_numeric = ["total_generation", "total_co2"]
         for col in agg_numeric:
             if col in ori_agg.columns:
                 ori_agg[col] = ori_agg[col].apply(_parse_eu)
-
         _merge_and_diff(
-            aib_df=aib_agg,
-            ori_df=ori_agg,
+            aib_df=aib_agg, ori_df=ori_agg,
             key_cols=["country_code", "year"],
             compare_cols=agg_numeric,
             round_2_cols=["total_generation", "total_certified", "perc_tracked_total",
@@ -1191,26 +1147,20 @@ def verify():
     else:
         print("Skipping aggregated verify (files missing)")
 
-    # ── Detail ────────────────────────────────────────────────────────────
+    # Detail
     detail_js_path = DATA_DIR / "data_detail.js"
     if OUTPUT_DETAIL.exists() and detail_js_path.exists():
         print("Verify detail:")
         aib_detail = pd.read_csv(OUTPUT_DETAIL, encoding="utf-8")
-
-        with open(detail_js_path, "r", encoding="utf-8") as f:
-            orig_detail = json.loads(f.read().replace("window.DATA_DETAIL = ", ""))
-        ori_detail = pd.DataFrame(orig_detail)
-        detail_numeric = [
-            "certified_mix", "issuance_ext", "issuance_irec",
-            "residual_mix", "total_generation", "total_co2",
-        ]
+        with open(detail_js_path, encoding="utf-8") as f:
+            ori_detail = pd.DataFrame(json.loads(f.read().replace("window.DATA_DETAIL = ", "")))
+        detail_numeric = ["certified_mix", "issuance_ext", "issuance_irec",
+                          "residual_mix", "total_generation", "total_co2"]
         for col in detail_numeric:
             if col in ori_detail.columns:
                 ori_detail[col] = ori_detail[col].apply(_parse_eu)
-
         _merge_and_diff(
-            aib_df=aib_detail,
-            ori_df=ori_detail,
+            aib_df=aib_detail, ori_df=ori_detail,
             key_cols=["country_code", "year", "energy_source"],
             compare_cols=detail_numeric,
             round_2_cols=["certified_mix", "issuance_ext", "issuance_irec",

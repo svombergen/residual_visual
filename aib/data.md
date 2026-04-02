@@ -1,174 +1,102 @@
 # Data Pipeline — dataload.py
 
-## Overview
+Merges 9 raw sources into two CSVs: **01_detail.csv** (per country/energy_source/year) and **01_aggregated.csv** (per country/year). All energy values in **TWh**.
 
-`dataload.py` merges 8 raw data sources into two outputs:
-
-- **01_detail.csv** — one row per (country, energy_source, year)
-- **01_aggregated.csv** — one row per (country, year), computed from detail rows
-
-Year range: **2020–2024**. All energy values in **TWh**.
-
----
-
-## Input Sources
-
-### Issuance (certificate tracking systems)
-
-| Source | File | Column(s) produced | Unit conversion |
-|--------|------|--------------------|-----------------|
-| **Barnebies (I-REC)** | `input/Barnebies Data 08.10.25.xlsx` sheet "Issuance" | `issuance_irec` | MWh / 1,000,000 → TWh |
-| **TIGRS (XPANSIV)** | `input/RAW/TIGRS/TIGRS *.csv` (yearly files) | `issuance_tigrs` | MWh / 1,000,000 → TWh |
-| **Ecogox** | `input/RAW/Ecogox/Ecogox data.xlsx` sheet "Sheet1" | `issuance_ecogox` | MWh / 1,000,000 → TWh |
-| **Australia LGC** | `input/RAW/Australia/australia_raw_260218.csv` | `issuance_lgc` | Already TWh |
-| **AIB GO Issue** | `input/RAW/AIB/Issue/*.csv` (monthly files) | `issuance_go`, `issuance_go_expire`, `issuance_go_cancel` | MWh / 1,000,000 → TWh |
-
-### Generation & Emissions
-
-| Source | File | Column(s) produced | Unit |
-|--------|------|--------------------|------|
-| **EMBERS** | `input/EMBERS yearly_full_release_long_format.csv` | `generation` (→ `total_generation`) | TWh |
-| **EMBERS** | same file | `total_co2` | mtCO2 × 1000 (so that total_co2/generation = gCO2/kWh) |
-| **Oman** | `input/RAW/Oman/Oman_20250924.xlsx` sheet "Electricity production" | `generation` | TWh |
-
-### Country-level (aggregated only)
-
-| Source | File | Column produced | Level |
-|--------|------|-----------------|-------|
-| **AIB ProdRM** | `input/RAW/AIB/ProdRM/*.xlsx` | `residualmix_gco2kwh` | Country/year (not per energy_source) |
+Year range: **2020–2024**.
 
 ---
 
 ## Standardisation
 
-### Energy source mapping
+**Energy sources** — each source has raw names mapped to a canonical set via source-specific dicts (TIGRS_TECH, AIB_TECH, EMBERS_TECH, OMAN_TECH, ECOGOX_TECH) then `Mappings.xlsx` Technologies sheet as fallback. Standard values: `Bio, Coal, Gas, Hydro, Nuclear, Oil, Other (F), Other (R), Solar, Wind`.
 
-Each source has raw technology/fuel names mapped to a standard set:
+**Country names** — COUNTRY_NAME_OVERRIDES hardcoded map → `Mappings.xlsx` Countries sheet. ISO 3166-1 alpha-3 codes via pycountry.
 
-`Bio`, `Coal`, `Gas`, `Hydro`, `Nuclear`, `Oil`, `Other (F)`, `Other (R)`, `Solar`, `Wind`
-
-Mapping priority: source-specific hardcoded map → `input/Mappings.xlsx` "Technologies" sheet → as-is.
-
-Source-specific maps: `AIB_TECH`, `TIGRS_TECH`, `EMBERS_TECH`, `OMAN_TECH`, `ECOGOX_TECH`.
-
-### Country name mapping
-
-Priority: hardcoded overrides (Taiwan, Türkiye) → `input/Mappings.xlsx` "Countries" sheet → as-is.
-
-ISO 3166-1 alpha-3 codes added via `pycountry`. ~41 countries unresolved (regional variants like "Belgium (Brussels)").
-
-### Energy source classification
-
-| Class | Energy sources |
-|-------|---------------|
-| RES | Bio, Hydro, Solar, Wind, Other (R) |
-| Fossil | Coal, Gas, Oil, Other (F) |
-| Nuclear | Nuclear |
+**Class** — `ENERGY_CLASS` dict: RES = {Bio, Hydro, Solar, Wind, Other (R)}, Fossil = {Coal, Gas, Oil, Other (F)}, Nuclear = {Nuclear}.
 
 ---
 
-## Merge
+## 01_detail.csv — Lineage
 
-All detail-level sources are outer-merged on `(country, energy_source, year)` using `functools.reduce`.
+### Dimensions
 
-When two sources produce the same column name (e.g. EMBERS and Oman both produce `generation`), pandas creates `_x`/`_y` suffixes — these are summed and collapsed back to a single column.
+| Source file.Sheet | Source column | Transform | Output column |
+|---|---|---|---|
+| Barnebies Data 08.10.25.xlsx.Issuance | Issue Country | map_country() | `country` |
+| RAW/TIGRS/TIGRS *.csv | Country | map_country() | `country` |
+| RAW/Ecogox/Ecogox data.xlsx.Sheet1 | — | hardcoded "Colombia" | `country` |
+| RAW/Australia/australia_raw_260218.csv | Country | map_country() | `country` |
+| RAW/AIB/Issue/AIB_EECS*.csv | domain_name | split "XX - Name", map_country() | `country` |
+| EMBERS yearly_full_release_long_format.csv | Area | map_country() | `country` |
+| RAW/Oman/Oman_20250924.xlsx.Electricity production | — | hardcoded "Oman" | `country` |
+| RAW/AIB/ProdRM/*.xlsx.Production Mix | col 0 (ISO2) | _iso2_to_country() | `country` |
+| `country` | — | pycountry alpha_3 lookup | `country_code` |
+| Barnebies Data 08.10.25.xlsx.Issuance | Year of Vintage | to int | `year` |
+| RAW/TIGRS/TIGRS *.csv | Year | to int | `year` |
+| RAW/AIB/Issue/AIB_EECS*.csv | year | to int | `year` |
+| EMBERS yearly_full_release_long_format.csv | Year | to int | `year` |
+| RAW/Oman/Oman_20250924.xlsx.Electricity production | column headers | numeric → int | `year` |
+| RAW/AIB/ProdRM/*.xlsx | filename | first 4 digits | `year` |
+| Barnebies Data 08.10.25.xlsx.Issuance | Technology Final | map_tech(Mappings.xlsx) | `energy_source` |
+| RAW/TIGRS/TIGRS *.csv | Fuel Type Description | map_tech(TIGRS_TECH, Mappings.xlsx) | `energy_source` |
+| RAW/Ecogox/Ecogox data.xlsx.Sheet1 | type | map_tech(ECOGOX_TECH, Mappings.xlsx) | `energy_source` |
+| RAW/Australia/australia_raw_260218.csv | Technology | map_tech(Mappings.xlsx) | `energy_source` |
+| RAW/AIB/Issue/AIB_EECS*.csv | energy_source_level2 | AIB_TECH dict | `energy_source` |
+| EMBERS yearly_full_release_long_format.csv | Variable | EMBERS_TECH dict | `energy_source` |
+| RAW/Oman/Oman_20250924.xlsx.Electricity production | row label | OMAN_TECH dict | `energy_source` |
+| RAW/AIB/ProdRM/*.xlsx.Production Mix | column headers | PRODMIX_TECH dict | `energy_source` |
+| `energy_source` | — | ENERGY_CLASS dict | `class` |
 
-AIB ProdRM (`residualmix_gco2kwh`) is **not** part of this merge — it's joined separately at the aggregated level on `(country, year)`.
+### Values
 
----
+| Source file.Sheet | Source column | Transform | Output column |
+|---|---|---|---|
+| Barnebies Data 08.10.25.xlsx.Issuance | Volume Issued | ÷ 1,000,000 (MWh → TWh) | `issuance_irec` |
+| RAW/TIGRS/TIGRS *.csv | Number of TIGRs | strip commas, ÷ 1,000,000 | `issuance_tigrs` |
+| RAW/Ecogox/Ecogox data.xlsx.Sheet1 | total_GOs | ÷ 1,000,000,000 (kWh → TWh) | `issuance_ecogox` |
+| RAW/Australia/australia_raw_260218.csv | Issuance_EXT | already TWh | `issuance_lgc` |
+| RAW/AIB/Issue/AIB_EECS*.csv | production_date_issue − production_date_expire | ÷ 1,000,000, clip ≥ 0 | `issuance_go` |
+| RAW/AIB/Issue/AIB_EECS*.csv | production_date_expire | ÷ 1,000,000 | `issuance_go_expire` |
+| RAW/AIB/Issue/AIB_EECS*.csv | production_date_cancel | ÷ 1,000,000 | `issuance_go_cancel` |
+| `issuance_tigrs + issuance_ecogox + issuance_lgc + issuance_go` | sum(min_count=1) | — | `issuance_ext` |
+| `issuance_irec + issuance_ext` | sum(min_count=1) | — | `issuance_total` |
+| `issuance_go` if >0; else `issuance_total` | — | conditional | `certified_mix` |
+| EMBERS yearly_full_release_long_format.csv | Value [Electricity generation, TWh] | group sum | `total_generation` |
+| RAW/Oman/Oman_20250924.xlsx.Electricity production | cell values [row = "Total production"] | already TWh, group sum | `total_generation` ¹ |
+| RAW/AIB/ProdRM/*.xlsx.Production Mix | Volume × source_share | replaces EMBERS for AIB-covered country/years | `total_generation` ¹ |
+| `total_generation − certified_mix` | clip ≥ 0 | — | `residual_mix` |
+| RAW/AIB/ProdRM/*.xlsx.Residual Mixes | untracked_frac × supplier_vol × source_frac | overrides formula value where present | `residual_mix` ¹ |
+| EMBERS yearly_full_release_long_format.csv | Value [Power sector emissions, mtCO2] | × 1,000 (mtCO2 → ktCO2) | `total_co2` |
+| `generation_gco2kwh × aib_generation` | — | overrides EMBERS for AIB-covered rows | `total_co2` ¹ |
+| `total_co2 ÷ total_generation` | — | — | `emission_factor` |
+| RAW/AIB/ProdRM/*.xlsx.Production Mix | CO2 intensity column (gCO2/kWh) | country/year-level value | `generation_gco2kwh` |
+| `emission_factor` | — | fallback where no AIB value | `generation_gco2kwh` ¹ |
+| `issuance_go>0`→"AIB", `issuance_tigrs>0`→"XPANSIV", `issuance_ecogox>0`→"Ecogox", `issuance_lgc>0`→"Clean Energy Regulator Australia", `issuance_irec>0`→"I-REC", `generation>0`→"EMBERS" | boolean flags, comma-joined | — | `sources` |
+| `issuance_irec` | >0 → "I-REC"; else "GO" | — | `methodology` |
+| Priority: `issuance_go`→"AIB", `issuance_tigrs`→"TIGRS", `issuance_ecogox`→"Ecogox", `issuance_lgc`→"LGC", `issuance_irec` & class=RES→"I-REC(E)", `issuance_irec`→"I-TRACK(E)" | np.select | — | `issuance` |
 
-## Derived Columns (detail level)
-
-| Column | Formula |
-|--------|---------|
-| `issuance_ext` | `issuance_tigrs + issuance_ecogox + issuance_lgc + issuance_go` |
-| `issuance_total` | `issuance_irec + issuance_ext` |
-| `certified_mix` | GO countries: `(issuance_go - issuance_go_expire) / generation`. Others: `issuance_total` |
-| `total_generation` | Renamed from `generation` |
-| `residual_mix` | `total_generation - certified_mix` (clamped ≥ 0) |
-| `total_co2` | EMBERS mtCO2 × 1000 |
-| `emission_factor` | `total_co2 / total_generation` (gCO2/kWh) |
-| `class` | Mapped from `energy_source` (RES / Fossil / Nuclear) |
-| `method` | "Issuance" if any row for that country/year has issuance data, else "Production" |
-| `first_source` | Name of the first issuance system with data for that row; falls back to "EMBERS" |
-
----
-
-## Output: 01_detail.csv
-
-One row per (country, year, energy_source). Empty rows (all values zero/NaN) are dropped.
-
-| Column | Source |
-|--------|--------|
-| `country` | Standardised country name |
-| `country_code` | ISO 3166-1 alpha-3 via pycountry |
-| `year` | 2020–2024 |
-| `energy_source` | Standardised (Bio, Coal, Gas, etc.) |
-| `class` | RES / Fossil / Nuclear |
-| `issuance_irec` | Barnebies |
-| `issuance_tigrs` | TIGRS |
-| `issuance_ecogox` | Ecogox |
-| `issuance_lgc` | Australia LGC |
-| `issuance_go` | AIB GO Issue |
-| `issuance_go_expire` | AIB GO Issue |
-| `issuance_go_cancel` | AIB GO Issue |
-| `issuance_ext` | Derived: sum of non-IREC issuance |
-| `issuance_total` | Derived: IREC + EXT |
-| `certified_mix` | Derived |
-| `total_generation` | EMBERS + Oman |
-| `residual_mix` | Derived |
-| `total_co2` | EMBERS |
-| `emission_factor` | Derived |
-| `method` | Derived |
-| `first_source` | Derived |
-
----
-
-## Output: 01_aggregated.csv
-
-One row per (country, year). Computed by summing detail rows, plus AIB ProdRM joined separately.
-
-| Column | How computed |
-|--------|-------------|
-| `country` | From detail |
-| `country_code` | From detail |
-| `year` | From detail |
-| `total_generation` | `sum(total_generation)` across energy sources |
-| `total_co2` | `sum(total_co2)` across energy sources |
-| `total_certified` | `sum(certified_mix)` across energy sources |
-| `perc_tracked_total` | `total_certified / total_generation × 100` |
-| `perc_residual` | `100 - perc_tracked_total` |
-| `perc_tracked_renewables` | `sum(certified_mix where class=RES) / sum(generation where class=RES) × 100` |
-| `perc_green` | `sum(generation where class=RES) / total_generation × 100` |
-| `residualmix_gco2kwh` | AIB ProdRM (country/year level, not derived from detail) |
-| `methodology` | Distinct `first_source` values for that country/year (excluding "EMBERS") |
+¹ Supplement or override of the primary source above it.
 
 ---
 
-## Pipeline Diagram
+## 01_aggregated.csv — Lineage
 
-```
-input/Barnebies ──────► issuance_irec ──┐
-input/RAW/TIGRS ──────► issuance_tigrs ─┤
-input/RAW/Ecogox ─────► issuance_ecogox ┤
-input/RAW/Australia ──► issuance_lgc ───┤
-input/RAW/AIB/Issue ──► issuance_go ────┤   outer merge on
-                        issuance_go_expire  (country, energy_source, year)
-                        issuance_go_cancel──┤       │
-input/EMBERS ─────────► generation ─────┤       ▼
-                        total_co2 ──────┤   DETAIL ROWS
-input/RAW/Oman ───────► generation ─────┘       │
-                                                │ derive: issuance_ext,
-                                                │ issuance_total, certified_mix,
-                                                │ residual_mix, emission_factor,
-                                                │ class, method, first_source
-                                                │
-                                                ├──► 01_detail.csv
-                                                │
-                                                │ group by (country, year)
-                                                │ sum generation, co2, certified
-                                                │ compute percentages
-                                                ▼
-input/RAW/AIB/ProdRM ► residualmix_gco2kwh ──► 01_aggregated.csv
-  (joined on country/year)
-```
+Grouped by (country, country_code, year) from detail rows. AIB ProdRM country/year metrics joined separately.
+
+| Input | Transform | Output column |
+|---|---|---|
+| detail.`country` | passthrough | `country` |
+| detail.`country_code` | passthrough | `country_code` |
+| detail.`year` | passthrough | `year` |
+| detail.`total_generation` | sum | `total_generation` |
+| detail.`total_co2` | sum; override: `generation_gco2kwh × total_generation` if AIB-covered | `total_co2` |
+| detail.`certified_mix` | sum | `total_certified` |
+| `total_certified ÷ total_generation × 100` | — | `perc_tracked_total` |
+| `100 − perc_tracked_total` | — | `perc_residual` |
+| `sum(certified_mix where class=RES) ÷ sum(total_generation where class=RES) × 100` | — | `perc_tracked_renewables` |
+| `sum(total_generation where class=RES) ÷ total_generation × 100` | — | `perc_green` |
+| detail.`generation_gco2kwh` | first non-null per country/year | `generation_gco2kwh` |
+| RAW/AIB/ProdRM/*.xlsx.Residual Mixes | CO2 intensity column (gCO2/kWh), joined on country/year | `residualmix_gco2kwh` |
+| RAW/AIB/ProdRM/*.xlsx.Residual Mixes | untracked fraction × 100 | `untracked_pct` |
+| RAW/AIB/ProdRM/*.xlsx.Total Supplier Mix | Volume column (TWh) | `supplier_mix_twh` |
+| detail.`issuance_irec` | "I-REC" if any row >0 for country/year; else "GO" | `methodology` |
