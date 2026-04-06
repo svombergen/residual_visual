@@ -972,10 +972,15 @@ def main():
     grp["perc_tracked_renewables"] = (grp["total_certified_renewable"] / grp["total_renewable_gen"].replace(0, pd.NA)) * 100
     grp["perc_green"]              = (grp["total_renewable_gen"]       / grp["total_generation"].replace(0, pd.NA)) * 100
 
-    # generation_gco2kwh + recalculated total_co2 for AIB-covered country/years
-    if "generation_gco2kwh" in df.columns:
+    # generation_gco2kwh + recalculated total_co2 for AIB-covered country/years only.
+    # For EMBERS-only countries generation_gco2kwh at detail level holds per-source emission
+    # factors, not a country-level average — using .first() there would pick up whichever
+    # source sorts first (e.g. Bio) and corrupt total_co2.  Restrict to rows where AIB
+    # Production Mix data exists; those rows carry the correct country/year-level intensity.
+    if "generation_gco2kwh" in df.columns and "aib_generation" in df.columns:
+        aib_rows = df["aib_generation"].notna() & (df["aib_generation"] > 0)
         gco2 = (
-            df[df["generation_gco2kwh"].notna()]
+            df[aib_rows & df["generation_gco2kwh"].notna()]
             .groupby(["country", "country_code", "year"], as_index=False)["generation_gco2kwh"]
             .first()
         )
