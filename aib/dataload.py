@@ -475,7 +475,11 @@ def load_embers(tech_map, country_map):
 
 
 def load_oman():
-    """Oman generation by fuel type (wide -> long)."""
+    """Oman net generation by fuel type (wide -> long).
+
+    Uses 'Net production' rows only to avoid double-counting with 'Total production'.
+    Returns oman_generation column; main() overrides EMBERS for Oman country/years.
+    """
     path = RAW / "Oman" / "Oman_20250924.xlsx"
     if not path.exists():
         print("  SKIP  Oman - file not found")
@@ -483,7 +487,7 @@ def load_oman():
 
     df = pd.read_excel(path, sheet_name="Electricity production")
     prod_col = df.columns[1]
-    df = df.loc[df[prod_col].astype(str).str.strip() == "Total production"]
+    df = df.loc[df[prod_col].astype(str).str.strip() == "Net production"]
     year_cols = [c for c in df.columns[2:] if isinstance(c, (int, float))]
 
     records = []
@@ -495,12 +499,12 @@ def load_oman():
         for yc in year_cols:
             val = pd.to_numeric(r[yc], errors="coerce")
             if pd.notna(val):
-                records.append({"country": "Oman", "energy_source": tech, "year": int(yc), "generation": val})
+                records.append({"country": "Oman", "energy_source": tech, "year": int(yc), "oman_generation": val})
 
     agg = pd.DataFrame(records)
     if not agg.empty:
-        agg = agg.groupby(MERGE_KEYS, as_index=False)["generation"].sum()
-    print(f"  OK    Oman: {len(agg):,} rows")
+        agg = agg.groupby(MERGE_KEYS, as_index=False)["oman_generation"].sum()
+    print(f"  OK    Oman (net): {len(agg):,} rows")
     return agg
 
 
@@ -888,6 +892,18 @@ def main():
         df.loc[no_aib, "total_co2"]  = pd.NA
         df.drop(columns=["_aib_covered"], inplace=True)
 
+    # Oman XLSX overrides EMBERS for Oman. oman_generation is authoritative;
+    # nullify EMBERS generation for any Oman source not present in the XLSX.
+    if "oman_generation" in df.columns:
+        has_oman = df["oman_generation"].notna() & (df["oman_generation"] > 0)
+        df.loc[has_oman, "generation"] = df.loc[has_oman, "oman_generation"]
+        oman_cy = df[has_oman][["country", "year"]].drop_duplicates().assign(_oman=True)
+        df = df.merge(oman_cy, on=["country", "year"], how="left")
+        no_oman_data = df["_oman"].fillna(False) & df["oman_generation"].isna()
+        df.loc[no_oman_data, "generation"] = pd.NA
+        df.loc[no_oman_data, "total_co2"]  = pd.NA
+        df.drop(columns=["_oman"], inplace=True)
+
     df["total_generation"] = df["generation"]
     df["residual_mix"] = (df["total_generation"] - df["certified_mix"].fillna(0)).clip(lower=0)
 
@@ -953,11 +969,13 @@ def main():
     )
 
     # sources: comma-separated list of contributing data sources (vectorised)
-    # EMBERS is only credited when generation was not replaced by AIB Production Mix data
-    gen_col    = df["generation"] if "generation" in df.columns else pd.Series(False, index=df.index)
-    is_aib_gen = (df["aib_generation"].notna() & (df["aib_generation"] > 0)) if "aib_generation" in df.columns else pd.Series(False, index=df.index)
+    # EMBERS is only credited when generation was not replaced by AIB or Oman data
+    gen_col     = df["generation"] if "generation" in df.columns else pd.Series(False, index=df.index)
+    is_aib_gen  = (df["aib_generation"].notna()  & (df["aib_generation"]  > 0)) if "aib_generation"  in df.columns else pd.Series(False, index=df.index)
+    is_oman_gen = (df["oman_generation"].notna() & (df["oman_generation"] > 0)) if "oman_generation" in df.columns else pd.Series(False, index=df.index)
     src_flags = {label: df[col].notna() & (df[col] > 0) for col, label in SOURCE_LABELS.items()}
-    src_flags["EMBERS"] = gen_col.notna() & (gen_col > 0) & ~is_aib_gen
+    src_flags["EMBERS"] = gen_col.notna() & (gen_col > 0) & ~is_aib_gen & ~is_oman_gen
+    src_flags["Oman"]   = is_oman_gen
     df["sources"] = (
         pd.DataFrame(src_flags)
         .apply(lambda r: ", ".join(k for k, v in r.items() if v), axis=1)
