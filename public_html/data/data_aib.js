@@ -14,7 +14,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Afghanistan",
@@ -31,7 +31,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Afghanistan",
@@ -48,7 +48,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Afghanistan",
@@ -65,7 +65,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Albania",
@@ -82,7 +82,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Albania",
@@ -99,7 +99,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Albania",
@@ -116,7 +116,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Albania",
@@ -133,7 +133,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Algeria",
@@ -150,7 +150,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Algeria",
@@ -167,7 +167,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Algeria",
@@ -184,7 +184,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Algeria",
@@ -201,7 +201,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "American Samoa",
@@ -218,7 +218,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "American Samoa",
@@ -235,7 +235,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "American Samoa",
@@ -252,7 +252,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "American Samoa",
@@ -269,7 +269,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Angola",
@@ -286,7 +286,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Angola",
@@ -303,7 +303,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Angola",
@@ -320,7 +320,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Angola",
@@ -337,7 +337,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Antigua and Barbuda",
@@ -354,7 +354,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Antigua and Barbuda",
@@ -371,7 +371,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Antigua and Barbuda",
@@ -388,7 +388,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Antigua and Barbuda",
@@ -405,7 +405,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Argentina",
@@ -507,7 +507,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Armenia",
@@ -524,7 +524,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Armenia",
@@ -541,7 +541,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Armenia",
@@ -558,7 +558,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Armenia",
@@ -575,7 +575,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Aruba",
@@ -592,7 +592,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Aruba",
@@ -609,7 +609,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Aruba",
@@ -626,7 +626,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -643,7 +643,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Australia",
@@ -813,7 +813,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Azerbaijan",
@@ -830,7 +830,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Azerbaijan",
@@ -847,7 +847,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Azerbaijan",
@@ -864,7 +864,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Azerbaijan",
@@ -881,7 +881,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahamas",
@@ -898,7 +898,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahamas",
@@ -915,7 +915,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahamas",
@@ -932,7 +932,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahrain",
@@ -949,7 +949,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahrain",
@@ -966,7 +966,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahrain",
@@ -983,7 +983,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bahrain",
@@ -1000,7 +1000,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -1017,7 +1017,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -1034,7 +1034,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bangladesh",
@@ -1102,7 +1102,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Barbados",
@@ -1119,7 +1119,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Barbados",
@@ -1136,7 +1136,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Barbados",
@@ -1153,7 +1153,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belarus",
@@ -1170,7 +1170,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belarus",
@@ -1187,7 +1187,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belarus",
@@ -1204,7 +1204,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belarus",
@@ -1221,7 +1221,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belarus",
@@ -1238,7 +1238,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belgium",
@@ -1246,10 +1246,10 @@ window.DATA = [
     "year": 2020,
     "total_generation": 88.29,
     "total_co2": 14710.0,
-    "total_certified": 6.817114,
-    "perc_tracked_total": 7.721275342620908,
-    "perc_residual": 92.27872465737909,
-    "perc_tracked_renewables": 29.070848614072492,
+    "total_certified": 14.253235,
+    "perc_tracked_total": 16.14365726582852,
+    "perc_residual": 83.85634273417148,
+    "perc_tracked_renewables": 60.78089125799574,
     "perc_green": 26.560199343073965,
     "generation_gco2kwh": "",
     "residualmix_gco2kwh": "",
@@ -1263,10 +1263,10 @@ window.DATA = [
     "year": 2021,
     "total_generation": 99.39,
     "total_co2": 13100.0,
-    "total_certified": 6.77095,
-    "perc_tracked_total": 6.81250628835899,
-    "perc_residual": 93.18749371164101,
-    "perc_tracked_renewables": 29.77550571679859,
+    "total_certified": 12.937004,
+    "perc_tracked_total": 13.01640406479525,
+    "perc_residual": 86.98359593520475,
+    "perc_tracked_renewables": 56.861851363236596,
     "perc_green": 22.879565348626624,
     "generation_gco2kwh": "",
     "residualmix_gco2kwh": "",
@@ -1280,10 +1280,10 @@ window.DATA = [
     "year": 2022,
     "total_generation": 88.286912128,
     "total_co2": 10751.093126980493,
-    "total_certified": 6.511595,
-    "perc_tracked_total": 7.375492972910151,
-    "perc_residual": 92.62450702708985,
-    "perc_tracked_renewables": 28.972987522558956,
+    "total_certified": 16.529178,
+    "perc_tracked_total": 18.722115885122015,
+    "perc_residual": 81.27788411487799,
+    "perc_tracked_renewables": 73.51549277938861,
     "perc_green": 25.45644617134302,
     "generation_gco2kwh": 121.77448353152684,
     "residualmix_gco2kwh": 144.2718837957876,
@@ -1297,10 +1297,10 @@ window.DATA = [
     "year": 2023,
     "total_generation": 75.376471576,
     "total_co2": 8450.415504946854,
-    "total_certified": 7.866664,
-    "perc_tracked_total": 10.436498068323962,
-    "perc_residual": 89.56350193167604,
-    "perc_tracked_renewables": 31.581647154862203,
+    "total_certified": 19.076314,
+    "perc_tracked_total": 25.308048521170008,
+    "perc_residual": 74.69195147882999,
+    "perc_tracked_renewables": 76.58217345892446,
     "perc_green": 33.04608533287725,
     "generation_gco2kwh": 112.10945973275672,
     "residualmix_gco2kwh": 167.48942808168331,
@@ -1314,270 +1314,15 @@ window.DATA = [
     "year": 2024,
     "total_generation": 68.8586618,
     "total_co2": 7217.827435572678,
-    "total_certified": 7.054365,
-    "perc_tracked_total": 10.24470243190233,
-    "perc_residual": 89.75529756809767,
-    "perc_tracked_renewables": 29.4148436704251,
+    "total_certified": 14.912547,
+    "perc_tracked_total": 21.656748200122593,
+    "perc_residual": 78.34325179987741,
+    "perc_tracked_renewables": 62.176647315636465,
     "perc_green": 34.82834227061616,
     "generation_gco2kwh": 104.82090773905628,
     "residualmix_gco2kwh": 131.72850143914474,
     "untracked_pct": 68.3490033432721,
     "supplier_mix_twh": 77.7578958,
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Brussels)",
-    "country_code": "BEL",
-    "year": 2020,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 0.095813,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Brussels)",
-    "country_code": "BEL",
-    "year": 2021,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 0.08946,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Brussels)",
-    "country_code": "BEL",
-    "year": 2022,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 0.143512,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Brussels)",
-    "country_code": "BEL",
-    "year": 2023,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 0.126125,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Brussels)",
-    "country_code": "BEL",
-    "year": 2024,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 0.13074699999999997,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Flanders)",
-    "country_code": "BEL",
-    "year": 2020,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 4.166788,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Flanders)",
-    "country_code": "BEL",
-    "year": 2021,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 3.3996879999999994,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Flanders)",
-    "country_code": "BEL",
-    "year": 2022,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 7.061962,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Flanders)",
-    "country_code": "BEL",
-    "year": 2023,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 8.864821000000001,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Flanders)",
-    "country_code": "BEL",
-    "year": 2024,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 4.178754,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Wallonia)",
-    "country_code": "BEL",
-    "year": 2020,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 3.3361929999999997,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Wallonia)",
-    "country_code": "BEL",
-    "year": 2021,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 2.8240270000000005,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Wallonia)",
-    "country_code": "BEL",
-    "year": 2022,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 2.9471730000000003,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Wallonia)",
-    "country_code": "BEL",
-    "year": 2023,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 2.2295049999999996,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Belgium (Wallonia)",
-    "country_code": "BEL",
-    "year": 2024,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 3.7544259999999996,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
     "methodology": "GO"
   },
   {
@@ -1595,7 +1340,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belize",
@@ -1612,7 +1357,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belize",
@@ -1629,7 +1374,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Belize",
@@ -1646,7 +1391,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Benin",
@@ -1663,7 +1408,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Benin",
@@ -1680,7 +1425,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Benin",
@@ -1697,7 +1442,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Benin",
@@ -1714,7 +1459,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bermuda",
@@ -1731,7 +1476,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bermuda",
@@ -1748,7 +1493,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bermuda",
@@ -1765,7 +1510,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bermuda",
@@ -1782,7 +1527,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bhutan",
@@ -1799,7 +1544,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bhutan",
@@ -1816,7 +1561,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bhutan",
@@ -1833,7 +1578,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bhutan",
@@ -1850,7 +1595,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bolivia",
@@ -1867,7 +1612,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bolivia",
@@ -1884,7 +1629,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bolivia",
@@ -1901,7 +1646,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bolivia",
@@ -1918,7 +1663,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bolivia",
@@ -1935,7 +1680,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bosnia Herzegovina",
@@ -1952,7 +1697,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bosnia Herzegovina",
@@ -1969,7 +1714,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bosnia Herzegovina",
@@ -1986,7 +1731,7 @@ window.DATA = [
     "residualmix_gco2kwh": 843.934660754972,
     "untracked_pct": 100.0,
     "supplier_mix_twh": 11.549659656,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bosnia Herzegovina",
@@ -2003,7 +1748,7 @@ window.DATA = [
     "residualmix_gco2kwh": 719.5493045509603,
     "untracked_pct": 99.5011907802887,
     "supplier_mix_twh": 11.120684584,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bosnia Herzegovina",
@@ -2020,7 +1765,7 @@ window.DATA = [
     "residualmix_gco2kwh": 777.0241182031519,
     "untracked_pct": 100.0,
     "supplier_mix_twh": 11.560842184000002,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Botswana",
@@ -2037,7 +1782,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Botswana",
@@ -2054,7 +1799,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Botswana",
@@ -2071,7 +1816,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Botswana",
@@ -2088,7 +1833,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Brazil",
@@ -2190,7 +1935,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "British Virgin Islands",
@@ -2207,7 +1952,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "British Virgin Islands",
@@ -2224,7 +1969,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "British Virgin Islands",
@@ -2241,7 +1986,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -2258,7 +2003,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Brunei",
@@ -2343,7 +2088,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bulgaria",
@@ -2360,7 +2105,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bulgaria",
@@ -2377,7 +2122,7 @@ window.DATA = [
     "residualmix_gco2kwh": 517.0536665658049,
     "untracked_pct": 98.17440990491374,
     "supplier_mix_twh": 33.539894944,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bulgaria",
@@ -2394,7 +2139,7 @@ window.DATA = [
     "residualmix_gco2kwh": 418.7025523352987,
     "untracked_pct": 97.2529822604248,
     "supplier_mix_twh": 33.26924274399999,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Bulgaria",
@@ -2411,7 +2156,7 @@ window.DATA = [
     "residualmix_gco2kwh": 379.5272967507102,
     "untracked_pct": 96.4446412622804,
     "supplier_mix_twh": 33.59,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -2428,7 +2173,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -2445,7 +2190,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -2462,7 +2207,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burkina Faso",
@@ -2513,7 +2258,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burundi",
@@ -2530,7 +2275,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burundi",
@@ -2547,7 +2292,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Burundi",
@@ -2564,7 +2309,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cabo Verde",
@@ -2581,7 +2326,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cabo Verde",
@@ -2598,7 +2343,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cabo Verde",
@@ -2615,7 +2360,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -2632,7 +2377,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cambodia",
@@ -2717,7 +2462,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cameroon",
@@ -2734,7 +2479,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cameroon",
@@ -2751,7 +2496,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cameroon",
@@ -2768,7 +2513,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Canada",
@@ -2785,7 +2530,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Canada",
@@ -2802,7 +2547,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Canada",
@@ -2819,7 +2564,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Canada",
@@ -2836,7 +2581,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Canada",
@@ -2853,7 +2598,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cayman Islands",
@@ -2870,7 +2615,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cayman Islands",
@@ -2887,7 +2632,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cayman Islands",
@@ -2904,7 +2649,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cayman Islands",
@@ -2921,7 +2666,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Central African Republic",
@@ -2938,7 +2683,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Central African Republic",
@@ -2955,7 +2700,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Central African Republic",
@@ -2972,7 +2717,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -2989,7 +2734,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -3006,7 +2751,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -3023,7 +2768,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Chad",
@@ -3329,7 +3074,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Comoros",
@@ -3346,7 +3091,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Comoros",
@@ -3363,7 +3108,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Comoros",
@@ -3380,7 +3125,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Congo",
@@ -3397,7 +3142,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Congo",
@@ -3414,7 +3159,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Congo",
@@ -3431,7 +3176,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Congo",
@@ -3448,7 +3193,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Congo, DRC",
@@ -3550,7 +3295,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cook Islands",
@@ -3567,7 +3312,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cook Islands",
@@ -3584,7 +3329,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Costa Rica",
@@ -3771,7 +3516,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cuba",
@@ -3788,7 +3533,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cuba",
@@ -3805,7 +3550,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Cuba",
@@ -3822,92 +3567,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Czech Republic",
-    "country_code": "CZE",
-    "year": 2020,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 5.32493,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Czech Republic",
-    "country_code": "CZE",
-    "year": 2021,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 5.903293000000001,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Czech Republic",
-    "country_code": "CZE",
-    "year": 2022,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 6.257737,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Czech Republic",
-    "country_code": "CZE",
-    "year": 2023,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 10.057316,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
-  },
-  {
-    "country": "Czech Republic",
-    "country_code": "CZE",
-    "year": 2024,
-    "total_generation": 0.0,
-    "total_co2": 0.0,
-    "total_certified": 10.213965999999997,
-    "perc_tracked_total": "",
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": "",
-    "perc_green": "",
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Czechia",
@@ -3915,10 +3575,10 @@ window.DATA = [
     "year": 2020,
     "total_generation": 80.10000000000001,
     "total_co2": 36860.0,
-    "total_certified": 0,
-    "perc_tracked_total": 0.0,
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": 0.0,
+    "total_certified": 5.32493,
+    "perc_tracked_total": 6.6478526841448184,
+    "perc_residual": 93.35214731585518,
+    "perc_tracked_renewables": 51.498355899419735,
     "perc_green": 12.908863920099872,
     "generation_gco2kwh": "",
     "residualmix_gco2kwh": "",
@@ -3932,10 +3592,10 @@ window.DATA = [
     "year": 2021,
     "total_generation": 83.66,
     "total_co2": 39470.0,
-    "total_certified": 0,
-    "perc_tracked_total": 0.0,
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": 0.0,
+    "total_certified": 5.903293000000001,
+    "perc_tracked_total": 7.056290939517094,
+    "perc_residual": 92.9437090604829,
+    "perc_tracked_renewables": 55.48203007518797,
     "perc_green": 12.718144872101364,
     "generation_gco2kwh": "",
     "residualmix_gco2kwh": "",
@@ -3949,10 +3609,10 @@ window.DATA = [
     "year": 2022,
     "total_generation": 77.826824808,
     "total_co2": 49984.56843930186,
-    "total_certified": 0,
-    "perc_tracked_total": 0.0,
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": 0.0,
+    "total_certified": 6.257737,
+    "perc_tracked_total": 8.040591422607738,
+    "perc_residual": 91.95940857739227,
+    "perc_tracked_renewables": 62.28729957050489,
     "perc_green": 12.90887785800755,
     "generation_gco2kwh": 642.2537288732333,
     "residualmix_gco2kwh": 697.2122883503625,
@@ -3966,10 +3626,10 @@ window.DATA = [
     "year": 2023,
     "total_generation": 69.93927559999999,
     "total_co2": 40419.40565152547,
-    "total_certified": 0,
-    "perc_tracked_total": 0.0,
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": 0.0,
+    "total_certified": 10.057316,
+    "perc_tracked_total": 14.380068872203191,
+    "perc_residual": 85.6199311277968,
+    "perc_tracked_renewables": 63.514858824919415,
     "perc_green": 14.302762157676094,
     "generation_gco2kwh": 577.9214226165859,
     "residualmix_gco2kwh": 658.5750933540276,
@@ -3983,10 +3643,10 @@ window.DATA = [
     "year": 2024,
     "total_generation": 68.068604752,
     "total_co2": 36016.87452466703,
-    "total_certified": 0,
-    "perc_tracked_total": 0.0,
-    "perc_residual": 100.0,
-    "perc_tracked_renewables": 0.0,
+    "total_certified": 10.213965999999997,
+    "perc_tracked_total": 15.005399386711963,
+    "perc_residual": 84.99460061328804,
+    "perc_tracked_renewables": 14.005591571197643,
     "perc_green": 17.521494041726964,
     "generation_gco2kwh": 529.126087656568,
     "residualmix_gco2kwh": 584.069370301914,
@@ -4009,7 +3669,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Côte d'Ivoire",
@@ -4026,7 +3686,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Côte d'Ivoire",
@@ -4043,7 +3703,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Côte d'Ivoire",
@@ -4060,7 +3720,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Denmark",
@@ -4162,7 +3822,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Djibouti",
@@ -4179,7 +3839,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Djibouti",
@@ -4196,7 +3856,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Djibouti",
@@ -4213,7 +3873,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Dominica",
@@ -4230,7 +3890,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Dominica",
@@ -4247,7 +3907,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Dominica",
@@ -4264,7 +3924,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Dominica",
@@ -4281,7 +3941,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -4298,7 +3958,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Dominican Rep",
@@ -4383,7 +4043,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -4400,7 +4060,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -4417,7 +4077,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ecuador",
@@ -4638,7 +4298,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Equatorial Guinea",
@@ -4655,7 +4315,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Equatorial Guinea",
@@ -4672,7 +4332,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Equatorial Guinea",
@@ -4689,7 +4349,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eritrea",
@@ -4706,7 +4366,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eritrea",
@@ -4723,7 +4383,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eritrea",
@@ -4740,7 +4400,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eritrea",
@@ -4757,7 +4417,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Estonia",
@@ -4859,7 +4519,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eswatini",
@@ -4876,7 +4536,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eswatini",
@@ -4893,7 +4553,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Eswatini",
@@ -4910,7 +4570,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -4927,7 +4587,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -4944,7 +4604,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -4961,7 +4621,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -4978,7 +4638,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ethiopia",
@@ -5012,7 +4672,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Falkland Islands",
@@ -5029,7 +4689,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Falkland Islands",
@@ -5046,7 +4706,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Faroe Islands",
@@ -5063,7 +4723,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Faroe Islands",
@@ -5080,7 +4740,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Faroe Islands",
@@ -5097,7 +4757,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Fiji",
@@ -5114,7 +4774,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Fiji",
@@ -5131,7 +4791,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Fiji",
@@ -5148,7 +4808,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Fiji",
@@ -5165,7 +4825,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Finland",
@@ -5352,7 +5012,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "French Guiana",
@@ -5369,7 +5029,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "French Guiana",
@@ -5386,7 +5046,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "French Polynesia",
@@ -5403,7 +5063,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "French Polynesia",
@@ -5420,7 +5080,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "French Polynesia",
@@ -5437,7 +5097,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gabon",
@@ -5454,7 +5114,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gabon",
@@ -5471,7 +5131,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gabon",
@@ -5488,7 +5148,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gabon",
@@ -5505,7 +5165,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gambia",
@@ -5522,7 +5182,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gambia",
@@ -5539,7 +5199,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gambia",
@@ -5556,7 +5216,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gambia",
@@ -5573,7 +5233,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Georgia",
@@ -5590,7 +5250,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Georgia",
@@ -5607,7 +5267,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Georgia",
@@ -5624,7 +5284,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Georgia",
@@ -5641,7 +5301,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Georgia",
@@ -5658,7 +5318,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Germany",
@@ -5760,7 +5420,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -5777,7 +5437,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -5794,7 +5454,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ghana",
@@ -5845,7 +5505,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gibraltar",
@@ -5862,7 +5522,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gibraltar",
@@ -5879,7 +5539,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Gibraltar",
@@ -5896,7 +5556,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Greece",
@@ -5998,7 +5658,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Greenland",
@@ -6015,7 +5675,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Greenland",
@@ -6032,7 +5692,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Grenada",
@@ -6049,7 +5709,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Grenada",
@@ -6066,7 +5726,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Grenada",
@@ -6083,7 +5743,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guadeloupe",
@@ -6100,7 +5760,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guadeloupe",
@@ -6117,7 +5777,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guadeloupe",
@@ -6134,7 +5794,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guam",
@@ -6151,7 +5811,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guam",
@@ -6168,7 +5828,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guam",
@@ -6185,7 +5845,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guatemala",
@@ -6287,7 +5947,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guinea",
@@ -6304,7 +5964,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guinea",
@@ -6321,7 +5981,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guinea",
@@ -6338,7 +5998,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guinea-Bissau",
@@ -6355,7 +6015,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guinea-Bissau",
@@ -6372,7 +6032,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guinea-Bissau",
@@ -6389,7 +6049,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guyana",
@@ -6406,7 +6066,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guyana",
@@ -6423,7 +6083,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guyana",
@@ -6440,7 +6100,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Guyana",
@@ -6457,7 +6117,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Haiti",
@@ -6474,7 +6134,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Haiti",
@@ -6491,7 +6151,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Haiti",
@@ -6508,7 +6168,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Honduras",
@@ -6610,7 +6270,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Hong Kong",
@@ -6627,7 +6287,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Hong Kong",
@@ -6644,7 +6304,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Hong Kong",
@@ -6661,7 +6321,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Hungary",
@@ -7018,7 +6678,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iran",
@@ -7035,7 +6695,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iran",
@@ -7052,7 +6712,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iran",
@@ -7069,7 +6729,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iran",
@@ -7086,7 +6746,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iraq",
@@ -7103,7 +6763,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iraq",
@@ -7120,7 +6780,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iraq",
@@ -7137,7 +6797,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Iraq",
@@ -7154,7 +6814,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ireland",
@@ -7426,7 +7086,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -7443,7 +7103,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -7460,7 +7120,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Jamaica",
@@ -7511,7 +7171,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -7562,7 +7222,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Japan",
@@ -7681,7 +7341,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kazakhstan",
@@ -7766,7 +7426,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -7783,7 +7443,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -7800,7 +7460,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kenya",
@@ -7851,7 +7511,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kiribati",
@@ -7868,7 +7528,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kiribati",
@@ -7885,7 +7545,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Korea (the Republic of)",
@@ -7902,7 +7562,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Korea (the Republic of)",
@@ -7919,7 +7579,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Korea (the Republic of)",
@@ -7936,7 +7596,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kosovo",
@@ -7953,7 +7613,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kosovo",
@@ -7970,7 +7630,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kosovo",
@@ -7987,7 +7647,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kosovo",
@@ -8004,7 +7664,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kosovo",
@@ -8021,7 +7681,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kuwait",
@@ -8038,7 +7698,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kuwait",
@@ -8055,7 +7715,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kuwait",
@@ -8072,7 +7732,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kuwait",
@@ -8089,7 +7749,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kuwait",
@@ -8106,7 +7766,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kyrgyzstan",
@@ -8123,7 +7783,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kyrgyzstan",
@@ -8140,7 +7800,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kyrgyzstan",
@@ -8157,7 +7817,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kyrgyzstan",
@@ -8174,7 +7834,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Kyrgyzstan",
@@ -8191,7 +7851,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -8208,7 +7868,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -8225,7 +7885,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lao PDR",
@@ -8378,7 +8038,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -8395,7 +8055,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -8412,7 +8072,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -8429,7 +8089,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lebanon",
@@ -8463,7 +8123,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lesotho",
@@ -8480,7 +8140,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lesotho",
@@ -8497,7 +8157,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Liberia",
@@ -8514,7 +8174,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Liberia",
@@ -8531,7 +8191,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Liberia",
@@ -8548,7 +8208,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Liberia",
@@ -8565,7 +8225,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Libya",
@@ -8582,7 +8242,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Libya",
@@ -8599,7 +8259,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Libya",
@@ -8616,7 +8276,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Libya",
@@ -8633,7 +8293,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Lithuania",
@@ -8820,7 +8480,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Macao",
@@ -8837,7 +8497,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Macao",
@@ -8854,7 +8514,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Madagascar",
@@ -8871,7 +8531,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Madagascar",
@@ -8888,7 +8548,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Madagascar",
@@ -8905,7 +8565,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malawi",
@@ -8922,7 +8582,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malawi",
@@ -8939,7 +8599,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malawi",
@@ -8956,7 +8616,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malaysia",
@@ -9058,7 +8718,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Maldives",
@@ -9075,7 +8735,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Maldives",
@@ -9092,7 +8752,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Maldives",
@@ -9109,7 +8769,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mali",
@@ -9126,7 +8786,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mali",
@@ -9143,7 +8803,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mali",
@@ -9160,7 +8820,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mali",
@@ -9177,7 +8837,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malta",
@@ -9194,7 +8854,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malta",
@@ -9211,7 +8871,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malta",
@@ -9228,7 +8888,7 @@ window.DATA = [
     "residualmix_gco2kwh": 404.94224522297606,
     "untracked_pct": 97.66678775163263,
     "supplier_mix_twh": 2.7859874319399998,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malta",
@@ -9245,7 +8905,7 @@ window.DATA = [
     "residualmix_gco2kwh": 408.22477304066456,
     "untracked_pct": 95.3208860204867,
     "supplier_mix_twh": 2.8078392741709823,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Malta",
@@ -9262,7 +8922,7 @@ window.DATA = [
     "residualmix_gco2kwh": 398.4469379853619,
     "untracked_pct": 95.16266421619561,
     "supplier_mix_twh": 3.0992679999999995,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Martinique",
@@ -9279,7 +8939,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Martinique",
@@ -9296,7 +8956,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Martinique",
@@ -9313,7 +8973,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -9330,7 +8990,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -9347,7 +9007,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -9364,7 +9024,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mauritania",
@@ -9568,7 +9228,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Moldova",
@@ -9585,7 +9245,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Moldova",
@@ -9602,7 +9262,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Moldova",
@@ -9619,7 +9279,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Moldova",
@@ -9636,7 +9296,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -9653,7 +9313,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -9670,7 +9330,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mongolia",
@@ -9738,7 +9398,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montenegro",
@@ -9755,7 +9415,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montenegro",
@@ -9772,7 +9432,7 @@ window.DATA = [
     "residualmix_gco2kwh": 538.5943294332051,
     "untracked_pct": 100.0,
     "supplier_mix_twh": 3.347818,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montenegro",
@@ -9789,7 +9449,7 @@ window.DATA = [
     "residualmix_gco2kwh": 747.7314174372572,
     "untracked_pct": 99.958096329281,
     "supplier_mix_twh": 3.21451552307,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montenegro",
@@ -9806,7 +9466,7 @@ window.DATA = [
     "residualmix_gco2kwh": 622.5130413469392,
     "untracked_pct": 99.5009442655509,
     "supplier_mix_twh": 3.26216069192564,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montserrat",
@@ -9823,7 +9483,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montserrat",
@@ -9840,7 +9500,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Montserrat",
@@ -9857,7 +9517,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Morocco",
@@ -9959,7 +9619,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mozambique",
@@ -9976,7 +9636,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mozambique",
@@ -9993,7 +9653,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Mozambique",
@@ -10010,7 +9670,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Myanmar",
@@ -10027,7 +9687,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Myanmar",
@@ -10044,7 +9704,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Myanmar",
@@ -10061,7 +9721,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Myanmar",
@@ -10078,7 +9738,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Myanmar",
@@ -10098,91 +9758,6 @@ window.DATA = [
     "methodology": "I-REC"
   },
   {
-    "country": "N Cyprus",
-    "country_code": "CYP",
-    "year": 2020,
-    "total_generation": 4.85,
-    "total_co2": 2820.0,
-    "total_certified": 0.0018770000000000002,
-    "perc_tracked_total": 0.038701030927835056,
-    "perc_residual": 99.96129896907216,
-    "perc_tracked_renewables": 0.31283333333333335,
-    "perc_green": 12.371134020618557,
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "I-REC"
-  },
-  {
-    "country": "N Cyprus",
-    "country_code": "CYP",
-    "year": 2021,
-    "total_generation": 5.119999999999999,
-    "total_co2": 2890.0,
-    "total_certified": 0.00347,
-    "perc_tracked_total": 0.0677734375,
-    "perc_residual": 99.9322265625,
-    "perc_tracked_renewables": 0.44487179487179485,
-    "perc_green": 15.234375000000004,
-    "generation_gco2kwh": "",
-    "residualmix_gco2kwh": "",
-    "untracked_pct": "",
-    "supplier_mix_twh": "",
-    "methodology": "I-REC"
-  },
-  {
-    "country": "N Cyprus",
-    "country_code": "CYP",
-    "year": 2022,
-    "total_generation": 5.0222750000000005,
-    "total_co2": 3058.2534453000003,
-    "total_certified": 0.012141000000000006,
-    "perc_tracked_total": 0.24174303478005496,
-    "perc_residual": 99.75825696521994,
-    "perc_tracked_renewables": 1.379684176075929,
-    "perc_green": 17.521621177653554,
-    "generation_gco2kwh": 608.9378708453838,
-    "residualmix_gco2kwh": 607.4017920442917,
-    "untracked_pct": 99.99681038220591,
-    "supplier_mix_twh": 5.016275,
-    "methodology": "I-REC"
-  },
-  {
-    "country": "N Cyprus",
-    "country_code": "CYP",
-    "year": 2023,
-    "total_generation": 5.132937,
-    "total_co2": 2939.7295139999997,
-    "total_certified": 0.268528,
-    "perc_tracked_total": 5.231468845224478,
-    "perc_residual": 94.76853115477552,
-    "perc_tracked_renewables": 24.803830014030947,
-    "perc_green": 21.09137517175839,
-    "generation_gco2kwh": 572.7187990033775,
-    "residualmix_gco2kwh": 595.0340330880609,
-    "untracked_pct": 99.90860982708341,
-    "supplier_mix_twh": 5.132937,
-    "methodology": "I-REC"
-  },
-  {
-    "country": "N Cyprus",
-    "country_code": "CYP",
-    "year": 2024,
-    "total_generation": 5.273000000000001,
-    "total_co2": 3092.8576000000003,
-    "total_certified": 0.19313599999999997,
-    "perc_tracked_total": 3.662734686136923,
-    "perc_residual": 96.33726531386307,
-    "perc_tracked_renewables": 17.86641998149861,
-    "perc_green": 20.500663758771097,
-    "generation_gco2kwh": 586.5461027877868,
-    "residualmix_gco2kwh": 613.0802825254757,
-    "untracked_pct": 95.6532239603205,
-    "supplier_mix_twh": 5.241999999999999,
-    "methodology": "GO"
-  },
-  {
     "country": "Namibia",
     "country_code": "NAM",
     "year": 2020,
@@ -10197,7 +9772,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -10214,7 +9789,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Namibia",
@@ -10282,7 +9857,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nauru",
@@ -10299,7 +9874,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nauru",
@@ -10316,7 +9891,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nauru",
@@ -10333,7 +9908,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nepal",
@@ -10350,7 +9925,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nepal",
@@ -10367,7 +9942,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nepal",
@@ -10384,7 +9959,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nepal",
@@ -10520,7 +10095,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Caledonia",
@@ -10537,7 +10112,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Caledonia",
@@ -10554,7 +10129,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -10571,7 +10146,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -10588,7 +10163,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -10605,7 +10180,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -10622,7 +10197,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "New Zealand",
@@ -10656,7 +10231,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -10673,7 +10248,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -10690,7 +10265,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -10707,7 +10282,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nicaragua",
@@ -10741,7 +10316,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Niger",
@@ -10758,7 +10333,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Niger",
@@ -10775,7 +10350,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Niger",
@@ -10792,7 +10367,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Nigeria",
@@ -10894,7 +10469,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Korea",
@@ -10911,7 +10486,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Korea",
@@ -10928,7 +10503,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Macedonia",
@@ -10945,7 +10520,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Macedonia",
@@ -10962,7 +10537,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Macedonia",
@@ -10979,7 +10554,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Macedonia",
@@ -10996,7 +10571,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "North Macedonia",
@@ -11013,7 +10588,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Norway",
@@ -11115,7 +10690,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Oman",
@@ -11200,7 +10775,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -11217,7 +10792,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Pakistan",
@@ -11285,7 +10860,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Palestine, State of",
@@ -11302,7 +10877,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Palestine, State of",
@@ -11319,7 +10894,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Panama",
@@ -11421,7 +10996,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Papua New Guinea",
@@ -11438,7 +11013,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Papua New Guinea",
@@ -11455,7 +11030,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Papua New Guinea",
@@ -11472,7 +11047,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Paraguay",
@@ -11489,7 +11064,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Paraguay",
@@ -11506,7 +11081,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Paraguay",
@@ -11523,7 +11098,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Paraguay",
@@ -11540,7 +11115,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Peru",
@@ -11727,7 +11302,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Poland",
@@ -11744,7 +11319,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Poland",
@@ -11761,7 +11336,7 @@ window.DATA = [
     "residualmix_gco2kwh": 858.1185716129928,
     "untracked_pct": 88.05714178819477,
     "supplier_mix_twh": 158.71410900000004,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Poland",
@@ -11778,7 +11353,7 @@ window.DATA = [
     "residualmix_gco2kwh": 788.2439199878985,
     "untracked_pct": 86.1726951239395,
     "supplier_mix_twh": 153.096378432,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Poland",
@@ -11795,7 +11370,7 @@ window.DATA = [
     "residualmix_gco2kwh": 808.2995057684161,
     "untracked_pct": 83.0621325484316,
     "supplier_mix_twh": 154.20245243200003,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Portugal",
@@ -11897,7 +11472,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Puerto Rico",
@@ -11914,7 +11489,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Puerto Rico",
@@ -11931,7 +11506,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Puerto Rico",
@@ -11948,7 +11523,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Puerto Rico",
@@ -11965,7 +11540,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Qatar",
@@ -11982,7 +11557,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Qatar",
@@ -11999,7 +11574,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Qatar",
@@ -12016,7 +11591,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Qatar",
@@ -12033,7 +11608,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Qatar",
@@ -12050,6 +11625,91 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
+    "methodology": "I-REC"
+  },
+  {
+    "country": "Republic of Cyprus",
+    "country_code": "CYP",
+    "year": 2020,
+    "total_generation": 4.85,
+    "total_co2": 2820.0,
+    "total_certified": 0.0018770000000000002,
+    "perc_tracked_total": 0.038701030927835056,
+    "perc_residual": 99.96129896907216,
+    "perc_tracked_renewables": 0.31283333333333335,
+    "perc_green": 12.371134020618557,
+    "generation_gco2kwh": "",
+    "residualmix_gco2kwh": "",
+    "untracked_pct": "",
+    "supplier_mix_twh": "",
+    "methodology": "GO"
+  },
+  {
+    "country": "Republic of Cyprus",
+    "country_code": "CYP",
+    "year": 2021,
+    "total_generation": 5.119999999999999,
+    "total_co2": 2890.0,
+    "total_certified": 0.00347,
+    "perc_tracked_total": 0.0677734375,
+    "perc_residual": 99.9322265625,
+    "perc_tracked_renewables": 0.44487179487179485,
+    "perc_green": 15.234375000000004,
+    "generation_gco2kwh": "",
+    "residualmix_gco2kwh": "",
+    "untracked_pct": "",
+    "supplier_mix_twh": "",
+    "methodology": "GO"
+  },
+  {
+    "country": "Republic of Cyprus",
+    "country_code": "CYP",
+    "year": 2022,
+    "total_generation": 5.0222750000000005,
+    "total_co2": 3058.2534453000003,
+    "total_certified": 0.012141000000000006,
+    "perc_tracked_total": 0.24174303478005496,
+    "perc_residual": 99.75825696521994,
+    "perc_tracked_renewables": 1.379684176075929,
+    "perc_green": 17.521621177653554,
+    "generation_gco2kwh": 608.9378708453838,
+    "residualmix_gco2kwh": 607.4017920442917,
+    "untracked_pct": 99.99681038220591,
+    "supplier_mix_twh": 5.016275,
+    "methodology": "GO"
+  },
+  {
+    "country": "Republic of Cyprus",
+    "country_code": "CYP",
+    "year": 2023,
+    "total_generation": 5.132937,
+    "total_co2": 2939.7295139999997,
+    "total_certified": 0.268528,
+    "perc_tracked_total": 5.231468845224478,
+    "perc_residual": 94.76853115477552,
+    "perc_tracked_renewables": 24.803830014030947,
+    "perc_green": 21.09137517175839,
+    "generation_gco2kwh": 572.7187990033775,
+    "residualmix_gco2kwh": 595.0340330880609,
+    "untracked_pct": 99.90860982708341,
+    "supplier_mix_twh": 5.132937,
+    "methodology": "GO"
+  },
+  {
+    "country": "Republic of Cyprus",
+    "country_code": "CYP",
+    "year": 2024,
+    "total_generation": 5.273000000000001,
+    "total_co2": 3092.8576000000003,
+    "total_certified": 0.19313599999999997,
+    "perc_tracked_total": 3.662734686136923,
+    "perc_residual": 96.33726531386307,
+    "perc_tracked_renewables": 17.86641998149861,
+    "perc_green": 20.500663758771097,
+    "generation_gco2kwh": 586.5461027877868,
+    "residualmix_gco2kwh": 613.0802825254757,
+    "untracked_pct": 95.6532239603205,
+    "supplier_mix_twh": 5.241999999999999,
     "methodology": "GO"
   },
   {
@@ -12067,7 +11727,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Romania",
@@ -12084,7 +11744,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Romania",
@@ -12101,7 +11761,7 @@ window.DATA = [
     "residualmix_gco2kwh": 275.75259335725497,
     "untracked_pct": 98.76923494829158,
     "supplier_mix_twh": 51.53900000000001,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Romania",
@@ -12118,7 +11778,7 @@ window.DATA = [
     "residualmix_gco2kwh": 212.53657682503362,
     "untracked_pct": 98.0784090909091,
     "supplier_mix_twh": 49.19200000000001,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Romania",
@@ -12135,7 +11795,7 @@ window.DATA = [
     "residualmix_gco2kwh": 233.0222259808615,
     "untracked_pct": 99.3356807789341,
     "supplier_mix_twh": 50.73599999999999,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Russian Fed",
@@ -12203,7 +11863,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Russian Fed",
@@ -12220,7 +11880,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Rwanda",
@@ -12237,7 +11897,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Rwanda",
@@ -12254,7 +11914,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Rwanda",
@@ -12271,7 +11931,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Rwanda",
@@ -12288,7 +11948,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Réunion",
@@ -12305,7 +11965,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Réunion",
@@ -12322,7 +11982,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Réunion",
@@ -12339,7 +11999,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Helena, Ascension and Tristan da Cunha",
@@ -12356,7 +12016,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Helena, Ascension and Tristan da Cunha",
@@ -12373,7 +12033,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Helena, Ascension and Tristan da Cunha",
@@ -12390,7 +12050,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Kitts and Nevis",
@@ -12407,7 +12067,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Kitts and Nevis",
@@ -12424,7 +12084,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Kitts and Nevis",
@@ -12441,7 +12101,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Lucia",
@@ -12458,7 +12118,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Lucia",
@@ -12475,7 +12135,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Lucia",
@@ -12492,7 +12152,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Pierre and Miquelon",
@@ -12509,7 +12169,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Pierre and Miquelon",
@@ -12526,7 +12186,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Pierre and Miquelon",
@@ -12543,7 +12203,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Vincent and the Grenadines",
@@ -12560,7 +12220,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Vincent and the Grenadines",
@@ -12577,7 +12237,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Vincent and the Grenadines",
@@ -12594,7 +12254,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saint Vincent and the Grenadines",
@@ -12611,7 +12271,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Samoa",
@@ -12628,7 +12288,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Samoa",
@@ -12645,7 +12305,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Samoa",
@@ -12662,7 +12322,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Samoa",
@@ -12679,7 +12339,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sao Tome and Principe",
@@ -12696,7 +12356,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sao Tome and Principe",
@@ -12713,7 +12373,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sao Tome and Principe",
@@ -12730,7 +12390,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -12747,7 +12407,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Saudi Arabia",
@@ -12832,7 +12492,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Senegal",
@@ -12849,7 +12509,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Senegal",
@@ -12866,7 +12526,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Senegal",
@@ -12883,7 +12543,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Serbia",
@@ -12985,7 +12645,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Seychelles",
@@ -13002,7 +12662,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Seychelles",
@@ -13019,7 +12679,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Seychelles",
@@ -13036,7 +12696,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sierra Leone",
@@ -13053,7 +12713,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sierra Leone",
@@ -13070,7 +12730,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sierra Leone",
@@ -13087,7 +12747,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sierra Leone",
@@ -13104,7 +12764,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Singapore",
@@ -13376,7 +13036,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Solomon Islands",
@@ -13393,7 +13053,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Solomon Islands",
@@ -13410,7 +13070,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Solomon Islands",
@@ -13427,7 +13087,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -13444,7 +13104,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -13461,7 +13121,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -13478,7 +13138,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Somalia",
@@ -13614,7 +13274,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Korea",
@@ -13631,7 +13291,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Korea",
@@ -13648,7 +13308,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Korea",
@@ -13665,7 +13325,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Korea",
@@ -13682,7 +13342,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -13699,7 +13359,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -13750,7 +13410,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "South Sudan",
@@ -13954,7 +13614,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sudan",
@@ -13971,7 +13631,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sudan",
@@ -13988,7 +13648,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Sudan",
@@ -14005,7 +13665,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -14022,7 +13682,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -14039,7 +13699,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -14056,7 +13716,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Suriname",
@@ -14277,7 +13937,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Syria",
@@ -14294,7 +13954,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Syria",
@@ -14311,7 +13971,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Taiwan",
@@ -14413,7 +14073,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tajikistan",
@@ -14430,7 +14090,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tajikistan",
@@ -14447,7 +14107,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tajikistan",
@@ -14464,7 +14124,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tajikistan",
@@ -14481,7 +14141,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tanzania",
@@ -14498,7 +14158,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tanzania",
@@ -14515,7 +14175,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tanzania",
@@ -14532,7 +14192,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tanzania",
@@ -14549,7 +14209,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Thailand",
@@ -14651,7 +14311,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Timor-Leste",
@@ -14668,7 +14328,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Timor-Leste",
@@ -14685,7 +14345,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Timor-Leste",
@@ -14702,7 +14362,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Togo",
@@ -14719,7 +14379,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Togo",
@@ -14736,7 +14396,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Togo",
@@ -14753,7 +14413,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Togo",
@@ -14770,7 +14430,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tonga",
@@ -14787,7 +14447,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tonga",
@@ -14804,7 +14464,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tonga",
@@ -14821,7 +14481,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tonga",
@@ -14838,7 +14498,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Trinidad and Tobago",
@@ -14855,7 +14515,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Trinidad and Tobago",
@@ -14872,7 +14532,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Trinidad and Tobago",
@@ -14889,7 +14549,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Trinidad and Tobago",
@@ -14906,7 +14566,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tunisia",
@@ -14923,7 +14583,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tunisia",
@@ -14940,7 +14600,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tunisia",
@@ -14957,7 +14617,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tunisia",
@@ -14974,7 +14634,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Tunisia",
@@ -14991,7 +14651,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turkmenistan",
@@ -15008,7 +14668,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turkmenistan",
@@ -15025,7 +14685,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turkmenistan",
@@ -15042,7 +14702,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turkmenistan",
@@ -15059,7 +14719,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turks and Caicos Islands",
@@ -15076,7 +14736,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turks and Caicos Islands",
@@ -15093,7 +14753,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turks and Caicos Islands",
@@ -15110,7 +14770,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Turks and Caicos Islands",
@@ -15127,7 +14787,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Türkiye",
@@ -15314,7 +14974,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "US Virgin Islands",
@@ -15331,7 +14991,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "US Virgin Islands",
@@ -15348,7 +15008,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "US Virgin Islands",
@@ -15365,7 +15025,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uganda",
@@ -15467,7 +15127,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ukraine",
@@ -15484,7 +15144,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Ukraine",
@@ -15501,7 +15161,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United Kingdom",
@@ -15518,7 +15178,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United Kingdom",
@@ -15535,7 +15195,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United Kingdom",
@@ -15552,7 +15212,7 @@ window.DATA = [
     "residualmix_gco2kwh": 365.1478857402329,
     "untracked_pct": 51.43964078303425,
     "supplier_mix_twh": 306.5,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United Kingdom",
@@ -15569,7 +15229,7 @@ window.DATA = [
     "residualmix_gco2kwh": 388.4044509593338,
     "untracked_pct": 80.8231137756424,
     "supplier_mix_twh": 296.8376999999999,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United Kingdom",
@@ -15586,7 +15246,7 @@ window.DATA = [
     "residualmix_gco2kwh": 420.7566520436972,
     "untracked_pct": 86.3547948885976,
     "supplier_mix_twh": 305.20000000000005,
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United States of America",
@@ -15603,7 +15263,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United States of America",
@@ -15620,7 +15280,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United States of America",
@@ -15637,7 +15297,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United States of America",
@@ -15654,7 +15314,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "United States of America",
@@ -15671,7 +15331,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uruguay",
@@ -15688,7 +15348,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uruguay",
@@ -15705,7 +15365,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uruguay",
@@ -15722,7 +15382,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uruguay",
@@ -15739,7 +15399,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uruguay",
@@ -15756,7 +15416,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -15773,7 +15433,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -15790,7 +15450,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -15807,7 +15467,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Uzbekistan",
@@ -15858,7 +15518,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Vanuatu",
@@ -15875,7 +15535,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Vanuatu",
@@ -15892,7 +15552,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Vanuatu",
@@ -15909,7 +15569,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Venezuela",
@@ -15926,7 +15586,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Venezuela",
@@ -15943,7 +15603,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Venezuela",
@@ -15960,7 +15620,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Venezuela",
@@ -15977,7 +15637,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Vietnam",
@@ -16079,7 +15739,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Yemen",
@@ -16096,7 +15756,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Yemen",
@@ -16113,7 +15773,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Yemen",
@@ -16130,7 +15790,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -16147,7 +15807,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -16164,7 +15824,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zambia",
@@ -16232,7 +15892,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -16249,7 +15909,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -16266,7 +15926,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",
@@ -16283,7 +15943,7 @@ window.DATA = [
     "residualmix_gco2kwh": "",
     "untracked_pct": "",
     "supplier_mix_twh": "",
-    "methodology": "GO"
+    "methodology": "I-REC"
   },
   {
     "country": "Zimbabwe",

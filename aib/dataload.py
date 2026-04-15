@@ -45,7 +45,7 @@ _ISO3_OVERRIDES = {
     "Congo, DRC": "COD",
     "Dominican Rep": "DOM",
     "Lao PDR": "LAO",
-    "N Cyprus": "CYP",
+    "Republic of Cyprus": "CYP",
     "UAE": "ARE",
     "Russian Fed": "RUS",
     "Kosovo": "XKX",
@@ -53,9 +53,6 @@ _ISO3_OVERRIDES = {
     "Bosnia Herzegovina": "BIH",
     "Taiwan": "TWN",
     "North Korea": "PRK",
-    "Belgium (Brussels)": "BEL",
-    "Belgium (Flanders)": "BEL",
-    "Belgium (Wallonia)": "BEL",
     "British Virgin Islands": "VGB",
     "US Virgin Islands": "VIR",
     "Falkland Islands": "FLK",
@@ -261,10 +258,12 @@ COUNTRY_NAME_OVERRIDES = {
     "reunion": "Réunion",
     "russian fed": "Russian Fed",
     "kosovo": "Kosovo",
-    # Belgium sub-regions (keep separate, map to BEL)
-    "belgium (brussels)": "Belgium (Brussels)",
-    "belgium (flanders)": "Belgium (Flanders)",
-    "belgium (wallonia)": "Belgium (Wallonia)",
+    "n cyprus": "Republic of Cyprus",
+    "czech republic": "Czechia",
+    # Belgium sub-regions → aggregate to single country
+    "belgium (brussels)": "Belgium",
+    "belgium (flanders)": "Belgium",
+    "belgium (wallonia)": "Belgium",
     # Test rows — drop these
     "irectestrow1": "_TEST_",
     "irectestrow4": "_TEST_",
@@ -280,7 +279,13 @@ def map_country(raw, xlsx_map):
     key = str(raw).strip().lower()
     if key in COUNTRY_NAME_OVERRIDES:
         return COUNTRY_NAME_OVERRIDES[key]
-    return xlsx_map.get(key, str(raw).strip())
+    result = xlsx_map.get(key, str(raw).strip())
+    # Re-normalise: xlsx_map may return a name we want to standardise
+    # (e.g. Mappings.xlsx maps "Cyprus" → "N Cyprus" which we rename here)
+    result_key = result.strip().lower()
+    if result_key in COUNTRY_NAME_OVERRIDES:
+        return COUNTRY_NAME_OVERRIDES[result_key]
+    return result
 
 
 def _iso2_to_country(iso2: str, country_map: dict) -> str:
@@ -756,7 +761,7 @@ DETAIL_COLS = [
     "issuance_go", "issuance_go_expire", "issuance_go_cancel",
     "issuance_ext", "issuance_total", "certified_mix",
     "total_generation", "residual_mix", "total_co2", "emission_factor", "generation_gco2kwh",
-    "sources", "methodology", "issuance",
+    "sources", "issuance",
 ]
 
 # Aggregated output (per country/year)
@@ -770,6 +775,38 @@ AGG_COLS = [
 
 OUTPUT_DETAIL = BASE / "01_detail.csv"
 OUTPUT_AGG    = BASE / "01_aggregated.csv"
+
+PUBLIC_DATA   = BASE.parent / "public_html" / "data"
+OUTPUT_AGG_JS    = PUBLIC_DATA / "data_aib.js"
+OUTPUT_DETAIL_JS = PUBLIC_DATA / "data_detail.js"
+
+
+def _df_to_records(df):
+    """Convert DataFrame rows to JSON-serialisable dicts: NaN → '', numpy scalars → Python natives."""
+    out = []
+    for row in df.itertuples(index=False):
+        rec = {}
+        for col, val in zip(df.columns, row):
+            if pd.isna(val):
+                rec[col] = ""
+            elif isinstance(val, (np.integer,)):
+                rec[col] = int(val)
+            elif isinstance(val, (np.floating,)):
+                rec[col] = float(val)
+            else:
+                rec[col] = val
+        out.append(rec)
+    return out
+
+
+def write_js(df, var_name, output_path):
+    """Write DataFrame as window.<var_name> = [...] JS file."""
+    import json
+    records = _df_to_records(df)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(f"window.{var_name} = ")
+        json.dump(records, f, ensure_ascii=False, indent=2)
+    print(f"JS      -> {output_path.name}: {len(records):,} rows")
 
 
 # ── Main pipeline ─────────────────────────────────────────────────────────────
@@ -844,6 +881,11 @@ def main():
         df = df.merge(covered, on=["country", "year"], how="left")
         is_covered = df["_aib_covered"].fillna(False)
         df.loc[is_covered, "generation"] = df.loc[is_covered, "aib_generation"]
+        # For AIB-covered country/years, remove EMBERS generation+CO2 for any source
+        # not present in AIB's Production Mix — AIB is the authoritative source.
+        no_aib = is_covered & df["aib_generation"].isna()
+        df.loc[no_aib, "generation"] = pd.NA
+        df.loc[no_aib, "total_co2"]  = pd.NA
         df.drop(columns=["_aib_covered"], inplace=True)
 
     df["total_generation"] = df["generation"]
@@ -910,15 +952,12 @@ def main():
         default="",
     )
 
-    # methodology label (vectorised)
-    df["methodology"] = np.where(
-        df["issuance_irec"].notna() & (df["issuance_irec"] > 0), "I-REC", "GO"
-    )
-
     # sources: comma-separated list of contributing data sources (vectorised)
-    gen_col = df["generation"] if "generation" in df.columns else pd.Series(False, index=df.index)
+    # EMBERS is only credited when generation was not replaced by AIB Production Mix data
+    gen_col    = df["generation"] if "generation" in df.columns else pd.Series(False, index=df.index)
+    is_aib_gen = (df["aib_generation"].notna() & (df["aib_generation"] > 0)) if "aib_generation" in df.columns else pd.Series(False, index=df.index)
     src_flags = {label: df[col].notna() & (df[col] > 0) for col, label in SOURCE_LABELS.items()}
-    src_flags["EMBERS"] = gen_col.notna() & (gen_col > 0)
+    src_flags["EMBERS"] = gen_col.notna() & (gen_col > 0) & ~is_aib_gen
     df["sources"] = (
         pd.DataFrame(src_flags)
         .apply(lambda r: ", ".join(k for k, v in r.items() if v), axis=1)
@@ -947,6 +986,7 @@ def main():
     detail.to_csv(OUTPUT_DETAIL, index=False)
     print(f"\nDetail  -> {OUTPUT_DETAIL.name}: {len(detail):,} rows, "
           f"{detail['country'].nunique()} countries, years {detail['year'].min()}-{detail['year'].max()}")
+    write_js(detail, "DATA_DETAIL", OUTPUT_DETAIL_JS)
 
     # ── Aggregated output ─────────────────────────────────────────────────────
     grp = df.groupby(["country", "country_code", "year"], as_index=False).agg(
@@ -999,13 +1039,19 @@ def main():
         for col in ("residualmix_gco2kwh", "untracked_pct", "supplier_mix_twh"):
             grp[col] = pd.NA
 
-    # methodology at country/year level: I-REC if any row has irec issuance, else GO
-    irec_cy = (
-        df[df["issuance_irec"].notna() & (df["issuance_irec"] > 0)][["country", "year"]]
-        .drop_duplicates()
-        .assign(methodology="I-REC")
+    # methodology per country: GO if SUM(issuance_go) > SUM(issuance_irec) across all years
+    country_meth = (
+        df.groupby("country", as_index=False)
+        .agg(
+            _total_go=("issuance_go",   lambda x: x.fillna(0).sum()),
+            _total_irec=("issuance_irec", lambda x: x.fillna(0).sum()),
+        )
     )
-    grp = grp.merge(irec_cy, on=["country", "year"], how="left")
+    country_meth["methodology"] = np.where(
+        country_meth["_total_go"] > country_meth["_total_irec"], "GO", "I-REC"
+    )
+    country_meth = country_meth[["country", "methodology"]]
+    grp = grp.merge(country_meth, on="country", how="left")
     grp["methodology"] = grp["methodology"].fillna("GO")
 
     grp = (
@@ -1016,6 +1062,7 @@ def main():
     grp.to_csv(OUTPUT_AGG, index=False)
     print(f"Aggreg. -> {OUTPUT_AGG.name}: {len(grp):,} rows, "
           f"{grp['country'].nunique()} countries")
+    write_js(grp, "DATA", OUTPUT_AGG_JS)
 
 
 # ── Verification helpers ──────────────────────────────────────────────────────

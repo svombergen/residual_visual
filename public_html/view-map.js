@@ -274,10 +274,23 @@ function filterOverseasTerritories(geojson) {
       });
       geom.coordinates = european;
     } else if (id === "NOR" && geom.type === "MultiPolygon") {
-      // Remove Svalbard (entirely above lat 74)
-      geom.coordinates = geom.coordinates.filter(polygon =>
-        polygon[0].some(([, lat]) => lat < 74)
-      );
+      // Split Svalbard (lat >= 74) out of Norway into its own feature
+      const svalbardPolygons = [];
+      geom.coordinates = geom.coordinates.filter(polygon => {
+        if (polygon[0].every(([, lat]) => lat >= 74)) {
+          svalbardPolygons.push(polygon);
+          return false;
+        }
+        return true;
+      });
+      if (svalbardPolygons.length > 0) {
+        geojson.features.push({
+          type: "Feature",
+          id: "SJM",
+          properties: { id: "SJM", display_name: "Svalbard", name: "Svalbard" },
+          geometry: { type: "MultiPolygon", coordinates: svalbardPolygons }
+        });
+      }
     } else if (id === "PRT" && geom.type === "MultiPolygon") {
       // Remove Azores and Madeira (lon < -12; mainland Portugal is lon -9.4..-6.2)
       geom.coordinates = geom.coordinates.filter(polygon =>
