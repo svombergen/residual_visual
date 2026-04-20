@@ -890,7 +890,7 @@
                 { name: "Issuance LGC",       color: "#f0d060", values: BAR_ORDER.map(s => val(s, "issuance_lgc")) },
                 { name: "Issuance TIGRS",     color: "#fad48a", values: BAR_ORDER.map(s => val(s, "issuance_tigrs")) },
                 { name: "Issuance Ecogox",    color: "#e8c46a", values: BAR_ORDER.map(s => val(s, "issuance_ecogox")) },
-                { name: "Not Issued",         color: "#F2B08A", values: BAR_ORDER.map(s => val(s, "residual_mix")) },
+                { name: "Not Issued",         color: "#F2B08A", values: BAR_ORDER.map(s => Math.max(0, val(s, "total_generation") - val(s, "certified_mix"))) },
                 { name: "Import",             color: "#83D5F4", values: BAR_ORDER.map(s => val(s, "import_physical")) },
                 { name: "Export",             color: "#E7E58F", values: BAR_ORDER.map(s => -(val(s, "export_physical"))) },
             ];
