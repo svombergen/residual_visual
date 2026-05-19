@@ -11,7 +11,6 @@
       --blue:        #034EA2;
       --blue-mid:    #1a6ec0;
       --blue-light:  #E8F0FB;
-      --blue-xlight: #f0f5fd;
       --green:       #4a7c59;
       --green-light: #e8f0e9;
       --green-cert:  #93aa7b;
@@ -19,6 +18,7 @@
       --orange-light:#fdf0e8;
       --yellow:      #b08800;
       --yellow-light:#fdf8e1;
+      --purple:      #6b3fa0;
       --text:        #1a2332;
       --text-muted:  #5a6a7e;
       --border:      #d0d9e8;
@@ -72,7 +72,7 @@
     .nav-links a {
       text-decoration: none;
       color: var(--text-muted);
-      font-size: 13.5px;
+      font-size: 13px;
       font-weight: 500;
       padding: 2px 0;
       border-bottom: 2px solid transparent;
@@ -82,7 +82,7 @@
     .nav-links a.active { color: var(--blue); border-bottom-color: var(--blue); }
     .print-btn {
       margin-left: 12px;
-      padding: 7px 18px;
+      padding: 7px 16px;
       background: var(--blue);
       color: white;
       border: none;
@@ -96,14 +96,8 @@
     }
     .print-btn:hover { background: var(--blue-mid); }
 
-    /* ── MAIN LAYOUT ── */
-    main {
-      max-width: 1020px;
-      margin: 0 auto;
-      padding: 0 40px 96px;
-    }
-
-    /* ── SECTIONS ── */
+    /* ── LAYOUT ── */
+    main { max-width: 1020px; margin: 0 auto; padding: 0 40px 96px; }
     section { padding: 64px 0 0; }
 
     .section-label {
@@ -131,15 +125,8 @@
     }
 
     /* ── HERO ── */
-    .hero {
-      padding: 72px 0 52px;
-      text-align: center;
-    }
-    .hero-logo {
-      height: 72px;
-      width: auto;
-      margin-bottom: 24px;
-    }
+    .hero { padding: 72px 0 52px; text-align: center; }
+    .hero-logo { height: 72px; width: auto; margin-bottom: 24px; }
     .hero h1 {
       font-size: 44px;
       font-weight: 700;
@@ -159,7 +146,6 @@
     .hero-stats {
       display: flex;
       justify-content: center;
-      gap: 0;
       background: var(--white);
       border: 1px solid var(--border);
       border-radius: 14px;
@@ -175,25 +161,11 @@
       border-right: 1px solid var(--border);
     }
     .hero-stat:last-child { border-right: none; }
-    .hero-stat-value {
-      font-size: 30px;
-      font-weight: 700;
-      color: var(--blue);
-      line-height: 1;
-    }
-    .hero-stat-label {
-      font-size: 11.5px;
-      color: var(--text-muted);
-      margin-top: 5px;
-      font-weight: 500;
-    }
+    .hero-stat-value { font-size: 30px; font-weight: 700; color: var(--blue); line-height: 1; }
+    .hero-stat-label { font-size: 11.5px; color: var(--text-muted); margin-top: 5px; font-weight: 500; }
 
     /* ── CONCEPT CARDS ── */
-    .concept-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 18px;
-    }
+    .concept-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
     .concept-card {
       background: var(--white);
       border: 1px solid var(--border);
@@ -202,114 +174,50 @@
       box-shadow: var(--shadow);
     }
     .concept-icon {
-      width: 46px;
-      height: 46px;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 22px;
-      margin-bottom: 16px;
+      width: 46px; height: 46px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; margin-bottom: 16px;
     }
-    .concept-card h3 {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 8px;
-    }
-    .concept-card p {
-      font-size: 14px;
-      color: var(--text-muted);
-      line-height: 1.55;
-    }
+    .concept-card h3 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+    .concept-card p  { font-size: 14px; color: var(--text-muted); line-height: 1.55; }
 
     /* ── ENERGY GROUPS ── */
-    .energy-groups {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 18px;
-    }
-    .energy-group {
-      border-radius: var(--radius);
-      padding: 20px 22px;
-      border: 1px solid transparent;
-    }
+    .energy-groups { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
+    .energy-group { border-radius: var(--radius); padding: 20px 22px; border: 1px solid transparent; }
     .energy-group.res    { background: var(--green-light); border-color: #c5d9bc; }
     .energy-group.fossil { background: var(--orange-light); border-color: #f5cdb0; }
     .energy-group.nuke   { background: var(--yellow-light); border-color: #e8d888; }
-    .energy-group-title {
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.2px;
-      margin-bottom: 14px;
-    }
+    .energy-group-title  { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px; }
     .energy-group.res    .energy-group-title { color: #2e5c38; }
     .energy-group.fossil .energy-group-title { color: #8c3200; }
     .energy-group.nuke   .energy-group-title { color: #7a5c00; }
     .energy-pills { display: flex; flex-wrap: wrap; gap: 7px; }
-    .energy-pill {
-      padding: 4px 11px;
-      border-radius: 20px;
-      font-size: 13px;
-      font-weight: 500;
-    }
+    .energy-pill  { padding: 4px 11px; border-radius: 20px; font-size: 13px; font-weight: 500; }
     .energy-pill.res    { background: #93aa7b; color: #1b3d14; }
     .energy-pill.fossil { background: #F2B08A; color: #4d1800; }
     .energy-pill.nuke   { background: #ffe085; color: #3d2e00; }
 
-    /* ── DATA SOURCE CARDS ── */
-    .sources-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
+    /* ── SOURCE CARDS ── */
+    .sources-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .source-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 18px 20px;
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-      box-shadow: var(--shadow);
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 20px;
+      display: flex; gap: 16px; align-items: flex-start; box-shadow: var(--shadow);
     }
     .source-badge {
-      width: 42px;
-      height: 42px;
-      border-radius: 8px;
-      font-weight: 700;
-      font-size: 11px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      text-align: center;
-      line-height: 1.2;
-      letter-spacing: 0.3px;
+      width: 42px; height: 42px; border-radius: 8px;
+      font-weight: 700; font-size: 11px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; text-align: center; line-height: 1.2; letter-spacing: 0.3px;
     }
     .source-badge.cert { background: var(--blue-light); color: var(--blue); }
     .source-badge.gen  { background: var(--green-light); color: var(--green); }
-    .source-info h4 {
-      font-size: 14.5px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 4px;
-    }
-    .source-info p {
-      font-size: 13px;
-      color: var(--text-muted);
-      line-height: 1.45;
-    }
+    .source-info h4 { font-size: 14.5px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+    .source-info p  { font-size: 13px; color: var(--text-muted); line-height: 1.45; }
     .source-tag {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-top: 7px;
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.5px; margin-top: 7px;
     }
     .tag-issuance   { background: var(--blue-light);   color: var(--blue); }
     .tag-generation { background: var(--green-light);  color: var(--green); }
@@ -317,111 +225,120 @@
 
     /* ── PIPELINE DIAGRAM ── */
     .pipeline-wrap {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 36px 28px;
-      box-shadow: var(--shadow);
-      overflow-x: auto;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 36px 28px;
+      box-shadow: var(--shadow); overflow-x: auto;
     }
     .pipeline-wrap svg { display: block; margin: 0 auto; }
 
-    /* ── METHODOLOGY ── */
-    .method-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-    .method-card {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 28px 26px;
-      border-top: 4px solid transparent;
+    /* ── FORMULA CARDS ── */
+    .formula-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .formula-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 22px 22px 20px;
       box-shadow: var(--shadow);
+    }
+    .formula-badge {
+      display: inline-block; padding: 3px 9px; border-radius: 4px;
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.4px; margin-bottom: 10px;
+    }
+    .badge-go   { background: #fdf8e1; color: #7a5c00; border: 1px solid #e8d888; }
+    .badge-irec { background: var(--green-light); color: #2e5c38; border: 1px solid #c5d9bc; }
+    .badge-ef   { background: #f0eafa; color: var(--purple); border: 1px solid #d4c0f0; }
+    .badge-cert { background: var(--orange-light); color: #8c3200; border: 1px solid #f5cdb0; }
+    .formula-card h3 { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 14px; }
+
+    /* Formula display box */
+    .fbox {
+      background: #f4f7fc; border: 1px solid #dde6f2;
+      border-radius: 7px; padding: 14px 18px; margin-bottom: 16px;
+      font-family: 'IBM Plex Mono', 'Courier New', monospace;
+      font-size: 13px; line-height: 1.9; color: var(--text);
+    }
+    .fbox.flex { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; line-height: 1.4; }
+    /* variable colours */
+    .fv  { color: var(--blue); font-style: italic; }
+    .fg  { color: var(--green); font-style: italic; }
+    .fo  { color: #8899aa; }
+    .fk  { color: var(--orange); font-weight: 600; }   /* keyword / number */
+    .fcm { color: var(--purple); font-style: italic; }  /* certified / ef variable */
+
+    /* Fraction */
+    .ffrac {
+      display: inline-flex; flex-direction: column;
+      align-items: center; gap: 3px; vertical-align: middle;
+    }
+    .ffrac .fnum,
+    .ffrac .fden { font-size: 12px; font-family: 'IBM Plex Mono', monospace; font-style: italic; }
+    .ffrac .fnum { color: var(--purple); }
+    .ffrac .fden { color: var(--purple); }
+    .ffrac .fbar { width: 100%; min-width: 80px; height: 1.5px; background: #888; display: block; }
+    small.unit { font-size: 10px; font-style: normal; color: #8899aa; vertical-align: middle; }
+
+    /* Piecewise */
+    .fpiecewise {
+      border-left: 2.5px solid #b0bfd8; padding-left: 12px;
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .fpiecewise .frow { display: flex; align-items: baseline; gap: 10px; }
+    .fcond { font-family: 'IBM Plex Sans', Arial, sans-serif; font-style: normal; font-size: 11px; color: #8899aa; }
+
+    /* Legend */
+    .flegend { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+    .flegend-row { display: flex; gap: 10px; font-size: 12.5px; }
+    .flegend-var {
+      font-family: 'IBM Plex Mono', monospace; font-style: italic;
+      min-width: 130px; flex-shrink: 0; font-size: 12px;
+    }
+    .flegend-var.go   { color: var(--blue); }
+    .flegend-var.irec { color: var(--green); }
+    .flegend-var.ef   { color: var(--purple); }
+    .flegend-var.cert { color: var(--orange); }
+    .flegend-desc { color: var(--text-muted); font-size: 12.5px; line-height: 1.4; }
+
+    .fnote {
+      font-size: 12.5px; color: var(--text-muted); line-height: 1.52;
+      padding-top: 10px; border-top: 1px solid #e8eef5; margin-top: 4px;
+    }
+
+    /* ── METHOD CARDS ── */
+    .method-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .method-card {
+      background: var(--white); border-radius: var(--radius);
+      padding: 28px 26px; border-top: 4px solid transparent; box-shadow: var(--shadow);
     }
     .method-card.go   { border-top-color: #e8c800; }
     .method-card.irec { border-top-color: var(--green-cert); }
     .method-flag { font-size: 32px; margin-bottom: 14px; }
-    .method-card h3 {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-    .method-card.go h3   { color: #7a5c00; }
+    .method-card h3  { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
+    .method-card.go   h3 { color: #7a5c00; }
     .method-card.irec h3 { color: #2e5c38; }
-    .method-card p {
-      font-size: 14px;
-      color: var(--text-muted);
-      line-height: 1.58;
-      margin-bottom: 12px;
-    }
-    .method-facts {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .method-facts li {
-      font-size: 13px;
-      color: var(--text-muted);
-      display: flex;
-      gap: 8px;
-    }
-    .method-facts li::before {
-      content: "·";
-      color: var(--border);
-      font-weight: 700;
-      flex-shrink: 0;
-    }
+    .method-card p   { font-size: 14px; color: var(--text-muted); line-height: 1.58; margin-bottom: 12px; }
+    .method-facts { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .method-facts li { font-size: 13px; color: var(--text-muted); display: flex; gap: 8px; }
+    .method-facts li::before { content: "·"; color: var(--border); font-weight: 700; flex-shrink: 0; }
 
-    /* ── OUTPUT GRID ── */
-    .output-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px;
-    }
+    /* ── OUTPUT CARDS ── */
+    .output-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
     .output-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 24px 22px;
-      box-shadow: var(--shadow);
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 24px 22px; box-shadow: var(--shadow);
     }
-    .output-card h3 {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--blue);
-      margin-bottom: 8px;
-    }
-    .output-card p {
-      font-size: 13.5px;
-      color: var(--text-muted);
-      line-height: 1.52;
-    }
-    .field-pills {
-      margin-top: 14px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
+    .output-card h3 { font-size: 15px; font-weight: 600; color: var(--blue); margin-bottom: 8px; }
+    .output-card p  { font-size: 13.5px; color: var(--text-muted); line-height: 1.52; }
+    .field-pills { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px; }
     .field-pill {
-      padding: 3px 9px;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 5px;
-      font-size: 11.5px;
-      font-family: 'IBM Plex Mono', 'Courier New', monospace;
-      color: var(--text);
+      padding: 3px 9px; background: var(--bg);
+      border: 1px solid var(--border); border-radius: 5px;
+      font-size: 11.5px; font-family: 'IBM Plex Mono','Courier New',monospace; color: var(--text);
     }
 
     /* ── FOOTER ── */
     footer {
-      margin-top: 72px;
-      padding: 28px 0;
+      margin-top: 72px; padding: 28px 0;
       border-top: 1px solid var(--border);
-      text-align: center;
-      font-size: 13px;
-      color: var(--text-muted);
+      text-align: center; font-size: 13px; color: var(--text-muted);
     }
     footer strong { color: var(--blue); }
 
@@ -429,13 +346,13 @@
     @media print {
       nav, .print-btn { display: none !important; }
       body { background: white; font-size: 13px; }
-      main { max-width: 100%; padding: 0 12mm 0; }
+      main { max-width: 100%; padding: 0 12mm; }
       section { padding: 28px 0 0; page-break-inside: avoid; }
       .hero { padding: 24px 0 20px; }
       .concept-grid, .sources-grid, .energy-groups,
-      .method-grid, .output-grid { gap: 10px; }
+      .method-grid, .output-grid, .formula-grid { gap: 10px; }
       .pipeline-wrap, .concept-card, .source-card,
-      .method-card, .output-card { box-shadow: none; border: 1px solid #ccc; }
+      .method-card, .output-card, .formula-card { box-shadow: none; border: 1px solid #ccc; }
       h2 { page-break-after: avoid; }
       .hero-stats { box-shadow: none; border: 1px solid #ccc; }
       footer { margin-top: 32px; }
@@ -447,7 +364,7 @@
       .nav-links { display: none; }
       main { padding: 0 18px 60px; }
       .concept-grid, .energy-groups, .sources-grid,
-      .method-grid, .output-grid { grid-template-columns: 1fr; }
+      .method-grid, .output-grid, .formula-grid { grid-template-columns: 1fr; }
       .hero h1 { font-size: 32px; }
       .hero-stats { flex-wrap: wrap; }
       .hero-stat { min-width: 50%; border-bottom: 1px solid var(--border); }
@@ -456,7 +373,6 @@
 </head>
 <body>
 
-<!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
 <nav>
   <a href="#top" class="nav-brand">Residual Mix</a>
   <ul class="nav-links">
@@ -464,6 +380,7 @@
     <li><a href="#energy">Energy Types</a></li>
     <li><a href="#sources">Data Sources</a></li>
     <li><a href="#pipeline">Pipeline</a></li>
+    <li><a href="#calculations">Calculations</a></li>
     <li><a href="#methodology">Methodology</a></li>
     <li><a href="#outputs">Outputs</a></li>
   </ul>
@@ -472,7 +389,7 @@
 
 <main>
 
-<!-- ═══════════════════════════════ HERO ════════════════════════════════ -->
+<!-- ═══ HERO ═══ -->
 <section class="hero" id="top">
   <img src="public_html/img/Residual-Mix-Logo.png" alt="Residual Mix" class="hero-logo"
        onerror="this.style.display='none'">
@@ -498,7 +415,7 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════ OVERVIEW ════════════════════════════════ -->
+<!-- ═══ OVERVIEW ═══ -->
 <section id="overview">
   <div class="section-label">Overview</div>
   <h2>Certified &amp; Uncertified Electricity</h2>
@@ -522,7 +439,7 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════ ENERGY TYPES ════════════════════════════ -->
+<!-- ═══ ENERGY TYPES ═══ -->
 <section id="energy">
   <div class="section-label">Classification</div>
   <h2>Energy Source Categories</h2>
@@ -556,7 +473,7 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════ DATA SOURCES ════════════════════════════ -->
+<!-- ═══ DATA SOURCES ═══ -->
 <section id="sources">
   <div class="section-label">Data Sources</div>
   <h2>Where the Data Comes From</h2>
@@ -576,7 +493,7 @@
       <div class="source-badge cert">GO</div>
       <div class="source-info">
         <h4>AIB / EECS — Guarantees of Origin</h4>
-        <p>European Association of Issuing Bodies. The primary GO registry network for European markets. One GO = 1 MWh of tracked electricity.</p>
+        <p>European Association of Issuing Bodies. Primary GO registry network for European markets. One GO = 1 MWh of tracked electricity.</p>
         <span class="source-tag tag-issuance">Certificate Issuance</span>
       </div>
     </div>
@@ -621,7 +538,7 @@
       <div class="source-badge gen">MIX</div>
       <div class="source-info">
         <h4>AIB Production &amp; Residual Mix Reports</h4>
-        <p>Official AIB statistics on electricity production by technology per European country. Authoritative source for GO-market countries — overrides EMBERS where available.</p>
+        <p>Official AIB statistics on electricity production per technology and country. Authoritative source for GO-market countries — overrides EMBERS where available.</p>
         <span class="source-tag tag-mix">Production Mix</span>
       </div>
     </div>
@@ -630,7 +547,7 @@
       <div class="source-badge gen">OMN</div>
       <div class="source-info">
         <h4>Oman Official Statistics</h4>
-        <p>Official net electricity production data for Oman, used as the authoritative generation source for Oman in place of the EMBERS dataset.</p>
+        <p>Official net electricity production data for Oman, used as the authoritative generation source replacing EMBERS figures.</p>
         <span class="source-tag tag-generation">Generation Data</span>
       </div>
     </div>
@@ -638,7 +555,7 @@
   </div>
 </section>
 
-<!-- ═══════════════════════════ PIPELINE ════════════════════════════════ -->
+<!-- ═══ PIPELINE ═══ -->
 <section id="pipeline">
   <div class="section-label">Data Pipeline</div>
   <h2>How the Data is Processed</h2>
@@ -649,13 +566,10 @@
          font-family="'IBM Plex Sans',Arial,sans-serif"
          style="width:100%;max-width:800px;">
 
-      <!-- ═════ GROUP LABELS ═════ -->
       <text x="20" y="14" font-size="9" font-weight="700" fill="#034EA2" letter-spacing="1.5">CERTIFICATE REGISTRIES</text>
       <text x="20" y="256" font-size="9" font-weight="700" fill="#3a6b45" letter-spacing="1.5">GENERATION DATA</text>
 
-      <!-- ═════ CERT SOURCE BOXES (x=20, w=175, h=36) ═════ -->
-      <!-- centers: 40, 84, 128, 172, 216 -->
-
+      <!-- Cert source boxes (centers: y=40,84,128,172,216) -->
       <rect x="20" y="22" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
       <text x="107" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">I-REC Issuance</text>
       <text x="107" y="50" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Barnebies · Global</text>
@@ -676,9 +590,7 @@
       <text x="107" y="212" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">LGC Issuance</text>
       <text x="107" y="226" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Australia (Clean Energy Reg.)</text>
 
-      <!-- ═════ GEN SOURCE BOXES ═════ -->
-      <!-- centers: 286, 330, 374 -->
-
+      <!-- Gen source boxes (centers: y=286,330,374) -->
       <rect x="20" y="268" width="175" height="36" rx="6" fill="#e8f0e9" stroke="#4a7c59" stroke-width="1.5"/>
       <text x="107" y="282" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">EMBERS Database</text>
       <text x="107" y="296" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Global electricity generation</text>
@@ -691,7 +603,7 @@
       <text x="107" y="370" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">Oman Official Statistics</text>
       <text x="107" y="384" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Net electricity production</text>
 
-      <!-- ═════ CONNECTOR LINES → vertical gather at x=215 ═════ -->
+      <!-- Connector lines to gather at x=215 -->
       <g stroke="#c4d2e6" stroke-width="1.5">
         <line x1="195" y1="40"  x2="215" y2="40"/>
         <line x1="195" y1="84"  x2="215" y2="84"/>
@@ -702,20 +614,17 @@
         <line x1="195" y1="330" x2="215" y2="330"/>
         <line x1="195" y1="374" x2="215" y2="374"/>
       </g>
-
-      <!-- Vertical gather trunk: y=40 → y=374, center=207 -->
+      <!-- Vertical trunk: center y=207 -->
       <line x1="215" y1="40" x2="215" y2="374" stroke="#c4d2e6" stroke-width="1.5"/>
 
-      <!-- Arrow trunk → processing box -->
+      <!-- Arrow → processing box -->
       <line x1="215" y1="207" x2="244" y2="207" stroke="#034EA2" stroke-width="2.5"/>
       <polygon points="244,202 254,207 244,212" fill="#034EA2"/>
 
-      <!-- ═════ PROCESSING BOX: x=255, y=80, w=215, h=254, center y=207 ═════ -->
+      <!-- Processing box: x=255, y=80, w=215, h=254, center y=207 -->
       <rect x="255" y="80" width="215" height="254" rx="12" fill="#034EA2"/>
-
       <text x="362" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="white">Data Pipeline</text>
       <line x1="275" y1="116" x2="450" y2="116" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
-
       <text x="272" y="137" font-size="10.5" fill="rgba(255,255,255,0.92)">①  Standardise country &amp; technology names</text>
       <text x="272" y="158" font-size="10.5" fill="rgba(255,255,255,0.92)">②  Merge all sources on country / source / year</text>
       <text x="272" y="179" font-size="10.5" fill="rgba(255,255,255,0.92)">③  Compute certified volumes per technology</text>
@@ -723,34 +632,28 @@
       <text x="272" y="221" font-size="10.5" fill="rgba(255,255,255,0.92)">⑤  Derive emission factors &amp; CO₂ intensity</text>
       <text x="272" y="242" font-size="10.5" fill="rgba(255,255,255,0.92)">⑥  Assign GO or I-REC methodology per country</text>
       <text x="272" y="263" font-size="10.5" fill="rgba(255,255,255,0.92)">⑦  Aggregate to country-year totals</text>
-
       <rect x="272" y="276" width="178" height="24" rx="5" fill="rgba(255,255,255,0.14)"/>
       <text x="361" y="292" text-anchor="middle" font-size="10" fill="white" font-weight="500">Coverage: 2020 – 2024</text>
 
-      <!-- ═════ ARROW processing → right gather ═════ -->
+      <!-- Arrow → right gather -->
       <line x1="470" y1="207" x2="494" y2="207" stroke="#034EA2" stroke-width="2.5"/>
       <polygon points="494,202 504,207 494,212" fill="#034EA2"/>
 
-      <!-- ═════ RIGHT GATHER LINE at x=504, centers: 127, 215, 333 ═════ -->
-      <!-- gather center = (127+333)/2 = 230; approx matches arrow at 207 -->
+      <!-- Right gather: x=504, from y=105 to y=355 -->
       <line x1="504" y1="105" x2="504" y2="355" stroke="#034EA2" stroke-width="1.5"/>
       <line x1="504" y1="127" x2="526" y2="127" stroke="#034EA2" stroke-width="1.5"/>
       <line x1="504" y1="215" x2="526" y2="215" stroke="#034EA2" stroke-width="1.5"/>
       <line x1="504" y1="333" x2="526" y2="333" stroke="#034EA2" stroke-width="1.5"/>
 
-      <!-- ═════ OUTPUT BOXES x=526, w=200 ═════ -->
-
-      <!-- Detail Dataset: center y=127 -->
+      <!-- Output boxes -->
       <rect x="526" y="105" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
       <text x="626" y="123" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Detail Dataset</text>
       <text x="626" y="140" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Per country · source · year</text>
 
-      <!-- Country Aggregates: center y=215 -->
       <rect x="526" y="193" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
       <text x="626" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Country Aggregates</text>
       <text x="626" y="228" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Totals · percentages · CO₂</text>
 
-      <!-- Web Platform: center y=333 -->
       <rect x="526" y="309" width="200" height="48" rx="7" fill="#034EA2"/>
       <text x="626" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="white">Web Platform</text>
       <text x="626" y="345" text-anchor="middle" font-size="9.5" fill="rgba(255,255,255,0.85)">Interactive map · charts · export</text>
@@ -758,7 +661,123 @@
   </div>
 </section>
 
-<!-- ═══════════════════════ METHODOLOGY ═════════════════════════════════ -->
+<!-- ═══ KEY CALCULATIONS ═══ -->
+<section id="calculations">
+  <div class="section-label">Key Calculations</div>
+  <h2>How Values Are Derived</h2>
+  <p class="section-intro">Several metrics require multi-step calculations that differ by certificate framework. These are the core formulas applied during the pipeline — each approach reflects the data available per market.</p>
+
+  <div class="formula-grid">
+
+    <!-- ── CARD 1: Residual Mix — AIB/GO ── -->
+    <div class="formula-card">
+      <span class="formula-badge badge-go">AIB / GO Method</span>
+      <h3>Residual Mix</h3>
+      <div class="fbox">
+        <span class="fv">ResidualMix</span>&nbsp;<span class="fo">=</span>
+        <br>&nbsp;&nbsp;<span class="fv">UntrackedFraction</span>
+        &nbsp;<span class="fo">×</span>&nbsp;<span class="fv">SupplierVolume</span>
+        &nbsp;<span class="fo">×</span>&nbsp;<span class="fv">SourceShare</span>
+      </div>
+      <div class="flegend">
+        <div class="flegend-row">
+          <span class="flegend-var go">UntrackedFraction</span>
+          <span class="flegend-desc">Share of total supply <em>not</em> backed by cancelled GOs — sourced from the official AIB Residual Mix report</span>
+        </div>
+        <div class="flegend-row">
+          <span class="flegend-var go">SupplierVolume</span>
+          <span class="flegend-desc">Total TWh supplied to the market, from the AIB Total Supplier Mix table</span>
+        </div>
+        <div class="flegend-row">
+          <span class="flegend-var go">SourceShare</span>
+          <span class="flegend-desc">This technology's fraction of total generation for the country &amp; year</span>
+        </div>
+      </div>
+      <div class="fnote">Uses official AIB market-wide figures, accounting for cross-border GO trades and cancellations. This authoritative value overrides the simpler arithmetic method wherever AIB data is available.</div>
+    </div>
+
+    <!-- ── CARD 2: Residual Mix — I-REC ── -->
+    <div class="formula-card">
+      <span class="formula-badge badge-irec">I-REC Method</span>
+      <h3>Residual Mix</h3>
+      <div class="fbox">
+        <span class="fg">ResidualMix</span>&nbsp;<span class="fo">=</span>&nbsp;<span class="fk">max</span><span class="fo">(</span>&thinsp;<span class="fk">0</span>&thinsp;<span class="fo">,</span>&nbsp;<span class="fg">TotalGeneration</span>&nbsp;<span class="fo">−</span>&nbsp;<span class="fg">CertifiedMix</span>&thinsp;<span class="fo">)</span>
+      </div>
+      <div class="flegend">
+        <div class="flegend-row">
+          <span class="flegend-var irec">TotalGeneration</span>
+          <span class="flegend-desc">Total electricity generated for this technology (TWh), from EMBERS</span>
+        </div>
+        <div class="flegend-row">
+          <span class="flegend-var irec">CertifiedMix</span>
+          <span class="flegend-desc">Total I-REC issuance for this technology, converted to TWh</span>
+        </div>
+      </div>
+      <div class="fnote">Direct subtraction of certificate issuance from total generation. Clipped at zero — issuance occasionally exceeds metered generation for behind-the-meter installations not captured in national statistics.</div>
+    </div>
+
+    <!-- ── CARD 3: Emission Factor ── -->
+    <div class="formula-card">
+      <span class="formula-badge badge-ef">Emission Factor</span>
+      <h3>Carbon Intensity</h3>
+      <div class="fbox flex" style="gap:10px;">
+        <span class="fcm">EmissionFactor</span>
+        <span class="fo">=</span>
+        <span class="ffrac">
+          <span class="fnum">Total CO₂&ensp;<small class="unit">(ktCO₂)</small></span>
+          <span class="fbar"></span>
+          <span class="fden">Total Generation&ensp;<small class="unit">(TWh)</small></span>
+        </span>
+        <span class="fo">=&ensp;</span><span class="fcm">tCO₂ / MWh</span>
+      </div>
+      <div class="flegend">
+        <div class="flegend-row">
+          <span class="flegend-var ef">Total CO₂</span>
+          <span class="flegend-desc">Power sector CO₂ in ktCO₂ — from EMBERS for I-REC countries; from AIB CO₂ intensity × generation for GO countries</span>
+        </div>
+        <div class="flegend-row">
+          <span class="flegend-var ef">Total Generation</span>
+          <span class="flegend-desc">Total electricity generation in TWh for the country &amp; year</span>
+        </div>
+      </div>
+      <div class="fnote">Unit identity: ktCO₂ ÷ TWh = tCO₂ / MWh, equivalent to gCO₂ / kWh. For GO countries, the AIB-reported CO₂ intensity per technology replaces EMBERS emissions to ensure consistency with the AIB production figures.</div>
+    </div>
+
+    <!-- ── CARD 4: Certified Mix selection ── -->
+    <div class="formula-card">
+      <span class="formula-badge badge-cert">Certificate Selection</span>
+      <h3>Certified Mix</h3>
+      <div class="fbox flex" style="gap:12px;align-items:center;">
+        <span class="fv">CertifiedMix</span>
+        <span class="fo">=</span>
+        <div class="fpiecewise">
+          <div class="frow">
+            <span class="fv">GO Issuance</span>
+            <span class="fcond">if GO data available for this country</span>
+          </div>
+          <div class="frow">
+            <span class="fv">All EAC Issuance</span>
+            <span class="fcond">otherwise (I-REC + TIGRS + LGC + Ecogox)</span>
+          </div>
+        </div>
+      </div>
+      <div class="flegend">
+        <div class="flegend-row">
+          <span class="flegend-var go">GO Issuance</span>
+          <span class="flegend-desc">Net GO volume: certificates issued minus expired, from AIB/EECS data</span>
+        </div>
+        <div class="flegend-row">
+          <span class="flegend-var irec">All EAC Issuance</span>
+          <span class="flegend-desc">Sum across all available registries: I-REC, TIGRS, Ecogox, and LGC</span>
+        </div>
+      </div>
+      <div class="fnote">GO issuance is preferred where available — it reflects the European market's net-cancellation tracking, which precisely matches what consumers have claimed. For I-REC markets the sum of all registries is used as the certified total.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══ METHODOLOGY ═══ -->
 <section id="methodology">
   <div class="section-label">Methodology</div>
   <h2>Certificate Frameworks: GO &amp; I-REC</h2>
@@ -768,31 +787,31 @@
     <div class="method-card go">
       <div class="method-flag">🇪🇺</div>
       <h3>GO — Guarantee of Origin</h3>
-      <p>Used across European and associated markets, managed through the AIB network. Each GO certifies exactly 1 MWh of electricity from a specific source and production period. GOs can be traded across borders, enabling companies anywhere in Europe to make renewable electricity claims.</p>
+      <p>Used across European and associated markets, managed through the AIB network. Each GO certifies exactly 1 MWh of electricity from a specific source and production period. GOs can be traded across borders, enabling companies anywhere in Europe to make specific renewable electricity claims.</p>
       <ul class="method-facts">
         <li>Covers most European countries</li>
         <li>Administered by AIB member bodies (EECS system)</li>
         <li>Generation data: AIB Production Mix (authoritative)</li>
-        <li>Residual mix: calculated from AIB official reports</li>
+        <li>Residual mix: calculated from official AIB Residual Mix reports</li>
       </ul>
     </div>
 
     <div class="method-card irec">
       <div class="method-flag">🌍</div>
       <h3>I-REC — International REC</h3>
-      <p>Used in markets outside Europe — primarily across Asia, Middle East, Africa, and Latin America. One I-REC certifies 1 MWh of verified renewable electricity. The I-REC Standard is internationally recognised and widely used for corporate scope 2 emissions accounting under GHG Protocol.</p>
+      <p>Used in markets outside Europe — primarily Asia, Middle East, Africa, and Latin America. One I-REC certifies 1 MWh of verified renewable electricity. The I-REC Standard is internationally recognised and widely used for corporate scope 2 emissions accounting under the GHG Protocol.</p>
       <ul class="method-facts">
         <li>Covers non-European markets</li>
         <li>Issued under the I-REC Standard</li>
         <li>Generation data: EMBERS yearly dataset (primary)</li>
-        <li>Residual mix: derived from generation minus issuance</li>
+        <li>Residual mix: derived from generation minus certificate issuance</li>
       </ul>
     </div>
 
   </div>
 </section>
 
-<!-- ═══════════════════════════ OUTPUTS ══════════════════════════════════ -->
+<!-- ═══ OUTPUTS ═══ -->
 <section id="outputs">
   <div class="section-label">Outputs</div>
   <h2>What the Platform Produces</h2>
@@ -836,13 +855,12 @@
 
     <div class="output-card">
       <h3>📈 Country Detail View</h3>
-      <p>Per-country modal with a generation mix bar chart (by energy source), certified vs residual pie charts, sortable data table, and XLSX export with lead-capture form. Covers all available years for the selected country.</p>
+      <p>Per-country modal with a generation mix bar chart by energy source, certified vs residual pie charts, a sortable data table, and XLSX export with lead-capture form. Covers all available years for the selected country.</p>
     </div>
 
   </div>
 </section>
 
-<!-- ═══════════════════════════ FOOTER ══════════════════════════════════ -->
 <footer>
   <strong>Residual Mix</strong> &nbsp;·&nbsp; Data coverage 2020 – 2024 &nbsp;·&nbsp; All energy values in TWh
   <br>
@@ -852,21 +870,18 @@
 </main>
 
 <script>
-  // Active nav link on scroll
   const sections = document.querySelectorAll('section[id]');
   const navLinks  = document.querySelectorAll('.nav-links a');
-
-  const observer = new IntersectionObserver(entries => {
+  const observer  = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) {
         const id = e.target.id;
-        navLinks.forEach(a => {
-          a.classList.toggle('active', a.getAttribute('href') === '#' + id);
-        });
+        navLinks.forEach(a =>
+          a.classList.toggle('active', a.getAttribute('href') === '#' + id)
+        );
       }
     });
   }, { rootMargin: '-20% 0px -70% 0px' });
-
   sections.forEach(s => observer.observe(s));
 </script>
 
