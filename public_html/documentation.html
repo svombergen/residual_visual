@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Residual Mix — Data Documentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue:        #034EA2;
+      --blue-mid:    #1a6ec0;
+      --blue-light:  #E8F0FB;
+      --blue-xlight: #f0f5fd;
+      --green:       #4a7c59;
+      --green-light: #e8f0e9;
+      --green-cert:  #93aa7b;
+      --orange:      #d4611a;
+      --orange-light:#fdf0e8;
+      --yellow:      #b08800;
+      --yellow-light:#fdf8e1;
+      --text:        #1a2332;
+      --text-muted:  #5a6a7e;
+      --border:      #d0d9e8;
+      --bg:          #f5f7fb;
+      --white:       #ffffff;
+      --radius:      10px;
+      --shadow:      0 2px 14px rgba(3,78,162,0.09);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'IBM Plex Sans', Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      height: 54px;
+      box-shadow: 0 1px 8px rgba(3,78,162,0.07);
+    }
+    .nav-brand {
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--blue);
+      letter-spacing: -0.2px;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      margin-left: auto;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-size: 13.5px;
+      font-weight: 500;
+      padding: 2px 0;
+      border-bottom: 2px solid transparent;
+      transition: color 0.18s, border-color 0.18s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--blue); border-bottom-color: var(--blue); }
+    .print-btn {
+      margin-left: 12px;
+      padding: 7px 18px;
+      background: var(--blue);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.18s;
+      white-space: nowrap;
+    }
+    .print-btn:hover { background: var(--blue-mid); }
+
+    /* ── MAIN LAYOUT ── */
+    main {
+      max-width: 1020px;
+      margin: 0 auto;
+      padding: 0 40px 96px;
+    }
+
+    /* ── SECTIONS ── */
+    section { padding: 64px 0 0; }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.8px;
+      color: var(--blue);
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 10px;
+      line-height: 1.25;
+      letter-spacing: -0.3px;
+    }
+    .section-intro {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 72px 0 52px;
+      text-align: center;
+    }
+    .hero-logo {
+      height: 72px;
+      width: auto;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: 44px;
+      font-weight: 700;
+      color: var(--blue);
+      margin-bottom: 12px;
+      letter-spacing: -0.8px;
+      line-height: 1.1;
+    }
+    .hero-tagline {
+      font-size: 19px;
+      font-weight: 300;
+      color: var(--text-muted);
+      max-width: 560px;
+      margin: 0 auto 44px;
+      line-height: 1.5;
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .hero-stat {
+      flex: 1;
+      padding: 20px 16px;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .hero-stat:last-child { border-right: none; }
+    .hero-stat-value {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--blue);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-top: 5px;
+      font-weight: 500;
+    }
+
+    /* ── CONCEPT CARDS ── */
+    .concept-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 18px;
+    }
+    .concept-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 26px 22px;
+      box-shadow: var(--shadow);
+    }
+    .concept-icon {
+      width: 46px;
+      height: 46px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+    .concept-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .concept-card p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* ── ENERGY GROUPS ── */
+    .energy-groups {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 18px;
+    }
+    .energy-group {
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      border: 1px solid transparent;
+    }
+    .energy-group.res    { background: var(--green-light); border-color: #c5d9bc; }
+    .energy-group.fossil { background: var(--orange-light); border-color: #f5cdb0; }
+    .energy-group.nuke   { background: var(--yellow-light); border-color: #e8d888; }
+    .energy-group-title {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      margin-bottom: 14px;
+    }
+    .energy-group.res    .energy-group-title { color: #2e5c38; }
+    .energy-group.fossil .energy-group-title { color: #8c3200; }
+    .energy-group.nuke   .energy-group-title { color: #7a5c00; }
+    .energy-pills { display: flex; flex-wrap: wrap; gap: 7px; }
+    .energy-pill {
+      padding: 4px 11px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .energy-pill.res    { background: #93aa7b; color: #1b3d14; }
+    .energy-pill.fossil { background: #F2B08A; color: #4d1800; }
+    .energy-pill.nuke   { background: #ffe085; color: #3d2e00; }
+
+    /* ── DATA SOURCE CARDS ── */
+    .sources-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .source-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      box-shadow: var(--shadow);
+    }
+    .source-badge {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      text-align: center;
+      line-height: 1.2;
+      letter-spacing: 0.3px;
+    }
+    .source-badge.cert { background: var(--blue-light); color: var(--blue); }
+    .source-badge.gen  { background: var(--green-light); color: var(--green); }
+    .source-info h4 {
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+    .source-info p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+    .source-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 7px;
+    }
+    .tag-issuance   { background: var(--blue-light);   color: var(--blue); }
+    .tag-generation { background: var(--green-light);  color: var(--green); }
+    .tag-mix        { background: var(--yellow-light); color: #7a5c00; }
+
+    /* ── PIPELINE DIAGRAM ── */
+    .pipeline-wrap {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 36px 28px;
+      box-shadow: var(--shadow);
+      overflow-x: auto;
+    }
+    .pipeline-wrap svg { display: block; margin: 0 auto; }
+
+    /* ── METHODOLOGY ── */
+    .method-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .method-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 28px 26px;
+      border-top: 4px solid transparent;
+      box-shadow: var(--shadow);
+    }
+    .method-card.go   { border-top-color: #e8c800; }
+    .method-card.irec { border-top-color: var(--green-cert); }
+    .method-flag { font-size: 32px; margin-bottom: 14px; }
+    .method-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .method-card.go h3   { color: #7a5c00; }
+    .method-card.irec h3 { color: #2e5c38; }
+    .method-card p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.58;
+      margin-bottom: 12px;
+    }
+    .method-facts {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .method-facts li {
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      gap: 8px;
+    }
+    .method-facts li::before {
+      content: "·";
+      color: var(--border);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* ── OUTPUT GRID ── */
+    .output-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .output-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 22px;
+      box-shadow: var(--shadow);
+    }
+    .output-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--blue);
+      margin-bottom: 8px;
+    }
+    .output-card p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.52;
+    }
+    .field-pills {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .field-pill {
+      padding: 3px 9px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      font-size: 11.5px;
+      font-family: 'IBM Plex Mono', 'Courier New', monospace;
+      color: var(--text);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      margin-top: 72px;
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    footer strong { color: var(--blue); }
+
+    /* ── PRINT ── */
+    @media print {
+      nav, .print-btn { display: none !important; }
+      body { background: white; font-size: 13px; }
+      main { max-width: 100%; padding: 0 12mm 0; }
+      section { padding: 28px 0 0; page-break-inside: avoid; }
+      .hero { padding: 24px 0 20px; }
+      .concept-grid, .sources-grid, .energy-groups,
+      .method-grid, .output-grid { gap: 10px; }
+      .pipeline-wrap, .concept-card, .source-card,
+      .method-card, .output-card { box-shadow: none; border: 1px solid #ccc; }
+      h2 { page-break-after: avoid; }
+      .hero-stats { box-shadow: none; border: 1px solid #ccc; }
+      footer { margin-top: 32px; }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 720px) {
+      nav { padding: 0 16px; }
+      .nav-links { display: none; }
+      main { padding: 0 18px 60px; }
+      .concept-grid, .energy-groups, .sources-grid,
+      .method-grid, .output-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 32px; }
+      .hero-stats { flex-wrap: wrap; }
+      .hero-stat { min-width: 50%; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+<nav>
+  <a href="#top" class="nav-brand">Residual Mix</a>
+  <ul class="nav-links">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#energy">Energy Types</a></li>
+    <li><a href="#sources">Data Sources</a></li>
+    <li><a href="#pipeline">Pipeline</a></li>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#outputs">Outputs</a></li>
+  </ul>
+  <button class="print-btn" onclick="window.print()">⬇ Export PDF</button>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════ HERO ════════════════════════════════ -->
+<section class="hero" id="top">
+  <img src="public_html/img/Residual-Mix-Logo.png" alt="Residual Mix" class="hero-logo"
+       onerror="this.style.display='none'">
+  <h1>Residual Mix</h1>
+  <p class="hero-tagline">Tracking certified and uncertified electricity<br>across global energy markets</p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-value">100+</div>
+      <div class="hero-stat-label">Countries</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-value">2020–2024</div>
+      <div class="hero-stat-label">Year Coverage</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-value">8</div>
+      <div class="hero-stat-label">Data Sources</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-value">10</div>
+      <div class="hero-stat-label">Energy Types</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ OVERVIEW ════════════════════════════════ -->
+<section id="overview">
+  <div class="section-label">Overview</div>
+  <h2>Certified &amp; Uncertified Electricity</h2>
+  <p class="section-intro">When electricity is generated, it can be certified with an Energy Attribute Certificate (EAC) — a digital proof of where and how each megawatt-hour was produced. This platform maps which electricity is certified, what remains uncertified, and the carbon footprint of each country's mix.</p>
+  <div class="concept-grid">
+    <div class="concept-card">
+      <div class="concept-icon" style="background:#E8F0FB;">🏷️</div>
+      <h3>Certified Mix</h3>
+      <p>Electricity backed by verified Energy Attribute Certificates — such as Guarantees of Origin (GO) or I-RECs. Each certificate proves the source, location, and production period of a specific megawatt-hour of electricity.</p>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon" style="background:#fdf0e8;">⚡</div>
+      <h3>Residual Mix</h3>
+      <p>Electricity generation not claimed by any certificate. This is the "default" mix that uncertified consumers effectively receive — a blend of all electricity that wasn't specifically tracked. The lower the residual, the more transparent the market.</p>
+    </div>
+    <div class="concept-card">
+      <div class="concept-icon" style="background:#e8f0e9;">🌿</div>
+      <h3>Emission Factor</h3>
+      <p>The carbon intensity of electricity in a given country and year, expressed as tonnes of CO₂ per MWh. Calculated separately for the total generation mix and for the residual mix, enabling precise scope 2 emissions accounting.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ ENERGY TYPES ════════════════════════════ -->
+<section id="energy">
+  <div class="section-label">Classification</div>
+  <h2>Energy Source Categories</h2>
+  <p class="section-intro">All technologies from all sources are standardised into ten canonical types, grouped into three classes used consistently across every country and year.</p>
+  <div class="energy-groups">
+    <div class="energy-group res">
+      <div class="energy-group-title">♻️ &nbsp;Renewable (RES)</div>
+      <div class="energy-pills">
+        <span class="energy-pill res">Solar</span>
+        <span class="energy-pill res">Wind</span>
+        <span class="energy-pill res">Hydro</span>
+        <span class="energy-pill res">Bio</span>
+        <span class="energy-pill res">Other (R)</span>
+      </div>
+    </div>
+    <div class="energy-group fossil">
+      <div class="energy-group-title">🏭 &nbsp;Fossil</div>
+      <div class="energy-pills">
+        <span class="energy-pill fossil">Gas</span>
+        <span class="energy-pill fossil">Coal</span>
+        <span class="energy-pill fossil">Oil</span>
+        <span class="energy-pill fossil">Other (F)</span>
+      </div>
+    </div>
+    <div class="energy-group nuke">
+      <div class="energy-group-title">⚛️ &nbsp;Nuclear</div>
+      <div class="energy-pills">
+        <span class="energy-pill nuke">Nuclear</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ DATA SOURCES ════════════════════════════ -->
+<section id="sources">
+  <div class="section-label">Data Sources</div>
+  <h2>Where the Data Comes From</h2>
+  <p class="section-intro">Eight authoritative sources are merged to build a complete picture of certified issuance and total electricity generation, covering both European GO markets and international I-REC markets.</p>
+  <div class="sources-grid">
+
+    <div class="source-card">
+      <div class="source-badge cert">I-REC</div>
+      <div class="source-info">
+        <h4>I-REC Standard (Barnebies)</h4>
+        <p>International renewable energy certificate registry. Used across emerging markets — Middle East, Asia, Africa, Latin America.</p>
+        <span class="source-tag tag-issuance">Certificate Issuance</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge cert">GO</div>
+      <div class="source-info">
+        <h4>AIB / EECS — Guarantees of Origin</h4>
+        <p>European Association of Issuing Bodies. The primary GO registry network for European markets. One GO = 1 MWh of tracked electricity.</p>
+        <span class="source-tag tag-issuance">Certificate Issuance</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge cert">TGR</div>
+      <div class="source-info">
+        <h4>TIGRS (North America)</h4>
+        <p>Tradeable Instrument for Global Renewables. Covers voluntary renewable energy certificate markets in North America and select international markets.</p>
+        <span class="source-tag tag-issuance">Certificate Issuance</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge cert">ECO</div>
+      <div class="source-info">
+        <h4>Ecogox (Colombia)</h4>
+        <p>Colombian renewable energy certificate registry, providing issuance data for Colombia's certified electricity market.</p>
+        <span class="source-tag tag-issuance">Certificate Issuance</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge cert">LGC</div>
+      <div class="source-info">
+        <h4>Large-scale Generation Certificates (Australia)</h4>
+        <p>Australian certificates issued by the Clean Energy Regulator under the Renewable Energy Target scheme.</p>
+        <span class="source-tag tag-issuance">Certificate Issuance</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge gen">EMB</div>
+      <div class="source-info">
+        <h4>EMBERS Yearly Release</h4>
+        <p>Ember's global electricity generation dataset with annual generation and emissions data by country and technology. Primary generation source for non-AIB countries.</p>
+        <span class="source-tag tag-generation">Generation Data</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge gen">MIX</div>
+      <div class="source-info">
+        <h4>AIB Production &amp; Residual Mix Reports</h4>
+        <p>Official AIB statistics on electricity production by technology per European country. Authoritative source for GO-market countries — overrides EMBERS where available.</p>
+        <span class="source-tag tag-mix">Production Mix</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-badge gen">OMN</div>
+      <div class="source-info">
+        <h4>Oman Official Statistics</h4>
+        <p>Official net electricity production data for Oman, used as the authoritative generation source for Oman in place of the EMBERS dataset.</p>
+        <span class="source-tag tag-generation">Generation Data</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PIPELINE ════════════════════════════════ -->
+<section id="pipeline">
+  <div class="section-label">Data Pipeline</div>
+  <h2>How the Data is Processed</h2>
+  <p class="section-intro">Raw inputs from all eight sources are collected, standardised, merged, and enriched through a consistent pipeline to produce comparable outputs across all countries and years.</p>
+
+  <div class="pipeline-wrap">
+    <svg viewBox="0 0 800 430" xmlns="http://www.w3.org/2000/svg"
+         font-family="'IBM Plex Sans',Arial,sans-serif"
+         style="width:100%;max-width:800px;">
+
+      <!-- ═════ GROUP LABELS ═════ -->
+      <text x="20" y="14" font-size="9" font-weight="700" fill="#034EA2" letter-spacing="1.5">CERTIFICATE REGISTRIES</text>
+      <text x="20" y="256" font-size="9" font-weight="700" fill="#3a6b45" letter-spacing="1.5">GENERATION DATA</text>
+
+      <!-- ═════ CERT SOURCE BOXES (x=20, w=175, h=36) ═════ -->
+      <!-- centers: 40, 84, 128, 172, 216 -->
+
+      <rect x="20" y="22" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="107" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">I-REC Issuance</text>
+      <text x="107" y="50" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Barnebies · Global</text>
+
+      <rect x="20" y="66" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="107" y="80" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">GO Issuance (AIB/EECS)</text>
+      <text x="107" y="94" text-anchor="middle" font-size="9.5" fill="#5a6a7e">European markets</text>
+
+      <rect x="20" y="110" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="107" y="124" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">TIGRS Issuance</text>
+      <text x="107" y="138" text-anchor="middle" font-size="9.5" fill="#5a6a7e">North America</text>
+
+      <rect x="20" y="154" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="107" y="168" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">Ecogox Issuance</text>
+      <text x="107" y="182" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Colombia</text>
+
+      <rect x="20" y="198" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="107" y="212" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">LGC Issuance</text>
+      <text x="107" y="226" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Australia (Clean Energy Reg.)</text>
+
+      <!-- ═════ GEN SOURCE BOXES ═════ -->
+      <!-- centers: 286, 330, 374 -->
+
+      <rect x="20" y="268" width="175" height="36" rx="6" fill="#e8f0e9" stroke="#4a7c59" stroke-width="1.5"/>
+      <text x="107" y="282" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">EMBERS Database</text>
+      <text x="107" y="296" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Global electricity generation</text>
+
+      <rect x="20" y="312" width="175" height="36" rx="6" fill="#e8f0e9" stroke="#4a7c59" stroke-width="1.5"/>
+      <text x="107" y="326" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">AIB Production Mix</text>
+      <text x="107" y="340" text-anchor="middle" font-size="9.5" fill="#5a6a7e">European generation &amp; residuals</text>
+
+      <rect x="20" y="356" width="175" height="36" rx="6" fill="#e8f0e9" stroke="#4a7c59" stroke-width="1.5"/>
+      <text x="107" y="370" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">Oman Official Statistics</text>
+      <text x="107" y="384" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Net electricity production</text>
+
+      <!-- ═════ CONNECTOR LINES → vertical gather at x=215 ═════ -->
+      <g stroke="#c4d2e6" stroke-width="1.5">
+        <line x1="195" y1="40"  x2="215" y2="40"/>
+        <line x1="195" y1="84"  x2="215" y2="84"/>
+        <line x1="195" y1="128" x2="215" y2="128"/>
+        <line x1="195" y1="172" x2="215" y2="172"/>
+        <line x1="195" y1="216" x2="215" y2="216"/>
+        <line x1="195" y1="286" x2="215" y2="286"/>
+        <line x1="195" y1="330" x2="215" y2="330"/>
+        <line x1="195" y1="374" x2="215" y2="374"/>
+      </g>
+
+      <!-- Vertical gather trunk: y=40 → y=374, center=207 -->
+      <line x1="215" y1="40" x2="215" y2="374" stroke="#c4d2e6" stroke-width="1.5"/>
+
+      <!-- Arrow trunk → processing box -->
+      <line x1="215" y1="207" x2="244" y2="207" stroke="#034EA2" stroke-width="2.5"/>
+      <polygon points="244,202 254,207 244,212" fill="#034EA2"/>
+
+      <!-- ═════ PROCESSING BOX: x=255, y=80, w=215, h=254, center y=207 ═════ -->
+      <rect x="255" y="80" width="215" height="254" rx="12" fill="#034EA2"/>
+
+      <text x="362" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="white">Data Pipeline</text>
+      <line x1="275" y1="116" x2="450" y2="116" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+
+      <text x="272" y="137" font-size="10.5" fill="rgba(255,255,255,0.92)">①  Standardise country &amp; technology names</text>
+      <text x="272" y="158" font-size="10.5" fill="rgba(255,255,255,0.92)">②  Merge all sources on country / source / year</text>
+      <text x="272" y="179" font-size="10.5" fill="rgba(255,255,255,0.92)">③  Compute certified volumes per technology</text>
+      <text x="272" y="200" font-size="10.5" fill="rgba(255,255,255,0.92)">④  Calculate residual mix (uncertified share)</text>
+      <text x="272" y="221" font-size="10.5" fill="rgba(255,255,255,0.92)">⑤  Derive emission factors &amp; CO₂ intensity</text>
+      <text x="272" y="242" font-size="10.5" fill="rgba(255,255,255,0.92)">⑥  Assign GO or I-REC methodology per country</text>
+      <text x="272" y="263" font-size="10.5" fill="rgba(255,255,255,0.92)">⑦  Aggregate to country-year totals</text>
+
+      <rect x="272" y="276" width="178" height="24" rx="5" fill="rgba(255,255,255,0.14)"/>
+      <text x="361" y="292" text-anchor="middle" font-size="10" fill="white" font-weight="500">Coverage: 2020 – 2024</text>
+
+      <!-- ═════ ARROW processing → right gather ═════ -->
+      <line x1="470" y1="207" x2="494" y2="207" stroke="#034EA2" stroke-width="2.5"/>
+      <polygon points="494,202 504,207 494,212" fill="#034EA2"/>
+
+      <!-- ═════ RIGHT GATHER LINE at x=504, centers: 127, 215, 333 ═════ -->
+      <!-- gather center = (127+333)/2 = 230; approx matches arrow at 207 -->
+      <line x1="504" y1="105" x2="504" y2="355" stroke="#034EA2" stroke-width="1.5"/>
+      <line x1="504" y1="127" x2="526" y2="127" stroke="#034EA2" stroke-width="1.5"/>
+      <line x1="504" y1="215" x2="526" y2="215" stroke="#034EA2" stroke-width="1.5"/>
+      <line x1="504" y1="333" x2="526" y2="333" stroke="#034EA2" stroke-width="1.5"/>
+
+      <!-- ═════ OUTPUT BOXES x=526, w=200 ═════ -->
+
+      <!-- Detail Dataset: center y=127 -->
+      <rect x="526" y="105" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="626" y="123" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Detail Dataset</text>
+      <text x="626" y="140" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Per country · source · year</text>
+
+      <!-- Country Aggregates: center y=215 -->
+      <rect x="526" y="193" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="626" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Country Aggregates</text>
+      <text x="626" y="228" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Totals · percentages · CO₂</text>
+
+      <!-- Web Platform: center y=333 -->
+      <rect x="526" y="309" width="200" height="48" rx="7" fill="#034EA2"/>
+      <text x="626" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="white">Web Platform</text>
+      <text x="626" y="345" text-anchor="middle" font-size="9.5" fill="rgba(255,255,255,0.85)">Interactive map · charts · export</text>
+    </svg>
+  </div>
+</section>
+
+<!-- ═══════════════════════ METHODOLOGY ═════════════════════════════════ -->
+<section id="methodology">
+  <div class="section-label">Methodology</div>
+  <h2>Certificate Frameworks: GO &amp; I-REC</h2>
+  <p class="section-intro">Depending on the country, electricity tracking follows one of two established certificate frameworks. The platform automatically determines which applies per country based on total certificate volumes across all years.</p>
+  <div class="method-grid">
+
+    <div class="method-card go">
+      <div class="method-flag">🇪🇺</div>
+      <h3>GO — Guarantee of Origin</h3>
+      <p>Used across European and associated markets, managed through the AIB network. Each GO certifies exactly 1 MWh of electricity from a specific source and production period. GOs can be traded across borders, enabling companies anywhere in Europe to make renewable electricity claims.</p>
+      <ul class="method-facts">
+        <li>Covers most European countries</li>
+        <li>Administered by AIB member bodies (EECS system)</li>
+        <li>Generation data: AIB Production Mix (authoritative)</li>
+        <li>Residual mix: calculated from AIB official reports</li>
+      </ul>
+    </div>
+
+    <div class="method-card irec">
+      <div class="method-flag">🌍</div>
+      <h3>I-REC — International REC</h3>
+      <p>Used in markets outside Europe — primarily across Asia, Middle East, Africa, and Latin America. One I-REC certifies 1 MWh of verified renewable electricity. The I-REC Standard is internationally recognised and widely used for corporate scope 2 emissions accounting under GHG Protocol.</p>
+      <ul class="method-facts">
+        <li>Covers non-European markets</li>
+        <li>Issued under the I-REC Standard</li>
+        <li>Generation data: EMBERS yearly dataset (primary)</li>
+        <li>Residual mix: derived from generation minus issuance</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ OUTPUTS ══════════════════════════════════ -->
+<section id="outputs">
+  <div class="section-label">Outputs</div>
+  <h2>What the Platform Produces</h2>
+  <p class="section-intro">The pipeline produces structured data for analysis and an interactive web interface for visual exploration — both updated each time the pipeline runs.</p>
+  <div class="output-grid">
+
+    <div class="output-card">
+      <h3>📊 Detail Dataset</h3>
+      <p>One row per country, energy source, and year. Contains issuance volumes broken out by registry, generation totals, certified and residual mix, and emission factors per technology.</p>
+      <div class="field-pills">
+        <span class="field-pill">country</span>
+        <span class="field-pill">year</span>
+        <span class="field-pill">energy_source</span>
+        <span class="field-pill">certified_mix</span>
+        <span class="field-pill">residual_mix</span>
+        <span class="field-pill">total_generation</span>
+        <span class="field-pill">emission_factor</span>
+        <span class="field-pill">issuance_go</span>
+        <span class="field-pill">issuance_irec</span>
+      </div>
+    </div>
+
+    <div class="output-card">
+      <h3>🗺️ Country Aggregates</h3>
+      <p>One row per country per year. Aggregated totals and tracking percentages for high-level country comparisons and KPI dashboards.</p>
+      <div class="field-pills">
+        <span class="field-pill">total_generation</span>
+        <span class="field-pill">total_certified</span>
+        <span class="field-pill">perc_tracked_total</span>
+        <span class="field-pill">perc_residual</span>
+        <span class="field-pill">perc_green</span>
+        <span class="field-pill">generation_gco2kwh</span>
+        <span class="field-pill">methodology</span>
+      </div>
+    </div>
+
+    <div class="output-card">
+      <h3>🌐 Interactive World Map</h3>
+      <p>Choropleth map with three switchable KPIs — percentage tracked, percentage renewable generation, and emission factor. Year navigation from 2020 to 2024. Hover for country snapshot; click for full detail.</p>
+    </div>
+
+    <div class="output-card">
+      <h3>📈 Country Detail View</h3>
+      <p>Per-country modal with a generation mix bar chart (by energy source), certified vs residual pie charts, sortable data table, and XLSX export with lead-capture form. Covers all available years for the selected country.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ══════════════════════════════════ -->
+<footer>
+  <strong>Residual Mix</strong> &nbsp;·&nbsp; Data coverage 2020 – 2024 &nbsp;·&nbsp; All energy values in TWh
+  <br>
+  <span style="font-size:12px;">Sources: AIB/EECS, I-REC Standard (Barnebies), TIGRS, Ecogox, Clean Energy Regulator Australia, EMBERS, Oman Statistics</span>
+</footer>
+
+</main>
+
+<script>
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks  = document.querySelectorAll('.nav-links a');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const id = e.target.id;
+        navLinks.forEach(a => {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+        });
+      }
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+
+  sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
