@@ -841,7 +841,7 @@
 
             donutChart.setOption({
                 tooltip: { show: false },
-                legend: { bottom: 0, textStyle: { fontSize: 11 } },
+                legend: { bottom: 0, textStyle: { fontSize: 11 }, data: [...new Set([...genData, ...resData].map(d => d.name))] },
                 title: [
                     { text: "Generation Mix", left: "16%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
                     { text: "Tracked Generation", left: "50%", top: 0, textAlign: "center", textStyle: { fontSize: 13, fontWeight: 700, color: "#011832" } },
