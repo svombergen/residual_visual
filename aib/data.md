@@ -1,4 +1,4 @@
-# Data Pipeline — dataload.py
+﻿# Data Pipeline — dataload.py
 
 Merges 9 raw sources into two CSVs: **01_detail.csv** (per country/energy_source/year) and **01_aggregated.csv** (per country/year). All energy values in **TWh**.
 
@@ -8,7 +8,7 @@ Year range: **2020–2024**.
 
 ## Standardisation
 
-**Energy sources** — each source has raw names mapped to a canonical set via source-specific dicts (TIGRS_TECH, AIB_TECH, EMBERS_TECH, OMAN_TECH, ECOGOX_TECH) then `Mappings.xlsx` Technologies sheet as fallback. Standard values: `Bio, Coal, Gas, Hydro, Nuclear, Oil, Other (F), Other (R), Solar, Wind`.
+**Energy sources** — each source has raw names mapped to a canonical set via source-specific dicts (TIGRS_TECH, AIB_TECH, EMBER_TECH, OMAN_TECH, ECOGOX_TECH) then `Mappings.xlsx` Technologies sheet as fallback. Standard values: `Bio, Coal, Gas, Hydro, Nuclear, Oil, Other (F), Other (R), Solar, Wind`.
 
 **Country names** — COUNTRY_NAME_OVERRIDES hardcoded map → `Mappings.xlsx` Countries sheet. ISO 3166-1 alpha-3 codes via pycountry.
 
@@ -27,14 +27,14 @@ Year range: **2020–2024**.
 | RAW/Ecogox/Ecogox data.xlsx.Sheet1 | — | hardcoded "Colombia" | `country` |
 | RAW/Australia/australia_raw_260218.csv | Country | map_country() | `country` |
 | RAW/AIB/Issue/AIB_EECS*.csv | domain_name | split "XX - Name", map_country() | `country` |
-| EMBERS yearly_full_release_long_format.csv | Area | map_country() | `country` |
+| EMBER yearly_full_release_long_format.csv | Area | map_country() | `country` |
 | RAW/Oman/Oman_20250924.xlsx.Electricity production | — | hardcoded "Oman" | `country` |
 | RAW/AIB/ProdRM/*.xlsx.Production Mix | col 0 (ISO2) | _iso2_to_country() | `country` |
 | `country` | — | pycountry alpha_3 lookup | `country_code` |
 | Barnebies Data 08.10.25.xlsx.Issuance | Year of Vintage | to int | `year` |
 | RAW/TIGRS/TIGRS *.csv | Year | to int | `year` |
 | RAW/AIB/Issue/AIB_EECS*.csv | year | to int | `year` |
-| EMBERS yearly_full_release_long_format.csv | Year | to int | `year` |
+| EMBER yearly_full_release_long_format.csv | Year | to int | `year` |
 | RAW/Oman/Oman_20250924.xlsx.Electricity production | column headers | numeric → int | `year` |
 | RAW/AIB/ProdRM/*.xlsx | filename | first 4 digits | `year` |
 | Barnebies Data 08.10.25.xlsx.Issuance | Technology Final | map_tech(Mappings.xlsx) | `energy_source` |
@@ -42,7 +42,7 @@ Year range: **2020–2024**.
 | RAW/Ecogox/Ecogox data.xlsx.Sheet1 | type | map_tech(ECOGOX_TECH, Mappings.xlsx) | `energy_source` |
 | RAW/Australia/australia_raw_260218.csv | Technology | map_tech(Mappings.xlsx) | `energy_source` |
 | RAW/AIB/Issue/AIB_EECS*.csv | energy_source_level2 | AIB_TECH dict | `energy_source` |
-| EMBERS yearly_full_release_long_format.csv | Variable | EMBERS_TECH dict | `energy_source` |
+| EMBER yearly_full_release_long_format.csv | Variable | EMBER_TECH dict | `energy_source` |
 | RAW/Oman/Oman_20250924.xlsx.Electricity production | row label | OMAN_TECH dict | `energy_source` |
 | RAW/AIB/ProdRM/*.xlsx.Production Mix | column headers | PRODMIX_TECH dict | `energy_source` |
 | `energy_source` | — | ENERGY_CLASS dict | `class` |
@@ -61,17 +61,17 @@ Year range: **2020–2024**.
 | `issuance_tigrs + issuance_ecogox + issuance_lgc + issuance_go` | sum(min_count=1) | — | `issuance_ext` |
 | `issuance_irec + issuance_ext` | sum(min_count=1) | — | `issuance_total` |
 | `issuance_go` if >0; else `issuance_total` | — | conditional | `certified_mix` |
-| EMBERS yearly_full_release_long_format.csv | Value [Electricity generation, TWh] | group sum | `total_generation` |
+| EMBER yearly_full_release_long_format.csv | Value [Electricity generation, TWh] | group sum | `total_generation` |
 | RAW/Oman/Oman_20250924.xlsx.Electricity production | cell values [row = "Total production"] | already TWh, group sum | `total_generation` ¹ |
-| RAW/AIB/ProdRM/*.xlsx.Production Mix | Volume × source_share | replaces EMBERS for AIB-covered country/years | `total_generation` ¹ |
+| RAW/AIB/ProdRM/*.xlsx.Production Mix | Volume × source_share | replaces EMBER for AIB-covered country/years | `total_generation` ¹ |
 | `total_generation − certified_mix` | clip ≥ 0 | — | `residual_mix` |
 | RAW/AIB/ProdRM/*.xlsx.Residual Mixes | untracked_frac × supplier_vol × source_frac | overrides formula value where present | `residual_mix` ¹ |
-| EMBERS yearly_full_release_long_format.csv | Value [Power sector emissions, mtCO2] | × 1,000 (mtCO2 → ktCO2) | `total_co2` |
-| `generation_gco2kwh × aib_generation` | — | overrides EMBERS for AIB-covered rows | `total_co2` ¹ |
+| EMBER yearly_full_release_long_format.csv | Value [Power sector emissions, mtCO2] | × 1,000 (mtCO2 → ktCO2) | `total_co2` |
+| `generation_gco2kwh × aib_generation` | — | overrides EMBER for AIB-covered rows | `total_co2` ¹ |
 | `total_co2 ÷ total_generation` | — | — | `emission_factor` |
 | RAW/AIB/ProdRM/*.xlsx.Production Mix | CO2 intensity column (gCO2/kWh) | country/year-level value | `generation_gco2kwh` |
 | `emission_factor` | — | fallback where no AIB value | `generation_gco2kwh` ¹ |
-| `issuance_go>0`→"AIB", `issuance_tigrs>0`→"XPANSIV", `issuance_ecogox>0`→"Ecogox", `issuance_lgc>0`→"Clean Energy Regulator Australia", `issuance_irec>0`→"I-REC", `generation>0`→"EMBERS" | boolean flags, comma-joined | — | `sources` |
+| `issuance_go>0`→"AIB", `issuance_tigrs>0`→"XPANSIV", `issuance_ecogox>0`→"Ecogox", `issuance_lgc>0`→"Clean Energy Regulator Australia", `issuance_irec>0`→"I-REC", `generation>0`→"EMBER" | boolean flags, comma-joined | — | `sources` |
 | `issuance_irec` | >0 → "I-REC"; else "GO" | — | `methodology` |
 | Priority: `issuance_go`→"AIB", `issuance_tigrs`→"TIGRS", `issuance_ecogox`→"Ecogox", `issuance_lgc`→"LGC", `issuance_irec` & class=RES→"I-REC(E)", `issuance_irec`→"I-TRACK(E)" | np.select | — | `issuance` |
 

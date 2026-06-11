@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 dataload.py - Merge raw data sources into per-source and aggregated CSVs.
 
@@ -11,7 +11,7 @@ Sources:
   Ecogox     -> issuance_ecogox
   Australia  -> issuance_lgc
   AIB Issue  -> issuance_go, issuance_go_expire, issuance_go_cancel
-  EMBERS     -> generation
+  EMBER     -> generation
   Oman       -> generation
   AIB ProdRM -> residualmix_gco2kwh
 
@@ -129,7 +129,7 @@ AIB_TECH = {
     "unknown - unknown": "Other (F)",
 }
 
-EMBERS_TECH = {
+EMBER_TECH = {
     "coal": "Coal",
     "gas": "Gas",
     "oil": "Oil",
@@ -144,7 +144,7 @@ EMBERS_TECH = {
 }
 
 # CO2 sheet uses a slightly different variable set than the generation sheet
-EMBERS_CO2_TECH = {
+EMBER_CO2_TECH = {
     "coal": "Coal", "gas": "Gas", "hydro": "Hydro", "solar": "Solar",
     "wind": "Wind", "bioenergy": "Bio", "nuclear": "Nuclear",
     "other fossil": "Other (F)", "other renewables": "Other (R)",
@@ -222,7 +222,7 @@ def map_tech(raw, source_map=None, xlsx_map=None):
 # ── Country name normalisation ────────────────────────────────────────────────
 
 COUNTRY_NAME_OVERRIDES = {
-    # pycountry / EMBERS variants
+    # pycountry / EMBER variants
     "taiwan, province of china": "Taiwan",
     "taiwan": "Taiwan",
     "türkiye": "Türkiye",
@@ -438,11 +438,11 @@ def load_aib_issue(tech_map, country_map):
     return agg
 
 
-def load_embers(tech_map, country_map):
-    """EMBERS global generation + CO2 emissions per fuel type."""
-    path = INPUT / "EMBERS yearly_full_release_long_format.csv"
+def load_EMBER(tech_map, country_map):
+    """EMBER global generation + CO2 emissions per fuel type."""
+    path = INPUT / "EMBER yearly_full_release_long_format.csv"
     if not path.exists():
-        print("  SKIP  EMBERS - file not found")
+        print("  SKIP  EMBER - file not found")
         return pd.DataFrame(), pd.DataFrame()
 
     df = pd.read_csv(path, low_memory=False)
@@ -452,7 +452,7 @@ def load_embers(tech_map, country_map):
     gen = df.loc[country_mask & (df["Category"] == "Electricity generation") & (df["Subcategory"] == "Fuel") & (df["Unit"] == "TWh")].copy()
     gen["country"] = gen["Area"].apply(lambda a: map_country(a, country_map))
     gen["energy_source"] = gen["Variable"].apply(
-        lambda v: EMBERS_TECH.get(str(v).strip().lower(), str(v).strip()) if pd.notna(v) else ""
+        lambda v: EMBER_TECH.get(str(v).strip().lower(), str(v).strip()) if pd.notna(v) else ""
     )
     gen["generation"] = pd.to_numeric(gen["Value"], errors="coerce")
     gen = gen.rename(columns={"Year": "year"}).dropna(subset=["country", "year", "generation"])
@@ -463,14 +463,14 @@ def load_embers(tech_map, country_map):
     co2 = df.loc[country_mask & (df["Category"] == "Power sector emissions") & (df["Subcategory"] == "Fuel") & (df["Unit"] == "mtCO2")].copy()
     co2["country"] = co2["Area"].apply(lambda a: map_country(a, country_map))
     co2["energy_source"] = co2["Variable"].apply(
-        lambda v: EMBERS_CO2_TECH.get(str(v).strip().lower(), str(v).strip()) if pd.notna(v) else ""
+        lambda v: EMBER_CO2_TECH.get(str(v).strip().lower(), str(v).strip()) if pd.notna(v) else ""
     )
     co2["total_co2"] = pd.to_numeric(co2["Value"], errors="coerce")
     co2 = co2.rename(columns={"Year": "year"}).dropna(subset=["country", "year", "total_co2"])
     co2["year"] = co2["year"].astype(int)
     agg_co2 = co2.groupby(MERGE_KEYS, as_index=False)["total_co2"].sum()
 
-    print(f"  OK    EMBERS generation: {len(agg_gen):,} rows, CO2: {len(agg_co2):,} rows")
+    print(f"  OK    EMBER generation: {len(agg_gen):,} rows, CO2: {len(agg_co2):,} rows")
     return agg_gen, agg_co2
 
 
@@ -478,7 +478,7 @@ def load_oman():
     """Oman net generation by fuel type (wide -> long).
 
     Uses 'Net production' rows only to avoid double-counting with 'Total production'.
-    Returns oman_generation column; main() overrides EMBERS for Oman country/years.
+    Returns oman_generation column; main() overrides EMBER for Oman country/years.
     """
     path = RAW / "Oman" / "Oman_20250924.xlsx"
     if not path.exists():
@@ -701,7 +701,7 @@ def load_aib_residual_mix(country_map):
 def merge_sources(frames):
     """Outer-merge a list of DataFrames on (country, energy_source, year).
 
-    When two sources contribute the same value column (e.g. both EMBERS and
+    When two sources contribute the same value column (e.g. both EMBER and
     Oman supply 'generation'), the duplicates are summed and collapsed back
     to a single column.
     """
@@ -821,7 +821,7 @@ def main():
     print(f"  Tech: {len(tech_map)}, Countries: {len(country_map)}\n")
 
     print("Loading & aggregating sources...")
-    embers_gen, embers_co2 = load_embers(tech_map, country_map)
+    EMBER_gen, EMBER_co2 = load_EMBER(tech_map, country_map)
     aib_rm, aib_residual_detail = load_aib_residual_mix(country_map)
 
     detail_frames = [
@@ -831,8 +831,8 @@ def main():
         load_australia(tech_map, country_map),
         load_aib_issue(tech_map, country_map),
         load_aib_production_mix(country_map),
-        embers_gen,
-        embers_co2,
+        EMBER_gen,
+        EMBER_co2,
         load_oman(),
     ]
 
@@ -873,8 +873,8 @@ def main():
     df.loc[has_go,  "certified_mix"] = df.loc[has_go,  "issuance_go"]
     df.loc[~has_go, "certified_mix"] = df.loc[~has_go, "issuance_total"]
 
-    # For AIB production mix country/years: replace EMBERS generation with AIB values.
-    # EMBERS is not used as a fallback for sources AIB reports at zero — if AIB has no
+    # For AIB production mix country/years: replace EMBER generation with AIB values.
+    # EMBER is not used as a fallback for sources AIB reports at zero — if AIB has no
     # entry for a source (e.g. Bio in Norway), generation stays null for that row.
     if "aib_generation" in df.columns:
         covered = (
@@ -885,15 +885,15 @@ def main():
         df = df.merge(covered, on=["country", "year"], how="left")
         is_covered = df["_aib_covered"].fillna(False)
         df.loc[is_covered, "generation"] = df.loc[is_covered, "aib_generation"]
-        # For AIB-covered country/years, remove EMBERS generation+CO2 for any source
+        # For AIB-covered country/years, remove EMBER generation+CO2 for any source
         # not present in AIB's Production Mix — AIB is the authoritative source.
         no_aib = is_covered & df["aib_generation"].isna()
         df.loc[no_aib, "generation"] = pd.NA
         df.loc[no_aib, "total_co2"]  = pd.NA
         df.drop(columns=["_aib_covered"], inplace=True)
 
-    # Oman XLSX overrides EMBERS for Oman. oman_generation is authoritative;
-    # nullify EMBERS generation for any Oman source not present in the XLSX.
+    # Oman XLSX overrides EMBER for Oman. oman_generation is authoritative;
+    # nullify EMBER generation for any Oman source not present in the XLSX.
     if "oman_generation" in df.columns:
         has_oman = df["oman_generation"].notna() & (df["oman_generation"] > 0)
         df.loc[has_oman, "generation"] = df.loc[has_oman, "oman_generation"]
@@ -919,7 +919,7 @@ def main():
         df.drop(columns=["_aib_rm"], inplace=True)
 
     # Country/years present in the AIB Residual Mix sheet but with no per-source records
-    # (residual_total = 0, e.g. Austria 2024) are canonical zeros — do not fall back to EMBERS.
+    # (residual_total = 0, e.g. Austria 2024) are canonical zeros — do not fall back to EMBER.
     if not aib_rm.empty:
         aib_cy = aib_rm[["country", "year"]].drop_duplicates()
         if not aib_residual_detail.empty:
@@ -934,11 +934,11 @@ def main():
             df.loc[df["_zero_rm"].fillna(False), "residual_mix"] = 0
             df.drop(columns=["_zero_rm"], inplace=True)
 
-    # total_co2: EMBERS mtCO2 → ktCO2 (so emission_factor = total_co2 / gen = gCO2/kWh)
+    # total_co2: EMBER mtCO2 → ktCO2 (so emission_factor = total_co2 / gen = gCO2/kWh)
     df["total_co2"] = df["total_co2"] * 1000
 
     # Override total_co2 with AIB CO2 intensity × generation for AIB-covered rows.
-    # generation_gco2kwh (gCO2/kWh) × aib_generation (TWh) = ktCO2, same unit as EMBERS-derived.
+    # generation_gco2kwh (gCO2/kWh) × aib_generation (TWh) = ktCO2, same unit as EMBER-derived.
     if "generation_gco2kwh" in df.columns and "aib_generation" in df.columns:
         has_aib = df["aib_generation"].notna() & (df["aib_generation"] > 0)
         df.loc[has_aib, "total_co2"] = df.loc[has_aib, "generation_gco2kwh"] * df.loc[has_aib, "aib_generation"]
@@ -947,7 +947,7 @@ def main():
 
     # generation_gco2kwh at detail level:
     #   AIB-covered rows: already set from Production Mix country-level CO2 intensity
-    #   EMBERS-only rows: derived from per-source emission_factor
+    #   EMBER-only rows: derived from per-source emission_factor
     if "generation_gco2kwh" not in df.columns:
         df["generation_gco2kwh"] = pd.NA
     df["generation_gco2kwh"] = df["generation_gco2kwh"].fillna(df["emission_factor"])
@@ -969,12 +969,12 @@ def main():
     )
 
     # sources: comma-separated list of contributing data sources (vectorised)
-    # EMBERS is only credited when generation was not replaced by AIB or Oman data
+    # EMBER is only credited when generation was not replaced by AIB or Oman data
     gen_col     = df["generation"] if "generation" in df.columns else pd.Series(False, index=df.index)
     is_aib_gen  = (df["aib_generation"].notna()  & (df["aib_generation"]  > 0)) if "aib_generation"  in df.columns else pd.Series(False, index=df.index)
     is_oman_gen = (df["oman_generation"].notna() & (df["oman_generation"] > 0)) if "oman_generation" in df.columns else pd.Series(False, index=df.index)
     src_flags = {label: df[col].notna() & (df[col] > 0) for col, label in SOURCE_LABELS.items()}
-    src_flags["EMBERS"] = gen_col.notna() & (gen_col > 0) & ~is_aib_gen & ~is_oman_gen
+    src_flags["EMBER"] = gen_col.notna() & (gen_col > 0) & ~is_aib_gen & ~is_oman_gen
     src_flags["Oman"]   = is_oman_gen
     df["sources"] = (
         pd.DataFrame(src_flags)
@@ -1031,7 +1031,7 @@ def main():
     grp["perc_green"]              = (grp["total_renewable_gen"]       / grp["total_generation"].replace(0, pd.NA)) * 100
 
     # generation_gco2kwh + recalculated total_co2 for AIB-covered country/years only.
-    # For EMBERS-only countries generation_gco2kwh at detail level holds per-source emission
+    # For EMBER-only countries generation_gco2kwh at detail level holds per-source emission
     # factors, not a country-level average — using .first() there would pick up whichever
     # source sorts first (e.g. Bio) and corrupt total_co2.  Restrict to rows where AIB
     # Production Mix data exists; those rows carry the correct country/year-level intensity.

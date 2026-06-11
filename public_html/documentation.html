@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -483,7 +483,7 @@
     <div class="source-card">
       <div class="source-badge cert">I-REC</div>
       <div class="source-info">
-        <h4>I-REC Standard (Barnebies)</h4>
+        <h4>The I-TRACK Foundation</h4>
         <p>International renewable energy certificate registry. Used across emerging markets — Middle East, Asia, Africa, Latin America.</p>
         <span class="source-tag tag-issuance">Certificate Issuance</span>
       </div>
@@ -528,7 +528,7 @@
     <div class="source-card">
       <div class="source-badge gen">EMB</div>
       <div class="source-info">
-        <h4>EMBERS Yearly Release</h4>
+        <h4>EMBER Yearly Release</h4>
         <p>Ember's global electricity generation dataset with annual generation and emissions data by country and technology. Primary generation source for non-AIB countries.</p>
         <span class="source-tag tag-generation">Generation Data</span>
       </div>
@@ -538,7 +538,7 @@
       <div class="source-badge gen">MIX</div>
       <div class="source-info">
         <h4>AIB Production &amp; Residual Mix Reports</h4>
-        <p>Official AIB statistics on electricity production per technology and country. Authoritative source for GO-market countries — overrides EMBERS where available.</p>
+        <p>Official AIB statistics on electricity production per technology and country. Authoritative source for GO-market countries — overrides EMBER where available.</p>
         <span class="source-tag tag-mix">Production Mix</span>
       </div>
     </div>
@@ -547,7 +547,7 @@
       <div class="source-badge gen">OMN</div>
       <div class="source-info">
         <h4>Oman Official Statistics</h4>
-        <p>Official net electricity production data for Oman, used as the authoritative generation source replacing EMBERS figures.</p>
+        <p>Official net electricity production data for Oman, used as the authoritative generation source replacing EMBER figures.</p>
         <span class="source-tag tag-generation">Generation Data</span>
       </div>
     </div>
@@ -592,7 +592,7 @@
 
       <!-- Gen source boxes (centers: y=286,330,374) -->
       <rect x="20" y="268" width="175" height="36" rx="6" fill="#e8f0e9" stroke="#4a7c59" stroke-width="1.5"/>
-      <text x="107" y="282" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">EMBERS Database</text>
+      <text x="107" y="282" text-anchor="middle" font-size="11" font-weight="600" fill="#3a6b45">EMBER Database</text>
       <text x="107" y="296" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Global electricity generation</text>
 
       <rect x="20" y="312" width="175" height="36" rx="6" fill="#e8f0e9" stroke="#4a7c59" stroke-width="1.5"/>
@@ -682,7 +682,7 @@
       <div class="flegend">
         <div class="flegend-row">
           <span class="flegend-var go">UntrackedFraction</span>
-          <span class="flegend-desc">Share of total supply <em>not</em> backed by cancelled GOs — sourced from the official AIB Residual Mix report</span>
+          <span class="flegend-desc">Share of total supply <em>not</em> backed by cancelled GOs — sourced from the Residual Mix Table</span>
         </div>
         <div class="flegend-row">
           <span class="flegend-var go">SupplierVolume</span>
@@ -706,7 +706,7 @@
       <div class="flegend">
         <div class="flegend-row">
           <span class="flegend-var irec">TotalGeneration</span>
-          <span class="flegend-desc">Total electricity generated for this technology (TWh), from EMBERS</span>
+          <span class="flegend-desc">Total electricity generated for this technology (TWh), from EMBER</span>
         </div>
         <div class="flegend-row">
           <span class="flegend-var irec">CertifiedMix</span>
@@ -733,14 +733,14 @@
       <div class="flegend">
         <div class="flegend-row">
           <span class="flegend-var ef">Total CO₂</span>
-          <span class="flegend-desc">Power sector CO₂ in ktCO₂ — from EMBERS for I-REC countries; from AIB CO₂ intensity × generation for GO countries</span>
+          <span class="flegend-desc">Power sector CO₂ in ktCO₂ — from EMBER for I-REC countries; from AIB CO₂ intensity × generation for GO countries</span>
         </div>
         <div class="flegend-row">
           <span class="flegend-var ef">Total Generation</span>
           <span class="flegend-desc">Total electricity generation in TWh for the country &amp; year</span>
         </div>
       </div>
-      <div class="fnote">Unit identity: ktCO₂ ÷ TWh = tCO₂ / MWh, equivalent to gCO₂ / kWh. For GO countries, the AIB-reported CO₂ intensity per technology replaces EMBERS emissions to ensure consistency with the AIB production figures.</div>
+      <div class="fnote">Unit identity: ktCO₂ ÷ TWh = tCO₂ / MWh, equivalent to gCO₂ / kWh. For GO countries, the AIB-reported CO₂ intensity per technology replaces EMBER emissions to ensure consistency with the AIB production figures.</div>
     </div>
 
     <!-- ── CARD 4: Certified Mix selection ── -->
@@ -803,7 +803,7 @@
       <ul class="method-facts">
         <li>Covers non-European markets</li>
         <li>Issued under the I-REC Standard</li>
-        <li>Generation data: EMBERS yearly dataset (primary)</li>
+        <li>Generation data: EMBER yearly dataset (primary)</li>
         <li>Residual mix: derived from generation minus certificate issuance</li>
       </ul>
     </div>
@@ -864,7 +864,7 @@
 <footer>
   <strong>Residual Mix</strong> &nbsp;·&nbsp; Data coverage 2020 – 2024 &nbsp;·&nbsp; All energy values in TWh
   <br>
-  <span style="font-size:12px;">Sources: AIB/EECS, I-REC Standard (Barnebies), TIGRS, Ecogox, Clean Energy Regulator Australia, EMBERS, Oman Statistics</span>
+  <span style="font-size:12px;">Sources: AIB/EECS, The I-TRACK Foundation, TIGRS, Ecogox, Clean Energy Regulator Australia, EMBER, Oman Statistics</span>
 </footer>
 
 </main>

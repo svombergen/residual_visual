@@ -1,4 +1,4 @@
-window.DATA_DETAIL = [
+﻿window.DATA_DETAIL = [
   {
     "country": "Afghanistan",
     "country_code": "AFG",
@@ -20,7 +20,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -44,7 +44,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 20.2020202020202,
     "generation_gco2kwh": 20.2020202020202,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68,7 +68,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92,7 +92,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116,7 +116,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -140,7 +140,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 23.529411764705884,
     "generation_gco2kwh": 23.529411764705884,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -164,7 +164,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -188,7 +188,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -212,7 +212,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -236,7 +236,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 27.027027027027028,
     "generation_gco2kwh": 27.027027027027028,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -260,7 +260,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -284,7 +284,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -308,7 +308,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -332,7 +332,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -356,7 +356,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -380,7 +380,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -404,7 +404,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 24.62121212121212,
     "generation_gco2kwh": 24.62121212121212,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -428,7 +428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -452,7 +452,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 23.595505617977526,
     "generation_gco2kwh": 23.595505617977526,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -476,7 +476,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -500,7 +500,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 23.494860499265787,
     "generation_gco2kwh": 23.494860499265787,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -524,7 +524,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -548,7 +548,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 24.110218140068884,
     "generation_gco2kwh": 24.110218140068884,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -572,7 +572,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -596,7 +596,7 @@ window.DATA_DETAIL = [
     "total_co2": 49930.0,
     "emission_factor": 639.0630999616025,
     "generation_gco2kwh": 639.0630999616025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -620,7 +620,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -644,7 +644,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -668,7 +668,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 48.78048780487805,
     "generation_gco2kwh": 48.78048780487805,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -692,7 +692,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -716,7 +716,7 @@ window.DATA_DETAIL = [
     "total_co2": 53950.0,
     "emission_factor": 639.0665719023928,
     "generation_gco2kwh": 639.0665719023928,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -740,7 +740,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -764,7 +764,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 648.6486486486486,
     "generation_gco2kwh": 648.6486486486486,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -788,7 +788,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 50.63291139240506,
     "generation_gco2kwh": 50.63291139240506,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -812,7 +812,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -836,7 +836,7 @@ window.DATA_DETAIL = [
     "total_co2": 57660.0,
     "emission_factor": 639.1044114387054,
     "generation_gco2kwh": 639.1044114387054,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -860,7 +860,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -884,7 +884,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -908,7 +908,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 48.19277108433735,
     "generation_gco2kwh": 48.19277108433735,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -932,7 +932,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -956,7 +956,7 @@ window.DATA_DETAIL = [
     "total_co2": 60720.0,
     "emission_factor": 639.1578947368421,
     "generation_gco2kwh": 639.1578947368421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -980,7 +980,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1004,7 +1004,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1028,7 +1028,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 45.97701149425287,
     "generation_gco2kwh": 45.97701149425287,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1052,7 +1052,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1076,7 +1076,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1100,7 +1100,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1124,7 +1124,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1148,7 +1148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1172,7 +1172,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1196,7 +1196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1220,7 +1220,7 @@ window.DATA_DETAIL = [
     "total_co2": 960.0,
     "emission_factor": 581.8181818181819,
     "generation_gco2kwh": 581.8181818181819,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1244,7 +1244,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 23.734177215189874,
     "generation_gco2kwh": 23.734177215189874,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1268,7 +1268,7 @@ window.DATA_DETAIL = [
     "total_co2": 1610.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1292,7 +1292,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1316,7 +1316,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1340,7 +1340,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 584.3373493975904,
     "generation_gco2kwh": 584.3373493975904,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1364,7 +1364,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 23.734177215189874,
     "generation_gco2kwh": 23.734177215189874,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1388,7 +1388,7 @@ window.DATA_DETAIL = [
     "total_co2": 1630.0,
     "emission_factor": 657.258064516129,
     "generation_gco2kwh": 657.258064516129,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1412,7 +1412,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1436,7 +1436,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1460,7 +1460,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 580.8383233532934,
     "generation_gco2kwh": 580.8383233532934,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1484,7 +1484,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 23.734177215189874,
     "generation_gco2kwh": 23.734177215189874,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1508,7 +1508,7 @@ window.DATA_DETAIL = [
     "total_co2": 1680.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1532,7 +1532,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 51.28205128205128,
     "generation_gco2kwh": 51.28205128205128,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1556,7 +1556,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1580,7 +1580,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 580.8383233532934,
     "generation_gco2kwh": 580.8383233532934,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1604,7 +1604,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 24.114544084400904,
     "generation_gco2kwh": 24.114544084400904,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1628,7 +1628,7 @@ window.DATA_DETAIL = [
     "total_co2": 1680.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1652,7 +1652,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 51.28205128205128,
     "generation_gco2kwh": 51.28205128205128,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1676,7 +1676,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1700,7 +1700,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1724,7 +1724,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1748,7 +1748,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1772,7 +1772,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1796,7 +1796,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1820,7 +1820,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1844,7 +1844,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1868,7 +1868,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 218.18181818181816,
     "generation_gco2kwh": 218.18181818181816,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1892,7 +1892,7 @@ window.DATA_DETAIL = [
     "total_co2": 1430.0,
     "emission_factor": 871.9512195121952,
     "generation_gco2kwh": 871.9512195121952,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1916,7 +1916,7 @@ window.DATA_DETAIL = [
     "total_co2": 49410.0,
     "emission_factor": 556.9206492335437,
     "generation_gco2kwh": 556.9206492335437,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1940,7 +1940,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 23.658639628221376,
     "generation_gco2kwh": 23.658639628221376,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1964,7 +1964,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.9950049950049955,
     "generation_gco2kwh": 4.9950049950049955,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -1988,7 +1988,7 @@ window.DATA_DETAIL = [
     "total_co2": 5030.0,
     "emission_factor": 657.5163398692811,
     "generation_gco2kwh": 657.5163398692811,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2012,7 +2012,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 44.776119402985074,
     "generation_gco2kwh": 44.776119402985074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2036,7 +2036,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 7.438894792773645,
     "generation_gco2kwh": 7.438894792773645,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2060,7 +2060,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 217.77777777777777,
     "generation_gco2kwh": 217.77777777777777,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2084,7 +2084,7 @@ window.DATA_DETAIL = [
     "total_co2": 2070.0,
     "emission_factor": 869.7478991596639,
     "generation_gco2kwh": 869.7478991596639,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2108,7 +2108,7 @@ window.DATA_DETAIL = [
     "total_co2": 50080.0,
     "emission_factor": 556.8775714444567,
     "generation_gco2kwh": 556.8775714444567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2132,7 +2132,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 23.918575063613233,
     "generation_gco2kwh": 23.918575063613233,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2156,7 +2156,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.916420845624385,
     "generation_gco2kwh": 4.916420845624385,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2180,7 +2180,7 @@ window.DATA_DETAIL = [
     "total_co2": 8970.0,
     "emission_factor": 658.1071166544388,
     "generation_gco2kwh": 658.1071166544388,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2204,7 +2204,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2228,7 +2228,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 7.727975270479135,
     "generation_gco2kwh": 7.727975270479135,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2252,7 +2252,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 216.66666666666669,
     "generation_gco2kwh": 216.66666666666669,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2276,7 +2276,7 @@ window.DATA_DETAIL = [
     "total_co2": 2040.0,
     "emission_factor": 871.7948717948718,
     "generation_gco2kwh": 871.7948717948718,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2300,7 +2300,7 @@ window.DATA_DETAIL = [
     "total_co2": 42660.0,
     "emission_factor": 556.9190600522194,
     "generation_gco2kwh": 556.9190600522194,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2324,7 +2324,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 23.715415019762847,
     "generation_gco2kwh": 23.715415019762847,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2348,7 +2348,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 4.016064257028113,
     "generation_gco2kwh": 4.016064257028113,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2372,7 +2372,7 @@ window.DATA_DETAIL = [
     "total_co2": 11140.0,
     "emission_factor": 658.0035440047253,
     "generation_gco2kwh": 658.0035440047253,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2396,7 +2396,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2420,7 +2420,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 7.768361581920904,
     "generation_gco2kwh": 7.768361581920904,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2444,7 +2444,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 216.66666666666669,
     "generation_gco2kwh": 216.66666666666669,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2468,7 +2468,7 @@ window.DATA_DETAIL = [
     "total_co2": 1600.0,
     "emission_factor": 874.3169398907104,
     "generation_gco2kwh": 874.3169398907104,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2492,7 +2492,7 @@ window.DATA_DETAIL = [
     "total_co2": 42500.0,
     "emission_factor": 556.8658280922432,
     "generation_gco2kwh": 556.8658280922432,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2516,7 +2516,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 23.817084788821848,
     "generation_gco2kwh": 23.817084788821848,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2540,7 +2540,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 4.4642857142857135,
     "generation_gco2kwh": 4.4642857142857135,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2564,7 +2564,7 @@ window.DATA_DETAIL = [
     "total_co2": 6450.0,
     "emission_factor": 658.1632653061224,
     "generation_gco2kwh": 658.1632653061224,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2588,7 +2588,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 48.78048780487805,
     "generation_gco2kwh": 48.78048780487805,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2612,7 +2612,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 7.596685082872928,
     "generation_gco2kwh": 7.596685082872928,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2636,7 +2636,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 216.7300380228137,
     "generation_gco2kwh": 216.7300380228137,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2660,7 +2660,7 @@ window.DATA_DETAIL = [
     "total_co2": 1140.0,
     "emission_factor": 870.2290076335878,
     "generation_gco2kwh": 870.2290076335878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2684,7 +2684,7 @@ window.DATA_DETAIL = [
     "total_co2": 45640.0,
     "emission_factor": 556.9249542403904,
     "generation_gco2kwh": 556.9249542403904,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2708,7 +2708,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 23.592854735422986,
     "generation_gco2kwh": 23.592854735422986,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2732,7 +2732,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.784688995215311,
     "generation_gco2kwh": 4.784688995215311,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2756,7 +2756,7 @@ window.DATA_DETAIL = [
     "total_co2": 4180.0,
     "emission_factor": 657.2327044025157,
     "generation_gco2kwh": 657.2327044025157,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2780,7 +2780,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 47.858942065491185,
     "generation_gco2kwh": 47.858942065491185,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2804,7 +2804,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 7.421150278293134,
     "generation_gco2kwh": 7.421150278293134,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2828,7 +2828,7 @@ window.DATA_DETAIL = [
     "total_co2": 1860.0,
     "emission_factor": 586.7507886435332,
     "generation_gco2kwh": 586.7507886435332,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2852,7 +2852,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 22.47191011235955,
     "generation_gco2kwh": 22.47191011235955,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2876,7 +2876,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 3.9215686274509807,
     "generation_gco2kwh": 3.9215686274509807,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2900,7 +2900,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2924,7 +2924,7 @@ window.DATA_DETAIL = [
     "total_co2": 1980.0,
     "emission_factor": 585.7988165680473,
     "generation_gco2kwh": 585.7988165680473,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2948,7 +2948,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2972,7 +2972,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 5.405405405405405,
     "generation_gco2kwh": 5.405405405405405,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -2996,7 +2996,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 34.48275862068966,
     "generation_gco2kwh": 34.48275862068966,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3020,7 +3020,7 @@ window.DATA_DETAIL = [
     "total_co2": 2280.0,
     "emission_factor": 587.6288659793814,
     "generation_gco2kwh": 587.6288659793814,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3044,7 +3044,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 24.561403508771928,
     "generation_gco2kwh": 24.561403508771928,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3068,7 +3068,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 3.802281368821293,
     "generation_gco2kwh": 3.802281368821293,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3092,7 +3092,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3116,7 +3116,7 @@ window.DATA_DETAIL = [
     "total_co2": 2180.0,
     "emission_factor": 586.0215053763441,
     "generation_gco2kwh": 586.0215053763441,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3140,7 +3140,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 24.242424242424242,
     "generation_gco2kwh": 24.242424242424242,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3164,7 +3164,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 3.9840637450199208,
     "generation_gco2kwh": 3.9840637450199208,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3188,7 +3188,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 51.94805194805195,
     "generation_gco2kwh": 51.94805194805195,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3212,7 +3212,7 @@ window.DATA_DETAIL = [
     "total_co2": 2070.0,
     "emission_factor": 588.0681818181819,
     "generation_gco2kwh": 588.0681818181819,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3236,7 +3236,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 22.099447513812155,
     "generation_gco2kwh": 22.099447513812155,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3260,7 +3260,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 3.731343283582089,
     "generation_gco2kwh": 3.731343283582089,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3284,7 +3284,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3308,7 +3308,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 658.5365853658537,
     "generation_gco2kwh": 658.5365853658537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3332,7 +3332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3356,7 +3356,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3380,7 +3380,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 662.6506024096386,
     "generation_gco2kwh": 662.6506024096386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3404,7 +3404,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3428,7 +3428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3452,7 +3452,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 662.6506024096386,
     "generation_gco2kwh": 662.6506024096386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3476,7 +3476,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3500,7 +3500,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3524,7 +3524,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 217.00879765395894,
     "generation_gco2kwh": 217.00879765395894,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3548,7 +3548,7 @@ window.DATA_DETAIL = [
     "total_co2": 125780.0,
     "emission_factor": 880.0111942909116,
     "generation_gco2kwh": 880.0111942909116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3572,7 +3572,7 @@ window.DATA_DETAIL = [
     "total_co2": 38880.0,
     "emission_factor": 732.8934967012253,
     "generation_gco2kwh": 732.8934967012253,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3596,7 +3596,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 23.578363384188627,
     "generation_gco2kwh": 23.578363384188627,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3620,7 +3620,7 @@ window.DATA_DETAIL = [
     "total_co2": 3220.0,
     "emission_factor": 658.4867075664622,
     "generation_gco2kwh": 658.4867075664622,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3644,7 +3644,7 @@ window.DATA_DETAIL = [
     "total_co2": 1130.0,
     "emission_factor": 47.399328859060404,
     "generation_gco2kwh": 47.399328859060404,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3668,7 +3668,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 9.730207872622733,
     "generation_gco2kwh": 9.730207872622733,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3692,7 +3692,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 215.5688622754491,
     "generation_gco2kwh": 215.5688622754491,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3716,7 +3716,7 @@ window.DATA_DETAIL = [
     "total_co2": 120920.0,
     "emission_factor": 880.0582241630276,
     "generation_gco2kwh": 880.0582241630276,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3740,7 +3740,7 @@ window.DATA_DETAIL = [
     "total_co2": 34910.0,
     "emission_factor": 732.9414234726013,
     "generation_gco2kwh": 732.9414234726013,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3764,7 +3764,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 23.839397741530743,
     "generation_gco2kwh": 23.839397741530743,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBERS",
+    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3788,7 +3788,7 @@ window.DATA_DETAIL = [
     "total_co2": 3390.0,
     "emission_factor": 658.252427184466,
     "generation_gco2kwh": 658.252427184466,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3812,7 +3812,7 @@ window.DATA_DETAIL = [
     "total_co2": 1480.0,
     "emission_factor": 47.45110612375761,
     "generation_gco2kwh": 47.45110612375761,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3836,7 +3836,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 9.328358208955224,
     "generation_gco2kwh": 9.328358208955224,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3860,7 +3860,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 216.30094043887146,
     "generation_gco2kwh": 216.30094043887146,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3884,7 +3884,7 @@ window.DATA_DETAIL = [
     "total_co2": 113710.0,
     "emission_factor": 880.0402445631142,
     "generation_gco2kwh": 880.0402445631142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3908,7 +3908,7 @@ window.DATA_DETAIL = [
     "total_co2": 37250.0,
     "emission_factor": 732.9791420700511,
     "generation_gco2kwh": 732.9791420700511,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -3932,7 +3932,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 24.009603841536613,
     "generation_gco2kwh": 24.009603841536613,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBERS",
+    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3956,7 +3956,7 @@ window.DATA_DETAIL = [
     "total_co2": 3590.0,
     "emission_factor": 658.7155963302752,
     "generation_gco2kwh": 658.7155963302752,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3980,7 +3980,7 @@ window.DATA_DETAIL = [
     "total_co2": 1780.0,
     "emission_factor": 47.41608950452851,
     "generation_gco2kwh": 47.41608950452851,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4004,7 +4004,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 9.650582362728786,
     "generation_gco2kwh": 9.650582362728786,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4028,7 +4028,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 217.2523961661342,
     "generation_gco2kwh": 217.2523961661342,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4052,7 +4052,7 @@ window.DATA_DETAIL = [
     "total_co2": 110580.0,
     "emission_factor": 880.343921662288,
     "generation_gco2kwh": 880.343921662288,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -4076,7 +4076,7 @@ window.DATA_DETAIL = [
     "total_co2": 34200.0,
     "emission_factor": 732.8047996571673,
     "generation_gco2kwh": 732.8047996571673,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -4100,7 +4100,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 23.872679045092838,
     "generation_gco2kwh": 23.872679045092838,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBERS",
+    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4124,7 +4124,7 @@ window.DATA_DETAIL = [
     "total_co2": 3790.0,
     "emission_factor": 657.9861111111111,
     "generation_gco2kwh": 657.9861111111111,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4148,7 +4148,7 @@ window.DATA_DETAIL = [
     "total_co2": 2140.0,
     "emission_factor": 47.56612580573461,
     "generation_gco2kwh": 47.56612580573461,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4172,7 +4172,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 9.413241292751804,
     "generation_gco2kwh": 9.413241292751804,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4196,7 +4196,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 217.39130434782606,
     "generation_gco2kwh": 217.39130434782606,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBERS",
+    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4220,7 +4220,7 @@ window.DATA_DETAIL = [
     "total_co2": 112090.0,
     "emission_factor": 880.3110029058353,
     "generation_gco2kwh": 880.3110029058353,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -4244,7 +4244,7 @@ window.DATA_DETAIL = [
     "total_co2": 35990.0,
     "emission_factor": 732.9938900203666,
     "generation_gco2kwh": 732.9938900203666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -4268,7 +4268,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 24.124513618677042,
     "generation_gco2kwh": 24.124513618677042,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBERS",
+    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4292,7 +4292,7 @@ window.DATA_DETAIL = [
     "total_co2": 4220.0,
     "emission_factor": 657.3208722741433,
     "generation_gco2kwh": 657.3208722741433,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4316,7 +4316,7 @@ window.DATA_DETAIL = [
     "total_co2": 2390.0,
     "emission_factor": 47.600079665405296,
     "generation_gco2kwh": 47.600079665405296,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4340,7 +4340,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 9.46854001221747,
     "generation_gco2kwh": 9.46854001221747,
-    "sources": "Clean Energy Regulator Australia, EMBERS",
+    "sources": "Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4364,7 +4364,7 @@ window.DATA_DETAIL = [
     "total_co2": 990.0,
     "emission_factor": 215.68627450980392,
     "generation_gco2kwh": 215.68627450980392,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4388,7 +4388,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 964.2857142857142,
     "generation_gco2kwh": 964.2857142857142,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4412,7 +4412,7 @@ window.DATA_DETAIL = [
     "total_co2": 4450.0,
     "emission_factor": 447.23618090452266,
     "generation_gco2kwh": 447.23618090452266,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4436,7 +4436,7 @@ window.DATA_DETAIL = [
     "total_co2": 1000.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4484,7 +4484,7 @@ window.DATA_DETAIL = [
     "total_co2": 2050.0,
     "emission_factor": 659.1639871382637,
     "generation_gco2kwh": 659.1639871382637,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4532,7 +4532,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 49.01960784313725,
     "generation_gco2kwh": 49.01960784313725,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4556,7 +4556,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 11.782032400589102,
     "generation_gco2kwh": 11.782032400589102,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4580,7 +4580,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 216.5178571428571,
     "generation_gco2kwh": 216.5178571428571,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4628,7 +4628,7 @@ window.DATA_DETAIL = [
     "total_co2": 4750.0,
     "emission_factor": 447.2693032015066,
     "generation_gco2kwh": 447.2693032015066,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4652,7 +4652,7 @@ window.DATA_DETAIL = [
     "total_co2": 920.0,
     "emission_factor": 23.656466958086913,
     "generation_gco2kwh": 23.656466958086913,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4700,7 +4700,7 @@ window.DATA_DETAIL = [
     "total_co2": 2180.0,
     "emission_factor": 658.6102719033232,
     "generation_gco2kwh": 658.6102719033232,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4748,7 +4748,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 46.931407942238266,
     "generation_gco2kwh": 46.931407942238266,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -4772,7 +4772,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 11.869436201780415,
     "generation_gco2kwh": 11.869436201780415,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -5396,7 +5396,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5420,7 +5420,7 @@ window.DATA_DETAIL = [
     "total_co2": 17430.0,
     "emission_factor": 714.9302707136998,
     "generation_gco2kwh": 714.9302707136998,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5444,7 +5444,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 28.037383177570092,
     "generation_gco2kwh": 28.037383177570092,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5468,7 +5468,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5492,7 +5492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5516,7 +5516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5540,7 +5540,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5564,7 +5564,7 @@ window.DATA_DETAIL = [
     "total_co2": 18330.0,
     "emission_factor": 714.8985959438378,
     "generation_gco2kwh": 714.8985959438378,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5588,7 +5588,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 23.4375,
     "generation_gco2kwh": 23.4375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5612,7 +5612,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 650.7936507936508,
     "generation_gco2kwh": 650.7936507936508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5636,7 +5636,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5660,7 +5660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5684,7 +5684,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5708,7 +5708,7 @@ window.DATA_DETAIL = [
     "total_co2": 19310.0,
     "emission_factor": 714.9203998519066,
     "generation_gco2kwh": 714.9203998519066,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5732,7 +5732,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 25.0,
     "generation_gco2kwh": 25.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5756,7 +5756,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5780,7 +5780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5804,7 +5804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5828,7 +5828,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5852,7 +5852,7 @@ window.DATA_DETAIL = [
     "total_co2": 19360.0,
     "emission_factor": 714.9187592319055,
     "generation_gco2kwh": 714.9187592319055,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5876,7 +5876,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5900,7 +5900,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5924,7 +5924,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5948,7 +5948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5972,7 +5972,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -5996,7 +5996,7 @@ window.DATA_DETAIL = [
     "total_co2": 17570.0,
     "emission_factor": 715.0997150997151,
     "generation_gco2kwh": 715.0997150997151,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6020,7 +6020,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 24.475524475524477,
     "generation_gco2kwh": 24.475524475524477,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6044,7 +6044,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6068,7 +6068,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6092,7 +6092,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6116,7 +6116,7 @@ window.DATA_DETAIL = [
     "total_co2": 1330.0,
     "emission_factor": 658.4158415841584,
     "generation_gco2kwh": 658.4158415841584,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6140,7 +6140,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6164,7 +6164,7 @@ window.DATA_DETAIL = [
     "total_co2": 1340.0,
     "emission_factor": 660.0985221674878,
     "generation_gco2kwh": 660.0985221674878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6188,7 +6188,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6212,7 +6212,7 @@ window.DATA_DETAIL = [
     "total_co2": 1340.0,
     "emission_factor": 660.0985221674878,
     "generation_gco2kwh": 660.0985221674878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6236,7 +6236,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6260,7 +6260,7 @@ window.DATA_DETAIL = [
     "total_co2": 30180.0,
     "emission_factor": 904.6762589928057,
     "generation_gco2kwh": 904.6762589928057,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6284,7 +6284,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6308,7 +6308,7 @@ window.DATA_DETAIL = [
     "total_co2": 30640.0,
     "emission_factor": 904.6353705343963,
     "generation_gco2kwh": 904.6353705343963,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6332,7 +6332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6356,7 +6356,7 @@ window.DATA_DETAIL = [
     "total_co2": 32210.0,
     "emission_factor": 904.7752808988764,
     "generation_gco2kwh": 904.7752808988764,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6380,7 +6380,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6404,7 +6404,7 @@ window.DATA_DETAIL = [
     "total_co2": 32640.0,
     "emission_factor": 904.6563192904657,
     "generation_gco2kwh": 904.6563192904657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6428,7 +6428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6452,7 +6452,7 @@ window.DATA_DETAIL = [
     "total_co2": 2620.0,
     "emission_factor": 831.7460317460318,
     "generation_gco2kwh": 831.7460317460318,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6476,7 +6476,7 @@ window.DATA_DETAIL = [
     "total_co2": 48660.0,
     "emission_factor": 686.5124153498872,
     "generation_gco2kwh": 686.5124153498872,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6500,7 +6500,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 25.64102564102564,
     "generation_gco2kwh": 25.64102564102564,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6524,7 +6524,7 @@ window.DATA_DETAIL = [
     "total_co2": 6700.0,
     "emission_factor": 658.1532416502947,
     "generation_gco2kwh": 658.1532416502947,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6548,7 +6548,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -6572,7 +6572,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6596,7 +6596,7 @@ window.DATA_DETAIL = [
     "total_co2": 4350.0,
     "emission_factor": 820.7547169811321,
     "generation_gco2kwh": 820.7547169811321,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6620,7 +6620,7 @@ window.DATA_DETAIL = [
     "total_co2": 47920.0,
     "emission_factor": 686.4346082223177,
     "generation_gco2kwh": 686.4346082223177,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6644,7 +6644,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 27.397260273972602,
     "generation_gco2kwh": 27.397260273972602,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6668,7 +6668,7 @@ window.DATA_DETAIL = [
     "total_co2": 12630.0,
     "emission_factor": 658.1552892131318,
     "generation_gco2kwh": 658.1552892131318,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6692,7 +6692,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 49.18032786885246,
     "generation_gco2kwh": 49.18032786885246,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -6716,7 +6716,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6740,7 +6740,7 @@ window.DATA_DETAIL = [
     "total_co2": 4630.0,
     "emission_factor": 818.0212014134275,
     "generation_gco2kwh": 818.0212014134275,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6764,7 +6764,7 @@ window.DATA_DETAIL = [
     "total_co2": 47500.0,
     "emission_factor": 686.5153923977454,
     "generation_gco2kwh": 686.5153923977454,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6788,7 +6788,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 28.169014084507044,
     "generation_gco2kwh": 28.169014084507044,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6812,7 +6812,7 @@ window.DATA_DETAIL = [
     "total_co2": 16980.0,
     "emission_factor": 657.8845408756297,
     "generation_gco2kwh": 657.8845408756297,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6836,7 +6836,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 45.97701149425287,
     "generation_gco2kwh": 45.97701149425287,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -6860,7 +6860,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6884,7 +6884,7 @@ window.DATA_DETAIL = [
     "total_co2": 8720.0,
     "emission_factor": 815.7156220767073,
     "generation_gco2kwh": 815.7156220767073,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6908,7 +6908,7 @@ window.DATA_DETAIL = [
     "total_co2": 49330.0,
     "emission_factor": 686.4736988588922,
     "generation_gco2kwh": 686.4736988588922,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6932,7 +6932,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 30.769230769230766,
     "generation_gco2kwh": 30.769230769230766,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6956,7 +6956,7 @@ window.DATA_DETAIL = [
     "total_co2": 14400.0,
     "emission_factor": 657.8346276838739,
     "generation_gco2kwh": 657.8346276838739,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -6980,7 +6980,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 46.72897196261682,
     "generation_gco2kwh": 46.72897196261682,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -7004,7 +7004,7 @@ window.DATA_DETAIL = [
     "total_co2": 18710.0,
     "emission_factor": 815.2505446623094,
     "generation_gco2kwh": 815.2505446623094,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7028,7 +7028,7 @@ window.DATA_DETAIL = [
     "total_co2": 48100.0,
     "emission_factor": 686.4564007421151,
     "generation_gco2kwh": 686.4564007421151,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7052,7 +7052,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 22.47191011235955,
     "generation_gco2kwh": 22.47191011235955,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7076,7 +7076,7 @@ window.DATA_DETAIL = [
     "total_co2": 12190.0,
     "emission_factor": 657.8521316783593,
     "generation_gco2kwh": 657.8521316783593,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7100,7 +7100,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 49.29577464788733,
     "generation_gco2kwh": 49.29577464788733,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -7124,7 +7124,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7148,7 +7148,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 659.7938144329897,
     "generation_gco2kwh": 659.7938144329897,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7172,7 +7172,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7196,7 +7196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7220,7 +7220,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7244,7 +7244,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7268,7 +7268,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7292,7 +7292,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 653.0612244897959,
     "generation_gco2kwh": 653.0612244897959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7316,7 +7316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7340,7 +7340,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7364,7 +7364,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 653.0612244897959,
     "generation_gco2kwh": 653.0612244897959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7388,7 +7388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7412,7 +7412,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 220.33898305084747,
     "generation_gco2kwh": 220.33898305084747,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7436,7 +7436,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7460,7 +7460,7 @@ window.DATA_DETAIL = [
     "total_co2": 17640.0,
     "emission_factor": 508.50389161141544,
     "generation_gco2kwh": 508.50389161141544,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7484,7 +7484,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 25.64102564102564,
     "generation_gco2kwh": 25.64102564102564,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7508,7 +7508,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7532,7 +7532,7 @@ window.DATA_DETAIL = [
     "total_co2": 1400.0,
     "emission_factor": 657.2769953051644,
     "generation_gco2kwh": 657.2769953051644,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7556,7 +7556,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7580,7 +7580,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7604,7 +7604,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 218.18181818181816,
     "generation_gco2kwh": 218.18181818181816,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7628,7 +7628,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7652,7 +7652,7 @@ window.DATA_DETAIL = [
     "total_co2": 16370.000000000002,
     "emission_factor": 508.5430257844052,
     "generation_gco2kwh": 508.5430257844052,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7676,7 +7676,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 27.027027027027028,
     "generation_gco2kwh": 27.027027027027028,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7700,7 +7700,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 5.190311418685121,
     "generation_gco2kwh": 5.190311418685121,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7724,7 +7724,7 @@ window.DATA_DETAIL = [
     "total_co2": 1300.0,
     "emission_factor": 656.5656565656566,
     "generation_gco2kwh": 656.5656565656566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7748,7 +7748,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7772,7 +7772,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7796,7 +7796,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 220.0,
     "generation_gco2kwh": 220.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7820,7 +7820,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7844,7 +7844,7 @@ window.DATA_DETAIL = [
     "total_co2": 14950.0,
     "emission_factor": 508.5034013605442,
     "generation_gco2kwh": 508.5034013605442,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7868,7 +7868,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 27.027027027027028,
     "generation_gco2kwh": 27.027027027027028,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7892,7 +7892,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 6.410256410256411,
     "generation_gco2kwh": 6.410256410256411,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7916,7 +7916,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 657.4585635359116,
     "generation_gco2kwh": 657.4585635359116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7940,7 +7940,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7964,7 +7964,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -7988,7 +7988,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 207.54716981132074,
     "generation_gco2kwh": 207.54716981132074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8012,7 +8012,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8036,7 +8036,7 @@ window.DATA_DETAIL = [
     "total_co2": 14950.0,
     "emission_factor": 508.5034013605442,
     "generation_gco2kwh": 508.5034013605442,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8060,7 +8060,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 25.64102564102564,
     "generation_gco2kwh": 25.64102564102564,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8084,7 +8084,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 5.115089514066496,
     "generation_gco2kwh": 5.115089514066496,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8108,7 +8108,7 @@ window.DATA_DETAIL = [
     "total_co2": 710.0,
     "emission_factor": 657.4074074074074,
     "generation_gco2kwh": 657.4074074074074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8132,7 +8132,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8156,7 +8156,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8180,7 +8180,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8204,7 +8204,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8228,7 +8228,7 @@ window.DATA_DETAIL = [
     "total_co2": 14400.0,
     "emission_factor": 508.65418580007065,
     "generation_gco2kwh": 508.65418580007065,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8252,7 +8252,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8276,7 +8276,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 5.7397959183673475,
     "generation_gco2kwh": 5.7397959183673475,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8300,7 +8300,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8324,7 +8324,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8348,7 +8348,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8372,7 +8372,7 @@ window.DATA_DETAIL = [
     "total_co2": 1140.0,
     "emission_factor": 216.7300380228137,
     "generation_gco2kwh": 216.7300380228137,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8396,7 +8396,7 @@ window.DATA_DETAIL = [
     "total_co2": 10600.0,
     "emission_factor": 395.8177744585511,
     "generation_gco2kwh": 395.8177744585511,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8420,7 +8420,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 37.03703703703704,
     "generation_gco2kwh": 37.03703703703704,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8444,7 +8444,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 4.937554458321231,
     "generation_gco2kwh": 4.937554458321231,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8492,7 +8492,7 @@ window.DATA_DETAIL = [
     "total_co2": 2390.0,
     "emission_factor": 658.4022038567493,
     "generation_gco2kwh": 658.4022038567493,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8516,7 +8516,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 46.96673189823874,
     "generation_gco2kwh": 46.96673189823874,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8540,7 +8540,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 12.49024199843872,
     "generation_gco2kwh": 12.49024199843872,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8564,7 +8564,7 @@ window.DATA_DETAIL = [
     "total_co2": 1020.0,
     "emission_factor": 217.02127659574467,
     "generation_gco2kwh": 217.02127659574467,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8588,7 +8588,7 @@ window.DATA_DETAIL = [
     "total_co2": 8910.0,
     "emission_factor": 395.64831261101244,
     "generation_gco2kwh": 395.64831261101244,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8612,7 +8612,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8636,7 +8636,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 4.7685277170673555,
     "generation_gco2kwh": 4.7685277170673555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8660,7 +8660,7 @@ window.DATA_DETAIL = [
     "total_co2": 2500.0,
     "emission_factor": 657.8947368421053,
     "generation_gco2kwh": 657.8947368421053,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -8684,7 +8684,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 48.04270462633452,
     "generation_gco2kwh": 48.04270462633452,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -8708,7 +8708,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 12.5,
     "generation_gco2kwh": 12.5,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -9452,7 +9452,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9476,7 +9476,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9500,7 +9500,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9524,7 +9524,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9548,7 +9548,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9572,7 +9572,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9596,7 +9596,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9620,7 +9620,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9644,7 +9644,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 187.5,
     "generation_gco2kwh": 187.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9668,7 +9668,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9692,7 +9692,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9716,7 +9716,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9740,7 +9740,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9764,7 +9764,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9788,7 +9788,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9812,7 +9812,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9836,7 +9836,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 586.6666666666666,
     "generation_gco2kwh": 586.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9860,7 +9860,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 652.1739130434783,
     "generation_gco2kwh": 652.1739130434783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9884,7 +9884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9908,7 +9908,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 584.2696629213483,
     "generation_gco2kwh": 584.2696629213483,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9932,7 +9932,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9956,7 +9956,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -9980,7 +9980,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 589.0410958904109,
     "generation_gco2kwh": 589.0410958904109,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10004,7 +10004,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10028,7 +10028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10052,7 +10052,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 589.0410958904109,
     "generation_gco2kwh": 589.0410958904109,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10076,7 +10076,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10100,7 +10100,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10124,7 +10124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10148,7 +10148,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10172,7 +10172,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10196,7 +10196,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10220,7 +10220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10244,7 +10244,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10268,7 +10268,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10292,7 +10292,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 650.7936507936508,
     "generation_gco2kwh": 650.7936507936508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10316,7 +10316,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 23.7467018469657,
     "generation_gco2kwh": 23.7467018469657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10340,7 +10340,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 24.029574861367838,
     "generation_gco2kwh": 24.029574861367838,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10364,7 +10364,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 24.141132776230272,
     "generation_gco2kwh": 24.141132776230272,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10388,7 +10388,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 24.193548387096772,
     "generation_gco2kwh": 24.193548387096772,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10412,7 +10412,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 212.12121212121212,
     "generation_gco2kwh": 212.12121212121212,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10436,7 +10436,7 @@ window.DATA_DETAIL = [
     "total_co2": 4630.0,
     "emission_factor": 731.4375987361769,
     "generation_gco2kwh": 731.4375987361769,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10460,7 +10460,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10484,7 +10484,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10508,7 +10508,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 60.6060606060606,
     "generation_gco2kwh": 60.6060606060606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10532,7 +10532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10556,7 +10556,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 217.39130434782606,
     "generation_gco2kwh": 217.39130434782606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10580,7 +10580,7 @@ window.DATA_DETAIL = [
     "total_co2": 4720.0,
     "emission_factor": 731.782945736434,
     "generation_gco2kwh": 731.782945736434,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10604,7 +10604,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 24.691358024691358,
     "generation_gco2kwh": 24.691358024691358,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10628,7 +10628,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10652,7 +10652,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 57.142857142857146,
     "generation_gco2kwh": 57.142857142857146,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10676,7 +10676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10700,7 +10700,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 207.54716981132074,
     "generation_gco2kwh": 207.54716981132074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10724,7 +10724,7 @@ window.DATA_DETAIL = [
     "total_co2": 5320.0,
     "emission_factor": 731.7744154057772,
     "generation_gco2kwh": 731.7744154057772,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10748,7 +10748,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 24.561403508771928,
     "generation_gco2kwh": 24.561403508771928,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10772,7 +10772,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 652.1739130434783,
     "generation_gco2kwh": 652.1739130434783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10796,7 +10796,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 57.142857142857146,
     "generation_gco2kwh": 57.142857142857146,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10820,7 +10820,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10844,7 +10844,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 214.2857142857143,
     "generation_gco2kwh": 214.2857142857143,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10868,7 +10868,7 @@ window.DATA_DETAIL = [
     "total_co2": 5520.0,
     "emission_factor": 731.1258278145696,
     "generation_gco2kwh": 731.1258278145696,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10892,7 +10892,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 23.569023569023567,
     "generation_gco2kwh": 23.569023569023567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10916,7 +10916,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10940,7 +10940,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 57.142857142857146,
     "generation_gco2kwh": 57.142857142857146,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10964,7 +10964,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -10988,7 +10988,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11012,7 +11012,7 @@ window.DATA_DETAIL = [
     "total_co2": 5450.0,
     "emission_factor": 731.5436241610738,
     "generation_gco2kwh": 731.5436241610738,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11036,7 +11036,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 22.857142857142858,
     "generation_gco2kwh": 22.857142857142858,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11060,7 +11060,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11084,7 +11084,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 58.8235294117647,
     "generation_gco2kwh": 58.8235294117647,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11108,7 +11108,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11132,7 +11132,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11156,7 +11156,7 @@ window.DATA_DETAIL = [
     "total_co2": 11800.0,
     "emission_factor": 995.7805907172996,
     "generation_gco2kwh": 995.7805907172996,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11180,7 +11180,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 24.017467248908297,
     "generation_gco2kwh": 24.017467248908297,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11204,7 +11204,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11228,7 +11228,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11252,7 +11252,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11276,7 +11276,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11300,7 +11300,7 @@ window.DATA_DETAIL = [
     "total_co2": 11150.0,
     "emission_factor": 995.5357142857143,
     "generation_gco2kwh": 995.5357142857143,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11324,7 +11324,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 23.916292974588938,
     "generation_gco2kwh": 23.916292974588938,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11348,7 +11348,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11372,7 +11372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11396,7 +11396,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11732,7 +11732,7 @@ window.DATA_DETAIL = [
     "total_co2": 1820.0,
     "emission_factor": 858.4905660377358,
     "generation_gco2kwh": 858.4905660377358,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11756,7 +11756,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11780,7 +11780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11804,7 +11804,7 @@ window.DATA_DETAIL = [
     "total_co2": 2050.0,
     "emission_factor": 857.7405857740586,
     "generation_gco2kwh": 857.7405857740586,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11828,7 +11828,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11852,7 +11852,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11876,7 +11876,7 @@ window.DATA_DETAIL = [
     "total_co2": 2100.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11900,7 +11900,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11924,7 +11924,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11948,7 +11948,7 @@ window.DATA_DETAIL = [
     "total_co2": 2130.0,
     "emission_factor": 858.8709677419355,
     "generation_gco2kwh": 858.8709677419355,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11972,7 +11972,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -11996,7 +11996,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12020,7 +12020,7 @@ window.DATA_DETAIL = [
     "total_co2": 12700.0,
     "emission_factor": 216.20701395982294,
     "generation_gco2kwh": 216.20701395982294,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12044,7 +12044,7 @@ window.DATA_DETAIL = [
     "total_co2": 15470.0,
     "emission_factor": 871.5492957746479,
     "generation_gco2kwh": 871.5492957746479,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12068,7 +12068,7 @@ window.DATA_DETAIL = [
     "total_co2": 35660.0,
     "emission_factor": 599.5292535305986,
     "generation_gco2kwh": 599.5292535305986,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12092,7 +12092,7 @@ window.DATA_DETAIL = [
     "total_co2": 9420.0,
     "emission_factor": 23.76507391896665,
     "generation_gco2kwh": 23.76507391896665,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12116,7 +12116,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 4.98220640569395,
     "generation_gco2kwh": 4.98220640569395,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12140,7 +12140,7 @@ window.DATA_DETAIL = [
     "total_co2": 9580.0,
     "emission_factor": 657.967032967033,
     "generation_gco2kwh": 657.967032967033,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12164,7 +12164,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 47.44186046511628,
     "generation_gco2kwh": 47.44186046511628,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12188,7 +12188,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 7.712532865907099,
     "generation_gco2kwh": 7.712532865907099,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12212,7 +12212,7 @@ window.DATA_DETAIL = [
     "total_co2": 12110.0,
     "emission_factor": 216.21139082306732,
     "generation_gco2kwh": 216.21139082306732,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12236,7 +12236,7 @@ window.DATA_DETAIL = [
     "total_co2": 21130.0,
     "emission_factor": 871.6996699669968,
     "generation_gco2kwh": 871.6996699669968,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12260,7 +12260,7 @@ window.DATA_DETAIL = [
     "total_co2": 52140.0,
     "emission_factor": 599.5860165593376,
     "generation_gco2kwh": 599.5860165593376,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12284,7 +12284,7 @@ window.DATA_DETAIL = [
     "total_co2": 8620.0,
     "emission_factor": 23.758337467614794,
     "generation_gco2kwh": 23.758337467614794,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12308,7 +12308,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 4.761904761904762,
     "generation_gco2kwh": 4.761904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12332,7 +12332,7 @@ window.DATA_DETAIL = [
     "total_co2": 14890.0,
     "emission_factor": 657.976137870084,
     "generation_gco2kwh": 657.976137870084,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12356,7 +12356,7 @@ window.DATA_DETAIL = [
     "total_co2": 800.0,
     "emission_factor": 47.76119402985075,
     "generation_gco2kwh": 47.76119402985075,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12380,7 +12380,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 7.746576289943284,
     "generation_gco2kwh": 7.746576289943284,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12404,7 +12404,7 @@ window.DATA_DETAIL = [
     "total_co2": 11900.0,
     "emission_factor": 216.28498727735368,
     "generation_gco2kwh": 216.28498727735368,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12428,7 +12428,7 @@ window.DATA_DETAIL = [
     "total_co2": 12550.0,
     "emission_factor": 871.5277777777777,
     "generation_gco2kwh": 871.5277777777777,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12452,7 +12452,7 @@ window.DATA_DETAIL = [
     "total_co2": 25250.0,
     "emission_factor": 599.6200427451912,
     "generation_gco2kwh": 599.6200427451912,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12476,7 +12476,7 @@ window.DATA_DETAIL = [
     "total_co2": 10150.0,
     "emission_factor": 23.764369834468873,
     "generation_gco2kwh": 23.764369834468873,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12500,7 +12500,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 4.8076923076923075,
     "generation_gco2kwh": 4.8076923076923075,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12524,7 +12524,7 @@ window.DATA_DETAIL = [
     "total_co2": 8029.999999999999,
     "emission_factor": 658.1967213114754,
     "generation_gco2kwh": 658.1967213114754,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12548,7 +12548,7 @@ window.DATA_DETAIL = [
     "total_co2": 1430.0,
     "emission_factor": 47.46100232326585,
     "generation_gco2kwh": 47.46100232326585,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12572,7 +12572,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 7.717750826901875,
     "generation_gco2kwh": 7.717750826901875,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12596,7 +12596,7 @@ window.DATA_DETAIL = [
     "total_co2": 12490.0,
     "emission_factor": 216.23961218836567,
     "generation_gco2kwh": 216.23961218836567,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12620,7 +12620,7 @@ window.DATA_DETAIL = [
     "total_co2": 11600.0,
     "emission_factor": 871.5251690458301,
     "generation_gco2kwh": 871.5251690458301,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12644,7 +12644,7 @@ window.DATA_DETAIL = [
     "total_co2": 23140.0,
     "emission_factor": 599.637211712879,
     "generation_gco2kwh": 599.637211712879,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12668,7 +12668,7 @@ window.DATA_DETAIL = [
     "total_co2": 10120.0,
     "emission_factor": 23.75586854460094,
     "generation_gco2kwh": 23.75586854460094,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12692,7 +12692,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 4.827586206896552,
     "generation_gco2kwh": 4.827586206896552,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12716,7 +12716,7 @@ window.DATA_DETAIL = [
     "total_co2": 7590.0,
     "emission_factor": 658.2827406764961,
     "generation_gco2kwh": 658.2827406764961,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12740,7 +12740,7 @@ window.DATA_DETAIL = [
     "total_co2": 2410.0,
     "emission_factor": 47.60023701362828,
     "generation_gco2kwh": 47.60023701362828,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12764,7 +12764,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 7.724425887265136,
     "generation_gco2kwh": 7.724425887265136,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12788,7 +12788,7 @@ window.DATA_DETAIL = [
     "total_co2": 12590.0,
     "emission_factor": 216.17445054945054,
     "generation_gco2kwh": 216.17445054945054,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12812,7 +12812,7 @@ window.DATA_DETAIL = [
     "total_co2": 14130.0,
     "emission_factor": 871.6841455891424,
     "generation_gco2kwh": 871.6841455891424,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12836,7 +12836,7 @@ window.DATA_DETAIL = [
     "total_co2": 29240.0,
     "emission_factor": 599.6718621821166,
     "generation_gco2kwh": 599.6718621821166,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12860,7 +12860,7 @@ window.DATA_DETAIL = [
     "total_co2": 9820.0,
     "emission_factor": 23.765155731952277,
     "generation_gco2kwh": 23.765155731952277,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12884,7 +12884,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 4.435994930291509,
     "generation_gco2kwh": 4.435994930291509,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12908,7 +12908,7 @@ window.DATA_DETAIL = [
     "total_co2": 9020.0,
     "emission_factor": 657.9139314369073,
     "generation_gco2kwh": 657.9139314369073,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -12932,7 +12932,7 @@ window.DATA_DETAIL = [
     "total_co2": 3390.0,
     "emission_factor": 47.53224901850814,
     "generation_gco2kwh": 47.53224901850814,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12956,7 +12956,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 7.6504746981288605,
     "generation_gco2kwh": 7.6504746981288605,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12980,7 +12980,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 687.5,
     "generation_gco2kwh": 687.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13004,7 +13004,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13028,7 +13028,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13052,7 +13052,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13076,7 +13076,7 @@ window.DATA_DETAIL = [
     "total_co2": 1060.0,
     "emission_factor": 861.7886178861788,
     "generation_gco2kwh": 861.7886178861788,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13100,7 +13100,7 @@ window.DATA_DETAIL = [
     "total_co2": 4050.0,
     "emission_factor": 906.0402684563759,
     "generation_gco2kwh": 906.0402684563759,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13124,7 +13124,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13148,7 +13148,7 @@ window.DATA_DETAIL = [
     "total_co2": 1070.0,
     "emission_factor": 862.9032258064516,
     "generation_gco2kwh": 862.9032258064516,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13172,7 +13172,7 @@ window.DATA_DETAIL = [
     "total_co2": 4000.0,
     "emission_factor": 904.9773755656108,
     "generation_gco2kwh": 904.9773755656108,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13196,7 +13196,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13244,7 +13244,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 859.504132231405,
     "generation_gco2kwh": 859.504132231405,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13268,7 +13268,7 @@ window.DATA_DETAIL = [
     "total_co2": 3930.0,
     "emission_factor": 905.5299539170508,
     "generation_gco2kwh": 905.5299539170508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13292,7 +13292,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13340,7 +13340,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 859.504132231405,
     "generation_gco2kwh": 859.504132231405,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13364,7 +13364,7 @@ window.DATA_DETAIL = [
     "total_co2": 3920.0,
     "emission_factor": 905.3117782909931,
     "generation_gco2kwh": 905.3117782909931,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13388,7 +13388,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13460,7 +13460,7 @@ window.DATA_DETAIL = [
     "total_co2": 370.0,
     "emission_factor": 217.64705882352942,
     "generation_gco2kwh": 217.64705882352942,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13484,7 +13484,7 @@ window.DATA_DETAIL = [
     "total_co2": 13710.0,
     "emission_factor": 1014.8038490007402,
     "generation_gco2kwh": 1014.8038490007402,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13508,7 +13508,7 @@ window.DATA_DETAIL = [
     "total_co2": 930.0,
     "emission_factor": 406.11353711790395,
     "generation_gco2kwh": 406.11353711790395,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13532,7 +13532,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 24.822695035460995,
     "generation_gco2kwh": 24.822695035460995,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13556,7 +13556,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 4.8105832832230915,
     "generation_gco2kwh": 4.8105832832230915,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13580,7 +13580,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13604,7 +13604,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13628,7 +13628,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 13.513513513513514,
     "generation_gco2kwh": 13.513513513513514,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13652,7 +13652,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 216.21621621621622,
     "generation_gco2kwh": 216.21621621621622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13676,7 +13676,7 @@ window.DATA_DETAIL = [
     "total_co2": 17340.0,
     "emission_factor": 1014.6284376828555,
     "generation_gco2kwh": 1014.6284376828555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13700,7 +13700,7 @@ window.DATA_DETAIL = [
     "total_co2": 1250.0,
     "emission_factor": 409.8360655737705,
     "generation_gco2kwh": 409.8360655737705,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13724,7 +13724,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 22.821576763485474,
     "generation_gco2kwh": 22.821576763485474,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13748,7 +13748,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 4.851425106124925,
     "generation_gco2kwh": 4.851425106124925,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13772,7 +13772,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13796,7 +13796,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -13820,7 +13820,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 13.986013986013987,
     "generation_gco2kwh": 13.986013986013987,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14540,7 +14540,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14564,7 +14564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14588,7 +14588,7 @@ window.DATA_DETAIL = [
     "total_co2": 850.0,
     "emission_factor": 658.9147286821706,
     "generation_gco2kwh": 658.9147286821706,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14612,7 +14612,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14636,7 +14636,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14660,7 +14660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14684,7 +14684,7 @@ window.DATA_DETAIL = [
     "total_co2": 920.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14708,7 +14708,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14732,7 +14732,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14756,7 +14756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14780,7 +14780,7 @@ window.DATA_DETAIL = [
     "total_co2": 940.0,
     "emission_factor": 657.3426573426574,
     "generation_gco2kwh": 657.3426573426574,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14804,7 +14804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14828,7 +14828,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14852,7 +14852,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14876,7 +14876,7 @@ window.DATA_DETAIL = [
     "total_co2": 940.0,
     "emission_factor": 657.3426573426574,
     "generation_gco2kwh": 657.3426573426574,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14900,7 +14900,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -14948,7 +14948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14972,7 +14972,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 37.03703703703704,
     "generation_gco2kwh": 37.03703703703704,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -14996,7 +14996,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15020,7 +15020,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15044,7 +15044,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15068,7 +15068,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15092,7 +15092,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15116,7 +15116,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15140,7 +15140,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15164,7 +15164,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15188,7 +15188,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15212,7 +15212,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15236,7 +15236,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15260,7 +15260,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15284,7 +15284,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15308,7 +15308,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15332,7 +15332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15356,7 +15356,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15380,7 +15380,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15404,7 +15404,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15428,7 +15428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15452,7 +15452,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15476,7 +15476,7 @@ window.DATA_DETAIL = [
     "total_co2": 3540.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15500,7 +15500,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 24.691358024691358,
     "generation_gco2kwh": 24.691358024691358,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15524,7 +15524,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15548,7 +15548,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15572,7 +15572,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15596,7 +15596,7 @@ window.DATA_DETAIL = [
     "total_co2": 3100.0,
     "emission_factor": 849.3150684931508,
     "generation_gco2kwh": 849.3150684931508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15620,7 +15620,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 22.857142857142858,
     "generation_gco2kwh": 22.857142857142858,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15644,7 +15644,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15668,7 +15668,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -15692,7 +15692,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15716,7 +15716,7 @@ window.DATA_DETAIL = [
     "total_co2": 2870.0,
     "emission_factor": 834.3023255813954,
     "generation_gco2kwh": 834.3023255813954,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15740,7 +15740,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 24.35064935064935,
     "generation_gco2kwh": 24.35064935064935,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15764,7 +15764,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 645.1612903225806,
     "generation_gco2kwh": 645.1612903225806,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15788,7 +15788,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 41.09589041095891,
     "generation_gco2kwh": 41.09589041095891,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -15812,7 +15812,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15836,7 +15836,7 @@ window.DATA_DETAIL = [
     "total_co2": 6280.0,
     "emission_factor": 827.4044795783926,
     "generation_gco2kwh": 827.4044795783926,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15860,7 +15860,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 24.43609022556391,
     "generation_gco2kwh": 24.43609022556391,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15884,7 +15884,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15908,7 +15908,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -15932,7 +15932,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15956,7 +15956,7 @@ window.DATA_DETAIL = [
     "total_co2": 7300.0,
     "emission_factor": 827.6643990929705,
     "generation_gco2kwh": 827.6643990929705,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -15980,7 +15980,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 24.528301886792455,
     "generation_gco2kwh": 24.528301886792455,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16004,7 +16004,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16028,7 +16028,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 46.72897196261682,
     "generation_gco2kwh": 46.72897196261682,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -16052,7 +16052,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16076,7 +16076,7 @@ window.DATA_DETAIL = [
     "total_co2": 2140.0,
     "emission_factor": 798.5074626865671,
     "generation_gco2kwh": 798.5074626865671,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16100,7 +16100,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 22.94455066921606,
     "generation_gco2kwh": 22.94455066921606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16124,7 +16124,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 662.6506024096386,
     "generation_gco2kwh": 662.6506024096386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16148,7 +16148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16172,7 +16172,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16196,7 +16196,7 @@ window.DATA_DETAIL = [
     "total_co2": 1830.0,
     "emission_factor": 799.1266375545852,
     "generation_gco2kwh": 799.1266375545852,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16220,7 +16220,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 22.94455066921606,
     "generation_gco2kwh": 22.94455066921606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16244,7 +16244,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 662.6506024096386,
     "generation_gco2kwh": 662.6506024096386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16268,7 +16268,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16292,7 +16292,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16316,7 +16316,7 @@ window.DATA_DETAIL = [
     "total_co2": 1590.0,
     "emission_factor": 798.9949748743719,
     "generation_gco2kwh": 798.9949748743719,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16340,7 +16340,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 22.94455066921606,
     "generation_gco2kwh": 22.94455066921606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16364,7 +16364,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16388,7 +16388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16412,7 +16412,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16436,7 +16436,7 @@ window.DATA_DETAIL = [
     "total_co2": 1560.0,
     "emission_factor": 795.9183673469388,
     "generation_gco2kwh": 795.9183673469388,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16460,7 +16460,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 22.813688212927758,
     "generation_gco2kwh": 22.813688212927758,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16484,7 +16484,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16508,7 +16508,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16532,7 +16532,7 @@ window.DATA_DETAIL = [
     "total_co2": 2250.0,
     "emission_factor": 216.13832853025937,
     "generation_gco2kwh": 216.13832853025937,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16556,7 +16556,7 @@ window.DATA_DETAIL = [
     "total_co2": 34490.0,
     "emission_factor": 883.452868852459,
     "generation_gco2kwh": 883.452868852459,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16580,7 +16580,7 @@ window.DATA_DETAIL = [
     "total_co2": 54560.0,
     "emission_factor": 721.7885963751819,
     "generation_gco2kwh": 721.7885963751819,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16604,7 +16604,7 @@ window.DATA_DETAIL = [
     "total_co2": 9180.0,
     "emission_factor": 23.748544819557626,
     "generation_gco2kwh": 23.748544819557626,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16628,7 +16628,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 4.717464875397395,
     "generation_gco2kwh": 4.717464875397395,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16652,7 +16652,7 @@ window.DATA_DETAIL = [
     "total_co2": 4580.0,
     "emission_factor": 658.0459770114943,
     "generation_gco2kwh": 658.0459770114943,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16676,7 +16676,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 46.68304668304668,
     "generation_gco2kwh": 46.68304668304668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16700,7 +16700,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 9.507829977628635,
     "generation_gco2kwh": 9.507829977628635,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16724,7 +16724,7 @@ window.DATA_DETAIL = [
     "total_co2": 2280.0,
     "emission_factor": 216.11374407582937,
     "generation_gco2kwh": 216.11374407582937,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16748,7 +16748,7 @@ window.DATA_DETAIL = [
     "total_co2": 30820.0,
     "emission_factor": 884.8693654895205,
     "generation_gco2kwh": 884.8693654895205,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16772,7 +16772,7 @@ window.DATA_DETAIL = [
     "total_co2": 60340.0,
     "emission_factor": 721.7703349282297,
     "generation_gco2kwh": 721.7703349282297,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16796,7 +16796,7 @@ window.DATA_DETAIL = [
     "total_co2": 9090.0,
     "emission_factor": 23.769055774913056,
     "generation_gco2kwh": 23.769055774913056,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16820,7 +16820,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 4.674929332463579,
     "generation_gco2kwh": 4.674929332463579,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16844,7 +16844,7 @@ window.DATA_DETAIL = [
     "total_co2": 4340.0,
     "emission_factor": 657.5757575757576,
     "generation_gco2kwh": 657.5757575757576,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16868,7 +16868,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 46.96673189823874,
     "generation_gco2kwh": 46.96673189823874,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16892,7 +16892,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 9.383378016085791,
     "generation_gco2kwh": 9.383378016085791,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16916,7 +16916,7 @@ window.DATA_DETAIL = [
     "total_co2": 2060.0,
     "emission_factor": 216.38655462184875,
     "generation_gco2kwh": 216.38655462184875,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16940,7 +16940,7 @@ window.DATA_DETAIL = [
     "total_co2": 23500.0,
     "emission_factor": 887.1272178180446,
     "generation_gco2kwh": 887.1272178180446,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16964,7 +16964,7 @@ window.DATA_DETAIL = [
     "total_co2": 65280.0,
     "emission_factor": 721.8045112781955,
     "generation_gco2kwh": 721.8045112781955,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -16988,7 +16988,7 @@ window.DATA_DETAIL = [
     "total_co2": 9450.0,
     "emission_factor": 23.75983707540291,
     "generation_gco2kwh": 23.75983707540291,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17012,7 +17012,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 4.732771557197276,
     "generation_gco2kwh": 4.732771557197276,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17036,7 +17036,7 @@ window.DATA_DETAIL = [
     "total_co2": 5300.0,
     "emission_factor": 658.3850931677018,
     "generation_gco2kwh": 658.3850931677018,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17060,7 +17060,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 47.038327526132406,
     "generation_gco2kwh": 47.038327526132406,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17084,7 +17084,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 9.625126646403244,
     "generation_gco2kwh": 9.625126646403244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17108,7 +17108,7 @@ window.DATA_DETAIL = [
     "total_co2": 2120.0,
     "emission_factor": 216.32653061224488,
     "generation_gco2kwh": 216.32653061224488,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17132,7 +17132,7 @@ window.DATA_DETAIL = [
     "total_co2": 21070.0,
     "emission_factor": 887.5315922493683,
     "generation_gco2kwh": 887.5315922493683,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17156,7 +17156,7 @@ window.DATA_DETAIL = [
     "total_co2": 74260.0,
     "emission_factor": 721.8118195956455,
     "generation_gco2kwh": 721.8118195956455,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17180,7 +17180,7 @@ window.DATA_DETAIL = [
     "total_co2": 8570.0,
     "emission_factor": 23.756722293064257,
     "generation_gco2kwh": 23.756722293064257,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17204,7 +17204,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 4.636435598778695,
     "generation_gco2kwh": 4.636435598778695,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17228,7 +17228,7 @@ window.DATA_DETAIL = [
     "total_co2": 4530.0,
     "emission_factor": 657.4746008708273,
     "generation_gco2kwh": 657.4746008708273,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17252,7 +17252,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17276,7 +17276,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 9.627252530239447,
     "generation_gco2kwh": 9.627252530239447,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17300,7 +17300,7 @@ window.DATA_DETAIL = [
     "total_co2": 2130.0,
     "emission_factor": 216.68362156663275,
     "generation_gco2kwh": 216.68362156663275,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17324,7 +17324,7 @@ window.DATA_DETAIL = [
     "total_co2": 22310.0,
     "emission_factor": 887.4303898170247,
     "generation_gco2kwh": 887.4303898170247,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17348,7 +17348,7 @@ window.DATA_DETAIL = [
     "total_co2": 79110.0,
     "emission_factor": 721.8065693430657,
     "generation_gco2kwh": 721.8065693430657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17372,7 +17372,7 @@ window.DATA_DETAIL = [
     "total_co2": 8150.0,
     "emission_factor": 23.747086247086248,
     "generation_gco2kwh": 23.747086247086248,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17396,7 +17396,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 4.68000468000468,
     "generation_gco2kwh": 4.68000468000468,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17420,7 +17420,7 @@ window.DATA_DETAIL = [
     "total_co2": 4800.0,
     "emission_factor": 657.5342465753425,
     "generation_gco2kwh": 657.5342465753425,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17444,7 +17444,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 47.77070063694268,
     "generation_gco2kwh": 47.77070063694268,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17468,7 +17468,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 9.609224855861628,
     "generation_gco2kwh": 9.609224855861628,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17492,7 +17492,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 656.7164179104477,
     "generation_gco2kwh": 656.7164179104477,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17516,7 +17516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17540,7 +17540,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 661.7647058823529,
     "generation_gco2kwh": 661.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17564,7 +17564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17588,7 +17588,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 661.7647058823529,
     "generation_gco2kwh": 661.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17612,7 +17612,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17636,7 +17636,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 661.7647058823529,
     "generation_gco2kwh": 661.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17660,7 +17660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17684,7 +17684,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17708,7 +17708,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17732,7 +17732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17756,7 +17756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17780,7 +17780,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17804,7 +17804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17828,7 +17828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17852,7 +17852,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 658.5365853658537,
     "generation_gco2kwh": 658.5365853658537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17876,7 +17876,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17900,7 +17900,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17924,7 +17924,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 648.6486486486486,
     "generation_gco2kwh": 648.6486486486486,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -17948,7 +17948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18020,7 +18020,7 @@ window.DATA_DETAIL = [
     "total_co2": 1210.0,
     "emission_factor": 230.91603053435114,
     "generation_gco2kwh": 230.91603053435114,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18044,7 +18044,7 @@ window.DATA_DETAIL = [
     "total_co2": 24160.0,
     "emission_factor": 926.7357115458382,
     "generation_gco2kwh": 926.7357115458382,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18068,7 +18068,7 @@ window.DATA_DETAIL = [
     "total_co2": 8990.0,
     "emission_factor": 587.9659908436887,
     "generation_gco2kwh": 587.9659908436887,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18092,7 +18092,7 @@ window.DATA_DETAIL = [
     "total_co2": 530.0,
     "emission_factor": 24.16780665754674,
     "generation_gco2kwh": 24.16780665754674,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18116,7 +18116,7 @@ window.DATA_DETAIL = [
     "total_co2": 1210.0,
     "emission_factor": 699.4219653179191,
     "generation_gco2kwh": 699.4219653179191,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18140,7 +18140,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18164,7 +18164,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 47.808764940239044,
     "generation_gco2kwh": 47.808764940239044,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18188,7 +18188,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 7.207207207207207,
     "generation_gco2kwh": 7.207207207207207,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18212,7 +18212,7 @@ window.DATA_DETAIL = [
     "total_co2": 1290.0,
     "emission_factor": 229.94652406417111,
     "generation_gco2kwh": 229.94652406417111,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18236,7 +18236,7 @@ window.DATA_DETAIL = [
     "total_co2": 23250.0,
     "emission_factor": 926.2948207171314,
     "generation_gco2kwh": 926.2948207171314,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18260,7 +18260,7 @@ window.DATA_DETAIL = [
     "total_co2": 9350.0,
     "emission_factor": 588.0503144654087,
     "generation_gco2kwh": 588.0503144654087,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18284,7 +18284,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 24.261603375527425,
     "generation_gco2kwh": 24.261603375527425,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18308,7 +18308,7 @@ window.DATA_DETAIL = [
     "total_co2": 2140.0,
     "emission_factor": 699.3464052287582,
     "generation_gco2kwh": 699.3464052287582,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18332,7 +18332,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 31.25,
     "generation_gco2kwh": 31.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18356,7 +18356,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 48.29545454545454,
     "generation_gco2kwh": 48.29545454545454,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18380,7 +18380,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 7.874015748031496,
     "generation_gco2kwh": 7.874015748031496,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18404,7 +18404,7 @@ window.DATA_DETAIL = [
     "total_co2": 1070.0,
     "emission_factor": 230.6034482758621,
     "generation_gco2kwh": 230.6034482758621,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18428,7 +18428,7 @@ window.DATA_DETAIL = [
     "total_co2": 19930.0,
     "emission_factor": 926.1152416356878,
     "generation_gco2kwh": 926.1152416356878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18452,7 +18452,7 @@ window.DATA_DETAIL = [
     "total_co2": 9460.0,
     "emission_factor": 587.9428216283405,
     "generation_gco2kwh": 587.9428216283405,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18476,7 +18476,7 @@ window.DATA_DETAIL = [
     "total_co2": 500.0,
     "emission_factor": 24.177949709864603,
     "generation_gco2kwh": 24.177949709864603,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18500,7 +18500,7 @@ window.DATA_DETAIL = [
     "total_co2": 2140.0,
     "emission_factor": 699.3464052287582,
     "generation_gco2kwh": 699.3464052287582,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18524,7 +18524,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18548,7 +18548,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 47.740292807129215,
     "generation_gco2kwh": 47.740292807129215,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18572,7 +18572,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 7.882882882882882,
     "generation_gco2kwh": 7.882882882882882,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18596,7 +18596,7 @@ window.DATA_DETAIL = [
     "total_co2": 1200.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18620,7 +18620,7 @@ window.DATA_DETAIL = [
     "total_co2": 14030.0,
     "emission_factor": 925.4617414248021,
     "generation_gco2kwh": 925.4617414248021,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18644,7 +18644,7 @@ window.DATA_DETAIL = [
     "total_co2": 7930.0,
     "emission_factor": 587.8428465530022,
     "generation_gco2kwh": 587.8428465530022,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18668,7 +18668,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 24.034334763948497,
     "generation_gco2kwh": 24.034334763948497,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18692,7 +18692,7 @@ window.DATA_DETAIL = [
     "total_co2": 1790.0,
     "emission_factor": 699.21875,
     "generation_gco2kwh": 699.21875,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18716,7 +18716,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18740,7 +18740,7 @@ window.DATA_DETAIL = [
     "total_co2": 870.0,
     "emission_factor": 48.17275747508306,
     "generation_gco2kwh": 48.17275747508306,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18764,7 +18764,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 7.399577167019027,
     "generation_gco2kwh": 7.399577167019027,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18788,7 +18788,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 230.17408123791103,
     "generation_gco2kwh": 230.17408123791103,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18812,7 +18812,7 @@ window.DATA_DETAIL = [
     "total_co2": 13050.0,
     "emission_factor": 925.531914893617,
     "generation_gco2kwh": 925.531914893617,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18836,7 +18836,7 @@ window.DATA_DETAIL = [
     "total_co2": 6090.0,
     "emission_factor": 588.4057971014493,
     "generation_gco2kwh": 588.4057971014493,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18860,7 +18860,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 23.854600530102235,
     "generation_gco2kwh": 23.854600530102235,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18884,7 +18884,7 @@ window.DATA_DETAIL = [
     "total_co2": 1690.0,
     "emission_factor": 698.3471074380166,
     "generation_gco2kwh": 698.3471074380166,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18908,7 +18908,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -18932,7 +18932,7 @@ window.DATA_DETAIL = [
     "total_co2": 960.0,
     "emission_factor": 48.192771084337345,
     "generation_gco2kwh": 48.192771084337345,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18956,7 +18956,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 7.561436672967864,
     "generation_gco2kwh": 7.561436672967864,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18980,7 +18980,7 @@ window.DATA_DETAIL = [
     "total_co2": 29340.0,
     "emission_factor": 216.21223286661757,
     "generation_gco2kwh": 216.21223286661757,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19004,7 +19004,7 @@ window.DATA_DETAIL = [
     "total_co2": 4487540.0,
     "emission_factor": 911.7513800592861,
     "generation_gco2kwh": 911.7513800592861,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19028,7 +19028,7 @@ window.DATA_DETAIL = [
     "total_co2": 112180.0,
     "emission_factor": 444.2772277227723,
     "generation_gco2kwh": 444.2772277227723,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19052,7 +19052,7 @@ window.DATA_DETAIL = [
     "total_co2": 31400.0,
     "emission_factor": 23.757102541404695,
     "generation_gco2kwh": 23.757102541404695,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19076,7 +19076,7 @@ window.DATA_DETAIL = [
     "total_co2": 2029.9999999999998,
     "emission_factor": 5.543418896777717,
     "generation_gco2kwh": 5.543418896777717,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19100,7 +19100,7 @@ window.DATA_DETAIL = [
     "total_co2": 35180.0,
     "emission_factor": 657.9390312324668,
     "generation_gco2kwh": 657.9390312324668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19124,7 +19124,7 @@ window.DATA_DETAIL = [
     "total_co2": 12410.0,
     "emission_factor": 47.52968211413251,
     "generation_gco2kwh": 47.52968211413251,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19148,7 +19148,7 @@ window.DATA_DETAIL = [
     "total_co2": 5990.0,
     "emission_factor": 12.840300107181136,
     "generation_gco2kwh": 12.840300107181136,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19172,7 +19172,7 @@ window.DATA_DETAIL = [
     "total_co2": 35890.0,
     "emission_factor": 216.20481927710844,
     "generation_gco2kwh": 216.20481927710844,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19196,7 +19196,7 @@ window.DATA_DETAIL = [
     "total_co2": 4853660.0,
     "emission_factor": 909.9816266076718,
     "generation_gco2kwh": 909.9816266076718,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19220,7 +19220,7 @@ window.DATA_DETAIL = [
     "total_co2": 127550.0,
     "emission_factor": 444.27028909787526,
     "generation_gco2kwh": 444.27028909787526,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19244,7 +19244,7 @@ window.DATA_DETAIL = [
     "total_co2": 30890.0,
     "emission_factor": 23.76153846153846,
     "generation_gco2kwh": 23.76153846153846,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19268,7 +19268,7 @@ window.DATA_DETAIL = [
     "total_co2": 2260.0,
     "emission_factor": 5.54601226993865,
     "generation_gco2kwh": 5.54601226993865,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19292,7 +19292,7 @@ window.DATA_DETAIL = [
     "total_co2": 37550.0,
     "emission_factor": 658.0792148615492,
     "generation_gco2kwh": 658.0792148615492,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19316,7 +19316,7 @@ window.DATA_DETAIL = [
     "total_co2": 15540.0,
     "emission_factor": 47.522935779816514,
     "generation_gco2kwh": 47.522935779816514,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19340,7 +19340,7 @@ window.DATA_DETAIL = [
     "total_co2": 8680.0,
     "emission_factor": 13.235742604452579,
     "generation_gco2kwh": 13.235742604452579,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19364,7 +19364,7 @@ window.DATA_DETAIL = [
     "total_co2": 39480.0,
     "emission_factor": 216.21029572836804,
     "generation_gco2kwh": 216.21029572836804,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19388,7 +19388,7 @@ window.DATA_DETAIL = [
     "total_co2": 4920510.0,
     "emission_factor": 908.7284291708528,
     "generation_gco2kwh": 908.7284291708528,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19412,7 +19412,7 @@ window.DATA_DETAIL = [
     "total_co2": 122450.0,
     "emission_factor": 444.27109788839704,
     "generation_gco2kwh": 444.27109788839704,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19436,7 +19436,7 @@ window.DATA_DETAIL = [
     "total_co2": 30840.0,
     "emission_factor": 23.75743382738114,
     "generation_gco2kwh": 23.75743382738114,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19460,7 +19460,7 @@ window.DATA_DETAIL = [
     "total_co2": 2310.0,
     "emission_factor": 5.529225908372828,
     "generation_gco2kwh": 5.529225908372828,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19484,7 +19484,7 @@ window.DATA_DETAIL = [
     "total_co2": 46010.0,
     "emission_factor": 657.9436579436579,
     "generation_gco2kwh": 657.9436579436579,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19508,7 +19508,7 @@ window.DATA_DETAIL = [
     "total_co2": 20300.0,
     "emission_factor": 47.51094155920144,
     "generation_gco2kwh": 47.51094155920144,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19532,7 +19532,7 @@ window.DATA_DETAIL = [
     "total_co2": 10120.0,
     "emission_factor": 13.269172774594518,
     "generation_gco2kwh": 13.269172774594518,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19556,7 +19556,7 @@ window.DATA_DETAIL = [
     "total_co2": 42850.0,
     "emission_factor": 216.19576185671042,
     "generation_gco2kwh": 216.19576185671042,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19580,7 +19580,7 @@ window.DATA_DETAIL = [
     "total_co2": 5221680.0,
     "emission_factor": 907.6857288874519,
     "generation_gco2kwh": 907.6857288874519,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19604,7 +19604,7 @@ window.DATA_DETAIL = [
     "total_co2": 132310.0,
     "emission_factor": 444.2914707857622,
     "generation_gco2kwh": 444.2914707857622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19628,7 +19628,7 @@ window.DATA_DETAIL = [
     "total_co2": 29130.0,
     "emission_factor": 23.760195758564436,
     "generation_gco2kwh": 23.760195758564436,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19652,7 +19652,7 @@ window.DATA_DETAIL = [
     "total_co2": 2410.0,
     "emission_factor": 5.543798306956202,
     "generation_gco2kwh": 5.543798306956202,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19676,7 +19676,7 @@ window.DATA_DETAIL = [
     "total_co2": 50650.0,
     "emission_factor": 658.0485903598804,
     "generation_gco2kwh": 658.0485903598804,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19700,7 +19700,7 @@ window.DATA_DETAIL = [
     "total_co2": 27760.0,
     "emission_factor": 47.52204057177095,
     "generation_gco2kwh": 47.52204057177095,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19724,7 +19724,7 @@ window.DATA_DETAIL = [
     "total_co2": 11760.0,
     "emission_factor": 13.275085509160487,
     "generation_gco2kwh": 13.275085509160487,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19748,7 +19748,7 @@ window.DATA_DETAIL = [
     "total_co2": 45080.0,
     "emission_factor": 216.21103117505996,
     "generation_gco2kwh": 216.21103117505996,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19772,7 +19772,7 @@ window.DATA_DETAIL = [
     "total_co2": 5289630.0,
     "emission_factor": 907.6858397968289,
     "generation_gco2kwh": 907.6858397968289,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19796,7 +19796,7 @@ window.DATA_DETAIL = [
     "total_co2": 142490.0,
     "emission_factor": 444.2816163631828,
     "generation_gco2kwh": 444.2816163631828,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19820,7 +19820,7 @@ window.DATA_DETAIL = [
     "total_co2": 32180.0,
     "emission_factor": 23.762230016614364,
     "generation_gco2kwh": 23.762230016614364,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19844,7 +19844,7 @@ window.DATA_DETAIL = [
     "total_co2": 2500.0,
     "emission_factor": 5.5450815126982365,
     "generation_gco2kwh": 5.5450815126982365,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19868,7 +19868,7 @@ window.DATA_DETAIL = [
     "total_co2": 58480.0,
     "emission_factor": 657.965796579658,
     "generation_gco2kwh": 657.965796579658,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19892,7 +19892,7 @@ window.DATA_DETAIL = [
     "total_co2": 39870.0,
     "emission_factor": 47.51859267734554,
     "generation_gco2kwh": 47.51859267734554,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19916,7 +19916,7 @@ window.DATA_DETAIL = [
     "total_co2": 13240.0,
     "emission_factor": 13.279306747974003,
     "generation_gco2kwh": 13.279306747974003,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19940,7 +19940,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 213.95348837209303,
     "generation_gco2kwh": 213.95348837209303,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19964,7 +19964,7 @@ window.DATA_DETAIL = [
     "total_co2": 7980.0,
     "emission_factor": 875.0000000000001,
     "generation_gco2kwh": 875.0000000000001,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -19988,7 +19988,7 @@ window.DATA_DETAIL = [
     "total_co2": 9750.0,
     "emission_factor": 641.869651086241,
     "generation_gco2kwh": 641.869651086241,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20012,7 +20012,7 @@ window.DATA_DETAIL = [
     "total_co2": 1150.0,
     "emission_factor": 23.74071015689513,
     "generation_gco2kwh": 23.74071015689513,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20036,7 +20036,7 @@ window.DATA_DETAIL = [
     "total_co2": 1740.0,
     "emission_factor": 656.6037735849056,
     "generation_gco2kwh": 656.6037735849056,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20060,7 +20060,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "Ecogox, EMBERS",
+    "sources": "Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20084,7 +20084,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20108,7 +20108,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20132,7 +20132,7 @@ window.DATA_DETAIL = [
     "total_co2": 3890.0,
     "emission_factor": 876.126126126126,
     "generation_gco2kwh": 876.126126126126,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20156,7 +20156,7 @@ window.DATA_DETAIL = [
     "total_co2": 8830.0,
     "emission_factor": 641.7151162790698,
     "generation_gco2kwh": 641.7151162790698,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20180,7 +20180,7 @@ window.DATA_DETAIL = [
     "total_co2": 1440.0,
     "emission_factor": 23.72322899505766,
     "generation_gco2kwh": 23.72322899505766,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20204,7 +20204,7 @@ window.DATA_DETAIL = [
     "total_co2": 1860.0,
     "emission_factor": 657.243816254417,
     "generation_gco2kwh": 657.243816254417,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20228,7 +20228,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 60.6060606060606,
     "generation_gco2kwh": 60.6060606060606,
-    "sources": "Ecogox, EMBERS",
+    "sources": "Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20252,7 +20252,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20276,7 +20276,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 215.59633027522935,
     "generation_gco2kwh": 215.59633027522935,
-    "sources": "Ecogox, EMBERS",
+    "sources": "Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20300,7 +20300,7 @@ window.DATA_DETAIL = [
     "total_co2": 4380.0,
     "emission_factor": 874.2514970059881,
     "generation_gco2kwh": 874.2514970059881,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20324,7 +20324,7 @@ window.DATA_DETAIL = [
     "total_co2": 8660.0,
     "emission_factor": 641.9570051890289,
     "generation_gco2kwh": 641.9570051890289,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20348,7 +20348,7 @@ window.DATA_DETAIL = [
     "total_co2": 1400.0,
     "emission_factor": 23.837902264600718,
     "generation_gco2kwh": 23.837902264600718,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20372,7 +20372,7 @@ window.DATA_DETAIL = [
     "total_co2": 1810.0,
     "emission_factor": 658.1818181818181,
     "generation_gco2kwh": 658.1818181818181,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20396,7 +20396,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "Ecogox, EMBERS",
+    "sources": "Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20420,7 +20420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20444,7 +20444,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 215.8590308370044,
     "generation_gco2kwh": 215.8590308370044,
-    "sources": "Ecogox, EMBERS",
+    "sources": "Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20468,7 +20468,7 @@ window.DATA_DETAIL = [
     "total_co2": 9910.0,
     "emission_factor": 874.6690203000883,
     "generation_gco2kwh": 874.6690203000883,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20492,7 +20492,7 @@ window.DATA_DETAIL = [
     "total_co2": 10400.0,
     "emission_factor": 641.9753086419753,
     "generation_gco2kwh": 641.9753086419753,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20516,7 +20516,7 @@ window.DATA_DETAIL = [
     "total_co2": 1340.0,
     "emission_factor": 23.847659725929883,
     "generation_gco2kwh": 23.847659725929883,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20540,7 +20540,7 @@ window.DATA_DETAIL = [
     "total_co2": 2130.0,
     "emission_factor": 657.4074074074074,
     "generation_gco2kwh": 657.4074074074074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20564,7 +20564,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 44.247787610619476,
     "generation_gco2kwh": 44.247787610619476,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20588,7 +20588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20612,7 +20612,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 215.8590308370044,
     "generation_gco2kwh": 215.8590308370044,
-    "sources": "Ecogox, EMBERS",
+    "sources": "Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20636,7 +20636,7 @@ window.DATA_DETAIL = [
     "total_co2": 11600.0,
     "emission_factor": 874.8114630467571,
     "generation_gco2kwh": 874.8114630467571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20660,7 +20660,7 @@ window.DATA_DETAIL = [
     "total_co2": 9450.0,
     "emission_factor": 641.5478615071283,
     "generation_gco2kwh": 641.5478615071283,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20684,7 +20684,7 @@ window.DATA_DETAIL = [
     "total_co2": 1210.0,
     "emission_factor": 23.80015735641227,
     "generation_gco2kwh": 23.80015735641227,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20708,7 +20708,7 @@ window.DATA_DETAIL = [
     "total_co2": 2110.0,
     "emission_factor": 659.375,
     "generation_gco2kwh": 659.375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20732,7 +20732,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 46.728971962616825,
     "generation_gco2kwh": 46.728971962616825,
-    "sources": "I-REC, Ecogox, EMBERS",
+    "sources": "I-REC, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20756,7 +20756,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20780,7 +20780,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20804,7 +20804,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20828,7 +20828,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20852,7 +20852,7 @@ window.DATA_DETAIL = [
     "total_co2": 2500.0,
     "emission_factor": 912.4087591240875,
     "generation_gco2kwh": 912.4087591240875,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20876,7 +20876,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.047619047619047,
     "generation_gco2kwh": 19.047619047619047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20900,7 +20900,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 684.2105263157895,
     "generation_gco2kwh": 684.2105263157895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20924,7 +20924,7 @@ window.DATA_DETAIL = [
     "total_co2": 2590.0,
     "emission_factor": 915.1943462897526,
     "generation_gco2kwh": 915.1943462897526,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20948,7 +20948,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.047619047619047,
     "generation_gco2kwh": 19.047619047619047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20972,7 +20972,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -20996,7 +20996,7 @@ window.DATA_DETAIL = [
     "total_co2": 3290.0,
     "emission_factor": 913.8888888888889,
     "generation_gco2kwh": 913.8888888888889,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21020,7 +21020,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.047619047619047,
     "generation_gco2kwh": 19.047619047619047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21044,7 +21044,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21068,7 +21068,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21092,7 +21092,7 @@ window.DATA_DETAIL = [
     "total_co2": 3480.0,
     "emission_factor": 913.3858267716536,
     "generation_gco2kwh": 913.3858267716536,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21116,7 +21116,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.047619047619047,
     "generation_gco2kwh": 19.047619047619047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21140,7 +21140,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21164,7 +21164,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21188,7 +21188,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21212,7 +21212,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 24.096385542168676,
     "generation_gco2kwh": 24.096385542168676,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21236,7 +21236,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21260,7 +21260,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21284,7 +21284,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21308,7 +21308,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 23.61005331302361,
     "generation_gco2kwh": 23.61005331302361,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21332,7 +21332,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21356,7 +21356,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21380,7 +21380,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 23.50265352539803,
     "generation_gco2kwh": 23.50265352539803,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21404,7 +21404,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 47.39336492890995,
     "generation_gco2kwh": 47.39336492890995,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21428,7 +21428,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21452,7 +21452,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 23.408924652523776,
     "generation_gco2kwh": 23.408924652523776,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21476,7 +21476,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21548,7 +21548,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21572,7 +21572,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21596,7 +21596,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21620,7 +21620,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21644,7 +21644,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21668,7 +21668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21692,7 +21692,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21716,7 +21716,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 24.12545235223161,
     "generation_gco2kwh": 24.12545235223161,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21740,7 +21740,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21764,7 +21764,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 35.50295857988166,
     "generation_gco2kwh": 35.50295857988166,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21788,7 +21788,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21812,7 +21812,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 6.8493150684931505,
     "generation_gco2kwh": 6.8493150684931505,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21836,7 +21836,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21860,7 +21860,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.68137782561895,
     "generation_gco2kwh": 23.68137782561895,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21884,7 +21884,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 37.5,
     "generation_gco2kwh": 37.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21908,7 +21908,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21932,7 +21932,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 6.369426751592356,
     "generation_gco2kwh": 6.369426751592356,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21956,7 +21956,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -21980,7 +21980,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.280423280423282,
     "generation_gco2kwh": 23.280423280423282,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22004,7 +22004,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 40.54054054054054,
     "generation_gco2kwh": 40.54054054054054,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22028,7 +22028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22052,7 +22052,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 7.2992700729927,
     "generation_gco2kwh": 7.2992700729927,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22076,7 +22076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22100,7 +22100,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 23.4192037470726,
     "generation_gco2kwh": 23.4192037470726,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22124,7 +22124,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22148,7 +22148,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 39.21568627450981,
     "generation_gco2kwh": 39.21568627450981,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22172,7 +22172,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22196,7 +22196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 6.7114093959731544,
     "generation_gco2kwh": 6.7114093959731544,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22220,7 +22220,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22244,7 +22244,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 24.193548387096776,
     "generation_gco2kwh": 24.193548387096776,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22268,7 +22268,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 662.1621621621622,
     "generation_gco2kwh": 662.1621621621622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22292,7 +22292,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22316,7 +22316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22340,7 +22340,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 7.936507936507937,
     "generation_gco2kwh": 7.936507936507937,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22364,7 +22364,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -22388,7 +22388,7 @@ window.DATA_DETAIL = [
     "total_co2": 1170.0,
     "emission_factor": 959.016393442623,
     "generation_gco2kwh": 959.016393442623,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22412,7 +22412,7 @@ window.DATA_DETAIL = [
     "total_co2": 1460.0,
     "emission_factor": 424.4186046511628,
     "generation_gco2kwh": 424.4186046511628,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22436,7 +22436,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 22.968197879858657,
     "generation_gco2kwh": 22.968197879858657,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -22460,7 +22460,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22484,7 +22484,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22508,7 +22508,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22532,7 +22532,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.627906976744185,
     "generation_gco2kwh": 11.627906976744185,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -22556,7 +22556,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 218.18181818181816,
     "generation_gco2kwh": 218.18181818181816,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -22580,7 +22580,7 @@ window.DATA_DETAIL = [
     "total_co2": 1400.0,
     "emission_factor": 958.9041095890411,
     "generation_gco2kwh": 958.9041095890411,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22604,7 +22604,7 @@ window.DATA_DETAIL = [
     "total_co2": 1320.0,
     "emission_factor": 425.80645161290323,
     "generation_gco2kwh": 425.80645161290323,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22628,7 +22628,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.842917251051894,
     "generation_gco2kwh": 23.842917251051894,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -22652,7 +22652,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22676,7 +22676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22700,7 +22700,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -22724,7 +22724,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 14.563106796116504,
     "generation_gco2kwh": 14.563106796116504,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -23468,7 +23468,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 218.18181818181816,
     "generation_gco2kwh": 218.18181818181816,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23492,7 +23492,7 @@ window.DATA_DETAIL = [
     "total_co2": 1420.0,
     "emission_factor": 706.4676616915424,
     "generation_gco2kwh": 706.4676616915424,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23516,7 +23516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23540,7 +23540,7 @@ window.DATA_DETAIL = [
     "total_co2": 10610.0,
     "emission_factor": 658.1885856079404,
     "generation_gco2kwh": 658.1885856079404,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23564,7 +23564,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23588,7 +23588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23612,7 +23612,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 209.30232558139537,
     "generation_gco2kwh": 209.30232558139537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23636,7 +23636,7 @@ window.DATA_DETAIL = [
     "total_co2": 1120.0,
     "emission_factor": 708.8607594936708,
     "generation_gco2kwh": 708.8607594936708,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23660,7 +23660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23684,7 +23684,7 @@ window.DATA_DETAIL = [
     "total_co2": 10170.0,
     "emission_factor": 657.8266494178525,
     "generation_gco2kwh": 657.8266494178525,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23708,7 +23708,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23732,7 +23732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23756,7 +23756,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23780,7 +23780,7 @@ window.DATA_DETAIL = [
     "total_co2": 1380.0,
     "emission_factor": 707.6923076923077,
     "generation_gco2kwh": 707.6923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23804,7 +23804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23828,7 +23828,7 @@ window.DATA_DETAIL = [
     "total_co2": 8570.0,
     "emission_factor": 657.7129700690714,
     "generation_gco2kwh": 657.7129700690714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23852,7 +23852,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23876,7 +23876,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23900,7 +23900,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 212.12121212121212,
     "generation_gco2kwh": 212.12121212121212,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23924,7 +23924,7 @@ window.DATA_DETAIL = [
     "total_co2": 1430.0,
     "emission_factor": 707.9207920792079,
     "generation_gco2kwh": 707.9207920792079,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23948,7 +23948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23972,7 +23972,7 @@ window.DATA_DETAIL = [
     "total_co2": 8260.0,
     "emission_factor": 658.1673306772908,
     "generation_gco2kwh": 658.1673306772908,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -23996,7 +23996,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24020,7 +24020,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24044,7 +24044,7 @@ window.DATA_DETAIL = [
     "total_co2": 1130.0,
     "emission_factor": 216.89059500959692,
     "generation_gco2kwh": 216.89059500959692,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24068,7 +24068,7 @@ window.DATA_DETAIL = [
     "total_co2": 31280.0,
     "emission_factor": 1009.0322580645161,
     "generation_gco2kwh": 1009.0322580645161,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24092,7 +24092,7 @@ window.DATA_DETAIL = [
     "total_co2": 2920.0,
     "emission_factor": 425.03639010189227,
     "generation_gco2kwh": 425.03639010189227,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24116,7 +24116,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 23.36448598130841,
     "generation_gco2kwh": 23.36448598130841,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24140,7 +24140,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 4.660452729693742,
     "generation_gco2kwh": 4.660452729693742,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24164,7 +24164,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 659.4594594594595,
     "generation_gco2kwh": 659.4594594594595,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24188,7 +24188,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 48.03493449781659,
     "generation_gco2kwh": 48.03493449781659,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24212,7 +24212,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 14.285714285714286,
     "generation_gco2kwh": 14.285714285714286,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24236,7 +24236,7 @@ window.DATA_DETAIL = [
     "total_co2": 1160.0,
     "emission_factor": 215.61338289962825,
     "generation_gco2kwh": 215.61338289962825,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24260,7 +24260,7 @@ window.DATA_DETAIL = [
     "total_co2": 34340.0,
     "emission_factor": 1004.6811000585137,
     "generation_gco2kwh": 1004.6811000585137,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24284,7 +24284,7 @@ window.DATA_DETAIL = [
     "total_co2": 3110.0,
     "emission_factor": 425.4445964432285,
     "generation_gco2kwh": 425.4445964432285,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24308,7 +24308,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 24.896265560165972,
     "generation_gco2kwh": 24.896265560165972,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24332,7 +24332,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 4.88122356003905,
     "generation_gco2kwh": 4.88122356003905,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24380,7 +24380,7 @@ window.DATA_DETAIL = [
     "total_co2": 530.0,
     "emission_factor": 662.5,
     "generation_gco2kwh": 662.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -24404,7 +24404,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 48.888888888888886,
     "generation_gco2kwh": 48.888888888888886,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -24428,7 +24428,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.666666666666668,
     "generation_gco2kwh": 16.666666666666668,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -25124,7 +25124,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25148,7 +25148,7 @@ window.DATA_DETAIL = [
     "total_co2": 4350.0,
     "emission_factor": 557.6923076923077,
     "generation_gco2kwh": 557.6923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25172,7 +25172,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 23.88059701492537,
     "generation_gco2kwh": 23.88059701492537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25196,7 +25196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25220,7 +25220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25244,7 +25244,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25268,7 +25268,7 @@ window.DATA_DETAIL = [
     "total_co2": 4810.0,
     "emission_factor": 558.0046403712297,
     "generation_gco2kwh": 558.0046403712297,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25292,7 +25292,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.98850574712644,
     "generation_gco2kwh": 22.98850574712644,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25316,7 +25316,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25340,7 +25340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25364,7 +25364,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25388,7 +25388,7 @@ window.DATA_DETAIL = [
     "total_co2": 5100.0,
     "emission_factor": 557.9868708971553,
     "generation_gco2kwh": 557.9868708971553,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25412,7 +25412,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 23.88059701492537,
     "generation_gco2kwh": 23.88059701492537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25436,7 +25436,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25460,7 +25460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25484,7 +25484,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25508,7 +25508,7 @@ window.DATA_DETAIL = [
     "total_co2": 4270.0,
     "emission_factor": 558.1699346405228,
     "generation_gco2kwh": 558.1699346405228,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25532,7 +25532,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 23.88059701492537,
     "generation_gco2kwh": 23.88059701492537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25556,7 +25556,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25580,7 +25580,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25604,7 +25604,7 @@ window.DATA_DETAIL = [
     "total_co2": 1280.0,
     "emission_factor": 216.21621621621622,
     "generation_gco2kwh": 216.21621621621622,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -25628,7 +25628,7 @@ window.DATA_DETAIL = [
     "total_co2": 2820.0,
     "emission_factor": 921.5686274509803,
     "generation_gco2kwh": 921.5686274509803,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25652,7 +25652,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 372.8813559322034,
     "generation_gco2kwh": 372.8813559322034,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25676,7 +25676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25700,7 +25700,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 662.9213483146067,
     "generation_gco2kwh": 662.9213483146067,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25748,7 +25748,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 50.847457627118644,
     "generation_gco2kwh": 50.847457627118644,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -25772,7 +25772,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 12.859767299448869,
     "generation_gco2kwh": 12.859767299448869,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -25796,7 +25796,7 @@ window.DATA_DETAIL = [
     "total_co2": 1890.0,
     "emission_factor": 216.74311926605503,
     "generation_gco2kwh": 216.74311926605503,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -25820,7 +25820,7 @@ window.DATA_DETAIL = [
     "total_co2": 4010.0,
     "emission_factor": 917.6201372997712,
     "generation_gco2kwh": 917.6201372997712,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25844,7 +25844,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 376.6233766233766,
     "generation_gco2kwh": 376.6233766233766,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25868,7 +25868,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25892,7 +25892,7 @@ window.DATA_DETAIL = [
     "total_co2": 600.0,
     "emission_factor": 659.3406593406593,
     "generation_gco2kwh": 659.3406593406593,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -25940,7 +25940,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 45.80152671755725,
     "generation_gco2kwh": 45.80152671755725,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -25964,7 +25964,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 12.461059190031152,
     "generation_gco2kwh": 12.461059190031152,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -26708,7 +26708,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26732,7 +26732,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26756,7 +26756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26780,7 +26780,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26804,7 +26804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26828,7 +26828,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26852,7 +26852,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26876,7 +26876,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26900,7 +26900,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26924,7 +26924,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26948,7 +26948,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26972,7 +26972,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -26996,7 +26996,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27020,7 +27020,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27044,7 +27044,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27068,7 +27068,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27092,7 +27092,7 @@ window.DATA_DETAIL = [
     "total_co2": 5200.0,
     "emission_factor": 871.0217755443887,
     "generation_gco2kwh": 871.0217755443887,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27116,7 +27116,7 @@ window.DATA_DETAIL = [
     "total_co2": 3310.0,
     "emission_factor": 529.6,
     "generation_gco2kwh": 529.6,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27140,7 +27140,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27164,7 +27164,7 @@ window.DATA_DETAIL = [
     "total_co2": 2710.0,
     "emission_factor": 657.7669902912621,
     "generation_gco2kwh": 657.7669902912621,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27188,7 +27188,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27212,7 +27212,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 9.345794392523365,
     "generation_gco2kwh": 9.345794392523365,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27236,7 +27236,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27260,7 +27260,7 @@ window.DATA_DETAIL = [
     "total_co2": 5020.0,
     "emission_factor": 871.5277777777778,
     "generation_gco2kwh": 871.5277777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27284,7 +27284,7 @@ window.DATA_DETAIL = [
     "total_co2": 4080.0,
     "emission_factor": 529.182879377432,
     "generation_gco2kwh": 529.182879377432,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27308,7 +27308,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27332,7 +27332,7 @@ window.DATA_DETAIL = [
     "total_co2": 2730.0,
     "emission_factor": 657.8313253012047,
     "generation_gco2kwh": 657.8313253012047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27356,7 +27356,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 47.05882352941177,
     "generation_gco2kwh": 47.05882352941177,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27380,7 +27380,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.19672131147541,
     "generation_gco2kwh": 8.19672131147541,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27404,7 +27404,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27428,7 +27428,7 @@ window.DATA_DETAIL = [
     "total_co2": 6240.0,
     "emission_factor": 871.5083798882681,
     "generation_gco2kwh": 871.5083798882681,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27452,7 +27452,7 @@ window.DATA_DETAIL = [
     "total_co2": 2940.0,
     "emission_factor": 529.7297297297298,
     "generation_gco2kwh": 529.7297297297298,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27476,7 +27476,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27500,7 +27500,7 @@ window.DATA_DETAIL = [
     "total_co2": 3530.0,
     "emission_factor": 657.3556797020484,
     "generation_gco2kwh": 657.3556797020484,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27524,7 +27524,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27548,7 +27548,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.547008547008547,
     "generation_gco2kwh": 8.547008547008547,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27572,7 +27572,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27596,7 +27596,7 @@ window.DATA_DETAIL = [
     "total_co2": 6730.0,
     "emission_factor": 871.7616580310881,
     "generation_gco2kwh": 871.7616580310881,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27620,7 +27620,7 @@ window.DATA_DETAIL = [
     "total_co2": 3860.0,
     "emission_factor": 528.7671232876712,
     "generation_gco2kwh": 528.7671232876712,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27644,7 +27644,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27668,7 +27668,7 @@ window.DATA_DETAIL = [
     "total_co2": 3490.0,
     "emission_factor": 658.4905660377359,
     "generation_gco2kwh": 658.4905660377359,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27692,7 +27692,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 44.11764705882353,
     "generation_gco2kwh": 44.11764705882353,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27716,7 +27716,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.333333333333334,
     "generation_gco2kwh": 8.333333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27740,7 +27740,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 227.27272727272728,
     "generation_gco2kwh": 227.27272727272728,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27764,7 +27764,7 @@ window.DATA_DETAIL = [
     "total_co2": 6810.0,
     "emission_factor": 871.9590268886044,
     "generation_gco2kwh": 871.9590268886044,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27788,7 +27788,7 @@ window.DATA_DETAIL = [
     "total_co2": 4390.0,
     "emission_factor": 528.9156626506024,
     "generation_gco2kwh": 528.9156626506024,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27812,7 +27812,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 22.22222222222222,
     "generation_gco2kwh": 22.22222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27836,7 +27836,7 @@ window.DATA_DETAIL = [
     "total_co2": 3300.0,
     "emission_factor": 657.3705179282869,
     "generation_gco2kwh": 657.3705179282869,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27860,7 +27860,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 47.337278106508876,
     "generation_gco2kwh": 47.337278106508876,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27884,7 +27884,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 9.09090909090909,
     "generation_gco2kwh": 9.09090909090909,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27908,7 +27908,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27932,7 +27932,7 @@ window.DATA_DETAIL = [
     "total_co2": 880.0,
     "emission_factor": 765.2173913043479,
     "generation_gco2kwh": 765.2173913043479,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27956,7 +27956,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 23.838882038635433,
     "generation_gco2kwh": 23.838882038635433,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -27980,7 +27980,7 @@ window.DATA_DETAIL = [
     "total_co2": 3430.0,
     "emission_factor": 657.088122605364,
     "generation_gco2kwh": 657.088122605364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28004,7 +28004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28028,7 +28028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28052,7 +28052,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28076,7 +28076,7 @@ window.DATA_DETAIL = [
     "total_co2": 860.0,
     "emission_factor": 761.061946902655,
     "generation_gco2kwh": 761.061946902655,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28100,7 +28100,7 @@ window.DATA_DETAIL = [
     "total_co2": 610.0,
     "emission_factor": 23.856081345326555,
     "generation_gco2kwh": 23.856081345326555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28124,7 +28124,7 @@ window.DATA_DETAIL = [
     "total_co2": 3230.0,
     "emission_factor": 657.8411405295316,
     "generation_gco2kwh": 657.8411405295316,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28148,7 +28148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28172,7 +28172,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28196,7 +28196,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 205.1282051282051,
     "generation_gco2kwh": 205.1282051282051,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28220,7 +28220,7 @@ window.DATA_DETAIL = [
     "total_co2": 790.0,
     "emission_factor": 759.6153846153846,
     "generation_gco2kwh": 759.6153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28244,7 +28244,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 23.944805194805195,
     "generation_gco2kwh": 23.944805194805195,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28268,7 +28268,7 @@ window.DATA_DETAIL = [
     "total_co2": 4530.0,
     "emission_factor": 657.4746008708273,
     "generation_gco2kwh": 657.4746008708273,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28292,7 +28292,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28316,7 +28316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28340,7 +28340,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 205.1282051282051,
     "generation_gco2kwh": 205.1282051282051,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28364,7 +28364,7 @@ window.DATA_DETAIL = [
     "total_co2": 780.0,
     "emission_factor": 764.7058823529412,
     "generation_gco2kwh": 764.7058823529412,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28388,7 +28388,7 @@ window.DATA_DETAIL = [
     "total_co2": 610.0,
     "emission_factor": 23.707734162456276,
     "generation_gco2kwh": 23.707734162456276,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28412,7 +28412,7 @@ window.DATA_DETAIL = [
     "total_co2": 4550.0,
     "emission_factor": 658.465991316932,
     "generation_gco2kwh": 658.465991316932,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28436,7 +28436,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28460,7 +28460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28484,7 +28484,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 211.53846153846152,
     "generation_gco2kwh": 211.53846153846152,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28508,7 +28508,7 @@ window.DATA_DETAIL = [
     "total_co2": 770.0,
     "emission_factor": 762.3762376237623,
     "generation_gco2kwh": 762.3762376237623,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28532,7 +28532,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 23.90265102129509,
     "generation_gco2kwh": 23.90265102129509,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28556,7 +28556,7 @@ window.DATA_DETAIL = [
     "total_co2": 5490.0,
     "emission_factor": 658.273381294964,
     "generation_gco2kwh": 658.273381294964,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28580,7 +28580,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28604,7 +28604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28628,7 +28628,7 @@ window.DATA_DETAIL = [
     "total_co2": 107180.0,
     "emission_factor": 642.33489152583,
     "generation_gco2kwh": 642.33489152583,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28652,7 +28652,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 23.4375,
     "generation_gco2kwh": 23.4375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28676,7 +28676,7 @@ window.DATA_DETAIL = [
     "total_co2": 5250.0,
     "emission_factor": 657.8947368421052,
     "generation_gco2kwh": 657.8947368421052,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28700,7 +28700,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 47.19101123595505,
     "generation_gco2kwh": 47.19101123595505,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28724,7 +28724,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 9.56022944550669,
     "generation_gco2kwh": 9.56022944550669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28748,7 +28748,7 @@ window.DATA_DETAIL = [
     "total_co2": 115270.0,
     "emission_factor": 642.351629980496,
     "generation_gco2kwh": 642.351629980496,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28772,7 +28772,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 23.48993288590604,
     "generation_gco2kwh": 23.48993288590604,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28796,7 +28796,7 @@ window.DATA_DETAIL = [
     "total_co2": 3190.0,
     "emission_factor": 657.7319587628866,
     "generation_gco2kwh": 657.7319587628866,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28820,7 +28820,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 48.289738430583505,
     "generation_gco2kwh": 48.289738430583505,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28844,7 +28844,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 9.107468123861565,
     "generation_gco2kwh": 9.107468123861565,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28868,7 +28868,7 @@ window.DATA_DETAIL = [
     "total_co2": 117600.0,
     "emission_factor": 642.377232752499,
     "generation_gco2kwh": 642.377232752499,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28892,7 +28892,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 23.79333786539769,
     "generation_gco2kwh": 23.79333786539769,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28916,7 +28916,7 @@ window.DATA_DETAIL = [
     "total_co2": 5290.0,
     "emission_factor": 657.9601990049752,
     "generation_gco2kwh": 657.9601990049752,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -28940,7 +28940,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 48.0,
     "generation_gco2kwh": 48.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28964,7 +28964,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 10.169491525423728,
     "generation_gco2kwh": 10.169491525423728,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28988,7 +28988,7 @@ window.DATA_DETAIL = [
     "total_co2": 115220.0,
     "emission_factor": 642.359368902269,
     "generation_gco2kwh": 642.359368902269,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29012,7 +29012,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 23.920265780730897,
     "generation_gco2kwh": 23.920265780730897,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29036,7 +29036,7 @@ window.DATA_DETAIL = [
     "total_co2": 10910.0,
     "emission_factor": 658.021712907117,
     "generation_gco2kwh": 658.021712907117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29060,7 +29060,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 46.65314401622718,
     "generation_gco2kwh": 46.65314401622718,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29084,7 +29084,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 10.016694490818029,
     "generation_gco2kwh": 10.016694490818029,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29108,7 +29108,7 @@ window.DATA_DETAIL = [
     "total_co2": 123960.0,
     "emission_factor": 642.3463571354545,
     "generation_gco2kwh": 642.3463571354545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29132,7 +29132,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 23.660403618649966,
     "generation_gco2kwh": 23.660403618649966,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29156,7 +29156,7 @@ window.DATA_DETAIL = [
     "total_co2": 11730.0,
     "emission_factor": 657.8799775659003,
     "generation_gco2kwh": 657.8799775659003,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29180,7 +29180,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 47.77594728171334,
     "generation_gco2kwh": 47.77594728171334,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29204,7 +29204,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 9.77198697068404,
     "generation_gco2kwh": 9.77198697068404,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29228,7 +29228,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29252,7 +29252,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 24.154589371980677,
     "generation_gco2kwh": 24.154589371980677,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29276,7 +29276,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 653.0612244897959,
     "generation_gco2kwh": 653.0612244897959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29300,7 +29300,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29324,7 +29324,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29348,7 +29348,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29372,7 +29372,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 211.11111111111111,
     "generation_gco2kwh": 211.11111111111111,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29396,7 +29396,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 21.978021978021978,
     "generation_gco2kwh": 21.978021978021978,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29420,7 +29420,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 656.5656565656566,
     "generation_gco2kwh": 656.5656565656566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29444,7 +29444,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29468,7 +29468,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 46.29629629629629,
     "generation_gco2kwh": 46.29629629629629,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29492,7 +29492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29516,7 +29516,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29540,7 +29540,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 22.123893805309738,
     "generation_gco2kwh": 22.123893805309738,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29564,7 +29564,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 655.7377049180328,
     "generation_gco2kwh": 655.7377049180328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29588,7 +29588,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 37.974683544303794,
     "generation_gco2kwh": 37.974683544303794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29612,7 +29612,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29636,7 +29636,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29660,7 +29660,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 219.78021978021977,
     "generation_gco2kwh": 219.78021978021977,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29684,7 +29684,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 24.875621890547265,
     "generation_gco2kwh": 24.875621890547265,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29708,7 +29708,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 655.7377049180328,
     "generation_gco2kwh": 655.7377049180328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29732,7 +29732,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 37.73584905660377,
     "generation_gco2kwh": 37.73584905660377,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29756,7 +29756,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29780,7 +29780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29804,7 +29804,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29828,7 +29828,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.641509433962266,
     "generation_gco2kwh": 22.641509433962266,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29852,7 +29852,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29876,7 +29876,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 37.974683544303794,
     "generation_gco2kwh": 37.974683544303794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29900,7 +29900,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29924,7 +29924,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29948,7 +29948,7 @@ window.DATA_DETAIL = [
     "total_co2": 790.0,
     "emission_factor": 868.1318681318681,
     "generation_gco2kwh": 868.1318681318681,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29972,7 +29972,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -29996,7 +29996,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30020,7 +30020,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 873.6842105263158,
     "generation_gco2kwh": 873.6842105263158,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30044,7 +30044,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 21.27659574468085,
     "generation_gco2kwh": 21.27659574468085,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30068,7 +30068,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30092,7 +30092,7 @@ window.DATA_DETAIL = [
     "total_co2": 890.0,
     "emission_factor": 872.5490196078431,
     "generation_gco2kwh": 872.5490196078431,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30116,7 +30116,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.833333333333336,
     "generation_gco2kwh": 20.833333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30140,7 +30140,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30164,7 +30164,7 @@ window.DATA_DETAIL = [
     "total_co2": 930.0,
     "emission_factor": 869.1588785046729,
     "generation_gco2kwh": 869.1588785046729,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30188,7 +30188,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30212,7 +30212,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30236,7 +30236,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30260,7 +30260,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30284,7 +30284,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 648.6486486486486,
     "generation_gco2kwh": 648.6486486486486,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30308,7 +30308,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30332,7 +30332,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30356,7 +30356,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30380,7 +30380,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30404,7 +30404,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30428,7 +30428,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 216.2162162162162,
     "generation_gco2kwh": 216.2162162162162,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30476,7 +30476,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30500,7 +30500,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30524,7 +30524,7 @@ window.DATA_DETAIL = [
     "total_co2": 2029.9999999999998,
     "emission_factor": 659.090909090909,
     "generation_gco2kwh": 659.090909090909,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30548,7 +30548,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 40.0,
     "generation_gco2kwh": 40.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30572,7 +30572,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 11.904761904761905,
     "generation_gco2kwh": 11.904761904761905,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30596,7 +30596,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 214.68926553672316,
     "generation_gco2kwh": 214.68926553672316,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30620,7 +30620,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30644,7 +30644,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30668,7 +30668,7 @@ window.DATA_DETAIL = [
     "total_co2": 2820.0,
     "emission_factor": 658.8785046728972,
     "generation_gco2kwh": 658.8785046728972,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -30692,7 +30692,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 57.142857142857146,
     "generation_gco2kwh": 57.142857142857146,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -30716,7 +30716,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 13.698630136986301,
     "generation_gco2kwh": 13.698630136986301,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -31460,7 +31460,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31484,7 +31484,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31508,7 +31508,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31532,7 +31532,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31556,7 +31556,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31580,7 +31580,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31604,7 +31604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31628,7 +31628,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31652,7 +31652,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31676,7 +31676,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31700,7 +31700,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31724,7 +31724,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31748,7 +31748,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31772,7 +31772,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31796,7 +31796,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31820,7 +31820,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31844,7 +31844,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 23.427041499330656,
     "generation_gco2kwh": 23.427041499330656,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31868,7 +31868,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31892,7 +31892,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31916,7 +31916,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.39344262295082,
     "generation_gco2kwh": 16.39344262295082,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31940,7 +31940,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31964,7 +31964,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 23.474178403755868,
     "generation_gco2kwh": 23.474178403755868,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -31988,7 +31988,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32012,7 +32012,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 12.195121951219512,
     "generation_gco2kwh": 12.195121951219512,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32036,7 +32036,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32060,7 +32060,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 23.85211687537269,
     "generation_gco2kwh": 23.85211687537269,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32084,7 +32084,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32108,7 +32108,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32132,7 +32132,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.857142857142854,
     "generation_gco2kwh": 17.857142857142854,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32156,7 +32156,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32180,7 +32180,7 @@ window.DATA_DETAIL = [
     "total_co2": 420.0,
     "emission_factor": 23.83654937570942,
     "generation_gco2kwh": 23.83654937570942,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32204,7 +32204,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32228,7 +32228,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32252,7 +32252,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.857142857142854,
     "generation_gco2kwh": 17.857142857142854,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32300,7 +32300,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32324,7 +32324,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32348,7 +32348,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32372,7 +32372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32396,7 +32396,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 640.0,
     "generation_gco2kwh": 640.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32420,7 +32420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32444,7 +32444,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32468,7 +32468,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32492,7 +32492,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32516,7 +32516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32540,7 +32540,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32564,7 +32564,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32588,7 +32588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32612,7 +32612,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32636,7 +32636,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.857142857142854,
     "generation_gco2kwh": 17.857142857142854,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32660,7 +32660,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32684,7 +32684,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32708,7 +32708,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32732,7 +32732,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 18.18181818181818,
     "generation_gco2kwh": 18.18181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32756,7 +32756,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32780,7 +32780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32804,7 +32804,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32828,7 +32828,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.666666666666668,
     "generation_gco2kwh": 16.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32852,7 +32852,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32876,7 +32876,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32900,7 +32900,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32924,7 +32924,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.666666666666668,
     "generation_gco2kwh": 16.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32948,7 +32948,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32972,7 +32972,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -32996,7 +32996,7 @@ window.DATA_DETAIL = [
     "total_co2": 2500.0,
     "emission_factor": 216.076058772688,
     "generation_gco2kwh": 216.076058772688,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33020,7 +33020,7 @@ window.DATA_DETAIL = [
     "total_co2": 2280.0,
     "emission_factor": 934.4262295081968,
     "generation_gco2kwh": 934.4262295081968,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33044,7 +33044,7 @@ window.DATA_DETAIL = [
     "total_co2": 1270.0,
     "emission_factor": 318.2957393483709,
     "generation_gco2kwh": 318.2957393483709,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33068,7 +33068,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 23.929471032745592,
     "generation_gco2kwh": 23.929471032745592,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33092,7 +33092,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 4.7230571060541005,
     "generation_gco2kwh": 4.7230571060541005,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33116,7 +33116,7 @@ window.DATA_DETAIL = [
     "total_co2": 2360.0,
     "emission_factor": 657.3816155988858,
     "generation_gco2kwh": 657.3816155988858,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33164,7 +33164,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33188,7 +33188,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 12.106537530266344,
     "generation_gco2kwh": 12.106537530266344,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33212,7 +33212,7 @@ window.DATA_DETAIL = [
     "total_co2": 2940.0,
     "emission_factor": 216.49484536082474,
     "generation_gco2kwh": 216.49484536082474,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33236,7 +33236,7 @@ window.DATA_DETAIL = [
     "total_co2": 2490.0,
     "emission_factor": 932.5842696629214,
     "generation_gco2kwh": 932.5842696629214,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33260,7 +33260,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 318.5378590078329,
     "generation_gco2kwh": 318.5378590078329,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33284,7 +33284,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 24.065864471184295,
     "generation_gco2kwh": 24.065864471184295,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33308,7 +33308,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 4.661016949152542,
     "generation_gco2kwh": 4.661016949152542,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33332,7 +33332,7 @@ window.DATA_DETAIL = [
     "total_co2": 2520.0,
     "emission_factor": 657.9634464751958,
     "generation_gco2kwh": 657.9634464751958,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -33380,7 +33380,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -33404,7 +33404,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 11.750881316098708,
     "generation_gco2kwh": 11.750881316098708,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34148,7 +34148,7 @@ window.DATA_DETAIL = [
     "total_co2": 1890.0,
     "emission_factor": 215.75342465753425,
     "generation_gco2kwh": 215.75342465753425,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34172,7 +34172,7 @@ window.DATA_DETAIL = [
     "total_co2": 2980.0,
     "emission_factor": 964.401294498382,
     "generation_gco2kwh": 964.401294498382,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34196,7 +34196,7 @@ window.DATA_DETAIL = [
     "total_co2": 15340.0,
     "emission_factor": 435.177304964539,
     "generation_gco2kwh": 435.177304964539,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34220,7 +34220,7 @@ window.DATA_DETAIL = [
     "total_co2": 1490.0,
     "emission_factor": 23.805719763540502,
     "generation_gco2kwh": 23.805719763540502,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34244,7 +34244,7 @@ window.DATA_DETAIL = [
     "total_co2": 1710.0,
     "emission_factor": 4.832829324817003,
     "generation_gco2kwh": 4.832829324817003,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34268,7 +34268,7 @@ window.DATA_DETAIL = [
     "total_co2": 6610.0,
     "emission_factor": 657.7114427860696,
     "generation_gco2kwh": 657.7114427860696,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34292,7 +34292,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 32.78688524590164,
     "generation_gco2kwh": 32.78688524590164,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34316,7 +34316,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 47.76345716451858,
     "generation_gco2kwh": 47.76345716451858,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34340,7 +34340,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 12.23470661672909,
     "generation_gco2kwh": 12.23470661672909,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34364,7 +34364,7 @@ window.DATA_DETAIL = [
     "total_co2": 2070.0,
     "emission_factor": 216.30094043887146,
     "generation_gco2kwh": 216.30094043887146,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34388,7 +34388,7 @@ window.DATA_DETAIL = [
     "total_co2": 5250.0,
     "emission_factor": 965.0735294117646,
     "generation_gco2kwh": 965.0735294117646,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34412,7 +34412,7 @@ window.DATA_DETAIL = [
     "total_co2": 14490.0,
     "emission_factor": 435.0045031522065,
     "generation_gco2kwh": 435.0045031522065,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34436,7 +34436,7 @@ window.DATA_DETAIL = [
     "total_co2": 1420.0,
     "emission_factor": 23.817510902381752,
     "generation_gco2kwh": 23.817510902381752,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34460,7 +34460,7 @@ window.DATA_DETAIL = [
     "total_co2": 1830.0,
     "emission_factor": 4.823913960354281,
     "generation_gco2kwh": 4.823913960354281,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34484,7 +34484,7 @@ window.DATA_DETAIL = [
     "total_co2": 6640.0,
     "emission_factor": 658.0773042616452,
     "generation_gco2kwh": 658.0773042616452,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34508,7 +34508,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 34.48275862068966,
     "generation_gco2kwh": 34.48275862068966,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -34532,7 +34532,7 @@ window.DATA_DETAIL = [
     "total_co2": 730.0,
     "emission_factor": 47.52604166666667,
     "generation_gco2kwh": 47.52604166666667,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -34556,7 +34556,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 12.392241379310345,
     "generation_gco2kwh": 12.392241379310345,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -35300,7 +35300,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35324,7 +35324,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35348,7 +35348,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 659.5744680851064,
     "generation_gco2kwh": 659.5744680851064,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35372,7 +35372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35396,7 +35396,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35420,7 +35420,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.949152542372882,
     "generation_gco2kwh": 16.949152542372882,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35444,7 +35444,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 645.1612903225806,
     "generation_gco2kwh": 645.1612903225806,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35468,7 +35468,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35492,7 +35492,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35516,7 +35516,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.666666666666668,
     "generation_gco2kwh": 16.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35540,7 +35540,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35564,7 +35564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35588,7 +35588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35612,7 +35612,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 652.1739130434783,
     "generation_gco2kwh": 652.1739130434783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35636,7 +35636,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35660,7 +35660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35684,7 +35684,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 659.5744680851064,
     "generation_gco2kwh": 659.5744680851064,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35708,7 +35708,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35732,7 +35732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35756,7 +35756,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 659.5744680851064,
     "generation_gco2kwh": 659.5744680851064,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35780,7 +35780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35804,7 +35804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35828,7 +35828,7 @@ window.DATA_DETAIL = [
     "total_co2": 950.0,
     "emission_factor": 863.6363636363635,
     "generation_gco2kwh": 863.6363636363635,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35852,7 +35852,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 21.126760563380284,
     "generation_gco2kwh": 21.126760563380284,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35876,7 +35876,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35900,7 +35900,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35924,7 +35924,7 @@ window.DATA_DETAIL = [
     "total_co2": 960.0,
     "emission_factor": 864.8648648648648,
     "generation_gco2kwh": 864.8648648648648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35948,7 +35948,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 21.8978102189781,
     "generation_gco2kwh": 21.8978102189781,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35972,7 +35972,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 659.5744680851064,
     "generation_gco2kwh": 659.5744680851064,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -35996,7 +35996,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36020,7 +36020,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 866.0714285714284,
     "generation_gco2kwh": 866.0714285714284,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36044,7 +36044,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 26.31578947368421,
     "generation_gco2kwh": 26.31578947368421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36068,7 +36068,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36092,7 +36092,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36116,7 +36116,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 866.0714285714284,
     "generation_gco2kwh": 866.0714285714284,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36140,7 +36140,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 26.31578947368421,
     "generation_gco2kwh": 26.31578947368421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36164,7 +36164,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36188,7 +36188,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36212,7 +36212,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36236,7 +36236,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36260,7 +36260,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36284,7 +36284,7 @@ window.DATA_DETAIL = [
     "total_co2": 1760.0,
     "emission_factor": 624.113475177305,
     "generation_gco2kwh": 624.113475177305,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36308,7 +36308,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 24.242424242424242,
     "generation_gco2kwh": 24.242424242424242,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36332,7 +36332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36356,7 +36356,7 @@ window.DATA_DETAIL = [
     "total_co2": 1490.0,
     "emission_factor": 626.0504201680673,
     "generation_gco2kwh": 626.0504201680673,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36380,7 +36380,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 23.575638506876228,
     "generation_gco2kwh": 23.575638506876228,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36404,7 +36404,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36428,7 +36428,7 @@ window.DATA_DETAIL = [
     "total_co2": 2120.0,
     "emission_factor": 625.3687315634218,
     "generation_gco2kwh": 625.3687315634218,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36452,7 +36452,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 24.141132776230272,
     "generation_gco2kwh": 24.141132776230272,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36476,7 +36476,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36500,7 +36500,7 @@ window.DATA_DETAIL = [
     "total_co2": 2160.0,
     "emission_factor": 626.0869565217391,
     "generation_gco2kwh": 626.0869565217391,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36524,7 +36524,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 23.941068139963168,
     "generation_gco2kwh": 23.941068139963168,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36548,7 +36548,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36572,7 +36572,7 @@ window.DATA_DETAIL = [
     "total_co2": 1770.0,
     "emission_factor": 625.4416961130742,
     "generation_gco2kwh": 625.4416961130742,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36596,7 +36596,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36620,7 +36620,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36644,7 +36644,7 @@ window.DATA_DETAIL = [
     "total_co2": 11010.0,
     "emission_factor": 216.17906931081876,
     "generation_gco2kwh": 216.17906931081876,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -36668,7 +36668,7 @@ window.DATA_DETAIL = [
     "total_co2": 130840.0,
     "emission_factor": 972.0653789004458,
     "generation_gco2kwh": 972.0653789004458,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36692,7 +36692,7 @@ window.DATA_DETAIL = [
     "total_co2": 40960.0,
     "emission_factor": 431.1578947368421,
     "generation_gco2kwh": 431.1578947368421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36716,7 +36716,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 23.504273504273506,
     "generation_gco2kwh": 23.504273504273506,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -36740,7 +36740,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 4.815159987573781,
     "generation_gco2kwh": 4.815159987573781,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36764,7 +36764,7 @@ window.DATA_DETAIL = [
     "total_co2": 14000.0,
     "emission_factor": 657.8947368421052,
     "generation_gco2kwh": 657.8947368421052,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36788,7 +36788,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -36812,7 +36812,7 @@ window.DATA_DETAIL = [
     "total_co2": 2350.0,
     "emission_factor": 47.474747474747474,
     "generation_gco2kwh": 47.474747474747474,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -36836,7 +36836,7 @@ window.DATA_DETAIL = [
     "total_co2": 1650.0,
     "emission_factor": 12.489592006661114,
     "generation_gco2kwh": 12.489592006661114,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36860,7 +36860,7 @@ window.DATA_DETAIL = [
     "total_co2": 10620.0,
     "emission_factor": 216.29327902240325,
     "generation_gco2kwh": 216.29327902240325,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -36884,7 +36884,7 @@ window.DATA_DETAIL = [
     "total_co2": 159790.0,
     "emission_factor": 970.4828423929547,
     "generation_gco2kwh": 970.4828423929547,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36908,7 +36908,7 @@ window.DATA_DETAIL = [
     "total_co2": 38940.0,
     "emission_factor": 431.1814859926918,
     "generation_gco2kwh": 431.1814859926918,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36932,7 +36932,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 23.90640895218718,
     "generation_gco2kwh": 23.90640895218718,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -36956,7 +36956,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 4.7736149283957765,
     "generation_gco2kwh": 4.7736149283957765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -36980,7 +36980,7 @@ window.DATA_DETAIL = [
     "total_co2": 14630.0,
     "emission_factor": 657.8237410071943,
     "generation_gco2kwh": 657.8237410071943,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37004,7 +37004,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -37028,7 +37028,7 @@ window.DATA_DETAIL = [
     "total_co2": 2340.0,
     "emission_factor": 47.426023510336435,
     "generation_gco2kwh": 47.426023510336435,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -37052,7 +37052,7 @@ window.DATA_DETAIL = [
     "total_co2": 1420.0,
     "emission_factor": 12.438682550805886,
     "generation_gco2kwh": 12.438682550805886,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -37772,7 +37772,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37796,7 +37796,7 @@ window.DATA_DETAIL = [
     "total_co2": 8380.0,
     "emission_factor": 723.0371009490941,
     "generation_gco2kwh": 723.0371009490941,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37820,7 +37820,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.319615912208505,
     "generation_gco2kwh": 23.319615912208505,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37844,7 +37844,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 662.3376623376623,
     "generation_gco2kwh": 662.3376623376623,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37868,7 +37868,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37892,7 +37892,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37916,7 +37916,7 @@ window.DATA_DETAIL = [
     "total_co2": 9980.0,
     "emission_factor": 723.1884057971014,
     "generation_gco2kwh": 723.1884057971014,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37940,7 +37940,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 23.904382470119522,
     "generation_gco2kwh": 23.904382470119522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37964,7 +37964,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -37988,7 +37988,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38012,7 +38012,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38036,7 +38036,7 @@ window.DATA_DETAIL = [
     "total_co2": 10290.0,
     "emission_factor": 723.1201686577652,
     "generation_gco2kwh": 723.1201686577652,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38060,7 +38060,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 23.199023199023202,
     "generation_gco2kwh": 23.199023199023202,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38084,7 +38084,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38108,7 +38108,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38132,7 +38132,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38156,7 +38156,7 @@ window.DATA_DETAIL = [
     "total_co2": 10490.0,
     "emission_factor": 723.448275862069,
     "generation_gco2kwh": 723.448275862069,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38180,7 +38180,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.93906420021763,
     "generation_gco2kwh": 23.93906420021763,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38204,7 +38204,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 651.1627906976744,
     "generation_gco2kwh": 651.1627906976744,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38228,7 +38228,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -38276,7 +38276,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 571.4285714285714,
     "generation_gco2kwh": 571.4285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38300,7 +38300,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 565.2173913043478,
     "generation_gco2kwh": 565.2173913043478,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38324,7 +38324,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 571.4285714285714,
     "generation_gco2kwh": 571.4285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38348,7 +38348,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 590.9090909090909,
     "generation_gco2kwh": 590.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38372,7 +38372,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38396,7 +38396,7 @@ window.DATA_DETAIL = [
     "total_co2": 6620.0,
     "emission_factor": 1001.5128593040847,
     "generation_gco2kwh": 1001.5128593040847,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38420,7 +38420,7 @@ window.DATA_DETAIL = [
     "total_co2": 10270.0,
     "emission_factor": 534.0613624544982,
     "generation_gco2kwh": 534.0613624544982,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38444,7 +38444,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 23.952095808383234,
     "generation_gco2kwh": 23.952095808383234,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38468,7 +38468,7 @@ window.DATA_DETAIL = [
     "total_co2": 2710.0,
     "emission_factor": 657.7669902912621,
     "generation_gco2kwh": 657.7669902912621,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38492,7 +38492,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 47.19101123595505,
     "generation_gco2kwh": 47.19101123595505,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38516,7 +38516,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 11.815252416756175,
     "generation_gco2kwh": 11.815252416756175,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38540,7 +38540,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 220.0,
     "generation_gco2kwh": 220.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38564,7 +38564,7 @@ window.DATA_DETAIL = [
     "total_co2": 5310.0,
     "emission_factor": 998.1203007518797,
     "generation_gco2kwh": 998.1203007518797,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38588,7 +38588,7 @@ window.DATA_DETAIL = [
     "total_co2": 12010.0,
     "emission_factor": 534.0151178301468,
     "generation_gco2kwh": 534.0151178301468,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38612,7 +38612,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 23.72881355932203,
     "generation_gco2kwh": 23.72881355932203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38636,7 +38636,7 @@ window.DATA_DETAIL = [
     "total_co2": 2830.0,
     "emission_factor": 658.139534883721,
     "generation_gco2kwh": 658.139534883721,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38660,7 +38660,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -38684,7 +38684,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 12.404580152671755,
     "generation_gco2kwh": 12.404580152671755,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39404,7 +39404,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39428,7 +39428,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39452,7 +39452,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39476,7 +39476,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39500,7 +39500,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 21.27659574468085,
     "generation_gco2kwh": 21.27659574468085,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39524,7 +39524,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39548,7 +39548,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39572,7 +39572,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 652.1739130434783,
     "generation_gco2kwh": 652.1739130434783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39596,7 +39596,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39620,7 +39620,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39644,7 +39644,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39668,7 +39668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39692,7 +39692,7 @@ window.DATA_DETAIL = [
     "total_co2": 660.0,
     "emission_factor": 653.4653465346535,
     "generation_gco2kwh": 653.4653465346535,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39716,7 +39716,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39740,7 +39740,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 90.9090909090909,
     "generation_gco2kwh": 90.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39764,7 +39764,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39788,7 +39788,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39812,7 +39812,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 869.5652173913043,
     "generation_gco2kwh": 869.5652173913043,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39836,7 +39836,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39860,7 +39860,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39884,7 +39884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39908,7 +39908,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 90.9090909090909,
     "generation_gco2kwh": 90.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39932,7 +39932,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39956,7 +39956,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -39980,7 +39980,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 863.6363636363636,
     "generation_gco2kwh": 863.6363636363636,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40004,7 +40004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40028,7 +40028,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 658.8235294117648,
     "generation_gco2kwh": 658.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40052,7 +40052,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40076,7 +40076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 90.9090909090909,
     "generation_gco2kwh": 90.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40100,7 +40100,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40124,7 +40124,7 @@ window.DATA_DETAIL = [
     "total_co2": 1070.0,
     "emission_factor": 656.4417177914111,
     "generation_gco2kwh": 656.4417177914111,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40148,7 +40148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40172,7 +40172,7 @@ window.DATA_DETAIL = [
     "total_co2": 1090.0,
     "emission_factor": 656.6265060240964,
     "generation_gco2kwh": 656.6265060240964,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40196,7 +40196,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40220,7 +40220,7 @@ window.DATA_DETAIL = [
     "total_co2": 1090.0,
     "emission_factor": 656.6265060240964,
     "generation_gco2kwh": 656.6265060240964,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40244,7 +40244,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40268,7 +40268,7 @@ window.DATA_DETAIL = [
     "total_co2": 600.0,
     "emission_factor": 216.60649819494586,
     "generation_gco2kwh": 216.60649819494586,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40292,7 +40292,7 @@ window.DATA_DETAIL = [
     "total_co2": 2280.0,
     "emission_factor": 870.2290076335878,
     "generation_gco2kwh": 870.2290076335878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40316,7 +40316,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40340,7 +40340,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 24.22145328719723,
     "generation_gco2kwh": 24.22145328719723,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40364,7 +40364,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 657.8947368421052,
     "generation_gco2kwh": 657.8947368421052,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40388,7 +40388,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 30.3030303030303,
     "generation_gco2kwh": 30.3030303030303,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40412,7 +40412,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -40436,7 +40436,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40460,7 +40460,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 215.58441558441558,
     "generation_gco2kwh": 215.58441558441558,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40484,7 +40484,7 @@ window.DATA_DETAIL = [
     "total_co2": 2910.0,
     "emission_factor": 871.2574850299402,
     "generation_gco2kwh": 871.2574850299402,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40508,7 +40508,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40532,7 +40532,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 24.024024024024023,
     "generation_gco2kwh": 24.024024024024023,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40556,7 +40556,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 653.3333333333334,
     "generation_gco2kwh": 653.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40580,7 +40580,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40604,7 +40604,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -40628,7 +40628,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40652,7 +40652,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 214.89971346704868,
     "generation_gco2kwh": 214.89971346704868,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40676,7 +40676,7 @@ window.DATA_DETAIL = [
     "total_co2": 1110.0,
     "emission_factor": 874.0157480314961,
     "generation_gco2kwh": 874.0157480314961,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40700,7 +40700,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40724,7 +40724,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 24.147727272727273,
     "generation_gco2kwh": 24.147727272727273,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40748,7 +40748,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40772,7 +40772,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 29.41176470588235,
     "generation_gco2kwh": 29.41176470588235,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40796,7 +40796,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40820,7 +40820,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40844,7 +40844,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 216.76300578034682,
     "generation_gco2kwh": 216.76300578034682,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40868,7 +40868,7 @@ window.DATA_DETAIL = [
     "total_co2": 2070.0,
     "emission_factor": 873.4177215189873,
     "generation_gco2kwh": 873.4177215189873,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40892,7 +40892,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 23.008849557522122,
     "generation_gco2kwh": 23.008849557522122,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40916,7 +40916,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40940,7 +40940,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 29.41176470588235,
     "generation_gco2kwh": 29.41176470588235,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -40964,7 +40964,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40988,7 +40988,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41084,7 +41084,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 26.845637583892618,
     "generation_gco2kwh": 26.845637583892618,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41108,7 +41108,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 659.7938144329897,
     "generation_gco2kwh": 659.7938144329897,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41132,7 +41132,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41156,7 +41156,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41180,7 +41180,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 653.0612244897959,
     "generation_gco2kwh": 653.0612244897959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41204,7 +41204,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41228,7 +41228,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 23.72881355932203,
     "generation_gco2kwh": 23.72881355932203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41252,7 +41252,7 @@ window.DATA_DETAIL = [
     "total_co2": 670.0,
     "emission_factor": 656.8627450980392,
     "generation_gco2kwh": 656.8627450980392,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41276,7 +41276,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41300,7 +41300,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 23.333333333333332,
     "generation_gco2kwh": 23.333333333333332,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41324,7 +41324,7 @@ window.DATA_DETAIL = [
     "total_co2": 670.0,
     "emission_factor": 656.8627450980392,
     "generation_gco2kwh": 656.8627450980392,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41348,7 +41348,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41372,7 +41372,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41396,7 +41396,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41420,7 +41420,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41444,7 +41444,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41468,7 +41468,7 @@ window.DATA_DETAIL = [
     "total_co2": 730.0,
     "emission_factor": 657.6576576576576,
     "generation_gco2kwh": 657.6576576576576,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41492,7 +41492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41516,7 +41516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41540,7 +41540,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 654.5454545454545,
     "generation_gco2kwh": 654.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41564,7 +41564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41588,7 +41588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41612,7 +41612,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41636,7 +41636,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41660,7 +41660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41684,7 +41684,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41708,7 +41708,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41732,7 +41732,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41756,7 +41756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41780,7 +41780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41804,7 +41804,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 659.0909090909091,
     "generation_gco2kwh": 659.0909090909091,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41828,7 +41828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41852,7 +41852,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 655.5555555555555,
     "generation_gco2kwh": 655.5555555555555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41876,7 +41876,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41900,7 +41900,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 658.5365853658537,
     "generation_gco2kwh": 658.5365853658537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41924,7 +41924,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 216.0,
     "generation_gco2kwh": 216.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41948,7 +41948,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 800.0,
     "generation_gco2kwh": 800.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41972,7 +41972,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.22222222222222,
     "generation_gco2kwh": 22.22222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -41996,7 +41996,7 @@ window.DATA_DETAIL = [
     "total_co2": 2990.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42020,7 +42020,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42044,7 +42044,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 45.04504504504504,
     "generation_gco2kwh": 45.04504504504504,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42068,7 +42068,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 14.084507042253522,
     "generation_gco2kwh": 14.084507042253522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42092,7 +42092,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 216.66666666666669,
     "generation_gco2kwh": 216.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42116,7 +42116,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 833.3333333333334,
     "generation_gco2kwh": 833.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42140,7 +42140,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 23.872679045092838,
     "generation_gco2kwh": 23.872679045092838,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42164,7 +42164,7 @@ window.DATA_DETAIL = [
     "total_co2": 2780.0,
     "emission_factor": 657.2104018912529,
     "generation_gco2kwh": 657.2104018912529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42188,7 +42188,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 28.571428571428573,
     "generation_gco2kwh": 28.571428571428573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42212,7 +42212,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 43.85964912280702,
     "generation_gco2kwh": 43.85964912280702,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42236,7 +42236,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 12.987012987012987,
     "generation_gco2kwh": 12.987012987012987,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42260,7 +42260,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 216.0,
     "generation_gco2kwh": 216.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42284,7 +42284,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42308,7 +42308,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 23.195876288659793,
     "generation_gco2kwh": 23.195876288659793,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42332,7 +42332,7 @@ window.DATA_DETAIL = [
     "total_co2": 2960.0,
     "emission_factor": 657.7777777777778,
     "generation_gco2kwh": 657.7777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42356,7 +42356,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 29.41176470588235,
     "generation_gco2kwh": 29.41176470588235,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42380,7 +42380,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 48.07692307692307,
     "generation_gco2kwh": 48.07692307692307,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42404,7 +42404,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 14.492753623188406,
     "generation_gco2kwh": 14.492753623188406,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42428,7 +42428,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 216.0,
     "generation_gco2kwh": 216.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42452,7 +42452,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 23.195876288659793,
     "generation_gco2kwh": 23.195876288659793,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42476,7 +42476,7 @@ window.DATA_DETAIL = [
     "total_co2": 2960.0,
     "emission_factor": 657.7777777777778,
     "generation_gco2kwh": 657.7777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42500,7 +42500,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 28.571428571428573,
     "generation_gco2kwh": 28.571428571428573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42524,7 +42524,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 48.07692307692307,
     "generation_gco2kwh": 48.07692307692307,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42548,7 +42548,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 14.492753623188406,
     "generation_gco2kwh": 14.492753623188406,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42620,7 +42620,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42644,7 +42644,7 @@ window.DATA_DETAIL = [
     "total_co2": 11640.0,
     "emission_factor": 959.6042868920032,
     "generation_gco2kwh": 959.6042868920032,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42668,7 +42668,7 @@ window.DATA_DETAIL = [
     "total_co2": 11720.0,
     "emission_factor": 535.893918609968,
     "generation_gco2kwh": 535.893918609968,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42692,7 +42692,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 687.5,
     "generation_gco2kwh": 687.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42716,7 +42716,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42740,7 +42740,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42764,7 +42764,7 @@ window.DATA_DETAIL = [
     "total_co2": 12960.0,
     "emission_factor": 960.0,
     "generation_gco2kwh": 960.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42788,7 +42788,7 @@ window.DATA_DETAIL = [
     "total_co2": 11920.0,
     "emission_factor": 535.4896675651393,
     "generation_gco2kwh": 535.4896675651393,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42812,7 +42812,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42836,7 +42836,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 83.33333333333334,
     "generation_gco2kwh": 83.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42860,7 +42860,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42884,7 +42884,7 @@ window.DATA_DETAIL = [
     "total_co2": 12220.0,
     "emission_factor": 959.9371563236449,
     "generation_gco2kwh": 959.9371563236449,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42908,7 +42908,7 @@ window.DATA_DETAIL = [
     "total_co2": 12240.0,
     "emission_factor": 535.9019264448336,
     "generation_gco2kwh": 535.9019264448336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42932,7 +42932,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 650.0,
     "generation_gco2kwh": 650.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42956,7 +42956,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -42980,7 +42980,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 187.5,
     "generation_gco2kwh": 187.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43004,7 +43004,7 @@ window.DATA_DETAIL = [
     "total_co2": 12740.0,
     "emission_factor": 960.0602863602111,
     "generation_gco2kwh": 960.0602863602111,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43028,7 +43028,7 @@ window.DATA_DETAIL = [
     "total_co2": 12750.0,
     "emission_factor": 535.7142857142857,
     "generation_gco2kwh": 535.7142857142857,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43052,7 +43052,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43076,7 +43076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43100,7 +43100,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 213.95348837209303,
     "generation_gco2kwh": 213.95348837209303,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43124,7 +43124,7 @@ window.DATA_DETAIL = [
     "total_co2": 3760.0,
     "emission_factor": 1013.4770889487871,
     "generation_gco2kwh": 1013.4770889487871,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43148,7 +43148,7 @@ window.DATA_DETAIL = [
     "total_co2": 4190.0,
     "emission_factor": 460.94609460946094,
     "generation_gco2kwh": 460.94609460946094,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43172,7 +43172,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43196,7 +43196,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 4.981320049813201,
     "generation_gco2kwh": 4.981320049813201,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43220,7 +43220,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43244,7 +43244,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43268,7 +43268,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 48.78048780487805,
     "generation_gco2kwh": 48.78048780487805,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43292,7 +43292,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 15.384615384615383,
     "generation_gco2kwh": 15.384615384615383,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43316,7 +43316,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 215.24663677130044,
     "generation_gco2kwh": 215.24663677130044,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43340,7 +43340,7 @@ window.DATA_DETAIL = [
     "total_co2": 3050.0,
     "emission_factor": 1013.2890365448505,
     "generation_gco2kwh": 1013.2890365448505,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43364,7 +43364,7 @@ window.DATA_DETAIL = [
     "total_co2": 4450.0,
     "emission_factor": 461.13989637305696,
     "generation_gco2kwh": 461.13989637305696,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43388,7 +43388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43412,7 +43412,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 5.003126954346467,
     "generation_gco2kwh": 5.003126954346467,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43436,7 +43436,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43460,7 +43460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43484,7 +43484,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 47.36842105263158,
     "generation_gco2kwh": 47.36842105263158,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -43508,7 +43508,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 15.15151515151515,
     "generation_gco2kwh": 15.15151515151515,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -44252,7 +44252,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 23.993808049535605,
     "generation_gco2kwh": 23.993808049535605,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -44276,7 +44276,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 36.91275167785235,
     "generation_gco2kwh": 36.91275167785235,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -44300,7 +44300,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -44324,7 +44324,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 23.564064801178205,
     "generation_gco2kwh": 23.564064801178205,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -44348,7 +44348,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 37.93103448275862,
     "generation_gco2kwh": 37.93103448275862,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -44372,7 +44372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -45092,7 +45092,7 @@ window.DATA_DETAIL = [
     "total_co2": 4300.0,
     "emission_factor": 216.29778672032194,
     "generation_gco2kwh": 216.29778672032194,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45116,7 +45116,7 @@ window.DATA_DETAIL = [
     "total_co2": 1042329.9999999999,
     "emission_factor": 911.3028729301088,
     "generation_gco2kwh": 911.3028729301088,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45140,7 +45140,7 @@ window.DATA_DETAIL = [
     "total_co2": 51830.0,
     "emission_factor": 693.0070865088915,
     "generation_gco2kwh": 693.0070865088915,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45164,7 +45164,7 @@ window.DATA_DETAIL = [
     "total_co2": 3900.0,
     "emission_factor": 23.789191167500306,
     "generation_gco2kwh": 23.789191167500306,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45188,7 +45188,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 5.828289621161175,
     "generation_gco2kwh": 5.828289621161175,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45212,7 +45212,7 @@ window.DATA_DETAIL = [
     "total_co2": 2029.9999999999998,
     "emission_factor": 656.957928802589,
     "generation_gco2kwh": 656.957928802589,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45236,7 +45236,7 @@ window.DATA_DETAIL = [
     "total_co2": 2870.0,
     "emission_factor": 47.47725392886683,
     "generation_gco2kwh": 47.47725392886683,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45260,7 +45260,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 16.051629985106736,
     "generation_gco2kwh": 16.051629985106736,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45284,7 +45284,7 @@ window.DATA_DETAIL = [
     "total_co2": 4580.0,
     "emission_factor": 216.03773584905662,
     "generation_gco2kwh": 216.03773584905662,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45308,7 +45308,7 @@ window.DATA_DETAIL = [
     "total_co2": 1143420.0,
     "emission_factor": 910.6852719105419,
     "generation_gco2kwh": 910.6852719105419,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45332,7 +45332,7 @@ window.DATA_DETAIL = [
     "total_co2": 41860.0,
     "emission_factor": 693.0463576158941,
     "generation_gco2kwh": 693.0463576158941,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45356,7 +45356,7 @@ window.DATA_DETAIL = [
     "total_co2": 3820.0,
     "emission_factor": 23.790247244192564,
     "generation_gco2kwh": 23.790247244192564,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45380,7 +45380,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 5.919854280510018,
     "generation_gco2kwh": 5.919854280510018,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45404,7 +45404,7 @@ window.DATA_DETAIL = [
     "total_co2": 2230.0,
     "emission_factor": 657.8171091445428,
     "generation_gco2kwh": 657.8171091445428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45428,7 +45428,7 @@ window.DATA_DETAIL = [
     "total_co2": 3340.0,
     "emission_factor": 47.585126086337084,
     "generation_gco2kwh": 47.585126086337084,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45452,7 +45452,7 @@ window.DATA_DETAIL = [
     "total_co2": 1100.0,
     "emission_factor": 16.15508885298869,
     "generation_gco2kwh": 16.15508885298869,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45476,7 +45476,7 @@ window.DATA_DETAIL = [
     "total_co2": 5040.0,
     "emission_factor": 216.40188922284244,
     "generation_gco2kwh": 216.40188922284244,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45500,7 +45500,7 @@ window.DATA_DETAIL = [
     "total_co2": 1223670.0,
     "emission_factor": 910.1843174008122,
     "generation_gco2kwh": 910.1843174008122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45524,7 +45524,7 @@ window.DATA_DETAIL = [
     "total_co2": 32000.0,
     "emission_factor": 693.0907515702837,
     "generation_gco2kwh": 693.0907515702837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45548,7 +45548,7 @@ window.DATA_DETAIL = [
     "total_co2": 4160.0,
     "emission_factor": 23.759209549374606,
     "generation_gco2kwh": 23.759209549374606,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45572,7 +45572,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 5.845421086815328,
     "generation_gco2kwh": 5.845421086815328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45596,7 +45596,7 @@ window.DATA_DETAIL = [
     "total_co2": 2290.0,
     "emission_factor": 658.0459770114943,
     "generation_gco2kwh": 658.0459770114943,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45620,7 +45620,7 @@ window.DATA_DETAIL = [
     "total_co2": 4630.0,
     "emission_factor": 47.51154438173422,
     "generation_gco2kwh": 47.51154438173422,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45644,7 +45644,7 @@ window.DATA_DETAIL = [
     "total_co2": 1130.0,
     "emission_factor": 16.131334760885082,
     "generation_gco2kwh": 16.131334760885082,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45668,7 +45668,7 @@ window.DATA_DETAIL = [
     "total_co2": 4970.0,
     "emission_factor": 215.99304650152106,
     "generation_gco2kwh": 215.99304650152106,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45692,7 +45692,7 @@ window.DATA_DETAIL = [
     "total_co2": 1314940.0,
     "emission_factor": 909.7160726145671,
     "generation_gco2kwh": 909.7160726145671,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45716,7 +45716,7 @@ window.DATA_DETAIL = [
     "total_co2": 35210.0,
     "emission_factor": 693.1102362204725,
     "generation_gco2kwh": 693.1102362204725,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45740,7 +45740,7 @@ window.DATA_DETAIL = [
     "total_co2": 3550.0,
     "emission_factor": 23.756943050257643,
     "generation_gco2kwh": 23.756943050257643,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45764,7 +45764,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 5.809128630705394,
     "generation_gco2kwh": 5.809128630705394,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45788,7 +45788,7 @@ window.DATA_DETAIL = [
     "total_co2": 2530.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -45812,7 +45812,7 @@ window.DATA_DETAIL = [
     "total_co2": 5520.0,
     "emission_factor": 47.53293722552312,
     "generation_gco2kwh": 47.53293722552312,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45836,7 +45836,7 @@ window.DATA_DETAIL = [
     "total_co2": 1320.0,
     "emission_factor": 16.07599561563756,
     "generation_gco2kwh": 16.07599561563756,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45860,7 +45860,7 @@ window.DATA_DETAIL = [
     "total_co2": 4810.0,
     "emission_factor": 216.17977528089887,
     "generation_gco2kwh": 216.17977528089887,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45884,7 +45884,7 @@ window.DATA_DETAIL = [
     "total_co2": 1380860.0,
     "emission_factor": 909.7173726859477,
     "generation_gco2kwh": 909.7173726859477,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45908,7 +45908,7 @@ window.DATA_DETAIL = [
     "total_co2": 39120.0,
     "emission_factor": 693.1254429482636,
     "generation_gco2kwh": 693.1254429482636,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45932,7 +45932,7 @@ window.DATA_DETAIL = [
     "total_co2": 3720.0,
     "emission_factor": 23.765412381013224,
     "generation_gco2kwh": 23.765412381013224,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45956,7 +45956,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 5.850091407678245,
     "generation_gco2kwh": 5.850091407678245,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -45980,7 +45980,7 @@ window.DATA_DETAIL = [
     "total_co2": 2690.0,
     "emission_factor": 657.7017114914426,
     "generation_gco2kwh": 657.7017114914426,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -46004,7 +46004,7 @@ window.DATA_DETAIL = [
     "total_co2": 6500.0,
     "emission_factor": 47.53199268738574,
     "generation_gco2kwh": 47.53199268738574,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46028,7 +46028,7 @@ window.DATA_DETAIL = [
     "total_co2": 1310.0,
     "emission_factor": 16.065734608780964,
     "generation_gco2kwh": 16.065734608780964,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46052,7 +46052,7 @@ window.DATA_DETAIL = [
     "total_co2": 2670.0,
     "emission_factor": 216.19433198380568,
     "generation_gco2kwh": 216.19433198380568,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46076,7 +46076,7 @@ window.DATA_DETAIL = [
     "total_co2": 155490.0,
     "emission_factor": 859.6782219273512,
     "generation_gco2kwh": 859.6782219273512,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46100,7 +46100,7 @@ window.DATA_DETAIL = [
     "total_co2": 36100.0,
     "emission_factor": 703.9781591263651,
     "generation_gco2kwh": 703.9781591263651,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46124,7 +46124,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 23.838882038635433,
     "generation_gco2kwh": 23.838882038635433,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46148,7 +46148,7 @@ window.DATA_DETAIL = [
     "total_co2": 4460.0,
     "emission_factor": 657.8171091445428,
     "generation_gco2kwh": 657.8171091445428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46172,7 +46172,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 37.893384714193964,
     "generation_gco2kwh": 37.893384714193964,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46196,7 +46196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 58.8235294117647,
     "generation_gco2kwh": 58.8235294117647,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46220,7 +46220,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 21.27659574468085,
     "generation_gco2kwh": 21.27659574468085,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46244,7 +46244,7 @@ window.DATA_DETAIL = [
     "total_co2": 3230.0,
     "emission_factor": 215.9090909090909,
     "generation_gco2kwh": 215.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46268,7 +46268,7 @@ window.DATA_DETAIL = [
     "total_co2": 163040.0,
     "emission_factor": 858.2859549378816,
     "generation_gco2kwh": 858.2859549378816,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46292,7 +46292,7 @@ window.DATA_DETAIL = [
     "total_co2": 39800.0,
     "emission_factor": 704.0509464001415,
     "generation_gco2kwh": 704.0509464001415,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46316,7 +46316,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 23.88663967611336,
     "generation_gco2kwh": 23.88663967611336,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46340,7 +46340,7 @@ window.DATA_DETAIL = [
     "total_co2": 4390.0,
     "emission_factor": 658.1709145427286,
     "generation_gco2kwh": 658.1709145427286,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46364,7 +46364,7 @@ window.DATA_DETAIL = [
     "total_co2": 600.0,
     "emission_factor": 37.71213073538655,
     "generation_gco2kwh": 37.71213073538655,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46388,7 +46388,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46412,7 +46412,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46436,7 +46436,7 @@ window.DATA_DETAIL = [
     "total_co2": 4460.0,
     "emission_factor": 216.2948593598448,
     "generation_gco2kwh": 216.2948593598448,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46460,7 +46460,7 @@ window.DATA_DETAIL = [
     "total_co2": 175750.0,
     "emission_factor": 856.0225999707759,
     "generation_gco2kwh": 856.0225999707759,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46484,7 +46484,7 @@ window.DATA_DETAIL = [
     "total_co2": 39920.0,
     "emission_factor": 703.93228707459,
     "generation_gco2kwh": 703.93228707459,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46508,7 +46508,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46532,7 +46532,7 @@ window.DATA_DETAIL = [
     "total_co2": 4019.9999999999995,
     "emission_factor": 657.937806873977,
     "generation_gco2kwh": 657.937806873977,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46556,7 +46556,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 37.74715398442181,
     "generation_gco2kwh": 37.74715398442181,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46580,7 +46580,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46604,7 +46604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46628,7 +46628,7 @@ window.DATA_DETAIL = [
     "total_co2": 4860.0,
     "emission_factor": 216.19217081850533,
     "generation_gco2kwh": 216.19217081850533,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46652,7 +46652,7 @@ window.DATA_DETAIL = [
     "total_co2": 185140.0,
     "emission_factor": 854.0455761601623,
     "generation_gco2kwh": 854.0455761601623,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46676,7 +46676,7 @@ window.DATA_DETAIL = [
     "total_co2": 43670.0,
     "emission_factor": 703.9007092198582,
     "generation_gco2kwh": 703.9007092198582,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46700,7 +46700,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 23.586823912159414,
     "generation_gco2kwh": 23.586823912159414,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46724,7 +46724,7 @@ window.DATA_DETAIL = [
     "total_co2": 4330.0,
     "emission_factor": 658.0547112462006,
     "generation_gco2kwh": 658.0547112462006,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46748,7 +46748,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 37.78040141676505,
     "generation_gco2kwh": 37.78040141676505,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46772,7 +46772,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 42.25352112676057,
     "generation_gco2kwh": 42.25352112676057,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46796,7 +46796,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.833333333333336,
     "generation_gco2kwh": 20.833333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46916,7 +46916,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46940,7 +46940,7 @@ window.DATA_DETAIL = [
     "total_co2": 730.0,
     "emission_factor": 912.5,
     "generation_gco2kwh": 912.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46964,7 +46964,7 @@ window.DATA_DETAIL = [
     "total_co2": 187750.0,
     "emission_factor": 699.9589904186705,
     "generation_gco2kwh": 699.9589904186705,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -46988,7 +46988,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 23.70689655172414,
     "generation_gco2kwh": 23.70689655172414,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47012,7 +47012,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 4.739336492890995,
     "generation_gco2kwh": 4.739336492890995,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47036,7 +47036,7 @@ window.DATA_DETAIL = [
     "total_co2": 24290.0,
     "emission_factor": 657.9089924160346,
     "generation_gco2kwh": 657.9089924160346,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47060,7 +47060,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 51.724137931034484,
     "generation_gco2kwh": 51.724137931034484,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47084,7 +47084,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.849557522123895,
     "generation_gco2kwh": 8.849557522123895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47108,7 +47108,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47132,7 +47132,7 @@ window.DATA_DETAIL = [
     "total_co2": 660.0,
     "emission_factor": 904.1095890410959,
     "generation_gco2kwh": 904.1095890410959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47156,7 +47156,7 @@ window.DATA_DETAIL = [
     "total_co2": 211510.0,
     "emission_factor": 699.9470514263022,
     "generation_gco2kwh": 699.9470514263022,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47180,7 +47180,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 23.86117136659436,
     "generation_gco2kwh": 23.86117136659436,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47204,7 +47204,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 5.649717514124294,
     "generation_gco2kwh": 5.649717514124294,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47228,7 +47228,7 @@ window.DATA_DETAIL = [
     "total_co2": 22610.0,
     "emission_factor": 658.0325960419092,
     "generation_gco2kwh": 658.0325960419092,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47252,7 +47252,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47276,7 +47276,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.849557522123895,
     "generation_gco2kwh": 8.849557522123895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47300,7 +47300,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47324,7 +47324,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 915.492957746479,
     "generation_gco2kwh": 915.492957746479,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47348,7 +47348,7 @@ window.DATA_DETAIL = [
     "total_co2": 219380.0,
     "emission_factor": 699.9553315040521,
     "generation_gco2kwh": 699.9553315040521,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47372,7 +47372,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 23.571428571428573,
     "generation_gco2kwh": 23.571428571428573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47396,7 +47396,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 4.566210045662101,
     "generation_gco2kwh": 4.566210045662101,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47420,7 +47420,7 @@ window.DATA_DETAIL = [
     "total_co2": 20130.0,
     "emission_factor": 658.0581889506375,
     "generation_gco2kwh": 658.0581889506375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47444,7 +47444,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47468,7 +47468,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.849557522123895,
     "generation_gco2kwh": 8.849557522123895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47492,7 +47492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47516,7 +47516,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 915.492957746479,
     "generation_gco2kwh": 915.492957746479,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47540,7 +47540,7 @@ window.DATA_DETAIL = [
     "total_co2": 225360.0,
     "emission_factor": 699.9627282892285,
     "generation_gco2kwh": 699.9627282892285,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47564,7 +47564,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 23.663453111305873,
     "generation_gco2kwh": 23.663453111305873,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47588,7 +47588,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 4.518072289156627,
     "generation_gco2kwh": 4.518072289156627,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47612,7 +47612,7 @@ window.DATA_DETAIL = [
     "total_co2": 18410.0,
     "emission_factor": 657.9699785561115,
     "generation_gco2kwh": 657.9699785561115,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47636,7 +47636,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 44.11764705882353,
     "generation_gco2kwh": 44.11764705882353,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47660,7 +47660,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.264462809917356,
     "generation_gco2kwh": 8.264462809917356,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47684,7 +47684,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47708,7 +47708,7 @@ window.DATA_DETAIL = [
     "total_co2": 660.0,
     "emission_factor": 904.1095890410959,
     "generation_gco2kwh": 904.1095890410959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47732,7 +47732,7 @@ window.DATA_DETAIL = [
     "total_co2": 238020.0,
     "emission_factor": 699.9558888398765,
     "generation_gco2kwh": 699.9558888398765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47756,7 +47756,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 23.84737678855326,
     "generation_gco2kwh": 23.84737678855326,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47780,7 +47780,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 5.442176870748299,
     "generation_gco2kwh": 5.442176870748299,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47804,7 +47804,7 @@ window.DATA_DETAIL = [
     "total_co2": 17510.0,
     "emission_factor": 658.0232995114619,
     "generation_gco2kwh": 658.0232995114619,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47828,7 +47828,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47852,7 +47852,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.0,
     "generation_gco2kwh": 8.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47876,7 +47876,7 @@ window.DATA_DETAIL = [
     "total_co2": 51820.0,
     "emission_factor": 724.6538945602014,
     "generation_gco2kwh": 724.6538945602014,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47900,7 +47900,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 24.038461538461537,
     "generation_gco2kwh": 24.038461538461537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47924,7 +47924,7 @@ window.DATA_DETAIL = [
     "total_co2": 27020.0,
     "emission_factor": 657.9011443876309,
     "generation_gco2kwh": 657.9011443876309,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47948,7 +47948,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47972,7 +47972,7 @@ window.DATA_DETAIL = [
     "total_co2": 51360.0,
     "emission_factor": 724.7072103852123,
     "generation_gco2kwh": 724.7072103852123,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -47996,7 +47996,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 23.88059701492537,
     "generation_gco2kwh": 23.88059701492537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48020,7 +48020,7 @@ window.DATA_DETAIL = [
     "total_co2": 30180.0,
     "emission_factor": 658.0898386393371,
     "generation_gco2kwh": 658.0898386393371,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48044,7 +48044,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48068,7 +48068,7 @@ window.DATA_DETAIL = [
     "total_co2": 65400.00000000001,
     "emission_factor": 724.7340425531916,
     "generation_gco2kwh": 724.7340425531916,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48092,7 +48092,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.641509433962266,
     "generation_gco2kwh": 22.641509433962266,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48116,7 +48116,7 @@ window.DATA_DETAIL = [
     "total_co2": 26710.0,
     "emission_factor": 658.0438531658043,
     "generation_gco2kwh": 658.0438531658043,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48140,7 +48140,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48164,7 +48164,7 @@ window.DATA_DETAIL = [
     "total_co2": 63350.0,
     "emission_factor": 724.6625486158773,
     "generation_gco2kwh": 724.6625486158773,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48188,7 +48188,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 21.73913043478261,
     "generation_gco2kwh": 21.73913043478261,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48212,7 +48212,7 @@ window.DATA_DETAIL = [
     "total_co2": 40210.0,
     "emission_factor": 657.9937817051219,
     "generation_gco2kwh": 657.9937817051219,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48236,7 +48236,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48260,7 +48260,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 217.39130434782606,
     "generation_gco2kwh": 217.39130434782606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48284,7 +48284,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 955.2238805970148,
     "generation_gco2kwh": 955.2238805970148,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48308,7 +48308,7 @@ window.DATA_DETAIL = [
     "total_co2": 7310.0,
     "emission_factor": 450.12315270935966,
     "generation_gco2kwh": 450.12315270935966,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48332,7 +48332,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 21.50537634408602,
     "generation_gco2kwh": 21.50537634408602,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -48356,7 +48356,7 @@ window.DATA_DETAIL = [
     "total_co2": 1050.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48380,7 +48380,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48404,7 +48404,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 12.121212121212121,
     "generation_gco2kwh": 12.121212121212121,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -48428,7 +48428,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 212.12121212121212,
     "generation_gco2kwh": 212.12121212121212,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48452,7 +48452,7 @@ window.DATA_DETAIL = [
     "total_co2": 2620.0,
     "emission_factor": 963.235294117647,
     "generation_gco2kwh": 963.235294117647,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48476,7 +48476,7 @@ window.DATA_DETAIL = [
     "total_co2": 6820.0,
     "emission_factor": 449.86807387862797,
     "generation_gco2kwh": 449.86807387862797,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48500,7 +48500,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -48524,7 +48524,7 @@ window.DATA_DETAIL = [
     "total_co2": 1380.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48548,7 +48548,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -48572,7 +48572,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 12.269938650306749,
     "generation_gco2kwh": 12.269938650306749,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -49220,7 +49220,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49244,7 +49244,7 @@ window.DATA_DETAIL = [
     "total_co2": 16260.000000000002,
     "emission_factor": 857.5949367088608,
     "generation_gco2kwh": 857.5949367088608,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49268,7 +49268,7 @@ window.DATA_DETAIL = [
     "total_co2": 27730.0,
     "emission_factor": 571.7525773195877,
     "generation_gco2kwh": 571.7525773195877,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49292,7 +49292,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49316,7 +49316,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49340,7 +49340,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 48.1586402266289,
     "generation_gco2kwh": 48.1586402266289,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49364,7 +49364,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49388,7 +49388,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49412,7 +49412,7 @@ window.DATA_DETAIL = [
     "total_co2": 14540.0,
     "emission_factor": 857.8171091445428,
     "generation_gco2kwh": 857.8171091445428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49436,7 +49436,7 @@ window.DATA_DETAIL = [
     "total_co2": 29140.0,
     "emission_factor": 571.8210361067504,
     "generation_gco2kwh": 571.8210361067504,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49460,7 +49460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49484,7 +49484,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 648.6486486486486,
     "generation_gco2kwh": 648.6486486486486,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49508,7 +49508,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 48.14004376367615,
     "generation_gco2kwh": 48.14004376367615,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49532,7 +49532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49556,7 +49556,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49580,7 +49580,7 @@ window.DATA_DETAIL = [
     "total_co2": 14360.0,
     "emission_factor": 857.8255675029869,
     "generation_gco2kwh": 857.8255675029869,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49604,7 +49604,7 @@ window.DATA_DETAIL = [
     "total_co2": 29330.0,
     "emission_factor": 571.7348927875244,
     "generation_gco2kwh": 571.7348927875244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49628,7 +49628,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49652,7 +49652,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49676,7 +49676,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 46.728971962616825,
     "generation_gco2kwh": 46.728971962616825,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49700,7 +49700,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49724,7 +49724,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49748,7 +49748,7 @@ window.DATA_DETAIL = [
     "total_co2": 11260.0,
     "emission_factor": 857.5780654988575,
     "generation_gco2kwh": 857.5780654988575,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49772,7 +49772,7 @@ window.DATA_DETAIL = [
     "total_co2": 30370.0,
     "emission_factor": 571.7243975903615,
     "generation_gco2kwh": 571.7243975903615,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49796,7 +49796,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49820,7 +49820,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 47.34576757532281,
     "generation_gco2kwh": 47.34576757532281,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49844,7 +49844,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 13.513513513513514,
     "generation_gco2kwh": 13.513513513513514,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49916,7 +49916,7 @@ window.DATA_DETAIL = [
     "total_co2": 4240.0,
     "emission_factor": 216.10601427115188,
     "generation_gco2kwh": 216.10601427115188,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -49940,7 +49940,7 @@ window.DATA_DETAIL = [
     "total_co2": 12340.0,
     "emission_factor": 922.2720478325859,
     "generation_gco2kwh": 922.2720478325859,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49964,7 +49964,7 @@ window.DATA_DETAIL = [
     "total_co2": 64730.00000000001,
     "emission_factor": 484.14360508601357,
     "generation_gco2kwh": 484.14360508601357,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -49988,7 +49988,7 @@ window.DATA_DETAIL = [
     "total_co2": 1130.0,
     "emission_factor": 23.764458464773924,
     "generation_gco2kwh": 23.764458464773924,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50012,7 +50012,7 @@ window.DATA_DETAIL = [
     "total_co2": 8440.0,
     "emission_factor": 657.8332034294622,
     "generation_gco2kwh": 657.8332034294622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -50036,7 +50036,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 38.14262023217247,
     "generation_gco2kwh": 38.14262023217247,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50060,7 +50060,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 47.71451483560545,
     "generation_gco2kwh": 47.71451483560545,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50084,7 +50084,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 12.260127931769722,
     "generation_gco2kwh": 12.260127931769722,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50108,7 +50108,7 @@ window.DATA_DETAIL = [
     "total_co2": 4120.0,
     "emission_factor": 216.15949632738722,
     "generation_gco2kwh": 216.15949632738722,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50132,7 +50132,7 @@ window.DATA_DETAIL = [
     "total_co2": 12940.0,
     "emission_factor": 922.9671897289587,
     "generation_gco2kwh": 922.9671897289587,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -50156,7 +50156,7 @@ window.DATA_DETAIL = [
     "total_co2": 69730.0,
     "emission_factor": 484.2024859384765,
     "generation_gco2kwh": 484.2024859384765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -50180,7 +50180,7 @@ window.DATA_DETAIL = [
     "total_co2": 1080.0,
     "emission_factor": 23.793787177792463,
     "generation_gco2kwh": 23.793787177792463,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50204,7 +50204,7 @@ window.DATA_DETAIL = [
     "total_co2": 7320.0,
     "emission_factor": 657.6819407008086,
     "generation_gco2kwh": 657.6819407008086,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -50228,7 +50228,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 37.22504230118443,
     "generation_gco2kwh": 37.22504230118443,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50252,7 +50252,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 47.52396166134186,
     "generation_gco2kwh": 47.52396166134186,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -50276,7 +50276,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 12.422360248447205,
     "generation_gco2kwh": 12.422360248447205,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -51020,7 +51020,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51044,7 +51044,7 @@ window.DATA_DETAIL = [
     "total_co2": 1550.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51068,7 +51068,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51092,7 +51092,7 @@ window.DATA_DETAIL = [
     "total_co2": 800.0,
     "emission_factor": 661.1570247933885,
     "generation_gco2kwh": 661.1570247933885,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51116,7 +51116,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 83.33333333333334,
     "generation_gco2kwh": 83.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51140,7 +51140,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51164,7 +51164,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51188,7 +51188,7 @@ window.DATA_DETAIL = [
     "total_co2": 1590.0,
     "emission_factor": 625.9842519685039,
     "generation_gco2kwh": 625.9842519685039,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51212,7 +51212,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51236,7 +51236,7 @@ window.DATA_DETAIL = [
     "total_co2": 810.0,
     "emission_factor": 658.5365853658536,
     "generation_gco2kwh": 658.5365853658536,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51260,7 +51260,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51284,7 +51284,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51308,7 +51308,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51332,7 +51332,7 @@ window.DATA_DETAIL = [
     "total_co2": 1500.0,
     "emission_factor": 627.6150627615062,
     "generation_gco2kwh": 627.6150627615062,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51356,7 +51356,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51380,7 +51380,7 @@ window.DATA_DETAIL = [
     "total_co2": 1000.0,
     "emission_factor": 657.8947368421052,
     "generation_gco2kwh": 657.8947368421052,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51404,7 +51404,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51428,7 +51428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51500,7 +51500,7 @@ window.DATA_DETAIL = [
     "total_co2": 6570.0,
     "emission_factor": 216.33190648666445,
     "generation_gco2kwh": 216.33190648666445,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51524,7 +51524,7 @@ window.DATA_DETAIL = [
     "total_co2": 281890.0,
     "emission_factor": 828.4790595150624,
     "generation_gco2kwh": 828.4790595150624,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51548,7 +51548,7 @@ window.DATA_DETAIL = [
     "total_co2": 222660.0,
     "emission_factor": 543.8159437280187,
     "generation_gco2kwh": 543.8159437280187,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51572,7 +51572,7 @@ window.DATA_DETAIL = [
     "total_co2": 1860.0,
     "emission_factor": 23.745691306013022,
     "generation_gco2kwh": 23.745691306013022,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51596,7 +51596,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 5.348837209302325,
     "generation_gco2kwh": 5.348837209302325,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51620,7 +51620,7 @@ window.DATA_DETAIL = [
     "total_co2": 16650.0,
     "emission_factor": 657.8427499012248,
     "generation_gco2kwh": 657.8427499012248,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51644,7 +51644,7 @@ window.DATA_DETAIL = [
     "total_co2": 3610.0,
     "emission_factor": 47.550052687038985,
     "generation_gco2kwh": 47.550052687038985,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51668,7 +51668,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 11.890606420927467,
     "generation_gco2kwh": 11.890606420927467,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51692,7 +51692,7 @@ window.DATA_DETAIL = [
     "total_co2": 7520.0,
     "emission_factor": 216.1540672607071,
     "generation_gco2kwh": 216.1540672607071,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -51716,7 +51716,7 @@ window.DATA_DETAIL = [
     "total_co2": 288120.0,
     "emission_factor": 827.3129271234136,
     "generation_gco2kwh": 827.3129271234136,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51740,7 +51740,7 @@ window.DATA_DETAIL = [
     "total_co2": 209790.0,
     "emission_factor": 543.8073513401421,
     "generation_gco2kwh": 543.8073513401421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51764,7 +51764,7 @@ window.DATA_DETAIL = [
     "total_co2": 1890.0,
     "emission_factor": 23.73477332663569,
     "generation_gco2kwh": 23.73477332663569,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51788,7 +51788,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 5.227049983665469,
     "generation_gco2kwh": 5.227049983665469,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51812,7 +51812,7 @@ window.DATA_DETAIL = [
     "total_co2": 20580.0,
     "emission_factor": 658.1387911736489,
     "generation_gco2kwh": 658.1387911736489,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51836,7 +51836,7 @@ window.DATA_DETAIL = [
     "total_co2": 4000.0,
     "emission_factor": 47.51722499406034,
     "generation_gco2kwh": 47.51722499406034,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51860,7 +51860,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 11.530398322851154,
     "generation_gco2kwh": 11.530398322851154,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -51884,7 +51884,7 @@ window.DATA_DETAIL = [
     "total_co2": 8180.0,
     "emission_factor": 216.2305048902987,
     "generation_gco2kwh": 216.2305048902987,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51908,7 +51908,7 @@ window.DATA_DETAIL = [
     "total_co2": 289890.0,
     "emission_factor": 825.9209664092994,
     "generation_gco2kwh": 825.9209664092994,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51932,7 +51932,7 @@ window.DATA_DETAIL = [
     "total_co2": 206020.0,
     "emission_factor": 543.817970647239,
     "generation_gco2kwh": 543.817970647239,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51956,7 +51956,7 @@ window.DATA_DETAIL = [
     "total_co2": 1780.0,
     "emission_factor": 23.774542540403363,
     "generation_gco2kwh": 23.774542540403363,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -51980,7 +51980,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 5.215375700212478,
     "generation_gco2kwh": 5.215375700212478,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52004,7 +52004,7 @@ window.DATA_DETAIL = [
     "total_co2": 30120.0,
     "emission_factor": 657.9292267365662,
     "generation_gco2kwh": 657.9292267365662,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52028,7 +52028,7 @@ window.DATA_DETAIL = [
     "total_co2": 4330.0,
     "emission_factor": 47.54584385637422,
     "generation_gco2kwh": 47.54584385637422,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52052,7 +52052,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 11.67728237791932,
     "generation_gco2kwh": 11.67728237791932,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52076,7 +52076,7 @@ window.DATA_DETAIL = [
     "total_co2": 9080.0,
     "emission_factor": 216.1390145203523,
     "generation_gco2kwh": 216.1390145203523,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52100,7 +52100,7 @@ window.DATA_DETAIL = [
     "total_co2": 269870.0,
     "emission_factor": 825.4672253999327,
     "generation_gco2kwh": 825.4672253999327,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52124,7 +52124,7 @@ window.DATA_DETAIL = [
     "total_co2": 188690.0,
     "emission_factor": 543.8065594558764,
     "generation_gco2kwh": 543.8065594558764,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52148,7 +52148,7 @@ window.DATA_DETAIL = [
     "total_co2": 1770.0,
     "emission_factor": 23.748825976117,
     "generation_gco2kwh": 23.748825976117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52172,7 +52172,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 5.293054479731475,
     "generation_gco2kwh": 5.293054479731475,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52196,7 +52196,7 @@ window.DATA_DETAIL = [
     "total_co2": 21390.0,
     "emission_factor": 658.1538461538462,
     "generation_gco2kwh": 658.1538461538462,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52220,7 +52220,7 @@ window.DATA_DETAIL = [
     "total_co2": 4580.0,
     "emission_factor": 47.53009547530095,
     "generation_gco2kwh": 47.53009547530095,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52244,7 +52244,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 11.044176706827308,
     "generation_gco2kwh": 11.044176706827308,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52268,7 +52268,7 @@ window.DATA_DETAIL = [
     "total_co2": 9820.0,
     "emission_factor": 216.2043152796125,
     "generation_gco2kwh": 216.2043152796125,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52292,7 +52292,7 @@ window.DATA_DETAIL = [
     "total_co2": 270040.0,
     "emission_factor": 825.4822241922171,
     "generation_gco2kwh": 825.4822241922171,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52316,7 +52316,7 @@ window.DATA_DETAIL = [
     "total_co2": 188290.0,
     "emission_factor": 543.81353974122,
     "generation_gco2kwh": 543.81353974122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52340,7 +52340,7 @@ window.DATA_DETAIL = [
     "total_co2": 1890.0,
     "emission_factor": 23.788546255506606,
     "generation_gco2kwh": 23.788546255506606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52364,7 +52364,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 5.181957366623484,
     "generation_gco2kwh": 5.181957366623484,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52388,7 +52388,7 @@ window.DATA_DETAIL = [
     "total_co2": 16450.0,
     "emission_factor": 658.0,
     "generation_gco2kwh": 658.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52412,7 +52412,7 @@ window.DATA_DETAIL = [
     "total_co2": 4600.0,
     "emission_factor": 47.569803516028955,
     "generation_gco2kwh": 47.569803516028955,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52436,7 +52436,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 11.265164644714039,
     "generation_gco2kwh": 11.265164644714039,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52460,7 +52460,7 @@ window.DATA_DETAIL = [
     "total_co2": 11050.0,
     "emission_factor": 692.7899686520376,
     "generation_gco2kwh": 692.7899686520376,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52484,7 +52484,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52508,7 +52508,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 662.6506024096386,
     "generation_gco2kwh": 662.6506024096386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52532,7 +52532,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52556,7 +52556,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 7.246376811594203,
     "generation_gco2kwh": 7.246376811594203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52580,7 +52580,7 @@ window.DATA_DETAIL = [
     "total_co2": 10750.0,
     "emission_factor": 692.6546391752578,
     "generation_gco2kwh": 692.6546391752578,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52604,7 +52604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52628,7 +52628,7 @@ window.DATA_DETAIL = [
     "total_co2": 610.0,
     "emission_factor": 655.9139784946236,
     "generation_gco2kwh": 655.9139784946236,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52652,7 +52652,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 48.6322188449848,
     "generation_gco2kwh": 48.6322188449848,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52676,7 +52676,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 12.5,
     "generation_gco2kwh": 12.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52700,7 +52700,7 @@ window.DATA_DETAIL = [
     "total_co2": 11420.0,
     "emission_factor": 692.540933899333,
     "generation_gco2kwh": 692.540933899333,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52724,7 +52724,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52748,7 +52748,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 662.7906976744187,
     "generation_gco2kwh": 662.7906976744187,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52772,7 +52772,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 46.3768115942029,
     "generation_gco2kwh": 46.3768115942029,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52796,7 +52796,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.428571428571429,
     "generation_gco2kwh": 11.428571428571429,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52868,7 +52868,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52892,7 +52892,7 @@ window.DATA_DETAIL = [
     "total_co2": 67760.0,
     "emission_factor": 921.2780421481986,
     "generation_gco2kwh": 921.2780421481986,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52916,7 +52916,7 @@ window.DATA_DETAIL = [
     "total_co2": 22350.0,
     "emission_factor": 992.892047978676,
     "generation_gco2kwh": 992.892047978676,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52940,7 +52940,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52964,7 +52964,7 @@ window.DATA_DETAIL = [
     "total_co2": 420.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -52988,7 +52988,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53012,7 +53012,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 9.70873786407767,
     "generation_gco2kwh": 9.70873786407767,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53036,7 +53036,7 @@ window.DATA_DETAIL = [
     "total_co2": 68000.0,
     "emission_factor": 921.4092140921409,
     "generation_gco2kwh": 921.4092140921409,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53060,7 +53060,7 @@ window.DATA_DETAIL = [
     "total_co2": 25820.0,
     "emission_factor": 992.6951172625912,
     "generation_gco2kwh": 992.6951172625912,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53084,7 +53084,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.887079261672092,
     "generation_gco2kwh": 23.887079261672092,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53108,7 +53108,7 @@ window.DATA_DETAIL = [
     "total_co2": 1760.0,
     "emission_factor": 656.7164179104477,
     "generation_gco2kwh": 656.7164179104477,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53132,7 +53132,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 49.079754601226995,
     "generation_gco2kwh": 49.079754601226995,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53156,7 +53156,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.428571428571429,
     "generation_gco2kwh": 11.428571428571429,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53180,7 +53180,7 @@ window.DATA_DETAIL = [
     "total_co2": 64989.99999999999,
     "emission_factor": 921.5825297787861,
     "generation_gco2kwh": 921.5825297787861,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53204,7 +53204,7 @@ window.DATA_DETAIL = [
     "total_co2": 28030.0,
     "emission_factor": 992.9153382925965,
     "generation_gco2kwh": 992.9153382925965,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53228,7 +53228,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.91304347826087,
     "generation_gco2kwh": 23.91304347826087,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53252,7 +53252,7 @@ window.DATA_DETAIL = [
     "total_co2": 930.0,
     "emission_factor": 659.5744680851064,
     "generation_gco2kwh": 659.5744680851064,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53276,7 +53276,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 45.19774011299435,
     "generation_gco2kwh": 45.19774011299435,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53300,7 +53300,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 12.987012987012987,
     "generation_gco2kwh": 12.987012987012987,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53324,7 +53324,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53348,7 +53348,7 @@ window.DATA_DETAIL = [
     "total_co2": 60130.0,
     "emission_factor": 921.5325670498084,
     "generation_gco2kwh": 921.5325670498084,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53372,7 +53372,7 @@ window.DATA_DETAIL = [
     "total_co2": 33010.0,
     "emission_factor": 992.781954887218,
     "generation_gco2kwh": 992.781954887218,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53396,7 +53396,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 23.863636363636363,
     "generation_gco2kwh": 23.863636363636363,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53420,7 +53420,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 650.7936507936508,
     "generation_gco2kwh": 650.7936507936508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53444,7 +53444,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 48.1283422459893,
     "generation_gco2kwh": 48.1283422459893,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53468,7 +53468,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 10.582010582010582,
     "generation_gco2kwh": 10.582010582010582,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53492,7 +53492,7 @@ window.DATA_DETAIL = [
     "total_co2": 59010.0,
     "emission_factor": 921.5992503513978,
     "generation_gco2kwh": 921.5992503513978,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53516,7 +53516,7 @@ window.DATA_DETAIL = [
     "total_co2": 34460.0,
     "emission_factor": 992.7974647075771,
     "generation_gco2kwh": 992.7974647075771,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53540,7 +53540,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 24.0,
     "generation_gco2kwh": 24.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53564,7 +53564,7 @@ window.DATA_DETAIL = [
     "total_co2": 1140.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53588,7 +53588,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 48.1283422459893,
     "generation_gco2kwh": 48.1283422459893,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53612,7 +53612,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 10.183299389002036,
     "generation_gco2kwh": 10.183299389002036,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53636,7 +53636,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 227.27272727272728,
     "generation_gco2kwh": 227.27272727272728,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53660,7 +53660,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 23.640661938534276,
     "generation_gco2kwh": 23.640661938534276,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53684,7 +53684,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 653.3333333333334,
     "generation_gco2kwh": 653.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53708,7 +53708,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 37.54940711462451,
     "generation_gco2kwh": 37.54940711462451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53732,7 +53732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53756,7 +53756,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 7.518796992481203,
     "generation_gco2kwh": 7.518796992481203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53780,7 +53780,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53804,7 +53804,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 24.52316076294278,
     "generation_gco2kwh": 24.52316076294278,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53828,7 +53828,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 658.7301587301587,
     "generation_gco2kwh": 658.7301587301587,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53852,7 +53852,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 37.698412698412696,
     "generation_gco2kwh": 37.698412698412696,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53876,7 +53876,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 58.8235294117647,
     "generation_gco2kwh": 58.8235294117647,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53900,7 +53900,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 10.050251256281408,
     "generation_gco2kwh": 10.050251256281408,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53924,7 +53924,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53948,7 +53948,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 23.026315789473685,
     "generation_gco2kwh": 23.026315789473685,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53972,7 +53972,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -53996,7 +53996,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 38.04347826086957,
     "generation_gco2kwh": 38.04347826086957,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54020,7 +54020,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54044,7 +54044,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 9.345794392523365,
     "generation_gco2kwh": 9.345794392523365,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54068,7 +54068,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54092,7 +54092,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.471910112359552,
     "generation_gco2kwh": 22.471910112359552,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54116,7 +54116,7 @@ window.DATA_DETAIL = [
     "total_co2": 860.0,
     "emission_factor": 661.5384615384615,
     "generation_gco2kwh": 661.5384615384615,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54140,7 +54140,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 38.14262023217247,
     "generation_gco2kwh": 38.14262023217247,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54164,7 +54164,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 51.724137931034484,
     "generation_gco2kwh": 51.724137931034484,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -54188,7 +54188,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 9.950248756218906,
     "generation_gco2kwh": 9.950248756218906,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54212,7 +54212,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54236,7 +54236,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 24.930747922437675,
     "generation_gco2kwh": 24.930747922437675,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54260,7 +54260,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54284,7 +54284,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 37.76978417266187,
     "generation_gco2kwh": 37.76978417266187,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54308,7 +54308,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 54.54545454545454,
     "generation_gco2kwh": 54.54545454545454,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -54332,7 +54332,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.049723756906078,
     "generation_gco2kwh": 11.049723756906078,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54356,7 +54356,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54380,7 +54380,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54404,7 +54404,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54428,7 +54428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54452,7 +54452,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54476,7 +54476,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54572,7 +54572,7 @@ window.DATA_DETAIL = [
     "total_co2": 6400.0,
     "emission_factor": 1011.0584518167457,
     "generation_gco2kwh": 1011.0584518167457,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54596,7 +54596,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54620,7 +54620,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54644,7 +54644,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54668,7 +54668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54692,7 +54692,7 @@ window.DATA_DETAIL = [
     "total_co2": 6510.0,
     "emission_factor": 1010.8695652173913,
     "generation_gco2kwh": 1010.8695652173913,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54716,7 +54716,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54740,7 +54740,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54764,7 +54764,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54788,7 +54788,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54812,7 +54812,7 @@ window.DATA_DETAIL = [
     "total_co2": 6510.0,
     "emission_factor": 1010.8695652173913,
     "generation_gco2kwh": 1010.8695652173913,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54836,7 +54836,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54860,7 +54860,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54884,7 +54884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54908,7 +54908,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54932,7 +54932,7 @@ window.DATA_DETAIL = [
     "total_co2": 5590.0,
     "emission_factor": 1010.8499095840867,
     "generation_gco2kwh": 1010.8499095840867,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54956,7 +54956,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 25.64102564102564,
     "generation_gco2kwh": 25.64102564102564,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -54980,7 +54980,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55004,7 +55004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55028,7 +55028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55052,7 +55052,7 @@ window.DATA_DETAIL = [
     "total_co2": 6250.0,
     "emission_factor": 1011.326860841424,
     "generation_gco2kwh": 1011.326860841424,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55076,7 +55076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55100,7 +55100,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55124,7 +55124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55148,7 +55148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55172,7 +55172,7 @@ window.DATA_DETAIL = [
     "total_co2": 25300.0,
     "emission_factor": 644.750254841998,
     "generation_gco2kwh": 644.750254841998,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55196,7 +55196,7 @@ window.DATA_DETAIL = [
     "total_co2": 23230.0,
     "emission_factor": 657.8872840555083,
     "generation_gco2kwh": 657.8872840555083,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55220,7 +55220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55244,7 +55244,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55268,7 +55268,7 @@ window.DATA_DETAIL = [
     "total_co2": 26480.0,
     "emission_factor": 644.5959104186952,
     "generation_gco2kwh": 644.5959104186952,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55292,7 +55292,7 @@ window.DATA_DETAIL = [
     "total_co2": 26000.0,
     "emission_factor": 658.0612503163757,
     "generation_gco2kwh": 658.0612503163757,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55316,7 +55316,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55340,7 +55340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55364,7 +55364,7 @@ window.DATA_DETAIL = [
     "total_co2": 28050.0,
     "emission_factor": 644.6793840496438,
     "generation_gco2kwh": 644.6793840496438,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55388,7 +55388,7 @@ window.DATA_DETAIL = [
     "total_co2": 26240.0,
     "emission_factor": 657.9739217652958,
     "generation_gco2kwh": 657.9739217652958,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55412,7 +55412,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55436,7 +55436,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.627906976744185,
     "generation_gco2kwh": 11.627906976744185,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55460,7 +55460,7 @@ window.DATA_DETAIL = [
     "total_co2": 28090.0,
     "emission_factor": 644.7096626118889,
     "generation_gco2kwh": 644.7096626118889,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55484,7 +55484,7 @@ window.DATA_DETAIL = [
     "total_co2": 26380.0,
     "emission_factor": 658.0194562234971,
     "generation_gco2kwh": 658.0194562234971,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55508,7 +55508,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55532,7 +55532,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.627906976744185,
     "generation_gco2kwh": 11.627906976744185,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55556,7 +55556,7 @@ window.DATA_DETAIL = [
     "total_co2": 28870.0,
     "emission_factor": 644.7074586869138,
     "generation_gco2kwh": 644.7074586869138,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55580,7 +55580,7 @@ window.DATA_DETAIL = [
     "total_co2": 26960.0,
     "emission_factor": 658.0424701000733,
     "generation_gco2kwh": 658.0424701000733,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55604,7 +55604,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55628,7 +55628,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 11.627906976744185,
     "generation_gco2kwh": 11.627906976744185,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55652,7 +55652,7 @@ window.DATA_DETAIL = [
     "total_co2": 1230.0,
     "emission_factor": 953.4883720930233,
     "generation_gco2kwh": 953.4883720930233,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55676,7 +55676,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 375.0,
     "generation_gco2kwh": 375.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55700,7 +55700,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 23.605150214592275,
     "generation_gco2kwh": 23.605150214592275,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55724,7 +55724,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55748,7 +55748,7 @@ window.DATA_DETAIL = [
     "total_co2": 1890.0,
     "emission_factor": 959.3908629441624,
     "generation_gco2kwh": 959.3908629441624,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55772,7 +55772,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 352.94117647058823,
     "generation_gco2kwh": 352.94117647058823,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55796,7 +55796,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 23.919753086419753,
     "generation_gco2kwh": 23.919753086419753,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55820,7 +55820,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55844,7 +55844,7 @@ window.DATA_DETAIL = [
     "total_co2": 1680.0,
     "emission_factor": 954.5454545454545,
     "generation_gco2kwh": 954.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55868,7 +55868,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55892,7 +55892,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 23.52941176470588,
     "generation_gco2kwh": 23.52941176470588,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55916,7 +55916,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55940,7 +55940,7 @@ window.DATA_DETAIL = [
     "total_co2": 1720.0,
     "emission_factor": 955.5555555555555,
     "generation_gco2kwh": 955.5555555555555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55964,7 +55964,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 307.6923076923077,
     "generation_gco2kwh": 307.6923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -55988,7 +55988,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56012,7 +56012,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56036,7 +56036,7 @@ window.DATA_DETAIL = [
     "total_co2": 1630.0,
     "emission_factor": 958.8235294117648,
     "generation_gco2kwh": 958.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56060,7 +56060,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56084,7 +56084,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 23.352793994995828,
     "generation_gco2kwh": 23.352793994995828,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56108,7 +56108,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 645.1612903225806,
     "generation_gco2kwh": 645.1612903225806,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56132,7 +56132,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56156,7 +56156,7 @@ window.DATA_DETAIL = [
     "total_co2": 10420.0,
     "emission_factor": 918.0616740088107,
     "generation_gco2kwh": 918.0616740088107,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56180,7 +56180,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 23.851280252542967,
     "generation_gco2kwh": 23.851280252542967,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56204,7 +56204,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56228,7 +56228,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56252,7 +56252,7 @@ window.DATA_DETAIL = [
     "total_co2": 10900.0,
     "emission_factor": 917.5084175084174,
     "generation_gco2kwh": 917.5084175084174,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56276,7 +56276,7 @@ window.DATA_DETAIL = [
     "total_co2": 780.0,
     "emission_factor": 23.708206686930094,
     "generation_gco2kwh": 23.708206686930094,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56300,7 +56300,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56324,7 +56324,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56348,7 +56348,7 @@ window.DATA_DETAIL = [
     "total_co2": 11180.0,
     "emission_factor": 917.8981937602628,
     "generation_gco2kwh": 917.8981937602628,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56372,7 +56372,7 @@ window.DATA_DETAIL = [
     "total_co2": 920.0,
     "emission_factor": 23.74806401652039,
     "generation_gco2kwh": 23.74806401652039,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -56396,7 +56396,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56420,7 +56420,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56444,7 +56444,7 @@ window.DATA_DETAIL = [
     "total_co2": 11180.0,
     "emission_factor": 917.8981937602628,
     "generation_gco2kwh": 917.8981937602628,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56468,7 +56468,7 @@ window.DATA_DETAIL = [
     "total_co2": 950.0,
     "emission_factor": 23.75,
     "generation_gco2kwh": 23.75,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -56492,7 +56492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56540,7 +56540,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 220.93023255813955,
     "generation_gco2kwh": 220.93023255813955,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -56564,7 +56564,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 365.38461538461536,
     "generation_gco2kwh": 365.38461538461536,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56588,7 +56588,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 23.076923076923077,
     "generation_gco2kwh": 23.076923076923077,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -56612,7 +56612,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -56636,7 +56636,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 220.93023255813955,
     "generation_gco2kwh": 220.93023255813955,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -56684,7 +56684,7 @@ window.DATA_DETAIL = [
     "total_co2": 780.0,
     "emission_factor": 366.19718309859155,
     "generation_gco2kwh": 366.19718309859155,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -56708,7 +56708,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.14022140221402,
     "generation_gco2kwh": 22.14022140221402,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -56732,7 +56732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -56756,7 +56756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -57500,7 +57500,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57524,7 +57524,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.047619047619047,
     "generation_gco2kwh": 19.047619047619047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57548,7 +57548,7 @@ window.DATA_DETAIL = [
     "total_co2": 11200.0,
     "emission_factor": 658.0493537015276,
     "generation_gco2kwh": 658.0493537015276,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57572,7 +57572,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57596,7 +57596,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57620,7 +57620,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57644,7 +57644,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.39344262295082,
     "generation_gco2kwh": 16.39344262295082,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57668,7 +57668,7 @@ window.DATA_DETAIL = [
     "total_co2": 6170.0,
     "emission_factor": 657.7825159914712,
     "generation_gco2kwh": 657.7825159914712,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57692,7 +57692,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57716,7 +57716,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57740,7 +57740,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57764,7 +57764,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 28.985507246376812,
     "generation_gco2kwh": 28.985507246376812,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57788,7 +57788,7 @@ window.DATA_DETAIL = [
     "total_co2": 1570.0,
     "emission_factor": 659.6638655462185,
     "generation_gco2kwh": 659.6638655462185,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57812,7 +57812,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57836,7 +57836,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57860,7 +57860,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57884,7 +57884,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 28.571428571428573,
     "generation_gco2kwh": 28.571428571428573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57908,7 +57908,7 @@ window.DATA_DETAIL = [
     "total_co2": 1570.0,
     "emission_factor": 659.6638655462185,
     "generation_gco2kwh": 659.6638655462185,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57932,7 +57932,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -57956,7 +57956,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58004,7 +58004,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58028,7 +58028,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 18.867924528301884,
     "generation_gco2kwh": 18.867924528301884,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58052,7 +58052,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.833333333333336,
     "generation_gco2kwh": 20.833333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58076,7 +58076,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58100,7 +58100,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58124,7 +58124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58148,7 +58148,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 640.0,
     "generation_gco2kwh": 640.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58172,7 +58172,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58196,7 +58196,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58220,7 +58220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58244,7 +58244,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58268,7 +58268,7 @@ window.DATA_DETAIL = [
     "total_co2": 19140.0,
     "emission_factor": 884.8821081830791,
     "generation_gco2kwh": 884.8821081830791,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58292,7 +58292,7 @@ window.DATA_DETAIL = [
     "total_co2": 5170.0,
     "emission_factor": 657.7608142493639,
     "generation_gco2kwh": 657.7608142493639,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58316,7 +58316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58340,7 +58340,7 @@ window.DATA_DETAIL = [
     "total_co2": 23550.0,
     "emission_factor": 885.0056369785794,
     "generation_gco2kwh": 885.0056369785794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58364,7 +58364,7 @@ window.DATA_DETAIL = [
     "total_co2": 5380.0,
     "emission_factor": 658.5067319461444,
     "generation_gco2kwh": 658.5067319461444,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58388,7 +58388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58412,7 +58412,7 @@ window.DATA_DETAIL = [
     "total_co2": 23630.0,
     "emission_factor": 885.0187265917604,
     "generation_gco2kwh": 885.0187265917604,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58436,7 +58436,7 @@ window.DATA_DETAIL = [
     "total_co2": 5530.0,
     "emission_factor": 658.3333333333333,
     "generation_gco2kwh": 658.3333333333333,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58460,7 +58460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58484,7 +58484,7 @@ window.DATA_DETAIL = [
     "total_co2": 23630.0,
     "emission_factor": 885.0187265917604,
     "generation_gco2kwh": 885.0187265917604,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58508,7 +58508,7 @@ window.DATA_DETAIL = [
     "total_co2": 5530.0,
     "emission_factor": 658.3333333333333,
     "generation_gco2kwh": 658.3333333333333,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58532,7 +58532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58556,7 +58556,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 220.33898305084747,
     "generation_gco2kwh": 220.33898305084747,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58580,7 +58580,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 376.47058823529414,
     "generation_gco2kwh": 376.47058823529414,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58604,7 +58604,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58628,7 +58628,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 651.1627906976744,
     "generation_gco2kwh": 651.1627906976744,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58652,7 +58652,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58676,7 +58676,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 12.903225806451612,
     "generation_gco2kwh": 12.903225806451612,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58700,7 +58700,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 217.3913043478261,
     "generation_gco2kwh": 217.3913043478261,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -58724,7 +58724,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 377.04918032786884,
     "generation_gco2kwh": 377.04918032786884,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58748,7 +58748,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 26.31578947368421,
     "generation_gco2kwh": 26.31578947368421,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -58772,7 +58772,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 652.1739130434783,
     "generation_gco2kwh": 652.1739130434783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58796,7 +58796,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -58820,7 +58820,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 14.705882352941176,
     "generation_gco2kwh": 14.705882352941176,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59564,7 +59564,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 216.21621621621622,
     "generation_gco2kwh": 216.21621621621622,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59588,7 +59588,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -59612,7 +59612,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59636,7 +59636,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -59660,7 +59660,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59684,7 +59684,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59708,7 +59708,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 205.1282051282051,
     "generation_gco2kwh": 205.1282051282051,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59732,7 +59732,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 352.94117647058823,
     "generation_gco2kwh": 352.94117647058823,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -59756,7 +59756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59780,7 +59780,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -59804,7 +59804,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -59828,7 +59828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -60572,7 +60572,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60596,7 +60596,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 571.4285714285714,
     "generation_gco2kwh": 571.4285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60620,7 +60620,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 687.5,
     "generation_gco2kwh": 687.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60644,7 +60644,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60668,7 +60668,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60692,7 +60692,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60716,7 +60716,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60740,7 +60740,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60764,7 +60764,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60788,7 +60788,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60812,7 +60812,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 857.1428571428572,
     "generation_gco2kwh": 857.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60836,7 +60836,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60860,7 +60860,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 654.2056074766355,
     "generation_gco2kwh": 654.2056074766355,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60884,7 +60884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60908,7 +60908,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60932,7 +60932,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 851.0638297872341,
     "generation_gco2kwh": 851.0638297872341,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60956,7 +60956,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 25.974025974025974,
     "generation_gco2kwh": 25.974025974025974,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -60980,7 +60980,7 @@ window.DATA_DETAIL = [
     "total_co2": 800.0,
     "emission_factor": 655.7377049180328,
     "generation_gco2kwh": 655.7377049180328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61004,7 +61004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61028,7 +61028,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61052,7 +61052,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 862.7450980392157,
     "generation_gco2kwh": 862.7450980392157,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61076,7 +61076,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61100,7 +61100,7 @@ window.DATA_DETAIL = [
     "total_co2": 790.0,
     "emission_factor": 658.3333333333334,
     "generation_gco2kwh": 658.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61124,7 +61124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61148,7 +61148,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61172,7 +61172,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61196,7 +61196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61220,7 +61220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61244,7 +61244,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61268,7 +61268,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 23.668639053254438,
     "generation_gco2kwh": 23.668639053254438,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61292,7 +61292,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61316,7 +61316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61340,7 +61340,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61364,7 +61364,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 23.668639053254438,
     "generation_gco2kwh": 23.668639053254438,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61388,7 +61388,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61412,7 +61412,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61436,7 +61436,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61460,7 +61460,7 @@ window.DATA_DETAIL = [
     "total_co2": 74770.0,
     "emission_factor": 841.2466246624663,
     "generation_gco2kwh": 841.2466246624663,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61484,7 +61484,7 @@ window.DATA_DETAIL = [
     "total_co2": 33920.0,
     "emission_factor": 631.7750046563606,
     "generation_gco2kwh": 631.7750046563606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61508,7 +61508,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61532,7 +61532,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 658.8235294117648,
     "generation_gco2kwh": 658.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61556,7 +61556,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 48.543689320388346,
     "generation_gco2kwh": 48.543689320388346,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61580,7 +61580,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61604,7 +61604,7 @@ window.DATA_DETAIL = [
     "total_co2": 66770.0,
     "emission_factor": 841.1438649533889,
     "generation_gco2kwh": 841.1438649533889,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61628,7 +61628,7 @@ window.DATA_DETAIL = [
     "total_co2": 38510.0,
     "emission_factor": 631.7257217847769,
     "generation_gco2kwh": 631.7257217847769,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61652,7 +61652,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 23.841059602649008,
     "generation_gco2kwh": 23.841059602649008,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61676,7 +61676,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 657.8947368421053,
     "generation_gco2kwh": 657.8947368421053,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61700,7 +61700,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 47.82608695652174,
     "generation_gco2kwh": 47.82608695652174,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61724,7 +61724,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61748,7 +61748,7 @@ window.DATA_DETAIL = [
     "total_co2": 65430.00000000001,
     "emission_factor": 841.2188223193624,
     "generation_gco2kwh": 841.2188223193624,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61772,7 +61772,7 @@ window.DATA_DETAIL = [
     "total_co2": 43250.0,
     "emission_factor": 631.8480642804967,
     "generation_gco2kwh": 631.8480642804967,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61796,7 +61796,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 23.914411579609816,
     "generation_gco2kwh": 23.914411579609816,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61820,7 +61820,7 @@ window.DATA_DETAIL = [
     "total_co2": 1080.0,
     "emission_factor": 658.5365853658537,
     "generation_gco2kwh": 658.5365853658537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61844,7 +61844,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 47.27272727272727,
     "generation_gco2kwh": 47.27272727272727,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61868,7 +61868,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61892,7 +61892,7 @@ window.DATA_DETAIL = [
     "total_co2": 68470.0,
     "emission_factor": 841.154791154791,
     "generation_gco2kwh": 841.154791154791,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61916,7 +61916,7 @@ window.DATA_DETAIL = [
     "total_co2": 43740.0,
     "emission_factor": 631.8070200780008,
     "generation_gco2kwh": 631.8070200780008,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61940,7 +61940,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 23.80196762932402,
     "generation_gco2kwh": 23.80196762932402,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61964,7 +61964,7 @@ window.DATA_DETAIL = [
     "total_co2": 780.0,
     "emission_factor": 655.4621848739496,
     "generation_gco2kwh": 655.4621848739496,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -61988,7 +61988,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 46.29629629629629,
     "generation_gco2kwh": 46.29629629629629,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62012,7 +62012,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 217.687074829932,
     "generation_gco2kwh": 217.687074829932,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62036,7 +62036,7 @@ window.DATA_DETAIL = [
     "total_co2": 71780.0,
     "emission_factor": 841.2047345599437,
     "generation_gco2kwh": 841.2047345599437,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62060,7 +62060,7 @@ window.DATA_DETAIL = [
     "total_co2": 45940.0,
     "emission_factor": 631.8250584513822,
     "generation_gco2kwh": 631.8250584513822,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62084,7 +62084,7 @@ window.DATA_DETAIL = [
     "total_co2": 790.0,
     "emission_factor": 23.645615085303803,
     "generation_gco2kwh": 23.645615085303803,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62108,7 +62108,7 @@ window.DATA_DETAIL = [
     "total_co2": 780.0,
     "emission_factor": 661.0169491525425,
     "generation_gco2kwh": 661.0169491525425,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62132,7 +62132,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 48.543689320388346,
     "generation_gco2kwh": 48.543689320388346,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62156,7 +62156,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62180,7 +62180,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62204,7 +62204,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62228,7 +62228,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62252,7 +62252,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62276,7 +62276,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62300,7 +62300,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62324,7 +62324,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62348,7 +62348,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62372,7 +62372,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 20.833333333333336,
     "generation_gco2kwh": 20.833333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62396,7 +62396,7 @@ window.DATA_DETAIL = [
     "total_co2": 1530.0,
     "emission_factor": 656.6523605150214,
     "generation_gco2kwh": 656.6523605150214,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62420,7 +62420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62444,7 +62444,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62468,7 +62468,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 22.55639097744361,
     "generation_gco2kwh": 22.55639097744361,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62492,7 +62492,7 @@ window.DATA_DETAIL = [
     "total_co2": 1580.0,
     "emission_factor": 658.3333333333334,
     "generation_gco2kwh": 658.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62516,7 +62516,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62540,7 +62540,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62564,7 +62564,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62588,7 +62588,7 @@ window.DATA_DETAIL = [
     "total_co2": 1630.0,
     "emission_factor": 657.258064516129,
     "generation_gco2kwh": 657.258064516129,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62612,7 +62612,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62636,7 +62636,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62660,7 +62660,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62684,7 +62684,7 @@ window.DATA_DETAIL = [
     "total_co2": 1650.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62708,7 +62708,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62732,7 +62732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62756,7 +62756,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 565.2173913043478,
     "generation_gco2kwh": 565.2173913043478,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62780,7 +62780,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62804,7 +62804,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62828,7 +62828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62852,7 +62852,7 @@ window.DATA_DETAIL = [
     "total_co2": 1080.0,
     "emission_factor": 565.4450261780105,
     "generation_gco2kwh": 565.4450261780105,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62876,7 +62876,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -62900,7 +62900,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63620,7 +63620,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 227.27272727272728,
     "generation_gco2kwh": 227.27272727272728,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63644,7 +63644,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63668,7 +63668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63692,7 +63692,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63716,7 +63716,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 217.39130434782606,
     "generation_gco2kwh": 217.39130434782606,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63740,7 +63740,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 654.8672566371682,
     "generation_gco2kwh": 654.8672566371682,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63764,7 +63764,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63788,7 +63788,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63812,7 +63812,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63836,7 +63836,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63860,7 +63860,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 654.5454545454545,
     "generation_gco2kwh": 654.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63884,7 +63884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63908,7 +63908,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63932,7 +63932,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63956,7 +63956,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -63980,7 +63980,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64004,7 +64004,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64028,7 +64028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64052,7 +64052,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64076,7 +64076,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 654.8672566371682,
     "generation_gco2kwh": 654.8672566371682,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64100,7 +64100,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64124,7 +64124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64148,7 +64148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64172,7 +64172,7 @@ window.DATA_DETAIL = [
     "total_co2": 780.0,
     "emission_factor": 655.4621848739496,
     "generation_gco2kwh": 655.4621848739496,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64196,7 +64196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64220,7 +64220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64268,7 +64268,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64292,7 +64292,7 @@ window.DATA_DETAIL = [
     "total_co2": 980.0,
     "emission_factor": 859.6491228070176,
     "generation_gco2kwh": 859.6491228070176,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64316,7 +64316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64340,7 +64340,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64364,7 +64364,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64388,7 +64388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64412,7 +64412,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 216.21621621621622,
     "generation_gco2kwh": 216.21621621621622,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64436,7 +64436,7 @@ window.DATA_DETAIL = [
     "total_co2": 1070.0,
     "emission_factor": 856.0,
     "generation_gco2kwh": 856.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64460,7 +64460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64484,7 +64484,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 654.5454545454545,
     "generation_gco2kwh": 654.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64508,7 +64508,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64532,7 +64532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64556,7 +64556,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64580,7 +64580,7 @@ window.DATA_DETAIL = [
     "total_co2": 840.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64604,7 +64604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64628,7 +64628,7 @@ window.DATA_DETAIL = [
     "total_co2": 1010.0,
     "emission_factor": 660.1307189542483,
     "generation_gco2kwh": 660.1307189542483,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64652,7 +64652,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64676,7 +64676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64700,7 +64700,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 218.75,
     "generation_gco2kwh": 218.75,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64724,7 +64724,7 @@ window.DATA_DETAIL = [
     "total_co2": 940.0,
     "emission_factor": 854.5454545454545,
     "generation_gco2kwh": 854.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64748,7 +64748,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64772,7 +64772,7 @@ window.DATA_DETAIL = [
     "total_co2": 1050.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64796,7 +64796,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64820,7 +64820,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64892,7 +64892,7 @@ window.DATA_DETAIL = [
     "total_co2": 1520.0,
     "emission_factor": 216.8330955777461,
     "generation_gco2kwh": 216.8330955777461,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64916,7 +64916,7 @@ window.DATA_DETAIL = [
     "total_co2": 13220.0,
     "emission_factor": 864.0522875816993,
     "generation_gco2kwh": 864.0522875816993,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64940,7 +64940,7 @@ window.DATA_DETAIL = [
     "total_co2": 127770.0,
     "emission_factor": 610.5801395393291,
     "generation_gco2kwh": 610.5801395393291,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64964,7 +64964,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 23.862788963460105,
     "generation_gco2kwh": 23.862788963460105,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -64988,7 +64988,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.47227191413238,
     "generation_gco2kwh": 4.47227191413238,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65012,7 +65012,7 @@ window.DATA_DETAIL = [
     "total_co2": 13570.0,
     "emission_factor": 658.0989330746847,
     "generation_gco2kwh": 658.0989330746847,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65036,7 +65036,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 47.34848484848485,
     "generation_gco2kwh": 47.34848484848485,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65060,7 +65060,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 7.614213197969543,
     "generation_gco2kwh": 7.614213197969543,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65084,7 +65084,7 @@ window.DATA_DETAIL = [
     "total_co2": 1320.0,
     "emission_factor": 216.0392798690671,
     "generation_gco2kwh": 216.0392798690671,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65108,7 +65108,7 @@ window.DATA_DETAIL = [
     "total_co2": 6380.0,
     "emission_factor": 864.4986449864499,
     "generation_gco2kwh": 864.4986449864499,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65132,7 +65132,7 @@ window.DATA_DETAIL = [
     "total_co2": 119510.0,
     "emission_factor": 610.5860113421551,
     "generation_gco2kwh": 610.5860113421551,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65156,7 +65156,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 23.617511520737327,
     "generation_gco2kwh": 23.617511520737327,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65180,7 +65180,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 5.033557046979865,
     "generation_gco2kwh": 5.033557046979865,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65204,7 +65204,7 @@ window.DATA_DETAIL = [
     "total_co2": 20710.0,
     "emission_factor": 658.0870670479823,
     "generation_gco2kwh": 658.0870670479823,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65252,7 +65252,7 @@ window.DATA_DETAIL = [
     "total_co2": 960.0,
     "emission_factor": 47.5482912332838,
     "generation_gco2kwh": 47.5482912332838,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65276,7 +65276,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 7.593735168485999,
     "generation_gco2kwh": 7.593735168485999,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65300,7 +65300,7 @@ window.DATA_DETAIL = [
     "total_co2": 1450.0,
     "emission_factor": 216.4179104477612,
     "generation_gco2kwh": 216.4179104477612,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65324,7 +65324,7 @@ window.DATA_DETAIL = [
     "total_co2": 8970.0,
     "emission_factor": 864.1618497109826,
     "generation_gco2kwh": 864.1618497109826,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65348,7 +65348,7 @@ window.DATA_DETAIL = [
     "total_co2": 124050.0,
     "emission_factor": 610.6024808033078,
     "generation_gco2kwh": 610.6024808033078,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65372,7 +65372,7 @@ window.DATA_DETAIL = [
     "total_co2": 840.0,
     "emission_factor": 23.622047244094485,
     "generation_gco2kwh": 23.622047244094485,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65396,7 +65396,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.6082949308755765,
     "generation_gco2kwh": 4.6082949308755765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65420,7 +65420,7 @@ window.DATA_DETAIL = [
     "total_co2": 21470.0,
     "emission_factor": 657.983450812136,
     "generation_gco2kwh": 657.983450812136,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65468,7 +65468,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 47.68928220255654,
     "generation_gco2kwh": 47.68928220255654,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65492,7 +65492,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 7.793472966390647,
     "generation_gco2kwh": 7.793472966390647,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65516,7 +65516,7 @@ window.DATA_DETAIL = [
     "total_co2": 1430.0,
     "emission_factor": 215.68627450980392,
     "generation_gco2kwh": 215.68627450980392,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65540,7 +65540,7 @@ window.DATA_DETAIL = [
     "total_co2": 11690.0,
     "emission_factor": 864.0059127864006,
     "generation_gco2kwh": 864.0059127864006,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65564,7 +65564,7 @@ window.DATA_DETAIL = [
     "total_co2": 133860.0,
     "emission_factor": 610.5637657361794,
     "generation_gco2kwh": 610.5637657361794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65588,7 +65588,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 23.774866569626397,
     "generation_gco2kwh": 23.774866569626397,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65612,7 +65612,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 4.842615012106537,
     "generation_gco2kwh": 4.842615012106537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65636,7 +65636,7 @@ window.DATA_DETAIL = [
     "total_co2": 23200.0,
     "emission_factor": 657.9693703913783,
     "generation_gco2kwh": 657.9693703913783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65684,7 +65684,7 @@ window.DATA_DETAIL = [
     "total_co2": 1110.0,
     "emission_factor": 47.55784061696658,
     "generation_gco2kwh": 47.55784061696658,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65708,7 +65708,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 7.729468599033817,
     "generation_gco2kwh": 7.729468599033817,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65732,7 +65732,7 @@ window.DATA_DETAIL = [
     "total_co2": 1300.0,
     "emission_factor": 217.02838063439063,
     "generation_gco2kwh": 217.02838063439063,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65756,7 +65756,7 @@ window.DATA_DETAIL = [
     "total_co2": 10710.0,
     "emission_factor": 864.4067796610169,
     "generation_gco2kwh": 864.4067796610169,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65780,7 +65780,7 @@ window.DATA_DETAIL = [
     "total_co2": 135350.0,
     "emission_factor": 610.5923219199711,
     "generation_gco2kwh": 610.5923219199711,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65804,7 +65804,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 23.789294817332202,
     "generation_gco2kwh": 23.789294817332202,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65828,7 +65828,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 4.8740861088545895,
     "generation_gco2kwh": 4.8740861088545895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65852,7 +65852,7 @@ window.DATA_DETAIL = [
     "total_co2": 22250.0,
     "emission_factor": 658.0893226855959,
     "generation_gco2kwh": 658.0893226855959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65900,7 +65900,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 47.43390357698289,
     "generation_gco2kwh": 47.43390357698289,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65924,7 +65924,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 7.594936708860759,
     "generation_gco2kwh": 7.594936708860759,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65948,7 +65948,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65972,7 +65972,7 @@ window.DATA_DETAIL = [
     "total_co2": 4140.0,
     "emission_factor": 711.340206185567,
     "generation_gco2kwh": 711.340206185567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -65996,7 +65996,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 35.71428571428571,
     "generation_gco2kwh": 35.71428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66020,7 +66020,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66044,7 +66044,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66068,7 +66068,7 @@ window.DATA_DETAIL = [
     "total_co2": 4400.0,
     "emission_factor": 711.9741100323625,
     "generation_gco2kwh": 711.9741100323625,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66092,7 +66092,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 31.25,
     "generation_gco2kwh": 31.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66116,7 +66116,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66140,7 +66140,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66164,7 +66164,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66188,7 +66188,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66212,7 +66212,7 @@ window.DATA_DETAIL = [
     "total_co2": 3300.0,
     "emission_factor": 712.7429805615551,
     "generation_gco2kwh": 712.7429805615551,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66236,7 +66236,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 34.48275862068966,
     "generation_gco2kwh": 34.48275862068966,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66260,7 +66260,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 684.2105263157895,
     "generation_gco2kwh": 684.2105263157895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66284,7 +66284,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66308,7 +66308,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66332,7 +66332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66356,7 +66356,7 @@ window.DATA_DETAIL = [
     "total_co2": 2950.0,
     "emission_factor": 712.56038647343,
     "generation_gco2kwh": 712.56038647343,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66380,7 +66380,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 31.25,
     "generation_gco2kwh": 31.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66404,7 +66404,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66428,7 +66428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66452,7 +66452,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66476,7 +66476,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66500,7 +66500,7 @@ window.DATA_DETAIL = [
     "total_co2": 3060.0,
     "emission_factor": 711.6279069767443,
     "generation_gco2kwh": 711.6279069767443,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66524,7 +66524,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66548,7 +66548,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66572,7 +66572,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66596,7 +66596,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66620,7 +66620,7 @@ window.DATA_DETAIL = [
     "total_co2": 4910.0,
     "emission_factor": 875.2228163992869,
     "generation_gco2kwh": 875.2228163992869,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66644,7 +66644,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66668,7 +66668,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66692,7 +66692,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 83.33333333333334,
     "generation_gco2kwh": 83.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66716,7 +66716,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 20.833333333333336,
     "generation_gco2kwh": 20.833333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66740,7 +66740,7 @@ window.DATA_DETAIL = [
     "total_co2": 5490.0,
     "emission_factor": 875.598086124402,
     "generation_gco2kwh": 875.598086124402,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66764,7 +66764,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66788,7 +66788,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66812,7 +66812,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 58.8235294117647,
     "generation_gco2kwh": 58.8235294117647,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66836,7 +66836,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.24137931034483,
     "generation_gco2kwh": 17.24137931034483,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66860,7 +66860,7 @@ window.DATA_DETAIL = [
     "total_co2": 5820.0,
     "emission_factor": 875.187969924812,
     "generation_gco2kwh": 875.187969924812,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66884,7 +66884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66908,7 +66908,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66932,7 +66932,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -66956,7 +66956,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 19.607843137254903,
     "generation_gco2kwh": 19.607843137254903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -66980,7 +66980,7 @@ window.DATA_DETAIL = [
     "total_co2": 5960.0,
     "emission_factor": 876.4705882352941,
     "generation_gco2kwh": 876.4705882352941,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67004,7 +67004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67028,7 +67028,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67052,7 +67052,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -67076,7 +67076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 19.607843137254903,
     "generation_gco2kwh": 19.607843137254903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67100,7 +67100,7 @@ window.DATA_DETAIL = [
     "total_co2": 6320.0,
     "emission_factor": 875.3462603878116,
     "generation_gco2kwh": 875.3462603878116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67124,7 +67124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67148,7 +67148,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67172,7 +67172,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -67196,7 +67196,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.857142857142854,
     "generation_gco2kwh": 17.857142857142854,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67220,7 +67220,7 @@ window.DATA_DETAIL = [
     "total_co2": 1650.0,
     "emission_factor": 1018.5185185185185,
     "generation_gco2kwh": 1018.5185185185185,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67244,7 +67244,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 20.689655172413794,
     "generation_gco2kwh": 20.689655172413794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67268,7 +67268,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67292,7 +67292,7 @@ window.DATA_DETAIL = [
     "total_co2": 1460.0,
     "emission_factor": 1013.8888888888889,
     "generation_gco2kwh": 1013.8888888888889,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67316,7 +67316,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 24.875621890547265,
     "generation_gco2kwh": 24.875621890547265,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67340,7 +67340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67820,7 +67820,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67844,7 +67844,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67868,7 +67868,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67892,7 +67892,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67916,7 +67916,7 @@ window.DATA_DETAIL = [
     "total_co2": 22690.0,
     "emission_factor": 833.8846012495405,
     "generation_gco2kwh": 833.8846012495405,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67940,7 +67940,7 @@ window.DATA_DETAIL = [
     "total_co2": 1760.0,
     "emission_factor": 508.67052023121386,
     "generation_gco2kwh": 508.67052023121386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67964,7 +67964,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -67988,7 +67988,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 652.1739130434784,
     "generation_gco2kwh": 652.1739130434784,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68012,7 +68012,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 46.05263157894737,
     "generation_gco2kwh": 46.05263157894737,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68036,7 +68036,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 8.714596949891067,
     "generation_gco2kwh": 8.714596949891067,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68060,7 +68060,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68084,7 +68084,7 @@ window.DATA_DETAIL = [
     "total_co2": 23580.0,
     "emission_factor": 833.8048090523338,
     "generation_gco2kwh": 833.8048090523338,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68108,7 +68108,7 @@ window.DATA_DETAIL = [
     "total_co2": 1760.0,
     "emission_factor": 508.67052023121386,
     "generation_gco2kwh": 508.67052023121386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68132,7 +68132,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 24.793388429752067,
     "generation_gco2kwh": 24.793388429752067,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68156,7 +68156,7 @@ window.DATA_DETAIL = [
     "total_co2": 910.0,
     "emission_factor": 659.4202898550725,
     "generation_gco2kwh": 659.4202898550725,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68180,7 +68180,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 49.450549450549445,
     "generation_gco2kwh": 49.450549450549445,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68204,7 +68204,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 9.784735812133071,
     "generation_gco2kwh": 9.784735812133071,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68228,7 +68228,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68252,7 +68252,7 @@ window.DATA_DETAIL = [
     "total_co2": 24180.0,
     "emission_factor": 833.7931034482758,
     "generation_gco2kwh": 833.7931034482758,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68276,7 +68276,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 507.24637681159425,
     "generation_gco2kwh": 507.24637681159425,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68300,7 +68300,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 29.41176470588235,
     "generation_gco2kwh": 29.41176470588235,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68324,7 +68324,7 @@ window.DATA_DETAIL = [
     "total_co2": 2760.0,
     "emission_factor": 658.7112171837708,
     "generation_gco2kwh": 658.7112171837708,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68348,7 +68348,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 48.275862068965516,
     "generation_gco2kwh": 48.275862068965516,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68372,7 +68372,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 9.328358208955223,
     "generation_gco2kwh": 9.328358208955223,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68396,7 +68396,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68420,7 +68420,7 @@ window.DATA_DETAIL = [
     "total_co2": 22640.0,
     "emission_factor": 833.8858195211786,
     "generation_gco2kwh": 833.8858195211786,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68444,7 +68444,7 @@ window.DATA_DETAIL = [
     "total_co2": 2170.0,
     "emission_factor": 509.3896713615024,
     "generation_gco2kwh": 509.3896713615024,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68468,7 +68468,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 19.23076923076923,
     "generation_gco2kwh": 19.23076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68492,7 +68492,7 @@ window.DATA_DETAIL = [
     "total_co2": 1200.0,
     "emission_factor": 655.7377049180327,
     "generation_gco2kwh": 655.7377049180327,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68516,7 +68516,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 47.39336492890995,
     "generation_gco2kwh": 47.39336492890995,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68540,7 +68540,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 9.160305343511451,
     "generation_gco2kwh": 9.160305343511451,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68564,7 +68564,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68588,7 +68588,7 @@ window.DATA_DETAIL = [
     "total_co2": 21690.0,
     "emission_factor": 833.910034602076,
     "generation_gco2kwh": 833.910034602076,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68612,7 +68612,7 @@ window.DATA_DETAIL = [
     "total_co2": 2250.0,
     "emission_factor": 509.04977375565613,
     "generation_gco2kwh": 509.04977375565613,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68636,7 +68636,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 29.850746268656714,
     "generation_gco2kwh": 29.850746268656714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68660,7 +68660,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 657.4585635359116,
     "generation_gco2kwh": 657.4585635359116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68684,7 +68684,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 50.31446540880503,
     "generation_gco2kwh": 50.31446540880503,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68708,7 +68708,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 9.667024704618688,
     "generation_gco2kwh": 9.667024704618688,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68732,7 +68732,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68756,7 +68756,7 @@ window.DATA_DETAIL = [
     "total_co2": 1960.0,
     "emission_factor": 653.3333333333334,
     "generation_gco2kwh": 653.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68780,7 +68780,7 @@ window.DATA_DETAIL = [
     "total_co2": 370.0,
     "emission_factor": 23.566878980891723,
     "generation_gco2kwh": 23.566878980891723,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68804,7 +68804,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68828,7 +68828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68852,7 +68852,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68876,7 +68876,7 @@ window.DATA_DETAIL = [
     "total_co2": 1980.0,
     "emission_factor": 651.3157894736842,
     "generation_gco2kwh": 651.3157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68900,7 +68900,7 @@ window.DATA_DETAIL = [
     "total_co2": 370.0,
     "emission_factor": 23.91725921137686,
     "generation_gco2kwh": 23.91725921137686,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68924,7 +68924,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68948,7 +68948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68972,7 +68972,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -68996,7 +68996,7 @@ window.DATA_DETAIL = [
     "total_co2": 2000.0,
     "emission_factor": 653.59477124183,
     "generation_gco2kwh": 653.59477124183,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69020,7 +69020,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 23.500309214594928,
     "generation_gco2kwh": 23.500309214594928,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69044,7 +69044,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69068,7 +69068,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69092,7 +69092,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69116,7 +69116,7 @@ window.DATA_DETAIL = [
     "total_co2": 2000.0,
     "emission_factor": 653.59477124183,
     "generation_gco2kwh": 653.59477124183,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69140,7 +69140,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 23.500309214594928,
     "generation_gco2kwh": 23.500309214594928,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69164,7 +69164,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69188,7 +69188,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69212,7 +69212,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69236,7 +69236,7 @@ window.DATA_DETAIL = [
     "total_co2": 2120.0,
     "emission_factor": 861.7886178861788,
     "generation_gco2kwh": 861.7886178861788,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69260,7 +69260,7 @@ window.DATA_DETAIL = [
     "total_co2": 6630.0,
     "emission_factor": 948.4978540772532,
     "generation_gco2kwh": 948.4978540772532,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69284,7 +69284,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 23.863636363636363,
     "generation_gco2kwh": 23.863636363636363,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69308,7 +69308,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 684.2105263157895,
     "generation_gco2kwh": 684.2105263157895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69332,7 +69332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69356,7 +69356,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69380,7 +69380,7 @@ window.DATA_DETAIL = [
     "total_co2": 1830.0,
     "emission_factor": 863.2075471698113,
     "generation_gco2kwh": 863.2075471698113,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69404,7 +69404,7 @@ window.DATA_DETAIL = [
     "total_co2": 7480.0,
     "emission_factor": 949.2385786802031,
     "generation_gco2kwh": 949.2385786802031,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69428,7 +69428,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 24.185068349106203,
     "generation_gco2kwh": 24.185068349106203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69452,7 +69452,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69476,7 +69476,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69500,7 +69500,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69524,7 +69524,7 @@ window.DATA_DETAIL = [
     "total_co2": 1870.0,
     "emission_factor": 861.7511520737328,
     "generation_gco2kwh": 861.7511520737328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69548,7 +69548,7 @@ window.DATA_DETAIL = [
     "total_co2": 10880.0,
     "emission_factor": 948.5614646904969,
     "generation_gco2kwh": 948.5614646904969,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69572,7 +69572,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 24.255788313120174,
     "generation_gco2kwh": 24.255788313120174,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69596,7 +69596,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69620,7 +69620,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69644,7 +69644,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69668,7 +69668,7 @@ window.DATA_DETAIL = [
     "total_co2": 1870.0,
     "emission_factor": 861.7511520737328,
     "generation_gco2kwh": 861.7511520737328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69692,7 +69692,7 @@ window.DATA_DETAIL = [
     "total_co2": 12900.0,
     "emission_factor": 948.5294117647059,
     "generation_gco2kwh": 948.5294117647059,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69716,7 +69716,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.32979851537646,
     "generation_gco2kwh": 23.32979851537646,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69740,7 +69740,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69764,7 +69764,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 90.9090909090909,
     "generation_gco2kwh": 90.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69788,7 +69788,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69812,7 +69812,7 @@ window.DATA_DETAIL = [
     "total_co2": 2020.0,
     "emission_factor": 863.2478632478633,
     "generation_gco2kwh": 863.2478632478633,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69836,7 +69836,7 @@ window.DATA_DETAIL = [
     "total_co2": 11670.0,
     "emission_factor": 948.780487804878,
     "generation_gco2kwh": 948.780487804878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69860,7 +69860,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 24.134312696747116,
     "generation_gco2kwh": 24.134312696747116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69884,7 +69884,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69908,7 +69908,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -69932,7 +69932,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 833.3333333333334,
     "generation_gco2kwh": 833.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69956,7 +69956,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -69980,7 +69980,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70004,7 +70004,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 48.78048780487805,
     "generation_gco2kwh": 48.78048780487805,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70028,7 +70028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70052,7 +70052,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70076,7 +70076,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 20.61855670103093,
     "generation_gco2kwh": 20.61855670103093,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70100,7 +70100,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70124,7 +70124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70148,7 +70148,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70172,7 +70172,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 25.64102564102564,
     "generation_gco2kwh": 25.64102564102564,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70196,7 +70196,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.0,
     "generation_gco2kwh": 40.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -70220,7 +70220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70244,7 +70244,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70268,7 +70268,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70292,7 +70292,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70316,7 +70316,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 39.21568627450981,
     "generation_gco2kwh": 39.21568627450981,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -70340,7 +70340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70388,7 +70388,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70412,7 +70412,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70436,7 +70436,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70460,7 +70460,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70484,7 +70484,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 22.98850574712644,
     "generation_gco2kwh": 22.98850574712644,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70508,7 +70508,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70532,7 +70532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70556,7 +70556,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 24.134312696747116,
     "generation_gco2kwh": 24.134312696747116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70580,7 +70580,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70604,7 +70604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70628,7 +70628,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 23.607176581680832,
     "generation_gco2kwh": 23.607176581680832,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70652,7 +70652,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70676,7 +70676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70748,7 +70748,7 @@ window.DATA_DETAIL = [
     "total_co2": 1910.0,
     "emission_factor": 216.06334841628959,
     "generation_gco2kwh": 216.06334841628959,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70772,7 +70772,7 @@ window.DATA_DETAIL = [
     "total_co2": 6830.0,
     "emission_factor": 896.3254593175853,
     "generation_gco2kwh": 896.3254593175853,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70796,7 +70796,7 @@ window.DATA_DETAIL = [
     "total_co2": 29170.0,
     "emission_factor": 402.23386651958083,
     "generation_gco2kwh": 402.23386651958083,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70820,7 +70820,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -70844,7 +70844,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 4.88997555012225,
     "generation_gco2kwh": 4.88997555012225,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70868,7 +70868,7 @@ window.DATA_DETAIL = [
     "total_co2": 3290.0,
     "emission_factor": 658.0,
     "generation_gco2kwh": 658.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70916,7 +70916,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 47.841306884480744,
     "generation_gco2kwh": 47.841306884480744,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70940,7 +70940,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 12.442698100851343,
     "generation_gco2kwh": 12.442698100851343,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70964,7 +70964,7 @@ window.DATA_DETAIL = [
     "total_co2": 2360.0,
     "emission_factor": 216.11721611721612,
     "generation_gco2kwh": 216.11721611721612,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -70988,7 +70988,7 @@ window.DATA_DETAIL = [
     "total_co2": 13090.0,
     "emission_factor": 896.5753424657535,
     "generation_gco2kwh": 896.5753424657535,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -71012,7 +71012,7 @@ window.DATA_DETAIL = [
     "total_co2": 22800.0,
     "emission_factor": 402.18733462691836,
     "generation_gco2kwh": 402.18733462691836,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -71036,7 +71036,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -71060,7 +71060,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 5.221932114882507,
     "generation_gco2kwh": 5.221932114882507,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -71084,7 +71084,7 @@ window.DATA_DETAIL = [
     "total_co2": 3510.0,
     "emission_factor": 658.5365853658536,
     "generation_gco2kwh": 658.5365853658536,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -71132,7 +71132,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 47.78761061946902,
     "generation_gco2kwh": 47.78761061946902,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -71156,7 +71156,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 12.749445676274945,
     "generation_gco2kwh": 12.749445676274945,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -71900,7 +71900,7 @@ window.DATA_DETAIL = [
     "total_co2": 1390.0,
     "emission_factor": 908.4967320261438,
     "generation_gco2kwh": 908.4967320261438,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -71924,7 +71924,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -71948,7 +71948,7 @@ window.DATA_DETAIL = [
     "total_co2": 790.0,
     "emission_factor": 658.3333333333334,
     "generation_gco2kwh": 658.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -71972,7 +71972,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -71996,7 +71996,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72020,7 +72020,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 912.2807017543861,
     "generation_gco2kwh": 912.2807017543861,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72044,7 +72044,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72068,7 +72068,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 660.7142857142857,
     "generation_gco2kwh": 660.7142857142857,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72092,7 +72092,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72116,7 +72116,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72140,7 +72140,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 912.2807017543861,
     "generation_gco2kwh": 912.2807017543861,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72164,7 +72164,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 18.51851851851852,
     "generation_gco2kwh": 18.51851851851852,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72188,7 +72188,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 657.8947368421053,
     "generation_gco2kwh": 657.8947368421053,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72212,7 +72212,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72236,7 +72236,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72260,7 +72260,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 217.94871794871793,
     "generation_gco2kwh": 217.94871794871793,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72284,7 +72284,7 @@ window.DATA_DETAIL = [
     "total_co2": 1510.0,
     "emission_factor": 888.2352941176471,
     "generation_gco2kwh": 888.2352941176471,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72308,7 +72308,7 @@ window.DATA_DETAIL = [
     "total_co2": 3200.0,
     "emission_factor": 538.7205387205387,
     "generation_gco2kwh": 538.7205387205387,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72332,7 +72332,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 23.72034956304619,
     "generation_gco2kwh": 23.72034956304619,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72356,7 +72356,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 650.7936507936508,
     "generation_gco2kwh": 650.7936507936508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72380,7 +72380,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 37.03703703703704,
     "generation_gco2kwh": 37.03703703703704,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72404,7 +72404,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72428,7 +72428,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 8.771929824561404,
     "generation_gco2kwh": 8.771929824561404,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72452,7 +72452,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 212.5,
     "generation_gco2kwh": 212.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72476,7 +72476,7 @@ window.DATA_DETAIL = [
     "total_co2": 2300.0,
     "emission_factor": 884.6153846153846,
     "generation_gco2kwh": 884.6153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72500,7 +72500,7 @@ window.DATA_DETAIL = [
     "total_co2": 2500.0,
     "emission_factor": 537.6344086021505,
     "generation_gco2kwh": 537.6344086021505,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72524,7 +72524,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 23.759899958315966,
     "generation_gco2kwh": 23.759899958315966,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72548,7 +72548,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 661.9718309859155,
     "generation_gco2kwh": 661.9718309859155,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72572,7 +72572,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 37.641154328732746,
     "generation_gco2kwh": 37.641154328732746,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72596,7 +72596,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72620,7 +72620,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 7.633587786259541,
     "generation_gco2kwh": 7.633587786259541,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72644,7 +72644,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 213.33333333333334,
     "generation_gco2kwh": 213.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72668,7 +72668,7 @@ window.DATA_DETAIL = [
     "total_co2": 1110.0,
     "emission_factor": 888.0,
     "generation_gco2kwh": 888.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72692,7 +72692,7 @@ window.DATA_DETAIL = [
     "total_co2": 2320.0,
     "emission_factor": 538.2830626450117,
     "generation_gco2kwh": 538.2830626450117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72716,7 +72716,7 @@ window.DATA_DETAIL = [
     "total_co2": 610.0,
     "emission_factor": 23.588553750966746,
     "generation_gco2kwh": 23.588553750966746,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72740,7 +72740,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72764,7 +72764,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 37.084398976982094,
     "generation_gco2kwh": 37.084398976982094,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72788,7 +72788,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 35.71428571428571,
     "generation_gco2kwh": 35.71428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72812,7 +72812,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 10.380622837370241,
     "generation_gco2kwh": 10.380622837370241,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72836,7 +72836,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 212.12121212121212,
     "generation_gco2kwh": 212.12121212121212,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72860,7 +72860,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 884.0579710144929,
     "generation_gco2kwh": 884.0579710144929,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72884,7 +72884,7 @@ window.DATA_DETAIL = [
     "total_co2": 1810.0,
     "emission_factor": 538.6904761904763,
     "generation_gco2kwh": 538.6904761904763,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72908,7 +72908,7 @@ window.DATA_DETAIL = [
     "total_co2": 620.0,
     "emission_factor": 23.69124952235384,
     "generation_gco2kwh": 23.69124952235384,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72932,7 +72932,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 661.7647058823529,
     "generation_gco2kwh": 661.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72956,7 +72956,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 37.51617076326002,
     "generation_gco2kwh": 37.51617076326002,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -72980,7 +72980,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 54.054054054054056,
     "generation_gco2kwh": 54.054054054054056,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73004,7 +73004,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 8.547008547008547,
     "generation_gco2kwh": 8.547008547008547,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73028,7 +73028,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 214.2857142857143,
     "generation_gco2kwh": 214.2857142857143,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73052,7 +73052,7 @@ window.DATA_DETAIL = [
     "total_co2": 1480.0,
     "emission_factor": 886.2275449101796,
     "generation_gco2kwh": 886.2275449101796,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73076,7 +73076,7 @@ window.DATA_DETAIL = [
     "total_co2": 2300.0,
     "emission_factor": 538.6416861826698,
     "generation_gco2kwh": 538.6416861826698,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73100,7 +73100,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -73124,7 +73124,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73148,7 +73148,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 37.37259343148358,
     "generation_gco2kwh": 37.37259343148358,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -73172,7 +73172,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 54.054054054054056,
     "generation_gco2kwh": 54.054054054054056,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73196,7 +73196,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 9.09090909090909,
     "generation_gco2kwh": 9.09090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73220,7 +73220,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 219.17808219178082,
     "generation_gco2kwh": 219.17808219178082,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73244,7 +73244,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.54385964912281,
     "generation_gco2kwh": 17.54385964912281,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73268,7 +73268,7 @@ window.DATA_DETAIL = [
     "total_co2": 750.0,
     "emission_factor": 657.8947368421053,
     "generation_gco2kwh": 657.8947368421053,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73292,7 +73292,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 38.96103896103896,
     "generation_gco2kwh": 38.96103896103896,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73316,7 +73316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73340,7 +73340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73364,7 +73364,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 213.48314606741573,
     "generation_gco2kwh": 213.48314606741573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73388,7 +73388,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.666666666666668,
     "generation_gco2kwh": 16.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73412,7 +73412,7 @@ window.DATA_DETAIL = [
     "total_co2": 860.0,
     "emission_factor": 661.5384615384615,
     "generation_gco2kwh": 661.5384615384615,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73436,7 +73436,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 41.09589041095891,
     "generation_gco2kwh": 41.09589041095891,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73460,7 +73460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73484,7 +73484,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 15.15151515151515,
     "generation_gco2kwh": 15.15151515151515,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73508,7 +73508,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 213.48314606741573,
     "generation_gco2kwh": 213.48314606741573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73532,7 +73532,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 16.666666666666668,
     "generation_gco2kwh": 16.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73556,7 +73556,7 @@ window.DATA_DETAIL = [
     "total_co2": 1020.0,
     "emission_factor": 658.0645161290322,
     "generation_gco2kwh": 658.0645161290322,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73580,7 +73580,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73604,7 +73604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73628,7 +73628,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73652,7 +73652,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 213.48314606741573,
     "generation_gco2kwh": 213.48314606741573,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73676,7 +73676,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 30.769230769230766,
     "generation_gco2kwh": 30.769230769230766,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73700,7 +73700,7 @@ window.DATA_DETAIL = [
     "total_co2": 1020.0,
     "emission_factor": 658.0645161290322,
     "generation_gco2kwh": 658.0645161290322,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73724,7 +73724,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73748,7 +73748,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73772,7 +73772,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73820,7 +73820,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 904.7619047619048,
     "generation_gco2kwh": 904.7619047619048,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73844,7 +73844,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73868,7 +73868,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73892,7 +73892,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73916,7 +73916,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 894.7368421052631,
     "generation_gco2kwh": 894.7368421052631,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73940,7 +73940,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73964,7 +73964,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -73988,7 +73988,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74012,7 +74012,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 888.8888888888889,
     "generation_gco2kwh": 888.8888888888889,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74036,7 +74036,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74060,7 +74060,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74084,7 +74084,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74108,7 +74108,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 888.8888888888889,
     "generation_gco2kwh": 888.8888888888889,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74132,7 +74132,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74156,7 +74156,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 654.5454545454545,
     "generation_gco2kwh": 654.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74180,7 +74180,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74204,7 +74204,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74228,7 +74228,7 @@ window.DATA_DETAIL = [
     "total_co2": 19700.0,
     "emission_factor": 652.5339516396158,
     "generation_gco2kwh": 652.5339516396158,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74252,7 +74252,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 23.407022106631988,
     "generation_gco2kwh": 23.407022106631988,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74276,7 +74276,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74300,7 +74300,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74324,7 +74324,7 @@ window.DATA_DETAIL = [
     "total_co2": 20290.0,
     "emission_factor": 652.4115755627009,
     "generation_gco2kwh": 652.4115755627009,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74348,7 +74348,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 23.929471032745592,
     "generation_gco2kwh": 23.929471032745592,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74372,7 +74372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74396,7 +74396,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74420,7 +74420,7 @@ window.DATA_DETAIL = [
     "total_co2": 18670.0,
     "emission_factor": 652.5690318070605,
     "generation_gco2kwh": 652.5690318070605,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74444,7 +74444,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.835319609967495,
     "generation_gco2kwh": 23.835319609967495,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74468,7 +74468,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74492,7 +74492,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74516,7 +74516,7 @@ window.DATA_DETAIL = [
     "total_co2": 21390.0,
     "emission_factor": 652.5320317266626,
     "generation_gco2kwh": 652.5320317266626,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74540,7 +74540,7 @@ window.DATA_DETAIL = [
     "total_co2": 230.0,
     "emission_factor": 24.033437826541274,
     "generation_gco2kwh": 24.033437826541274,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74564,7 +74564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74588,7 +74588,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74612,7 +74612,7 @@ window.DATA_DETAIL = [
     "total_co2": 20150.0,
     "emission_factor": 652.3146649401101,
     "generation_gco2kwh": 652.3146649401101,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74636,7 +74636,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 24.229074889867842,
     "generation_gco2kwh": 24.229074889867842,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74660,7 +74660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74684,7 +74684,7 @@ window.DATA_DETAIL = [
     "total_co2": 9370.0,
     "emission_factor": 905.3140096618358,
     "generation_gco2kwh": 905.3140096618358,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74708,7 +74708,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 23.4375,
     "generation_gco2kwh": 23.4375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74732,7 +74732,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 658.8235294117648,
     "generation_gco2kwh": 658.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74756,7 +74756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74780,7 +74780,7 @@ window.DATA_DETAIL = [
     "total_co2": 8050.000000000001,
     "emission_factor": 905.511811023622,
     "generation_gco2kwh": 905.511811023622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74804,7 +74804,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 23.60248447204969,
     "generation_gco2kwh": 23.60248447204969,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74828,7 +74828,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74852,7 +74852,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74876,7 +74876,7 @@ window.DATA_DETAIL = [
     "total_co2": 8360.0,
     "emission_factor": 905.7421451787649,
     "generation_gco2kwh": 905.7421451787649,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74900,7 +74900,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 23.493975903614455,
     "generation_gco2kwh": 23.493975903614455,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74924,7 +74924,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74948,7 +74948,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74972,7 +74972,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -74996,7 +74996,7 @@ window.DATA_DETAIL = [
     "total_co2": 2670.0,
     "emission_factor": 1015.2091254752852,
     "generation_gco2kwh": 1015.2091254752852,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75020,7 +75020,7 @@ window.DATA_DETAIL = [
     "total_co2": 560.0,
     "emission_factor": 491.22807017543863,
     "generation_gco2kwh": 491.22807017543863,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75044,7 +75044,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 23.4375,
     "generation_gco2kwh": 23.4375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75068,7 +75068,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75092,7 +75092,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75116,7 +75116,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75140,7 +75140,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75164,7 +75164,7 @@ window.DATA_DETAIL = [
     "total_co2": 2220.0,
     "emission_factor": 1013.6986301369864,
     "generation_gco2kwh": 1013.6986301369864,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75188,7 +75188,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 490.3225806451613,
     "generation_gco2kwh": 490.3225806451613,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75212,7 +75212,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 20.689655172413794,
     "generation_gco2kwh": 20.689655172413794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75236,7 +75236,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75260,7 +75260,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75284,7 +75284,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75308,7 +75308,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75332,7 +75332,7 @@ window.DATA_DETAIL = [
     "total_co2": 2810.0,
     "emission_factor": 1014.4404332129964,
     "generation_gco2kwh": 1014.4404332129964,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75356,7 +75356,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 484.8484848484849,
     "generation_gco2kwh": 484.8484848484849,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75380,7 +75380,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 22.22222222222222,
     "generation_gco2kwh": 22.22222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75404,7 +75404,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75428,7 +75428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75452,7 +75452,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75476,7 +75476,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75500,7 +75500,7 @@ window.DATA_DETAIL = [
     "total_co2": 2810.0,
     "emission_factor": 1014.4404332129964,
     "generation_gco2kwh": 1014.4404332129964,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75524,7 +75524,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 492.7536231884058,
     "generation_gco2kwh": 492.7536231884058,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75548,7 +75548,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 24.691358024691358,
     "generation_gco2kwh": 24.691358024691358,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75572,7 +75572,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75596,7 +75596,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75620,7 +75620,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75644,7 +75644,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75668,7 +75668,7 @@ window.DATA_DETAIL = [
     "total_co2": 2520.0,
     "emission_factor": 1016.1290322580645,
     "generation_gco2kwh": 1016.1290322580645,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75692,7 +75692,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 492.30769230769226,
     "generation_gco2kwh": 492.30769230769226,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75716,7 +75716,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 22.388059701492537,
     "generation_gco2kwh": 22.388059701492537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75740,7 +75740,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75764,7 +75764,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75788,7 +75788,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75812,7 +75812,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -75836,7 +75836,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75860,7 +75860,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 447.20496894409933,
     "generation_gco2kwh": 447.20496894409933,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75884,7 +75884,7 @@ window.DATA_DETAIL = [
     "total_co2": 3370.0,
     "emission_factor": 23.765867418899855,
     "generation_gco2kwh": 23.765867418899855,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -75908,7 +75908,7 @@ window.DATA_DETAIL = [
     "total_co2": 420.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75932,7 +75932,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -75956,7 +75956,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 9.081735620585267,
     "generation_gco2kwh": 9.081735620585267,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -75980,7 +75980,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 227.27272727272728,
     "generation_gco2kwh": 227.27272727272728,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -76004,7 +76004,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -76028,7 +76028,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 451.61290322580646,
     "generation_gco2kwh": 451.61290322580646,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -76052,7 +76052,7 @@ window.DATA_DETAIL = [
     "total_co2": 3420.0,
     "emission_factor": 23.754948947697436,
     "generation_gco2kwh": 23.754948947697436,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -76076,7 +76076,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 652.7777777777778,
     "generation_gco2kwh": 652.7777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -76100,7 +76100,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 90.9090909090909,
     "generation_gco2kwh": 90.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -76124,7 +76124,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 8.503401360544219,
     "generation_gco2kwh": 8.503401360544219,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -77468,7 +77468,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 217.14285714285714,
     "generation_gco2kwh": 217.14285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77492,7 +77492,7 @@ window.DATA_DETAIL = [
     "total_co2": 23560.0,
     "emission_factor": 855.1724137931034,
     "generation_gco2kwh": 855.1724137931034,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77516,7 +77516,7 @@ window.DATA_DETAIL = [
     "total_co2": 33870.0,
     "emission_factor": 684.6573681018799,
     "generation_gco2kwh": 684.6573681018799,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77540,7 +77540,7 @@ window.DATA_DETAIL = [
     "total_co2": 800.0,
     "emission_factor": 23.84500745156483,
     "generation_gco2kwh": 23.84500745156483,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77564,7 +77564,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 5.186721991701244,
     "generation_gco2kwh": 5.186721991701244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77588,7 +77588,7 @@ window.DATA_DETAIL = [
     "total_co2": 11320.0,
     "emission_factor": 658.139534883721,
     "generation_gco2kwh": 658.139534883721,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77612,7 +77612,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 45.833333333333336,
     "generation_gco2kwh": 45.833333333333336,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77636,7 +77636,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 13.793103448275863,
     "generation_gco2kwh": 13.793103448275863,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77660,7 +77660,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 216.2162162162162,
     "generation_gco2kwh": 216.2162162162162,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77684,7 +77684,7 @@ window.DATA_DETAIL = [
     "total_co2": 22160.0,
     "emission_factor": 855.2682362022385,
     "generation_gco2kwh": 855.2682362022385,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77708,7 +77708,7 @@ window.DATA_DETAIL = [
     "total_co2": 33320.0,
     "emission_factor": 684.6106431066365,
     "generation_gco2kwh": 684.6106431066365,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77732,7 +77732,7 @@ window.DATA_DETAIL = [
     "total_co2": 800.0,
     "emission_factor": 23.84500745156483,
     "generation_gco2kwh": 23.84500745156483,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77756,7 +77756,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 5.717916137229987,
     "generation_gco2kwh": 5.717916137229987,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77780,7 +77780,7 @@ window.DATA_DETAIL = [
     "total_co2": 17840.0,
     "emission_factor": 657.8171091445428,
     "generation_gco2kwh": 657.8171091445428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77804,7 +77804,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 48.661800486618,
     "generation_gco2kwh": 48.661800486618,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77828,7 +77828,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 13.100436681222707,
     "generation_gco2kwh": 13.100436681222707,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77852,7 +77852,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 214.65968586387436,
     "generation_gco2kwh": 214.65968586387436,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77876,7 +77876,7 @@ window.DATA_DETAIL = [
     "total_co2": 23510.0,
     "emission_factor": 855.2200800291015,
     "generation_gco2kwh": 855.2200800291015,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77900,7 +77900,7 @@ window.DATA_DETAIL = [
     "total_co2": 32170.0,
     "emission_factor": 684.759472115794,
     "generation_gco2kwh": 684.759472115794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77924,7 +77924,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 23.71312897628687,
     "generation_gco2kwh": 23.71312897628687,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77948,7 +77948,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 5.385996409335727,
     "generation_gco2kwh": 5.385996409335727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77972,7 +77972,7 @@ window.DATA_DETAIL = [
     "total_co2": 18860.0,
     "emission_factor": 657.8304848273456,
     "generation_gco2kwh": 657.8304848273456,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -77996,7 +77996,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 48.01324503311258,
     "generation_gco2kwh": 48.01324503311258,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78020,7 +78020,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 12.618296529968454,
     "generation_gco2kwh": 12.618296529968454,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78044,7 +78044,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 215.78947368421055,
     "generation_gco2kwh": 215.78947368421055,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78068,7 +78068,7 @@ window.DATA_DETAIL = [
     "total_co2": 23530.0,
     "emission_factor": 855.9476173153874,
     "generation_gco2kwh": 855.9476173153874,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78092,7 +78092,7 @@ window.DATA_DETAIL = [
     "total_co2": 32170.0,
     "emission_factor": 684.759472115794,
     "generation_gco2kwh": 684.759472115794,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78116,7 +78116,7 @@ window.DATA_DETAIL = [
     "total_co2": 810.0,
     "emission_factor": 23.823529411764707,
     "generation_gco2kwh": 23.823529411764707,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78140,7 +78140,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 5.403158769742311,
     "generation_gco2kwh": 5.403158769742311,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78164,7 +78164,7 @@ window.DATA_DETAIL = [
     "total_co2": 18860.0,
     "emission_factor": 657.8304848273456,
     "generation_gco2kwh": 657.8304848273456,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78188,7 +78188,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 47.569803516028955,
     "generation_gco2kwh": 47.569803516028955,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78212,7 +78212,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 12.618296529968454,
     "generation_gco2kwh": 12.618296529968454,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78236,7 +78236,7 @@ window.DATA_DETAIL = [
     "total_co2": 420.0,
     "emission_factor": 215.3846153846154,
     "generation_gco2kwh": 215.3846153846154,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78260,7 +78260,7 @@ window.DATA_DETAIL = [
     "total_co2": 21750.0,
     "emission_factor": 855.9622195985833,
     "generation_gco2kwh": 855.9622195985833,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78284,7 +78284,7 @@ window.DATA_DETAIL = [
     "total_co2": 31120.0,
     "emission_factor": 684.7084708470846,
     "generation_gco2kwh": 684.7084708470846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78308,7 +78308,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 23.8580157113762,
     "generation_gco2kwh": 23.8580157113762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78332,7 +78332,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 5.3061224489795915,
     "generation_gco2kwh": 5.3061224489795915,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78356,7 +78356,7 @@ window.DATA_DETAIL = [
     "total_co2": 17650.0,
     "emission_factor": 658.0909768829232,
     "generation_gco2kwh": 658.0909768829232,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78380,7 +78380,7 @@ window.DATA_DETAIL = [
     "total_co2": 860.0,
     "emission_factor": 47.38292011019284,
     "generation_gco2kwh": 47.38292011019284,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78404,7 +78404,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 12.844036697247706,
     "generation_gco2kwh": 12.844036697247706,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78428,7 +78428,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 651.5151515151515,
     "generation_gco2kwh": 651.5151515151515,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78452,7 +78452,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78476,7 +78476,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 652.1739130434784,
     "generation_gco2kwh": 652.1739130434784,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78500,7 +78500,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78524,7 +78524,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 661.7647058823529,
     "generation_gco2kwh": 661.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78548,7 +78548,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 58.8235294117647,
     "generation_gco2kwh": 58.8235294117647,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78572,7 +78572,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78596,7 +78596,7 @@ window.DATA_DETAIL = [
     "total_co2": 530.0,
     "emission_factor": 868.8524590163935,
     "generation_gco2kwh": 868.8524590163935,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78620,7 +78620,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 585.7142857142858,
     "generation_gco2kwh": 585.7142857142858,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78644,7 +78644,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.129251700680275,
     "generation_gco2kwh": 23.129251700680275,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78668,7 +78668,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 661.5384615384615,
     "generation_gco2kwh": 661.5384615384615,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78692,7 +78692,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78716,7 +78716,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78740,7 +78740,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78764,7 +78764,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 880.0,
     "generation_gco2kwh": 880.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78788,7 +78788,7 @@ window.DATA_DETAIL = [
     "total_co2": 930.0,
     "emission_factor": 584.9056603773585,
     "generation_gco2kwh": 584.9056603773585,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78812,7 +78812,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 23.980815347721823,
     "generation_gco2kwh": 23.980815347721823,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78836,7 +78836,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78860,7 +78860,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 50.847457627118644,
     "generation_gco2kwh": 50.847457627118644,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78884,7 +78884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78908,7 +78908,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78932,7 +78932,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 880.0,
     "generation_gco2kwh": 880.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78956,7 +78956,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 584.5070422535211,
     "generation_gco2kwh": 584.5070422535211,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -78980,7 +78980,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 23.399014778325125,
     "generation_gco2kwh": 23.399014778325125,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79004,7 +79004,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 655.1724137931035,
     "generation_gco2kwh": 655.1724137931035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79028,7 +79028,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 42.85714285714286,
     "generation_gco2kwh": 42.85714285714286,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79052,7 +79052,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79076,7 +79076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79100,7 +79100,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 869.5652173913043,
     "generation_gco2kwh": 869.5652173913043,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79124,7 +79124,7 @@ window.DATA_DETAIL = [
     "total_co2": 1620.0,
     "emission_factor": 580.6451612903226,
     "generation_gco2kwh": 580.6451612903226,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79148,7 +79148,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79172,7 +79172,7 @@ window.DATA_DETAIL = [
     "total_co2": 1100.0,
     "emission_factor": 658.6826347305389,
     "generation_gco2kwh": 658.6826347305389,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79196,7 +79196,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 45.97701149425287,
     "generation_gco2kwh": 45.97701149425287,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79220,7 +79220,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 11.235955056179774,
     "generation_gco2kwh": 11.235955056179774,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79316,7 +79316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79340,7 +79340,7 @@ window.DATA_DETAIL = [
     "total_co2": 570.0,
     "emission_factor": 695.1219512195122,
     "generation_gco2kwh": 695.1219512195122,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79364,7 +79364,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.801980198019802,
     "generation_gco2kwh": 19.801980198019802,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79388,7 +79388,7 @@ window.DATA_DETAIL = [
     "total_co2": 1420.0,
     "emission_factor": 657.4074074074074,
     "generation_gco2kwh": 657.4074074074074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79412,7 +79412,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79436,7 +79436,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79460,7 +79460,7 @@ window.DATA_DETAIL = [
     "total_co2": 600.0,
     "emission_factor": 697.6744186046511,
     "generation_gco2kwh": 697.6744186046511,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79484,7 +79484,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 19.801980198019802,
     "generation_gco2kwh": 19.801980198019802,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79508,7 +79508,7 @@ window.DATA_DETAIL = [
     "total_co2": 1680.0,
     "emission_factor": 658.8235294117648,
     "generation_gco2kwh": 658.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79532,7 +79532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79556,7 +79556,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79580,7 +79580,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79604,7 +79604,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 23.529411764705884,
     "generation_gco2kwh": 23.529411764705884,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79628,7 +79628,7 @@ window.DATA_DETAIL = [
     "total_co2": 1780.0,
     "emission_factor": 656.8265682656827,
     "generation_gco2kwh": 656.8265682656827,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79652,7 +79652,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79676,7 +79676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79700,7 +79700,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79724,7 +79724,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79748,7 +79748,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 20.0,
     "generation_gco2kwh": 20.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79772,7 +79772,7 @@ window.DATA_DETAIL = [
     "total_co2": 1780.0,
     "emission_factor": 659.2592592592592,
     "generation_gco2kwh": 659.2592592592592,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79796,7 +79796,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79820,7 +79820,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79844,7 +79844,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79868,7 +79868,7 @@ window.DATA_DETAIL = [
     "total_co2": 1100.0,
     "emission_factor": 23.722234203148588,
     "generation_gco2kwh": 23.722234203148588,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79892,7 +79892,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79916,7 +79916,7 @@ window.DATA_DETAIL = [
     "total_co2": 960.0,
     "emission_factor": 23.662805028346067,
     "generation_gco2kwh": 23.662805028346067,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79940,7 +79940,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79964,7 +79964,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 23.70640528835195,
     "generation_gco2kwh": 23.70640528835195,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -79988,7 +79988,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80012,7 +80012,7 @@ window.DATA_DETAIL = [
     "total_co2": 1050.0,
     "emission_factor": 23.863636363636363,
     "generation_gco2kwh": 23.863636363636363,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80036,7 +80036,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80060,7 +80060,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80084,7 +80084,7 @@ window.DATA_DETAIL = [
     "total_co2": 11330.0,
     "emission_factor": 606.8559185859667,
     "generation_gco2kwh": 606.8559185859667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80108,7 +80108,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 23.60655737704918,
     "generation_gco2kwh": 23.60655737704918,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80132,7 +80132,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80156,7 +80156,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 50.63291139240506,
     "generation_gco2kwh": 50.63291139240506,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80180,7 +80180,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 5.524861878453039,
     "generation_gco2kwh": 5.524861878453039,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80204,7 +80204,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 224.13793103448276,
     "generation_gco2kwh": 224.13793103448276,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80228,7 +80228,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 857.1428571428571,
     "generation_gco2kwh": 857.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80252,7 +80252,7 @@ window.DATA_DETAIL = [
     "total_co2": 12850.0,
     "emission_factor": 606.9910250354275,
     "generation_gco2kwh": 606.9910250354275,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80276,7 +80276,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 23.83192223267482,
     "generation_gco2kwh": 23.83192223267482,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80300,7 +80300,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 661.0169491525425,
     "generation_gco2kwh": 661.0169491525425,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80324,7 +80324,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80348,7 +80348,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 5.4945054945054945,
     "generation_gco2kwh": 5.4945054945054945,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80372,7 +80372,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 220.33898305084747,
     "generation_gco2kwh": 220.33898305084747,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80396,7 +80396,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 882.3529411764705,
     "generation_gco2kwh": 882.3529411764705,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80420,7 +80420,7 @@ window.DATA_DETAIL = [
     "total_co2": 15790.0,
     "emission_factor": 606.8408916218294,
     "generation_gco2kwh": 606.8408916218294,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80444,7 +80444,7 @@ window.DATA_DETAIL = [
     "total_co2": 710.0,
     "emission_factor": 23.88160107635385,
     "generation_gco2kwh": 23.88160107635385,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80468,7 +80468,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80492,7 +80492,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80516,7 +80516,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 5.181347150259067,
     "generation_gco2kwh": 5.181347150259067,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80540,7 +80540,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 224.13793103448276,
     "generation_gco2kwh": 224.13793103448276,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80564,7 +80564,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 875.0,
     "generation_gco2kwh": 875.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80588,7 +80588,7 @@ window.DATA_DETAIL = [
     "total_co2": 16930.0,
     "emission_factor": 606.8100358422939,
     "generation_gco2kwh": 606.8100358422939,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80612,7 +80612,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 23.711340206185564,
     "generation_gco2kwh": 23.711340206185564,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80636,7 +80636,7 @@ window.DATA_DETAIL = [
     "total_co2": 800.0,
     "emission_factor": 661.1570247933885,
     "generation_gco2kwh": 661.1570247933885,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80660,7 +80660,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 51.54639175257732,
     "generation_gco2kwh": 51.54639175257732,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80684,7 +80684,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 8.51063829787234,
     "generation_gco2kwh": 8.51063829787234,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80708,7 +80708,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 209.67741935483872,
     "generation_gco2kwh": 209.67741935483872,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80732,7 +80732,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 875.0,
     "generation_gco2kwh": 875.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80756,7 +80756,7 @@ window.DATA_DETAIL = [
     "total_co2": 15310.0,
     "emission_factor": 606.8172810146651,
     "generation_gco2kwh": 606.8172810146651,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80780,7 +80780,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 23.72034956304619,
     "generation_gco2kwh": 23.72034956304619,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80804,7 +80804,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 652.1739130434784,
     "generation_gco2kwh": 652.1739130434784,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80828,7 +80828,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80852,7 +80852,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 7.6923076923076925,
     "generation_gco2kwh": 7.6923076923076925,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80876,7 +80876,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 216.0,
     "generation_gco2kwh": 216.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80900,7 +80900,7 @@ window.DATA_DETAIL = [
     "total_co2": 49740.0,
     "emission_factor": 854.932966655208,
     "generation_gco2kwh": 854.932966655208,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80924,7 +80924,7 @@ window.DATA_DETAIL = [
     "total_co2": 8640.0,
     "emission_factor": 443.0769230769231,
     "generation_gco2kwh": 443.0769230769231,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80948,7 +80948,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.64394993045897,
     "generation_gco2kwh": 23.64394993045897,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80972,7 +80972,7 @@ window.DATA_DETAIL = [
     "total_co2": 1630.0,
     "emission_factor": 659.9190283400809,
     "generation_gco2kwh": 659.9190283400809,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -80996,7 +80996,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 37.17472118959108,
     "generation_gco2kwh": 37.17472118959108,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81020,7 +81020,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 51.0948905109489,
     "generation_gco2kwh": 51.0948905109489,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81044,7 +81044,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 9.70873786407767,
     "generation_gco2kwh": 9.70873786407767,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81068,7 +81068,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 213.79310344827587,
     "generation_gco2kwh": 213.79310344827587,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81092,7 +81092,7 @@ window.DATA_DETAIL = [
     "total_co2": 53070.0,
     "emission_factor": 855.2780016116036,
     "generation_gco2kwh": 855.2780016116036,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81116,7 +81116,7 @@ window.DATA_DETAIL = [
     "total_co2": 8270.0,
     "emission_factor": 442.71948608137046,
     "generation_gco2kwh": 442.71948608137046,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81140,7 +81140,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 23.93906420021763,
     "generation_gco2kwh": 23.93906420021763,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81164,7 +81164,7 @@ window.DATA_DETAIL = [
     "total_co2": 1070.0,
     "emission_factor": 660.4938271604938,
     "generation_gco2kwh": 660.4938271604938,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81188,7 +81188,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 37.924151696606785,
     "generation_gco2kwh": 37.924151696606785,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81212,7 +81212,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81236,7 +81236,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 15.748031496062993,
     "generation_gco2kwh": 15.748031496062993,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81260,7 +81260,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 219.6969696969697,
     "generation_gco2kwh": 219.6969696969697,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81284,7 +81284,7 @@ window.DATA_DETAIL = [
     "total_co2": 56610.0,
     "emission_factor": 852.1752220382357,
     "generation_gco2kwh": 852.1752220382357,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81308,7 +81308,7 @@ window.DATA_DETAIL = [
     "total_co2": 7920.0,
     "emission_factor": 442.9530201342282,
     "generation_gco2kwh": 442.9530201342282,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81332,7 +81332,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 23.785926660059467,
     "generation_gco2kwh": 23.785926660059467,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81356,7 +81356,7 @@ window.DATA_DETAIL = [
     "total_co2": 1660.0,
     "emission_factor": 658.7301587301587,
     "generation_gco2kwh": 658.7301587301587,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81380,7 +81380,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 37.392138063279006,
     "generation_gco2kwh": 37.392138063279006,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81404,7 +81404,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 49.450549450549445,
     "generation_gco2kwh": 49.450549450549445,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81428,7 +81428,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 9.70873786407767,
     "generation_gco2kwh": 9.70873786407767,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81452,7 +81452,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 220.33898305084747,
     "generation_gco2kwh": 220.33898305084747,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81476,7 +81476,7 @@ window.DATA_DETAIL = [
     "total_co2": 61940.0,
     "emission_factor": 849.5405294198328,
     "generation_gco2kwh": 849.5405294198328,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81500,7 +81500,7 @@ window.DATA_DETAIL = [
     "total_co2": 7130.0,
     "emission_factor": 443.1323803604723,
     "generation_gco2kwh": 443.1323803604723,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81524,7 +81524,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 23.785926660059467,
     "generation_gco2kwh": 23.785926660059467,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81548,7 +81548,7 @@ window.DATA_DETAIL = [
     "total_co2": 1410.0,
     "emission_factor": 658.8785046728972,
     "generation_gco2kwh": 658.8785046728972,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81572,7 +81572,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 37.70028275212064,
     "generation_gco2kwh": 37.70028275212064,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81596,7 +81596,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 48.582995951417,
     "generation_gco2kwh": 48.582995951417,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81620,7 +81620,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 15.748031496062993,
     "generation_gco2kwh": 15.748031496062993,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81644,7 +81644,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 217.05426356589146,
     "generation_gco2kwh": 217.05426356589146,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81668,7 +81668,7 @@ window.DATA_DETAIL = [
     "total_co2": 66850.0,
     "emission_factor": 849.6441281138789,
     "generation_gco2kwh": 849.6441281138789,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81692,7 +81692,7 @@ window.DATA_DETAIL = [
     "total_co2": 7860.0,
     "emission_factor": 442.8169014084507,
     "generation_gco2kwh": 442.8169014084507,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81716,7 +81716,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 23.919043238270472,
     "generation_gco2kwh": 23.919043238270472,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81740,7 +81740,7 @@ window.DATA_DETAIL = [
     "total_co2": 1370.0,
     "emission_factor": 658.6538461538461,
     "generation_gco2kwh": 658.6538461538461,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81764,7 +81764,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 37.93774319066148,
     "generation_gco2kwh": 37.93774319066148,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81788,7 +81788,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 46.19565217391304,
     "generation_gco2kwh": 46.19565217391304,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81812,7 +81812,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 16.260162601626018,
     "generation_gco2kwh": 16.260162601626018,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81836,7 +81836,7 @@ window.DATA_DETAIL = [
     "total_co2": 1810.0,
     "emission_factor": 216.76646706586828,
     "generation_gco2kwh": 216.76646706586828,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81860,7 +81860,7 @@ window.DATA_DETAIL = [
     "total_co2": 104110.0,
     "emission_factor": 969.3668528864059,
     "generation_gco2kwh": 969.3668528864059,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81884,7 +81884,7 @@ window.DATA_DETAIL = [
     "total_co2": 7060.0,
     "emission_factor": 408.3285135916715,
     "generation_gco2kwh": 408.3285135916715,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81908,7 +81908,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 23.58490566037736,
     "generation_gco2kwh": 23.58490566037736,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81932,7 +81932,7 @@ window.DATA_DETAIL = [
     "total_co2": 2780.0,
     "emission_factor": 657.2104018912529,
     "generation_gco2kwh": 657.2104018912529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81956,7 +81956,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 45.91836734693878,
     "generation_gco2kwh": 45.91836734693878,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -81980,7 +81980,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 12.025316455696203,
     "generation_gco2kwh": 12.025316455696203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82004,7 +82004,7 @@ window.DATA_DETAIL = [
     "total_co2": 1740.0,
     "emission_factor": 215.88089330024812,
     "generation_gco2kwh": 215.88089330024812,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82028,7 +82028,7 @@ window.DATA_DETAIL = [
     "total_co2": 123490.0,
     "emission_factor": 968.0175589872227,
     "generation_gco2kwh": 968.0175589872227,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82052,7 +82052,7 @@ window.DATA_DETAIL = [
     "total_co2": 6460.0,
     "emission_factor": 408.34386852085964,
     "generation_gco2kwh": 408.34386852085964,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82076,7 +82076,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 25.641025641025642,
     "generation_gco2kwh": 25.641025641025642,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82100,7 +82100,7 @@ window.DATA_DETAIL = [
     "total_co2": 3180.0,
     "emission_factor": 657.0247933884298,
     "generation_gco2kwh": 657.0247933884298,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82124,7 +82124,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 48.346055979643765,
     "generation_gco2kwh": 48.346055979643765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82148,7 +82148,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 12.322858903265557,
     "generation_gco2kwh": 12.322858903265557,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82868,7 +82868,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 216.35883905013193,
     "generation_gco2kwh": 216.35883905013193,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -82892,7 +82892,7 @@ window.DATA_DETAIL = [
     "total_co2": 2270.0,
     "emission_factor": 961.8644067796611,
     "generation_gco2kwh": 961.8644067796611,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -82916,7 +82916,7 @@ window.DATA_DETAIL = [
     "total_co2": 8270.0,
     "emission_factor": 469.8863636363636,
     "generation_gco2kwh": 469.8863636363636,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -82940,7 +82940,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 24.00662251655629,
     "generation_gco2kwh": 24.00662251655629,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -82988,7 +82988,7 @@ window.DATA_DETAIL = [
     "total_co2": 870.0,
     "emission_factor": 659.090909090909,
     "generation_gco2kwh": 659.090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -83012,7 +83012,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -83036,7 +83036,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83060,7 +83060,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 12.195121951219512,
     "generation_gco2kwh": 12.195121951219512,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83084,7 +83084,7 @@ window.DATA_DETAIL = [
     "total_co2": 860.0,
     "emission_factor": 215.0,
     "generation_gco2kwh": 215.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83108,7 +83108,7 @@ window.DATA_DETAIL = [
     "total_co2": 770.0,
     "emission_factor": 962.5,
     "generation_gco2kwh": 962.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -83132,7 +83132,7 @@ window.DATA_DETAIL = [
     "total_co2": 7310.0,
     "emission_factor": 469.4926140012845,
     "generation_gco2kwh": 469.4926140012845,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83156,7 +83156,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 23.509655751469353,
     "generation_gco2kwh": 23.509655751469353,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83204,7 +83204,7 @@ window.DATA_DETAIL = [
     "total_co2": 860.0,
     "emission_factor": 656.4885496183206,
     "generation_gco2kwh": 656.4885496183206,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83228,7 +83228,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 55.55555555555556,
     "generation_gco2kwh": 55.55555555555556,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -83252,7 +83252,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 49.107142857142854,
     "generation_gco2kwh": 49.107142857142854,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -83276,7 +83276,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 12.112036336109007,
     "generation_gco2kwh": 12.112036336109007,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -84020,7 +84020,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84044,7 +84044,7 @@ window.DATA_DETAIL = [
     "total_co2": 2790.0,
     "emission_factor": 911.7647058823529,
     "generation_gco2kwh": 911.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84068,7 +84068,7 @@ window.DATA_DETAIL = [
     "total_co2": 3600.0,
     "emission_factor": 640.5693950177936,
     "generation_gco2kwh": 640.5693950177936,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84092,7 +84092,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84116,7 +84116,7 @@ window.DATA_DETAIL = [
     "total_co2": 6340.0,
     "emission_factor": 658.3592938733125,
     "generation_gco2kwh": 658.3592938733125,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84140,7 +84140,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 53.57142857142857,
     "generation_gco2kwh": 53.57142857142857,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84164,7 +84164,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84188,7 +84188,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84212,7 +84212,7 @@ window.DATA_DETAIL = [
     "total_co2": 2890.0,
     "emission_factor": 908.8050314465409,
     "generation_gco2kwh": 908.8050314465409,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84236,7 +84236,7 @@ window.DATA_DETAIL = [
     "total_co2": 3380.0,
     "emission_factor": 640.1515151515151,
     "generation_gco2kwh": 640.1515151515151,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84260,7 +84260,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84284,7 +84284,7 @@ window.DATA_DETAIL = [
     "total_co2": 6580.0,
     "emission_factor": 658.0,
     "generation_gco2kwh": 658.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84308,7 +84308,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 44.11764705882353,
     "generation_gco2kwh": 44.11764705882353,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84332,7 +84332,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84356,7 +84356,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84380,7 +84380,7 @@ window.DATA_DETAIL = [
     "total_co2": 2950.0,
     "emission_factor": 910.4938271604938,
     "generation_gco2kwh": 910.4938271604938,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84404,7 +84404,7 @@ window.DATA_DETAIL = [
     "total_co2": 3450.0,
     "emission_factor": 640.074211502783,
     "generation_gco2kwh": 640.074211502783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84428,7 +84428,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84452,7 +84452,7 @@ window.DATA_DETAIL = [
     "total_co2": 6710.0,
     "emission_factor": 657.843137254902,
     "generation_gco2kwh": 657.843137254902,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84476,7 +84476,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 47.05882352941177,
     "generation_gco2kwh": 47.05882352941177,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84500,7 +84500,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84524,7 +84524,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84548,7 +84548,7 @@ window.DATA_DETAIL = [
     "total_co2": 2950.0,
     "emission_factor": 910.4938271604938,
     "generation_gco2kwh": 910.4938271604938,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84572,7 +84572,7 @@ window.DATA_DETAIL = [
     "total_co2": 3450.0,
     "emission_factor": 640.074211502783,
     "generation_gco2kwh": 640.074211502783,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84596,7 +84596,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84620,7 +84620,7 @@ window.DATA_DETAIL = [
     "total_co2": 6710.0,
     "emission_factor": 657.843137254902,
     "generation_gco2kwh": 657.843137254902,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84644,7 +84644,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 47.05882352941177,
     "generation_gco2kwh": 47.05882352941177,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84668,7 +84668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84692,7 +84692,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84716,7 +84716,7 @@ window.DATA_DETAIL = [
     "total_co2": 3170.0,
     "emission_factor": 908.3094555873924,
     "generation_gco2kwh": 908.3094555873924,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84740,7 +84740,7 @@ window.DATA_DETAIL = [
     "total_co2": 2800.0,
     "emission_factor": 640.7322654462242,
     "generation_gco2kwh": 640.7322654462242,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84764,7 +84764,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84788,7 +84788,7 @@ window.DATA_DETAIL = [
     "total_co2": 6430.0,
     "emission_factor": 658.1371545547595,
     "generation_gco2kwh": 658.1371545547595,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84812,7 +84812,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 49.382716049382715,
     "generation_gco2kwh": 49.382716049382715,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84836,7 +84836,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84860,7 +84860,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84884,7 +84884,7 @@ window.DATA_DETAIL = [
     "total_co2": 29740.0,
     "emission_factor": 603.7352821762079,
     "generation_gco2kwh": 603.7352821762079,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84908,7 +84908,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84932,7 +84932,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84956,7 +84956,7 @@ window.DATA_DETAIL = [
     "total_co2": 31170.0,
     "emission_factor": 603.6018590240124,
     "generation_gco2kwh": 603.6018590240124,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -84980,7 +84980,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85004,7 +85004,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85028,7 +85028,7 @@ window.DATA_DETAIL = [
     "total_co2": 32619.999999999996,
     "emission_factor": 603.7386637053488,
     "generation_gco2kwh": 603.7386637053488,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85052,7 +85052,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85076,7 +85076,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85100,7 +85100,7 @@ window.DATA_DETAIL = [
     "total_co2": 33200.0,
     "emission_factor": 603.6363636363636,
     "generation_gco2kwh": 603.6363636363636,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85124,7 +85124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85148,7 +85148,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85172,7 +85172,7 @@ window.DATA_DETAIL = [
     "total_co2": 35320.0,
     "emission_factor": 603.7606837606837,
     "generation_gco2kwh": 603.7606837606837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85196,7 +85196,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85220,7 +85220,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85244,7 +85244,7 @@ window.DATA_DETAIL = [
     "total_co2": 2800.0,
     "emission_factor": 658.8235294117648,
     "generation_gco2kwh": 658.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85268,7 +85268,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -85292,7 +85292,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85316,7 +85316,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85340,7 +85340,7 @@ window.DATA_DETAIL = [
     "total_co2": 2860.0,
     "emission_factor": 658.9861751152074,
     "generation_gco2kwh": 658.9861751152074,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85364,7 +85364,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 42.5531914893617,
     "generation_gco2kwh": 42.5531914893617,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -85388,7 +85388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85844,7 +85844,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 218.18181818181816,
     "generation_gco2kwh": 218.18181818181816,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85868,7 +85868,7 @@ window.DATA_DETAIL = [
     "total_co2": 9500.0,
     "emission_factor": 1014.957264957265,
     "generation_gco2kwh": 1014.957264957265,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85892,7 +85892,7 @@ window.DATA_DETAIL = [
     "total_co2": 4920.0,
     "emission_factor": 520.0845665961945,
     "generation_gco2kwh": 520.0845665961945,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85916,7 +85916,7 @@ window.DATA_DETAIL = [
     "total_co2": 370.0,
     "emission_factor": 24.057217165149545,
     "generation_gco2kwh": 24.057217165149545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85940,7 +85940,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 5.231037489102005,
     "generation_gco2kwh": 5.231037489102005,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85964,7 +85964,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 645.1612903225806,
     "generation_gco2kwh": 645.1612903225806,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -85988,7 +85988,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 46.24277456647399,
     "generation_gco2kwh": 46.24277456647399,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86012,7 +86012,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 12.949640287769784,
     "generation_gco2kwh": 12.949640287769784,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86036,7 +86036,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 215.3846153846154,
     "generation_gco2kwh": 215.3846153846154,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86060,7 +86060,7 @@ window.DATA_DETAIL = [
     "total_co2": 10850.0,
     "emission_factor": 1014.9672591206736,
     "generation_gco2kwh": 1014.9672591206736,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86084,7 +86084,7 @@ window.DATA_DETAIL = [
     "total_co2": 5150.0,
     "emission_factor": 519.6770938446014,
     "generation_gco2kwh": 519.6770938446014,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86108,7 +86108,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 23.549684089603677,
     "generation_gco2kwh": 23.549684089603677,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86132,7 +86132,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.432624113475177,
     "generation_gco2kwh": 4.432624113475177,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86156,7 +86156,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86180,7 +86180,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 47.05882352941177,
     "generation_gco2kwh": 47.05882352941177,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86204,7 +86204,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 12.1580547112462,
     "generation_gco2kwh": 12.1580547112462,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86924,7 +86924,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86948,7 +86948,7 @@ window.DATA_DETAIL = [
     "total_co2": 169150.0,
     "emission_factor": 966.7924096936442,
     "generation_gco2kwh": 966.7924096936442,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86972,7 +86972,7 @@ window.DATA_DETAIL = [
     "total_co2": 269490.0,
     "emission_factor": 578.4536790589851,
     "generation_gco2kwh": 578.4536790589851,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -86996,7 +86996,7 @@ window.DATA_DETAIL = [
     "total_co2": 5050.0,
     "emission_factor": 23.77141781208812,
     "generation_gco2kwh": 23.77141781208812,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87020,7 +87020,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 5.511555740817934,
     "generation_gco2kwh": 5.511555740817934,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87044,7 +87044,7 @@ window.DATA_DETAIL = [
     "total_co2": 8170.0,
     "emission_factor": 657.8099838969404,
     "generation_gco2kwh": 657.8099838969404,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87068,7 +87068,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 48.387096774193544,
     "generation_gco2kwh": 48.387096774193544,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87092,7 +87092,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 8.771929824561404,
     "generation_gco2kwh": 8.771929824561404,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87116,7 +87116,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87140,7 +87140,7 @@ window.DATA_DETAIL = [
     "total_co2": 181100.0,
     "emission_factor": 967.7246980869937,
     "generation_gco2kwh": 967.7246980869937,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87164,7 +87164,7 @@ window.DATA_DETAIL = [
     "total_co2": 296980.0,
     "emission_factor": 578.4460762353675,
     "generation_gco2kwh": 578.4460762353675,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87188,7 +87188,7 @@ window.DATA_DETAIL = [
     "total_co2": 5100.0,
     "emission_factor": 23.772898895259406,
     "generation_gco2kwh": 23.772898895259406,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87212,7 +87212,7 @@ window.DATA_DETAIL = [
     "total_co2": 1230.0,
     "emission_factor": 5.530824227708081,
     "generation_gco2kwh": 5.530824227708081,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87236,7 +87236,7 @@ window.DATA_DETAIL = [
     "total_co2": 9140.0,
     "emission_factor": 658.027357811375,
     "generation_gco2kwh": 658.027357811375,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87260,7 +87260,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87284,7 +87284,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 11.627906976744185,
     "generation_gco2kwh": 11.627906976744185,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87308,7 +87308,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 214.2857142857143,
     "generation_gco2kwh": 214.2857142857143,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87332,7 +87332,7 @@ window.DATA_DETAIL = [
     "total_co2": 185820.0,
     "emission_factor": 968.0141696186705,
     "generation_gco2kwh": 968.0141696186705,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87356,7 +87356,7 @@ window.DATA_DETAIL = [
     "total_co2": 307490.0,
     "emission_factor": 578.4345077973626,
     "generation_gco2kwh": 578.4345077973626,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87380,7 +87380,7 @@ window.DATA_DETAIL = [
     "total_co2": 4700.0,
     "emission_factor": 23.777002074164013,
     "generation_gco2kwh": 23.777002074164013,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87404,7 +87404,7 @@ window.DATA_DETAIL = [
     "total_co2": 1240.0,
     "emission_factor": 5.5431381314260175,
     "generation_gco2kwh": 5.5431381314260175,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87428,7 +87428,7 @@ window.DATA_DETAIL = [
     "total_co2": 9590.0,
     "emission_factor": 657.7503429355281,
     "generation_gco2kwh": 657.7503429355281,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87452,7 +87452,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 45.833333333333336,
     "generation_gco2kwh": 45.833333333333336,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87476,7 +87476,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 11.904761904761905,
     "generation_gco2kwh": 11.904761904761905,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87500,7 +87500,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 211.76470588235296,
     "generation_gco2kwh": 211.76470588235296,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87524,7 +87524,7 @@ window.DATA_DETAIL = [
     "total_co2": 197480.0,
     "emission_factor": 967.7545819856905,
     "generation_gco2kwh": 967.7545819856905,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87548,7 +87548,7 @@ window.DATA_DETAIL = [
     "total_co2": 308510.0,
     "emission_factor": 578.4381738070686,
     "generation_gco2kwh": 578.4381738070686,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87572,7 +87572,7 @@ window.DATA_DETAIL = [
     "total_co2": 4770.0,
     "emission_factor": 23.7467018469657,
     "generation_gco2kwh": 23.7467018469657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87596,7 +87596,7 @@ window.DATA_DETAIL = [
     "total_co2": 1200.0,
     "emission_factor": 5.520287054926857,
     "generation_gco2kwh": 5.520287054926857,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87620,7 +87620,7 @@ window.DATA_DETAIL = [
     "total_co2": 9450.0,
     "emission_factor": 658.0779944289694,
     "generation_gco2kwh": 658.0779944289694,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87644,7 +87644,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 45.627376425855516,
     "generation_gco2kwh": 45.627376425855516,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87668,7 +87668,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 10.526315789473685,
     "generation_gco2kwh": 10.526315789473685,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87692,7 +87692,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 216.86746987951807,
     "generation_gco2kwh": 216.86746987951807,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87716,7 +87716,7 @@ window.DATA_DETAIL = [
     "total_co2": 208230.0,
     "emission_factor": 967.7464330529349,
     "generation_gco2kwh": 967.7464330529349,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87740,7 +87740,7 @@ window.DATA_DETAIL = [
     "total_co2": 315700.0,
     "emission_factor": 578.438198541537,
     "generation_gco2kwh": 578.438198541537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87764,7 +87764,7 @@ window.DATA_DETAIL = [
     "total_co2": 5000.0,
     "emission_factor": 23.74845635033723,
     "generation_gco2kwh": 23.74845635033723,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87788,7 +87788,7 @@ window.DATA_DETAIL = [
     "total_co2": 1190.0,
     "emission_factor": 5.516665894024384,
     "generation_gco2kwh": 5.516665894024384,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87812,7 +87812,7 @@ window.DATA_DETAIL = [
     "total_co2": 9070.0,
     "emission_factor": 657.7229876722263,
     "generation_gco2kwh": 657.7229876722263,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87836,7 +87836,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 47.945205479452056,
     "generation_gco2kwh": 47.945205479452056,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87860,7 +87860,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 10.940919037199125,
     "generation_gco2kwh": 10.940919037199125,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87884,7 +87884,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87908,7 +87908,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 571.4285714285714,
     "generation_gco2kwh": 571.4285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87932,7 +87932,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 18.867924528301884,
     "generation_gco2kwh": 18.867924528301884,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87956,7 +87956,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -87980,7 +87980,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88004,7 +88004,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88028,7 +88028,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 590.9090909090909,
     "generation_gco2kwh": 590.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88052,7 +88052,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 18.18181818181818,
     "generation_gco2kwh": 18.18181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88076,7 +88076,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88100,7 +88100,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88124,7 +88124,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88148,7 +88148,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 571.4285714285714,
     "generation_gco2kwh": 571.4285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88172,7 +88172,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.857142857142854,
     "generation_gco2kwh": 17.857142857142854,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88196,7 +88196,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88220,7 +88220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88244,7 +88244,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88268,7 +88268,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 590.9090909090909,
     "generation_gco2kwh": 590.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88292,7 +88292,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 17.857142857142854,
     "generation_gco2kwh": 17.857142857142854,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88316,7 +88316,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 684.2105263157895,
     "generation_gco2kwh": 684.2105263157895,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88340,7 +88340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88364,7 +88364,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88388,7 +88388,7 @@ window.DATA_DETAIL = [
     "total_co2": 1740.0,
     "emission_factor": 910.9947643979058,
     "generation_gco2kwh": 910.9947643979058,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88412,7 +88412,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88436,7 +88436,7 @@ window.DATA_DETAIL = [
     "total_co2": 630.0,
     "emission_factor": 663.1578947368421,
     "generation_gco2kwh": 663.1578947368421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88460,7 +88460,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88484,7 +88484,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88508,7 +88508,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 208.33333333333334,
     "generation_gco2kwh": 208.33333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88532,7 +88532,7 @@ window.DATA_DETAIL = [
     "total_co2": 850.0,
     "emission_factor": 913.9784946236558,
     "generation_gco2kwh": 913.9784946236558,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88556,7 +88556,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 27.77777777777778,
     "generation_gco2kwh": 27.77777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88580,7 +88580,7 @@ window.DATA_DETAIL = [
     "total_co2": 850.0,
     "emission_factor": 658.9147286821706,
     "generation_gco2kwh": 658.9147286821706,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88604,7 +88604,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 37.03703703703704,
     "generation_gco2kwh": 37.03703703703704,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88628,7 +88628,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88652,7 +88652,7 @@ window.DATA_DETAIL = [
     "total_co2": 850.0,
     "emission_factor": 913.9784946236558,
     "generation_gco2kwh": 913.9784946236558,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88676,7 +88676,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 15.873015873015873,
     "generation_gco2kwh": 15.873015873015873,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88700,7 +88700,7 @@ window.DATA_DETAIL = [
     "total_co2": 850.0,
     "emission_factor": 658.9147286821706,
     "generation_gco2kwh": 658.9147286821706,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88724,7 +88724,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 37.03703703703704,
     "generation_gco2kwh": 37.03703703703704,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88748,7 +88748,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88772,7 +88772,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88796,7 +88796,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88820,7 +88820,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88844,7 +88844,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88868,7 +88868,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88892,7 +88892,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88916,7 +88916,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88940,7 +88940,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88964,7 +88964,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 648.6486486486486,
     "generation_gco2kwh": 648.6486486486486,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -88988,7 +88988,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89012,7 +89012,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89036,7 +89036,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89060,7 +89060,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89084,7 +89084,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89108,7 +89108,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89132,7 +89132,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89156,7 +89156,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89180,7 +89180,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89204,7 +89204,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89228,7 +89228,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89252,7 +89252,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89276,7 +89276,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89300,7 +89300,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89324,7 +89324,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89348,7 +89348,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89372,7 +89372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89396,7 +89396,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 636.3636363636364,
     "generation_gco2kwh": 636.3636363636364,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89420,7 +89420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89444,7 +89444,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89468,7 +89468,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89492,7 +89492,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89516,7 +89516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89540,7 +89540,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89564,7 +89564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89588,7 +89588,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89612,7 +89612,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89636,7 +89636,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89660,7 +89660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89684,7 +89684,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89708,7 +89708,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89732,7 +89732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89756,7 +89756,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89780,7 +89780,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89804,7 +89804,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89828,7 +89828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89852,7 +89852,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89876,7 +89876,7 @@ window.DATA_DETAIL = [
     "total_co2": 169650.0,
     "emission_factor": 732.6078507578702,
     "generation_gco2kwh": 732.6078507578702,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89900,7 +89900,7 @@ window.DATA_DETAIL = [
     "total_co2": 97650.0,
     "emission_factor": 657.9745300181928,
     "generation_gco2kwh": 657.9745300181928,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89924,7 +89924,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 43.956043956043956,
     "generation_gco2kwh": 43.956043956043956,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89948,7 +89948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89972,7 +89972,7 @@ window.DATA_DETAIL = [
     "total_co2": 177360.0,
     "emission_factor": 732.6200999628237,
     "generation_gco2kwh": 732.6200999628237,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -89996,7 +89996,7 @@ window.DATA_DETAIL = [
     "total_co2": 98610.0,
     "emission_factor": 658.0141465367676,
     "generation_gco2kwh": 658.0141465367676,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90020,7 +90020,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 50.505050505050505,
     "generation_gco2kwh": 50.505050505050505,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90044,7 +90044,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90068,7 +90068,7 @@ window.DATA_DETAIL = [
     "total_co2": 181570.0,
     "emission_factor": 732.6097482246611,
     "generation_gco2kwh": 732.6097482246611,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90092,7 +90092,7 @@ window.DATA_DETAIL = [
     "total_co2": 105270.0,
     "emission_factor": 657.978623663979,
     "generation_gco2kwh": 657.978623663979,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90116,7 +90116,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 49.18032786885246,
     "generation_gco2kwh": 49.18032786885246,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90140,7 +90140,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 12.658227848101266,
     "generation_gco2kwh": 12.658227848101266,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90164,7 +90164,7 @@ window.DATA_DETAIL = [
     "total_co2": 194510.0,
     "emission_factor": 732.6177024482109,
     "generation_gco2kwh": 732.6177024482109,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90188,7 +90188,7 @@ window.DATA_DETAIL = [
     "total_co2": 104640.0,
     "emission_factor": 657.9890586681759,
     "generation_gco2kwh": 657.9890586681759,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90212,7 +90212,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 47.92332268370607,
     "generation_gco2kwh": 47.92332268370607,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90236,7 +90236,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 12.578616352201257,
     "generation_gco2kwh": 12.578616352201257,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90260,7 +90260,7 @@ window.DATA_DETAIL = [
     "total_co2": 210980.0,
     "emission_factor": 732.620320855615,
     "generation_gco2kwh": 732.620320855615,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90284,7 +90284,7 @@ window.DATA_DETAIL = [
     "total_co2": 103200.0,
     "emission_factor": 657.9954093343534,
     "generation_gco2kwh": 657.9954093343534,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90308,7 +90308,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 47.38760631834751,
     "generation_gco2kwh": 47.38760631834751,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90332,7 +90332,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 12.578616352201257,
     "generation_gco2kwh": 12.578616352201257,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90356,7 +90356,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90380,7 +90380,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 866.6666666666667,
     "generation_gco2kwh": 866.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90404,7 +90404,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90428,7 +90428,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90452,7 +90452,7 @@ window.DATA_DETAIL = [
     "total_co2": 3180.0,
     "emission_factor": 657.0247933884298,
     "generation_gco2kwh": 657.0247933884298,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90476,7 +90476,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90500,7 +90500,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90524,7 +90524,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90548,7 +90548,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 850.0,
     "generation_gco2kwh": 850.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90572,7 +90572,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90596,7 +90596,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90620,7 +90620,7 @@ window.DATA_DETAIL = [
     "total_co2": 3220.0,
     "emission_factor": 658.4867075664622,
     "generation_gco2kwh": 658.4867075664622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90644,7 +90644,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 55.55555555555555,
     "generation_gco2kwh": 55.55555555555555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90668,7 +90668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90692,7 +90692,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90716,7 +90716,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 851.0638297872341,
     "generation_gco2kwh": 851.0638297872341,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90740,7 +90740,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90764,7 +90764,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90788,7 +90788,7 @@ window.DATA_DETAIL = [
     "total_co2": 3460.0,
     "emission_factor": 657.7946768060837,
     "generation_gco2kwh": 657.7946768060837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90812,7 +90812,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 50.847457627118644,
     "generation_gco2kwh": 50.847457627118644,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90836,7 +90836,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 13.513513513513514,
     "generation_gco2kwh": 13.513513513513514,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90860,7 +90860,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90884,7 +90884,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 851.0638297872341,
     "generation_gco2kwh": 851.0638297872341,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90908,7 +90908,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90932,7 +90932,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 32.25806451612903,
     "generation_gco2kwh": 32.25806451612903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90956,7 +90956,7 @@ window.DATA_DETAIL = [
     "total_co2": 3820.0,
     "emission_factor": 657.487091222031,
     "generation_gco2kwh": 657.487091222031,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -90980,7 +90980,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 50.847457627118644,
     "generation_gco2kwh": 50.847457627118644,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91004,7 +91004,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 13.513513513513514,
     "generation_gco2kwh": 13.513513513513514,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91028,7 +91028,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91052,7 +91052,7 @@ window.DATA_DETAIL = [
     "total_co2": 26870.0,
     "emission_factor": 1015.4950869236583,
     "generation_gco2kwh": 1015.4950869236583,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91076,7 +91076,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 411.7647058823529,
     "generation_gco2kwh": 411.7647058823529,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91100,7 +91100,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 23.385300668151448,
     "generation_gco2kwh": 23.385300668151448,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -91124,7 +91124,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 600.0,
     "generation_gco2kwh": 600.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91148,7 +91148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -91172,7 +91172,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 10.204081632653061,
     "generation_gco2kwh": 10.204081632653061,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91196,7 +91196,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91220,7 +91220,7 @@ window.DATA_DETAIL = [
     "total_co2": 24140.0,
     "emission_factor": 1015.5658392932268,
     "generation_gco2kwh": 1015.5658392932268,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91244,7 +91244,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 411.21495327102804,
     "generation_gco2kwh": 411.21495327102804,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91268,7 +91268,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 24.085637823371986,
     "generation_gco2kwh": 24.085637823371986,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -91292,7 +91292,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -91316,7 +91316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -91340,7 +91340,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 9.25925925925926,
     "generation_gco2kwh": 9.25925925925926,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92012,7 +92012,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92036,7 +92036,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92060,7 +92060,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92084,7 +92084,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92108,7 +92108,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92132,7 +92132,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92156,7 +92156,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92180,7 +92180,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92204,7 +92204,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92228,7 +92228,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92252,7 +92252,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92276,7 +92276,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92300,7 +92300,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92324,7 +92324,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92348,7 +92348,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92372,7 +92372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92396,7 +92396,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92420,7 +92420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92444,7 +92444,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92468,7 +92468,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92492,7 +92492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92516,7 +92516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92540,7 +92540,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92564,7 +92564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92588,7 +92588,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 226.89075630252103,
     "generation_gco2kwh": 226.89075630252103,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92612,7 +92612,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 962.2641509433962,
     "generation_gco2kwh": 962.2641509433962,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92636,7 +92636,7 @@ window.DATA_DETAIL = [
     "total_co2": 25840.0,
     "emission_factor": 508.2612116443745,
     "generation_gco2kwh": 508.2612116443745,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92660,7 +92660,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 714.2857142857143,
     "generation_gco2kwh": 714.2857142857143,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92684,7 +92684,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -92708,7 +92708,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 229.5081967213115,
     "generation_gco2kwh": 229.5081967213115,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92732,7 +92732,7 @@ window.DATA_DETAIL = [
     "total_co2": 650.0,
     "emission_factor": 970.1492537313433,
     "generation_gco2kwh": 970.1492537313433,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92756,7 +92756,7 @@ window.DATA_DETAIL = [
     "total_co2": 26900.0,
     "emission_factor": 508.12240272006045,
     "generation_gco2kwh": 508.12240272006045,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92780,7 +92780,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 696.4285714285713,
     "generation_gco2kwh": 696.4285714285713,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92804,7 +92804,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -92828,7 +92828,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 228.91566265060243,
     "generation_gco2kwh": 228.91566265060243,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92852,7 +92852,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 964.9122807017544,
     "generation_gco2kwh": 964.9122807017544,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92876,7 +92876,7 @@ window.DATA_DETAIL = [
     "total_co2": 26700.0,
     "emission_factor": 508.18424057860676,
     "generation_gco2kwh": 508.18424057860676,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92900,7 +92900,7 @@ window.DATA_DETAIL = [
     "total_co2": 1040.0,
     "emission_factor": 702.7027027027027,
     "generation_gco2kwh": 702.7027027027027,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92924,7 +92924,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 44.776119402985074,
     "generation_gco2kwh": 44.776119402985074,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -92948,7 +92948,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 228.91566265060243,
     "generation_gco2kwh": 228.91566265060243,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92972,7 +92972,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 964.9122807017544,
     "generation_gco2kwh": 964.9122807017544,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -92996,7 +92996,7 @@ window.DATA_DETAIL = [
     "total_co2": 26970.0,
     "emission_factor": 508.29249905767057,
     "generation_gco2kwh": 508.29249905767057,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93020,7 +93020,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 697.2477064220183,
     "generation_gco2kwh": 697.2477064220183,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93044,7 +93044,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 53.19148936170213,
     "generation_gco2kwh": 53.19148936170213,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -93068,7 +93068,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 228.91566265060243,
     "generation_gco2kwh": 228.91566265060243,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -93092,7 +93092,7 @@ window.DATA_DETAIL = [
     "total_co2": 550.0,
     "emission_factor": 964.9122807017544,
     "generation_gco2kwh": 964.9122807017544,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93116,7 +93116,7 @@ window.DATA_DETAIL = [
     "total_co2": 27920.0,
     "emission_factor": 508.28326961587476,
     "generation_gco2kwh": 508.28326961587476,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93140,7 +93140,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 700.8547008547009,
     "generation_gco2kwh": 700.8547008547009,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93164,7 +93164,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 46.875,
     "generation_gco2kwh": 46.875,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -93188,7 +93188,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 215.5688622754491,
     "generation_gco2kwh": 215.5688622754491,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -93212,7 +93212,7 @@ window.DATA_DETAIL = [
     "total_co2": 1860.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93236,7 +93236,7 @@ window.DATA_DETAIL = [
     "total_co2": 1570.0,
     "emission_factor": 439.77591036414566,
     "generation_gco2kwh": 439.77591036414566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93260,7 +93260,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 24.33628318584071,
     "generation_gco2kwh": 24.33628318584071,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -93284,7 +93284,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 4.533678756476684,
     "generation_gco2kwh": 4.533678756476684,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93308,7 +93308,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93332,7 +93332,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -93356,7 +93356,7 @@ window.DATA_DETAIL = [
     "total_co2": 400.0,
     "emission_factor": 217.39130434782606,
     "generation_gco2kwh": 217.39130434782606,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -93380,7 +93380,7 @@ window.DATA_DETAIL = [
     "total_co2": 1700.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93404,7 +93404,7 @@ window.DATA_DETAIL = [
     "total_co2": 1920.0,
     "emission_factor": 439.3592677345538,
     "generation_gco2kwh": 439.3592677345538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93428,7 +93428,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 23.474178403755868,
     "generation_gco2kwh": 23.474178403755868,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -93452,7 +93452,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 5.085823267641449,
     "generation_gco2kwh": 5.085823267641449,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93476,7 +93476,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 654.8672566371682,
     "generation_gco2kwh": 654.8672566371682,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -93500,7 +93500,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 44.776119402985074,
     "generation_gco2kwh": 44.776119402985074,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94244,7 +94244,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94268,7 +94268,7 @@ window.DATA_DETAIL = [
     "total_co2": 4230.0,
     "emission_factor": 970.183486238532,
     "generation_gco2kwh": 970.183486238532,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94292,7 +94292,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 362.0689655172414,
     "generation_gco2kwh": 362.0689655172414,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94316,7 +94316,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 24.34077079107505,
     "generation_gco2kwh": 24.34077079107505,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94340,7 +94340,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 4.724409448818898,
     "generation_gco2kwh": 4.724409448818898,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94364,7 +94364,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94388,7 +94388,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 54.054054054054056,
     "generation_gco2kwh": 54.054054054054056,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94412,7 +94412,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94436,7 +94436,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94460,7 +94460,7 @@ window.DATA_DETAIL = [
     "total_co2": 3740.0,
     "emission_factor": 971.4285714285714,
     "generation_gco2kwh": 971.4285714285714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94484,7 +94484,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 365.38461538461536,
     "generation_gco2kwh": 365.38461538461536,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94508,7 +94508,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 23.35456475583864,
     "generation_gco2kwh": 23.35456475583864,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94532,7 +94532,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 5.253940455341506,
     "generation_gco2kwh": 5.253940455341506,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94556,7 +94556,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -94580,7 +94580,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -94604,7 +94604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -95348,7 +95348,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95372,7 +95372,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95396,7 +95396,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95420,7 +95420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95444,7 +95444,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95468,7 +95468,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95492,7 +95492,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95516,7 +95516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95540,7 +95540,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95564,7 +95564,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95588,7 +95588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95612,7 +95612,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95636,7 +95636,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95660,7 +95660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95684,7 +95684,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95708,7 +95708,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 647.0588235294117,
     "generation_gco2kwh": 647.0588235294117,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95732,7 +95732,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95756,7 +95756,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95804,7 +95804,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95828,7 +95828,7 @@ window.DATA_DETAIL = [
     "total_co2": 182180.0,
     "emission_factor": 850.990284005979,
     "generation_gco2kwh": 850.990284005979,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95852,7 +95852,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95876,7 +95876,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 5.05050505050505,
     "generation_gco2kwh": 5.05050505050505,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95900,7 +95900,7 @@ window.DATA_DETAIL = [
     "total_co2": 980.0,
     "emission_factor": 657.7181208053692,
     "generation_gco2kwh": 657.7181208053692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -95924,7 +95924,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 47.368421052631575,
     "generation_gco2kwh": 47.368421052631575,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95948,7 +95948,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 9.360374414976599,
     "generation_gco2kwh": 9.360374414976599,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95972,7 +95972,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95996,7 +95996,7 @@ window.DATA_DETAIL = [
     "total_co2": 179210.0,
     "emission_factor": 849.6586383462925,
     "generation_gco2kwh": 849.6586383462925,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96020,7 +96020,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 24.752475247524753,
     "generation_gco2kwh": 24.752475247524753,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96044,7 +96044,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 4.858299595141701,
     "generation_gco2kwh": 4.858299595141701,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96068,7 +96068,7 @@ window.DATA_DETAIL = [
     "total_co2": 2150.0,
     "emission_factor": 657.4923547400612,
     "generation_gco2kwh": 657.4923547400612,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96092,7 +96092,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 47.1976401179941,
     "generation_gco2kwh": 47.1976401179941,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96116,7 +96116,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 9.248554913294797,
     "generation_gco2kwh": 9.248554913294797,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96140,7 +96140,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96164,7 +96164,7 @@ window.DATA_DETAIL = [
     "total_co2": 171150.0,
     "emission_factor": 848.2430490162066,
     "generation_gco2kwh": 848.2430490162066,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96188,7 +96188,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 22.58064516129032,
     "generation_gco2kwh": 22.58064516129032,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96212,7 +96212,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.9504950495049505,
     "generation_gco2kwh": 4.9504950495049505,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96236,7 +96236,7 @@ window.DATA_DETAIL = [
     "total_co2": 2420.0,
     "emission_factor": 657.6086956521739,
     "generation_gco2kwh": 657.6086956521739,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96260,7 +96260,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 47.38400789733465,
     "generation_gco2kwh": 47.38400789733465,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96284,7 +96284,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 9.278350515463918,
     "generation_gco2kwh": 9.278350515463918,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96308,7 +96308,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96332,7 +96332,7 @@ window.DATA_DETAIL = [
     "total_co2": 163000.0,
     "emission_factor": 847.6779863747465,
     "generation_gco2kwh": 847.6779863747465,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96356,7 +96356,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 25.0,
     "generation_gco2kwh": 25.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96380,7 +96380,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 4.938271604938272,
     "generation_gco2kwh": 4.938271604938272,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96404,7 +96404,7 @@ window.DATA_DETAIL = [
     "total_co2": 2420.0,
     "emission_factor": 657.6086956521739,
     "generation_gco2kwh": 657.6086956521739,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96428,7 +96428,7 @@ window.DATA_DETAIL = [
     "total_co2": 740.0,
     "emission_factor": 47.527296082209375,
     "generation_gco2kwh": 47.527296082209375,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96452,7 +96452,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 9.482758620689655,
     "generation_gco2kwh": 9.482758620689655,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96476,7 +96476,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96500,7 +96500,7 @@ window.DATA_DETAIL = [
     "total_co2": 175310.0,
     "emission_factor": 847.6862820946762,
     "generation_gco2kwh": 847.6862820946762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96524,7 +96524,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 27.27272727272727,
     "generation_gco2kwh": 27.27272727272727,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96548,7 +96548,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 5.128205128205129,
     "generation_gco2kwh": 5.128205128205129,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96572,7 +96572,7 @@ window.DATA_DETAIL = [
     "total_co2": 1280.0,
     "emission_factor": 659.7938144329897,
     "generation_gco2kwh": 659.7938144329897,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96596,7 +96596,7 @@ window.DATA_DETAIL = [
     "total_co2": 940.0,
     "emission_factor": 47.35516372795969,
     "generation_gco2kwh": 47.35516372795969,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96620,7 +96620,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 9.90990990990991,
     "generation_gco2kwh": 9.90990990990991,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96644,7 +96644,7 @@ window.DATA_DETAIL = [
     "total_co2": 3030.0,
     "emission_factor": 215.96578759800428,
     "generation_gco2kwh": 215.96578759800428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96668,7 +96668,7 @@ window.DATA_DETAIL = [
     "total_co2": 171530.0,
     "emission_factor": 824.7824205414242,
     "generation_gco2kwh": 824.7824205414242,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96692,7 +96692,7 @@ window.DATA_DETAIL = [
     "total_co2": 83690.0,
     "emission_factor": 514.8886427956196,
     "generation_gco2kwh": 514.8886427956196,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96716,7 +96716,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 23.195876288659793,
     "generation_gco2kwh": 23.195876288659793,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96740,7 +96740,7 @@ window.DATA_DETAIL = [
     "total_co2": 840.0,
     "emission_factor": 5.244100387064552,
     "generation_gco2kwh": 5.244100387064552,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96764,7 +96764,7 @@ window.DATA_DETAIL = [
     "total_co2": 3960.0,
     "emission_factor": 657.8073089700997,
     "generation_gco2kwh": 657.8073089700997,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96788,7 +96788,7 @@ window.DATA_DETAIL = [
     "total_co2": 920.0,
     "emission_factor": 47.569803516028955,
     "generation_gco2kwh": 47.569803516028955,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96812,7 +96812,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 12.6984126984127,
     "generation_gco2kwh": 12.6984126984127,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96836,7 +96836,7 @@ window.DATA_DETAIL = [
     "total_co2": 3710.0,
     "emission_factor": 216.3265306122449,
     "generation_gco2kwh": 216.3265306122449,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96860,7 +96860,7 @@ window.DATA_DETAIL = [
     "total_co2": 175420.0,
     "emission_factor": 822.3326457903619,
     "generation_gco2kwh": 822.3326457903619,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96884,7 +96884,7 @@ window.DATA_DETAIL = [
     "total_co2": 93320.0,
     "emission_factor": 514.9257849141975,
     "generation_gco2kwh": 514.9257849141975,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96908,7 +96908,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 22.95081967213115,
     "generation_gco2kwh": 22.95081967213115,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96932,7 +96932,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 5.252832099234226,
     "generation_gco2kwh": 5.252832099234226,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96956,7 +96956,7 @@ window.DATA_DETAIL = [
     "total_co2": 4670.0,
     "emission_factor": 657.7464788732394,
     "generation_gco2kwh": 657.7464788732394,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -96980,7 +96980,7 @@ window.DATA_DETAIL = [
     "total_co2": 1170.0,
     "emission_factor": 47.33009708737864,
     "generation_gco2kwh": 47.33009708737864,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97004,7 +97004,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 12.578616352201257,
     "generation_gco2kwh": 12.578616352201257,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97028,7 +97028,7 @@ window.DATA_DETAIL = [
     "total_co2": 3860.0,
     "emission_factor": 216.24649859943975,
     "generation_gco2kwh": 216.24649859943975,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97052,7 +97052,7 @@ window.DATA_DETAIL = [
     "total_co2": 171720.0,
     "emission_factor": 820.7628333811299,
     "generation_gco2kwh": 820.7628333811299,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97076,7 +97076,7 @@ window.DATA_DETAIL = [
     "total_co2": 89960.0,
     "emission_factor": 514.9104229866635,
     "generation_gco2kwh": 514.9104229866635,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97100,7 +97100,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 22.598870056497177,
     "generation_gco2kwh": 22.598870056497177,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97124,7 +97124,7 @@ window.DATA_DETAIL = [
     "total_co2": 920.0,
     "emission_factor": 5.225788128372621,
     "generation_gco2kwh": 5.225788128372621,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97148,7 +97148,7 @@ window.DATA_DETAIL = [
     "total_co2": 4680.0,
     "emission_factor": 657.3033707865169,
     "generation_gco2kwh": 657.3033707865169,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97172,7 +97172,7 @@ window.DATA_DETAIL = [
     "total_co2": 1460.0,
     "emission_factor": 47.51057598438008,
     "generation_gco2kwh": 47.51057598438008,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97196,7 +97196,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 11.869436201780415,
     "generation_gco2kwh": 11.869436201780415,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97220,7 +97220,7 @@ window.DATA_DETAIL = [
     "total_co2": 4050.0,
     "emission_factor": 216.34615384615387,
     "generation_gco2kwh": 216.34615384615387,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97244,7 +97244,7 @@ window.DATA_DETAIL = [
     "total_co2": 165240.0,
     "emission_factor": 820.7013012814145,
     "generation_gco2kwh": 820.7013012814145,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97268,7 +97268,7 @@ window.DATA_DETAIL = [
     "total_co2": 87330.0,
     "emission_factor": 514.887093921349,
     "generation_gco2kwh": 514.887093921349,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97292,7 +97292,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 24.193548387096772,
     "generation_gco2kwh": 24.193548387096772,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97316,7 +97316,7 @@ window.DATA_DETAIL = [
     "total_co2": 950.0,
     "emission_factor": 5.263449498587179,
     "generation_gco2kwh": 5.263449498587179,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97340,7 +97340,7 @@ window.DATA_DETAIL = [
     "total_co2": 4590.0,
     "emission_factor": 657.593123209169,
     "generation_gco2kwh": 657.593123209169,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97364,7 +97364,7 @@ window.DATA_DETAIL = [
     "total_co2": 1580.0,
     "emission_factor": 47.533092659446446,
     "generation_gco2kwh": 47.533092659446446,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97388,7 +97388,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 11.799410029498524,
     "generation_gco2kwh": 11.799410029498524,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97412,7 +97412,7 @@ window.DATA_DETAIL = [
     "total_co2": 4400.0,
     "emission_factor": 216.32251720747297,
     "generation_gco2kwh": 216.32251720747297,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97436,7 +97436,7 @@ window.DATA_DETAIL = [
     "total_co2": 156570.0,
     "emission_factor": 820.683509801866,
     "generation_gco2kwh": 820.683509801866,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97460,7 +97460,7 @@ window.DATA_DETAIL = [
     "total_co2": 91830.0,
     "emission_factor": 514.8864592094197,
     "generation_gco2kwh": 514.8864592094197,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97484,7 +97484,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 23.255813953488374,
     "generation_gco2kwh": 23.255813953488374,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97508,7 +97508,7 @@ window.DATA_DETAIL = [
     "total_co2": 990.0,
     "emission_factor": 5.245033112582782,
     "generation_gco2kwh": 5.245033112582782,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97532,7 +97532,7 @@ window.DATA_DETAIL = [
     "total_co2": 4460.0,
     "emission_factor": 657.8171091445428,
     "generation_gco2kwh": 657.8171091445428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97556,7 +97556,7 @@ window.DATA_DETAIL = [
     "total_co2": 1550.0,
     "emission_factor": 47.37163814180929,
     "generation_gco2kwh": 47.37163814180929,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97580,7 +97580,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 11.904761904761905,
     "generation_gco2kwh": 11.904761904761905,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97604,7 +97604,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 654.5454545454545,
     "generation_gco2kwh": 654.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97628,7 +97628,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97652,7 +97652,7 @@ window.DATA_DETAIL = [
     "total_co2": 370.0,
     "emission_factor": 660.7142857142857,
     "generation_gco2kwh": 660.7142857142857,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97676,7 +97676,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -97700,7 +97700,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97724,7 +97724,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -97748,7 +97748,7 @@ window.DATA_DETAIL = [
     "total_co2": 360.0,
     "emission_factor": 654.5454545454545,
     "generation_gco2kwh": 654.5454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97772,7 +97772,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97820,7 +97820,7 @@ window.DATA_DETAIL = [
     "total_co2": 1330.0,
     "emission_factor": 216.6123778501629,
     "generation_gco2kwh": 216.6123778501629,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97844,7 +97844,7 @@ window.DATA_DETAIL = [
     "total_co2": 5310.0,
     "emission_factor": 961.9565217391305,
     "generation_gco2kwh": 961.9565217391305,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97868,7 +97868,7 @@ window.DATA_DETAIL = [
     "total_co2": 34380.0,
     "emission_factor": 492.9739030685403,
     "generation_gco2kwh": 492.9739030685403,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97892,7 +97892,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 23.59882005899705,
     "generation_gco2kwh": 23.59882005899705,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -97916,7 +97916,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 4.802744425385935,
     "generation_gco2kwh": 4.802744425385935,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97940,7 +97940,7 @@ window.DATA_DETAIL = [
     "total_co2": 7970.0,
     "emission_factor": 657.5907590759076,
     "generation_gco2kwh": 657.5907590759076,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97964,7 +97964,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -97988,7 +97988,7 @@ window.DATA_DETAIL = [
     "total_co2": 980.0,
     "emission_factor": 47.41170778906628,
     "generation_gco2kwh": 47.41170778906628,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -98012,7 +98012,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 12.225372076541461,
     "generation_gco2kwh": 12.225372076541461,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -98036,7 +98036,7 @@ window.DATA_DETAIL = [
     "total_co2": 1500.0,
     "emission_factor": 216.13832853025934,
     "generation_gco2kwh": 216.13832853025934,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98060,7 +98060,7 @@ window.DATA_DETAIL = [
     "total_co2": 4680.0,
     "emission_factor": 962.9629629629629,
     "generation_gco2kwh": 962.9629629629629,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98084,7 +98084,7 @@ window.DATA_DETAIL = [
     "total_co2": 35250.0,
     "emission_factor": 493.006993006993,
     "generation_gco2kwh": 493.006993006993,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98108,7 +98108,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 23.62470469119136,
     "generation_gco2kwh": 23.62470469119136,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -98132,7 +98132,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 4.773691654879774,
     "generation_gco2kwh": 4.773691654879774,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98156,7 +98156,7 @@ window.DATA_DETAIL = [
     "total_co2": 7950.0,
     "emission_factor": 658.1125827814569,
     "generation_gco2kwh": 658.1125827814569,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98180,7 +98180,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98204,7 +98204,7 @@ window.DATA_DETAIL = [
     "total_co2": 1290.0,
     "emission_factor": 47.601476014760145,
     "generation_gco2kwh": 47.601476014760145,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -98228,7 +98228,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 12.246213341927167,
     "generation_gco2kwh": 12.246213341927167,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -98948,7 +98948,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98972,7 +98972,7 @@ window.DATA_DETAIL = [
     "total_co2": 5490.0,
     "emission_factor": 863.2075471698113,
     "generation_gco2kwh": 863.2075471698113,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -98996,7 +98996,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 24.096385542168672,
     "generation_gco2kwh": 24.096385542168672,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99020,7 +99020,7 @@ window.DATA_DETAIL = [
     "total_co2": 2810.0,
     "emission_factor": 658.0796252927402,
     "generation_gco2kwh": 658.0796252927402,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99044,7 +99044,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99068,7 +99068,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99092,7 +99092,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99116,7 +99116,7 @@ window.DATA_DETAIL = [
     "total_co2": 5280.0,
     "emission_factor": 864.1571194762683,
     "generation_gco2kwh": 864.1571194762683,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99140,7 +99140,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.513139695712308,
     "generation_gco2kwh": 23.513139695712308,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99164,7 +99164,7 @@ window.DATA_DETAIL = [
     "total_co2": 1810.0,
     "emission_factor": 658.1818181818181,
     "generation_gco2kwh": 658.1818181818181,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99188,7 +99188,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99212,7 +99212,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99236,7 +99236,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 15.384615384615383,
     "generation_gco2kwh": 15.384615384615383,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99260,7 +99260,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 227.27272727272728,
     "generation_gco2kwh": 227.27272727272728,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99284,7 +99284,7 @@ window.DATA_DETAIL = [
     "total_co2": 6100.0,
     "emission_factor": 864.0226628895184,
     "generation_gco2kwh": 864.0226628895184,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99308,7 +99308,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 23.48336594911937,
     "generation_gco2kwh": 23.48336594911937,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99332,7 +99332,7 @@ window.DATA_DETAIL = [
     "total_co2": 2550.0,
     "emission_factor": 657.2164948453609,
     "generation_gco2kwh": 657.2164948453609,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99356,7 +99356,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 44.11764705882353,
     "generation_gco2kwh": 44.11764705882353,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99380,7 +99380,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99404,7 +99404,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 166.66666666666669,
     "generation_gco2kwh": 166.66666666666669,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99428,7 +99428,7 @@ window.DATA_DETAIL = [
     "total_co2": 4500.0,
     "emission_factor": 863.7236084452975,
     "generation_gco2kwh": 863.7236084452975,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99452,7 +99452,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 23.102310231023104,
     "generation_gco2kwh": 23.102310231023104,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99476,7 +99476,7 @@ window.DATA_DETAIL = [
     "total_co2": 2130.0,
     "emission_factor": 659.4427244582043,
     "generation_gco2kwh": 659.4427244582043,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99500,7 +99500,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99524,7 +99524,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 51.02040816326531,
     "generation_gco2kwh": 51.02040816326531,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99548,7 +99548,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 11.235955056179774,
     "generation_gco2kwh": 11.235955056179774,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99572,7 +99572,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99596,7 +99596,7 @@ window.DATA_DETAIL = [
     "total_co2": 4900.0,
     "emission_factor": 864.1975308641976,
     "generation_gco2kwh": 864.1975308641976,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99620,7 +99620,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.97743300423131,
     "generation_gco2kwh": 23.97743300423131,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99644,7 +99644,7 @@ window.DATA_DETAIL = [
     "total_co2": 1300.0,
     "emission_factor": 656.5656565656566,
     "generation_gco2kwh": 656.5656565656566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99668,7 +99668,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99692,7 +99692,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99716,7 +99716,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 10.638297872340425,
     "generation_gco2kwh": 10.638297872340425,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99740,7 +99740,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99764,7 +99764,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 23.614895549500453,
     "generation_gco2kwh": 23.614895549500453,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99788,7 +99788,7 @@ window.DATA_DETAIL = [
     "total_co2": 3980.0,
     "emission_factor": 657.8512396694215,
     "generation_gco2kwh": 657.8512396694215,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99812,7 +99812,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99836,7 +99836,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99860,7 +99860,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 23.744292237442924,
     "generation_gco2kwh": 23.744292237442924,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99884,7 +99884,7 @@ window.DATA_DETAIL = [
     "total_co2": 4350.0,
     "emission_factor": 658.0937972768533,
     "generation_gco2kwh": 658.0937972768533,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99908,7 +99908,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99932,7 +99932,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99956,7 +99956,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 23.72881355932203,
     "generation_gco2kwh": 23.72881355932203,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -99980,7 +99980,7 @@ window.DATA_DETAIL = [
     "total_co2": 3120.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100004,7 +100004,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100028,7 +100028,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100052,7 +100052,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 23.47826086956522,
     "generation_gco2kwh": 23.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100076,7 +100076,7 @@ window.DATA_DETAIL = [
     "total_co2": 3290.0,
     "emission_factor": 658.0,
     "generation_gco2kwh": 658.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100100,7 +100100,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100124,7 +100124,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100148,7 +100148,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100172,7 +100172,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 20.61855670103093,
     "generation_gco2kwh": 20.61855670103093,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100196,7 +100196,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100220,7 +100220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100244,7 +100244,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100268,7 +100268,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100292,7 +100292,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 20.2020202020202,
     "generation_gco2kwh": 20.2020202020202,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100316,7 +100316,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100340,7 +100340,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100364,7 +100364,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100388,7 +100388,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100412,7 +100412,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 21.73913043478261,
     "generation_gco2kwh": 21.73913043478261,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100436,7 +100436,7 @@ window.DATA_DETAIL = [
     "total_co2": 760.0,
     "emission_factor": 660.8695652173914,
     "generation_gco2kwh": 660.8695652173914,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100460,7 +100460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100484,7 +100484,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100508,7 +100508,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100532,7 +100532,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 22.22222222222222,
     "generation_gco2kwh": 22.22222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100556,7 +100556,7 @@ window.DATA_DETAIL = [
     "total_co2": 790.0,
     "emission_factor": 658.3333333333334,
     "generation_gco2kwh": 658.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100580,7 +100580,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -100628,7 +100628,7 @@ window.DATA_DETAIL = [
     "total_co2": 2420.0,
     "emission_factor": 216.45796064400716,
     "generation_gco2kwh": 216.45796064400716,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100676,7 +100676,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 300.0,
     "generation_gco2kwh": 300.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100700,7 +100700,7 @@ window.DATA_DETAIL = [
     "total_co2": 1720.0,
     "emission_factor": 23.760187871252935,
     "generation_gco2kwh": 23.760187871252935,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100724,7 +100724,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 4.878048780487805,
     "generation_gco2kwh": 4.878048780487805,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100748,7 +100748,7 @@ window.DATA_DETAIL = [
     "total_co2": 1540.0,
     "emission_factor": 658.1196581196582,
     "generation_gco2kwh": 658.1196581196582,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100796,7 +100796,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -100820,7 +100820,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 12.354651162790699,
     "generation_gco2kwh": 12.354651162790699,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100844,7 +100844,7 @@ window.DATA_DETAIL = [
     "total_co2": 2830.0,
     "emission_factor": 216.36085626911316,
     "generation_gco2kwh": 216.36085626911316,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100868,7 +100868,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 310.3448275862069,
     "generation_gco2kwh": 310.3448275862069,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100892,7 +100892,7 @@ window.DATA_DETAIL = [
     "total_co2": 1760.0,
     "emission_factor": 23.81919068886182,
     "generation_gco2kwh": 23.81919068886182,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100916,7 +100916,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 4.908438738908816,
     "generation_gco2kwh": 4.908438738908816,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100940,7 +100940,7 @@ window.DATA_DETAIL = [
     "total_co2": 1820.0,
     "emission_factor": 657.0397111913358,
     "generation_gco2kwh": 657.0397111913358,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -100988,7 +100988,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 45.751633986928105,
     "generation_gco2kwh": 45.751633986928105,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -101012,7 +101012,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 12.477064220183486,
     "generation_gco2kwh": 12.477064220183486,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101756,7 +101756,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 234.5679012345679,
     "generation_gco2kwh": 234.5679012345679,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101780,7 +101780,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 403.2258064516129,
     "generation_gco2kwh": 403.2258064516129,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -101804,7 +101804,7 @@ window.DATA_DETAIL = [
     "total_co2": 910.0,
     "emission_factor": 24.029574861367838,
     "generation_gco2kwh": 24.029574861367838,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101828,7 +101828,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 4.995836802664447,
     "generation_gco2kwh": 4.995836802664447,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101852,7 +101852,7 @@ window.DATA_DETAIL = [
     "total_co2": 880.0,
     "emission_factor": 704.0,
     "generation_gco2kwh": 704.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101876,7 +101876,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 33.898305084745765,
     "generation_gco2kwh": 33.898305084745765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -101900,7 +101900,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 46.15384615384615,
     "generation_gco2kwh": 46.15384615384615,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101924,7 +101924,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101948,7 +101948,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 229.16666666666669,
     "generation_gco2kwh": 229.16666666666669,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -101972,7 +101972,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 400.0,
     "generation_gco2kwh": 400.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -101996,7 +101996,7 @@ window.DATA_DETAIL = [
     "total_co2": 890.0,
     "emission_factor": 24.08008658008658,
     "generation_gco2kwh": 24.08008658008658,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -102020,7 +102020,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 4.648760330578512,
     "generation_gco2kwh": 4.648760330578512,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -102044,7 +102044,7 @@ window.DATA_DETAIL = [
     "total_co2": 850.0,
     "emission_factor": 696.7213114754098,
     "generation_gco2kwh": 696.7213114754098,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -102068,7 +102068,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 36.03603603603603,
     "generation_gco2kwh": 36.03603603603603,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102092,7 +102092,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 49.29577464788733,
     "generation_gco2kwh": 49.29577464788733,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -102116,7 +102116,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "AIB, EMBERS",
+    "sources": "AIB, EMBER",
     "issuance": "AIB"
   },
   {
@@ -102668,7 +102668,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102692,7 +102692,7 @@ window.DATA_DETAIL = [
     "total_co2": 7010.0,
     "emission_factor": 792.090395480226,
     "generation_gco2kwh": 792.090395480226,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102716,7 +102716,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102740,7 +102740,7 @@ window.DATA_DETAIL = [
     "total_co2": 7490.0,
     "emission_factor": 658.1722319859402,
     "generation_gco2kwh": 658.1722319859402,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102764,7 +102764,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102788,7 +102788,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102812,7 +102812,7 @@ window.DATA_DETAIL = [
     "total_co2": 7470.0,
     "emission_factor": 792.9936305732484,
     "generation_gco2kwh": 792.9936305732484,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102836,7 +102836,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102860,7 +102860,7 @@ window.DATA_DETAIL = [
     "total_co2": 7530.0,
     "emission_factor": 657.64192139738,
     "generation_gco2kwh": 657.64192139738,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102884,7 +102884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102908,7 +102908,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 333.33333333333337,
     "generation_gco2kwh": 333.33333333333337,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102932,7 +102932,7 @@ window.DATA_DETAIL = [
     "total_co2": 6100.0,
     "emission_factor": 792.2077922077922,
     "generation_gco2kwh": 792.2077922077922,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102956,7 +102956,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 26.666666666666668,
     "generation_gco2kwh": 26.666666666666668,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -102980,7 +102980,7 @@ window.DATA_DETAIL = [
     "total_co2": 7570.0,
     "emission_factor": 658.2608695652174,
     "generation_gco2kwh": 658.2608695652174,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103004,7 +103004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103028,7 +103028,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 215.0,
     "generation_gco2kwh": 215.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103052,7 +103052,7 @@ window.DATA_DETAIL = [
     "total_co2": 117860.0,
     "emission_factor": 916.4139646994789,
     "generation_gco2kwh": 916.4139646994789,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103076,7 +103076,7 @@ window.DATA_DETAIL = [
     "total_co2": 59610.0,
     "emission_factor": 584.2399294325198,
     "generation_gco2kwh": 584.2399294325198,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103100,7 +103100,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 23.178807947019866,
     "generation_gco2kwh": 23.178807947019866,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103124,7 +103124,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 5.407124681933842,
     "generation_gco2kwh": 5.407124681933842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103148,7 +103148,7 @@ window.DATA_DETAIL = [
     "total_co2": 2970.0,
     "emission_factor": 658.5365853658537,
     "generation_gco2kwh": 658.5365853658537,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103172,7 +103172,7 @@ window.DATA_DETAIL = [
     "total_co2": 290.0,
     "emission_factor": 47.77594728171334,
     "generation_gco2kwh": 47.77594728171334,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -103196,7 +103196,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 12.987012987012987,
     "generation_gco2kwh": 12.987012987012987,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103220,7 +103220,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 213.9303482587065,
     "generation_gco2kwh": 213.9303482587065,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103244,7 +103244,7 @@ window.DATA_DETAIL = [
     "total_co2": 120500.0,
     "emission_factor": 916.4194995817172,
     "generation_gco2kwh": 916.4194995817172,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103268,7 +103268,7 @@ window.DATA_DETAIL = [
     "total_co2": 64610.0,
     "emission_factor": 584.2300388823583,
     "generation_gco2kwh": 584.2300388823583,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103292,7 +103292,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 23.054755043227665,
     "generation_gco2kwh": 23.054755043227665,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103316,7 +103316,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 5.397625044980209,
     "generation_gco2kwh": 5.397625044980209,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103340,7 +103340,7 @@ window.DATA_DETAIL = [
     "total_co2": 3580.0,
     "emission_factor": 658.0882352941176,
     "generation_gco2kwh": 658.0882352941176,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103364,7 +103364,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 47.678795483061485,
     "generation_gco2kwh": 47.678795483061485,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -103388,7 +103388,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 13.215859030837004,
     "generation_gco2kwh": 13.215859030837004,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103412,7 +103412,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 216.08040201005025,
     "generation_gco2kwh": 216.08040201005025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103436,7 +103436,7 @@ window.DATA_DETAIL = [
     "total_co2": 113180.0,
     "emission_factor": 916.3630475265161,
     "generation_gco2kwh": 916.3630475265161,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103460,7 +103460,7 @@ window.DATA_DETAIL = [
     "total_co2": 66780.0,
     "emission_factor": 584.2519685039371,
     "generation_gco2kwh": 584.2519685039371,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103484,7 +103484,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 23.972602739726028,
     "generation_gco2kwh": 23.972602739726028,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103508,7 +103508,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 5.473684210526316,
     "generation_gco2kwh": 5.473684210526316,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103532,7 +103532,7 @@ window.DATA_DETAIL = [
     "total_co2": 2990.0,
     "emission_factor": 658.590308370044,
     "generation_gco2kwh": 658.590308370044,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103556,7 +103556,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 47.752808988764045,
     "generation_gco2kwh": 47.752808988764045,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -103580,7 +103580,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 16.75977653631285,
     "generation_gco2kwh": 16.75977653631285,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103604,7 +103604,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 213.9303482587065,
     "generation_gco2kwh": 213.9303482587065,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103628,7 +103628,7 @@ window.DATA_DETAIL = [
     "total_co2": 111430.0,
     "emission_factor": 916.3651315789474,
     "generation_gco2kwh": 916.3651315789474,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103652,7 +103652,7 @@ window.DATA_DETAIL = [
     "total_co2": 66550.0,
     "emission_factor": 584.2331665349838,
     "generation_gco2kwh": 584.2331665349838,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103676,7 +103676,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103700,7 +103700,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 5.617977528089887,
     "generation_gco2kwh": 5.617977528089887,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103724,7 +103724,7 @@ window.DATA_DETAIL = [
     "total_co2": 2530.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103748,7 +103748,7 @@ window.DATA_DETAIL = [
     "total_co2": 610.0,
     "emission_factor": 47.25019364833462,
     "generation_gco2kwh": 47.25019364833462,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -103772,7 +103772,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 17.628205128205128,
     "generation_gco2kwh": 17.628205128205128,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103796,7 +103796,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 217.3913043478261,
     "generation_gco2kwh": 217.3913043478261,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103820,7 +103820,7 @@ window.DATA_DETAIL = [
     "total_co2": 105950.0,
     "emission_factor": 916.3639508735513,
     "generation_gco2kwh": 916.3639508735513,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103844,7 +103844,7 @@ window.DATA_DETAIL = [
     "total_co2": 73020.0,
     "emission_factor": 584.2067365389231,
     "generation_gco2kwh": 584.2067365389231,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103868,7 +103868,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 23.752969121140143,
     "generation_gco2kwh": 23.752969121140143,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103892,7 +103892,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 5.74712643678161,
     "generation_gco2kwh": 5.74712643678161,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103916,7 +103916,7 @@ window.DATA_DETAIL = [
     "total_co2": 2800.0,
     "emission_factor": 657.2769953051644,
     "generation_gco2kwh": 657.2769953051644,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103940,7 +103940,7 @@ window.DATA_DETAIL = [
     "total_co2": 710.0,
     "emission_factor": 47.651006711409394,
     "generation_gco2kwh": 47.651006711409394,
-    "sources": "XPANSIV, EMBERS",
+    "sources": "XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -103964,7 +103964,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 17.424975798644724,
     "generation_gco2kwh": 17.424975798644724,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -103988,7 +103988,7 @@ window.DATA_DETAIL = [
     "total_co2": 1590.0,
     "emission_factor": 957.8313253012049,
     "generation_gco2kwh": 957.8313253012049,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104012,7 +104012,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 575.7575757575758,
     "generation_gco2kwh": 575.7575757575758,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104036,7 +104036,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 23.743787962451684,
     "generation_gco2kwh": 23.743787962451684,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104060,7 +104060,7 @@ window.DATA_DETAIL = [
     "total_co2": 1670.0,
     "emission_factor": 954.2857142857143,
     "generation_gco2kwh": 954.2857142857143,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104084,7 +104084,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 580.6451612903226,
     "generation_gco2kwh": 580.6451612903226,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104108,7 +104108,7 @@ window.DATA_DETAIL = [
     "total_co2": 440.0,
     "emission_factor": 23.579849946409432,
     "generation_gco2kwh": 23.579849946409432,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104132,7 +104132,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 953.125,
     "generation_gco2kwh": 953.125,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104156,7 +104156,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 586.2068965517242,
     "generation_gco2kwh": 586.2068965517242,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104180,7 +104180,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 23.594377510040157,
     "generation_gco2kwh": 23.594377510040157,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104204,7 +104204,7 @@ window.DATA_DETAIL = [
     "total_co2": 1240.0,
     "emission_factor": 953.8461538461538,
     "generation_gco2kwh": 953.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104228,7 +104228,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 566.6666666666667,
     "generation_gco2kwh": 566.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104252,7 +104252,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 24.0,
     "generation_gco2kwh": 24.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104276,7 +104276,7 @@ window.DATA_DETAIL = [
     "total_co2": 1450.0,
     "emission_factor": 953.9473684210526,
     "generation_gco2kwh": 953.9473684210526,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104300,7 +104300,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 588.2352941176471,
     "generation_gco2kwh": 588.2352941176471,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104324,7 +104324,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 23.955147808358817,
     "generation_gco2kwh": 23.955147808358817,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104348,7 +104348,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104372,7 +104372,7 @@ window.DATA_DETAIL = [
     "total_co2": 2200.0,
     "emission_factor": 487.8048780487805,
     "generation_gco2kwh": 487.8048780487805,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104396,7 +104396,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 22.292993630573246,
     "generation_gco2kwh": 22.292993630573246,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104420,7 +104420,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 625.0,
     "generation_gco2kwh": 625.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104444,7 +104444,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104468,7 +104468,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104492,7 +104492,7 @@ window.DATA_DETAIL = [
     "total_co2": 2610.0,
     "emission_factor": 486.94029850746267,
     "generation_gco2kwh": 486.94029850746267,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104516,7 +104516,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 22.653721682847898,
     "generation_gco2kwh": 22.653721682847898,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104540,7 +104540,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104564,7 +104564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104588,7 +104588,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104612,7 +104612,7 @@ window.DATA_DETAIL = [
     "total_co2": 3260.0,
     "emission_factor": 488.0239520958084,
     "generation_gco2kwh": 488.0239520958084,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104636,7 +104636,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 24.822695035460995,
     "generation_gco2kwh": 24.822695035460995,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104660,7 +104660,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 500.0,
     "generation_gco2kwh": 500.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104684,7 +104684,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104708,7 +104708,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 285.71428571428567,
     "generation_gco2kwh": 285.71428571428567,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104732,7 +104732,7 @@ window.DATA_DETAIL = [
     "total_co2": 3960.0,
     "emission_factor": 487.68472906403946,
     "generation_gco2kwh": 487.68472906403946,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104756,7 +104756,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 22.22222222222222,
     "generation_gco2kwh": 22.22222222222222,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104780,7 +104780,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104804,7 +104804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104828,7 +104828,7 @@ window.DATA_DETAIL = [
     "total_co2": 2660.0,
     "emission_factor": 216.43612693246544,
     "generation_gco2kwh": 216.43612693246544,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -104852,7 +104852,7 @@ window.DATA_DETAIL = [
     "total_co2": 32189.999999999996,
     "emission_factor": 874.2531233025528,
     "generation_gco2kwh": 874.2531233025528,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104876,7 +104876,7 @@ window.DATA_DETAIL = [
     "total_co2": 65129.99999999999,
     "emission_factor": 572.0182680484805,
     "generation_gco2kwh": 572.0182680484805,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104900,7 +104900,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 24.229074889867842,
     "generation_gco2kwh": 24.229074889867842,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -104924,7 +104924,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 652.7777777777778,
     "generation_gco2kwh": 652.7777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -104948,7 +104948,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 47.713717693836976,
     "generation_gco2kwh": 47.713717693836976,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -104972,7 +104972,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 12.422360248447204,
     "generation_gco2kwh": 12.422360248447204,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -104996,7 +104996,7 @@ window.DATA_DETAIL = [
     "total_co2": 2900.0,
     "emission_factor": 216.2565249813572,
     "generation_gco2kwh": 216.2565249813572,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105020,7 +105020,7 @@ window.DATA_DETAIL = [
     "total_co2": 31520.0,
     "emission_factor": 874.0987243483083,
     "generation_gco2kwh": 874.0987243483083,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105044,7 +105044,7 @@ window.DATA_DETAIL = [
     "total_co2": 64700.0,
     "emission_factor": 572.0095482273892,
     "generation_gco2kwh": 572.0095482273892,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105068,7 +105068,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 24.229074889867842,
     "generation_gco2kwh": 24.229074889867842,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105092,7 +105092,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 652.7777777777778,
     "generation_gco2kwh": 652.7777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105116,7 +105116,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 48.09619238476954,
     "generation_gco2kwh": 48.09619238476954,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105140,7 +105140,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 11.3314447592068,
     "generation_gco2kwh": 11.3314447592068,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105164,7 +105164,7 @@ window.DATA_DETAIL = [
     "total_co2": 3000.0,
     "emission_factor": 216.45021645021646,
     "generation_gco2kwh": 216.45021645021646,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105188,7 +105188,7 @@ window.DATA_DETAIL = [
     "total_co2": 31050.0,
     "emission_factor": 874.1554054054053,
     "generation_gco2kwh": 874.1554054054053,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105212,7 +105212,7 @@ window.DATA_DETAIL = [
     "total_co2": 65580.0,
     "emission_factor": 572.0516399162595,
     "generation_gco2kwh": 572.0516399162595,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105236,7 +105236,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 24.242424242424242,
     "generation_gco2kwh": 24.242424242424242,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105260,7 +105260,7 @@ window.DATA_DETAIL = [
     "total_co2": 1140.0,
     "emission_factor": 658.9595375722544,
     "generation_gco2kwh": 658.9595375722544,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105284,7 +105284,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 47.713717693836976,
     "generation_gco2kwh": 47.713717693836976,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105308,7 +105308,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 13.37792642140468,
     "generation_gco2kwh": 13.37792642140468,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105332,7 +105332,7 @@ window.DATA_DETAIL = [
     "total_co2": 3090.0,
     "emission_factor": 216.23512946116168,
     "generation_gco2kwh": 216.23512946116168,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105356,7 +105356,7 @@ window.DATA_DETAIL = [
     "total_co2": 26600.0,
     "emission_factor": 874.1373644429839,
     "generation_gco2kwh": 874.1373644429839,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105380,7 +105380,7 @@ window.DATA_DETAIL = [
     "total_co2": 74020.0,
     "emission_factor": 572.0247295208655,
     "generation_gco2kwh": 572.0247295208655,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105404,7 +105404,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 24.279210925644918,
     "generation_gco2kwh": 24.279210925644918,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105428,7 +105428,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 662.9213483146067,
     "generation_gco2kwh": 662.9213483146067,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105452,7 +105452,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 46.692607003891055,
     "generation_gco2kwh": 46.692607003891055,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105476,7 +105476,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 13.36898395721925,
     "generation_gco2kwh": 13.36898395721925,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105500,7 +105500,7 @@ window.DATA_DETAIL = [
     "total_co2": 3110.0,
     "emission_factor": 216.12230715774842,
     "generation_gco2kwh": 216.12230715774842,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105524,7 +105524,7 @@ window.DATA_DETAIL = [
     "total_co2": 29070.0,
     "emission_factor": 874.0228502705953,
     "generation_gco2kwh": 874.0228502705953,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105548,7 +105548,7 @@ window.DATA_DETAIL = [
     "total_co2": 78010.0,
     "emission_factor": 572.0466378235682,
     "generation_gco2kwh": 572.0466378235682,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105572,7 +105572,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 23.400936037441497,
     "generation_gco2kwh": 23.400936037441497,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105596,7 +105596,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 642.8571428571428,
     "generation_gco2kwh": 642.8571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105620,7 +105620,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 47.882136279926335,
     "generation_gco2kwh": 47.882136279926335,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105644,7 +105644,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 11.834319526627219,
     "generation_gco2kwh": 11.834319526627219,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105668,7 +105668,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105692,7 +105692,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105716,7 +105716,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105740,7 +105740,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 666.6666666666666,
     "generation_gco2kwh": 666.6666666666666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105764,7 +105764,7 @@ window.DATA_DETAIL = [
     "total_co2": 270.0,
     "emission_factor": 586.9565217391304,
     "generation_gco2kwh": 586.9565217391304,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105788,7 +105788,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105812,7 +105812,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105836,7 +105836,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105860,7 +105860,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 583.3333333333334,
     "generation_gco2kwh": 583.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105884,7 +105884,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105908,7 +105908,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105932,7 +105932,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105956,7 +105956,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 584.6153846153846,
     "generation_gco2kwh": 584.6153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -105980,7 +105980,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106004,7 +106004,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106028,7 +106028,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106052,7 +106052,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 575.7575757575758,
     "generation_gco2kwh": 575.7575757575758,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106076,7 +106076,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106100,7 +106100,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106124,7 +106124,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 90.9090909090909,
     "generation_gco2kwh": 90.9090909090909,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106148,7 +106148,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106172,7 +106172,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106196,7 +106196,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106220,7 +106220,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106244,7 +106244,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 714.2857142857142,
     "generation_gco2kwh": 714.2857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106268,7 +106268,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106292,7 +106292,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106316,7 +106316,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106340,7 +106340,7 @@ window.DATA_DETAIL = [
     "total_co2": 6260.0,
     "emission_factor": 681.917211328976,
     "generation_gco2kwh": 681.917211328976,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106364,7 +106364,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106388,7 +106388,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106412,7 +106412,7 @@ window.DATA_DETAIL = [
     "total_co2": 6290.0,
     "emission_factor": 682.2125813449023,
     "generation_gco2kwh": 682.2125813449023,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106436,7 +106436,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106460,7 +106460,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106484,7 +106484,7 @@ window.DATA_DETAIL = [
     "total_co2": 6450.0,
     "emission_factor": 682.5396825396826,
     "generation_gco2kwh": 682.5396825396826,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106508,7 +106508,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106532,7 +106532,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106556,7 +106556,7 @@ window.DATA_DETAIL = [
     "total_co2": 6450.0,
     "emission_factor": 682.5396825396826,
     "generation_gco2kwh": 682.5396825396826,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106580,7 +106580,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106604,7 +106604,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106628,7 +106628,7 @@ window.DATA_DETAIL = [
     "total_co2": 11900.0,
     "emission_factor": 581.3385442110406,
     "generation_gco2kwh": 581.3385442110406,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106652,7 +106652,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106676,7 +106676,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106700,7 +106700,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106724,7 +106724,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106748,7 +106748,7 @@ window.DATA_DETAIL = [
     "total_co2": 12190.0,
     "emission_factor": 581.306628516929,
     "generation_gco2kwh": 581.306628516929,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106772,7 +106772,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106796,7 +106796,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 640.0,
     "generation_gco2kwh": 640.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106820,7 +106820,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106844,7 +106844,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106868,7 +106868,7 @@ window.DATA_DETAIL = [
     "total_co2": 11930.0,
     "emission_factor": 581.3840155945419,
     "generation_gco2kwh": 581.3840155945419,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106892,7 +106892,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106916,7 +106916,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106940,7 +106940,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106964,7 +106964,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -106988,7 +106988,7 @@ window.DATA_DETAIL = [
     "total_co2": 11770.0,
     "emission_factor": 581.5217391304349,
     "generation_gco2kwh": 581.5217391304349,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107012,7 +107012,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107036,7 +107036,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107060,7 +107060,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.816326530612244,
     "generation_gco2kwh": 40.816326530612244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107084,7 +107084,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107108,7 +107108,7 @@ window.DATA_DETAIL = [
     "total_co2": 11510.0,
     "emission_factor": 581.6068721576554,
     "generation_gco2kwh": 581.6068721576554,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107132,7 +107132,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107156,7 +107156,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107180,7 +107180,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.816326530612244,
     "generation_gco2kwh": 40.816326530612244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107204,7 +107204,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107228,7 +107228,7 @@ window.DATA_DETAIL = [
     "total_co2": 33660.0,
     "emission_factor": 1306.6770186335402,
     "generation_gco2kwh": 1306.6770186335402,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107252,7 +107252,7 @@ window.DATA_DETAIL = [
     "total_co2": 37090.0,
     "emission_factor": 1306.4459316660796,
     "generation_gco2kwh": 1306.4459316660796,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107276,7 +107276,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107300,7 +107300,7 @@ window.DATA_DETAIL = [
     "total_co2": 42580.0,
     "emission_factor": 1306.535747161706,
     "generation_gco2kwh": 1306.535747161706,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107324,7 +107324,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107348,7 +107348,7 @@ window.DATA_DETAIL = [
     "total_co2": 44140.0,
     "emission_factor": 1306.6903493191237,
     "generation_gco2kwh": 1306.6903493191237,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107372,7 +107372,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107396,7 +107396,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 640.0,
     "generation_gco2kwh": 640.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107420,7 +107420,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107444,7 +107444,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107468,7 +107468,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 653.8461538461538,
     "generation_gco2kwh": 653.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107492,7 +107492,7 @@ window.DATA_DETAIL = [
     "total_co2": 1000.0,
     "emission_factor": 230.41474654377882,
     "generation_gco2kwh": 230.41474654377882,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107516,7 +107516,7 @@ window.DATA_DETAIL = [
     "total_co2": 106880.0,
     "emission_factor": 1005.8347449651797,
     "generation_gco2kwh": 1005.8347449651797,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107540,7 +107540,7 @@ window.DATA_DETAIL = [
     "total_co2": 34600.0,
     "emission_factor": 508.3002791244308,
     "generation_gco2kwh": 508.3002791244308,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107564,7 +107564,7 @@ window.DATA_DETAIL = [
     "total_co2": 1870.0,
     "emission_factor": 24.017467248908297,
     "generation_gco2kwh": 24.017467248908297,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107588,7 +107588,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 705.8823529411765,
     "generation_gco2kwh": 705.8823529411765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107612,7 +107612,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 37.553648068669524,
     "generation_gco2kwh": 37.553648068669524,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107636,7 +107636,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 48.214285714285715,
     "generation_gco2kwh": 48.214285714285715,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107660,7 +107660,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 8.939455505891914,
     "generation_gco2kwh": 8.939455505891914,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107684,7 +107684,7 @@ window.DATA_DETAIL = [
     "total_co2": 1410.0,
     "emission_factor": 229.2682926829268,
     "generation_gco2kwh": 229.2682926829268,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107708,7 +107708,7 @@ window.DATA_DETAIL = [
     "total_co2": 105310.0,
     "emission_factor": 1011.4291202458701,
     "generation_gco2kwh": 1011.4291202458701,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107732,7 +107732,7 @@ window.DATA_DETAIL = [
     "total_co2": 54550.0,
     "emission_factor": 508.1982485559903,
     "generation_gco2kwh": 508.1982485559903,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107756,7 +107756,7 @@ window.DATA_DETAIL = [
     "total_co2": 1330.0,
     "emission_factor": 23.959646910466585,
     "generation_gco2kwh": 23.959646910466585,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107780,7 +107780,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 685.7142857142858,
     "generation_gco2kwh": 685.7142857142858,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107804,7 +107804,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 37.58654797230465,
     "generation_gco2kwh": 37.58654797230465,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107828,7 +107828,7 @@ window.DATA_DETAIL = [
     "total_co2": 640.0,
     "emission_factor": 48.19277108433735,
     "generation_gco2kwh": 48.19277108433735,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107852,7 +107852,7 @@ window.DATA_DETAIL = [
     "total_co2": 280.0,
     "emission_factor": 9.026434558349452,
     "generation_gco2kwh": 9.026434558349452,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107876,7 +107876,7 @@ window.DATA_DETAIL = [
     "total_co2": 1750.0,
     "emission_factor": 229.65879265091863,
     "generation_gco2kwh": 229.65879265091863,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107900,7 +107900,7 @@ window.DATA_DETAIL = [
     "total_co2": 114590.0,
     "emission_factor": 1008.5372293610279,
     "generation_gco2kwh": 1008.5372293610279,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107924,7 +107924,7 @@ window.DATA_DETAIL = [
     "total_co2": 36520.0,
     "emission_factor": 508.21040912886167,
     "generation_gco2kwh": 508.21040912886167,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107948,7 +107948,7 @@ window.DATA_DETAIL = [
     "total_co2": 1600.0,
     "emission_factor": 24.002400240024002,
     "generation_gco2kwh": 24.002400240024002,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107972,7 +107972,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 698.6301369863014,
     "generation_gco2kwh": 698.6301369863014,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -107996,7 +107996,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 38.16046966731898,
     "generation_gco2kwh": 38.16046966731898,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108020,7 +108020,7 @@ window.DATA_DETAIL = [
     "total_co2": 730.0,
     "emission_factor": 48.15303430079155,
     "generation_gco2kwh": 48.15303430079155,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108044,7 +108044,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 8.936292879792449,
     "generation_gco2kwh": 8.936292879792449,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108068,7 +108068,7 @@ window.DATA_DETAIL = [
     "total_co2": 1890.0,
     "emission_factor": 230.2070645554202,
     "generation_gco2kwh": 230.2070645554202,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108092,7 +108092,7 @@ window.DATA_DETAIL = [
     "total_co2": 118450.0,
     "emission_factor": 1003.5584173515208,
     "generation_gco2kwh": 1003.5584173515208,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108116,7 +108116,7 @@ window.DATA_DETAIL = [
     "total_co2": 33790.0,
     "emission_factor": 508.2731648616125,
     "generation_gco2kwh": 508.2731648616125,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108140,7 +108140,7 @@ window.DATA_DETAIL = [
     "total_co2": 1530.0,
     "emission_factor": 24.01129943502825,
     "generation_gco2kwh": 24.01129943502825,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108164,7 +108164,7 @@ window.DATA_DETAIL = [
     "total_co2": 660.0,
     "emission_factor": 702.1276595744681,
     "generation_gco2kwh": 702.1276595744681,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108188,7 +108188,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 37.51233958538993,
     "generation_gco2kwh": 37.51233958538993,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108212,7 +108212,7 @@ window.DATA_DETAIL = [
     "total_co2": 880.0,
     "emission_factor": 47.82608695652174,
     "generation_gco2kwh": 47.82608695652174,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108236,7 +108236,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 8.854781582054308,
     "generation_gco2kwh": 8.854781582054308,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108260,7 +108260,7 @@ window.DATA_DETAIL = [
     "total_co2": 2000.0,
     "emission_factor": 230.41474654377882,
     "generation_gco2kwh": 230.41474654377882,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108284,7 +108284,7 @@ window.DATA_DETAIL = [
     "total_co2": 121680.0,
     "emission_factor": 1003.0500370950457,
     "generation_gco2kwh": 1003.0500370950457,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108308,7 +108308,7 @@ window.DATA_DETAIL = [
     "total_co2": 32159.999999999996,
     "emission_factor": 508.2174462705436,
     "generation_gco2kwh": 508.2174462705436,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108332,7 +108332,7 @@ window.DATA_DETAIL = [
     "total_co2": 1790.0,
     "emission_factor": 24.004291269947704,
     "generation_gco2kwh": 24.004291269947704,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108356,7 +108356,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 704.0816326530612,
     "generation_gco2kwh": 704.0816326530612,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108380,7 +108380,7 @@ window.DATA_DETAIL = [
     "total_co2": 390.0,
     "emission_factor": 38.23529411764706,
     "generation_gco2kwh": 38.23529411764706,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108404,7 +108404,7 @@ window.DATA_DETAIL = [
     "total_co2": 1230.0,
     "emission_factor": 47.91585508375535,
     "generation_gco2kwh": 47.91585508375535,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108428,7 +108428,7 @@ window.DATA_DETAIL = [
     "total_co2": 330.0,
     "emission_factor": 9.03367095537914,
     "generation_gco2kwh": 9.03367095537914,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108452,7 +108452,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 794.5205479452055,
     "generation_gco2kwh": 794.5205479452055,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108476,7 +108476,7 @@ window.DATA_DETAIL = [
     "total_co2": 87820.0,
     "emission_factor": 676.7357632734838,
     "generation_gco2kwh": 676.7357632734838,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108500,7 +108500,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 6.134969325153374,
     "generation_gco2kwh": 6.134969325153374,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108524,7 +108524,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 48.262548262548265,
     "generation_gco2kwh": 48.262548262548265,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108548,7 +108548,7 @@ window.DATA_DETAIL = [
     "total_co2": 2410.0,
     "emission_factor": 800.6644518272426,
     "generation_gco2kwh": 800.6644518272426,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108572,7 +108572,7 @@ window.DATA_DETAIL = [
     "total_co2": 87460.0,
     "emission_factor": 676.7254719900959,
     "generation_gco2kwh": 676.7254719900959,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108596,7 +108596,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 4.739336492890995,
     "generation_gco2kwh": 4.739336492890995,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108620,7 +108620,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 48.0,
     "generation_gco2kwh": 48.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108644,7 +108644,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108668,7 +108668,7 @@ window.DATA_DETAIL = [
     "total_co2": 86330.0,
     "emission_factor": 676.7265030963393,
     "generation_gco2kwh": 676.7265030963393,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108692,7 +108692,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 4.975124378109452,
     "generation_gco2kwh": 4.975124378109452,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108716,7 +108716,7 @@ window.DATA_DETAIL = [
     "total_co2": 370.0,
     "emission_factor": 47.80361757105943,
     "generation_gco2kwh": 47.80361757105943,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108740,7 +108740,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108764,7 +108764,7 @@ window.DATA_DETAIL = [
     "total_co2": 80140.0,
     "emission_factor": 676.7437932781625,
     "generation_gco2kwh": 676.7437932781625,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108788,7 +108788,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 5.226480836236934,
     "generation_gco2kwh": 5.226480836236934,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108812,7 +108812,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 47.22222222222222,
     "generation_gco2kwh": 47.22222222222222,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108836,7 +108836,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108860,7 +108860,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108884,7 +108884,7 @@ window.DATA_DETAIL = [
     "total_co2": 81890.0,
     "emission_factor": 676.7209321543673,
     "generation_gco2kwh": 676.7209321543673,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -108908,7 +108908,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 5.168594634506522,
     "generation_gco2kwh": 5.168594634506522,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108932,7 +108932,7 @@ window.DATA_DETAIL = [
     "total_co2": 720.0,
     "emission_factor": 47.337278106508876,
     "generation_gco2kwh": 47.337278106508876,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108956,7 +108956,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108980,7 +108980,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 650.7936507936508,
     "generation_gco2kwh": 650.7936507936508,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109004,7 +109004,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109028,7 +109028,7 @@ window.DATA_DETAIL = [
     "total_co2": 420.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109052,7 +109052,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109076,7 +109076,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 651.5151515151515,
     "generation_gco2kwh": 651.5151515151515,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109100,7 +109100,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109124,7 +109124,7 @@ window.DATA_DETAIL = [
     "total_co2": 430.0,
     "emission_factor": 661.5384615384615,
     "generation_gco2kwh": 661.5384615384615,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109148,7 +109148,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109172,7 +109172,7 @@ window.DATA_DETAIL = [
     "total_co2": 60.0,
     "emission_factor": 230.76923076923077,
     "generation_gco2kwh": 230.76923076923077,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109196,7 +109196,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 24.509803921568626,
     "generation_gco2kwh": 24.509803921568626,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109220,7 +109220,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109244,7 +109244,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109268,7 +109268,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 216.21621621621622,
     "generation_gco2kwh": 216.21621621621622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109292,7 +109292,7 @@ window.DATA_DETAIL = [
     "total_co2": 110.0,
     "emission_factor": 23.70689655172414,
     "generation_gco2kwh": 23.70689655172414,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109316,7 +109316,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 692.3076923076923,
     "generation_gco2kwh": 692.3076923076923,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109340,7 +109340,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109364,7 +109364,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109388,7 +109388,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 24.096385542168672,
     "generation_gco2kwh": 24.096385542168672,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109412,7 +109412,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109436,7 +109436,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109556,7 +109556,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109580,7 +109580,7 @@ window.DATA_DETAIL = [
     "total_co2": 38330.0,
     "emission_factor": 953.4825870646765,
     "generation_gco2kwh": 953.4825870646765,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109604,7 +109604,7 @@ window.DATA_DETAIL = [
     "total_co2": 8540.0,
     "emission_factor": 601.8322762508809,
     "generation_gco2kwh": 601.8322762508809,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109628,7 +109628,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109652,7 +109652,7 @@ window.DATA_DETAIL = [
     "total_co2": 420.0,
     "emission_factor": 5.511811023622047,
     "generation_gco2kwh": 5.511811023622047,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109676,7 +109676,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 640.0,
     "generation_gco2kwh": 640.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109700,7 +109700,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 48.4171322160149,
     "generation_gco2kwh": 48.4171322160149,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109724,7 +109724,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 12.269938650306749,
     "generation_gco2kwh": 12.269938650306749,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109748,7 +109748,7 @@ window.DATA_DETAIL = [
     "total_co2": 200.0,
     "emission_factor": 219.78021978021977,
     "generation_gco2kwh": 219.78021978021977,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109772,7 +109772,7 @@ window.DATA_DETAIL = [
     "total_co2": 35740.0,
     "emission_factor": 953.3208855694852,
     "generation_gco2kwh": 953.3208855694852,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109796,7 +109796,7 @@ window.DATA_DETAIL = [
     "total_co2": 6210.0,
     "emission_factor": 601.7441860465116,
     "generation_gco2kwh": 601.7441860465116,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109820,7 +109820,7 @@ window.DATA_DETAIL = [
     "total_co2": 250.0,
     "emission_factor": 23.946360153256705,
     "generation_gco2kwh": 23.946360153256705,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109844,7 +109844,7 @@ window.DATA_DETAIL = [
     "total_co2": 480.0,
     "emission_factor": 5.567799559215868,
     "generation_gco2kwh": 5.567799559215868,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109868,7 +109868,7 @@ window.DATA_DETAIL = [
     "total_co2": 490.0,
     "emission_factor": 653.3333333333334,
     "generation_gco2kwh": 653.3333333333334,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109892,7 +109892,7 @@ window.DATA_DETAIL = [
     "total_co2": 310.0,
     "emission_factor": 47.69230769230769,
     "generation_gco2kwh": 47.69230769230769,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109916,7 +109916,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 10.471204188481677,
     "generation_gco2kwh": 10.471204188481677,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109940,7 +109940,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 217.94871794871793,
     "generation_gco2kwh": 217.94871794871793,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109964,7 +109964,7 @@ window.DATA_DETAIL = [
     "total_co2": 22230.0,
     "emission_factor": 953.2590051457976,
     "generation_gco2kwh": 953.2590051457976,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -109988,7 +109988,7 @@ window.DATA_DETAIL = [
     "total_co2": 4320.0,
     "emission_factor": 601.6713091922006,
     "generation_gco2kwh": 601.6713091922006,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110012,7 +110012,7 @@ window.DATA_DETAIL = [
     "total_co2": 260.0,
     "emission_factor": 23.593466424682397,
     "generation_gco2kwh": 23.593466424682397,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110036,7 +110036,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 5.467996140238019,
     "generation_gco2kwh": 5.467996140238019,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110060,7 +110060,7 @@ window.DATA_DETAIL = [
     "total_co2": 350.0,
     "emission_factor": 660.377358490566,
     "generation_gco2kwh": 660.377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110084,7 +110084,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 47.24409448818898,
     "generation_gco2kwh": 47.24409448818898,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110108,7 +110108,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 14.084507042253522,
     "generation_gco2kwh": 14.084507042253522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110132,7 +110132,7 @@ window.DATA_DETAIL = [
     "total_co2": 8340.0,
     "emission_factor": 216.1741835147745,
     "generation_gco2kwh": 216.1741835147745,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110156,7 +110156,7 @@ window.DATA_DETAIL = [
     "total_co2": 5490.0,
     "emission_factor": 963.1578947368421,
     "generation_gco2kwh": 963.1578947368421,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110180,7 +110180,7 @@ window.DATA_DETAIL = [
     "total_co2": 53650.0,
     "emission_factor": 479.4887836267763,
     "generation_gco2kwh": 479.4887836267763,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110204,7 +110204,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 23.25581395348837,
     "generation_gco2kwh": 23.25581395348837,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110228,7 +110228,7 @@ window.DATA_DETAIL = [
     "total_co2": 240.0,
     "emission_factor": 4.777070063694267,
     "generation_gco2kwh": 4.777070063694267,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110252,7 +110252,7 @@ window.DATA_DETAIL = [
     "total_co2": 5820.0,
     "emission_factor": 658.3710407239819,
     "generation_gco2kwh": 658.3710407239819,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110276,7 +110276,7 @@ window.DATA_DETAIL = [
     "total_co2": 600.0,
     "emission_factor": 47.808764940239044,
     "generation_gco2kwh": 47.808764940239044,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110300,7 +110300,7 @@ window.DATA_DETAIL = [
     "total_co2": 960.0,
     "emission_factor": 12.695054218460724,
     "generation_gco2kwh": 12.695054218460724,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110324,7 +110324,7 @@ window.DATA_DETAIL = [
     "total_co2": 8650.0,
     "emission_factor": 216.19595101224695,
     "generation_gco2kwh": 216.19595101224695,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110348,7 +110348,7 @@ window.DATA_DETAIL = [
     "total_co2": 6550.0,
     "emission_factor": 964.6539027982327,
     "generation_gco2kwh": 964.6539027982327,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110372,7 +110372,7 @@ window.DATA_DETAIL = [
     "total_co2": 58910.0,
     "emission_factor": 479.56691631390424,
     "generation_gco2kwh": 479.56691631390424,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110396,7 +110396,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 23.985239852398525,
     "generation_gco2kwh": 23.985239852398525,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110420,7 +110420,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 4.772234273318872,
     "generation_gco2kwh": 4.772234273318872,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110444,7 +110444,7 @@ window.DATA_DETAIL = [
     "total_co2": 6370.0,
     "emission_factor": 658.0578512396694,
     "generation_gco2kwh": 658.0578512396694,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110468,7 +110468,7 @@ window.DATA_DETAIL = [
     "total_co2": 580.0,
     "emission_factor": 47.81533388293487,
     "generation_gco2kwh": 47.81533388293487,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -110492,7 +110492,7 @@ window.DATA_DETAIL = [
     "total_co2": 830.0,
     "emission_factor": 12.782997073771753,
     "generation_gco2kwh": 12.782997073771753,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111212,7 +111212,7 @@ window.DATA_DETAIL = [
     "total_co2": 12580.0,
     "emission_factor": 229.981718464351,
     "generation_gco2kwh": 229.981718464351,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111236,7 +111236,7 @@ window.DATA_DETAIL = [
     "total_co2": 734440.0,
     "emission_factor": 949.6373110591035,
     "generation_gco2kwh": 949.6373110591035,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111260,7 +111260,7 @@ window.DATA_DETAIL = [
     "total_co2": 872670.0,
     "emission_factor": 537.3021297031714,
     "generation_gco2kwh": 537.3021297031714,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111284,7 +111284,7 @@ window.DATA_DETAIL = [
     "total_co2": 6720.0,
     "emission_factor": 24.004286479728524,
     "generation_gco2kwh": 24.004286479728524,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111308,7 +111308,7 @@ window.DATA_DETAIL = [
     "total_co2": 4280.0,
     "emission_factor": 5.418544589051502,
     "generation_gco2kwh": 5.418544589051502,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111332,7 +111332,7 @@ window.DATA_DETAIL = [
     "total_co2": 24040.0,
     "emission_factor": 700.0582411182294,
     "generation_gco2kwh": 700.0582411182294,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111356,7 +111356,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 38.14262023217247,
     "generation_gco2kwh": 38.14262023217247,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111380,7 +111380,7 @@ window.DATA_DETAIL = [
     "total_co2": 6270.0,
     "emission_factor": 47.96511627906977,
     "generation_gco2kwh": 47.96511627906977,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111404,7 +111404,7 @@ window.DATA_DETAIL = [
     "total_co2": 2880.0,
     "emission_factor": 8.522222879801149,
     "generation_gco2kwh": 8.522222879801149,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111428,7 +111428,7 @@ window.DATA_DETAIL = [
     "total_co2": 12480.0,
     "emission_factor": 230.04608294930875,
     "generation_gco2kwh": 230.04608294930875,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111452,7 +111452,7 @@ window.DATA_DETAIL = [
     "total_co2": 852500.0,
     "emission_factor": 949.3318485523386,
     "generation_gco2kwh": 949.3318485523386,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111476,7 +111476,7 @@ window.DATA_DETAIL = [
     "total_co2": 848500.0,
     "emission_factor": 537.3007681152995,
     "generation_gco2kwh": 537.3007681152995,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111500,7 +111500,7 @@ window.DATA_DETAIL = [
     "total_co2": 5920.0,
     "emission_factor": 24.019150403700248,
     "generation_gco2kwh": 24.019150403700248,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111524,7 +111524,7 @@ window.DATA_DETAIL = [
     "total_co2": 4220.0,
     "emission_factor": 5.412685179247098,
     "generation_gco2kwh": 5.412685179247098,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111548,7 +111548,7 @@ window.DATA_DETAIL = [
     "total_co2": 24640.0,
     "emission_factor": 700.0,
     "generation_gco2kwh": 700.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111572,7 +111572,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 37.828947368421055,
     "generation_gco2kwh": 37.828947368421055,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111596,7 +111596,7 @@ window.DATA_DETAIL = [
     "total_co2": 7890.0,
     "emission_factor": 47.9868629120545,
     "generation_gco2kwh": 47.9868629120545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111620,7 +111620,7 @@ window.DATA_DETAIL = [
     "total_co2": 3220.0,
     "emission_factor": 8.514013749338975,
     "generation_gco2kwh": 8.514013749338975,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111644,7 +111644,7 @@ window.DATA_DETAIL = [
     "total_co2": 11930.0,
     "emission_factor": 230.08678881388622,
     "generation_gco2kwh": 230.08678881388622,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111668,7 +111668,7 @@ window.DATA_DETAIL = [
     "total_co2": 789380.0,
     "emission_factor": 949.3331409123161,
     "generation_gco2kwh": 949.3331409123161,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111692,7 +111692,7 @@ window.DATA_DETAIL = [
     "total_co2": 906460.0,
     "emission_factor": 537.3015778929025,
     "generation_gco2kwh": 537.3015778929025,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111716,7 +111716,7 @@ window.DATA_DETAIL = [
     "total_co2": 5970.0,
     "emission_factor": 23.999035214664737,
     "generation_gco2kwh": 23.999035214664737,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111740,7 +111740,7 @@ window.DATA_DETAIL = [
     "total_co2": 4180.0,
     "emission_factor": 5.417735956658112,
     "generation_gco2kwh": 5.417735956658112,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111764,7 +111764,7 @@ window.DATA_DETAIL = [
     "total_co2": 27050.0,
     "emission_factor": 700.0517598343686,
     "generation_gco2kwh": 700.0517598343686,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111788,7 +111788,7 @@ window.DATA_DETAIL = [
     "total_co2": 690.0,
     "emission_factor": 37.99559471365639,
     "generation_gco2kwh": 37.99559471365639,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111812,7 +111812,7 @@ window.DATA_DETAIL = [
     "total_co2": 9840.0,
     "emission_factor": 47.98361535085581,
     "generation_gco2kwh": 47.98361535085581,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111836,7 +111836,7 @@ window.DATA_DETAIL = [
     "total_co2": 3700.0,
     "emission_factor": 8.519456596822472,
     "generation_gco2kwh": 8.519456596822472,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111860,7 +111860,7 @@ window.DATA_DETAIL = [
     "total_co2": 10860.0,
     "emission_factor": 230.08474576271186,
     "generation_gco2kwh": 230.08474576271186,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111884,7 +111884,7 @@ window.DATA_DETAIL = [
     "total_co2": 641000.0,
     "emission_factor": 949.4749003866036,
     "generation_gco2kwh": 949.4749003866036,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111908,7 +111908,7 @@ window.DATA_DETAIL = [
     "total_co2": 970400.0,
     "emission_factor": 537.3021937255684,
     "generation_gco2kwh": 537.3021937255684,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111932,7 +111932,7 @@ window.DATA_DETAIL = [
     "total_co2": 5740.0,
     "emission_factor": 24.015731559348982,
     "generation_gco2kwh": 24.015731559348982,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111956,7 +111956,7 @@ window.DATA_DETAIL = [
     "total_co2": 4200.0,
     "emission_factor": 5.420264044291301,
     "generation_gco2kwh": 5.420264044291301,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -111980,7 +111980,7 @@ window.DATA_DETAIL = [
     "total_co2": 23190.0,
     "emission_factor": 699.9698158768488,
     "generation_gco2kwh": 699.9698158768488,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112004,7 +112004,7 @@ window.DATA_DETAIL = [
     "total_co2": 700.0,
     "emission_factor": 37.94037940379404,
     "generation_gco2kwh": 37.94037940379404,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112028,7 +112028,7 @@ window.DATA_DETAIL = [
     "total_co2": 11470.0,
     "emission_factor": 48.00368293295388,
     "generation_gco2kwh": 48.00368293295388,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112052,7 +112052,7 @@ window.DATA_DETAIL = [
     "total_co2": 3580.0,
     "emission_factor": 8.50073609725982,
     "generation_gco2kwh": 8.50073609725982,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112076,7 +112076,7 @@ window.DATA_DETAIL = [
     "total_co2": 10750.0,
     "emission_factor": 229.99572100984167,
     "generation_gco2kwh": 229.99572100984167,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112100,7 +112100,7 @@ window.DATA_DETAIL = [
     "total_co2": 619780.0,
     "emission_factor": 949.4760708376739,
     "generation_gco2kwh": 949.4760708376739,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112124,7 +112124,7 @@ window.DATA_DETAIL = [
     "total_co2": 1002000.0,
     "emission_factor": 537.3028682964497,
     "generation_gco2kwh": 537.3028682964497,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112148,7 +112148,7 @@ window.DATA_DETAIL = [
     "total_co2": 5670.0,
     "emission_factor": 23.992890995260666,
     "generation_gco2kwh": 23.992890995260666,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112172,7 +112172,7 @@ window.DATA_DETAIL = [
     "total_co2": 4230.0,
     "emission_factor": 5.409345507557738,
     "generation_gco2kwh": 5.409345507557738,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112196,7 +112196,7 @@ window.DATA_DETAIL = [
     "total_co2": 21220.0,
     "emission_factor": 699.8680738786279,
     "generation_gco2kwh": 699.8680738786279,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112220,7 +112220,7 @@ window.DATA_DETAIL = [
     "total_co2": 670.0,
     "emission_factor": 37.96033994334278,
     "generation_gco2kwh": 37.96033994334278,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112244,7 +112244,7 @@ window.DATA_DETAIL = [
     "total_co2": 14550.0,
     "emission_factor": 47.99287528449385,
     "generation_gco2kwh": 47.99287528449385,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112268,7 +112268,7 @@ window.DATA_DETAIL = [
     "total_co2": 3860.0,
     "emission_factor": 8.51251516153931,
     "generation_gco2kwh": 8.51251516153931,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112292,7 +112292,7 @@ window.DATA_DETAIL = [
     "total_co2": 590.0,
     "emission_factor": 216.11721611721612,
     "generation_gco2kwh": 216.11721611721612,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112316,7 +112316,7 @@ window.DATA_DETAIL = [
     "total_co2": 100.0,
     "emission_factor": 24.449877750611247,
     "generation_gco2kwh": 24.449877750611247,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112340,7 +112340,7 @@ window.DATA_DETAIL = [
     "total_co2": 530.0,
     "emission_factor": 654.3209876543209,
     "generation_gco2kwh": 654.3209876543209,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112364,7 +112364,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112388,7 +112388,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 7.2992700729927,
     "generation_gco2kwh": 7.2992700729927,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112412,7 +112412,7 @@ window.DATA_DETAIL = [
     "total_co2": 600.0,
     "emission_factor": 215.05376344086022,
     "generation_gco2kwh": 215.05376344086022,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112436,7 +112436,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112460,7 +112460,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 24.667931688804558,
     "generation_gco2kwh": 24.667931688804558,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112484,7 +112484,7 @@ window.DATA_DETAIL = [
     "total_co2": 1610.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112508,7 +112508,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112532,7 +112532,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 8.016032064128256,
     "generation_gco2kwh": 8.016032064128256,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112556,7 +112556,7 @@ window.DATA_DETAIL = [
     "total_co2": 540.0,
     "emission_factor": 214.28571428571428,
     "generation_gco2kwh": 214.28571428571428,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112580,7 +112580,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 24.604569420035148,
     "generation_gco2kwh": 24.604569420035148,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112604,7 +112604,7 @@ window.DATA_DETAIL = [
     "total_co2": 900.0,
     "emission_factor": 656.934306569343,
     "generation_gco2kwh": 656.934306569343,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112628,7 +112628,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.0,
     "generation_gco2kwh": 40.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112652,7 +112652,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 8.368200836820083,
     "generation_gco2kwh": 8.368200836820083,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112676,7 +112676,7 @@ window.DATA_DETAIL = [
     "total_co2": 670.0,
     "emission_factor": 217.53246753246754,
     "generation_gco2kwh": 217.53246753246754,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112700,7 +112700,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112724,7 +112724,7 @@ window.DATA_DETAIL = [
     "total_co2": 680.0,
     "emission_factor": 660.1941747572815,
     "generation_gco2kwh": 660.1941747572815,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112748,7 +112748,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.816326530612244,
     "generation_gco2kwh": 40.816326530612244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112772,7 +112772,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 8.403361344537815,
     "generation_gco2kwh": 8.403361344537815,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112796,7 +112796,7 @@ window.DATA_DETAIL = [
     "total_co2": 820.0,
     "emission_factor": 216.93121693121694,
     "generation_gco2kwh": 216.93121693121694,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112820,7 +112820,7 @@ window.DATA_DETAIL = [
     "total_co2": 170.0,
     "emission_factor": 23.35164835164835,
     "generation_gco2kwh": 23.35164835164835,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112844,7 +112844,7 @@ window.DATA_DETAIL = [
     "total_co2": 610.0,
     "emission_factor": 655.9139784946236,
     "generation_gco2kwh": 655.9139784946236,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112868,7 +112868,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 56.60377358490566,
     "generation_gco2kwh": 56.60377358490566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112892,7 +112892,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 8.421052631578947,
     "generation_gco2kwh": 8.421052631578947,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112916,7 +112916,7 @@ window.DATA_DETAIL = [
     "total_co2": 4960.0,
     "emission_factor": 953.8461538461538,
     "generation_gco2kwh": 953.8461538461538,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112940,7 +112940,7 @@ window.DATA_DETAIL = [
     "total_co2": 71050.0,
     "emission_factor": 1272.3853868194842,
     "generation_gco2kwh": 1272.3853868194842,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112964,7 +112964,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 24.0,
     "generation_gco2kwh": 24.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -112988,7 +112988,7 @@ window.DATA_DETAIL = [
     "total_co2": 320.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113012,7 +113012,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113036,7 +113036,7 @@ window.DATA_DETAIL = [
     "total_co2": 4730.0,
     "emission_factor": 953.6290322580645,
     "generation_gco2kwh": 953.6290322580645,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113060,7 +113060,7 @@ window.DATA_DETAIL = [
     "total_co2": 76420.0,
     "emission_factor": 1272.3942723942723,
     "generation_gco2kwh": 1272.3942723942723,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113084,7 +113084,7 @@ window.DATA_DETAIL = [
     "total_co2": 120.0,
     "emission_factor": 24.144869215291752,
     "generation_gco2kwh": 24.144869215291752,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113108,7 +113108,7 @@ window.DATA_DETAIL = [
     "total_co2": 920.0,
     "emission_factor": 657.1428571428572,
     "generation_gco2kwh": 657.1428571428572,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113132,7 +113132,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113156,7 +113156,7 @@ window.DATA_DETAIL = [
     "total_co2": 5380.0,
     "emission_factor": 953.9007092198582,
     "generation_gco2kwh": 953.9007092198582,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113180,7 +113180,7 @@ window.DATA_DETAIL = [
     "total_co2": 77660.0,
     "emission_factor": 1272.4889398656398,
     "generation_gco2kwh": 1272.4889398656398,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113204,7 +113204,7 @@ window.DATA_DETAIL = [
     "total_co2": 150.0,
     "emission_factor": 23.148148148148145,
     "generation_gco2kwh": 23.148148148148145,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113228,7 +113228,7 @@ window.DATA_DETAIL = [
     "total_co2": 970.0,
     "emission_factor": 655.4054054054054,
     "generation_gco2kwh": 655.4054054054054,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113252,7 +113252,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113276,7 +113276,7 @@ window.DATA_DETAIL = [
     "total_co2": 5430.0,
     "emission_factor": 952.6315789473684,
     "generation_gco2kwh": 952.6315789473684,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113300,7 +113300,7 @@ window.DATA_DETAIL = [
     "total_co2": 78890.0,
     "emission_factor": 1272.4193548387098,
     "generation_gco2kwh": 1272.4193548387098,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113324,7 +113324,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 24.242424242424242,
     "generation_gco2kwh": 24.242424242424242,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -113348,7 +113348,7 @@ window.DATA_DETAIL = [
     "total_co2": 990.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113372,7 +113372,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113420,7 +113420,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113444,7 +113444,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113468,7 +113468,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113492,7 +113492,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113516,7 +113516,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113540,7 +113540,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113564,7 +113564,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113588,7 +113588,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113612,7 +113612,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113636,7 +113636,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113660,7 +113660,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113684,7 +113684,7 @@ window.DATA_DETAIL = [
     "total_co2": 40.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113708,7 +113708,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113732,7 +113732,7 @@ window.DATA_DETAIL = [
     "total_co2": 9220.0,
     "emission_factor": 790.73756432247,
     "generation_gco2kwh": 790.73756432247,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113756,7 +113756,7 @@ window.DATA_DETAIL = [
     "total_co2": 1490.0,
     "emission_factor": 23.836186210206368,
     "generation_gco2kwh": 23.836186210206368,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113780,7 +113780,7 @@ window.DATA_DETAIL = [
     "total_co2": 4150.0,
     "emission_factor": 657.6862123613313,
     "generation_gco2kwh": 657.6862123613313,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113804,7 +113804,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113828,7 +113828,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113852,7 +113852,7 @@ window.DATA_DETAIL = [
     "total_co2": 9310.0,
     "emission_factor": 790.3225806451613,
     "generation_gco2kwh": 790.3225806451613,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113876,7 +113876,7 @@ window.DATA_DETAIL = [
     "total_co2": 1560.0,
     "emission_factor": 23.751522533495734,
     "generation_gco2kwh": 23.751522533495734,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113900,7 +113900,7 @@ window.DATA_DETAIL = [
     "total_co2": 3580.0,
     "emission_factor": 658.0882352941176,
     "generation_gco2kwh": 658.0882352941176,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113924,7 +113924,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113948,7 +113948,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113972,7 +113972,7 @@ window.DATA_DETAIL = [
     "total_co2": 9570.0,
     "emission_factor": 790.2559867877787,
     "generation_gco2kwh": 790.2559867877787,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -113996,7 +113996,7 @@ window.DATA_DETAIL = [
     "total_co2": 1530.0,
     "emission_factor": 23.717253139048207,
     "generation_gco2kwh": 23.717253139048207,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114020,7 +114020,7 @@ window.DATA_DETAIL = [
     "total_co2": 3760.0,
     "emission_factor": 658.4938704028021,
     "generation_gco2kwh": 658.4938704028021,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114044,7 +114044,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114068,7 +114068,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114092,7 +114092,7 @@ window.DATA_DETAIL = [
     "total_co2": 9590.0,
     "emission_factor": 790.6018136850782,
     "generation_gco2kwh": 790.6018136850782,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114116,7 +114116,7 @@ window.DATA_DETAIL = [
     "total_co2": 1540.0,
     "emission_factor": 23.699599876885195,
     "generation_gco2kwh": 23.699599876885195,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114140,7 +114140,7 @@ window.DATA_DETAIL = [
     "total_co2": 3820.0,
     "emission_factor": 658.6206896551724,
     "generation_gco2kwh": 658.6206896551724,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114164,7 +114164,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114188,7 +114188,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114212,7 +114212,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 205.88235294117646,
     "generation_gco2kwh": 205.88235294117646,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114236,7 +114236,7 @@ window.DATA_DETAIL = [
     "total_co2": 106140.0,
     "emission_factor": 866.2368399575614,
     "generation_gco2kwh": 866.2368399575614,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114260,7 +114260,7 @@ window.DATA_DETAIL = [
     "total_co2": 19290.0,
     "emission_factor": 556.5493364108482,
     "generation_gco2kwh": 556.5493364108482,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114284,7 +114284,7 @@ window.DATA_DETAIL = [
     "total_co2": 1730.0,
     "emission_factor": 23.74090846713325,
     "generation_gco2kwh": 23.74090846713325,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114308,7 +114308,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 655.9139784946236,
     "generation_gco2kwh": 655.9139784946236,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114332,7 +114332,7 @@ window.DATA_DETAIL = [
     "total_co2": 510.0,
     "emission_factor": 47.39776951672862,
     "generation_gco2kwh": 47.39776951672862,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114356,7 +114356,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 10.204081632653061,
     "generation_gco2kwh": 10.204081632653061,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114380,7 +114380,7 @@ window.DATA_DETAIL = [
     "total_co2": 70.0,
     "emission_factor": 218.75,
     "generation_gco2kwh": 218.75,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114404,7 +114404,7 @@ window.DATA_DETAIL = [
     "total_co2": 102110.0,
     "emission_factor": 865.1190375328306,
     "generation_gco2kwh": 865.1190375328306,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114428,7 +114428,7 @@ window.DATA_DETAIL = [
     "total_co2": 14650.0,
     "emission_factor": 556.822500950209,
     "generation_gco2kwh": 556.822500950209,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114452,7 +114452,7 @@ window.DATA_DETAIL = [
     "total_co2": 1870.0,
     "emission_factor": 23.770179229693657,
     "generation_gco2kwh": 23.770179229693657,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114476,7 +114476,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 658.2278481012657,
     "generation_gco2kwh": 658.2278481012657,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114500,7 +114500,7 @@ window.DATA_DETAIL = [
     "total_co2": 1240.0,
     "emission_factor": 47.4187380497132,
     "generation_gco2kwh": 47.4187380497132,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114524,7 +114524,7 @@ window.DATA_DETAIL = [
     "total_co2": 50.0,
     "emission_factor": 14.970059880239521,
     "generation_gco2kwh": 14.970059880239521,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114548,7 +114548,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 210.52631578947367,
     "generation_gco2kwh": 210.52631578947367,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114572,7 +114572,7 @@ window.DATA_DETAIL = [
     "total_co2": 89700.0,
     "emission_factor": 862.1683967704729,
     "generation_gco2kwh": 862.1683967704729,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114596,7 +114596,7 @@ window.DATA_DETAIL = [
     "total_co2": 16270.0,
     "emission_factor": 556.8104038329911,
     "generation_gco2kwh": 556.8104038329911,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114620,7 +114620,7 @@ window.DATA_DETAIL = [
     "total_co2": 2280.0,
     "emission_factor": 23.7722865186112,
     "generation_gco2kwh": 23.7722865186112,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114644,7 +114644,7 @@ window.DATA_DETAIL = [
     "total_co2": 470.0,
     "emission_factor": 652.7777777777778,
     "generation_gco2kwh": 652.7777777777778,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114668,7 +114668,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 47.37864077669903,
     "generation_gco2kwh": 47.37864077669903,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114692,7 +114692,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 14.301430143014302,
     "generation_gco2kwh": 14.301430143014302,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114716,7 +114716,7 @@ window.DATA_DETAIL = [
     "total_co2": 190.0,
     "emission_factor": 218.39080459770116,
     "generation_gco2kwh": 218.39080459770116,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114740,7 +114740,7 @@ window.DATA_DETAIL = [
     "total_co2": 111510.0,
     "emission_factor": 859.3557336621456,
     "generation_gco2kwh": 859.3557336621456,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114764,7 +114764,7 @@ window.DATA_DETAIL = [
     "total_co2": 14670.0,
     "emission_factor": 556.525037936267,
     "generation_gco2kwh": 556.525037936267,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114788,7 +114788,7 @@ window.DATA_DETAIL = [
     "total_co2": 1920.0,
     "emission_factor": 23.815430414289256,
     "generation_gco2kwh": 23.815430414289256,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114812,7 +114812,7 @@ window.DATA_DETAIL = [
     "total_co2": 1120.0,
     "emission_factor": 658.8235294117648,
     "generation_gco2kwh": 658.8235294117648,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114836,7 +114836,7 @@ window.DATA_DETAIL = [
     "total_co2": 1220.0,
     "emission_factor": 47.489295445698716,
     "generation_gco2kwh": 47.489295445698716,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114860,7 +114860,7 @@ window.DATA_DETAIL = [
     "total_co2": 160.0,
     "emission_factor": 13.805004314063849,
     "generation_gco2kwh": 13.805004314063849,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114884,7 +114884,7 @@ window.DATA_DETAIL = [
     "total_co2": 220.0,
     "emission_factor": 213.59223300970874,
     "generation_gco2kwh": 213.59223300970874,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114908,7 +114908,7 @@ window.DATA_DETAIL = [
     "total_co2": 131280.0,
     "emission_factor": 859.3310204883157,
     "generation_gco2kwh": 859.3310204883157,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114932,7 +114932,7 @@ window.DATA_DETAIL = [
     "total_co2": 12150.0,
     "emission_factor": 556.5735226752176,
     "generation_gco2kwh": 556.5735226752176,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -114956,7 +114956,7 @@ window.DATA_DETAIL = [
     "total_co2": 2110.0,
     "emission_factor": 23.78268710550045,
     "generation_gco2kwh": 23.78268710550045,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114980,7 +114980,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 661.2903225806451,
     "generation_gco2kwh": 661.2903225806451,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115004,7 +115004,7 @@ window.DATA_DETAIL = [
     "total_co2": 1230.0,
     "emission_factor": 47.56380510440835,
     "generation_gco2kwh": 47.56380510440835,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -115028,7 +115028,7 @@ window.DATA_DETAIL = [
     "total_co2": 180.0,
     "emission_factor": 14.117647058823529,
     "generation_gco2kwh": 14.117647058823529,
-    "sources": "I-REC, XPANSIV, EMBERS",
+    "sources": "I-REC, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -115052,7 +115052,7 @@ window.DATA_DETAIL = [
     "total_co2": 340.0,
     "emission_factor": 829.2682926829269,
     "generation_gco2kwh": 829.2682926829269,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115076,7 +115076,7 @@ window.DATA_DETAIL = [
     "total_co2": 1340.0,
     "emission_factor": 656.8627450980392,
     "generation_gco2kwh": 656.8627450980392,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115100,7 +115100,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.816326530612244,
     "generation_gco2kwh": 40.816326530612244,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115124,7 +115124,7 @@ window.DATA_DETAIL = [
     "total_co2": 520.0,
     "emission_factor": 825.3968253968254,
     "generation_gco2kwh": 825.3968253968254,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115148,7 +115148,7 @@ window.DATA_DETAIL = [
     "total_co2": 1180.0,
     "emission_factor": 659.2178770949721,
     "generation_gco2kwh": 659.2178770949721,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115172,7 +115172,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 40.0,
     "generation_gco2kwh": 40.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115196,7 +115196,7 @@ window.DATA_DETAIL = [
     "total_co2": 450.0,
     "emission_factor": 833.3333333333333,
     "generation_gco2kwh": 833.3333333333333,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115220,7 +115220,7 @@ window.DATA_DETAIL = [
     "total_co2": 1300.0,
     "emission_factor": 656.5656565656566,
     "generation_gco2kwh": 656.5656565656566,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115244,7 +115244,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 39.21568627450981,
     "generation_gco2kwh": 39.21568627450981,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115268,7 +115268,7 @@ window.DATA_DETAIL = [
     "total_co2": 460.0,
     "emission_factor": 836.3636363636363,
     "generation_gco2kwh": 836.3636363636363,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115292,7 +115292,7 @@ window.DATA_DETAIL = [
     "total_co2": 1320.0,
     "emission_factor": 660.0,
     "generation_gco2kwh": 660.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115316,7 +115316,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 38.46153846153846,
     "generation_gco2kwh": 38.46153846153846,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115340,7 +115340,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115364,7 +115364,7 @@ window.DATA_DETAIL = [
     "total_co2": 1520.0,
     "emission_factor": 804.2328042328043,
     "generation_gco2kwh": 804.2328042328043,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115388,7 +115388,7 @@ window.DATA_DETAIL = [
     "total_co2": 300.0,
     "emission_factor": 23.455824863174357,
     "generation_gco2kwh": 23.455824863174357,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115412,7 +115412,7 @@ window.DATA_DETAIL = [
     "total_co2": 210.0,
     "emission_factor": 656.25,
     "generation_gco2kwh": 656.25,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115436,7 +115436,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115460,7 +115460,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115484,7 +115484,7 @@ window.DATA_DETAIL = [
     "total_co2": 1050.0,
     "emission_factor": 807.6923076923076,
     "generation_gco2kwh": 807.6923076923076,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115508,7 +115508,7 @@ window.DATA_DETAIL = [
     "total_co2": 380.0,
     "emission_factor": 23.646546359676414,
     "generation_gco2kwh": 23.646546359676414,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115532,7 +115532,7 @@ window.DATA_DETAIL = [
     "total_co2": 80.0,
     "emission_factor": 666.6666666666667,
     "generation_gco2kwh": 666.6666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115556,7 +115556,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115580,7 +115580,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115604,7 +115604,7 @@ window.DATA_DETAIL = [
     "total_co2": 1740.0,
     "emission_factor": 805.5555555555555,
     "generation_gco2kwh": 805.5555555555555,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115628,7 +115628,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 23.990637799882972,
     "generation_gco2kwh": 23.990637799882972,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -115652,7 +115652,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115676,7 +115676,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115700,7 +115700,7 @@ window.DATA_DETAIL = [
     "total_co2": 1710.0,
     "emission_factor": 802.8169014084507,
     "generation_gco2kwh": 802.8169014084507,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115724,7 +115724,7 @@ window.DATA_DETAIL = [
     "total_co2": 410.0,
     "emission_factor": 23.990637799882972,
     "generation_gco2kwh": 23.990637799882972,
-    "sources": "I-REC, EMBERS",
+    "sources": "I-REC, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -115748,7 +115748,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 1000.0,
     "generation_gco2kwh": 1000.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115772,7 +115772,7 @@ window.DATA_DETAIL = [
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115820,7 +115820,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115844,7 +115844,7 @@ window.DATA_DETAIL = [
     "total_co2": 2350.0,
     "emission_factor": 857.6642335766422,
     "generation_gco2kwh": 857.6642335766422,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115868,7 +115868,7 @@ window.DATA_DETAIL = [
     "total_co2": 90.0,
     "emission_factor": 23.62204724409449,
     "generation_gco2kwh": 23.62204724409449,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115892,7 +115892,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 750.0,
     "generation_gco2kwh": 750.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115916,7 +115916,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115940,7 +115940,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115964,7 +115964,7 @@ window.DATA_DETAIL = [
     "total_co2": 2150.0,
     "emission_factor": 856.5737051792829,
     "generation_gco2kwh": 856.5737051792829,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -115988,7 +115988,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 23.60876897133221,
     "generation_gco2kwh": 23.60876897133221,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116012,7 +116012,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116036,7 +116036,7 @@ window.DATA_DETAIL = [
     "total_co2": 20.0,
     "emission_factor": 181.8181818181818,
     "generation_gco2kwh": 181.8181818181818,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116060,7 +116060,7 @@ window.DATA_DETAIL = [
     "total_co2": 2500.0,
     "emission_factor": 856.1643835616438,
     "generation_gco2kwh": 856.1643835616438,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116084,7 +116084,7 @@ window.DATA_DETAIL = [
     "total_co2": 140.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116108,7 +116108,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116132,7 +116132,7 @@ window.DATA_DETAIL = [
     "total_co2": 30.0,
     "emission_factor": 250.0,
     "generation_gco2kwh": 250.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116156,7 +116156,7 @@ window.DATA_DETAIL = [
     "total_co2": 2320.0,
     "emission_factor": 859.2592592592592,
     "generation_gco2kwh": 859.2592592592592,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116180,7 +116180,7 @@ window.DATA_DETAIL = [
     "total_co2": 130.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
@@ -116204,7 +116204,7 @@ window.DATA_DETAIL = [
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "EMBERS",
+    "sources": "EMBER",
     "issuance": ""
   },
   {
