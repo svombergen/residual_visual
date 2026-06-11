@@ -2036,7 +2036,7 @@
     "total_co2": 70.0,
     "emission_factor": 7.438894792773645,
     "generation_gco2kwh": 7.438894792773645,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2060,7 +2060,7 @@
     "total_co2": 490.0,
     "emission_factor": 217.77777777777777,
     "generation_gco2kwh": 217.77777777777777,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2132,7 +2132,7 @@
     "total_co2": 470.0,
     "emission_factor": 23.918575063613233,
     "generation_gco2kwh": 23.918575063613233,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2204,7 +2204,7 @@
     "total_co2": 100.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2228,7 +2228,7 @@
     "total_co2": 100.0,
     "emission_factor": 7.727975270479135,
     "generation_gco2kwh": 7.727975270479135,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2252,7 +2252,7 @@
     "total_co2": 520.0,
     "emission_factor": 216.66666666666669,
     "generation_gco2kwh": 216.66666666666669,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2324,7 +2324,7 @@
     "total_co2": 540.0,
     "emission_factor": 23.715415019762847,
     "generation_gco2kwh": 23.715415019762847,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2396,7 +2396,7 @@
     "total_co2": 140.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2420,7 +2420,7 @@
     "total_co2": 110.0,
     "emission_factor": 7.768361581920904,
     "generation_gco2kwh": 7.768361581920904,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2444,7 +2444,7 @@
     "total_co2": 520.0,
     "emission_factor": 216.66666666666669,
     "generation_gco2kwh": 216.66666666666669,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2516,7 +2516,7 @@
     "total_co2": 750.0,
     "emission_factor": 23.817084788821848,
     "generation_gco2kwh": 23.817084788821848,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2588,7 +2588,7 @@
     "total_co2": 160.0,
     "emission_factor": 48.78048780487805,
     "generation_gco2kwh": 48.78048780487805,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2612,7 +2612,7 @@
     "total_co2": 110.0,
     "emission_factor": 7.596685082872928,
     "generation_gco2kwh": 7.596685082872928,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2636,7 +2636,7 @@
     "total_co2": 570.0,
     "emission_factor": 216.7300380228137,
     "generation_gco2kwh": 216.7300380228137,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2708,7 +2708,7 @@
     "total_co2": 700.0,
     "emission_factor": 23.592854735422986,
     "generation_gco2kwh": 23.592854735422986,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2780,7 +2780,7 @@
     "total_co2": 190.0,
     "emission_factor": 47.858942065491185,
     "generation_gco2kwh": 47.858942065491185,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -2804,7 +2804,7 @@
     "total_co2": 120.0,
     "emission_factor": 7.421150278293134,
     "generation_gco2kwh": 7.421150278293134,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -3764,7 +3764,7 @@
     "total_co2": 380.0,
     "emission_factor": 23.839397741530743,
     "generation_gco2kwh": 23.839397741530743,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
+    "sources": "The I-TRACK Foundation, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -3932,7 +3932,7 @@
     "total_co2": 400.0,
     "emission_factor": 24.009603841536613,
     "generation_gco2kwh": 24.009603841536613,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
+    "sources": "The I-TRACK Foundation, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4100,7 +4100,7 @@
     "total_co2": 360.0,
     "emission_factor": 23.872679045092838,
     "generation_gco2kwh": 23.872679045092838,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
+    "sources": "The I-TRACK Foundation, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4196,7 +4196,7 @@
     "total_co2": 650.0,
     "emission_factor": 217.39130434782606,
     "generation_gco2kwh": 217.39130434782606,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
+    "sources": "The I-TRACK Foundation, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -4268,7 +4268,7 @@
     "total_co2": 310.0,
     "emission_factor": 24.124513618677042,
     "generation_gco2kwh": 24.124513618677042,
-    "sources": "I-REC, Clean Energy Regulator Australia, EMBER",
+    "sources": "The I-TRACK Foundation, Clean Energy Regulator Australia, EMBER",
     "issuance": "LGC"
   },
   {
@@ -6836,7 +6836,7 @@
     "total_co2": 40.0,
     "emission_factor": 45.97701149425287,
     "generation_gco2kwh": 45.97701149425287,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -6980,7 +6980,7 @@
     "total_co2": 50.0,
     "emission_factor": 46.72897196261682,
     "generation_gco2kwh": 46.72897196261682,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -7100,7 +7100,7 @@
     "total_co2": 70.0,
     "emission_factor": 49.29577464788733,
     "generation_gco2kwh": 49.29577464788733,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -12020,7 +12020,7 @@
     "total_co2": 12700.0,
     "emission_factor": 216.20701395982294,
     "generation_gco2kwh": 216.20701395982294,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12092,7 +12092,7 @@
     "total_co2": 9420.0,
     "emission_factor": 23.76507391896665,
     "generation_gco2kwh": 23.76507391896665,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12164,7 +12164,7 @@
     "total_co2": 510.0,
     "emission_factor": 47.44186046511628,
     "generation_gco2kwh": 47.44186046511628,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12188,7 +12188,7 @@
     "total_co2": 440.0,
     "emission_factor": 7.712532865907099,
     "generation_gco2kwh": 7.712532865907099,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12212,7 +12212,7 @@
     "total_co2": 12110.0,
     "emission_factor": 216.21139082306732,
     "generation_gco2kwh": 216.21139082306732,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12284,7 +12284,7 @@
     "total_co2": 8620.0,
     "emission_factor": 23.758337467614794,
     "generation_gco2kwh": 23.758337467614794,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12356,7 +12356,7 @@
     "total_co2": 800.0,
     "emission_factor": 47.76119402985075,
     "generation_gco2kwh": 47.76119402985075,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12380,7 +12380,7 @@
     "total_co2": 560.0,
     "emission_factor": 7.746576289943284,
     "generation_gco2kwh": 7.746576289943284,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12404,7 +12404,7 @@
     "total_co2": 11900.0,
     "emission_factor": 216.28498727735368,
     "generation_gco2kwh": 216.28498727735368,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12476,7 +12476,7 @@
     "total_co2": 10150.0,
     "emission_factor": 23.764369834468873,
     "generation_gco2kwh": 23.764369834468873,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12548,7 +12548,7 @@
     "total_co2": 1430.0,
     "emission_factor": 47.46100232326585,
     "generation_gco2kwh": 47.46100232326585,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12572,7 +12572,7 @@
     "total_co2": 630.0,
     "emission_factor": 7.717750826901875,
     "generation_gco2kwh": 7.717750826901875,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12596,7 +12596,7 @@
     "total_co2": 12490.0,
     "emission_factor": 216.23961218836567,
     "generation_gco2kwh": 216.23961218836567,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12668,7 +12668,7 @@
     "total_co2": 10120.0,
     "emission_factor": 23.75586854460094,
     "generation_gco2kwh": 23.75586854460094,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12740,7 +12740,7 @@
     "total_co2": 2410.0,
     "emission_factor": 47.60023701362828,
     "generation_gco2kwh": 47.60023701362828,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12764,7 +12764,7 @@
     "total_co2": 740.0,
     "emission_factor": 7.724425887265136,
     "generation_gco2kwh": 7.724425887265136,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12788,7 +12788,7 @@
     "total_co2": 12590.0,
     "emission_factor": 216.17445054945054,
     "generation_gco2kwh": 216.17445054945054,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12860,7 +12860,7 @@
     "total_co2": 9820.0,
     "emission_factor": 23.765155731952277,
     "generation_gco2kwh": 23.765155731952277,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12932,7 +12932,7 @@
     "total_co2": 3390.0,
     "emission_factor": 47.53224901850814,
     "generation_gco2kwh": 47.53224901850814,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -12956,7 +12956,7 @@
     "total_co2": 830.0,
     "emission_factor": 7.6504746981288605,
     "generation_gco2kwh": 7.6504746981288605,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -13220,7 +13220,7 @@
     "total_co2": 0.0,
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -13316,7 +13316,7 @@
     "total_co2": 0.0,
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -13412,7 +13412,7 @@
     "total_co2": 0.0,
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -13436,7 +13436,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -14900,7 +14900,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -14924,7 +14924,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -15668,7 +15668,7 @@
     "total_co2": 30.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -15788,7 +15788,7 @@
     "total_co2": 30.0,
     "emission_factor": 41.09589041095891,
     "generation_gco2kwh": 41.09589041095891,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -15908,7 +15908,7 @@
     "total_co2": 40.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -16028,7 +16028,7 @@
     "total_co2": 50.0,
     "emission_factor": 46.72897196261682,
     "generation_gco2kwh": 46.72897196261682,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -17972,7 +17972,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -17996,7 +17996,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -18092,7 +18092,7 @@
     "total_co2": 530.0,
     "emission_factor": 24.16780665754674,
     "generation_gco2kwh": 24.16780665754674,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18164,7 +18164,7 @@
     "total_co2": 360.0,
     "emission_factor": 47.808764940239044,
     "generation_gco2kwh": 47.808764940239044,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18188,7 +18188,7 @@
     "total_co2": 40.0,
     "emission_factor": 7.207207207207207,
     "generation_gco2kwh": 7.207207207207207,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18284,7 +18284,7 @@
     "total_co2": 460.0,
     "emission_factor": 24.261603375527425,
     "generation_gco2kwh": 24.261603375527425,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18356,7 +18356,7 @@
     "total_co2": 510.0,
     "emission_factor": 48.29545454545454,
     "generation_gco2kwh": 48.29545454545454,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18380,7 +18380,7 @@
     "total_co2": 60.0,
     "emission_factor": 7.874015748031496,
     "generation_gco2kwh": 7.874015748031496,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18476,7 +18476,7 @@
     "total_co2": 500.0,
     "emission_factor": 24.177949709864603,
     "generation_gco2kwh": 24.177949709864603,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18548,7 +18548,7 @@
     "total_co2": 750.0,
     "emission_factor": 47.740292807129215,
     "generation_gco2kwh": 47.740292807129215,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18572,7 +18572,7 @@
     "total_co2": 70.0,
     "emission_factor": 7.882882882882882,
     "generation_gco2kwh": 7.882882882882882,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18668,7 +18668,7 @@
     "total_co2": 560.0,
     "emission_factor": 24.034334763948497,
     "generation_gco2kwh": 24.034334763948497,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18740,7 +18740,7 @@
     "total_co2": 870.0,
     "emission_factor": 48.17275747508306,
     "generation_gco2kwh": 48.17275747508306,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18764,7 +18764,7 @@
     "total_co2": 70.0,
     "emission_factor": 7.399577167019027,
     "generation_gco2kwh": 7.399577167019027,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18860,7 +18860,7 @@
     "total_co2": 630.0,
     "emission_factor": 23.854600530102235,
     "generation_gco2kwh": 23.854600530102235,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18932,7 +18932,7 @@
     "total_co2": 960.0,
     "emission_factor": 48.192771084337345,
     "generation_gco2kwh": 48.192771084337345,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18956,7 +18956,7 @@
     "total_co2": 80.0,
     "emission_factor": 7.561436672967864,
     "generation_gco2kwh": 7.561436672967864,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -18980,7 +18980,7 @@
     "total_co2": 29340.0,
     "emission_factor": 216.21223286661757,
     "generation_gco2kwh": 216.21223286661757,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19052,7 +19052,7 @@
     "total_co2": 31400.0,
     "emission_factor": 23.757102541404695,
     "generation_gco2kwh": 23.757102541404695,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19124,7 +19124,7 @@
     "total_co2": 12410.0,
     "emission_factor": 47.52968211413251,
     "generation_gco2kwh": 47.52968211413251,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19148,7 +19148,7 @@
     "total_co2": 5990.0,
     "emission_factor": 12.840300107181136,
     "generation_gco2kwh": 12.840300107181136,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19172,7 +19172,7 @@
     "total_co2": 35890.0,
     "emission_factor": 216.20481927710844,
     "generation_gco2kwh": 216.20481927710844,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19244,7 +19244,7 @@
     "total_co2": 30890.0,
     "emission_factor": 23.76153846153846,
     "generation_gco2kwh": 23.76153846153846,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19316,7 +19316,7 @@
     "total_co2": 15540.0,
     "emission_factor": 47.522935779816514,
     "generation_gco2kwh": 47.522935779816514,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19340,7 +19340,7 @@
     "total_co2": 8680.0,
     "emission_factor": 13.235742604452579,
     "generation_gco2kwh": 13.235742604452579,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19364,7 +19364,7 @@
     "total_co2": 39480.0,
     "emission_factor": 216.21029572836804,
     "generation_gco2kwh": 216.21029572836804,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19436,7 +19436,7 @@
     "total_co2": 30840.0,
     "emission_factor": 23.75743382738114,
     "generation_gco2kwh": 23.75743382738114,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19508,7 +19508,7 @@
     "total_co2": 20300.0,
     "emission_factor": 47.51094155920144,
     "generation_gco2kwh": 47.51094155920144,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19532,7 +19532,7 @@
     "total_co2": 10120.0,
     "emission_factor": 13.269172774594518,
     "generation_gco2kwh": 13.269172774594518,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19556,7 +19556,7 @@
     "total_co2": 42850.0,
     "emission_factor": 216.19576185671042,
     "generation_gco2kwh": 216.19576185671042,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -19628,7 +19628,7 @@
     "total_co2": 29130.0,
     "emission_factor": 23.760195758564436,
     "generation_gco2kwh": 23.760195758564436,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19700,7 +19700,7 @@
     "total_co2": 27760.0,
     "emission_factor": 47.52204057177095,
     "generation_gco2kwh": 47.52204057177095,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19724,7 +19724,7 @@
     "total_co2": 11760.0,
     "emission_factor": 13.275085509160487,
     "generation_gco2kwh": 13.275085509160487,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19820,7 +19820,7 @@
     "total_co2": 32180.0,
     "emission_factor": 23.762230016614364,
     "generation_gco2kwh": 23.762230016614364,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19892,7 +19892,7 @@
     "total_co2": 39870.0,
     "emission_factor": 47.51859267734554,
     "generation_gco2kwh": 47.51859267734554,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -19916,7 +19916,7 @@
     "total_co2": 13240.0,
     "emission_factor": 13.279306747974003,
     "generation_gco2kwh": 13.279306747974003,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20012,7 +20012,7 @@
     "total_co2": 1150.0,
     "emission_factor": 23.74071015689513,
     "generation_gco2kwh": 23.74071015689513,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20084,7 +20084,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20180,7 +20180,7 @@
     "total_co2": 1440.0,
     "emission_factor": 23.72322899505766,
     "generation_gco2kwh": 23.72322899505766,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20252,7 +20252,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20348,7 +20348,7 @@
     "total_co2": 1400.0,
     "emission_factor": 23.837902264600718,
     "generation_gco2kwh": 23.837902264600718,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20420,7 +20420,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -20516,7 +20516,7 @@
     "total_co2": 1340.0,
     "emission_factor": 23.847659725929883,
     "generation_gco2kwh": 23.847659725929883,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20564,7 +20564,7 @@
     "total_co2": 50.0,
     "emission_factor": 44.247787610619476,
     "generation_gco2kwh": 44.247787610619476,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20684,7 +20684,7 @@
     "total_co2": 1210.0,
     "emission_factor": 23.80015735641227,
     "generation_gco2kwh": 23.80015735641227,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -20732,7 +20732,7 @@
     "total_co2": 150.0,
     "emission_factor": 46.728971962616825,
     "generation_gco2kwh": 46.728971962616825,
-    "sources": "I-REC, Ecogox, EMBER",
+    "sources": "The I-TRACK Foundation, Ecogox, EMBER",
     "issuance": "Ecogox"
   },
   {
@@ -21260,7 +21260,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21332,7 +21332,7 @@
     "total_co2": 50.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21404,7 +21404,7 @@
     "total_co2": 100.0,
     "emission_factor": 47.39336492890995,
     "generation_gco2kwh": 47.39336492890995,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21452,7 +21452,7 @@
     "total_co2": 320.0,
     "emission_factor": 23.408924652523776,
     "generation_gco2kwh": 23.408924652523776,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21476,7 +21476,7 @@
     "total_co2": 100.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21500,7 +21500,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -21524,7 +21524,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -21812,7 +21812,7 @@
     "total_co2": 10.0,
     "emission_factor": 6.8493150684931505,
     "generation_gco2kwh": 6.8493150684931505,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21860,7 +21860,7 @@
     "total_co2": 220.0,
     "emission_factor": 23.68137782561895,
     "generation_gco2kwh": 23.68137782561895,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21932,7 +21932,7 @@
     "total_co2": 10.0,
     "emission_factor": 6.369426751592356,
     "generation_gco2kwh": 6.369426751592356,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -21980,7 +21980,7 @@
     "total_co2": 220.0,
     "emission_factor": 23.280423280423282,
     "generation_gco2kwh": 23.280423280423282,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22052,7 +22052,7 @@
     "total_co2": 10.0,
     "emission_factor": 7.2992700729927,
     "generation_gco2kwh": 7.2992700729927,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22100,7 +22100,7 @@
     "total_co2": 200.0,
     "emission_factor": 23.4192037470726,
     "generation_gco2kwh": 23.4192037470726,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22196,7 +22196,7 @@
     "total_co2": 10.0,
     "emission_factor": 6.7114093959731544,
     "generation_gco2kwh": 6.7114093959731544,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22244,7 +22244,7 @@
     "total_co2": 210.0,
     "emission_factor": 24.193548387096776,
     "generation_gco2kwh": 24.193548387096776,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -22340,7 +22340,7 @@
     "total_co2": 10.0,
     "emission_factor": 7.936507936507937,
     "generation_gco2kwh": 7.936507936507937,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27356,7 +27356,7 @@
     "total_co2": 40.0,
     "emission_factor": 47.05882352941177,
     "generation_gco2kwh": 47.05882352941177,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27404,7 +27404,7 @@
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27524,7 +27524,7 @@
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27572,7 +27572,7 @@
     "total_co2": 50.0,
     "emission_factor": 238.0952380952381,
     "generation_gco2kwh": 238.0952380952381,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27692,7 +27692,7 @@
     "total_co2": 60.0,
     "emission_factor": 44.11764705882353,
     "generation_gco2kwh": 44.11764705882353,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27740,7 +27740,7 @@
     "total_co2": 50.0,
     "emission_factor": 227.27272727272728,
     "generation_gco2kwh": 227.27272727272728,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27860,7 +27860,7 @@
     "total_co2": 80.0,
     "emission_factor": 47.337278106508876,
     "generation_gco2kwh": 47.337278106508876,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -27884,7 +27884,7 @@
     "total_co2": 10.0,
     "emission_factor": 9.09090909090909,
     "generation_gco2kwh": 9.09090909090909,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28388,7 +28388,7 @@
     "total_co2": 610.0,
     "emission_factor": 23.707734162456276,
     "generation_gco2kwh": 23.707734162456276,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28436,7 +28436,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28532,7 +28532,7 @@
     "total_co2": 550.0,
     "emission_factor": 23.90265102129509,
     "generation_gco2kwh": 23.90265102129509,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28580,7 +28580,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28700,7 +28700,7 @@
     "total_co2": 210.0,
     "emission_factor": 47.19101123595505,
     "generation_gco2kwh": 47.19101123595505,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28820,7 +28820,7 @@
     "total_co2": 240.0,
     "emission_factor": 48.289738430583505,
     "generation_gco2kwh": 48.289738430583505,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28844,7 +28844,7 @@
     "total_co2": 50.0,
     "emission_factor": 9.107468123861565,
     "generation_gco2kwh": 9.107468123861565,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28940,7 +28940,7 @@
     "total_co2": 240.0,
     "emission_factor": 48.0,
     "generation_gco2kwh": 48.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -28964,7 +28964,7 @@
     "total_co2": 60.0,
     "emission_factor": 10.169491525423728,
     "generation_gco2kwh": 10.169491525423728,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29060,7 +29060,7 @@
     "total_co2": 230.0,
     "emission_factor": 46.65314401622718,
     "generation_gco2kwh": 46.65314401622718,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29084,7 +29084,7 @@
     "total_co2": 60.0,
     "emission_factor": 10.016694490818029,
     "generation_gco2kwh": 10.016694490818029,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29180,7 +29180,7 @@
     "total_co2": 290.0,
     "emission_factor": 47.77594728171334,
     "generation_gco2kwh": 47.77594728171334,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29204,7 +29204,7 @@
     "total_co2": 60.0,
     "emission_factor": 9.77198697068404,
     "generation_gco2kwh": 9.77198697068404,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29324,7 +29324,7 @@
     "total_co2": 40.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29468,7 +29468,7 @@
     "total_co2": 50.0,
     "emission_factor": 46.29629629629629,
     "generation_gco2kwh": 46.29629629629629,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29516,7 +29516,7 @@
     "total_co2": 180.0,
     "emission_factor": 222.2222222222222,
     "generation_gco2kwh": 222.2222222222222,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29612,7 +29612,7 @@
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29756,7 +29756,7 @@
     "total_co2": 60.0,
     "emission_factor": 48.38709677419355,
     "generation_gco2kwh": 48.38709677419355,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29828,7 +29828,7 @@
     "total_co2": 60.0,
     "emission_factor": 22.641509433962266,
     "generation_gco2kwh": 22.641509433962266,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -29900,7 +29900,7 @@
     "total_co2": 60.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -32276,7 +32276,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -38228,7 +38228,7 @@
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -38252,7 +38252,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -40340,7 +40340,7 @@
     "total_co2": 140.0,
     "emission_factor": 24.22145328719723,
     "generation_gco2kwh": 24.22145328719723,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40412,7 +40412,7 @@
     "total_co2": 10.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -40532,7 +40532,7 @@
     "total_co2": 160.0,
     "emission_factor": 24.024024024024023,
     "generation_gco2kwh": 24.024024024024023,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40604,7 +40604,7 @@
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -40724,7 +40724,7 @@
     "total_co2": 170.0,
     "emission_factor": 24.147727272727273,
     "generation_gco2kwh": 24.147727272727273,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40796,7 +40796,7 @@
     "total_co2": 10.0,
     "emission_factor": 43.47826086956522,
     "generation_gco2kwh": 43.47826086956522,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40892,7 +40892,7 @@
     "total_co2": 130.0,
     "emission_factor": 23.008849557522122,
     "generation_gco2kwh": 23.008849557522122,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -40964,7 +40964,7 @@
     "total_co2": 10.0,
     "emission_factor": 41.66666666666667,
     "generation_gco2kwh": 41.66666666666667,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -41012,7 +41012,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -41036,7 +41036,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -41060,7 +41060,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -42044,7 +42044,7 @@
     "total_co2": 50.0,
     "emission_factor": 45.04504504504504,
     "generation_gco2kwh": 45.04504504504504,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42212,7 +42212,7 @@
     "total_co2": 50.0,
     "emission_factor": 43.85964912280702,
     "generation_gco2kwh": 43.85964912280702,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42236,7 +42236,7 @@
     "total_co2": 10.0,
     "emission_factor": 12.987012987012987,
     "generation_gco2kwh": 12.987012987012987,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42308,7 +42308,7 @@
     "total_co2": 90.0,
     "emission_factor": 23.195876288659793,
     "generation_gco2kwh": 23.195876288659793,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42380,7 +42380,7 @@
     "total_co2": 50.0,
     "emission_factor": 48.07692307692307,
     "generation_gco2kwh": 48.07692307692307,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42404,7 +42404,7 @@
     "total_co2": 10.0,
     "emission_factor": 14.492753623188406,
     "generation_gco2kwh": 14.492753623188406,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42524,7 +42524,7 @@
     "total_co2": 50.0,
     "emission_factor": 48.07692307692307,
     "generation_gco2kwh": 48.07692307692307,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42548,7 +42548,7 @@
     "total_co2": 10.0,
     "emission_factor": 14.492753623188406,
     "generation_gco2kwh": 14.492753623188406,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -42572,7 +42572,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -42596,7 +42596,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -45092,7 +45092,7 @@
     "total_co2": 4300.0,
     "emission_factor": 216.29778672032194,
     "generation_gco2kwh": 216.29778672032194,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45164,7 +45164,7 @@
     "total_co2": 3900.0,
     "emission_factor": 23.789191167500306,
     "generation_gco2kwh": 23.789191167500306,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45236,7 +45236,7 @@
     "total_co2": 2870.0,
     "emission_factor": 47.47725392886683,
     "generation_gco2kwh": 47.47725392886683,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45260,7 +45260,7 @@
     "total_co2": 970.0,
     "emission_factor": 16.051629985106736,
     "generation_gco2kwh": 16.051629985106736,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45356,7 +45356,7 @@
     "total_co2": 3820.0,
     "emission_factor": 23.790247244192564,
     "generation_gco2kwh": 23.790247244192564,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45428,7 +45428,7 @@
     "total_co2": 3340.0,
     "emission_factor": 47.585126086337084,
     "generation_gco2kwh": 47.585126086337084,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45452,7 +45452,7 @@
     "total_co2": 1100.0,
     "emission_factor": 16.15508885298869,
     "generation_gco2kwh": 16.15508885298869,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45476,7 +45476,7 @@
     "total_co2": 5040.0,
     "emission_factor": 216.40188922284244,
     "generation_gco2kwh": 216.40188922284244,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45548,7 +45548,7 @@
     "total_co2": 4160.0,
     "emission_factor": 23.759209549374606,
     "generation_gco2kwh": 23.759209549374606,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45620,7 +45620,7 @@
     "total_co2": 4630.0,
     "emission_factor": 47.51154438173422,
     "generation_gco2kwh": 47.51154438173422,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45644,7 +45644,7 @@
     "total_co2": 1130.0,
     "emission_factor": 16.131334760885082,
     "generation_gco2kwh": 16.131334760885082,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45668,7 +45668,7 @@
     "total_co2": 4970.0,
     "emission_factor": 215.99304650152106,
     "generation_gco2kwh": 215.99304650152106,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45740,7 +45740,7 @@
     "total_co2": 3550.0,
     "emission_factor": 23.756943050257643,
     "generation_gco2kwh": 23.756943050257643,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45788,7 +45788,7 @@
     "total_co2": 2530.0,
     "emission_factor": 657.1428571428571,
     "generation_gco2kwh": 657.1428571428571,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -45812,7 +45812,7 @@
     "total_co2": 5520.0,
     "emission_factor": 47.53293722552312,
     "generation_gco2kwh": 47.53293722552312,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45836,7 +45836,7 @@
     "total_co2": 1320.0,
     "emission_factor": 16.07599561563756,
     "generation_gco2kwh": 16.07599561563756,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -45860,7 +45860,7 @@
     "total_co2": 4810.0,
     "emission_factor": 216.17977528089887,
     "generation_gco2kwh": 216.17977528089887,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45932,7 +45932,7 @@
     "total_co2": 3720.0,
     "emission_factor": 23.765412381013224,
     "generation_gco2kwh": 23.765412381013224,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -45980,7 +45980,7 @@
     "total_co2": 2690.0,
     "emission_factor": 657.7017114914426,
     "generation_gco2kwh": 657.7017114914426,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -46004,7 +46004,7 @@
     "total_co2": 6500.0,
     "emission_factor": 47.53199268738574,
     "generation_gco2kwh": 47.53199268738574,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46028,7 +46028,7 @@
     "total_co2": 1310.0,
     "emission_factor": 16.065734608780964,
     "generation_gco2kwh": 16.065734608780964,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46124,7 +46124,7 @@
     "total_co2": 580.0,
     "emission_factor": 23.838882038635433,
     "generation_gco2kwh": 23.838882038635433,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46172,7 +46172,7 @@
     "total_co2": 590.0,
     "emission_factor": 37.893384714193964,
     "generation_gco2kwh": 37.893384714193964,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46196,7 +46196,7 @@
     "total_co2": 10.0,
     "emission_factor": 58.8235294117647,
     "generation_gco2kwh": 58.8235294117647,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46220,7 +46220,7 @@
     "total_co2": 10.0,
     "emission_factor": 21.27659574468085,
     "generation_gco2kwh": 21.27659574468085,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46316,7 +46316,7 @@
     "total_co2": 590.0,
     "emission_factor": 23.88663967611336,
     "generation_gco2kwh": 23.88663967611336,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46364,7 +46364,7 @@
     "total_co2": 600.0,
     "emission_factor": 37.71213073538655,
     "generation_gco2kwh": 37.71213073538655,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46388,7 +46388,7 @@
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46436,7 +46436,7 @@
     "total_co2": 4460.0,
     "emission_factor": 216.2948593598448,
     "generation_gco2kwh": 216.2948593598448,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46508,7 +46508,7 @@
     "total_co2": 650.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46556,7 +46556,7 @@
     "total_co2": 630.0,
     "emission_factor": 37.74715398442181,
     "generation_gco2kwh": 37.74715398442181,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46580,7 +46580,7 @@
     "total_co2": 20.0,
     "emission_factor": 45.45454545454545,
     "generation_gco2kwh": 45.45454545454545,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46628,7 +46628,7 @@
     "total_co2": 4860.0,
     "emission_factor": 216.19217081850533,
     "generation_gco2kwh": 216.19217081850533,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -46700,7 +46700,7 @@
     "total_co2": 580.0,
     "emission_factor": 23.586823912159414,
     "generation_gco2kwh": 23.586823912159414,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46748,7 +46748,7 @@
     "total_co2": 640.0,
     "emission_factor": 37.78040141676505,
     "generation_gco2kwh": 37.78040141676505,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46772,7 +46772,7 @@
     "total_co2": 30.0,
     "emission_factor": 42.25352112676057,
     "generation_gco2kwh": 42.25352112676057,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -46820,7 +46820,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -46844,7 +46844,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC, XPANSIV",
+    "sources": "The I-TRACK Foundation, XPANSIV",
     "issuance": "TIGRS"
   },
   {
@@ -46868,7 +46868,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC, XPANSIV",
+    "sources": "The I-TRACK Foundation, XPANSIV",
     "issuance": "TIGRS"
   },
   {
@@ -46892,7 +46892,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC, XPANSIV",
+    "sources": "The I-TRACK Foundation, XPANSIV",
     "issuance": "TIGRS"
   },
   {
@@ -49340,7 +49340,7 @@
     "total_co2": 170.0,
     "emission_factor": 48.1586402266289,
     "generation_gco2kwh": 48.1586402266289,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49508,7 +49508,7 @@
     "total_co2": 220.0,
     "emission_factor": 48.14004376367615,
     "generation_gco2kwh": 48.14004376367615,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49676,7 +49676,7 @@
     "total_co2": 250.0,
     "emission_factor": 46.728971962616825,
     "generation_gco2kwh": 46.728971962616825,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49700,7 +49700,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49820,7 +49820,7 @@
     "total_co2": 330.0,
     "emission_factor": 47.34576757532281,
     "generation_gco2kwh": 47.34576757532281,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49844,7 +49844,7 @@
     "total_co2": 10.0,
     "emission_factor": 13.513513513513514,
     "generation_gco2kwh": 13.513513513513514,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -49868,7 +49868,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -49892,7 +49892,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -51452,7 +51452,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -51476,7 +51476,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -51692,7 +51692,7 @@
     "total_co2": 7520.0,
     "emission_factor": 216.1540672607071,
     "generation_gco2kwh": 216.1540672607071,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -51860,7 +51860,7 @@
     "total_co2": 110.0,
     "emission_factor": 11.530398322851154,
     "generation_gco2kwh": 11.530398322851154,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52028,7 +52028,7 @@
     "total_co2": 4330.0,
     "emission_factor": 47.54584385637422,
     "generation_gco2kwh": 47.54584385637422,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52052,7 +52052,7 @@
     "total_co2": 110.0,
     "emission_factor": 11.67728237791932,
     "generation_gco2kwh": 11.67728237791932,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52412,7 +52412,7 @@
     "total_co2": 4600.0,
     "emission_factor": 47.569803516028955,
     "generation_gco2kwh": 47.569803516028955,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52436,7 +52436,7 @@
     "total_co2": 130.0,
     "emission_factor": 11.265164644714039,
     "generation_gco2kwh": 11.265164644714039,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52532,7 +52532,7 @@
     "total_co2": 120.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52652,7 +52652,7 @@
     "total_co2": 160.0,
     "emission_factor": 48.6322188449848,
     "generation_gco2kwh": 48.6322188449848,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52772,7 +52772,7 @@
     "total_co2": 160.0,
     "emission_factor": 46.3768115942029,
     "generation_gco2kwh": 46.3768115942029,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -52820,7 +52820,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -52844,7 +52844,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -53132,7 +53132,7 @@
     "total_co2": 80.0,
     "emission_factor": 49.079754601226995,
     "generation_gco2kwh": 49.079754601226995,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53228,7 +53228,7 @@
     "total_co2": 220.0,
     "emission_factor": 23.91304347826087,
     "generation_gco2kwh": 23.91304347826087,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53276,7 +53276,7 @@
     "total_co2": 80.0,
     "emission_factor": 45.19774011299435,
     "generation_gco2kwh": 45.19774011299435,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53300,7 +53300,7 @@
     "total_co2": 30.0,
     "emission_factor": 12.987012987012987,
     "generation_gco2kwh": 12.987012987012987,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53396,7 +53396,7 @@
     "total_co2": 210.0,
     "emission_factor": 23.863636363636363,
     "generation_gco2kwh": 23.863636363636363,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53444,7 +53444,7 @@
     "total_co2": 90.0,
     "emission_factor": 48.1283422459893,
     "generation_gco2kwh": 48.1283422459893,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53468,7 +53468,7 @@
     "total_co2": 40.0,
     "emission_factor": 10.582010582010582,
     "generation_gco2kwh": 10.582010582010582,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53540,7 +53540,7 @@
     "total_co2": 270.0,
     "emission_factor": 24.0,
     "generation_gco2kwh": 24.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53588,7 +53588,7 @@
     "total_co2": 90.0,
     "emission_factor": 48.1283422459893,
     "generation_gco2kwh": 48.1283422459893,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -53612,7 +53612,7 @@
     "total_co2": 50.0,
     "emission_factor": 10.183299389002036,
     "generation_gco2kwh": 10.183299389002036,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -54164,7 +54164,7 @@
     "total_co2": 30.0,
     "emission_factor": 51.724137931034484,
     "generation_gco2kwh": 51.724137931034484,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -54308,7 +54308,7 @@
     "total_co2": 30.0,
     "emission_factor": 54.54545454545454,
     "generation_gco2kwh": 54.54545454545454,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -56372,7 +56372,7 @@
     "total_co2": 920.0,
     "emission_factor": 23.74806401652039,
     "generation_gco2kwh": 23.74806401652039,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -56468,7 +56468,7 @@
     "total_co2": 950.0,
     "emission_factor": 23.75,
     "generation_gco2kwh": 23.75,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -56516,7 +56516,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -57980,7 +57980,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -61436,7 +61436,7 @@
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61508,7 +61508,7 @@
     "total_co2": 650.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61556,7 +61556,7 @@
     "total_co2": 100.0,
     "emission_factor": 48.543689320388346,
     "generation_gco2kwh": 48.543689320388346,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61580,7 +61580,7 @@
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61652,7 +61652,7 @@
     "total_co2": 720.0,
     "emission_factor": 23.841059602649008,
     "generation_gco2kwh": 23.841059602649008,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61700,7 +61700,7 @@
     "total_co2": 110.0,
     "emission_factor": 47.82608695652174,
     "generation_gco2kwh": 47.82608695652174,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61724,7 +61724,7 @@
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61796,7 +61796,7 @@
     "total_co2": 760.0,
     "emission_factor": 23.914411579609816,
     "generation_gco2kwh": 23.914411579609816,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61844,7 +61844,7 @@
     "total_co2": 130.0,
     "emission_factor": 47.27272727272727,
     "generation_gco2kwh": 47.27272727272727,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61868,7 +61868,7 @@
     "total_co2": 270.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61940,7 +61940,7 @@
     "total_co2": 750.0,
     "emission_factor": 23.80196762932402,
     "generation_gco2kwh": 23.80196762932402,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -61988,7 +61988,7 @@
     "total_co2": 150.0,
     "emission_factor": 46.29629629629629,
     "generation_gco2kwh": 46.29629629629629,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62012,7 +62012,7 @@
     "total_co2": 320.0,
     "emission_factor": 217.687074829932,
     "generation_gco2kwh": 217.687074829932,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62084,7 +62084,7 @@
     "total_co2": 790.0,
     "emission_factor": 23.645615085303803,
     "generation_gco2kwh": 23.645615085303803,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -62132,7 +62132,7 @@
     "total_co2": 200.0,
     "emission_factor": 48.543689320388346,
     "generation_gco2kwh": 48.543689320388346,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -64244,7 +64244,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -64268,7 +64268,7 @@
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64412,7 +64412,7 @@
     "total_co2": 80.0,
     "emission_factor": 216.21621621621622,
     "generation_gco2kwh": 216.21621621621622,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64556,7 +64556,7 @@
     "total_co2": 60.0,
     "emission_factor": 200.0,
     "generation_gco2kwh": 200.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64652,7 +64652,7 @@
     "total_co2": 10.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64700,7 +64700,7 @@
     "total_co2": 70.0,
     "emission_factor": 218.75,
     "generation_gco2kwh": 218.75,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64796,7 +64796,7 @@
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -64844,7 +64844,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -64868,7 +64868,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -65036,7 +65036,7 @@
     "total_co2": 750.0,
     "emission_factor": 47.34848484848485,
     "generation_gco2kwh": 47.34848484848485,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65060,7 +65060,7 @@
     "total_co2": 150.0,
     "emission_factor": 7.614213197969543,
     "generation_gco2kwh": 7.614213197969543,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65156,7 +65156,7 @@
     "total_co2": 820.0,
     "emission_factor": 23.617511520737327,
     "generation_gco2kwh": 23.617511520737327,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65228,7 +65228,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -65252,7 +65252,7 @@
     "total_co2": 960.0,
     "emission_factor": 47.5482912332838,
     "generation_gco2kwh": 47.5482912332838,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65276,7 +65276,7 @@
     "total_co2": 160.0,
     "emission_factor": 7.593735168485999,
     "generation_gco2kwh": 7.593735168485999,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65300,7 +65300,7 @@
     "total_co2": 1450.0,
     "emission_factor": 216.4179104477612,
     "generation_gco2kwh": 216.4179104477612,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65372,7 +65372,7 @@
     "total_co2": 840.0,
     "emission_factor": 23.622047244094485,
     "generation_gco2kwh": 23.622047244094485,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65444,7 +65444,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -65468,7 +65468,7 @@
     "total_co2": 970.0,
     "emission_factor": 47.68928220255654,
     "generation_gco2kwh": 47.68928220255654,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65492,7 +65492,7 @@
     "total_co2": 160.0,
     "emission_factor": 7.793472966390647,
     "generation_gco2kwh": 7.793472966390647,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65516,7 +65516,7 @@
     "total_co2": 1430.0,
     "emission_factor": 215.68627450980392,
     "generation_gco2kwh": 215.68627450980392,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65588,7 +65588,7 @@
     "total_co2": 490.0,
     "emission_factor": 23.774866569626397,
     "generation_gco2kwh": 23.774866569626397,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65660,7 +65660,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -65684,7 +65684,7 @@
     "total_co2": 1110.0,
     "emission_factor": 47.55784061696658,
     "generation_gco2kwh": 47.55784061696658,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65708,7 +65708,7 @@
     "total_co2": 160.0,
     "emission_factor": 7.729468599033817,
     "generation_gco2kwh": 7.729468599033817,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65732,7 +65732,7 @@
     "total_co2": 1300.0,
     "emission_factor": 217.02838063439063,
     "generation_gco2kwh": 217.02838063439063,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65804,7 +65804,7 @@
     "total_co2": 560.0,
     "emission_factor": 23.789294817332202,
     "generation_gco2kwh": 23.789294817332202,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65876,7 +65876,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -65900,7 +65900,7 @@
     "total_co2": 1220.0,
     "emission_factor": 47.43390357698289,
     "generation_gco2kwh": 47.43390357698289,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -65924,7 +65924,7 @@
     "total_co2": 150.0,
     "emission_factor": 7.594936708860759,
     "generation_gco2kwh": 7.594936708860759,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -66932,7 +66932,7 @@
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -67052,7 +67052,7 @@
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -67172,7 +67172,7 @@
     "total_co2": 10.0,
     "emission_factor": 52.63157894736842,
     "generation_gco2kwh": 52.63157894736842,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68036,7 +68036,7 @@
     "total_co2": 40.0,
     "emission_factor": 8.714596949891067,
     "generation_gco2kwh": 8.714596949891067,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68204,7 +68204,7 @@
     "total_co2": 50.0,
     "emission_factor": 9.784735812133071,
     "generation_gco2kwh": 9.784735812133071,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68372,7 +68372,7 @@
     "total_co2": 50.0,
     "emission_factor": 9.328358208955223,
     "generation_gco2kwh": 9.328358208955223,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68540,7 +68540,7 @@
     "total_co2": 60.0,
     "emission_factor": 9.160305343511451,
     "generation_gco2kwh": 9.160305343511451,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68684,7 +68684,7 @@
     "total_co2": 80.0,
     "emission_factor": 50.31446540880503,
     "generation_gco2kwh": 50.31446540880503,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -68708,7 +68708,7 @@
     "total_co2": 90.0,
     "emission_factor": 9.667024704618688,
     "generation_gco2kwh": 9.667024704618688,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -69908,7 +69908,7 @@
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -70196,7 +70196,7 @@
     "total_co2": 20.0,
     "emission_factor": 40.0,
     "generation_gco2kwh": 40.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -70316,7 +70316,7 @@
     "total_co2": 20.0,
     "emission_factor": 39.21568627450981,
     "generation_gco2kwh": 39.21568627450981,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -70364,7 +70364,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -70700,7 +70700,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -70724,7 +70724,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -73100,7 +73100,7 @@
     "total_co2": 560.0,
     "emission_factor": 23.80952380952381,
     "generation_gco2kwh": 23.80952380952381,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -73148,7 +73148,7 @@
     "total_co2": 330.0,
     "emission_factor": 37.37259343148358,
     "generation_gco2kwh": 37.37259343148358,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -73796,7 +73796,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -74252,7 +74252,7 @@
     "total_co2": 180.0,
     "emission_factor": 23.407022106631988,
     "generation_gco2kwh": 23.407022106631988,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74348,7 +74348,7 @@
     "total_co2": 190.0,
     "emission_factor": 23.929471032745592,
     "generation_gco2kwh": 23.929471032745592,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74444,7 +74444,7 @@
     "total_co2": 220.0,
     "emission_factor": 23.835319609967495,
     "generation_gco2kwh": 23.835319609967495,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74540,7 +74540,7 @@
     "total_co2": 230.0,
     "emission_factor": 24.033437826541274,
     "generation_gco2kwh": 24.033437826541274,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74564,7 +74564,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74636,7 +74636,7 @@
     "total_co2": 220.0,
     "emission_factor": 24.229074889867842,
     "generation_gco2kwh": 24.229074889867842,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -74660,7 +74660,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -77060,7 +77060,7 @@
     "total_co2": 30.0,
     "emission_factor": 49.41456437596639,
     "generation_gco2kwh": 49.41456437596639,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77180,7 +77180,7 @@
     "total_co2": 70.0,
     "emission_factor": 37.93012620197746,
     "generation_gco2kwh": 37.93012620197746,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77204,7 +77204,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77300,7 +77300,7 @@
     "total_co2": 80.0,
     "emission_factor": 37.88710584042438,
     "generation_gco2kwh": 37.88710584042438,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77324,7 +77324,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77420,7 +77420,7 @@
     "total_co2": 80.0,
     "emission_factor": 34.916246758973045,
     "generation_gco2kwh": 34.916246758973045,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77444,7 +77444,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, Oman",
+    "sources": "The I-TRACK Foundation, Oman",
     "issuance": "I-REC(E)"
   },
   {
@@ -77996,7 +77996,7 @@
     "total_co2": 290.0,
     "emission_factor": 48.01324503311258,
     "generation_gco2kwh": 48.01324503311258,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78020,7 +78020,7 @@
     "total_co2": 80.0,
     "emission_factor": 12.618296529968454,
     "generation_gco2kwh": 12.618296529968454,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78116,7 +78116,7 @@
     "total_co2": 810.0,
     "emission_factor": 23.823529411764707,
     "generation_gco2kwh": 23.823529411764707,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78188,7 +78188,7 @@
     "total_co2": 460.0,
     "emission_factor": 47.569803516028955,
     "generation_gco2kwh": 47.569803516028955,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78212,7 +78212,7 @@
     "total_co2": 80.0,
     "emission_factor": 12.618296529968454,
     "generation_gco2kwh": 12.618296529968454,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78308,7 +78308,7 @@
     "total_co2": 820.0,
     "emission_factor": 23.8580157113762,
     "generation_gco2kwh": 23.8580157113762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78380,7 +78380,7 @@
     "total_co2": 860.0,
     "emission_factor": 47.38292011019284,
     "generation_gco2kwh": 47.38292011019284,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78404,7 +78404,7 @@
     "total_co2": 70.0,
     "emission_factor": 12.844036697247706,
     "generation_gco2kwh": 12.844036697247706,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78644,7 +78644,7 @@
     "total_co2": 170.0,
     "emission_factor": 23.129251700680275,
     "generation_gco2kwh": 23.129251700680275,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78692,7 +78692,7 @@
     "total_co2": 20.0,
     "emission_factor": 62.5,
     "generation_gco2kwh": 62.5,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78716,7 +78716,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78812,7 +78812,7 @@
     "total_co2": 200.0,
     "emission_factor": 23.980815347721823,
     "generation_gco2kwh": 23.980815347721823,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78860,7 +78860,7 @@
     "total_co2": 30.0,
     "emission_factor": 50.847457627118644,
     "generation_gco2kwh": 50.847457627118644,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78884,7 +78884,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -78980,7 +78980,7 @@
     "total_co2": 190.0,
     "emission_factor": 23.399014778325125,
     "generation_gco2kwh": 23.399014778325125,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79028,7 +79028,7 @@
     "total_co2": 30.0,
     "emission_factor": 42.85714285714286,
     "generation_gco2kwh": 42.85714285714286,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79052,7 +79052,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79148,7 +79148,7 @@
     "total_co2": 150.0,
     "emission_factor": 24.390243902439025,
     "generation_gco2kwh": 24.390243902439025,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79196,7 +79196,7 @@
     "total_co2": 40.0,
     "emission_factor": 45.97701149425287,
     "generation_gco2kwh": 45.97701149425287,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79220,7 +79220,7 @@
     "total_co2": 10.0,
     "emission_factor": 11.235955056179774,
     "generation_gco2kwh": 11.235955056179774,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -79244,7 +79244,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -79268,7 +79268,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -79292,7 +79292,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -80108,7 +80108,7 @@
     "total_co2": 720.0,
     "emission_factor": 23.60655737704918,
     "generation_gco2kwh": 23.60655737704918,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80276,7 +80276,7 @@
     "total_co2": 760.0,
     "emission_factor": 23.83192223267482,
     "generation_gco2kwh": 23.83192223267482,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80444,7 +80444,7 @@
     "total_co2": 710.0,
     "emission_factor": 23.88160107635385,
     "generation_gco2kwh": 23.88160107635385,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80492,7 +80492,7 @@
     "total_co2": 40.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80516,7 +80516,7 @@
     "total_co2": 10.0,
     "emission_factor": 5.181347150259067,
     "generation_gco2kwh": 5.181347150259067,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80612,7 +80612,7 @@
     "total_co2": 690.0,
     "emission_factor": 23.711340206185564,
     "generation_gco2kwh": 23.711340206185564,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80660,7 +80660,7 @@
     "total_co2": 50.0,
     "emission_factor": 51.54639175257732,
     "generation_gco2kwh": 51.54639175257732,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80684,7 +80684,7 @@
     "total_co2": 20.0,
     "emission_factor": 8.51063829787234,
     "generation_gco2kwh": 8.51063829787234,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80780,7 +80780,7 @@
     "total_co2": 760.0,
     "emission_factor": 23.72034956304619,
     "generation_gco2kwh": 23.72034956304619,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80828,7 +80828,7 @@
     "total_co2": 60.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80852,7 +80852,7 @@
     "total_co2": 30.0,
     "emission_factor": 7.6923076923076925,
     "generation_gco2kwh": 7.6923076923076925,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -80996,7 +80996,7 @@
     "total_co2": 400.0,
     "emission_factor": 37.17472118959108,
     "generation_gco2kwh": 37.17472118959108,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81020,7 +81020,7 @@
     "total_co2": 70.0,
     "emission_factor": 51.0948905109489,
     "generation_gco2kwh": 51.0948905109489,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81140,7 +81140,7 @@
     "total_co2": 220.0,
     "emission_factor": 23.93906420021763,
     "generation_gco2kwh": 23.93906420021763,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81188,7 +81188,7 @@
     "total_co2": 380.0,
     "emission_factor": 37.924151696606785,
     "generation_gco2kwh": 37.924151696606785,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81212,7 +81212,7 @@
     "total_co2": 70.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81332,7 +81332,7 @@
     "total_co2": 240.0,
     "emission_factor": 23.785926660059467,
     "generation_gco2kwh": 23.785926660059467,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81380,7 +81380,7 @@
     "total_co2": 390.0,
     "emission_factor": 37.392138063279006,
     "generation_gco2kwh": 37.392138063279006,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81524,7 +81524,7 @@
     "total_co2": 240.0,
     "emission_factor": 23.785926660059467,
     "generation_gco2kwh": 23.785926660059467,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81572,7 +81572,7 @@
     "total_co2": 400.0,
     "emission_factor": 37.70028275212064,
     "generation_gco2kwh": 37.70028275212064,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -81716,7 +81716,7 @@
     "total_co2": 260.0,
     "emission_factor": 23.919043238270472,
     "generation_gco2kwh": 23.919043238270472,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -81764,7 +81764,7 @@
     "total_co2": 390.0,
     "emission_factor": 37.93774319066148,
     "generation_gco2kwh": 37.93774319066148,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -85268,7 +85268,7 @@
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -85364,7 +85364,7 @@
     "total_co2": 20.0,
     "emission_factor": 42.5531914893617,
     "generation_gco2kwh": 42.5531914893617,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -85484,7 +85484,7 @@
     "total_co2": 371.9179386868809,
     "emission_factor": 608.9378708453838,
     "generation_gco2kwh": 608.9378708453838,
-    "sources": "I-REC, AIB",
+    "sources": "The I-TRACK Foundation, AIB",
     "issuance": "AIB"
   },
   {
@@ -85700,7 +85700,7 @@
     "total_co2": 479.0661028339482,
     "emission_factor": 572.7187990033775,
     "generation_gco2kwh": 572.7187990033775,
-    "sources": "I-REC, AIB",
+    "sources": "The I-TRACK Foundation, AIB",
     "issuance": "AIB"
   },
   {
@@ -86996,7 +86996,7 @@
     "total_co2": 5050.0,
     "emission_factor": 23.77141781208812,
     "generation_gco2kwh": 23.77141781208812,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87068,7 +87068,7 @@
     "total_co2": 90.0,
     "emission_factor": 48.387096774193544,
     "generation_gco2kwh": 48.387096774193544,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87092,7 +87092,7 @@
     "total_co2": 10.0,
     "emission_factor": 8.771929824561404,
     "generation_gco2kwh": 8.771929824561404,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87116,7 +87116,7 @@
     "total_co2": 180.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87188,7 +87188,7 @@
     "total_co2": 5100.0,
     "emission_factor": 23.772898895259406,
     "generation_gco2kwh": 23.772898895259406,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87260,7 +87260,7 @@
     "total_co2": 110.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87284,7 +87284,7 @@
     "total_co2": 30.0,
     "emission_factor": 11.627906976744185,
     "generation_gco2kwh": 11.627906976744185,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87380,7 +87380,7 @@
     "total_co2": 4700.0,
     "emission_factor": 23.777002074164013,
     "generation_gco2kwh": 23.777002074164013,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -87452,7 +87452,7 @@
     "total_co2": 110.0,
     "emission_factor": 45.833333333333336,
     "generation_gco2kwh": 45.833333333333336,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90020,7 +90020,7 @@
     "total_co2": 50.0,
     "emission_factor": 50.505050505050505,
     "generation_gco2kwh": 50.505050505050505,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90116,7 +90116,7 @@
     "total_co2": 60.0,
     "emission_factor": 49.18032786885246,
     "generation_gco2kwh": 49.18032786885246,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90212,7 +90212,7 @@
     "total_co2": 150.0,
     "emission_factor": 47.92332268370607,
     "generation_gco2kwh": 47.92332268370607,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90308,7 +90308,7 @@
     "total_co2": 390.0,
     "emission_factor": 47.38760631834751,
     "generation_gco2kwh": 47.38760631834751,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -90332,7 +90332,7 @@
     "total_co2": 20.0,
     "emission_factor": 12.578616352201257,
     "generation_gco2kwh": 12.578616352201257,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92588,7 +92588,7 @@
     "total_co2": 270.0,
     "emission_factor": 226.89075630252103,
     "generation_gco2kwh": 226.89075630252103,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92684,7 +92684,7 @@
     "total_co2": 10.0,
     "emission_factor": 33.333333333333336,
     "generation_gco2kwh": 33.333333333333336,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -92708,7 +92708,7 @@
     "total_co2": 280.0,
     "emission_factor": 229.5081967213115,
     "generation_gco2kwh": 229.5081967213115,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92804,7 +92804,7 @@
     "total_co2": 20.0,
     "emission_factor": 50.0,
     "generation_gco2kwh": 50.0,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -92828,7 +92828,7 @@
     "total_co2": 380.0,
     "emission_factor": 228.91566265060243,
     "generation_gco2kwh": 228.91566265060243,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -92924,7 +92924,7 @@
     "total_co2": 30.0,
     "emission_factor": 44.776119402985074,
     "generation_gco2kwh": 44.776119402985074,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -92948,7 +92948,7 @@
     "total_co2": 380.0,
     "emission_factor": 228.91566265060243,
     "generation_gco2kwh": 228.91566265060243,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -93044,7 +93044,7 @@
     "total_co2": 50.0,
     "emission_factor": 53.19148936170213,
     "generation_gco2kwh": 53.19148936170213,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -93068,7 +93068,7 @@
     "total_co2": 380.0,
     "emission_factor": 228.91566265060243,
     "generation_gco2kwh": 228.91566265060243,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -93164,7 +93164,7 @@
     "total_co2": 60.0,
     "emission_factor": 46.875,
     "generation_gco2kwh": 46.875,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -95732,7 +95732,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95780,7 +95780,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -95804,7 +95804,7 @@
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95852,7 +95852,7 @@
     "total_co2": 30.0,
     "emission_factor": 20.408163265306122,
     "generation_gco2kwh": 20.408163265306122,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95924,7 +95924,7 @@
     "total_co2": 270.0,
     "emission_factor": 47.368421052631575,
     "generation_gco2kwh": 47.368421052631575,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95948,7 +95948,7 @@
     "total_co2": 60.0,
     "emission_factor": 9.360374414976599,
     "generation_gco2kwh": 9.360374414976599,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -95972,7 +95972,7 @@
     "total_co2": 90.0,
     "emission_factor": 219.51219512195124,
     "generation_gco2kwh": 219.51219512195124,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96020,7 +96020,7 @@
     "total_co2": 50.0,
     "emission_factor": 24.752475247524753,
     "generation_gco2kwh": 24.752475247524753,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96092,7 +96092,7 @@
     "total_co2": 320.0,
     "emission_factor": 47.1976401179941,
     "generation_gco2kwh": 47.1976401179941,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96116,7 +96116,7 @@
     "total_co2": 80.0,
     "emission_factor": 9.248554913294797,
     "generation_gco2kwh": 9.248554913294797,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96140,7 +96140,7 @@
     "total_co2": 80.0,
     "emission_factor": 222.22222222222223,
     "generation_gco2kwh": 222.22222222222223,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96188,7 +96188,7 @@
     "total_co2": 70.0,
     "emission_factor": 22.58064516129032,
     "generation_gco2kwh": 22.58064516129032,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96260,7 +96260,7 @@
     "total_co2": 480.0,
     "emission_factor": 47.38400789733465,
     "generation_gco2kwh": 47.38400789733465,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96284,7 +96284,7 @@
     "total_co2": 90.0,
     "emission_factor": 9.278350515463918,
     "generation_gco2kwh": 9.278350515463918,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96308,7 +96308,7 @@
     "total_co2": 100.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96428,7 +96428,7 @@
     "total_co2": 740.0,
     "emission_factor": 47.527296082209375,
     "generation_gco2kwh": 47.527296082209375,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96452,7 +96452,7 @@
     "total_co2": 110.0,
     "emission_factor": 9.482758620689655,
     "generation_gco2kwh": 9.482758620689655,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96476,7 +96476,7 @@
     "total_co2": 100.0,
     "emission_factor": 212.76595744680853,
     "generation_gco2kwh": 212.76595744680853,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96524,7 +96524,7 @@
     "total_co2": 30.0,
     "emission_factor": 27.27272727272727,
     "generation_gco2kwh": 27.27272727272727,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96596,7 +96596,7 @@
     "total_co2": 940.0,
     "emission_factor": 47.35516372795969,
     "generation_gco2kwh": 47.35516372795969,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -96620,7 +96620,7 @@
     "total_co2": 110.0,
     "emission_factor": 9.90990990990991,
     "generation_gco2kwh": 9.90990990990991,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -97676,7 +97676,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -97724,7 +97724,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -97796,7 +97796,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -99044,7 +99044,7 @@
     "total_co2": 20.0,
     "emission_factor": 44.44444444444444,
     "generation_gco2kwh": 44.44444444444444,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99140,7 +99140,7 @@
     "total_co2": 170.0,
     "emission_factor": 23.513139695712308,
     "generation_gco2kwh": 23.513139695712308,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99212,7 +99212,7 @@
     "total_co2": 30.0,
     "emission_factor": 47.61904761904762,
     "generation_gco2kwh": 47.61904761904762,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99308,7 +99308,7 @@
     "total_co2": 120.0,
     "emission_factor": 23.48336594911937,
     "generation_gco2kwh": 23.48336594911937,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99356,7 +99356,7 @@
     "total_co2": 30.0,
     "emission_factor": 44.11764705882353,
     "generation_gco2kwh": 44.11764705882353,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99452,7 +99452,7 @@
     "total_co2": 140.0,
     "emission_factor": 23.102310231023104,
     "generation_gco2kwh": 23.102310231023104,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99524,7 +99524,7 @@
     "total_co2": 50.0,
     "emission_factor": 51.02040816326531,
     "generation_gco2kwh": 51.02040816326531,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99548,7 +99548,7 @@
     "total_co2": 10.0,
     "emission_factor": 11.235955056179774,
     "generation_gco2kwh": 11.235955056179774,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99620,7 +99620,7 @@
     "total_co2": 170.0,
     "emission_factor": 23.97743300423131,
     "generation_gco2kwh": 23.97743300423131,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99692,7 +99692,7 @@
     "total_co2": 60.0,
     "emission_factor": 46.51162790697674,
     "generation_gco2kwh": 46.51162790697674,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -99716,7 +99716,7 @@
     "total_co2": 10.0,
     "emission_factor": 10.638297872340425,
     "generation_gco2kwh": 10.638297872340425,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -100580,7 +100580,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -100604,7 +100604,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -103100,7 +103100,7 @@
     "total_co2": 70.0,
     "emission_factor": 23.178807947019866,
     "generation_gco2kwh": 23.178807947019866,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103292,7 +103292,7 @@
     "total_co2": 80.0,
     "emission_factor": 23.054755043227665,
     "generation_gco2kwh": 23.054755043227665,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103364,7 +103364,7 @@
     "total_co2": 380.0,
     "emission_factor": 47.678795483061485,
     "generation_gco2kwh": 47.678795483061485,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -103484,7 +103484,7 @@
     "total_co2": 140.0,
     "emission_factor": 23.972602739726028,
     "generation_gco2kwh": 23.972602739726028,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103676,7 +103676,7 @@
     "total_co2": 90.0,
     "emission_factor": 22.727272727272727,
     "generation_gco2kwh": 22.727272727272727,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -103868,7 +103868,7 @@
     "total_co2": 100.0,
     "emission_factor": 23.752969121140143,
     "generation_gco2kwh": 23.752969121140143,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -104828,7 +104828,7 @@
     "total_co2": 2660.0,
     "emission_factor": 216.43612693246544,
     "generation_gco2kwh": 216.43612693246544,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -104900,7 +104900,7 @@
     "total_co2": 110.0,
     "emission_factor": 24.229074889867842,
     "generation_gco2kwh": 24.229074889867842,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -104948,7 +104948,7 @@
     "total_co2": 240.0,
     "emission_factor": 47.713717693836976,
     "generation_gco2kwh": 47.713717693836976,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -104972,7 +104972,7 @@
     "total_co2": 40.0,
     "emission_factor": 12.422360248447204,
     "generation_gco2kwh": 12.422360248447204,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -104996,7 +104996,7 @@
     "total_co2": 2900.0,
     "emission_factor": 216.2565249813572,
     "generation_gco2kwh": 216.2565249813572,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105068,7 +105068,7 @@
     "total_co2": 110.0,
     "emission_factor": 24.229074889867842,
     "generation_gco2kwh": 24.229074889867842,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105116,7 +105116,7 @@
     "total_co2": 240.0,
     "emission_factor": 48.09619238476954,
     "generation_gco2kwh": 48.09619238476954,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105140,7 +105140,7 @@
     "total_co2": 40.0,
     "emission_factor": 11.3314447592068,
     "generation_gco2kwh": 11.3314447592068,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105164,7 +105164,7 @@
     "total_co2": 3000.0,
     "emission_factor": 216.45021645021646,
     "generation_gco2kwh": 216.45021645021646,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105236,7 +105236,7 @@
     "total_co2": 160.0,
     "emission_factor": 24.242424242424242,
     "generation_gco2kwh": 24.242424242424242,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105284,7 +105284,7 @@
     "total_co2": 240.0,
     "emission_factor": 47.713717693836976,
     "generation_gco2kwh": 47.713717693836976,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105308,7 +105308,7 @@
     "total_co2": 40.0,
     "emission_factor": 13.37792642140468,
     "generation_gco2kwh": 13.37792642140468,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105332,7 +105332,7 @@
     "total_co2": 3090.0,
     "emission_factor": 216.23512946116168,
     "generation_gco2kwh": 216.23512946116168,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105404,7 +105404,7 @@
     "total_co2": 160.0,
     "emission_factor": 24.279210925644918,
     "generation_gco2kwh": 24.279210925644918,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105452,7 +105452,7 @@
     "total_co2": 240.0,
     "emission_factor": 46.692607003891055,
     "generation_gco2kwh": 46.692607003891055,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105476,7 +105476,7 @@
     "total_co2": 50.0,
     "emission_factor": 13.36898395721925,
     "generation_gco2kwh": 13.36898395721925,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105500,7 +105500,7 @@
     "total_co2": 3110.0,
     "emission_factor": 216.12230715774842,
     "generation_gco2kwh": 216.12230715774842,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105572,7 +105572,7 @@
     "total_co2": 150.0,
     "emission_factor": 23.400936037441497,
     "generation_gco2kwh": 23.400936037441497,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -105620,7 +105620,7 @@
     "total_co2": 260.0,
     "emission_factor": 47.882136279926335,
     "generation_gco2kwh": 47.882136279926335,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -105644,7 +105644,7 @@
     "total_co2": 40.0,
     "emission_factor": 11.834319526627219,
     "generation_gco2kwh": 11.834319526627219,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107492,7 +107492,7 @@
     "total_co2": 1000.0,
     "emission_factor": 230.41474654377882,
     "generation_gco2kwh": 230.41474654377882,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107564,7 +107564,7 @@
     "total_co2": 1870.0,
     "emission_factor": 24.017467248908297,
     "generation_gco2kwh": 24.017467248908297,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107612,7 +107612,7 @@
     "total_co2": 350.0,
     "emission_factor": 37.553648068669524,
     "generation_gco2kwh": 37.553648068669524,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107636,7 +107636,7 @@
     "total_co2": 540.0,
     "emission_factor": 48.214285714285715,
     "generation_gco2kwh": 48.214285714285715,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107660,7 +107660,7 @@
     "total_co2": 220.0,
     "emission_factor": 8.939455505891914,
     "generation_gco2kwh": 8.939455505891914,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107684,7 +107684,7 @@
     "total_co2": 1410.0,
     "emission_factor": 229.2682926829268,
     "generation_gco2kwh": 229.2682926829268,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107756,7 +107756,7 @@
     "total_co2": 1330.0,
     "emission_factor": 23.959646910466585,
     "generation_gco2kwh": 23.959646910466585,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107804,7 +107804,7 @@
     "total_co2": 380.0,
     "emission_factor": 37.58654797230465,
     "generation_gco2kwh": 37.58654797230465,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107828,7 +107828,7 @@
     "total_co2": 640.0,
     "emission_factor": 48.19277108433735,
     "generation_gco2kwh": 48.19277108433735,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107852,7 +107852,7 @@
     "total_co2": 280.0,
     "emission_factor": 9.026434558349452,
     "generation_gco2kwh": 9.026434558349452,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107876,7 +107876,7 @@
     "total_co2": 1750.0,
     "emission_factor": 229.65879265091863,
     "generation_gco2kwh": 229.65879265091863,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107948,7 +107948,7 @@
     "total_co2": 1600.0,
     "emission_factor": 24.002400240024002,
     "generation_gco2kwh": 24.002400240024002,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -107996,7 +107996,7 @@
     "total_co2": 390.0,
     "emission_factor": 38.16046966731898,
     "generation_gco2kwh": 38.16046966731898,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108020,7 +108020,7 @@
     "total_co2": 730.0,
     "emission_factor": 48.15303430079155,
     "generation_gco2kwh": 48.15303430079155,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108044,7 +108044,7 @@
     "total_co2": 310.0,
     "emission_factor": 8.936292879792449,
     "generation_gco2kwh": 8.936292879792449,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108068,7 +108068,7 @@
     "total_co2": 1890.0,
     "emission_factor": 230.2070645554202,
     "generation_gco2kwh": 230.2070645554202,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108140,7 +108140,7 @@
     "total_co2": 1530.0,
     "emission_factor": 24.01129943502825,
     "generation_gco2kwh": 24.01129943502825,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108188,7 +108188,7 @@
     "total_co2": 380.0,
     "emission_factor": 37.51233958538993,
     "generation_gco2kwh": 37.51233958538993,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108212,7 +108212,7 @@
     "total_co2": 880.0,
     "emission_factor": 47.82608695652174,
     "generation_gco2kwh": 47.82608695652174,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108236,7 +108236,7 @@
     "total_co2": 300.0,
     "emission_factor": 8.854781582054308,
     "generation_gco2kwh": 8.854781582054308,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108260,7 +108260,7 @@
     "total_co2": 2000.0,
     "emission_factor": 230.41474654377882,
     "generation_gco2kwh": 230.41474654377882,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108332,7 +108332,7 @@
     "total_co2": 1790.0,
     "emission_factor": 24.004291269947704,
     "generation_gco2kwh": 24.004291269947704,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108380,7 +108380,7 @@
     "total_co2": 390.0,
     "emission_factor": 38.23529411764706,
     "generation_gco2kwh": 38.23529411764706,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108404,7 +108404,7 @@
     "total_co2": 1230.0,
     "emission_factor": 47.91585508375535,
     "generation_gco2kwh": 47.91585508375535,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108428,7 +108428,7 @@
     "total_co2": 330.0,
     "emission_factor": 9.03367095537914,
     "generation_gco2kwh": 9.03367095537914,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108500,7 +108500,7 @@
     "total_co2": 10.0,
     "emission_factor": 6.134969325153374,
     "generation_gco2kwh": 6.134969325153374,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108524,7 +108524,7 @@
     "total_co2": 250.0,
     "emission_factor": 48.262548262548265,
     "generation_gco2kwh": 48.262548262548265,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108596,7 +108596,7 @@
     "total_co2": 50.0,
     "emission_factor": 4.739336492890995,
     "generation_gco2kwh": 4.739336492890995,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108620,7 +108620,7 @@
     "total_co2": 300.0,
     "emission_factor": 48.0,
     "generation_gco2kwh": 48.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108692,7 +108692,7 @@
     "total_co2": 100.0,
     "emission_factor": 4.975124378109452,
     "generation_gco2kwh": 4.975124378109452,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108716,7 +108716,7 @@
     "total_co2": 370.0,
     "emission_factor": 47.80361757105943,
     "generation_gco2kwh": 47.80361757105943,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108788,7 +108788,7 @@
     "total_co2": 180.0,
     "emission_factor": 5.226480836236934,
     "generation_gco2kwh": 5.226480836236934,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108812,7 +108812,7 @@
     "total_co2": 680.0,
     "emission_factor": 47.22222222222222,
     "generation_gco2kwh": 47.22222222222222,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108836,7 +108836,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108908,7 +108908,7 @@
     "total_co2": 210.0,
     "emission_factor": 5.168594634506522,
     "generation_gco2kwh": 5.168594634506522,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-TRACK(E)"
   },
   {
@@ -108932,7 +108932,7 @@
     "total_co2": 720.0,
     "emission_factor": 47.337278106508876,
     "generation_gco2kwh": 47.337278106508876,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -108956,7 +108956,7 @@
     "total_co2": 0.0,
     "emission_factor": 0.0,
     "generation_gco2kwh": 0.0,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109196,7 +109196,7 @@
     "total_co2": 100.0,
     "emission_factor": 24.509803921568626,
     "generation_gco2kwh": 24.509803921568626,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109244,7 +109244,7 @@
     "total_co2": 10.0,
     "emission_factor": 71.42857142857142,
     "generation_gco2kwh": 71.42857142857142,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109292,7 +109292,7 @@
     "total_co2": 110.0,
     "emission_factor": 23.70689655172414,
     "generation_gco2kwh": 23.70689655172414,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109340,7 +109340,7 @@
     "total_co2": 10.0,
     "emission_factor": 76.92307692307692,
     "generation_gco2kwh": 76.92307692307692,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109388,7 +109388,7 @@
     "total_co2": 120.0,
     "emission_factor": 24.096385542168672,
     "generation_gco2kwh": 24.096385542168672,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109436,7 +109436,7 @@
     "total_co2": 10.0,
     "emission_factor": 66.66666666666667,
     "generation_gco2kwh": 66.66666666666667,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -109460,7 +109460,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -109484,7 +109484,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -109508,7 +109508,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -109532,7 +109532,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -113324,7 +113324,7 @@
     "total_co2": 160.0,
     "emission_factor": 24.242424242424242,
     "generation_gco2kwh": 24.242424242424242,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -113396,7 +113396,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -114284,7 +114284,7 @@
     "total_co2": 1730.0,
     "emission_factor": 23.74090846713325,
     "generation_gco2kwh": 23.74090846713325,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114332,7 +114332,7 @@
     "total_co2": 510.0,
     "emission_factor": 47.39776951672862,
     "generation_gco2kwh": 47.39776951672862,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114356,7 +114356,7 @@
     "total_co2": 10.0,
     "emission_factor": 10.204081632653061,
     "generation_gco2kwh": 10.204081632653061,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114452,7 +114452,7 @@
     "total_co2": 1870.0,
     "emission_factor": 23.770179229693657,
     "generation_gco2kwh": 23.770179229693657,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114500,7 +114500,7 @@
     "total_co2": 1240.0,
     "emission_factor": 47.4187380497132,
     "generation_gco2kwh": 47.4187380497132,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114524,7 +114524,7 @@
     "total_co2": 50.0,
     "emission_factor": 14.970059880239521,
     "generation_gco2kwh": 14.970059880239521,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114620,7 +114620,7 @@
     "total_co2": 2280.0,
     "emission_factor": 23.7722865186112,
     "generation_gco2kwh": 23.7722865186112,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114668,7 +114668,7 @@
     "total_co2": 1220.0,
     "emission_factor": 47.37864077669903,
     "generation_gco2kwh": 47.37864077669903,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114692,7 +114692,7 @@
     "total_co2": 130.0,
     "emission_factor": 14.301430143014302,
     "generation_gco2kwh": 14.301430143014302,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114716,7 +114716,7 @@
     "total_co2": 190.0,
     "emission_factor": 218.39080459770116,
     "generation_gco2kwh": 218.39080459770116,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -114788,7 +114788,7 @@
     "total_co2": 1920.0,
     "emission_factor": 23.815430414289256,
     "generation_gco2kwh": 23.815430414289256,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114836,7 +114836,7 @@
     "total_co2": 1220.0,
     "emission_factor": 47.489295445698716,
     "generation_gco2kwh": 47.489295445698716,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114860,7 +114860,7 @@
     "total_co2": 160.0,
     "emission_factor": 13.805004314063849,
     "generation_gco2kwh": 13.805004314063849,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -114956,7 +114956,7 @@
     "total_co2": 2110.0,
     "emission_factor": 23.78268710550045,
     "generation_gco2kwh": 23.78268710550045,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -115004,7 +115004,7 @@
     "total_co2": 1230.0,
     "emission_factor": 47.56380510440835,
     "generation_gco2kwh": 47.56380510440835,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -115028,7 +115028,7 @@
     "total_co2": 180.0,
     "emission_factor": 14.117647058823529,
     "generation_gco2kwh": 14.117647058823529,
-    "sources": "I-REC, XPANSIV, EMBER",
+    "sources": "The I-TRACK Foundation, XPANSIV, EMBER",
     "issuance": "TIGRS"
   },
   {
@@ -115628,7 +115628,7 @@
     "total_co2": 410.0,
     "emission_factor": 23.990637799882972,
     "generation_gco2kwh": 23.990637799882972,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -115724,7 +115724,7 @@
     "total_co2": 410.0,
     "emission_factor": 23.990637799882972,
     "generation_gco2kwh": 23.990637799882972,
-    "sources": "I-REC, EMBER",
+    "sources": "The I-TRACK Foundation, EMBER",
     "issuance": "I-REC(E)"
   },
   {
@@ -115796,7 +115796,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   },
   {
@@ -116228,7 +116228,7 @@
     "total_co2": "",
     "emission_factor": "",
     "generation_gco2kwh": "",
-    "sources": "I-REC",
+    "sources": "The I-TRACK Foundation",
     "issuance": "I-REC(E)"
   }
 ]

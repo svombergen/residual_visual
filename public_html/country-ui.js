@@ -706,7 +706,7 @@
             const tc = parseNum(aggRow?.total_certified);
             const meth = (aggRow?.methodology || "").trim();
             const pt = parseNum(aggRow?.perc_tracked_total);
-            return tc != null && tc > 0 && meth === "I-REC" && (pt == null || pt > 100);
+            return tc != null && tc > 0 && meth === "The I-TRACK Foundation" && (pt == null || pt > 100);
         })();
 
         // Fixed KPI order: tracked electricity, tracked renewables, residual mix

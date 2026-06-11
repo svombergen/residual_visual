@@ -395,7 +395,7 @@ function updateMapColors() {
       const kpiProps = {};
       for (const key of KPI_KEYS) kpiProps["kpi_" + key] = hasData && vals ? (vals[key] ?? null) : null;
       const hasIssuance = hasData && vals && vals.total_certified != null && vals.total_certified > 0;
-      const isPartialData = hasIssuance && vals.methodology === "I-REC" && (vals.perc_tracked_total == null || vals.perc_tracked_total > 100);
+      const isPartialData = hasIssuance && vals.methodology === "The I-TRACK Foundation" && (vals.perc_tracked_total == null || vals.perc_tracked_total > 100);
       return {
         ...f,
         properties: {
@@ -424,7 +424,7 @@ function updateMapColors() {
         const kpiProps = {};
         for (const key of KPI_KEYS) kpiProps["kpi_" + key] = hasData && vals ? (vals[key] ?? null) : null;
         const hasIssuance = hasData && vals && vals.total_certified != null && vals.total_certified > 0;
-        const isPartialData = hasIssuance && vals.methodology === "I-REC" && (vals.perc_tracked_total == null || vals.perc_tracked_total > 100);
+        const isPartialData = hasIssuance && vals.methodology === "The I-TRACK Foundation" && (vals.perc_tracked_total == null || vals.perc_tracked_total > 100);
         return {
           ...f,
           properties: {

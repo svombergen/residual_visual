@@ -739,9 +739,8 @@ ENERGY_CLASS = {
 }
 
 # issuance column -> display label used in the "sources" output column
-# Note: issuance_irec maps to "I-REC" (not the foundation's full name)
 SOURCE_LABELS = {
-    "issuance_irec":   "I-REC",
+    "issuance_irec":   "The I-TRACK Foundation",
     "issuance_tigrs":  "XPANSIV",
     "issuance_ecogox": "Ecogox",
     "issuance_lgc":    "Clean Energy Regulator Australia",
@@ -1066,11 +1065,11 @@ def main():
         )
     )
     country_meth["methodology"] = np.where(
-        country_meth["_total_go"] > country_meth["_total_irec"], "GO", "I-REC"
+        country_meth["_total_go"] > country_meth["_total_irec"], "AIB", "The I-TRACK Foundation"
     )
     country_meth = country_meth[["country", "methodology"]]
     grp = grp.merge(country_meth, on="country", how="left")
-    grp["methodology"] = grp["methodology"].fillna("GO")
+    grp["methodology"] = grp["methodology"].fillna("AIB")
 
     grp = (
         grp[[c for c in AGG_COLS if c in grp.columns]]

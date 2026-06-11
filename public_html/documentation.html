@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -481,7 +481,7 @@
   <div class="sources-grid">
 
     <div class="source-card">
-      <div class="source-badge cert">I-REC</div>
+      <div class="source-badge cert">The I-TRACK Foundation</div>
       <div class="source-info">
         <h4>The I-TRACK Foundation</h4>
         <p>International renewable energy certificate registry. Used across emerging markets — Middle East, Asia, Africa, Latin America.</p>
@@ -490,7 +490,7 @@
     </div>
 
     <div class="source-card">
-      <div class="source-badge cert">GO</div>
+      <div class="source-badge cert">AIB</div>
       <div class="source-info">
         <h4>AIB / EECS — Guarantees of Origin</h4>
         <p>European Association of Issuing Bodies. Primary GO registry network for European markets. One GO = 1 MWh of tracked electricity.</p>
@@ -571,7 +571,7 @@
 
       <!-- Cert source boxes (centers: y=40,84,128,172,216) -->
       <rect x="20" y="22" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
-      <text x="107" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">I-REC Issuance</text>
+      <text x="107" y="36" text-anchor="middle" font-size="11" font-weight="600" fill="#034EA2">The I-TRACK Foundation</text>
       <text x="107" y="50" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Barnebies · Global</text>
 
       <rect x="20" y="66" width="175" height="36" rx="6" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
@@ -630,7 +630,7 @@
       <text x="272" y="179" font-size="10.5" fill="rgba(255,255,255,0.92)">③  Compute certified volumes per technology</text>
       <text x="272" y="200" font-size="10.5" fill="rgba(255,255,255,0.92)">④  Calculate residual mix (uncertified share)</text>
       <text x="272" y="221" font-size="10.5" fill="rgba(255,255,255,0.92)">⑤  Derive emission factors &amp; CO₂ intensity</text>
-      <text x="272" y="242" font-size="10.5" fill="rgba(255,255,255,0.92)">⑥  Assign GO or I-REC methodology per country</text>
+      <text x="272" y="242" font-size="10.5" fill="rgba(255,255,255,0.92)">⑥  Assign AIB or I-TRACK Foundation methodology per country</text>
       <text x="272" y="263" font-size="10.5" fill="rgba(255,255,255,0.92)">⑦  Aggregate to country-year totals</text>
       <rect x="272" y="276" width="178" height="24" rx="5" fill="rgba(255,255,255,0.14)"/>
       <text x="361" y="292" text-anchor="middle" font-size="10" fill="white" font-weight="500">Coverage: 2020 – 2024</text>
@@ -671,7 +671,7 @@
 
     <!-- ── CARD 1: Residual Mix — AIB/GO ── -->
     <div class="formula-card">
-      <span class="formula-badge badge-go">AIB / GO Method</span>
+      <span class="formula-badge badge-go">AIB Method</span>
       <h3>Residual Mix</h3>
       <div class="fbox">
         <span class="fv">ResidualMix</span>&nbsp;<span class="fo">=</span>
@@ -690,7 +690,7 @@
         </div>
         <div class="flegend-row">
           <span class="flegend-var go">SourceShare</span>
-          <span class="flegend-desc">This technology's fraction of total generation for the country &amp; year</span>
+          <span class="flegend-desc">This technology's fraction of is derived from the Residual Mix Table for the country &amp; year</span>
         </div>
       </div>
       <div class="fnote">Uses official AIB market-wide figures, accounting for cross-border GO trades and cancellations. This authoritative value overrides the simpler arithmetic method wherever AIB data is available.</div>
@@ -698,7 +698,7 @@
 
     <!-- ── CARD 2: Residual Mix — I-REC ── -->
     <div class="formula-card">
-      <span class="formula-badge badge-irec">I-REC Method</span>
+      <span class="formula-badge badge-irec">I-TRACK Foundation Method</span>
       <h3>Residual Mix</h3>
       <div class="fbox">
         <span class="fg">ResidualMix</span>&nbsp;<span class="fo">=</span>&nbsp;<span class="fk">max</span><span class="fo">(</span>&thinsp;<span class="fk">0</span>&thinsp;<span class="fo">,</span>&nbsp;<span class="fg">TotalGeneration</span>&nbsp;<span class="fo">−</span>&nbsp;<span class="fg">CertifiedMix</span>&thinsp;<span class="fo">)</span>
@@ -757,7 +757,7 @@
           </div>
           <div class="frow">
             <span class="fv">All EAC Issuance</span>
-            <span class="fcond">otherwise (I-REC + TIGRS + LGC + Ecogox)</span>
+            <span class="fcond">otherwise (The I-TRACK Foundation + TIGRS + LGC + Ecogox)</span>
           </div>
         </div>
       </div>
@@ -768,7 +768,7 @@
         </div>
         <div class="flegend-row">
           <span class="flegend-var irec">All EAC Issuance</span>
-          <span class="flegend-desc">Sum across all available registries: I-REC, TIGRS, Ecogox, and LGC</span>
+          <span class="flegend-desc">Sum across all available registries: The I-TRACK Foundation, TIGRS, Ecogox, and LGC</span>
         </div>
       </div>
       <div class="fnote">GO issuance is preferred where available — it reflects the European market's net-cancellation tracking, which precisely matches what consumers have claimed. For I-REC markets the sum of all registries is used as the certified total.</div>
@@ -780,13 +780,13 @@
 <!-- ═══ METHODOLOGY ═══ -->
 <section id="methodology">
   <div class="section-label">Methodology</div>
-  <h2>Certificate Frameworks: GO &amp; I-REC</h2>
+  <h2>Certificate Frameworks: AIB &amp; The I-TRACK Foundation</h2>
   <p class="section-intro">Depending on the country, electricity tracking follows one of two established certificate frameworks. The platform automatically determines which applies per country based on total certificate volumes across all years.</p>
   <div class="method-grid">
 
     <div class="method-card go">
       <div class="method-flag">🇪🇺</div>
-      <h3>GO — Guarantee of Origin</h3>
+      <h3>AIB — Guarantee of Origin</h3>
       <p>Used across European and associated markets, managed through the AIB network. Each GO certifies exactly 1 MWh of electricity from a specific source and production period. GOs can be traded across borders, enabling companies anywhere in Europe to make specific renewable electricity claims.</p>
       <ul class="method-facts">
         <li>Covers most European countries</li>
@@ -798,7 +798,7 @@
 
     <div class="method-card irec">
       <div class="method-flag">🌍</div>
-      <h3>I-REC — International REC</h3>
+      <h3>The I-TRACK Foundation — International REC</h3>
       <p>Used in markets outside Europe — primarily Asia, Middle East, Africa, and Latin America. One I-REC certifies 1 MWh of verified renewable electricity. The I-REC Standard is internationally recognised and widely used for corporate scope 2 emissions accounting under the GHG Protocol.</p>
       <ul class="method-facts">
         <li>Covers non-European markets</li>

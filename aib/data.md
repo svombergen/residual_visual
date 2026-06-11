@@ -71,8 +71,8 @@ Year range: **2020–2024**.
 | `total_co2 ÷ total_generation` | — | — | `emission_factor` |
 | RAW/AIB/ProdRM/*.xlsx.Production Mix | CO2 intensity column (gCO2/kWh) | country/year-level value | `generation_gco2kwh` |
 | `emission_factor` | — | fallback where no AIB value | `generation_gco2kwh` ¹ |
-| `issuance_go>0`→"AIB", `issuance_tigrs>0`→"XPANSIV", `issuance_ecogox>0`→"Ecogox", `issuance_lgc>0`→"Clean Energy Regulator Australia", `issuance_irec>0`→"I-REC", `generation>0`→"EMBER" | boolean flags, comma-joined | — | `sources` |
-| `issuance_irec` | >0 → "I-REC"; else "GO" | — | `methodology` |
+| `issuance_go>0`→"AIB", `issuance_tigrs>0`→"XPANSIV", `issuance_ecogox>0`→"Ecogox", `issuance_lgc>0`→"Clean Energy Regulator Australia", `issuance_irec>0`→"The I-TRACK Foundation", `generation>0`→"EMBER" | boolean flags, comma-joined | — | `sources` |
+| `issuance_irec` | >0 → "The I-TRACK Foundation"; else "AIB" | — | `methodology` |
 | Priority: `issuance_go`→"AIB", `issuance_tigrs`→"TIGRS", `issuance_ecogox`→"Ecogox", `issuance_lgc`→"LGC", `issuance_irec` & class=RES→"I-REC(E)", `issuance_irec`→"I-TRACK(E)" | np.select | — | `issuance` |
 
 ¹ Supplement or override of the primary source above it.
@@ -99,4 +99,4 @@ Grouped by (country, country_code, year) from detail rows. AIB ProdRM country/ye
 | RAW/AIB/ProdRM/*.xlsx.Residual Mixes | CO2 intensity column (gCO2/kWh), joined on country/year | `residualmix_gco2kwh` |
 | RAW/AIB/ProdRM/*.xlsx.Residual Mixes | untracked fraction × 100 | `untracked_pct` |
 | RAW/AIB/ProdRM/*.xlsx.Total Supplier Mix | Volume column (TWh) | `supplier_mix_twh` |
-| detail.`issuance_irec` | "I-REC" if any row >0 for country/year; else "GO" | `methodology` |
+| detail.`issuance_irec` | "The I-TRACK Foundation" if any row >0 for country/year; else "AIB" | `methodology` |
