@@ -618,13 +618,13 @@
       <line x1="215" y1="40" x2="215" y2="374" stroke="#c4d2e6" stroke-width="1.5"/>
 
       <!-- Arrow → processing box -->
-      <line x1="215" y1="207" x2="244" y2="207" stroke="#034EA2" stroke-width="2.5"/>
+      <line x1="215" y1="207" x2="290" y2="207" stroke="#034EA2" stroke-width="2.5"/>
       <polygon points="244,202 254,207 244,212" fill="#034EA2"/>
 
-      <!-- Processing box: x=255, y=80, w=215, h=254, center y=207 -->
-      <rect x="255" y="80" width="215" height="254" rx="12" fill="#034EA2"/>
+      <!-- Processing box: x=255, y=80, w=260, h=254, right edge x=515, center y=207 -->
+      <rect x="255" y="80" width="260" height="254" rx="12" fill="#034EA2"/>
       <text x="362" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="white">Data Pipeline</text>
-      <line x1="275" y1="116" x2="450" y2="116" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+      <line x1="275" y1="116" x2="495" y2="116" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
       <text x="272" y="137" font-size="10.5" fill="rgba(255,255,255,0.92)">①  Standardise country &amp; technology names</text>
       <text x="272" y="158" font-size="10.5" fill="rgba(255,255,255,0.92)">②  Merge all sources on country / source / year</text>
       <text x="272" y="179" font-size="10.5" fill="rgba(255,255,255,0.92)">③  Compute certified volumes per technology</text>
@@ -635,28 +635,30 @@
       <rect x="272" y="276" width="178" height="24" rx="5" fill="rgba(255,255,255,0.14)"/>
       <text x="361" y="292" text-anchor="middle" font-size="10" fill="white" font-weight="500">Coverage: 2020 – 2024</text>
 
-      <!-- Arrow → right gather -->
-      <line x1="470" y1="207" x2="494" y2="207" stroke="#034EA2" stroke-width="2.5"/>
-      <polygon points="494,202 504,207 494,212" fill="#034EA2"/>
-
-      <!-- Right gather: x=504, from y=105 to y=355 -->
-      <line x1="504" y1="105" x2="504" y2="355" stroke="#034EA2" stroke-width="1.5"/>
-      <line x1="504" y1="127" x2="526" y2="127" stroke="#034EA2" stroke-width="1.5"/>
-      <line x1="504" y1="215" x2="526" y2="215" stroke="#034EA2" stroke-width="1.5"/>
-      <line x1="504" y1="333" x2="526" y2="333" stroke="#034EA2" stroke-width="1.5"/>
+      <!-- Box (right edge x=515) → outputs fan -->
+      <line x1="515" y1="207" x2="540" y2="207" stroke="#034EA2" stroke-width="2.5"/>
+      <!-- vertical trunk spanning the three output centers -->
+      <line x1="540" y1="127" x2="540" y2="333" stroke="#034EA2" stroke-width="1.5"/>
+      <!-- branches into each output box (left edge x=570) -->
+      <line x1="540" y1="127" x2="560" y2="127" stroke="#034EA2" stroke-width="1.5"/>
+      <line x1="540" y1="215" x2="560" y2="215" stroke="#034EA2" stroke-width="1.5"/>
+      <line x1="540" y1="333" x2="560" y2="333" stroke="#034EA2" stroke-width="1.5"/>
+      <polygon points="560,122 570,127 560,132" fill="#034EA2"/>
+      <polygon points="560,210 570,215 560,220" fill="#034EA2"/>
+      <polygon points="560,328 570,333 560,338" fill="#034EA2"/>
 
       <!-- Output boxes -->
-      <rect x="526" y="105" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
-      <text x="626" y="123" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Detail Dataset</text>
-      <text x="626" y="140" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Per country · source · year</text>
+      <rect x="570" y="105" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="670" y="123" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Detail Dataset</text>
+      <text x="670" y="140" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Per country · source · year</text>
 
-      <rect x="526" y="193" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
-      <text x="626" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Country Aggregates</text>
-      <text x="626" y="228" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Totals · percentages · CO₂</text>
+      <rect x="570" y="193" width="200" height="44" rx="7" fill="#E8F0FB" stroke="#034EA2" stroke-width="1.5"/>
+      <text x="670" y="211" text-anchor="middle" font-size="12" font-weight="600" fill="#034EA2">Country Aggregates</text>
+      <text x="670" y="228" text-anchor="middle" font-size="9.5" fill="#5a6a7e">Totals · percentages · CO₂</text>
 
-      <rect x="526" y="309" width="200" height="48" rx="7" fill="#034EA2"/>
-      <text x="626" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="white">Web Platform</text>
-      <text x="626" y="345" text-anchor="middle" font-size="9.5" fill="rgba(255,255,255,0.85)">Interactive map · charts · export</text>
+      <rect x="570" y="309" width="200" height="48" rx="7" fill="#034EA2"/>
+      <text x="670" y="328" text-anchor="middle" font-size="12" font-weight="700" fill="white">Web Platform</text>
+      <text x="670" y="345" text-anchor="middle" font-size="9.5" fill="rgba(255,255,255,0.85)">Interactive map · charts · export</text>
     </svg>
   </div>
 </section>
