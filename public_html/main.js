@@ -331,9 +331,15 @@ function updateMapDataSourceFooter() {
 // -------------------------
 // Export lead modal
 // -------------------------
+const LEAD_PROXY_URL = "https://residualmix-lead-proxy.bellenai.workers.dev"; 
+
 function submitLeadToCrm(data) {
-  // TODO: wire up to CRM
-  console.log("CRM lead:", data);
+  // Fire-and-forget: lead capture failure must never block the download.
+  fetch(LEAD_PROXY_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name: data.name, email: data.email, org: data.org }),
+  }).catch((err) => console.warn("Lead submit failed:", err));
 }
 
 // --- Email validation ---

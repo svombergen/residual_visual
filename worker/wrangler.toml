@@ -1,0 +1,8 @@
+name = "residualmix-lead-proxy"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "residualmix-leads"
+database_id = "a84e2f9a-ee92-4418-9b1a-07712e111480"
